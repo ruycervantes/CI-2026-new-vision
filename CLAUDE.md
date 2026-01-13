@@ -11,14 +11,14 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 ## How to Help
 
 ### When Updating Vision Document (`conscious-insights-v2-english.md`)
-- Check `action-items-ruy-jan2026.md` for documented gaps
-- Main gaps: goal-based flow, goals dashboard, multi-session methodology
-- Keep the document structure intact - it's been reviewed by Oseas
+- Vision was rewritten Jan 2026 with new structure
+- Key sections: Goal Hierarchy, Change Process, Coach/Daily Companion modes, Juan's Journey
+- Previous version archived as `conscious-insights-v2-archive.md`
 - Spanish quotes can stay as-is (team is bilingual)
 
 ### When Writing Sprint Stories or Tasks
 - Reference Q1 priorities in `README.md`
-- Owners: Mike (Teams), Shamil (Thinking Partner), Daniel (infra), Leo (testing/PMF)
+- Owners: Mike (Teams), Shamil (Coach features), Daniel (infra), Leo (testing/PMF)
 - Keep stories concrete and actionable
 - Include acceptance criteria
 
@@ -42,7 +42,8 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 | Document | Purpose | Update Frequency |
 |----------|---------|------------------|
 | `README.md` | Command center overview | Weekly |
-| `conscious-insights-v2-english.md` | Core vision | As gaps are filled |
+| `conscious-insights-v2-english.md` | Core vision (rewritten Jan 2026) | As needed |
+| `conscious-insights-v2-archive.md` | Previous vision version | Reference only |
 | `action-items-ruy-jan2026.md` | Master task list | After every session |
 | `meeting-notes-*.md` | Meeting records | Per meeting |
 | `handwritten-notes-transcription.md` | Personal reflections | Reference only |
@@ -62,9 +63,13 @@ The pitch slides are a static HTML/CSS/JS site:
 
 ## Key Terminology
 
-- **Thinking Partner** - AI coaching mode (reflection, perspective, gap awareness)
-- **Accountability Partner** - Microhabits mode (daily practice, follow-ups)
+- **Coach** - Deep conversation mode (goal-setting, processing setbacks, evolving the plan)
+- **Daily Companion** - Daily practice mode (reminders, check-ins, progress tracking)
+- **Goal Hierarchy** - Destination Goal → Management Goal → Tracking Goal
 - **The Gap** - Distance between "who I am" and "who I want to be"
+- **GPS Dashboard** - Visual showing progress toward Destination Goal
+- **If-Then Habit** - Implementation Intention format ("If X, then Y")
+- **Adjust Stage** - When users struggle, help them reinterpret and adapt (not just track failure)
 - **PMF** - Product-Market Fit
 - **Applied Learning** - Learning through practice, not just content
 
@@ -72,7 +77,7 @@ The pitch slides are a static HTML/CSS/JS site:
 
 - **Ruy** - PM + CTO, decision maker, writes vision/methodology
 - **Mike** - Dev lead, Barcelona-based, owns Teams integration
-- **Shamil** - Dev, works on Thinking Partner features
+- **Shamil** - Dev, works on Coach features
 - **Daniel** - Dev, infrastructure and deployment
 - **Leo** - Sales, owns PMF validation and demo approval
 - **Horacio** - Coach SME, needed for methodology validation

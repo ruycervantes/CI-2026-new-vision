@@ -20,7 +20,8 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 
 | Document | Purpose |
 |----------|---------|
-| `conscious-insights-v2-english.md` | Core vision document (needs updates) |
+| `conscious-insights-v2-english.md` | Core vision document (rewritten Jan 2026) |
+| `conscious-insights-v2-archive.md` | Previous version (for reference) |
 | `action-items-ruy-jan2026.md` | Master action list with priorities |
 | `meeting-notes-mike-13jan2026.md` | Technical roadmap, Q1 features |
 | `meeting-notes-oseas-13jan2026.md` | Strategic alignment, PMF concerns |
@@ -46,9 +47,10 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 ## Key Gaps to Close
 
 ### Vision Document Updates
-- [ ] Goal-based development flow (main gap)
-- [ ] Goals dashboard detail
-- [ ] Multi-session coaching methodology (blocked by Horacio interview)
+- [x] Goal-based development flow (added Goal Hierarchy + Change Process)
+- [x] Goals dashboard detail (added GPS Dashboard section)
+- [x] Multi-session coaching methodology (added Coach mode + Adjust stage)
+- [ ] Validate with Horacio (coaching methodology refinement)
 
 ### Process Gaps
 - [ ] PMF validation system (with Leo)

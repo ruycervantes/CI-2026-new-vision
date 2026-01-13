@@ -70,10 +70,13 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Add goal-based development flow (missing piece)
   - Share URL with Mike after update
 
-- [ ] **Update vision document** (`conscious-insights-v2-english.md`)
-  - Add goal-based development flow (can do now)
-  - Add goals dashboard detail (can do now)
-  - Multi-session coaching methodology (after Horacio interview)
+- [x] **Update vision document** (`conscious-insights-v2-english.md`) - DONE Jan 13
+  - [x] Added Goal Hierarchy (Destination → Management → Tracking)
+  - [x] Added Goals Dashboard (GPS visualization)
+  - [x] Added Coach + Daily Companion modes (replaces Thinking Partner / Accountability Partner)
+  - [x] Added Change Process with Adjust stage
+  - [x] Added Juan's complete journey
+  - [ ] Validate methodology with Horacio
 
 ### Sprint Planning Prep
 
