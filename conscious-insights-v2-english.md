@@ -10,9 +10,9 @@ We face two problems that demand a new direction.
 
 The current product works. It has value. Clients understand it.
 
-But the market sees us as "a chatbot." We learned this with Sigma — an advanced client who saw us as just another tool, not as owners of a change process.
+But the market sees us as "a chatbot." We learned this with Sigma — an advanced client who saw us as just another tool.
 
-The market is changing fast. In 12-18 months there will be many generic AI coaches. Anyone with access to Claude or GPT can build a coaching chatbot with good prompting. If we stay where we are, we'll be just another one in the crowd.
+The market is changing fast. Anyone with access to Claude or GPT can build a coaching chatbot with good prompting. If we stay where we are, we'll be just another one in the crowd.
 
 **We need to own the entire behavior change cycle, not just offer conversations.**
 
