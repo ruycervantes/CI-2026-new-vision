@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conscious Insights - Juan's Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --stoic-yellow: #FFD500;
+      --stoic-red: #C9332B;
+      --stoic-gray: #E6E6E6;
+      --base-white: #FFFFFF;
+      --black: #000000;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--base-white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header {
+      background: var(--base-white);
+      padding: 1.5rem 2rem;
+      border-bottom: 3px solid var(--stoic-yellow);
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--black);
+    }
+
+    .logo span {
+      color: var(--stoic-red);
+    }
+
+    .tagline {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* Main content */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Slides */
+    .slide {
+      display: none;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .slide.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateX(20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    .slide-title {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-size: 1.75rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: var(--black);
+    }
+
+    .slide-title span {
+      color: var(--stoic-red);
+    }
+
+    .slide-description {
+      text-align: center;
+      color: #666;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Navigation arrows */
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--stoic-yellow);
+      color: var(--black);
+      border: none;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      z-index: 10;
+    }
+
+    .nav-btn:hover {
+      background: #E6C200;
+      transform: translateY(-50%) scale(1.1);
+      box-shadow: 0 4px 12px rgba(255, 213, 0, 0.4);
+    }
+
+    .nav-btn.prev {
+      left: -25px;
+    }
+
+    .nav-btn.next {
+      right: -25px;
+    }
+
+    @media (max-width: 768px) {
+      .nav-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+      }
+      .nav-btn.prev { left: 10px; }
+      .nav-btn.next { right: 10px; }
+    }
+
+    /* Dots navigation */
+    .dots-container {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 1.5rem;
+    }
+
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--stoic-gray);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .dot:hover {
+      background: #ccc;
+    }
+
+    .dot.active {
+      background: var(--stoic-yellow);
+      border-color: var(--black);
+      transform: scale(1.2);
+    }
+
+    /* Slide counter */
+    .slide-counter {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--base-white);
+      padding: 1.5rem 2rem;
+      border-top: 1px solid var(--stoic-gray);
+      text-align: center;
+    }
+
+    .footer-text {
+      color: #666;
+      font-size: 0.85rem;
+    }
+
+    .footer-text a {
+      color: var(--stoic-red);
+      text-decoration: none;
+    }
+
+    .footer-text a:hover {
+      text-decoration: underline;
+    }
+
+    /* Keyboard hint */
+    .keyboard-hint {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #999;
+    }
+
+    .keyboard-hint kbd {
+      background: var(--stoic-gray);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">Conscious <span>Insights</span></div>
+      <div class="tagline">A coach who lives in your tools</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="slideshow-container">
+      <!-- Slide 1: Before the Meeting -->
+      <div class="slide active">
+        <h2 class="slide-title">Before the <span>Meeting</span></h2>
+        <p class="slide-description">
+          Juan prepares for a tough conversation with contextual reminders in his calendar and phone — the system meets him where he already works.
+        </p>
+        <img src="diagrams/08-juan-day-comic-strip.png" alt="Before the Meeting - Juan receives coaching reminders through Outlook Calendar and phone notifications">
+      </div>
+
+      <!-- Slide 2: Email Response -->
+      <div class="slide">
+        <h2 class="slide-title">Email <span>Response</span></h2>
+        <p class="slide-description">
+          When Juan receives a challenging email, Conscious Insights appears in Outlook to help him pause and respond thoughtfully instead of reacting.
+        </p>
+        <img src="diagrams/09-email-response-comic-strip.png" alt="Email Response - Conscious Insights helps Juan respond to a difficult email">
+      </div>
+
+      <!-- Slide 3: After the Meeting -->
+      <div class="slide">
+        <h2 class="slide-title">After the <span>Meeting</span></h2>
+        <p class="slide-description">
+          Post-meeting reflection happens right in MS Teams. Juan tracks his progress and builds awareness through quick conversational check-ins.
+        </p>
+        <img src="diagrams/10-juan-reflection-comic-strip.png" alt="After the Meeting - Juan reflects on his progress through MS Teams">
+      </div>
+
+      <!-- Navigation arrows -->
+      <button class="nav-btn prev" onclick="changeSlide(-1)">&#8249;</button>
+      <button class="nav-btn next" onclick="changeSlide(1)">&#8250;</button>
+    </div>
+
+    <!-- Dots -->
+    <div class="dots-container">
+      <span class="dot active" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+
+    <!-- Counter -->
+    <div class="slide-counter">
+      <span id="current-slide">1</span> / <span id="total-slides">3</span>
+    </div>
+
+    <!-- Keyboard hint -->
+    <div class="keyboard-hint">
+      Use <kbd>←</kbd> <kbd>→</kbd> arrow keys to navigate
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-text">
+      Conscious Insights — Filling the gap between <strong>learning</strong> leadership and <strong>being</strong> a leader.
+    </p>
+  </footer>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+      // Wrap around
+      if (index >= totalSlides) index = 0;
+      if (index < 0) index = totalSlides - 1;
+
+      currentSlide = index;
+
+      // Update slides
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (i === index) slide.classList.add('active');
+      });
+
+      // Update dots
+      dots.forEach((dot, i) => {
+        dot.classList.remove('active');
+        if (i === index) dot.classList.add('active');
+      });
+
+      // Update counter
+      document.getElementById('current-slide').textContent = index + 1;
+    }
+
+    function changeSlide(direction) {
+      showSlide(currentSlide + direction);
+    }
+
+    function goToSlide(index) {
+      showSlide(index);
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') changeSlide(1);
+      if (e.key === 'ArrowLeft') changeSlide(-1);
+    });
+
+    // Touch/swipe support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    });
+
+    document.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    });
+
+    function handleSwipe() {
+      const swipeThreshold = 50;
+      const diff = touchStartX - touchEndX;
+
+      if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+          changeSlide(1); // Swipe left = next
+        } else {
+          changeSlide(-1); // Swipe right = prev
+        }
+      }
+    }
+
+    // Initialize
+    document.getElementById('total-slides').textContent = totalSlides;
+  </script>
+</body>
+</html>
