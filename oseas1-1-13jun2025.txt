@@ -1,0 +1,548 @@
+Ruy  •  00:00
+Pero platicemos, platquemos y pongamos de orden a eso, ¿sale? 
+
+Oseas  •  00:00
+Pero practiquemos, practiquemos y pongamos de orden a eso, ¿sale? 
+
+Ruy  •  00:03
+Este sí. 
+
+Oseas  •  00:03
+Este sí. 
+
+Ruy  •  00:06
+Sí, pues sí. 
+
+Oseas  •  00:09
+Y te hago un comentario, sí que corre en paralelo nomás para que también lo tengas, porque parte de lo que tenía yo ahí en mente que no lo logré integrar porque no está listo, incluso se lo ha tocado platicar con Fony. 
+
+Ruy  •  00:09
+Y te hago un comentario, sí que corre el paralelo más para que también lo tengas, porque parte de lo que tenía yo ahí en mente que no lo logré integrar porque no está listo, incluso hacer tocado platicar con Fony. es cómo va a operar el tema de que esté bajando Axialente en su proceso de digitalización 
+
+Oseas  •  00:20
+es cómo va a operar el tema de que esté bajando Axialente en su proceso de digitalización con todo lo que está en marcha en Stoic 
+
+Ruy  •  00:30
+On all the march in Stoic, what did it, the way it has perfectly, platicated on Dolo, what implications there, not clear how resolve. 
+
+Oseas  •  00:33
+con IA marcado que tiene que hacerse, lo cual me hace perfecto sentido, he platicado con dolo qué implicaciones tiene, no nos ha quedado tan claro cómo resolver algunas de las incógnitas que nos quedan de ahí de oye quién vende y quién opera y ya no sé un montón de preguntas así nos hemos metido ya con mucho detalle hace rato le presenté a con los escenarios a ver con estoy con espinos y etcétera etcétera etcétera y todo este rollo que te eché 
+
+Ruy  •  00:43
+Cointends que nos quedan de ahí, ¿y quién vende? ¿Quién opera y no sé qué le preguntas a fin? Nos hemos metido ya con mucho detalle. Hace rato le presenté a con los escenarios, con esto, con espinos, etcétera, etcétera, etcétera. Y todo este rollo que te eché. tiene muchísimo que ver contigo o tiene mucho impacto para contigo porque dependiendo de cómo resolvamos esa ecuación el foco del trabajo sería uno u otro 
+
+Oseas  •  00:56
+Tiene muchísimo que ver contigo. O tiene mucho pacto para contigo. Porque dependiendo de cómo resolvamos esa ecuación, el foco del trabajo sería uno u otro. 
+
+Ruy  •  01:07
+Y ahorita por lo pronto lo que tenemos en mente que está planeado y que no cambia es nos seguimos enfocando en lo que sea el roadmap de Stoic. 
+
+Oseas  •  01:07
+Y ahorita por lo pronto, lo que tenemos en mente que está planeado y que no cambia es nos seguimos enfocando en lo que sea el roadmap de Stoika. That's it. 
+
+Ruy  •  01:19
+Si nos viéramos en una situación de que no tenemos evidencia de continuar y taca, taca, taca, tacacta, y parte del. 
+
+Oseas  •  01:19
+Si nos viéramos en una situación de que no tenemos evidencia de continuar y taca, taca, taca, tac, tac, y parte del. . 
+
+Ruy  •  01:26
+. . el cambio hacer fuera a meternos a soportar el roadmap de Axial, digamos, de digitalización 
+
+Oseas  •  01:27
+el cambio hacer fuera a meternos a soportar el roadmap de Axial, digamos, de digitalización. 
+
+Ruy  •  01:34
+I platicated to me that one of the things that I'm curious is that in this camp not gives any affectation that in case we reducing the focus that we have done for the servicio of the 
+
+Oseas  •  01:34
+Te ha platicado a ti que una de las cosas que estoy cuidando es que en ese cambio no tengas no tengas alguna afectación que lo quieras y en todo caso decir sabes que redireccionemos el trabajo y el foco que le has estado dando ahora el servicio de la agenda de digitalización de Axel va a estar muy pegada entonces para mí si en tres meses no funciona y tomamos la decisión de medio bajar del sueño estoy 
+
+Ruy  •  01:48
+agenda de digitalization de acción va a estar muy pegada. 
+
+Oseas  •  01:57
+para mí tiene más ese cambio. 
+
+Ruy  •  02:01
+Well, frankly, cuidando a ti más que Mike, in el sentido de que yo quisiera que pasaras para ir de manera transparente, and con Mike sería disminuir su dedicación para poder mantener lo que se necesita en términos de código. 
+
+Oseas  •  02:01
+Bueno, francamente, cuidando a ti, cuidando a ti más que Mike, en el sentido de que. Yo quisiera que pasaras para ir de manera transparente y con Mike sería disminuir su dedicación para poder mantener lo que se necesita en términos de código. Entonces, 
+
+Ruy  •  02:14
+Todo este relajo lo traigo ahorita, estoy malabareándolo porque hay muchos if this then that de planeación y tienen caras diferentes. 
+
+Oseas  •  02:14
+Todo este relajo lo traigo ahorita, estoy malavareándolo porque hay muchos if this then that de planeación y tienen caras diferentes. 
+
+Ruy  •  02:21
+Entonces, bueno, perdón, ya desempaqué todo lo que hay ahí, pero platiquemos, pues te parece. 
+
+Oseas  •  02:21
+Entonces, bueno, perdón, ya desempaqué todo lo que hay ahí, pero platiquemos después, ¿te parece? 
+
+Ruy  •  02:31
+Ah, mira, pongo los temas de yo, yo de las Cosas que tengo en la agenda es sobre todo este update de la visión que quisiera platicar más. y un poquito del proceso de desarrollo este pero sobre todo es eso entonces No sé, de este tema que hablaste ahorita de si O sea, qué pasa si en tres meses este no funcionan las cosas. ¿Cómo qué más crees que deberíamos hablar ahorita? 
+
+Oseas  •  03:25
+Mira, de lo que pasaría en tres meses, yo ahorita no me enfocaría en conversarlo en este momento, porque, bueno, de entrada, el foco que tenemos es hacer que sí funcionen. 
+
+Ruy  •  03:25
+Mira, de lo que pasaría en tres meses, yo ahorita no me enfocaría en conversarlo. In this moment. 
+
+Oseas  •  03:36
+Entonces, para mí esto es un poquito una distracción, ¿no? Y no le pondré tanto foco. 
+
+Ruy  •  03:40
+Look at this 
+
+Oseas  •  03:40
+Lo que sí es, tengo la responsabilidad de al menos ponerlo en Excel. 
+
+Ruy  •  03:43
+Tengo la responsabilidad de al menos ponerlo en Excel. 
+
+Oseas  •  03:48
+Porque se voy a presentar al board y les voy a decir, mira, lo que se pronto es que si esto no funciona, pase esto. 
+
+Ruy  •  03:48
+Voy a presentar al borde y les voy a decir, miren, lo que se borra es que si esto no funciona, pase esto. Entonces yo tengo que hacer eso con el Bord y tengo que acordarlo con Connie, y por eso justo acaba de platicar con ella. 
+
+Oseas  •  03:52
+Entonces yo tengo que hacer eso con el board y tengo que acordarlo con Connie. Y por eso justo acaba de platicar con ella. Oye, Connie, a ver si lo de esto no funciona de esta manera, ¿qué onda? 
+
+Ruy  •  03:57
+Oye, Connie, a ver si lo de esto no funciona de esta manera, ¿qué onda? 
+
+Oseas  •  04:00
+Ah, no, pues la visión de ella es la siguiente. 
+
+Ruy  •  04:00
+Ah, no, pues la visión de ella es la siguiente. 
+
+Oseas  •  04:04
+¿No tiene sentido que tengamos como, no sé, un esfuerzo, una inversión, un roadmap de la digitalización de Accident? 
+
+Ruy  •  04:04
+No tiene sentido que tengamos como, no sé, un esfuerzo, una inversión, un roadmap de la digitalización de Acceler. That is in parallel and separate of what Stoic. 
+
+Oseas  •  04:15
+Que vaya en paralelo y por separado de lo que hace Stoic. Es que eso no tiene sentido, no tenemos recursos, no puedo estar emitiendo las dos cosas. 
+
+Ruy  •  04:19
+We have resources, we don't need those things. So in the moment of it, the excellent in the digitalization this week is. 
+
+Oseas  •  04:22
+Entonces, en la mente de ella, lo que alcanzaría a ser excelente en su digitalización este año. 
+
+Ruy  •  04:27
+Es menos si Stoic continúa su camino actual de hacer nuestro propio producto, nuestro propio go-to-market, lo que le alcanza a hacer Axel para su digitalización es menos 
+
+Oseas  •  04:27
+Es menos si Stoic continúa su camino actual de hacer nuestro propio producto, nuestro propio Go to Market, lo que le alcanza a hacer Accelent para su digitalización es menos. Pero si nosotros desistiéramos y declaráramos que el esfuerzo de buscar nuevos clientes vía Stoic y tal vez el desarrollar un producto stand-alone no son el camino a seguir. 
+
+Ruy  •  04:37
+Pero si nosotros desistiéramos y declaráramos que el esfuerzo de buscar nuevos clientes vía Stoic y tal vez el desarrollar un producto standalone no son el camino a seguir En ese momento, Connie dice, bueno, pues nos refuerza entonces la apuesta de Axel en digitalización y podemos hacer más, porque tenemos un equipo más fuerte. 
+
+Oseas  •  04:48
+En ese momento, Connie dice, bueno, pues nos refuerza entonces la apuesta de Axel en digitalización y podemos hacer más porque tenemos un equipo más fuerte. 
+
+Ruy  •  05:00
+Eso es lo que estamos ahorita, como que ok. 
+
+Oseas  •  05:00
+Eso, eso es lo que estamos ahorita como que, ok, necesito eso tenerlo medio ya perfilado para poder responder si llega a darse. 
+
+Ruy  •  05:05
+Necesito eso tenerlo medio ya perfilado para poder responder si llega a darse. 
+
+Oseas  •  05:14
+Eso lo pongo ahorita en parking not contigo. 
+
+Ruy  •  05:16
+No más creo que seas que es como la conversación in parallel. 
+
+Oseas  •  05:16
+Nomás quiero que sepas que esa es como la conversión en paralelo. 
+
+Ruy  •  05:19
+Lo que me atañe de esa conversation is what happens. 
+
+Oseas  •  05:19
+Lo que me atañe de esa conversación ahorita. Entonces, ¿qué hacemos mientras? 
+
+Ruy  •  05:22
+I have to have it on Dolo. 
+
+Oseas  •  05:22
+Tengo que verlo con Dolo. Terminado este uno contigo, me voy a reunir con Dolo para platicarlo, con Nelson. 
+
+Ruy  •  05:26
+Tenemos que calibrarlo porque no está fácil, no está tan obvio. 
+
+Oseas  •  05:26
+Tenemos que calibrarlo porque no está fácil, no está tan obvio. 
+
+Ruy  •  05:29
+Y regresándonos un paso más para atrás, entonces tenemos ahorita lo del cambio de visión de producto. 
+
+Oseas  •  05:29
+Y regresándonos un paso más para atrás, entonces tenemos ahorita lo del cambio de visión de producto. 
+
+Ruy  •  05:33
+Ese me interesa mucho. 
+
+Oseas  •  05:33
+Ese me interesa mucho digitalización de Excel, no digitalización y zen, no y cen, me interesa mucho que lo platiquemos. 
+
+Ruy  •  05:36
+Digitalization de Acceler, no digitalization, me interesa mucho que practiquemos andar in this ahorita, si te parece bien. 
+
+Oseas  •  05:40
+Y quisiera que nos enfocáramos en eso ahorita, ¿esté parece bien? 
+
+Ruy  •  05:46
+A ver, pues entonces empecemos porque es un montón de cosas. A ver, este madre. Un poco lo que estoy O sea, lo que quisiera atraer a la atención es de este nuevo A ver, déjame quitar el proyecto O sea, la visión es cómo le ayudamos a las personas a realmente ser quienes quieren ser, básicamente es eso. O sea, eh, ¿cómo te ayudo a ser quienes quien quieres ser? amarrado a las cosas que te importan a ti, no o sea a mí me importa en el trabajo este a mí me importa me entiendo bien with my equipo y que funciona bien. A mí me importa subir de puesto, a mí me importa tener responsibilities, a mí me importa Si estás haciendo coaching ejecutivo, pues haces cosas que te importan Y que al mismo tiempo le beneficien a la compañía. Entonces, el punto es hacer eso, pero con un grado de De soporte en el cambio de tus comportamientos, que que aunque tuvieras coaching este te beneficia este o sea como que La idea es la idea es pensarlo por ahí, ¿no? O sea, aunque tenga coaching, pues necesito aprender a pausar las conversaciones para escuchar, o necesito X, Y, Z para ser quien quiero ser. y lograr los objetivos que me interesan. Este, entonces, ese es como. O sea, el cómo llegar ahí y cómo te podemos ayudar con las tecnologías que hay ahorita es el Creo que es radicalmente más poderoso que solamente aunque tuvieras a Richie como tu coach. una vez a la semana este la idea es esto creo que te puede ayudar todavía este te podría dar otro empujón aunque tuviese a Richie y si no tienes a Richie podemos ver qué podemos hacer entonces este para mí ese This is a buy for explicit. 
+
+Speaker 2  •  08:57
+Sí, sí, sí, sí, sí, dale, Galito, te voy siguiendo, te voy siguiendo. 
+
+Ruy  •  09:01
+digamos a nivel de las cosas que hemos desarrollado por un lado está un thinking partner que es un un coach este en donde te damos posiciones de coaching ejecutivo te ayuda a ganar perspectiva este y luego eso ya lo puedes convertir in tus micro hábitos tu plan de cambio In reality in the practice van a fusion in una sola Este, pero creo que aquí lo que quiero traer la atención es que ya tenemos partes importantes de esto. Ya entendemos más o menos cuáles son. las technologías, las interacciones de este lado y de este lado, y el chiste para mí es que lo hagamos mucho más simple y fácil de poder llevar a cabo. Este, por ejemplo, una de las cosas que tenemos que cambiar relativamente De inmediato es que ahorita el ciclo de hacer tu assessment debrief, microhábito, follow-up es casi prácticamente lineal. y entonces eso hay que cambiarlo a que puedas hacer varios microhábitos y seguir cambiando eso Pero esto como se ve en un journey. Empiezo de Quién soy y quién quiero ser, ese es el gap, y entonces harías tu microhábito, de repente tienes ciertos bajones. But it's a little more than why I was and signs with another session and so a bit. este como vas en una como vas cuando tienes sesiones de coaching o sea pero esto cómo se vería ya en el en el día de una persona no sé empiezas revisando tu correo y de repente hay un correo así que Te saca mucho de onda, pero tienes una barrita a un lado que te dice: oye, acuérdate de responder pensando en las cosas y no contestando con la tribu o lo que sea. Vas a tener una reunión y te recuerda que en esa reunión quedaste de practicar cierta cosa. Lo practicas. Podemos ver inclusive en las reuniones podría haber intervención, pero ahorita digamos que no. Y después de que terminas, te pregunta cómo te fue. este em Igui, cómo te fue en tu práctica, este Ahora estás haciendo una presentación y te das cuenta que vas a tener una presentación difícil. Entonces puedes ahí utilizar el coach para preparar una conversación difícil y cierras con alguna nota del día o lo que sea Esto cómo se vería en en en este digamos como Se me hicieron padres estos cómics porque me ayudan también a mí a visualizarlo. Estás en tu calendario, en Outlook. tienes un recordatorio de qué vas a hacer este cuando estás revisando te llega una notificación justo antes de que vayas a empezar con qué necesitas hacer y ya te metes a tu reunión enfocado en el hábito que tienes que hacer para mejorar el outcome de esa reunión. o lo que te decía del correo estás viendo tu correo y te lleva un correo que no te gusta pero tienes una barrita a un lado que te recuerda en correos especialmente difíciles Algunas preguntas clave para que no contestes con la tripa y yo te haces. Oh este No sé, después con Teams, te pregunto cómo fue ando, or te doy un feedback or what. But the pues se va metiendo en el flujo de trabajo de las personas. Cosas que ya hemos platicado, nomás como que me hizo clic a mí verlo así. Oye, una pelota, estaba muy bien. 
+
+Speaker 3  •  14:31
+Oye, una pelota, digo, estaba muy bien los visuales y todo esto, ¿cómo lo generaste? 
+
+Ruy  •  14:33
+Los visuales y todo esto, ¿cómo lo generaste? Sí. Con Nanobanana, con Gemini. 
+
+Speaker 4  •  14:43
+Jenny, pero tuviste que dar bastante pronting para que esto quedara así. 
+
+Ruy  •  14:43
+Jenny, pero tuviste que dar bastante pronting para que esto quedara así. No, lo hice con. como en una hora. O sea, lo que más me costó fue el setup. De hecho, este es un insight para desarrollar contenido. O sea, empecé con el documento que les mandé. Y luego con algo de prompting desarrollé un script de todos los de todos los visuales que quería hacer. Este y con estos visuales tienen un skill de cloud que este que lo generó y tardé como un par de horas pero porque no tenía nada de nada de hacer top pecho pero de hecho esto está muy bueno para desarrollar materiales Bueno, luego te pido que me enseñes más, pero está muy bien. 
+
+Speaker 3  •  15:39
+Bueno, luego te pido que me enseñes más, pero está muy bien. 
+
+Ruy  •  15:42
+Sigamos, me quedo en el contenido, vamos bien. 
+
+Speaker 3  •  15:42
+Sigamos, me quedo en el contenido, vamos bien. 
+
+Ruy  •  15:44
+Este y y si me. . Entonces, la idea es que hay una UX integrada en donde tenemos como digamos los dos modos de Thinking Partner y Accountability Partner. estructurados en una sola cosa, hay una memoria del usuario, este en donde vas llevando su proceso este y hay también otra capa en donde vas jalando contexto de acuerdo a lo que necesites y esto está en Teams, está en tu calendario, está en tu correo, en una app que traigas en el celular. ¿Y por qué esto es un o sea, cuál es tu moat? ¿Por qué esto ya no es tan fácil que? que lo desarrolles como nos pasó con Sigma. O sea, Sigma puede hacer chatbots de coaching o reminders sencillos. Pero ya va a ser algo mucho más complejo en donde tienes una metodología de cambio, orquestas todos estos diferentes momentos que. que te fui hablando a través del ciclo de vida o del proceso de cambio de las personas, te vas integrando cada vez con mejor este cada vez más profundamente en cómo las personas trabajan, vas acumulando conocimiento y mejores procesos de qué si funciona y qué no. Y también a lo largo del tiempo te va teniendo datos de las personas, pues eso, todo esto se va volviendo cada vez mejor. o sea como que hay un mote proceso que vas convirtiendo que vas desarrollando entonces este Me parece que esta sería una buena forma también de anclar la conversación para que te digan, o sea, porque en realidad si ves las cosas Entonces así como que bueno, pues son mensajitos y notificaciones o correos y chatbots, pero el chiste ya es todo el flujo. Y ya, básicamente es eso, es lo que venía en el documento, pero un poco Pues mejor explicado, mejor visualizado, a mí me sirvió verlo así para entenderlo. Bien, bien, bien. Ayuda muchísimo, la verdad. 
+
+Oseas  •  18:46
+Ayuda muchísimo, la verdad. 
+
+Ruy  •  18:48
+Verlo así es que en unos minutos nos queda mucho más clara la visión y la dirección, y eso. 
+
+Oseas  •  18:48
+Verlo así es que en unos minutos nos queda mucho más clara la visión y la dirección y eso está buenísimo como vehículo para transmitir el mensaje. 
+
+Ruy  •  18:53
+Está buenísimo como vehículo para transmitir el mensaje. La dirección me parece buena. 
+
+Oseas  •  18:56
+La dirección me parece buena, o sea, este está. 
+
+Ruy  •  18:58
+O sea, este está. 
+
+Oseas  •  19:00
+Nos ayuda a movernos en la dirección correcta, versus donde estamos ahorita, que es una posición muy vulnerable, como ya lo vimos. 
+
+Ruy  •  19:00
+Nos ayuda a movernos en la dirección correcta. Este, versus donde estamos ahorita, que es una cuestión muy vulnerable, como ya lo vimos. Hay algo donde estoy como un poco ambivalente, que es que 
+
+Oseas  •  19:11
+Hay algo donde estoy como un poco ambivalente, que es que por un lado me gusta mucho el tema de cambio de comportamiento, creo que es importante, responde a las necesidades de las empresas, etc. 
+
+Ruy  •  19:16
+Por un lado me gusta mucho el tema de cambio de comportamiento, creo que es importante, responde a las necesidades de las empresas, etc. 
+
+Oseas  •  19:23
+Entonces veo valor ahí. 
+
+Ruy  •  19:23
+Entonces veo valor ahí. Pero por otra parte, que lo he comentado en otras ocasiones, sigo teniendo esta impresión de que si el producto que generamos 
+
+Oseas  •  19:26
+Pero por otra parte, que lo he comentado en otras ocasiones, sigo teniendo esta impresión de que. Si el producto que generamos está diseñado para ayudarle a personas a que hagan un proceso de crecimiento. 
+
+Ruy  •  19:37
+Está diseñado para ayudarle a personas a que hagan un proceso de crecimiento 
+
+Oseas  •  19:46
+De propia voluntad, yo me quiero desarrollar y hacer los pequeños esfuerzos que se necesiten para poder ir avanzando en el camino a ese cambio. 
+
+Ruy  •  19:48
+Yo me quiero desarrollar y hacer los pequeños esfuerzos que se necesitan para poder ir avanzando en el camino a ese cambio. Me parece que nos pone producto en una situación muy vulnerable, en tanto en cuanto no es lo normal que las personas hagamos eso y que seamos consistentes, aunque nos pongan muy fácil. 
+
+Oseas  •  19:58
+Me parece que nos pone el producto de una situación muy vulnerable, en tanto en cuanto que no es lo normal que las personas hagamos eso y que seamos consistentes, aunque nos la pongan muy fácil. Mientras más fácil mejor, pues, pero no es. 
+
+Ruy  •  20:13
+No es un movimiento natural que se nos da fácilmente. 
+
+Oseas  •  20:13
+No es un movimiento natural que se nos dé fácilmente. Y por eso he seguido yo mucho con esta curiosidad de cómo se vería un producto que pudiéramos hacer, que del lado de la empresa les dé resultados. 
+
+Ruy  •  20:17
+Por eso he seguido yo mucho con esta curiosidad de cómo se vería un producto que pudiéramos hacer, que del lado de la empresa les dé resultados. más rápido y más visible que lo que podemos lograr actualmente y que del lado del usuario 
+
+Oseas  •  20:26
+más rápido y más visible que lo que podemos lograr actualmente y que del lado del usuario prácticamente no requiere hacer nada, sino que sea tanto como se pueda pasivo. 
+
+Ruy  •  20:34
+prácticamente no les requiere hacer nada, sino que sea tanto como se pueda pasivo. Entonces, en vez de ayudar a la persona a desarrollarse, lo que es por eso, por eso la ley de la performance del equipo, ¿no? 
+
+Oseas  •  20:39
+Entonces, en vez de ayudar a la persona a desarrollarse, lo que es por eso, por eso la idea del performance del equipo, ¿no? 
+
+Ruy  •  20:44
+Pero bueno, eso son porque son dos cosas que 
+
+Oseas  •  20:44
+Pero bueno, eso es porque son dos cosas. 
+
+Speaker 3  •  20:48
+Que no sé, de verdad 
+
+Ruy  •  20:53
+No sé, pero pero un poco también O sea, yo pensando en lo del performance del equipo que también se me hace muy interesante, pero a final de cuentas, ahí también necesitas que las personas quieran hacer algo, porque si tienes un chatbot que te dice. o un dashboard o lo que sea oye güey aquí hay un problema en el equipo este necesitas resolverlo no sé por ejemplo voy a decir una cosa . En este equipo hay alerta roja porque este Nadie quiere decir nada porque no hay seguridad psicológica. Final de cuentas, tienes que convencer a las personas para que. a los líderes o quien quien a que la generen o sea lo que voy es en en cualquier me parece que es una me parece que también lo que nos hemos imaginado de Team Performance requiere que las personas quieran hacer algo O sea, requiere que las personas quieran que el líder del equipo quiera cambiar su manera de hacer las cosas. 
+
+Oseas  •  22:18
+Ah, sí, pero es que es menos. 
+
+Ruy  •  22:19
+Sí, pero es que es menos. Es mi trabajo que mi equipo se desempeñe bien, estoy supervisando a otros y tienes que trabajar con 10 líderes de equipo en vez de con 500 personas que si uno checó, que si no otro no checó. 
+
+Oseas  •  22:22
+Es mi trabajo que mi equipo se desempeñe bien, estoy supervisando a otros. y tienes que trabajar con, no sé, 10 líderes de equipo en vez de con 500 personas que si uno checó, que si no otro no checó, creo que esta es totalmente hipótesis mía. 
+
+Ruy  •  22:33
+Creo que esta es totalmente hipótesis mía. Tendemos, o tal vez hay menos fricción de alguien a checar cómo hacerle funcionar que trabajen bien terceros. 
+
+Oseas  •  22:36
+tendemos o tal vez hay menos fricción de alguien a checar cómo hacerle funcionar que trabajen bien terceros versus cambiar los propios hábitos. 
+
+Ruy  •  22:42
+versus cambiar los propios hábitos. Este. Pero bueno, digo esto como que entiendo, pero no con esto pretendo decir que. 
+
+Oseas  •  22:46
+Pero bueno, te digo esto como que entiendo, pero no con esto pretendo decir que no estás sujeto al mismo problema que yo señalé de que requiere la voluntad de las personas. 
+
+Ruy  •  22:52
+. que no está sujeto al mismo problema que yo señalé de que requiere la voluntad de las personas Es que, o sea, yo también veo este problema de que las personas quieran cambiar y quieran desarrollarse, pero creo que si lo empiezas a anclar a. . O sea, a nadie le gusta tener problemas. A nadie le, o sea, sí, a nadie le gusta que su equipo no le haga caso a nadie le gusta que su jefe este sea un idiota o sea a nadie le gusta entonces Si diseñamos bien la experiencia para que te sientas tú como usuario escuchado de si eso es lo que quiero, ya no, ya no. Pues ya no quiero tener estos problemas, ya no quiero tener estos disgustos. y quiero un ascenso y entonces empezar a atar esto a cosas que están metidas en tu performance review en algo que materialmente vaya a mejorar tu vida, creo que es donde puede hacer la gran diferencia. Y además irle recordando a las personas de oye, si preparas esta conversación, vas a tener menos problemas. ¿Te acuerdas de la última vez que ¿Te acuerdas de la última vez que tuviste un disgusto con Juanito? Vamos dedicándole 10 minutos para que no lo vuelvas a tener. este o sea creo que creo que hay muchos creo que hay muchas formas y esto es esto es algo que no está aquí en los visuales este y está este o sea todavía está en mis dudús pero hay un montón de investigación de ¿Cómo se llama? Gol Para el cambio de comportamiento, porque hay todo un O sea, hay todo un de cómo le haces para que las personas que ya dijeron que sí quieren hacer algo sobre cierta cosa, lo hagan. Y entonces, o sea, aquí en esto tener lo que voy a es déjame decirlo de manera más simple. Hay muchos trucos e interacciones, etcétera, que podemos hacer para que este La gente se acuerda de por qué dijo que quería hacer eso. Y este Y entonces acordándose de por qué dijo que quería hacer eso, porque quiere mejorar su vida, es más fácil que lo siga haciendo. De todas maneras es difícil y no todo mundo lo va a hacer. Pero pero puedes ayudar a o sea yo creo que aquí el el el reto sería en vez de que ayudemos a O sea, en vez de que las personas que si llegan a hacer sean el 1%, que si llegan a implementar el cambio es el 1%, pues lo subimos al 10 o al 15%. Y ya eso es una ganancia masiva para la compañía. Habrá algunos que esto no le hacen caso. Pero si duplicas o triplicas los high performance en una compañía, pues eso es un parotote. Hay que verlo más, pero. Porque si se me hace muy válido. Pues no es de reto. Este. Pero creo que si empiezas a resolver algo alrededor de eso. que puede o sea es también algo es algo muy valioso no sé tú qué piensas Tú sabes que es un tema que a mí me apasiona desde hace tiempo y pues por ahí vino lo de, en su momento, lo de Optimal Me. 
+
+Oseas  •  27:47
+Tú sabes que es un tema que a mí me pues bueno me apasiona. desde hace tiempo y pues por ahí vino lo de en su momento lo de Optimal Me era un poco como alineado a esta misma idea o sea 
+
+Ruy  •  27:58
+era un poco como alineada esta misma idea. O sea. No me es tan lejano y me interesa. 
+
+Oseas  •  28:07
+No me es tan lejano y me interesa. 
+
+Ruy  •  28:11
+Entonces, en esta medida está bueno. 
+
+Oseas  •  28:11
+Entonces, en esta medida está bueno. 
+
+Ruy  •  28:20
+tal vez tal vez le he perdido fe de más al tema del lado de las personas y también la otra cosa ahorita es que no 
+
+Oseas  •  28:20
+tal vez tal vez le he perdido fe de más al tema del lado de las personas y también la otra cosa ahorita es que no 
+
+Ruy  •  28:30
+O sea, conceptualmente me hace sentido que las empresas quieran que la gente cambie algo, porque esto les ayuda a sus objetivos de negocio. 
+
+Oseas  •  28:30
+O sea, conceptualmente me hace sentido que las empresas quieran que la gente cambie algo, porque esto les ayuda a sus objetivos de negocio. 
+
+Ruy  •  28:39
+Y conceptualmente me hace sentido que eso en esencia debería ser lo que está buscando alguien en el Learning and Development. 
+
+Oseas  •  28:39
+Y conceptualmente me hace sentido que eso en esencia debería ser lo que está buscando alguien en Learning and Development. 
+
+Ruy  •  28:44
+Quiero que las personas lleguen a cierto nivel de performance de algo. 
+
+Oseas  •  28:44
+Quiero que las personas lleguen a cierto nivel de performance de algo. 
+
+Ruy  •  28:48
+Pero a pesar de que esas dos cosas creo que son ciertas, también tengo la duda de cómo verá esto el comprador. 
+
+Oseas  •  28:48
+Pero a pesar de que esas dos cosas creo que son ciertas, también tengo la duda de cómo verá esto el comprador. 
+
+Ruy  •  28:56
+O sea, si es la persona de Learning and Development que ha hecho su carrera comprando cursos. 
+
+Oseas  •  28:56
+O sea, si es la persona de Learning and Development que ha hecho su carrera comprando cursos. 
+
+Ruy  •  29:01
+Y bueno, pues en otro curso y lo compran y nunca lo han despedido por eso. 
+
+Oseas  •  29:01
+Y bueno, pues le dan en otro curso y lo compran y nunca lo han despedido por eso. 
+
+Ruy  •  29:05
+Y por ahí agregan el coach que le hayan puesto o algo y se siente como que ya cumplió su trabajo desde su propia perspectiva. 
+
+Oseas  •  29:05
+Y por ahí agregan ella y coach que le hayan puesto o algo y se siento como que ya cumplió su trabajo desde su propia perspectiva. 
+
+Ruy  •  29:17
+No sé si le queda hueco parece. 
+
+Oseas  •  29:17
+No sé si le queda hueco para eso. 
+
+Ruy  •  29:19
+No sé, no sé. 
+
+Oseas  •  29:19
+No sé, no sé. 
+
+Ruy  •  29:20
+Entonces, o sea. 
+
+Oseas  •  29:20
+Entonces, si sigamos la conversión, siguemos la conversión, yo la estoy pasando por el cuerpo, si quieres, un poco. 
+
+Ruy  •  29:20
+Si sigamos la conversación, sigamos la conversación. Yo la estoy pasando por el cuerpo, si quieres un poco. Yo lo que veo es. Que si creemos en esta onda de applied learning como posición, o sea, si eso tiene Si Applied Learning, que es la manera en la cual estamos haciendo las cosas, tiene una Tiene pies y cabeza y se puede hacer un negocio ahí, pues con esto más todavía, porque básicamente esto es applied learning. En donde no nada más lo dices, sino te aseguras de que pase. Y una cosa muy importante: todo esto tiene, o sea, te aseguras de que pase para el lado del comprador. Y si. O sea, yo creo que auténticamente podemos hacer cosas que sean muy útiles. Para mí, eso debería de ser el foco. que les que le ayudamos a las personas a hacer lo que tienen que hacer O sea, no nada más es. Oye, te recuerdo que dijiste que quieres ser una mejor persona, si no. No, te estoy recordando que en esta reunión. Respires tres veces para que no la cagues. ¿Explico? O sea, como que. Y me estoy deteniendo aquí porque se me hace uno de los puntos potencialmente débiles, pero que si lo resuelves se puede volver muy Muy bueno, o sea, haz de cuenta es como uh, pues sí, va a ser Yo creo que cada vez más, este las personas las van a contratar en una empresa no por el los slides que hagan porque ahora está chingaderas los hacen muy bonitos, como justo lo mostré, o por las habilidades técnicas, sino por sus habilidades sociales, sus habilidades de hacer que otras personas funcionen y hagan lo que tienen que hacer. Este, y entonces esto se vuelve una herramienta para hacer tu chamba. Esto es para managers. Y ponerse los peladitos en la boca, qué es lo que tienen que hacer, y entonces es desarrollo. Por ejemplo, este si yo lo pensara para mí, que ahorita estoy teniendo que aprender un montón de. chingaderas técnicas slash de gestionar gente que un equipo de desarrollo que nunca lo había hecho en mi vida se hubiera algo que me ayudara a hacer o sea bueno más bien yo estoy buscando activamente los chapots para que me ayuden y hago planes y la madre este y se me pierde todo pero si yo pudiera destilar eso en algo que me está ayudando constantemente y me está me está haciendo que haga mejor mi chamba creo que por ahí podría haber una cosa por ahí podríamos mejorar este y y como que veo dos maneras de te De amarrar esto, una es amarrarlo también, no nada más a la parte soft de tu chamba, sino empezarnos a amarrar a la parte más del it en términos. Este de cómo implementas los planes que necesitas implementar. Esa es una manera de amarrarnos y que seamos más útiles. Y la otra manera de amarrarnos y que seamos más útiles es que esto Esto mismo que te enseñé también te permite hacer cosas en tu vida diaria, en tu vida personal. O sea, es que lo he estado metando, pues. Por ejemplo, yo tengo muchas cosas que quisiera cambiar en mi relación. O sea, en mí. para mejorar mi relación con Irene, para mejorar mi ser papá. Y entonces. Esto pues me quedo pensando en mi salud, si esto lo amarrara, o sea, si esto me ayudara a hacerlo de la chamba, Y termino la chamba y me ayuda a acordarme de sacar en ol andar en bicicleta y que no se me vayan las semanas pasando eso. Híjole, pues entonces lo uso más. este o de o me acordara de comprarle un detallito a Irene para que o sea etcétera etcétera entonces esa es otra de la evolución que veo Como que habría que empezar con esto. O sea, yo creo que habría que empezar a validar si esta chingadera que te enseñé. le hace sentido a la gente y nos lo quisieran comprar y eso hace que se emocionen más en la compra y una vez que validamos que sí Creo que yo empezaría a descubrir ya con los usuarios de estos dos, o sea, qué más le tendríamos que poner para que fuera muy útil, no nada más un poquito útil, sino súper útil para ellos. Y entonces, este Pues sí, o sea, y quizás son las dos cosas, ¿no? Pero, pero yo me quedo, o sea, si esto se vuelve tu pepe grillo. de la de la chamba sino de todo tu día pues ahí está muy sticky o se vuelve tu conscious insights y te ayuda No nada más con las interacciones con las personas, sino le puedes meter tu plan de trabajo de todo lo que tienes que hacer. And te ayuda a ejecutarlo, pues también está muy bueno. No sé cuál de las dos funciona, cuál de las dos sea, pero a lo que voy es, son preguntas que yo también me estoy haciendo. Entiendo, entiendo. 
+
+Oseas  •  36:17
+Entiendo, entiendo 
+
+Ruy  •  36:20
+Pues como te digo, me hace sentido todo lo que dices y veo el valor. 
+
+Oseas  •  36:20
+Pues como te digo, yo me hace sentido todo lo que dices y veo el valor. 
+
+Ruy  •  36:25
+y de cierta manera tratando de mirarlo dispassionate, así como dicen, que no sea 
+
+Oseas  •  36:25
+Y estoy de cierta manera tratando de mirarlo dispassionate, como dicen, que no sea. 
+
+Ruy  •  36:34
+mi entusiasmo a favor resultado de que me gusta el tema, tratando de verlo un poquito de manera aislada y tan objetiva como pueda 
+
+Oseas  •  36:34
+Mi entusiasmo a favor, resultado de que me gusta el tema, tratando de verlo un poquito de manera aislada y tan objetiva como pueda. . 
+
+Ruy  •  36:42
+Obviamente lo que hay que hacer es hacerlo pruebas, no va a depender del juicio de nadie, hay que ver cómo responde la gente. 
+
+Oseas  •  36:42
+Obviamente lo que hay que hacer es hacerlo pruebas, no va a depender del juicio de nadie, hay que ver cómo responde la gente. 
+
+Ruy  •  37:02
+Tal vez donde me siento un poquito jaloneado, no es en el valor de lo que tú dices, ¿eh? 
+
+Oseas  •  37:02
+Tal vez donde me siento un poquito jaloneado no es en el valor de lo que tú dices, ¿eh? Me siento más jaloneado en que, bueno, por una parte hay que validarlo y por otra parte que no sé, o más bien me pregunto dónde puede estar el. 
+
+Ruy  •  37:07
+Me siento más jaloneado en que, bueno, por una parte hay que validarlo y por otra parte que no sé, o más bien me pregunto dónde puede estar el. I can be attacking for clients, six for this camera, si es por el camino of the Team Performance or a little parecida, si is por el camino ofass that dice Dolo, or no lo sé. 
+
+Oseas  •  37:16
+mayor atractivo para clientes si es por este camino si es por el camino de algo como lo de team performance o algo parecido si es por el camino de lo del culture compass que dice dolo O no lo sé. Te propongo algo. 
+
+Ruy  •  37:29
+Te propongo algo, porque ahorita nos pusieron la reunión de 45 minutos, tengo que brincar con Dolo para justo el tema de cómo nos coordinamos con digitalización de cara al budget. 
+
+Oseas  •  37:30
+Ahorita nos pusieron la reunión de 45 minutos. Tengo que brincar con Dolo para ver justo el tema de cómo nos coordinamos con digitalización de cara al budget. 
+
+Ruy  •  37:38
+Te propongo algo, no sé si ya lo hiciste, pero dedícale una hora a buscar cómo son hoy en día las apps más, las versiones más recientes de apps que ayudan con el cambio y desarrollo de hábitos. 
+
+Oseas  •  37:38
+Te propongo algo, no sé si ya lo hiciste, pero dedícale una hora a buscar cómo son hoy en día las apps más, las versiones más recientes de apps que ayudan con el cambio y desarrollo de hábitos. 
+
+Ruy  •  37:51
+Me da curiosidad porque ya tienen mucho tiempo pensando en este tema y me imagino que mucho de lo que viene ahí, ahorita que es tan fácil poner un AI coaches, la app. 
+
+Oseas  •  37:51
+Me da curiosidad porque ya tienen mucho tiempo pensando en este tema y me imagino que mucho de lo que viene ahí, ahorita que es tan fácil poner un AI coaches. La app, que te pone el reminder, que te ayuda a pensar cuál es tu objetivo, que te ayuda a medirlo, que te manda un planecito, que te ayuda a ajustarlo, que tienes que pasar. 
+
+Ruy  •  38:01
+que te pone el reminder, que te ayuda a pensar cuál es tu objetivo, que te ayuda a medirlo, que te manda un planecito, que te ayuda a ajustarlo, que tienes que pasar. 
+
+Oseas  •  38:10
+Porque mucho de lo que dices ahorita en intención tal vez ya existe en una app. 
+
+Ruy  •  38:10
+Creo que mucho de lo que dices ahorita en intención tal vez ya existe en una app. 
+
+Oseas  •  38:13
+Sería bueno ver qué viste, qué costo tiene y ver que no sea necesariamente algo que dijimos, híjoles, esto 80-20 lo hace una app y entonces. 
+
+Ruy  •  38:13
+Sería bueno ver qué viste qué costo tiene y ver que no sea necesariamente algo que dijamos, híjole, es esto, esto 80-20 lo hace una app y entonces 
+
+Oseas  •  38:23
+lo pudiera más fácilmente adoptar esto a un cliente o por qué nos paguen lo de nosotros. 
+
+Ruy  •  38:23
+Look at this to a client, or we don't want to go to us. 
+
+Oseas  •  38:27
+Echan vistas más porque es la única cosa que pienso ahorita que pudieran decirnos, híjoles, aquí como un sustituto, creo que sería uno tener eso a la hora de conversar, ¿no te parece? 
+
+Ruy  •  38:28
+It's the only thing that I think that we said, I think we're a substitute. Sí, este, una cosa muy táctica, ok, sí, voy a empezar a revisar. a los competidores de hecho ya algo de lo que está aquí se me ocurrió por Bind Gym y por otros competidores que estaba viendo Pues bueno, lo reviso, este a mí lo que me gustaría es Bueno, esto pensar de alguna forma en la cual podamos adelantar el El proceso de hacer esto y de validarlo, yo creo que voy a buscar a Leo y le voy a platicar y ver cómo lo empezamos a validar. Perfecto. 
+
+Speaker 4  •  39:27
+Perfecto, perfecto 
+
+Ruy  •  39:28
+Este, y nada más en el último minuto antes de irnos, este. O en los 30 segundos antes de irnos, estoy. Estoy teniendo problemas con Asana para llevar el desarrollo porque no tiene todas las. Me es un poco complicado llevarlo ahí. Entonces estoy considerando otra app que se llama Linear, que está específicamente hecha para productos. Pero justo ayer dijeron que vamos a utilizar a Sanan, pero. 
+
+Oseas  •  40:04
+Bueno, pero lo vamos a usar para la coordinación interna del equipo. 
+
+Ruy  •  40:04
+Bueno, pero. O sea, lo vamos a usar para la coordinación interna del equipo. No, no sé. 
+
+Oseas  •  40:08
+No sé. 
+
+Ruy  •  40:10
+Velo con él, ve lo con leo, para meterme en el tema. 
+
+Oseas  •  40:10
+Ve lo conoce para meterme bien el tema. O sea, tú dirías, necesito esto y veanlo. 
+
+Ruy  •  40:16
+Yo no 
+
+Oseas  •  40:16
+Yo no. No estoy casado con la herramienta, simplemente quiero que tengamos un lugar donde podamos trabajar y si el desarrollo del software tiene como su propio lugar donde se lleva, no hay problema, solo que cualquier interdependencia que pueda existir 
+
+Ruy  •  40:18
+No estoy casado con la herramienta, simplemente a la persona where we can work, and if the design of the software has a proper way where no problem, so that one interdependence that would exist that 
+
+Oseas  •  40:28
+Tampoco tener una sana, que va a ser dos, tres tareas, no las 100 que tienen desarrollo, a mí está bien. 
+
+Ruy  •  40:30
+capaz va a ser dos o tres tareas no las 100 que tienen desarrollo no está bien sí ándale pues bueno sale bye sale abrazo gracias abrazo 
+
+Oseas  •  40:40
+Gracias. 

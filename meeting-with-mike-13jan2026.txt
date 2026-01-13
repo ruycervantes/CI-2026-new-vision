@@ -1,0 +1,988 @@
+Ruy  •  00:01
+Yeah. Hola, sí, ya revivió. Este okay no estuvo tan mal. 
+
+Speaker 1  •  00:29
+Okay. 
+
+Ruy  •  00:33
+Eh Oye a ver, entonces nos quedamos en hablar sobre este roadmap, ajustes al roadmap. Okay Ars és qué más tenías tú para ver no pues esto un poco sí que hacia dónde vamos con este q1 yo tengo claro lo de teams 
+
+Speaker 1  •  01:02
+No, pues esto un poco sí que hacia dónde vamos con este Q1. 
+
+Speaker 2  •  01:11
+Yo tengo claro lo de Teams, pero que más 
+
+Ruy  •  01:17
+Pero qué más leyendo tu propuesta 
+
+Speaker 2  •  01:20
+leyendo tu tu tu propuesta implica también lo de la memoria me parece lo del graph 
+
+Ruy  •  01:24
+implica también lo de la memoria me parece lo del uh uh graph si quieres pues mira hice unos visuales que me sirvieron para para conversar con oceas Si quieres te los comparto, este y vamos a y sobre eso platicamos, ¿te parece? Ok. Oh yeah. It's the I keep my text is not gonna Como yo lo veo es el giro, el ajuste del producto es el verlo de las personas. a volverse quienes a volverse quienes se quieren volver a desarrollar sé a donde quieren si quieren este y que esto es trata algo como a sus Bueno, no como, que estratado a sus metas personales. Si por ejemplo alguien quiere ser el manager de un equipo, quiere ser mejor manager, quiere mejorar su performance, quiere este. etcétera entonces como que hay una serie de goals que con base en ellos pues te van a requerir ciertos cambios ciertos ajustes este y vas a tener que desarrollar ciertas habilidades y también este ir caminando para hacer eso Esos goals concretos, que es algo muy similar a lo que te pasa in un proceso de coaching, en donde tú entras con unas ciertas ciertas cosas que quieres hacer, hacia donde te quieres mover, hacia donde te quieres desarrollar, y la idea es que el sistema te dé esa parte Y además sea auténticamente útil para los usuarios, aun si tuvieras un coach que vieras cada X tiempo puesto. Entonces yo lo veo como una con como la fusión del thinking partner que te ayude a tomar conciencia, a establecer como tus metas, ganar perspectiva. y luego lo que tenemos ahora y evolucionar el accountability partner para poner eso en práctica en tu día a día Este y hay un ciclo de retroalimentación entre ambos. Entonces Esto se ve como o sea, iniciaria con my assessment Aquí antes de no sé me quedé, aquí no está en este visual, pero tendrías que establecer cuáles son tus metas hacia dónde quieres llegar. y eso lo empiezas a desgranar en microhábitos que empiezas a implementar tienes retos de repente este y entonces al tener retos pues los trabajas en alguna sesión de coaching también llevas datos para esa sesión de coaching y mejoras tu insight, puedes trabajar en otros microhábitos. y sigues o sea como que sigues en un ciclo de ida y vuelta en donde poco a poco vas desarrollándote y lo vas implementando en microhábitos y otras cosas y también nuevos hábitos de pensar, nuevos mindsets, hasta que llegas hacia lo que habías buscado. este entonces ahí tenemos que ahorita básicamente el accountability partner es lineal este tenemos que cambiar eso a que sea cíclico y a que esté dando cuenta que eso no está bien explicado a que estén integrado estos estos ciclos están integrados con el coaching para tener un journey parecido a este Entonces, eso como se vería en el día a día, como se vería como de aquí, entre los microhábitos y. . y los y los patterns o la idea de ayudarte también con los microhábitos a llegar un poco más allá es por ejemplo a las Cuando estás revisando tu correo en la temprano en la mañana, te hace alguna sugerencia de algún correo para no responder de manera reactiva a un correo que te mandaron en donde te están. peleando, ¿no? Te están pidiendo algo. este que no está bien o qué sé yo y luego este cuando ves tu calendario de la próxima para la próxima reunión que tienes te recuerda que tienes que practicar tu único hábito posiblemente nos llegamos a meter adentro de Teams y hacer intervenciones incluso dentro de las reuniones creo que eso sería un segundo paso pero creo que está más cerca técnicamente de lo que yo he pensado Al finalizar, te pregunta cómo te fue, te da algo de feedback, dependiendo de cómo lo estamos buscando. Cuando estás preparando tu trabajo en la tarde, te das cuenta que vas a tener una conversación difícil y te ayuda a prepararla al día siguiente. y cierras con alguna reflexión del día, por ejemplo. Y este. hay hay muchas cositas que podemos hacer diferentes este hay hay un me acabo de encontrar bueno hace unos hace un par de meses hay toda una este pues todo un campo de trabajo en research de interacción hombre-máquina y de de informáticos creo que puede ser interesante para aquí porque están este porque es para pues este ayudarle a las personas a que cumplan sus metas. Muchas cosas de salud, etc. Pero hay muchas ideas interesantes para traernos acá. Este hice estas caricaturas que se me hace una locura de lo fácil que se vuelva. pero algo que usaste para estos slides están increíbles si verdad este hice 
+
+Speaker 1  •  09:33
+¿Con qué lo. . . qué usaste para estos slides? Están increíbles. 
+
+Ruy  •  09:44
+me bajé un cloud skill de para usar nanobanana lo combiné con el cloud skill de del brand de Conscious Insights y le conecté banano a lado y me tomó como un par de horas set it up pero ahorita ya puedo hacer setups relativamente fácil Más que es un poquito caro, costaron como tres dólares las imágenes. 
+
+Speaker 1  •  10:16
+Sí, está claro, sí, ya, sí, sí. 
+
+Ruy  •  10:20
+Yeah. Pero 
+
+Speaker 1  •  10:22
+Pero y Clot te hizo el sistema de slides, o sea, no es no es un servicio, sí. 
+
+Ruy  •  10:22
+Pero y Clot te hizo el sistema de slides, o sea, no es no es un servicio. No, no, no, le pedí que me lo hicieran o subía NetFi. 
+
+Speaker 1  •  10:34
+Está, está increíble, sí 
+
+Ruy  •  10:35
+Está increíble. Sí, está como para hacerlo skill y dárselo al equipo, ¿no? Entonces la idea, bueno, aquí por ejemplo tienes la reunión, tienes algún reminder de acuérdate de tu este de lo que tienes que hacer no sé si eso podrías tener ese reminder y posiblemente darle tap para que te recordara qué es lo que tienes que hacer o no. Esto implica implica que podamos ver. O sea, tener el derecho de leer todo el calendario del usuario. 
+
+Speaker 1  •  11:18
+O sea, tener el derecho de leer todo el calendario del usuario. 
+
+Ruy  •  11:23
+Digamos, sí, en la visión completa podemos empezar como estamos ahorita, ¿no? sabemos cuándo es y entonces te matamos le mandamos notificaciones preguntamos al usuario pero si hay que llevar una un control interno de cuándo va a estar practicando 
+
+Speaker 1  •  11:37
+Le preguntamos 
+
+Ruy  •  11:43
+Sí. 
+
+Speaker 1  •  11:44
+sí, sabemos que preguntar 
+
+Ruy  •  11:45
+Si tenemos que tener este. Una representación del calendario no es de nosotros. idealmente conectada a su calendario sí pero bueno hay un montón de decisiones para para hacer este 
+
+Speaker 1  •  12:01
+Sí, mm. 
+
+Ruy  •  12:04
+empezamos con lo más sencillito y entonces bueno esto te ayuda a prepararte este y si podría ser una app que te recuerda en el correo vive un competidor esto pero o sea te llega un correo no sé en dónde te están hablando feo, te están pidiendo, te están haciendo algún reclamo y entonces que tuvieras una barrita a un lado que te hiciera un par de preguntas para no contactar de manera tan reactiva o para sugerirte cómo cómo responder este en vez de pero esto hay que sí hay que estar adentro de app 
+
+Speaker 1  •  12:50
+Pero esto hay que sí hay de todo de si tiene gmail o sea como cómo nos metemos 
+
+Ruy  •  13:02
+Pues vi a un competidor desde Es que creo que simplemente haces un Este o es un plugin de Chrome, es un es un plugin de outpok 
+
+Speaker 1  •  13:26
+O es un plugin de Chrome Un Excel file. 
+
+Ruy  •  13:34
+Mira. 
+
+Speaker 1  •  13:34
+The Outlook, okay. 
+
+Ruy  •  13:34
+The Outlook, okay. Ajá. Te permite hacer cosas bastante avanzadas. Este. O sea, aquí el plugin de copilot, por ejemplo. Nada más con prompting eh O sea, está leyendo este correo. Y también lo he visto para Superhuman, este También, este, digo, ellos tienen metido Cómo hacer, o sea, aquí digo, esto es específicamente para correo, pero es algo que puedes meter adentro de Gmail. Yo me enfocaría en un inicio en Microsoft porque así son todos nuestros clientes, a menos de que. Este pensemos. 
+
+Speaker 1  •  15:07
+Me pregunto, mm 
+
+Ruy  •  15:10
+No, no, me pregunto, bueno 
+
+Speaker 2  •  15:10
+No, no, me pregunto. Bueno, si me molesta estar forzados a estar en un entorno Microsoft y luego 
+
+Ruy  •  15:13
+Ah si mo me molesta estar forzados estar en un entorno Microsoft y luego 
+
+Speaker 2  •  15:22
+tendremos que hacer google y tenemos que hacer apple y me pregunto si hay opciones de 
+
+Ruy  •  15:22
+tendremos que hacer google y tendremos que hacer apple y yo creo que cuando te pregunto si hay opciones de como una extensión del browser y luego no importa donde estés simplemente te lee la pantalla y extrae lo que necesitas no sé si es más 
+
+Speaker 2  •  15:32
+como una extensión del browser y luego no importa donde estés simplemente te lee la pantalla y extrae lo que necesita no sé si es más 
+
+Ruy  •  15:43
+eso sería muy interesante una extensión privada que bueno la solo el cliente tiene acceso y 
+
+Speaker 1  •  15:46
+Una extensión privada que bueno la solo el cliente tiene acceso y 
+
+Ruy  •  15:52
+eso sería eso sería muy interesante eso es un es un gran problema de seguridad también este pero pues similar a a la extensión de de cloth de cloth pero a mi me o sea el problema es que ahí tienes todo el surface attack de no nada más el correo sino todo 
+
+Speaker 1  •  16:05
+De Claude, sí, sí, sí, 
+
+Ruy  •  16:24
+Pero bueno, hay que pensarlo, este Y en realidad, el total addressable market de tener outlook y si resuelves Outlook, ya resolviste. Un bueno, sí. 
+
+Speaker 1  •  16:42
+Bueno, sí, una gran parte. 
+
+Ruy  •  16:44
+Casi todos nuestros competidores. Casi todos nuestros potenciales clientes de Axel, pero a excepción, el único que tiene Gmail es 
+
+Speaker 1  •  16:48
+Okay. 
+
+Ruy  •  16:56
+No, son dos, este telus y booking. com, que son empresas de tecnología. o que bueno aquí después de un mitin de hecho esto está te pregunta cómo te fue y haces tu check-in aquí haces algún este algún ajustes en estas hacer este pero bueno entonces eso implica tengamos un un UX integrado a través de todas las apps que ya tuvimos aquí que entendamos cómo va a funcionar el thinking partner más el accountability partner como una sola cosa para ayudarte a bajar tus objetivos este a o a trabajar en coaching con lo que necesitas y luego bajar tus objetivos a planes de trabajo y hacer todo el ciclo que te platiqué, que eso no es cosa menor, desde una perspectiva de. metodología este aparte de la parte técnica este y como dices la memoria para llevar la structura que como va el todo el proceso del desarrollo de la persona y luego un context manager que te ayude a navegar por todo esto y un este por lo menos y luego y ya pues las integraciones a tu correo al calendario a otras cosas aquí casi no usa el el chat directamente no en este escenario 
+
+Speaker 1  •  19:19
+Aquí casi no usa el el chat directamente, ¿no? En este escenario. 
+
+Ruy  •  19:31
+O sea, ¿podría ser? 
+
+Speaker 1  •  19:34
+Ahí está en Teams. 
+
+Ruy  •  19:34
+Podría ser que. ¿Madre? 
+
+Speaker 1  •  19:37
+No, ahí hace chat desde Teams. 
+
+Ruy  •  19:38
+No, ahí hace chat desde Teams. Ahí hace chat desde Teams. pero sí pero podría ser una app de Teams más que también tenemos que resolverlo Digo yo, ahorita que lo dices, creo que lo más fácil serían. no sé si lo más bueno lo que por lo que podemos empezar inmediatamente es este tener la notificación como chat y luego que te brinques a la a la a la app que se llaman tab apps que es básicamente un embed de nuestra página este Este este diagrama no me gustó tanto pero uh pero bueno sirve para platicar o sea tenemos primero que hacer como este ciclo iterativo y basado en metas, que no está escrito aquí ahorita. Esto de guardar las metas de las personas e irlas ajustando. etcétera es algo importante que me puse aquí pero este Es la visión para este año, ¿no? 
+
+Speaker 1  •  21:15
+Es la visión para este año, ¿no? Un poco la visión a largo plazo de. 
+
+Ruy  •  21:18
+Un poco la visión a largo plazo de. Sí, sí, sí. digo claramente la integración con con teams este y el poder tener un api este que nos permita podernos este conectar a diferentes cosas es muy importante o sea el API tiene que estar pensado como para ser bidireccional y que encima tenga algo que le haga el context management y estructure la memoria Este no pare si eh Este luego necesitaría o sea esto no lo tengo muy claro todavía pero tenemos que tener este este ciclo iterativo de coaching tener las metas poderlas poner en un en un dashboard este y que sea un proceso integrado de coaching este y luego poder notificar a través de Teams y conectarnos a diferentes cosas básicamente y ya esto bueno creo que esto sirve para un poco para acordarnos ¿Por qué algo así no es sustituible, no es fácilmente sustituible o replicable, más bien? 
+
+Speaker 1  •  23:16
+Ah, okay. 
+
+Ruy  •  23:27
+y porque al empezar a tener esto vamos a tener o sea al engranarnos en este pro en este proceso no le vamos a Pues el usuario va a querer seguir aquí y aunque se pudiera llevar sus datos, le va a convenir estar aquí. porque o sea pues ya vimos con Sigma básicamente llevaron nos dijeron que van a hacer chatbots muy similares a los que tenemos que te haga de coaching de conversaciones porque es bastante simple hacer un poquito de prompting y que te dé muy buen coaching o sea ya lo sabemos Y entonces tener una metodología de cambio que realmente te ayude en tu día a día, que estemos orquestando todo el ciclo. que hagamos todas las integraciones y que conforme lo vayas usando vaya adquiriendo más contexto de ti y funciona mejor y además le podamos este y que te ayude sobre todo a mantener tu progreso a través de las semanas y los meses. Y algo que tenemos que pensar también muy bien es que esto sea o sea que las que los usuarios realmente lo que sí quieran usar este yugo O sea, yo ahorita tengo como dos grandes hipótesis. O dos grandes. . Una hipótesis de que más bien una pregunta de dos maneras de poderlo hacer que. que te ayude y que tengas más motivación más allá de tu desarrollo profesional Y uno es que te ayude a hacer tu trabajo en el día a día. Este, o sea, que realmente te ayude a. este pues si hacer la chamba que necesitas hacer que te ayuda en el en el it como dirían en accelerant o la otra más esa es una y o la otra es que esto también lo pudieras aplicar en otros aspectos de tu vida que quieres mejorar y quieres cambiar que quieres ser mejor pareja, estar mejor más presente con tus hijos, cuidar mejor de tu salud, hacer ejercicio, qué sé yo. 
+
+Speaker 1  •  26:20
+Mm, mhm, más personal, sí 
+
+Ruy  •  26:22
+entonces más personal este no sé cuál de las dos es la adecuada pero Pero sí creo que tiene que haber algún otro elemento que te dé más satisfacción, o sea, que te complemente, pues. para que no sea nada más como las cosas de la cham. Pero digo, empezamos por eso, ¿vale? 
+
+Speaker 1  •  27:00
+No, esto sería casi venderlo al B2C, al público en general, ¿no? 
+
+Ruy  •  27:00
+No, esto sería casi venderlo al Pues podría ser, o sea Podría empezar como B2B, este y luego evolucionar como B2C, esa puede ser una. Este si te ayuda a todo lo demás. Que no sé si haga sentido o no. O sea, realmente eso es algo que todavía lo tengo muy. 
+
+Speaker 1  •  27:41
+Okay, bueno, 
+
+Ruy  •  27:43
+O que te ayude, o sea, o la otra es que te ayude a ponerle mayor orden a las cosas de la chamba. y se meta en un grado de detalle que tu coach no va a hacer o por ejemplo no sé hoy digo si se me ocurrió porque ahorita estoy haciendo un montón de de reflexiones de las cosas que no sirven de nuestro proceso de trabajo y que tengo que cambiar. y estoy generando un montón de notas y de planes y de. . y no quiero que se me olvide. y son muchos detallitos de cómo llevar los sprints y cómo mejorar el backlog, etcétera, etcétera. Entonces también es la otra es empezar a amarrar a todo eso. para que este sea como un pegamento que te ayude a hacer tu chamba mejor. con sin sin manos ok pues sí es la super bien super buena visión de 
+
+Speaker 3  •  28:55
+Ok, pues sí, es súper bien, súper buena visión de. 
+
+Ruy  •  29:02
+donde podemos ir ahora el reto es como conectar esto a lo que tenemos y 
+
+Speaker 2  •  29:02
+donde podemos ir ahora el reto es como conectar esto a lo que tenemos y 
+
+Ruy  •  29:11
+ir hacia esa dirección mientras podemos vender algo, ¿no? 
+
+Speaker 2  •  29:11
+ir hacia esa dirección mientras podemos vender algo, ¿no? 
+
+Ruy  •  29:16
+Porque esto 
+
+Speaker 2  •  29:16
+Porque esto. . No es un bueno, el producto final de lo que justo enseñaste es muy distinto de lo que hay ahora. 
+
+Ruy  •  29:19
+No es un bueno, el producto final de lo que justo enseñaste es muy distinto de lo que hay ahora. 
+
+Speaker 3  •  29:29
+y no podemos hacer un rewrite sino así moldearlo así a esto sin mientras esté usable y generando ingresos no 
+
+Ruy  •  29:29
+and no podemos hacer un rewrite sino así moldearlo así a esto sin mientras esté usable y generando ingresos sí pero exacto este Yo veo que, por ejemplo, tener un buen coach, un sistema de coaching, en donde Entro, tengo mi primera sesión de coaching en donde establezco ciertos objetivos, eso lo cruzo contra el assessment. este tengo una conversación, entiendo cuál es mi gap y entonces pues lo llevo a ciertos micro hábitos, este y luego vuelvo a tener una una conversación de coaching después de X semanas de cómo me ha ido, las cosas que quiero trabajar, etcétera. Entonces, más bien. como todo hacer un sistema de coaching que funcione eso este se puede construir sobre lo que tenemos Le hace falta memoria, pero digamos, eso se vuelve como un feature que metes adentro de un proceso de. como los que tenemos ahorita de learning de learning y entonces le puedes incluir a en la próxima versión Les podemos incluir que además de las sesiones en vivo, les ofreces que las personas tengan 4, 5, 6 sesiones de coaching durante el proceso. Este en donde es así como coaching Y eso es algo que no está tan lejano que lo tengamos. No, de hecho ya pueden hacer varias sesiones. 
+
+Speaker 1  •  31:46
+No, de hecho ya pueden hacer varias sesiones. Son simplemente diferentes threads y tienen su sidebar para. 
+
+Ruy  •  31:54
+Y eres pero lo que necesitamos ahí, por ejemplo, es que te acuerdes entre la. o sea, hago la sesión 1. Y ahí establecí que quiero trabajar en tres cosas y entonces en esta sesión pues nada más establezco que voy a trabajar en tres cosas y en la siguiente session voy a trabajar en la cosa 1 En la sesión 2 digo cómo me fue con la cosa 1 y luego si ya nos muevemos a la cosa 2, etc. Entonces, ese llevar el. El llevar el ritmo, eso el tener una buena memoria que nos ayude a eso, eso no está. donde necesitamos construir creo que podemos ahí es donde creo que podríamos utilizar este graffiti Pero una vez que tienes armado eso, tienes armado un montón de cosas. este y luego una vez que tienes armado eso ya le podemos o sea eso es una cosa luego digamos el thinking partner que funciona como coach multisesión es ese es una un gran feature for desarroll. Other features para desarrollar, bueno creo que no es tan grande, pero si hacerlo es que el accountability partner te ayude a a tener varios ciclos o sea trabajas en el microhábito uno que puedas ir ajustando el microhábito si lo necesitas porque ahorita no no basicamente no hacemos ajustes Y terminas con ese ciclo del microhábito 1 y que pudieras decir ahora sí va con el microhábito 2, microhábito 3, microhábito 4. Entonces o cambio de goal y sigo, y entonces tener que eso funcione y lleve el tracking de que te ha funcionado y que no te ha funcionado a lo largo de varios ciclos. Este. Y tu reposo, o sea, todo eso es ese es otro gran feature. Y luego ya que tienes esas dos cosas, es juntarlos. Y otra cosa es que bueno, las notificaciones por Teams funcionen. que puedas este que podamos tener una integración con calendarios más profunda. 
+
+Speaker 1  •  35:02
+El chat en Teams con una con un bot de Teams directamente. 
+
+Ruy  •  35:02
+El chat en Teams con una con un bot de la pandemia. Exactamente, el chat en Teams con un bot que. . Por ejemplo, eso creo que es algo que podríamos empezar pronto. Es yo le diría a una de las cosas que estoy pensando con Shamil es que nos ayude. eso ya está funcionando bien digo esa es una la segunda es que lo hagamos cíclico y una vez que eso está funcionando bien este Lo conectamos para que eso lo hagas vía el bot, este Entonces así ir organizando las cosas. Creo que todo esto lo podemos ir metiendo como parte de lo que se va a vender. Al mismo tiempo nos tienen, o sea, esta visión la tenemos que ir validando comercialmente porque posiblemente esto que te presenté no es lo que se va a vender. 
+
+Speaker 1  •  36:25
+sí sí 
+
+Ruy  •  36:25
+Sí, sí. Este, pero así más o menos me lo imagino yo. Y entonces a la vuelta de. No sé, de cuatro o cinco meses de desarrollo ya tenemos algo que se ve bastante Más cercano a lo que te mostré que lo que tenemos ahorita. Porque también no se me hace. O sea, sí, sí es mucho trabajo, pero tampoco creo que es tantísimo. Bueno, eh, muchas cosas nuevas, uh 
+
+Speaker 1  •  37:04
+Bueno, hay muchas cosas nuevas. 
+
+Ruy  •  37:08
+Como los de Outlook. 
+
+Speaker 1  •  37:09
+Como los de Outlook. Sí. 
+
+Ruy  •  37:13
+Sí, pero por ejemplo, eso de meternos al correo, eso sería lo. Mmm, eso sería una de las últimas cosas que haría yo. Este Ok. 
+
+Speaker 1  •  37:32
+Okay. 
+
+Ruy  •  37:33
+Porque, o sea, creo que lo primero, antes de meterte el correo, necesitas asegurarte que tienes una buena memoria este que tienes un muy buen manager de contexto para que a la hora que llegues a leer un correo Este no sea un aviso genérico, sino sea algo más preciso, pues. 
+
+Speaker 1  •  38:05
+No, y hay muchas preguntas de 
+
+Ruy  •  38:05
+No y hay muchas preguntas de pues también de vida privada y tal si 
+
+Speaker 1  •  38:10
+Pues también de vida privada y tal, si la gente recibe muchas cosas en su correo, no sé si les gustará tener ahí una gente que le que lo lee todo. 
+
+Ruy  •  38:15
+La gente recibe muchas cosas en su correo, no sé si les gustará tener ahí una gente que lo lee todo. sí, o sea por eso por eso digo yo que sería de las de la eso sería una de las últimas cosas que metería este Bueno, y entonces sí, entonces ahora tenemos un trimestre para montar algo. 
+
+Speaker 2  •  38:39
+Bueno, y y entonces sí, entonces Ahora tenemos un trimestre para montar algo que no va a ser esto, lo que dijiste, pero que tiene que ser algo más o menos. 
+
+Ruy  •  38:48
+Que no va a ser esto, lo que dijiste, pero que tiene que ser algo más o menos standalone terminado y a su nivel. 
+
+Speaker 3  •  38:56
+standalone terminado y a su nivel que se pueda vender y esto como la ves esta parte o sea este esta etapa 
+
+Ruy  •  39:00
+que se pueda vender y esto como como la ves esta parte o sea este esta etapa no sé tengo La verdad es que aún no lo he dedicado mucho tiempo a pensarlo, pero déjame. Trae el diagramita otra vez, creo que para verlo juntos. Y creo que trabajar in que thinking partner funciona en varias sesiones que es básicamente copiar algo que ya ya tienen varios competidores que te puede hacer sesión de coaching eso creo que nos ayudaría a que empecemos a tener lo empecemos a tener listo y a que tengamos una memoria que funciona que estamos cómodos como funciona y que estemos o sea que tengamos llegamos guardada la la trayectoria de cambio del usuario entonces haz de cuenta eso más Algo que creo que es menor, pero pero no está, que es este hacer que los microhábitos en vez de ser lineales puedan ser este cíclicos en donde también a los microhábitos quedan guardados en la memoria digo ya ahorita ya están guardados en la memoria en realidad que están en la base de datos este sí O sea, nomás es que funcionaran cíclicos y que funcionaran bien las notificaciones en Microsoft Teams. creo que con con eso daríamos un muy buen un muy buen empujón y vender un proceso de de de desarrollo para tu equipo en donde le metes sesiones de coaching. y te están llegando las notificaciones de lo que quedaste del accountability partner, ya es algo más interesante para comprar Este, yo diría algo, creo que iría algo así, y al hacer estar refinando como esas dos piezas, digo, estar haciendo o construyendo estas. construyendo el thinking partner también vamos a tener más idea de cómo debería funcionar como un todo el UX Este, entonces, creo que por ahí, en términos de, o sea, por lo menos a 
+
+Speaker 1  •  42:10
+Okay. 
+
+Ruy  •  42:13
+si a mí es donde más sentido me hace este ahorita con la información que tengo empezar Yo creo que podemos también tener, bueno, unas cosas fáciles para 
+
+Speaker 3  •  42:26
+yo creo que podemos también tener bueno unas cosas fáciles para 
+
+Ruy  •  42:39
+Ampliar lo que tenemos es lo del calendario, permitir reagendar, suprimir eventos. 
+
+Speaker 3  •  42:39
+ampliar lo que tenemos es lo del calendario permitir reagendar suprimir eventos 
+
+Ruy  •  42:50
+si es si eso está funcionando también está bueno lo haría un poco más flexible 
+
+Speaker 2  •  42:56
+Lo haría un poco más flexible. 
+
+Ruy  •  43:00
+Y no sé, yo creo que está muy bien también el sidebar de threads, quizás 
+
+Speaker 2  •  43:00
+y no sé yo yo creo que está muy bien también el el sidebar de threads quizás Algo fácil sería hacer como en ChatGPT que después de un rato de chat te cambia el título de tu thread y lo hace más claro porque 
+
+Ruy  •  43:10
+Algo fácil sería hacer como en ChatGPT que después de un rato de chat te cambia el título de tu thread y lo hace más claro porque 
+
+Speaker 2  •  43:19
+ahora ya ves cuando abrimos el sidebar tenemos 50 default 40 leadership no es nada claro 
+
+Ruy  •  43:19
+Ahora ya ves cuando abrimos el sidebar tenemos 50 default, 40 leadership, no es nada claro. 
+
+Speaker 2  •  43:29
+y para que ahí puedan encontrar sus chats y que tengan un título bueno porque no sé si 
+
+Ruy  •  43:29
+y para que ahí puedan encontrar sus chats y que tengan un título bueno porque no sé si 
+
+Speaker 2  •  43:41
+Que ahora tienes que le dar nombre tú mismo y no sé si la gente lo va a hacer esto. 
+
+Ruy  •  43:41
+Que ahora tienes que le dar nombre tú mismo y no sé si la gente lo hace. a ver por ejemplo el thinking partner para que funcionen varias sesiones aquí en el cyborg tendrías que tener información acerca de tu proceso este y posiblemente va más allá del cyber posiblemente es algo que tienes como un botón aquí de mis metas entonces que veas ahí cuáles son tus metas qué es lo que estableciste en cómo has ido trabajando con ellas 
+
+Speaker 1  •  44:29
+Esto sería casi como un mini dashboard que analiza tu historial de sesiones y que te saca. 
+
+Ruy  •  44:29
+Esto sería casi como un mini dashboard que analiza tu historial de sesiones y que te saca. Ajá. 
+
+Speaker 1  •  44:38
+Las metas y los microhábitos y todo, sí, 
+
+Ruy  •  44:38
+Las metas y los microhábitos y todo. Sí, porque, o sea, ahorita ahorita estoy en una sesión de coaching con un proceso de coaching con Horacio. y algo que está muy bueno de él es que me va recordando a ver bueno inicié con A ver, ¿de qué se trata? ¿Qué quieres trabajar? ¿Cuáles son todas las cosas que, o sea, dónde quisieras estar? Entonces establecemos el gap, vemos las cosas. Y ahorita ya tengo una lista mental de cuatro o cinco áreas grandes en las que quiero trabajar. Entonces, nos metemos en la primera área grandota. Y nada más el que me vaya ayudando él a llevar ese orden de la conversación este es un super paro. porque ahorita ya o sea como que fue una especie de unlock mental para mí en donde como que vi más claramente de ah pues es que tengo que empezar a trabajar en Todos mis processos de llevar al equipo para poder hacer lo que quiero, etc. Entonces, creo que algo así O sea, resolver ese UX de cómo se vería tu conversación a través del tiempo con el thinking partner y meterlo también con los microhábitos de la countability partner que en realidad es sería visualización este creo que creo que eso ya visualmente podría quedar muy bonito y ser como algo interesante para comprar o diferente para comprar y además nosotros nos va a ayudando para entender cómo presentarle las cosas al usuario para que vaya trabajando en sus metas. 
+
+Speaker 1  •  46:56
+Mm, sì 
+
+Ruy  •  46:59
+Sí, puede ser que el esto sea nada más una visualización de los datos del grafo al final que te pueda. 
+
+Speaker 2  •  46:59
+Sí, puede ser que el esto sea nada más una visualización de los datos del grafo al final que te pueda. 
+
+Speaker 3  •  47:10
+decir la evolución y y los puntos clave del de tu uso del de la app 
+
+Ruy  •  47:18
+O sea, yo como lo había pensado en algún momento con. on GetSet and Graffiti is that establishing an ontological of the things that are guarding with other structure and 
+
+Speaker 1  •  47:33
+sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, sí, 
+
+Ruy  •  47:37
+Hacemos una clase microhábito para que esté conectada con cierta meta. Y como dices tú, ya como lo vas bajando en tierra pues es una visualización del grafo y a veces nada más verlo es es práctico 
+
+Speaker 1  •  48:02
+Ok, bueno, esta parte para este trimestre va a ser muy justo, muy justo. 
+
+Ruy  •  48:02
+Ok, bueno esta parte para este trimestre va a ser muy justo muy justo. Sí, yo yo empezaría. Creo que yo empezaría por Iwon, no sé. Más bien, regreso para ver Here the Thinking Partner function a travers of various sesions, since we establish ¿Qué necesitamos para que funcione a través de varias sesiones? Creo que sería bueno. 
+
+Speaker 1  •  48:41
+De hecho, sí. 
+
+Ruy  •  48:41
+De hecho, sí. Y hacer que funcionen las notificaciones. 
+
+Speaker 2  •  48:43
+Ahora mismo, como 
+
+Ruy  •  48:50
+Ahora con el sistema de user facts 
+
+Speaker 2  •  48:50
+Ahora con el sistema de user facts. casi se sin pasar al grafo y tal casi se podría usar los user facts simplemente cambiando de sesión que lo sepa y sería una versión mínima de esta idea de 
+
+Ruy  •  48:55
+casi se sin pasar a grafo y tal casi se podría usar los user facts simplemente cambiando de sesión que los sepa Y sería una versión mínima de esta idea. Puede ser. O sea, si eso nos ayuda a empezar a demostrar, porque digo. a empezar a tener demos este o darle a las personas para que lo prueben este y que vean que si jala pues podría ser este y además o sea una cosa que yo sería para conectarlo mínimamente con es que calendarices las sesiones Entonces tienes tu primera sesión en donde estableces tus metas, y ahí mismo este. al final quedes en establecer tres o cuatro fechas de seguimiento. y básicamente es utilizar lo que ya tenemos de mail este entonces establece esas fechas de seguimiento Y ya llegas a ese URL, y entonces ya vamos a saber que ahí hay que jalar lo de la sesión anterior. 
+
+Speaker 1  •  50:37
+Sí, bueno, es bueno, hay que pensarlo así y es 
+
+Ruy  •  50:37
+Bueno, es no sé, hay que pensarlo pues, pero. Hay que pensarlo así y es. 
+
+Speaker 2  •  50:47
+siempre es como es difícil cuando no tenemos claro lo que vamos lo que queremos en el futuro 
+
+Ruy  •  50:47
+Siempre es como. . es difícil cuando no tenemos claro lo que vamos lo que queremos en el futuro. O desarrollo es desde el principio algo que es lo suficiente flexible para luego hacer todo lo que queremos. 
+
+Speaker 2  •  50:56
+o desarrolles desde el principio algo que es lo suficiente flexible para luego hacer todo lo que queremos O desarrollas poco a poco una cosa y luego la tienes que jalar a otra dirección y tal, y luego lo complexifica todo y es. 
+
+Ruy  •  51:04
+O desarrollas poco a poco una cosa y luego tienes que jalar a la otra dirección y tal y luego lo complexifica todo y es. No es fácil. 
+
+Speaker 2  •  51:15
+no es fácil no es fácil y ahora con esta visión larga claro la va a tener que ser una una api y luego 
+
+Ruy  •  51:18
+No. Y ahora con esta visión larga, claro, la app va a tener que hacer una API y luego. donde chainlite es una parte, pero hay muchas partes. Esto lo hablamos ya muchas veces. 
+
+Speaker 2  •  51:36
+Y el reto is that in all this progress we have to vendor, okay, la app tiene que usar. 
+
+Ruy  •  51:36
+Y el reto es que in todo este progreso tenemos que vender. O sea, la app tiene que poder ser usada. 
+
+Speaker 2  •  51:44
+Es muy difícil. 
+
+Ruy  •  51:44
+es muy difícil no es como hacerle nueva versión que está desarrollada o a lo mejor sí tendrá que ser esto no sé 
+
+Speaker 2  •  51:47
+No es como hacerle nueva versión que está desarrollada. 
+
+Speaker 1  •  51:51
+O a lo mejor sí tendrá que ser esto. No sé. 
+
+Ruy  •  51:55
+Ahora, creo que también hay algunas cosas, Mike, que como podemos pensar en esto. O sea, por ejemplo. Yo creo que poder vender que el tu proceso de applied learning Tiene sesiones de coaching, este va a ser muy vendible y eso es eso es más específico. Por ejemplo, podríamos vender que tiene sesiones de coaching y quitamos, retiramos en algún punto los chatbots que están ahorita de este. Mindsets, etcétera, etcétera, etcétera, y las sesiones de coaching son como más independientes. Y vas aplicando diferentes conceptos de. digo, esto lo tendría que platicar más con. con alguien de metodología con Dolo pero es que en algunos procesos que ven de Accelent Tú tienes sesiones de application coaching en donde vas viendo los diferentes conceptos, o sea tu objetivo es tienes algunos objetivos de negocio pero también es aprender y entonces este Te aseguras que en las sesiones de coaching es donde terminas practicando conversaciones difíciles, mindsets, etcétera, etcétera. Este, entonces esa no sé, necesito revisarlo, pero esa podría ser una forma de desarrollar todo esto de una manera que se venda relativamente rápido, que en tres meses podamos vender eso, que te vendemos application coaching metido en tu proceso de desarrollo. Y ya, no tiene que tener todos los bells and whistles de está integrado a todo. Este e inclusive eso de la aplication coaching, si vemos que es implementación no nos funciona para tener un proceso integrado en donde después de cada reunión te pregunta cómo te fue It's much more flexible, but the application coaching and in parallelo ir desarrollando otra cosa. Este que sea más flexible. 
+
+Speaker 1  •  54:53
+Mm, sí 
+
+Ruy  •  54:56
+No sé si. O sea, y creo que así puede haber. O sea, inclusive las notificaciones del microcoaching. Perdón de los microhábitos, este tendríamos que ver, lo podemos seguir vendiendo así con algunos ajustes. Posiblemente nada más haciéndolo cíclico, este eh Pero también estos features, a ver, no para todas, pero algunas podríamos como tenerlas activadas o no, dependiendo del cliente. 
+
+Speaker 3  •  55:31
+también estos features a ver no para todas pero algunas podríamos como o tenerlas activadas o no dependiendo del cliente y así 
+
+Ruy  •  55:41
+Exacto. 
+
+Speaker 2  •  55:47
+Your vendiendo a poco el producto más features. 
+
+Ruy  •  55:55
+Okay, entonces Teams Memorial 
+
+Speaker 1  •  56:01
+Entonces, Teams Memoria, no sé si es mucho para un trimestre, pero 
+
+Ruy  •  56:04
+No sé si es mucho para un trimestre, pero pero hagamos una memoria Pues sí, o sea, Teams y Memoria. Habría que ver. No sé hasta dónde podemos llegar con lo que tenemos ahorita. 
+
+Speaker 1  •  56:24
+Porque los sí 
+
+Ruy  •  56:25
+o qué tan fácil es prototipar algo con getset Porque los fax es muy ligero, son 20 líneas de hechos 
+
+Speaker 3  •  56:38
+Porque los fax es muy ligero, son 20 líneas de. . 
+
+Speaker 2  •  56:42
+de hechos y tampoco sería complicado incluir simplemente la fecha en un fact 
+
+Ruy  •  56:44
+y tampoco sería complicado incluir simplemente la fecha en InFact y ya tienes tu graph 
+
+Speaker 2  •  56:51
+Y ya tienes tu graph muy básico, pero es suficiente para que luego el bot, cuando entras a un welcome de uno nuevo, te pueda decir, ah, he visto que hace un mes estabas en esto. 
+
+Ruy  •  56:54
+muy básico pero es suficiente para que luego el bot cuando entras a un welcome de un nuevo te pueda decir ah he visto que hace un mes estabas en esto 
+
+Speaker 2  •  57:06
+con qué quieres cómo te ha ido y con qué quieres seguir hoy a lo mejor podríamos 
+
+Ruy  •  57:06
+con qué quieres cómo te ha ido y con qué quieres seguir hoy a lo mejor podríamos 
+
+Speaker 2  •  57:15
+O sea, eso sería muy fácil ampliarlo a lo que tenemos ahora. 
+
+Ruy  •  57:16
+Eso sería muy fácil ampliarlo a lo que tenemos ahora. 
+
+Speaker 2  •  57:21
+Quizás hacer unas pruebas así y 
+
+Ruy  •  57:21
+Quizás hacer unas pruebas así y para presentar. 
+
+Speaker 1  •  57:25
+para presentar para presentarlo este trimestre y con claro con la idea luego de ampliar hacia más hacia el grafo 
+
+Ruy  •  57:28
+para presentarlo este trimestre y con claro con la idea luego de ampliar hacia más hacia el grafo Ajá. Sí, o sea, porque para mantener el contexto de seis, o sea, de diferentes sesiones. es relativamente como dices tú es relativamente simple este si lo único que o sea si lo único que hace es Vas a hablar con el thinking partner y el thinking partner se va a acordar de lo que hablaste con él inicial anterior. Y lleva un plan de lo que pediste al inicio. Eso se resuelve con prompting y algún y un poco de este 
+
+Speaker 1  •  58:22
+See the placeholders, the fetching, see. 
+
+Ruy  •  58:30
+sí algún cambio en donde algún campo en donde más específico en donde pongamos metas, por ejemplo. Este y vemos cómo nos funciona eh Y vemos si con eso we can get away. Inclusive puedes guardar clases adentro de. De postres, ¿no? Sí, bueno, podría ser un un JSON estructurado o algo así de este tipo. 
+
+Speaker 1  •  59:08
+Sí, bueno, podría ser un un JSON estructurado o algo así de este tipo. 
+
+Ruy  •  59:18
+Para guardarlo con un poquito de más orden, este entonces O sea, lo clave es que en la primera sesión establezcas tus prioridades, tus metas, y luego esas las puedas ir revisando. in las secciones subsecuentes. ¿Revisas eso que dijiste tú o revisas algo en específico? y luego también ir haciendo la conexión de posiblemente lo que traes ese día que es urgente si está conectado de alguna manera a lo que ya habías dicho o te das cuenta que lo que habías dicho no era tan importante, sino es más importante esto que salió. El resolver cómo ir guardando esas metas de manera flexible, cambiante, para que le sirva a al usuario para desarrollarse en no es tanto un problema de qué memoria utilizas para que sea súper eficiente a lo largo de un montón de datos si no es más bien cómo lo guardas y cómo lo prontoas para que funcione como me está funcionando una sesión de coach. Lo que yo veo que hace Horacio son va tomando notas y entonces se queda con un cuadernito en donde está tomando notas y lo revisa antes de la sesión Entonces me pregunta, oye Victor y tal, traes algo, quieres empezar por aquí, por lo próximo que habíamos dicho O traes algo más. Si empezamos por lo que habíamos dicho, dices, bueno, pues, ¿cómo te fue en el pasado? Hay una cierta metodología y el bajar esa metodología prompts that functionen y a una manera sencilla de guardarlo in memoria y utilizarla bien. 
+
+Speaker 1  •  01:01:46
+Sí, porque ya tenemos la tabla de challenges. 
+
+Ruy  •  01:01:46
+Sí, porque ya tenemos la tabla de challenges. Están todos guardados como una frase. 
+
+Speaker 1  •  01:01:50
+Están todos guardados como una frase. 
+
+Ruy  •  01:01:53
+Esto está muy definido. 
+
+Speaker 1  •  01:01:53
+Esto está muy definido. Y tenemos la tabla de facts 
+
+Ruy  •  01:01:57
+Y tenemos la tabla de facts. O sea, por ejemplo, la tabla de challenges. Si hay que darle una pulidita porque ahorita es. Hay que darle una pulidita a cómo se guardan en términos de ahorita los generas automáticamente y nunca le preguntas al usuario si ese es su challenge. Pues hay que preguntarle al usuario, oye, ¿esta es tu challenge? Sí, sí es. ¿Lo caracterizas de ellas de alguna manera diferente? ¿Sí o no? Entonces esto eso es una mini cosita que es importante y en general 
+
+Speaker 1  •  01:02:28
+Okay. 
+
+Ruy  •  01:02:36
+metas, objetivos, o sea todo sigue ese proceso de si es esto o no es esto lo ves de manera diferente y entonces guardo entonces en esa misma puede ser en otra tabla de metas y luego cómo están relacionadas una entre otra este ahorita estoy pensando que yo necesito hablar con in pues hablar con con Horacio y preguntarle cuál es su método, que me enseñen fotografías de cómo tomar las notas, que se fija, etc. Y con base en eso, puedo ir armando ya una metodología y con base en eso ya lo vamos aterrizando en un 
+
+Speaker 1  •  01:03:32
+Okay. Oye, 
+
+Ruy  •  01:03:41
+este pues probar el interés de esto comercial pues porque si vemos que de plan 
+
+Speaker 1  •  01:03:50
+Sí, sí, claro. 
+
+Ruy  •  01:03:52
+Mejor ni lo construimos y cambiamos de yo creo que sí, pero Siempre nos vamos a encontrar sorpresas. 
+
+Speaker 2  •  01:04:09
+Yo creo que sí, además, no perdón que me llegué pensando en el speech to text. 
+
+Ruy  •  01:04:09
+Yo creo que sí, además, no perdón que me llegué pensando en el speech to text que ya está básicamente hecho 
+
+Speaker 2  •  01:04:20
+que ya está básicamente hecho está también un muy buen feature con efecto wow que se puede 
+
+Ruy  •  01:04:24
+It's también a muy buen feature con efecto wow que se puede 
+
+Speaker 2  •  01:04:31
+presentar al final del trimestre no como ya listo para clientes y demos 
+
+Ruy  •  01:04:31
+presentar al final del trimestre no como si como ya listo para clientes y demos 
+
+Speaker 2  •  01:04:39
+y con si con estos tres ya tenemos bastante o sea memory teams y voice está súper guay más evidentemente el thinking partner 
+
+Ruy  •  01:04:39
+Y con estos tres ya tenemos bastante. O sea, memory, teams y voice. Está súper guay. Sí, no, o sea, y más que memory, yo lo haría como coaching. Este asesor de coaching. 
+
+Speaker 1  •  01:04:55
+Sí. 
+
+Ruy  •  01:04:57
+O sea, todo el flujo de thinking partner coaching con memoria, sí. 
+
+Speaker 1  •  01:04:57
+O sea, todo el flujo de thinking partner coaching con memoria, sí. 
+
+Ruy  •  01:05:04
+yo lo que sí le metería este sprint si vamos a priorizar voz este es Voice to text, perdon text to voice. 
+
+Speaker 1  •  01:05:20
+Text to voice 
+
+Ruy  •  01:05:23
+por lo menos en el coaching en el thinking partner que si funciona me metí a 11 labs Y investigué muy rápido, la verdad es que no investigué bien, pero parece que mucha gente usa clos como Su lelem este y o sea, podríamos mantener a Cloth como nuestro Lelem por detrás el brain. y mandar a decir ciertas cosas directamente 11 labs aunque lo que genere sea más largo Entonces ahí ya ir decidiendo qué decimos y qué ponemos en la pantalla, que también eso es una chamba. Y podríamos empezar con esto que mencionó Leo del botoncito play para nada más que lea un texto. 
+
+Speaker 1  •  01:06:22
+Y podríamos empezar con esto que mencionó Leo del botoncito play para nada más que lea un texto. 
+
+Ruy  •  01:06:34
+Sí, o sea, podemos empezar con eso y ya luego, o sea, podríamos empezar con eso, luego cuando ya funcione bien el thinking partner, pensamos en. Ok, esto si fuera version solo boss, ¿cómo sería? This puede ser una. Como dices tú, el botoncito de play podría ser una. Un hack rápido. y la otra uh otra cosa que podríamos ver que no sé si vaya antes de la voz o no dependiendo podría ser que la integración con teams este no nada más sea te manda una notificación sino ahí mismo haces tu check fin de la semana porque si es mucho más práctico bueno rápido hacer con que te conteste el chatbot y ¿Cómo te fue esta semana? ¿Me fue bien? ¿Cuánto le darías? Le daría un 5 de 5 o lo que sea. ¿Necesitas hacer algún ajuste? Sí o no. Sí, podría ser como al mismo tiempo el reminder de la próxima y que te pregunte también cómo he ido la. 
+
+Speaker 1  •  01:07:48
+Sí, podría ser como al mismo tiempo el reminder de la próxima y que te pregunte también cómo he ido la precedente 
+
+Ruy  •  01:07:56
+La precedente. Exacto. Entonces que la interacción sea por ahí, este porque si es más y me. O sea, eso. Eso te quita fricción de de decir cómo te fue Y si tenemos ese chatbot funcionando ya que por ahí te pregunta, también se puede volver algo de oye, ¿cómo te fue el día de hoy? ¿Tienes algún problema? No, pues sí. ¿Quieres que tengamos alguna sesión de coaching de emergencia? Que se yo. O sea, como que también eso, el que tengamos un chat direccional. 
+
+Speaker 1  •  01:08:39
+Pero esto ya no es notificación, es como ya si es bidireccional y es uh sí. 
+
+Ruy  •  01:08:39
+Pero esto ya no es notification, es como ya si es bidireccional y esa. Por eso, o sea, estoy diciendo que other feature different that we have to be priorizamos or not for this trimestre. Este es que en vez de quedarnos solo con notificaciones, o sea, digamos Desarrollamos el thinking partner como lo dijimos, así con todas las acotaciones que decimos. No le movemos a voice. Y mejor hacemos que la integración en Teams sea más profunda y te pregunte tu estatus. este y pueda hasta que sea un chatbot más funcional pues entonces No sé, habría que también validar con clientes cuál de las dos tendría más interés, sirve más para vender, básicamente. Ahora sí es que sí. 
+
+Speaker 3  •  01:09:49
+Ahora sí es que sí, todo tiene que ser validado por el cliente y tal, pero ahora tenemos que decidir a qué vamos ya, porque 
+
+Ruy  •  01:09:51
+Todo tiene que ser validado por el cliente y tal, pero ahora tenemos que decidir a qué vamos ya. Sí, para este sprint. Eso con Leo lo podemos establecer como algo también yo podría decir el OKR es hacer tres features de estas cinco O sea, una que sabemos que tenemos que hacer sí o sí son notificaciones a través de Teams, que eso te va a llevar todavía a algo de trabajo. La segunda es el thinking partner a través de varias sesiones, que eso por debajo trae una memoria de usuario. segunda que yo creo que también esa la tenemos que desarrollar para que la podamos validar porque la gente no digo podemos hacer validaciones antes este con prototipos pero bueno esa es una segunda este la tercera es Seria voz text to speech y speech to text. Y la quarta 
+
+Speaker 1  •  01:11:15
+Okay. 
+
+Ruy  •  01:11:17
+Es este pasar de notificaciones a un chat bot bidireccional en donde puedas hacer tus check-ins por ahí. este y que te y que puedas agendar la próxima sesión por ahí 
+
+Speaker 1  •  01:11:36
+Yo creo que sí 
+
+Ruy  •  01:11:39
+Las tres a lo mejor sí, pero cuatro es muchísimo. 
+
+Speaker 1  •  01:11:39
+Las tres a lo mejor sí, pero cuatro es muchísimo para. 
+
+Ruy  •  01:11:43
+No, no, no. O sea, digo, cuatro, ya sé que es mucho. O sea, ponemos esas cuatro y decimos de estas cuatro vamos a hacer tres. Y ponemos cuatro para poder tener este, para poder estar, o sea, para poder Repriorizar, ponemos las tres que creamos que van a hacer. Este, o podemos decir que ponemos estas tres y tenemos otro par más que ya sabemos que podemos hacer. Y más bien, yo lo que necesito hacer con él es un proceso de validación de Product Market Fit. Entonces, en donde vayamos a preguntarle a los clientes, oye, ¿te gustaría que este o nos comprarías tener sesiones de coaching? Pues sí, sí, se los compro. Este ok y alguna otra validación que nos sirva, por ejemplo, para decidir si voz va primero. que notificaciones bidireccional perdón que un chatbot bidireccional o vemos que primero hay que meter el chatbot bidireccional y dejamos en pausa lo de voz O sea, lo que yo quiero es sí ser mucho más rigurosos y tener ese proceso de validación con los clientes, porque Pues el año pasado les dije que construyeron un montón de cosas y la verdad es que poco estuvo validado por los clientes, muy poco estuvo validado por los clientes. Y eso no está bien. Ok. 
+
+Speaker 1  •  01:13:30
+Okay. 
+
+Ruy  •  01:13:33
+Ok, entonces sí, tres, cuatro, pero no sabemos bien la prioridad del. 
+
+Speaker 1  •  01:13:33
+Ok, entonces sí, tres, cuatro, pero no sabemos bien la prioridad de una de ellas. 
+
+Ruy  •  01:13:42
+Exacto, yo diría entregamos tres grandes o tú también hay que ver Shamil 
+
+Speaker 1  •  01:13:44
+Yeah, but 
+
+Ruy  •  01:13:53
+en qué nos va a ayudar, yo creo que la parte del. . Le quiero empezar a dar cosas al thinking partner. O sea, quiero que pueda desarrollar ya de Conscious Insight Score. y en una de esas empieza a agarrar velocidad y hacemos tres y media Y entonces yo te diría que para las metas, este digo, ahorita ya las establecimos así, dame chanza en. de aterrizar todo esto que platicamos en algún documento para poderlo ver con leo y también poder o sea yo la otra cosa que necesito ver con leo es este Los procesos de validación este para que esté todo ya bien organizado. Bueno. Ok. 
+
+Speaker 1  •  01:15:19
+Okay, uh vale, pues de hecho que quiere decir okay r 
+
+Ruy  •  01:15:20
+Vale. Pues de hecho, ¿qué quiere decir OKR? 
+
+Speaker 1  •  01:15:25
+Most uh is familiar with the concept. 
+
+Ruy  •  01:15:26
+Objectives and Q resource. 
+
+Speaker 1  •  01:15:28
+Objectives and key results. 
+
+Ruy  •  01:15:28
+Objectives and key results. 
+
+Speaker 1  •  01:15:30
+Okay 
+
+Ruy  •  01:15:31
+Entonces, básicamente, por ejemplo, nuestro objetivo del equipo sería este. Desarrollar nuevos features para poder dar una experiencia de usuario más no sé, en esto pensar. O sea, el objetivo es algo cualitativo. De vamos a. Permit the design of those people because there's an experience of coaching more complete. And the key results are three quantitatives to design feature 1, feature 2, feature 3. Este con algún criterio de validación de usuario de si le gustó o no le gustó, les funciona o no les funciona, empezamos a Instalar con algunos usuarios algo así, pues. 
+
+Speaker 1  •  01:16:33
+Okay, okay. 
+
+Ruy  •  01:16:35
+Básicamente sería eso. Para mí sería un objetivo de desarrollo ese y el segundo es tener un proceso de Product Market Fit. bien aceitado con ventas para que lo que desarrollemos lo estemos vendiendo. Okay, um 
+
+Speaker 1  •  01:17:02
+Okay. Um 
+
+Ruy  •  01:17:08
+Yo al aterrizar esto en un documento lo podemos seguir revisando con él, y o seas, porque la idea no es que. Más bien la idea es que los OKR no sirvan para llegar al objetivo que queremos. O sea, por ejemplo, tendríamos que amarrar esto para que nos ayude a encontrar una oportunidad nueva de alguna manera. 
+
+Speaker 1  •  01:17:51
+Sí, podrá, sí, sí. 
+
+Ruy  •  01:17:51
+Sí, podrá, sí, sí. Poder venderlo en. 
+
+Speaker 1  •  01:17:54
+Poder venderlo en. . 
+
+Ruy  •  01:17:55
+Bueno, mostrarlo y. 
+
+Speaker 1  •  01:17:55
+Bueno, mostrarlo y que funcione. 
+
+Ruy  •  01:17:57
+Sí, que gracias a esto, este, hubieron. Tres nuevos clientes que metemos al pipeline porque ya vieron el valor de esto versus hacerlo internamente o qué sé yo, algún criterio de ese estilo. Entonces, este Sí, mira, yo puedo. ¿Tienes un ratito más? Llevamos 20 minutos. Yo puedo empezar a darle forma a esto para que quede. Digamos en un documento que lo que ya sea como de roadmap y que con base en eso de roadmap y de requerimiento de proceso y que con base en eso podamos decidir. A mi lo que me serviría también es este Digamos el otro pendiente que traigo es en cómo cómo asegurarnos este que está funcionando mejor el equipo en términos de estamos construyendo lo que necesitamos construir y me estamos y mejoramos nuestra velocidad de si si de hecho te quería hablar de 
+
+Speaker 2  •  01:19:52
+Sí, sí, de hecho te quería hablar de 
+
+Ruy  •  01:19:58
+Viste que bueno, o sea, bueno, me planteo ya lo viste en la presentación de quiero enfocar. 
+
+Speaker 2  •  01:19:58
+Viste que, bueno, o seas, bueno, me planteó, ya lo viste en la presentación, de quiere enfocar. el desarrollo más así a Barcelona, que yo esté más tiempo con Shamil y que yo lidere un poco el equipo de desarrollo 
+
+Ruy  •  01:20:09
+the design of Barcelona, you have much time with Shamil and the equipe of desarroll. 
+
+Speaker 2  •  01:20:21
+Y lo que quería hablar contigo es cómo transicionar hacia este funcionamiento. 
+
+Ruy  •  01:20:21
+Y lo que quería hablar contigo es cómo transicionar hacia este funcionamiento, y 
+
+Speaker 2  •  01:20:34
+Bueno, básicamente yo creo que, bueno, de cualquier forma es más o menos las discusiones importantes ya las tienes conmigo sobre la dirección de. 
+
+Ruy  •  01:20:34
+Bueno, básicamente yo creo que bueno, de cualquier forma es más o menos las discusiones importantes ya las tienes conmigo sobre la dirección de 
+
+Speaker 2  •  01:20:46
+hacia donde va el producto y tal yo creo que lo que podría acelerar las cosas y es que pueda yo 
+
+Ruy  •  01:20:46
+hacia donde va el product. 
+
+Speaker 2  •  01:20:48
+. 
+
+Ruy  •  01:20:49
+Yo creo que lo que podría acelerar las cosas es que pueda yo en cualquier momento pedirle cosas a Daniel o a Shamil que oye por favor. 
+
+Speaker 2  •  01:20:55
+In cualquier momento, pedirle cosas a Daniel o a Shamil que oye por favor te abre un ticket, por favor haz esto ahora de este feature. 
+
+Ruy  •  01:21:00
+te abrí un ticket por favor haz esto ahora de de este feature para que no tengamos que esperar cada vez el sprint para que hagan tareas para movernos más rápido y 
+
+Speaker 2  •  01:21:10
+para que no tengamos que esperar cada vez el sprint para que hagan tareas para movernos más rápido y también 
+
+Ruy  •  01:21:25
+También necesito poder, bueno, no sé si viste lo de los stand-ups cotidianos que vamos a tener que hacer. 
+
+Speaker 2  •  01:21:27
+Necesito poder. . Bueno, no sé si viste lo de los stand-ups cotidianos que vamos a tener que hacer. Me gustaría que Shamil y Daniel lo hagan también para poder tener una visión de cómo van avanzando. 
+
+Ruy  •  01:21:35
+Me gustaría que Shamil y Daniel lo hagan también para poder tener una visión de cómo van avanzando, porque para mí sigue siendo un poco nebuloso lo de Daniel. 
+
+Speaker 2  •  01:21:44
+Para mí sigue siente un poco nebuloso lo de Daniel y de Shamil, sí, pero. 
+
+Ruy  •  01:21:49
+Y shamille, sì, pero te falta un poco de rigor y de no sé. 
+
+Speaker 1  •  01:21:52
+te falta un poco de rigor y de no sé y no sé cómo lo ves tú y qué sería lo mejor para si para avanzar bien 
+
+Ruy  •  01:21:59
+No sé cómo lo ves tú y sería lo mejor para sí para avanzar bien. Mira, este a ver Yo lo que, a ver, sí, me parece que sería muy bueno que tú tomaras más liderazgo. este del equipo eh y que si surge algo que necesitamos Reprovisar el trabajo en el sprint lo hagas. Idealmente cuando ya empezamos a agarrar un poco el ritmo, vamos a poder ver esto desde antes. ojalá y entonces tú puedas podemos decir este feature va a requerir La intervención de Mike más la intervención de Shamil, posiblemente tal y tal, y la intervención de Daniel, etc. Entonces, como que eso lo podemos, idealmente lo podemos ir planeando. Creo que eso también viene de que no tenemos muchos datos de cuál está siendo nuestra productividad. what is our capacity, all this for plan. The first empezation capturing. Y una vez que ya tengamos algo de datos, pues vamos a poder planear. Entonces, yo necesito hacer trabajo para que nuestro proceso sea mejor. Este, eso por un lado, Y entonces podamos organizar los recursos de una mejor manera. Otra cosa de la que no hablamos para metas de este trimestre y deberíamos de ver este es en automatizar ciert cosas que nos quiten tiempo. Este, por ejemplo porque estoy pensando el setup o sea el hecho de que el setup de nuevos clientes nos tome tanto esfuerzo este que tú te tengas que meter mañanas enteras a hacerlo o tardes enteras a hacerlo, a mí se me hace que pues es un desperdicio pues este ojalá lo pudiéramos automatizar entonces eso sería buenísimo que decir al final del semestre Ya lo automatizamos y el setup es rápido, si te tienes que meter, pero te metes poco. 
+
+Speaker 1  •  01:25:04
+Yeah, I think that's a good one. 
+
+Ruy  •  01:25:08
+Otra de las cosas que estuve reflexionando es, por ejemplo, Ayer Nelson hizo un demo y está en CI demo Boetus, pero creo que es un código muy viejo. este porque si no yo me siento como gallina descabezada corriendo cada vez que hay un deploy con clientes Y si el objetivo es vender más, pues si empezamos a vender nos vamos a parir chayotes, como decimos acá. Este entonces este Pues sí, o sea, yo metería algo como pequeñito, pero que nos sirva para que esto ya nos siga pasando y lo que sea de la versión de demo. me di cuenta que ahí está el último prompt del leadership growth partner el que está mejor en español que tiene dos cards y que eso creo que todavía no está en staging Entonces ahí hay que arreglar un desmadrito de cosas y ya tener un proceso para que esté funcionando. 
+
+Speaker 1  •  01:26:44
+Sí. Está en staging desde IM. Sí. No, claro, lo que. 
+
+Speaker 2  •  01:26:54
+Lo que falta es una vez las cosas están en staging, tienen que estar probadas. 
+
+Ruy  •  01:26:58
+una vez las cosas están en staging tienen que estar probadas y luego alguien tiene que decir ok 
+
+Speaker 2  •  01:27:03
+Y luego alguien tiene que decir, ok, pásalo en demo, está suficientemente bueno para enseñarle a un cliente. 
+
+Ruy  •  01:27:07
+pásalo en demo, está suficientemente bueno para enseñarle a un cliente. 
+
+Speaker 3  •  01:27:13
+Y este este alguien todavía no sé quién es y quién da el green flag. 
+
+Ruy  •  01:27:13
+Y este este alguien, todavía no sé quién es y aquí da el green flag para mí sería el vendedor será el que va a hacer el demo si tendría que ser yo yo diría que fuera leo o sea que yo lo 
+
+Speaker 3  •  01:27:19
+Para mí, sería el vendedor, el que va a hacer el demo. 
+
+Ruy  •  01:27:28
+Yo soy responsable de que llegue ahí, pero él nos tiene que dar el green flag de ok, ya lo probé, está bien. o no no está porque hay 700 cosas antes entonces creo que eso nos podría ayudar a mejorar el proceso de pruebas ya que nos sintamos cómodos y que ya esté listo para demos y que ya esté listo para deployments porque a mí también me pasó con el deployment de Bueno, con el deployment de este caja popular mexicana que me metía a ver el El Leadership Growth Partner y me metí a hacerle un montón de cosas y me pasé todas las tardes de una semana haciendo eso. Entonces, o sea, si nos vamos a comprometer tú y yo a entregar un montón de cosas, pues necesitamos que. . . No nos distraigamos en eso. 
+
+Speaker 1  •  01:28:35
+Sí, sí, sí. 
+
+Ruy  •  01:28:36
+Entonces yo metería como algo importante dentro del sprint. Y posiblemente teniendo a Daniel ahí detrás de eso es que es que esto lleva meses que se supone que lo está mirando y el script de deployment. 
+
+Speaker 1  •  01:28:48
+Es que esto lleva meses que lo se supone que lo está mirando y el script de deployment, o sea, de creación de instancias. 
+
+Ruy  •  01:28:56
+O sea, de creación de instancias. Y lo que pasa es que yo le doy un montón de cosas urgentes a Daniel. este de PG le di y entonces ahí se le acabaron sus horas este pero ahorita tenemos un buen momento porque no no vamos a entregar nada inmediatamente este y entonces que ya lo termine el script que tampoco puede ser tan difícil y más bien lo que pasa es que no he tenido F foco for this. Sempre me preguntó ¿Va a cambiar la prioridad? este un montón de idiotes que arreglar para que funcionara pg y ya funciona pero pg se va a ir hasta iba a empezar ahorita en en enero pero siempre no lo mandaron hasta mayo entonces ahorita tenemos buen tiempo para que lo haga y ya quede y ya ok Este, y entonces, digo, para cerrar un poco de cómo yo me imagino Por lo menos de entrada, que empieces tú a tomar más liderazgo, es esto que te digo de arreglar el proceso, yo lo arreglo Nos damos, o sea, yo lo arreglo junto contigo y vemos que nos esté funcionando bien el proceso de deployment, proceso de pruebas. El proceso de versionado, etcétera, etcétera, la planeación de los sprints. la hagamos entre todos este pero sobre todo tú y yo hacemos trabajo previo para que lleguemos ya bastante planchados este Then you seem to the execution of the sprint, and if there is something to camp, cambias. And we appreciate what was what it had to camp for the next time. Si se puede ver con la antelación se ve y si fue algo que salió, pues salió. Pero, pero, sí. No sé cómo te suena eso. 
+
+Speaker 1  •  01:31:33
+Sí, sí, sí, no, no, está perfecto. 
+
+Ruy  •  01:31:33
+Sí, sí, sí. No, no, está perfecto. Este. 
+
+Speaker 1  •  01:31:41
+Y poco a poco, o seas me pidió también, bueno, poco a poco. 
+
+Ruy  •  01:31:41
+Y poco a poco, sí. O seas me pidió también, bueno, poco a poco, sí, transicionar a esto, estar menos yo en el código y con la misma idea de. 
+
+Speaker 1  •  01:31:46
+. 
+
+Speaker 2  •  01:31:47
+Sí, transicionar a esto, estar menos yo en el código y con la misma idea de 
+
+Ruy  •  01:31:55
+externalizar una part del desarrollo. 
+
+Speaker 2  •  01:31:55
+externalizar una parte del desarrollo no sé si con los de se me olvidó su nombre que tuvimos un call con con ellos 
+
+Ruy  •  01:31:59
+No sé si con los de se me olvidó su nombre que tuvimos un call con. . con ellos a mí también pero sí sé quiénes o o buscar o 
+
+Speaker 2  •  01:32:12
+o buscar otras personas y sí como que identificar cuáles partes pueden ser externas 
+
+Ruy  •  01:32:14
+otras personas y si como que identificar cuáles partes pueden ser externas Y yo lo que le dije es lo ideal es empezar con lo que tenemos, sería ampliar las obras de Daniel, simplemente, que es un buen elemento. 
+
+Speaker 2  •  01:32:25
+Y yo lo que le dije es, lo ideal es empezar con lo que tenemos, sería ampliar las obras de Daniel simplemente, que es un buen. 
+
+Speaker 3  •  01:32:35
+Un buen elemento y justamente en lo de infra es donde nos faltan horas de 
+
+Ruy  •  01:32:36
+justamente en lo de infra es donde nos faltan horas de si siempre siempre si exacto o sea ahí le podríamos comprar digo no sé si este tri en cuanto hubiera dinero más horas para que arregle todo el montón de pendejadas que están por hacer 
+
+Speaker 2  •  01:32:57
+Y porque luego no es tan fácil luego cortar el producto en trozos y darle a un equipo esto, porque hay mucho que alinear y en maneras de. 
+
+Ruy  •  01:33:05
+Hay mucho que alinear y maneras de. hacer el código luego se se mezcla un poco todo es mejor dar componentes distintos como el infra o no sé 
+
+Speaker 2  •  01:33:09
+hacer el código luego se se mezcla un poco todo es mejor dar componentes distintos como el infra o no sé algún ux designer que nos haga súper templates de cómo podríamos diseñar o 
+
+Ruy  •  01:33:19
+Algún UX designer que nos haga super templates de cómo podríamos diseñar or si yo también siento que en este coincido contigo que Que está difícil particionar. Yo lo que veo, por ejemplo, ya una vez que tengamos bien definida la arquitectura, las integraciones con Teams, este etcétera, etcétera, son van a ser más eso si puede pasar pues Señor, me llegó la fruta. Ah, ¿la puedes recibir ahorita voy a apagar? Este. O sea, por ejemplo, lo que conversamos ahorita de que. No sé todas las notificaciones por Teams. Ya, una vez que entendemos cómo funciona esto y llega un cliente y lo quiere tener funcionando en Google. Pues si ya está bien hecha la arquitectura, podríamos darle esa chamba a un tercero, porque ya existe la arquitectura y posiblemente hay que hacer cambios, pero ya no son cambios. 
+
+Speaker 1  •  01:34:40
+Sí, sí, son como casi como plugins de la app, que esto sí se podría externalizar, sí. 
+
+Ruy  •  01:34:40
+Sí, sí, son como casi como plugins de la app que estos sí se podría externalizar. o los o los dashboards personales o el dashboard para un poco como ha pasado con Shamil que él lleva su ritmo y los dashboards este no están impidiendo contra ti o sí o otras partes pues pero ahorita de esto que platicamos Pues sí, sí tienes que. . Pues tenemos, no nada más tienes. Tenemos que estar ahí. Y yo hacer un montón de experimentos y prototipos que se tiren a la basura pero que nos sirvan para entender qué hay que desarrollar. 
+
+Speaker 1  •  01:35:33
+Ok, pues para ir bueno al concreto también eso de sería un buen momento si para poner algo en demo que esté presente. 
+
+Ruy  •  01:35:34
+Okay, pues para ir bueno al concreto también Eso de sería un buen momento sí para poner algo en demo que esté reciente, entonces si quieres le podemos mandar 
+
+Speaker 2  •  01:35:45
+Entonces, Si quieres le podemos mandar un mensaje para probar este flujo de testing, mandar al equipo de testing en Asana un mensaje diciéndole, oye, hagan unas pruebas en. 
+
+Ruy  •  01:35:50
+un mensaje para probar este flujo de testing mandar al equipo de testing en asana un mensaje diciéndole oye hagan unas pruebas en te parece que eso sea una de las tareas para este sprint este perfecto o sea se lo pongamos y entonces así ya 
+
+Speaker 3  •  01:36:06
+Sí, perfecto, sí, sí 
+
+Ruy  •  01:36:11
+Metemos a que Leonardo sea el dueño de eso. 
+
+Speaker 3  •  01:36:16
+Yo lo incluí al equipo de testing ayer y así. 
+
+Ruy  •  01:36:17
+Yo lo incluí al equipo de testing ayer y así Sí, que tenga la vista sobre esto también. 
+
+Speaker 1  •  01:36:23
+sí, que tenga la vista sobre esto también, sí 
+
+Ruy  •  01:36:25
+Pero que tenga y que sea el encargado, porque a mí lo que me ha pasado es que, como yo soy el como yo soy el encargado de todo y digo a todo que sí, y luego no hago las cosas y quedó mal. este entonces nisto pues aprender a y bueno y creo que creo que eso ya nos va a ir ayudando a Sí, y que ya esté que ya están reflexionando. el que tengas tu executive summary y que tengas el text to speech en demo eso no está y ya está o sea ya está listo ya está desarrollado but we haven't shipped it entonces es como si no estuviera este 
+
+Speaker 3  •  01:37:22
+Okay, entonces el planning es Thursday. 
+
+Ruy  •  01:37:22
+Entonces el plan es Thursda. 
+
+Speaker 3  •  01:37:27
+Uh creo que podré estar porque si será mi 
+
+Ruy  •  01:37:27
+Creo que podría estar porque sí será mi 
+
+Speaker 3  •  01:37:32
+Yo llego en la mañana y eso está al final del día, entonces estaré el jueves en sprint planning. 
+
+Ruy  •  01:37:33
+Yo llego en la mañana y eso está el final del día, entonces está el jueves planning. muy jodido porque si no lo movemos el viernes y mejor no bueno te confirmo en la mañana bueno en mi mañana cuando llego pero creo que está bien 
+
+Speaker 2  •  01:37:46
+Bueno, no, bueno, te confirmo en la mañana, bueno, en mi mañana cuando llego, pero creo que está bien. 
+
+Speaker 3  •  01:37:54
+Es una hora, no hay problema. 
+
+Ruy  •  01:37:56
+No vas a estar todo fumegado. Digo, si puedes, qué bueno. 
+
+Speaker 2  •  01:37:59
+Un poquito, pero bueno, voy a dormir un poco en el avión y ya está. 
+
+Ruy  •  01:38:00
+Un poquito, pero bueno, voy a dormir un poco en el avión y ya está. 
+
+Speaker 1  •  01:38:03
+Porque si no, son como dos días enteros, no puedo estar fuera de los días enteros. 
+
+Ruy  •  01:38:03
+Porque si no son como dos días enteros, no puedo. Está fuera de los 10 sentences. 
+
+Speaker 1  •  01:38:11
+Si pasa algo te aviso 
+
+Ruy  •  01:38:21
+De roadmap, este eso nos va a servir para irlo viendo con el equipo, Leonardo. Para decir esto es lo que pensamos hacer in tres meses, va por aquí, eso nos va a dar los OKRs. Y para el sprint planning, entonces continuamos con digo en lo de Teams con Shamil que se meta al thinking partner que ya se supone que ya se metió y que desarrolle un estoy pensando que desarrolle un feature que extraiga este cuál es el gold gap O sea, como los puntos claves de esa metodología, para que ya esté funcionando, entienda cómo está, debe ser un feature relativamente sencillo de desarrollar, pero para que lo tengamos ya como. y a Daniel lo metemos en a Daniel lo metemos a que desarrolle el script de install . Y esta tarea de probar este lo que extendemos se lo damos a Leonardo. Sí, entonces armo eso para tenerlo en el sprint planning, pero digo, va a ir más o menos por ahí. 
+
+Speaker 1  •  01:39:42
+Sí, me parece perfecto. 
+
+Ruy  •  01:39:54
+Bueno, pues estuvo largo pero muy productivo creo. 
+
+Speaker 1  •  01:39:57
+
+Ruy  •  01:40:00
+Sí 
+
+Speaker 1  •  01:40:03
+Tu super slides te lo exportó en pdf también. 
+
+Ruy  •  01:40:03
+Tu super slides te lo exportó en PDF también? No, lo puedo, pero puedes enviar o. 
+
+Speaker 1  •  01:40:09
+¿Me lo puedes enviar? 
+
+Ruy  •  01:40:12
+Sí, de hecho de mis super slides me di cuenta que estoy diciendo también esto en alto para que luego en la grabación lo pueda hacer. A esas necesito hacerles un ajuste de lo de goal-based development o lo que sea, porque ahí les hace falta algo en el flujo. Bueno, te lo puedo pasar ahorita mismo en el URL para que lo vayas viendo. pero voy a hacer ese cambio para para el equipo. 
+
+Speaker 1  •  01:40:49
+Okay, okay. 
+
+Ruy  •  01:40:50
+Ok. Va. ¿Cómo quieres que te pase el URL? 
+
+Speaker 1  •  01:40:55
+Bueno, o mejor cuando una vez hayas hecho el cambio, no tampoco es urgente, pero me parece interesante tener la visión completa. 
+
+Ruy  •  01:40:56
+Bueno, mejor cuando una vez hayas hecho el cambio no tampoco es urgente, pero me parece interesante tener la visión. si si no y de hecho yo creo que necesito se lo necesito platicar también a leonardo darle una vuelta a lo que me han dicho y va volverlo bajar a un documento Muy bien, sal bueno pues nos vemos entonces 
+
+Speaker 1  •  01:41:22
+Muy bien, bueno, um 
+
+Ruy  •  01:41:28
+Okay, hasta buen viaje. 
+
+Speaker 1  •  01:41:28
+Okay, hasta 
