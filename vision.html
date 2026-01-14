@@ -30,8 +30,8 @@
             background: var(--base-white);
         }
 
-        /* Navigation */
-        nav {
+        /* Top Navigation */
+        .top-nav {
             position: fixed;
             top: 0;
             left: 0;
@@ -45,25 +45,25 @@
             align-items: center;
         }
 
-        nav .logo {
+        .top-nav .logo {
             font-family: 'Montserrat Alternates', sans-serif;
             font-weight: 700;
             font-size: 1.25rem;
         }
 
-        nav .nav-links {
+        .top-nav .nav-links {
             display: flex;
             gap: 2rem;
         }
 
-        nav a {
+        .top-nav a {
             color: var(--black);
             text-decoration: none;
             font-weight: 500;
             transition: color 0.2s;
         }
 
-        nav a:hover {
+        .top-nav a:hover {
             color: var(--stoic-red);
         }
 
@@ -334,7 +334,7 @@
     </style>
 </head>
 <body>
-    <nav>
+    <nav class="top-nav">
         <div class="logo">Stoic</div>
         <div class="nav-links">
             <a href="index.html">Pitch Slides</a>
