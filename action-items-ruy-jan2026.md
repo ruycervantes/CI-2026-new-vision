@@ -1,6 +1,6 @@
 # Consolidated Action Items - Ruy (January 2026)
 
-Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes.
+Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
 
 ---
 
@@ -65,6 +65,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Q1 features (3 of 4)
   - OKRs structure
   - Dependencies
+  - **Flag Nelson's requests** (Thinkific SSO, chatbot creation) for Q2+ discussion
 
 - [ ] **Update pitch slides**
   - Add goal-based development flow (missing piece)
@@ -83,6 +84,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Write sprint stories** for Thursday
   - Shamil: Thinking Partner feature (extract goal/gap)
   - Daniel: Deployment script automation
+  - Daniel: Review/check sprint items (explicit task)
   - Leonardo: Testing → demo approval process ownership
   - Mike: Continue MS Teams notifications
 
@@ -110,6 +112,11 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Notify: Data, Nelson, Axialent
   - Who is responsible for communication?
 
+### Personal Workflow
+- [ ] **Automate task/workflow management**
+  - Review CC → Todoist automation
+  - Explore better personal task capture system
+
 ### Unshipped Features (Technical Debt)
 - [ ] **Ship voice STT** - done but not shipped
 - [ ] **Ship data features** - done but not shipped
@@ -122,6 +129,9 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Nuevos contratos para Daniel y Mike**
 - [ ] **Set up Claude-Code account for Shamil**
   - Create shared account like oas@stoic.enterprise
+- [x] **Email transition: stoic.enterprises → stoicyou.com**
+  - Transition ruy@ and others
+  - Helpdesk ticket already created for related issue
 
 ---
 
@@ -144,6 +154,27 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Dev tools discussion**
   - Linear vs Asana for development tracking
   - Asana OK for general coordination, dev can have own tool
+  - Need Portfolios feature → requires Asana Advanced
+  - See `/asana-agile` in Asana help
+
+---
+
+## Operations Requests (Nelson/Axialent)
+
+*Flag these for roadmap discussion - potential Q2+ items*
+
+### Thinkific SSO Integration
+- [ ] **Thinkific as SSO provider** (feasible, needs roadmap discussion)
+  - Access chatbot from student dashboard (not from lesson)
+  - CI shows sidebar menu with coaches
+  - "Home" link redirects back to Thinkific
+  - *Context:* Makes chatbots an element, not a learning activity
+
+### Chatbot Creation Interface
+- [ ] **Self-service chatbot creation for Axialent** (backlog)
+  - Nelson wants autonomy to create chatbots
+  - Ruy has scripts that could be automated
+  - Even basic/unpolished would help
 
 ---
 
@@ -167,6 +198,16 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 | Feature 3 vs 4 priority | Customer validation | Talk to Leo |
 | Graph memory decision | Technical prototype | Mike to explore |
 | Thinking Partner ship | Horacio testing | Schedule with Horacio |
+
+---
+
+## CI Automation Backlog
+
+*Items to track for future automation work*
+
+- [ ] **Brilliant assessments integration** - potential issue to investigate
+  - Tool where assessments are managed
+  - Needs investigation for automation possibilities
 
 ---
 
@@ -202,6 +243,8 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 - Mike meeting notes: `meeting-notes-mike-13jan2026.md`
 - Oseas meeting notes: `meeting-notes-oseas-13jan2026.md`
-- Handwritten notes: `handwritten-notes-transcription.md`
+- Handwritten notes (Jan 13): `handwritten-notes-transcription.md`
+- Handwritten notes (Jan 14): `handwritten/` folder (4 images)
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
+- Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests
