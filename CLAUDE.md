@@ -13,7 +13,7 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 ### When Updating Vision Document (`conscious-insights-v2-english.md`)
 - Vision was rewritten Jan 2026 with new structure
 - Key sections: Goal Hierarchy, Change Process, Coach/Daily Companion modes, Juan's Journey
-- Previous version archived as `conscious-insights-v2-archive.md`
+- Previous versions in `archive/vision-versions/`
 - Spanish quotes can stay as-is (team is bilingual)
 
 ### When Writing Sprint Stories or Tasks
@@ -39,14 +39,26 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 
 ## Document Map
 
+### Active Files (root)
+
 | Document | Purpose | Update Frequency |
 |----------|---------|------------------|
 | `README.md` | Command center overview | Weekly |
 | `conscious-insights-v2-english.md` | Core vision (rewritten Jan 2026) | As needed |
-| `conscious-insights-v2-archive.md` | Previous vision version | Reference only |
+| `vision.html` | HTML version of vision | When vision changes |
+| `index.html` | Pitch slides | As needed |
 | `action-items-ruy-jan2026.md` | Master task list | After every session |
-| `meeting-notes-*.md` | Meeting records | Per meeting |
-| `handwritten-notes-transcription.md` | Personal reflections | Reference only |
+
+### Archive (reference only)
+
+| Folder | Contents |
+|--------|----------|
+| `archive/vision-versions/` | Previous vision drafts |
+| `archive/meeting-notes/` | Meeting summaries and transcripts |
+| `archive/diagram-prompts/` | Prompts used to generate diagrams |
+| `archive/diagrams/` | Old diagram versions |
+| `archive/handwritten-notes/` | Transcribed personal notes |
+| `archive/unused-diagram-variants/` | Alternate diagram versions |
 
 ## Technical (Slides)
 
@@ -54,7 +66,7 @@ The pitch slides are a static HTML/CSS/JS site:
 
 - **Run locally:** Open `index.html` in browser
 - **Deploy:** Push to master → Netlify auto-deploys
-- **Diagrams:** Generated with Gemini (prompts in `diagram-prompts.md`)
+- **Diagrams:** Generated with Gemini (prompts in `archive/diagram-prompts/`)
 
 ### Brand Colors
 - Yellow: #FFD500
