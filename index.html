@@ -61,6 +61,20 @@
       color: #666;
     }
 
+    .header-link {
+      font-size: 0.85rem;
+      color: var(--black);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 2px solid var(--stoic-yellow);
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+
+    .header-link:hover {
+      background: var(--stoic-yellow);
+    }
+
     /* Main content */
     main {
       flex: 1;
@@ -255,6 +269,7 @@
     <div class="header-content">
       <div class="logo">Conscious <span>Insights</span></div>
       <div class="tagline">2026 Vision</div>
+      <a href="vision.html" class="header-link">Full Document</a>
     </div>
   </header>
 
