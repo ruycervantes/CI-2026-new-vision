@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conscious Insights - 2026 Vision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --stoic-yellow: #FFD500;
+      --stoic-red: #C9332B;
+      --stoic-gray: #E6E6E6;
+      --base-white: #FFFFFF;
+      --black: #000000;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--base-white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    header {
+      background: var(--base-white);
+      padding: 1rem 2rem;
+      border-bottom: 3px solid var(--stoic-yellow);
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--black);
+    }
+
+    .logo span {
+      color: var(--stoic-red);
+    }
+
+    .tagline {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .header-link {
+      font-size: 0.85rem;
+      color: var(--black);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 2px solid var(--stoic-yellow);
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+
+    .header-link:hover {
+      background: var(--stoic-yellow);
+    }
+
+    /* Main content */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem 2rem;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      position: relative;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Slides */
+    .slide {
+      display: none;
+      animation: fadeIn 0.4s ease-in-out;
+    }
+
+    .slide.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateX(20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    .slide-section {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--stoic-yellow);
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .slide-title {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 0.75rem;
+      color: var(--black);
+    }
+
+    .slide-title span {
+      color: var(--stoic-red);
+    }
+
+    .slide-description {
+      text-align: center;
+      color: #666;
+      margin-bottom: 1.25rem;
+      font-size: 0.95rem;
+      max-width: 750px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Navigation arrows */
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--stoic-yellow);
+      color: var(--black);
+      border: none;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      z-index: 10;
+    }
+
+    .nav-btn:hover {
+      background: #E6C200;
+      transform: translateY(-50%) scale(1.1);
+      box-shadow: 0 4px 12px rgba(255, 213, 0, 0.4);
+    }
+
+    .nav-btn.prev { left: -60px; }
+    .nav-btn.next { right: -60px; }
+
+    @media (max-width: 1200px) {
+      .nav-btn.prev { left: -30px; }
+      .nav-btn.next { right: -30px; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+      }
+      .nav-btn.prev { left: 5px; }
+      .nav-btn.next { right: 5px; }
+      .slide-title { font-size: 1.3rem; }
+      .slide-description { font-size: 0.85rem; }
+    }
+
+    /* Dots navigation */
+    .dots-container {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--stoic-gray);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .dot:hover {
+      background: #ccc;
+    }
+
+    .dot.active {
+      background: var(--stoic-yellow);
+      border-color: var(--black);
+      transform: scale(1.2);
+    }
+
+    /* Slide counter */
+    .slide-counter {
+      text-align: center;
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+      color: #999;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--base-white);
+      padding: 1rem 2rem;
+      border-top: 1px solid var(--stoic-gray);
+      text-align: center;
+    }
+
+    .footer-text {
+      color: #666;
+      font-size: 0.8rem;
+    }
+
+    /* Keyboard hint */
+    .keyboard-hint {
+      text-align: center;
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+      color: #bbb;
+    }
+
+    .keyboard-hint kbd {
+      background: var(--stoic-gray);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.7rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">Conscious <span>Insights</span></div>
+      <div class="tagline">2026 Vision</div>
+      <a href="vision.html" class="header-link">Full Document</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="slideshow-container">
+
+      <!-- Slide 1: The Problem -->
+      <div class="slide active">
+        <div class="slide-section">The Problem</div>
+        <h2 class="slide-title">Current Cycle vs <span>New Cycle</span></h2>
+        <p class="slide-description">
+          Traditional coaching works once and ends. Our iterative cycle works N times — continuous adjustment, not a one-time intervention.
+        </p>
+        <img src="diagrams/02-current-vs-new-cycle.png" alt="Current Cycle vs New Cycle comparison">
+      </div>
+
+      <!-- Slide 2: Our Model -->
+      <div class="slide">
+        <div class="slide-section">Our Model</div>
+        <h2 class="slide-title">Integrated <span>Change</span> Cycle</h2>
+        <p class="slide-description">
+          Two partners working together: the Thinking Partner builds consciousness through coaching, the Accountability Partner drives action through microhabits and follow-up.
+        </p>
+        <img src="diagrams/01-integrated-change-cycle.png" alt="Integrated Change Cycle - Thinking Partner and Accountability Partner">
+      </div>
+
+      <!-- Slide 3: The Journey -->
+      <div class="slide">
+        <div class="slide-section">The Journey</div>
+        <h2 class="slide-title">From Who I Am to <span>Who I Want to Be</span></h2>
+        <p class="slide-description">
+          Transformation isn't linear — it's a dynamic journey with setbacks, insights, and consciousness leaps. The system adapts to each person's unique path.
+        </p>
+        <img src="diagrams/05-dynamic-gap-visualization.png" alt="Dynamic Gap Visualization - transformation journey over time">
+      </div>
+
+      <!-- Slide 4: A Day in the Life -->
+      <div class="slide">
+        <div class="slide-section">A Day in the Life</div>
+        <h2 class="slide-title">Juan's <span>Typical Workday</span></h2>
+        <p class="slide-description">
+          The system integrates into Juan's existing workflow — appearing in his calendar, Teams, and email at the right moments throughout the day.
+        </p>
+        <img src="diagrams/03-juans-day-timeline.png" alt="Juan's typical workday with system interventions">
+      </div>
+
+      <!-- Slide 5: Story - Before the Meeting -->
+      <div class="slide">
+        <div class="slide-section">User Story</div>
+        <h2 class="slide-title">Before the <span>Meeting</span></h2>
+        <p class="slide-description">
+          Juan prepares for a tough conversation with contextual reminders in his calendar and phone — the system meets him where he already works.
+        </p>
+        <img src="diagrams/08-juan-day-comic-strip.png" alt="Before the Meeting - coaching through Outlook Calendar and phone">
+      </div>
+
+      <!-- Slide 6: Story - Email Response -->
+      <div class="slide">
+        <div class="slide-section">User Story</div>
+        <h2 class="slide-title">Email <span>Response</span></h2>
+        <p class="slide-description">
+          When Juan receives a challenging email, Conscious Insights appears in Outlook to help him pause and respond thoughtfully instead of reacting.
+        </p>
+        <img src="diagrams/09-email-response-comic-strip.png" alt="Email Response - Conscious Insights helps respond thoughtfully">
+      </div>
+
+      <!-- Slide 7: Story - After the Meeting -->
+      <div class="slide">
+        <div class="slide-section">User Story</div>
+        <h2 class="slide-title">After the <span>Meeting</span></h2>
+        <p class="slide-description">
+          Post-meeting reflection happens right in MS Teams. Juan tracks his progress and builds awareness through quick conversational check-ins.
+        </p>
+        <img src="diagrams/10-juan-reflection-comic-strip.png" alt="After the Meeting - reflection through MS Teams">
+      </div>
+
+      <!-- Slide 8: Architecture -->
+      <div class="slide">
+        <div class="slide-section">How It Works</div>
+        <h2 class="slide-title">Integration <span>Architecture</span></h2>
+        <p class="slide-description">
+          Four layers working together: Context Manager pulls from user's world, Structured Memory tracks their journey, unified UX across Thinking + Accountability partners.
+        </p>
+        <img src="diagrams/06-integration-architecture-stack.png" alt="Integration Architecture Stack">
+      </div>
+
+      <!-- Slide 9: Roadmap -->
+      <div class="slide">
+        <div class="slide-section">Roadmap</div>
+        <h2 class="slide-title">Feature <span>Dependencies</span></h2>
+        <p class="slide-description">
+          Building from the foundation up: Iterative Cycle → Conversational Follow-up → MS Teams Integration → Structured Memory → and beyond.
+        </p>
+        <img src="diagrams/04-feature-dependency-map.png" alt="Feature Dependency Map - build order and priorities">
+      </div>
+
+      <!-- Slide 10: Competitive Moat -->
+      <div class="slide">
+        <div class="slide-section">Why We Win</div>
+        <h2 class="slide-title">Defensible <span>Moat</span></h2>
+        <p class="slide-description">
+          Anyone can build an AI chatbot. Our moat is the complete change methodology, orchestrated behavior cycles, deep integrations, and structured user-trajectory memory.
+        </p>
+        <img src="diagrams/07-competitive-positioning-matrix.png" alt="Competitive Positioning - Easy to Replicate vs Hard to Replicate">
+      </div>
+
+      <!-- Navigation arrows -->
+      <button class="nav-btn prev" onclick="changeSlide(-1)">&#8249;</button>
+      <button class="nav-btn next" onclick="changeSlide(1)">&#8250;</button>
+    </div>
+
+    <!-- Dots -->
+    <div class="dots-container" id="dots-container"></div>
+
+    <!-- Counter -->
+    <div class="slide-counter">
+      <span id="current-slide">1</span> / <span id="total-slides">10</span>
+    </div>
+
+    <!-- Keyboard hint -->
+    <div class="keyboard-hint">
+      <kbd>←</kbd> <kbd>→</kbd> to navigate
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-text">
+      Conscious Insights — Filling the gap between <strong>learning</strong> leadership and <strong>being</strong> a leader.
+    </p>
+  </footer>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    // Generate dots dynamically
+    const dotsContainer = document.getElementById('dots-container');
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.onclick = () => goToSlide(i);
+      dotsContainer.appendChild(dot);
+    }
+    const dots = document.querySelectorAll('.dot');
+
+    function showSlide(index) {
+      if (index >= totalSlides) index = 0;
+      if (index < 0) index = totalSlides - 1;
+
+      currentSlide = index;
+
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (i === index) slide.classList.add('active');
+      });
+
+      dots.forEach((dot, i) => {
+        dot.classList.remove('active');
+        if (i === index) dot.classList.add('active');
+      });
+
+      document.getElementById('current-slide').textContent = index + 1;
+    }
+
+    function changeSlide(direction) {
+      showSlide(currentSlide + direction);
+    }
+
+    function goToSlide(index) {
+      showSlide(index);
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        changeSlide(1);
+      }
+      if (e.key === 'ArrowLeft') changeSlide(-1);
+      if (e.key === 'Home') goToSlide(0);
+      if (e.key === 'End') goToSlide(totalSlides - 1);
+    });
+
+    // Touch/swipe support
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    });
+    document.addEventListener('touchend', (e) => {
+      const diff = touchStartX - e.changedTouches[0].screenX;
+      if (Math.abs(diff) > 50) {
+        changeSlide(diff > 0 ? 1 : -1);
+      }
+    });
+
+    // Initialize
+    document.getElementById('total-slides').textContent = totalSlides;
+  </script>
+</body>
+</html>

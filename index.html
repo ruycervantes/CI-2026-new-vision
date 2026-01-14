@@ -1,473 +1,1022 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Conscious Insights - 2026 Vision</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --stoic-yellow: #FFD500;
-      --stoic-red: #C9332B;
-      --stoic-gray: #E6E6E6;
-      --base-white: #FFFFFF;
-      --black: #000000;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscious Insights - Vision for Behavior Change</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --stoic-yellow: #FFD500;
+            --stoic-red: #C9332B;
+            --stoic-gray: #E6E6E6;
+            --base-white: #FFFFFF;
+            --black: #000000;
+        }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background: var(--base-white);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--black);
+            background: var(--base-white);
+        }
 
-    /* Header */
-    header {
-      background: var(--base-white);
-      padding: 1rem 2rem;
-      border-bottom: 3px solid var(--stoic-yellow);
-    }
+        /* Top Navigation */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--base-white);
+            border-bottom: 3px solid var(--stoic-yellow);
+            padding: 1rem 2rem;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    .header-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+        .top-nav .logo {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
 
-    .logo {
-      font-family: 'Montserrat Alternates', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: var(--black);
-    }
+        .top-nav .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
 
-    .logo span {
-      color: var(--stoic-red);
-    }
+        .top-nav a {
+            color: var(--black);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
 
-    .tagline {
-      font-size: 0.85rem;
-      color: #666;
-    }
+        .top-nav a:hover {
+            color: var(--stoic-red);
+        }
 
-    .header-link {
-      font-size: 0.85rem;
-      color: var(--black);
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      border: 2px solid var(--stoic-yellow);
-      border-radius: 4px;
-      transition: all 0.2s;
-    }
+        /* Main content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 6rem 2rem 4rem;
+        }
 
-    .header-link:hover {
-      background: var(--stoic-yellow);
-    }
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 3rem 0 4rem;
+            border-bottom: 3px solid var(--stoic-yellow);
+            margin-bottom: 3rem;
+        }
 
-    /* Main content */
-    main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem 2rem;
-    }
+        .hero h1 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
 
-    /* Slideshow container */
-    .slideshow-container {
-      position: relative;
-      max-width: 1100px;
-      width: 100%;
-      margin: 0 auto;
-    }
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: #555;
+        }
 
-    /* Slides */
-    .slide {
-      display: none;
-      animation: fadeIn 0.4s ease-in-out;
-    }
+        .hero .version {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: #888;
+        }
 
-    .slide.active {
-      display: block;
-    }
+        /* Section headings */
+        h2 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 3rem 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--stoic-yellow);
+        }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateX(20px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
+        h3 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+            color: var(--black);
+        }
 
-    .slide-section {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: var(--stoic-yellow);
-      text-align: center;
-      margin-bottom: 0.5rem;
-    }
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem;
+        }
 
-    .slide-title {
-      font-family: 'Montserrat Alternates', sans-serif;
-      font-size: 1.6rem;
-      font-weight: 700;
-      text-align: center;
-      margin-bottom: 0.75rem;
-      color: var(--black);
-    }
+        /* Paragraphs */
+        p {
+            margin-bottom: 1rem;
+        }
 
-    .slide-title span {
-      color: var(--stoic-red);
-    }
+        /* Strong/emphasis */
+        strong {
+            font-weight: 600;
+        }
 
-    .slide-description {
-      text-align: center;
-      color: #666;
-      margin-bottom: 1.25rem;
-      font-size: 0.95rem;
-      max-width: 750px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.5;
-    }
+        .highlight {
+            color: var(--stoic-red);
+            font-weight: 600;
+        }
 
-    .slide img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    }
+        /* Blockquotes */
+        blockquote {
+            background: var(--stoic-gray);
+            border-left: 4px solid var(--stoic-yellow);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
 
-    /* Navigation arrows */
-    .nav-btn {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background: var(--stoic-yellow);
-      color: var(--black);
-      border: none;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      font-size: 1.5rem;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      z-index: 10;
-    }
+        blockquote p {
+            margin-bottom: 0;
+        }
 
-    .nav-btn:hover {
-      background: #E6C200;
-      transform: translateY(-50%) scale(1.1);
-      box-shadow: 0 4px 12px rgba(255, 213, 0, 0.4);
-    }
+        /* Lists */
+        ul, ol {
+            margin: 1rem 0 1.5rem 1.5rem;
+        }
 
-    .nav-btn.prev { left: -60px; }
-    .nav-btn.next { right: -60px; }
+        li {
+            margin-bottom: 0.5rem;
+        }
 
-    @media (max-width: 1200px) {
-      .nav-btn.prev { left: -30px; }
-      .nav-btn.next { right: -30px; }
-    }
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9375rem;
+        }
 
-    @media (max-width: 768px) {
-      .nav-btn {
-        width: 40px;
-        height: 40px;
-        font-size: 1.2rem;
-      }
-      .nav-btn.prev { left: 5px; }
-      .nav-btn.next { right: 5px; }
-      .slide-title { font-size: 1.3rem; }
-      .slide-description { font-size: 0.85rem; }
-    }
+        th {
+            background: var(--stoic-yellow);
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.75rem 1rem;
+        }
 
-    /* Dots navigation */
-    .dots-container {
-      display: flex;
-      justify-content: center;
-      gap: 8px;
-      margin-top: 1.25rem;
-      flex-wrap: wrap;
-    }
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            vertical-align: top;
+        }
 
-    .dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: var(--stoic-gray);
-      cursor: pointer;
-      transition: all 0.3s ease;
-      border: 2px solid transparent;
-    }
+        tr:hover td {
+            background: #fafafa;
+        }
 
-    .dot:hover {
-      background: #ccc;
-    }
+        /* Images/Diagrams */
+        .diagram {
+            margin: 2rem 0;
+            text-align: center;
+        }
 
-    .dot.active {
-      background: var(--stoic-yellow);
-      border-color: var(--black);
-      transform: scale(1.2);
-    }
+        .diagram img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
 
-    /* Slide counter */
-    .slide-counter {
-      text-align: center;
-      margin-top: 0.75rem;
-      font-size: 0.85rem;
-      color: #999;
-    }
+        .diagram-caption {
+            margin-top: 0.75rem;
+            font-size: 0.875rem;
+            color: #666;
+        }
 
-    /* Footer */
-    footer {
-      background: var(--base-white);
-      padding: 1rem 2rem;
-      border-top: 1px solid var(--stoic-gray);
-      text-align: center;
-    }
+        /* Code blocks (for architecture diagrams) */
+        pre {
+            background: #1a1a1a;
+            color: #e6e6e6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.8125rem;
+            line-height: 1.5;
+            margin: 1.5rem 0;
+        }
 
-    .footer-text {
-      color: #666;
-      font-size: 0.8rem;
-    }
+        /* Section dividers */
+        hr {
+            border: none;
+            border-top: 1px solid var(--stoic-gray);
+            margin: 3rem 0;
+        }
 
-    /* Keyboard hint */
-    .keyboard-hint {
-      text-align: center;
-      margin-top: 0.5rem;
-      font-size: 0.75rem;
-      color: #bbb;
-    }
+        /* Key insight boxes */
+        .insight-box {
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+            border: 2px solid var(--stoic-yellow);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
 
-    .keyboard-hint kbd {
-      background: var(--stoic-gray);
-      padding: 2px 6px;
-      border-radius: 3px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 0.7rem;
-    }
-  </style>
+        .insight-box strong {
+            color: var(--stoic-red);
+        }
+
+        /* Appendix styling */
+        .appendix {
+            background: #fafafa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+        }
+
+        .appendix h2 {
+            margin-top: 0;
+        }
+
+        /* Table of contents */
+        .toc {
+            background: var(--stoic-gray);
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            columns: 2;
+        }
+
+        .toc li {
+            margin-bottom: 0.5rem;
+        }
+
+        .toc a {
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            color: var(--stoic-red);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                padding: 5rem 1rem 3rem;
+            }
+
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .toc ul {
+                columns: 1;
+            }
+
+            nav .nav-links {
+                display: none;
+            }
+
+            table {
+                font-size: 0.8125rem;
+            }
+
+            th, td {
+                padding: 0.5rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            nav {
+                display: none;
+            }
+
+            main {
+                padding-top: 0;
+            }
+
+            .diagram img {
+                max-width: 80%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <div class="logo">Conscious <span>Insights</span></div>
-      <div class="tagline">2026 Vision</div>
-      <a href="vision.html" class="header-link">Full Document</a>
-    </div>
-  </header>
+    <nav class="top-nav">
+        <div class="logo">Stoic</div>
+        <div class="nav-links">
+            <a href="index.html">Pitch Slides</a>
+            <a href="vision.html">Vision Document</a>
+        </div>
+    </nav>
 
-  <main>
-    <div class="slideshow-container">
+    <main>
+        <header class="hero">
+            <h1>Conscious Insights</h1>
+            <p class="subtitle">Vision for Behavior Change</p>
+            <p class="version">January 2026</p>
+        </header>
 
-      <!-- Slide 1: The Problem -->
-      <div class="slide active">
-        <div class="slide-section">The Problem</div>
-        <h2 class="slide-title">Current Cycle vs <span>New Cycle</span></h2>
-        <p class="slide-description">
-          Traditional coaching works once and ends. Our iterative cycle works N times — continuous adjustment, not a one-time intervention.
-        </p>
-        <img src="diagrams/02-current-vs-new-cycle.png" alt="Current Cycle vs New Cycle comparison">
-      </div>
+        <nav class="toc">
+            <h3>Contents</h3>
+            <ul>
+                <li><a href="#why">1. Why This Vision</a></li>
+                <li><a href="#bet">2. The Bet</a></li>
+                <li><a href="#system">3. One System, Two Modes</a></li>
+                <li><a href="#hierarchy">4. The Goal Hierarchy</a></li>
+                <li><a href="#process">5. The Change Process</a></li>
+                <li><a href="#adjust">6. The Adjust Stage</a></li>
+                <li><a href="#juan">7. Juan's Journey</a></li>
+                <li><a href="#gps">8. The GPS Dashboard</a></li>
+                <li><a href="#q1">9. What We Build Q1 2026</a></li>
+                <li><a href="#architecture">10. Architecture</a></li>
+                <li><a href="#risks">11. Open Questions & Risks</a></li>
+            </ul>
+        </nav>
 
-      <!-- Slide 2: Our Model -->
-      <div class="slide">
-        <div class="slide-section">Our Model</div>
-        <h2 class="slide-title">Integrated <span>Change</span> Cycle</h2>
-        <p class="slide-description">
-          Two partners working together: the Thinking Partner builds consciousness through coaching, the Accountability Partner drives action through microhabits and follow-up.
-        </p>
-        <img src="diagrams/01-integrated-change-cycle.png" alt="Integrated Change Cycle - Thinking Partner and Accountability Partner">
-      </div>
+        <!-- Section 1: Why This Vision -->
+        <section id="why">
+            <h2>1. Why This Vision</h2>
+            <p>We face two problems that demand a new direction.</p>
 
-      <!-- Slide 3: The Journey -->
-      <div class="slide">
-        <div class="slide-section">The Journey</div>
-        <h2 class="slide-title">From Who I Am to <span>Who I Want to Be</span></h2>
-        <p class="slide-description">
-          Transformation isn't linear — it's a dynamic journey with setbacks, insights, and consciousness leaps. The system adapts to each person's unique path.
-        </p>
-        <img src="diagrams/05-dynamic-gap-visualization.png" alt="Dynamic Gap Visualization - transformation journey over time">
-      </div>
+            <h3>Problem 1: The Product is Vulnerable</h3>
+            <p>The current product works. It has value. Clients understand it.</p>
+            <p>But the market sees us as "a chatbot." We learned this with Sigma — an advanced client who saw us as just another tool.</p>
 
-      <!-- Slide 4: A Day in the Life -->
-      <div class="slide">
-        <div class="slide-section">A Day in the Life</div>
-        <h2 class="slide-title">Juan's <span>Typical Workday</span></h2>
-        <p class="slide-description">
-          The system integrates into Juan's existing workflow — appearing in his calendar, Teams, and email at the right moments throughout the day.
-        </p>
-        <img src="diagrams/03-juans-day-timeline.png" alt="Juan's typical workday with system interventions">
-      </div>
+            <div class="diagram">
+                <img src="diagrams/copilot-studio-coach-templates.png" alt="Microsoft Copilot Studio showing Career Coach, Learning Coach, and Meeting Coach templates">
+                <p class="diagram-caption">Microsoft Copilot Studio: One-click coach templates available to anyone</p>
+            </div>
 
-      <!-- Slide 5: Story - Before the Meeting -->
-      <div class="slide">
-        <div class="slide-section">User Story</div>
-        <h2 class="slide-title">Before the <span>Meeting</span></h2>
-        <p class="slide-description">
-          Juan prepares for a tough conversation with contextual reminders in his calendar and phone — the system meets him where he already works.
-        </p>
-        <img src="diagrams/08-juan-day-comic-strip.png" alt="Before the Meeting - coaching through Outlook Calendar and phone">
-      </div>
+            <p>The market is changing fast. Anyone with access to Claude or GPT can build a coaching chatbot with good prompting. If we stay where we are, we'll be just another one in the crowd.</p>
+            <p><strong class="highlight">We need to own the entire behavior change cycle, not just offer conversations.</strong></p>
 
-      <!-- Slide 6: Story - Email Response -->
-      <div class="slide">
-        <div class="slide-section">User Story</div>
-        <h2 class="slide-title">Email <span>Response</span></h2>
-        <p class="slide-description">
-          When Juan receives a challenging email, Conscious Insights appears in Outlook to help him pause and respond thoughtfully instead of reacting.
-        </p>
-        <img src="diagrams/09-email-response-comic-strip.png" alt="Email Response - Conscious Insights helps respond thoughtfully">
-      </div>
+            <h3>Problem 2: People Struggle to Change</h3>
+            <p>Self-development is hard. People don't naturally persist.</p>
+            <blockquote>
+                "Sigo teniendo esta impresión de que si el producto está diseñado para ayudarle a personas a que hagan un proceso de crecimiento de propia voluntad... nos pone en una situación muy vulnerable, en tanto en cuanto no es lo normal que las personas hagamos eso y que seamos consistentes."
+            </blockquote>
+            <p>Current tools track habits but don't help people ACTUALLY change. They nag when you fail instead of helping you adapt. They count streaks instead of connecting daily actions to what you really want.</p>
+            <p><strong class="highlight">We're integrating the best research on how change happens — from HCI, behavioral science, and longitudinal goal-setting studies — to build a system that actually helps people change.</strong></p>
 
-      <!-- Slide 7: Story - After the Meeting -->
-      <div class="slide">
-        <div class="slide-section">User Story</div>
-        <h2 class="slide-title">After the <span>Meeting</span></h2>
-        <p class="slide-description">
-          Post-meeting reflection happens right in MS Teams. Juan tracks his progress and builds awareness through quick conversational check-ins.
-        </p>
-        <img src="diagrams/10-juan-reflection-comic-strip.png" alt="After the Meeting - reflection through MS Teams">
-      </div>
+            <h3>Our Response</h3>
+            <ol>
+                <li>Build a system grounded in research on what makes people persist</li>
+                <li>Own the complete cycle: goals → gaps → habits → adjustment → evolution</li>
+                <li>Not just a coach that talks — a system that guides real change</li>
+            </ol>
+        </section>
 
-      <!-- Slide 8: Architecture -->
-      <div class="slide">
-        <div class="slide-section">How It Works</div>
-        <h2 class="slide-title">Integration <span>Architecture</span></h2>
-        <p class="slide-description">
-          Four layers working together: Context Manager pulls from user's world, Structured Memory tracks their journey, unified UX across Thinking + Accountability partners.
-        </p>
-        <img src="diagrams/06-integration-architecture-stack.png" alt="Integration Architecture Stack">
-      </div>
+        <hr>
 
-      <!-- Slide 9: Roadmap -->
-      <div class="slide">
-        <div class="slide-section">Roadmap</div>
-        <h2 class="slide-title">Feature <span>Dependencies</span></h2>
-        <p class="slide-description">
-          Building from the foundation up: Iterative Cycle → Conversational Follow-up → MS Teams Integration → Structured Memory → and beyond.
-        </p>
-        <img src="diagrams/04-feature-dependency-map.png" alt="Feature Dependency Map - build order and priorities">
-      </div>
+        <!-- Section 2: The Bet -->
+        <section id="bet">
+            <h2>2. The Bet</h2>
+            <p>We are going to own the behavior change cycle.</p>
+            <blockquote>
+                "Si nos quedamos como 'tenemos un chatbot de coaching', competimos con todos. Si nos posicionamos como 'somos dueños del ciclo de cambio de comportamiento', es otra conversación."
+            </blockquote>
 
-      <!-- Slide 10: Competitive Moat -->
-      <div class="slide">
-        <div class="slide-section">Why We Win</div>
-        <h2 class="slide-title">Defensible <span>Moat</span></h2>
-        <p class="slide-description">
-          Anyone can build an AI chatbot. Our moat is the complete change methodology, orchestrated behavior cycles, deep integrations, and structured user-trajectory memory.
-        </p>
-        <img src="diagrams/07-competitive-positioning-matrix.png" alt="Competitive Positioning - Easy to Replicate vs Hard to Replicate">
-      </div>
+            <h3>What is NOT Easy to Replicate</h3>
+            <ul>
+                <li><strong>The complete behavior change methodology</strong> — grounded in research, not intuition</li>
+                <li><strong>The system that orchestrates the entire cycle</strong> — not just a conversation, but goals, habits, adjustments, evolution</li>
+                <li><strong>The integrations that create real stickiness</strong> — we reach users where they already are</li>
+                <li><strong>The accumulated knowledge about what works</strong> — what interventions move people, when, how</li>
+                <li><strong>The structured memory of the user's change trajectory</strong> — not just chat history, but a model of their growth</li>
+            </ul>
+            <p><strong>That's what we're going to build.</strong></p>
+        </section>
 
-      <!-- Navigation arrows -->
-      <button class="nav-btn prev" onclick="changeSlide(-1)">&#8249;</button>
-      <button class="nav-btn next" onclick="changeSlide(1)">&#8250;</button>
-    </div>
+        <hr>
 
-    <!-- Dots -->
-    <div class="dots-container" id="dots-container"></div>
+        <!-- Section 3: One System, Two Modes -->
+        <section id="system">
+            <h2>3. One System, Two Modes</h2>
+            <p>The system has two modes — not two separate products, but two aspects of the same experience:</p>
 
-    <!-- Counter -->
-    <div class="slide-counter">
-      <span id="current-slide">1</span> / <span id="total-slides">10</span>
-    </div>
+            <div class="diagram">
+                <img src="diagrams/02-one-system-two-modes.png" alt="One System, Two Modes - Coach and Daily Companion">
+            </div>
 
-    <!-- Keyboard hint -->
-    <div class="keyboard-hint">
-      <kbd>←</kbd> <kbd>→</kbd> to navigate
-    </div>
-  </main>
+            <h3>When Each Mode Activates</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Moment</th>
+                        <th>Mode</th>
+                        <th>What Happens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Starting out</td>
+                        <td>Coach</td>
+                        <td>Set goals, understand yourself, create the plan</td>
+                    </tr>
+                    <tr>
+                        <td>Day to day</td>
+                        <td>Daily Companion</td>
+                        <td>Practice habits, track progress, check in</td>
+                    </tr>
+                    <tr>
+                        <td>Hit a setback</td>
+                        <td>Coach</td>
+                        <td>Process what happened, adjust approach</td>
+                    </tr>
+                    <tr>
+                        <td>Pattern detected</td>
+                        <td>Coach</td>
+                        <td>"You've struggled for 2 weeks. Let's talk."</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-  <footer>
-    <p class="footer-text">
-      Conscious Insights — Filling the gap between <strong>learning</strong> leadership and <strong>being</strong> a leader.
-    </p>
-  </footer>
+        <hr>
 
-  <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.slide');
-    const totalSlides = slides.length;
+        <!-- Section 4: Goal Hierarchy -->
+        <section id="hierarchy">
+            <h2>4. The Goal Hierarchy</h2>
+            <p>Persistence requires connecting daily actions to what people really want. We use a three-level hierarchy:</p>
 
-    // Generate dots dynamically
-    const dotsContainer = document.getElementById('dots-container');
-    for (let i = 0; i < totalSlides; i++) {
-      const dot = document.createElement('span');
-      dot.className = 'dot' + (i === 0 ? ' active' : '');
-      dot.onclick = () => goToSlide(i);
-      dotsContainer.appendChild(dot);
-    }
-    const dots = document.querySelectorAll('.dot');
+            <div class="diagram">
+                <img src="diagrams/01-goal-hierarchy.png" alt="Goal Hierarchy - Destination, Management, Tracking">
+            </div>
 
-    function showSlide(index) {
-      if (index >= totalSlides) index = 0;
-      if (index < 0) index = totalSlides - 1;
+            <h3>Why This Matters</h3>
+            <ul>
+                <li><strong>Destination Goals</strong> get people started — promotions, being liked, avoiding problems</li>
+                <li><strong>Management Goals</strong> keep people going — intrinsic motivation drives long-term engagement</li>
+                <li><strong>Tracking Goals</strong> make it concrete — you can't practice "be a better leader," but you can practice "ask one question before responding"</li>
+            </ul>
+            <div class="insight-box">
+                <strong>All three must be connected and visible.</strong>
+            </div>
+        </section>
 
-      currentSlide = index;
+        <hr>
 
-      slides.forEach((slide, i) => {
-        slide.classList.remove('active');
-        if (i === index) slide.classList.add('active');
-      });
+        <!-- Section 5: Change Process -->
+        <section id="process">
+            <h2>5. The Change Process</h2>
+            <p>Four stages, facilitated by Coach and Daily Companion:</p>
 
-      dots.forEach((dot, i) => {
-        dot.classList.remove('active');
-        if (i === index) dot.classList.add('active');
-      });
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stage</th>
+                        <th>Mode</th>
+                        <th>What Happens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Know Yourself</strong></td>
+                        <td>Coach</td>
+                        <td>Assessment + Debrief → understand your patterns</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Set Intrinsic Goals</strong></td>
+                        <td>Coach</td>
+                        <td>Powerful conversation → OWNED goals (not assigned)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Connect to Action</strong></td>
+                        <td>Coach → Daily Companion</td>
+                        <td>Create If-Then habit, handoff for execution</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daily Practice</strong></td>
+                        <td>Daily Companion</td>
+                        <td>Reminders, check-ins, GPS updates</td>
+                    </tr>
+                </tbody>
+            </table>
 
-      document.getElementById('current-slide').textContent = index + 1;
-    }
+            <div class="insight-box">
+                <strong>Key insight:</strong> Goals must be OWNED (from intrinsic conversation), not ASSIGNED (from assessment alone).
+            </div>
 
-    function changeSlide(direction) {
-      showSlide(currentSlide + direction);
-    }
+            <h3>If-Then Structure</h3>
+            <blockquote>
+                "IF I'm in a meeting and I want to prove I'm right, THEN I ask one question before responding."
+            </blockquote>
+        </section>
 
-    function goToSlide(index) {
-      showSlide(index);
-    }
+        <hr>
 
-    // Keyboard navigation
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowRight' || e.key === ' ') {
-        e.preventDefault();
-        changeSlide(1);
-      }
-      if (e.key === 'ArrowLeft') changeSlide(-1);
-      if (e.key === 'Home') goToSlide(0);
-      if (e.key === 'End') goToSlide(totalSlides - 1);
-    });
+        <!-- Section 6: Adjust Stage -->
+        <section id="adjust">
+            <h2>6. The Adjust Stage</h2>
+            <p>When users fail, most systems just track the failure. That doesn't help.</p>
 
-    // Touch/swipe support
-    let touchStartX = 0;
-    document.addEventListener('touchstart', (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-    });
-    document.addEventListener('touchend', (e) => {
-      const diff = touchStartX - e.changedTouches[0].screenX;
-      if (Math.abs(diff) > 50) {
-        changeSlide(diff > 0 ? 1 : -1);
-      }
-    });
+            <table>
+                <thead>
+                    <tr>
+                        <th>Don't</th>
+                        <th>Do</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Track failure ("You missed 3 days")</td>
+                        <td>Reinterpret ("What got in the way?")</td>
+                    </tr>
+                    <tr>
+                        <td>Nag ("Remember your habit!")</td>
+                        <td>Anticipate barriers ("Tough week ahead. Let's plan.")</td>
+                    </tr>
+                    <tr>
+                        <td>Create guilt</td>
+                        <td>Help learn a new skill or approach</td>
+                    </tr>
+                </tbody>
+            </table>
 
-    // Initialize
-    document.getElementById('total-slides').textContent = totalSlides;
-  </script>
+            <p>When Daily Companion detects a pattern (missed days, negative sentiment), it triggers Coach mode — not to guilt, but to help adapt.</p>
+
+            <div class="insight-box">
+                <strong>The goal is learning, not compliance.</strong>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Section 7: Juan's Journey -->
+        <section id="juan">
+            <h2>7. Juan's Journey</h2>
+            <p>Juan wants to be seen as someone people want on their team — and get promoted to team lead.</p>
+
+            <div class="diagram">
+                <img src="diagrams/04-juan-journey-map.png" alt="Juan's Journey - The Path to Team Lead">
+            </div>
+
+            <h3>The Arc</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stage</th>
+                        <th>What Happens</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Assessment + Debrief</td>
+                        <td>Discovers his "Knower" pattern</td>
+                        <td>Understands himself</td>
+                    </tr>
+                    <tr>
+                        <td>Goal Conversation</td>
+                        <td>Sets intrinsic goals with Coach</td>
+                        <td>Destination: Team Lead, Management: Leader who listens</td>
+                    </tr>
+                    <tr>
+                        <td>Habit Created</td>
+                        <td>Creates If-Then practice</td>
+                        <td>"If I want to prove I'm right → Ask a question"</td>
+                    </tr>
+                    <tr>
+                        <td>Daily Practice</td>
+                        <td>Daily Companion sends reminders, tracks progress</td>
+                        <td>GPS updates, wins logged</td>
+                    </tr>
+                    <tr>
+                        <td>Setback + Adjust</td>
+                        <td>Misses check-ins → Coach helps adapt</td>
+                        <td>New practice for stressful times</td>
+                    </tr>
+                    <tr>
+                        <td>Sustained Change</td>
+                        <td>Multiple iterations over months</td>
+                        <td>Gets the promotion</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Daily Practice in Action</h3>
+            <div class="diagram">
+                <img src="diagrams/05-juan-day-comic-phone.png" alt="Juan's Day - Daily Companion interactions">
+            </div>
+
+            <h3>When Setbacks Happen</h3>
+            <div class="diagram">
+                <img src="diagrams/07-juan-reflection-comic.png" alt="Juan's Setback - Coach helps adapt">
+            </div>
+
+            <div class="insight-box">
+                <strong>The trajectory is visible.</strong> Juan can see where he started, what he worked on, and where he is now.
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Section 8: GPS Dashboard -->
+        <section id="gps">
+            <h2>8. The Goals Dashboard (GPS)</h2>
+            <p>The user must see that each daily action moves them toward their destination. This is the "GPS" that keeps them walking.</p>
+
+            <div class="diagram">
+                <img src="diagrams/03-gps-dashboard.png" alt="GPS Dashboard - Progress visualization">
+            </div>
+
+            <h3>Key Principles</h3>
+            <ul>
+                <li><strong>Connection is visible</strong> — Every habit completion updates progress toward Destination Goal</li>
+                <li><strong>Trajectory, not just state</strong> — Shows where you started, key moments, where you are</li>
+                <li><strong>Wins are captured</strong> — Not just counts, but specific moments that mattered</li>
+                <li><strong>Next focus is clear</strong> — What you're working on now vs. what's coming</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Section 9: Q1 2026 -->
+        <section id="q1">
+            <h2>9. What We Build Q1 2026</h2>
+            <p>We have 3 months to prove this works. We'll deliver 3 of these 4 features:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Feature</th>
+                        <th>Owner</th>
+                        <th>Status</th>
+                        <th>Why It Matters</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>MS Teams Notifications</td>
+                        <td>Mike</td>
+                        <td>In progress</td>
+                        <td>Reach users where they are</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Coach Multi-Session</td>
+                        <td>Shamil</td>
+                        <td>Needs sprint story</td>
+                        <td>Enable the goal-setting conversation</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Voice Integration (TTS)</td>
+                        <td>TBD</td>
+                        <td>Needs validation</td>
+                        <td>Make check-ins more natural</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Bidirectional Teams Chatbot</td>
+                        <td>Mike</td>
+                        <td>Needs validation</td>
+                        <td>Full conversation in Teams</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="insight-box">
+                <strong>Decision needed:</strong> Feature 3 vs 4 priority → customer validation with Leo.
+            </div>
+
+            <h3>Dependencies</h3>
+            <pre>Coach Multi-Session (Shamil)
+         ↓
+Enables: Goal-setting conversation, Adjust stage
+         ↓
+MS Teams Notifications (Mike)
+         ↓
+Enables: Daily Companion reminders, check-ins
+         ↓
+Voice OR Bidirectional Chatbot
+         ↓
+Enables: More natural interactions</pre>
+
+            <h3>What's NOT in Q1</h3>
+            <ul>
+                <li>GPS Dashboard (needs the foundation first)</li>
+                <li>Full context integrations (calendar, email)</li>
+                <li>Fluid mode transitions (V1 is explicit)</li>
+                <li>Peer accountability features</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Section 10: Architecture -->
+        <section id="architecture">
+            <h2>10. Architecture</h2>
+
+            <h3>System Overview</h3>
+            <pre>┌─────────────────────────────────────────────────────────────────┐
+│                     INTEGRATED UX LAYER                          │
+│             (One system from user's perspective)                 │
+│                                                                  │
+│              ┌──────────────┬──────────────┐                     │
+│              │    COACH     │    DAILY     │                     │
+│              │    MODE      │   COMPANION  │                     │
+│              └──────────────┴──────────────┘                     │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    STRUCTURED MEMORY                             │
+│                (User's change trajectory)                        │
+│                                                                  │
+│   • Goal Hierarchy (Destination → Management → Tracking)         │
+│   • Where they started (assessment, initial gap)                 │
+│   • What they've worked on (habits, coaching sessions)           │
+│   • Key moments (setbacks, insights, wins)                       │
+│   • Current state and focus                                      │
+│                                                                  │
+│   Technical: Exploring Graphiti or similar for relationships     │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    CONTEXT MANAGER                               │
+│          (Pulls information from user's world)                   │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+              ┌───────────────┼───────────────┐
+              ▼               ▼               ▼
+         ┌─────────┐    ┌─────────┐     ┌─────────┐
+         │MS Teams │    │Calendar │     │ Email   │
+         │(Q1 2026)│    │(Future) │     │(Future) │
+         └─────────┘    └─────────┘     └─────────┘</pre>
+
+            <h3>How Architecture Maps to User Journey</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>User Stage</th>
+                        <th>System Component</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Know Yourself</td>
+                        <td>Assessment + Coach Mode</td>
+                    </tr>
+                    <tr>
+                        <td>Set Intrinsic Goals</td>
+                        <td>Coach Mode + Structured Memory (stores Goal Hierarchy)</td>
+                    </tr>
+                    <tr>
+                        <td>Connect to Action</td>
+                        <td>Coach Mode → Daily Companion handoff</td>
+                    </tr>
+                    <tr>
+                        <td>Daily Practice</td>
+                        <td>Daily Companion + Context Manager (MS Teams)</td>
+                    </tr>
+                    <tr>
+                        <td>Adjust</td>
+                        <td>Daily Companion detects pattern → Coach Mode</td>
+                    </tr>
+                    <tr>
+                        <td>View Progress</td>
+                        <td>GPS Dashboard reads from Structured Memory</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Section 11: Risks -->
+        <section id="risks">
+            <h2>11. Open Questions & Risks</h2>
+
+            <h3>Questions to Resolve</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>How to Resolve</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>How do we handle self-report bias?</td>
+                        <td>Consider peer feedback, manager input, or objective signals</td>
+                    </tr>
+                    <tr>
+                        <td>Which context integrations move the needle?</td>
+                        <td>Start with user-reported context, measure before building integrations</td>
+                    </tr>
+                    <tr>
+                        <td>What metrics show the iterative cycle works?</td>
+                        <td>% completing multiple cycles, interaction frequency, NPS</td>
+                    </tr>
+                    <tr>
+                        <td>Should we add peer accountability?</td>
+                        <td>V2 consideration — research social goal-setting</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Risks</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Risk</th>
+                        <th>Mitigation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Users don't engage with goal-setting conversation</td>
+                        <td>Make it shorter, test with real users, iterate</td>
+                    </tr>
+                    <tr>
+                        <td>Coach mode feels like "more work"</td>
+                        <td>Position as help, not homework; make it valuable</td>
+                    </tr>
+                    <tr>
+                        <td>MS Teams integration is blocked by IT</td>
+                        <td>Have fallback channels (email, web)</td>
+                    </tr>
+                    <tr>
+                        <td>We build features that don't move PMF</td>
+                        <td>Validate with Leo + customers before building</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Appendix -->
+        <div class="appendix">
+            <h2>Appendix</h2>
+
+            <h3>A. Research Foundations</h3>
+
+            <h4>Goal Hierarchy Framework</h4>
+            <p>From longitudinal goal-setting research:</p>
+            <ul>
+                <li><strong>Management Goals</strong> = The desired professional/personal state (who you want to be)</li>
+                <li><strong>Tracking Goals</strong> = The specific behaviors that move you there (what you do daily)</li>
+                <li>Persistence requires connecting tracking to management to destination</li>
+            </ul>
+
+            <h4>IIMC: Implementation Intentions + Mental Contrasting</h4>
+            <p>Two evidence-based techniques for behavior change:</p>
+            <p><strong>Mental Contrasting:</strong></p>
+            <ol>
+                <li>Visualize the desired future (Destination Goal achieved)</li>
+                <li>Contrast with current obstacles (the Gap)</li>
+                <li>Creates motivation by connecting desire to reality</li>
+            </ol>
+            <p><strong>Implementation Intentions:</strong></p>
+            <ol>
+                <li>Structure habits as "If X, then Y"</li>
+                <li>The "If" is the trigger (situation, cue, obstacle)</li>
+                <li>The "Then" is the specific action</li>
+                <li>Reduces cognitive load — you've pre-decided what to do</li>
+            </ol>
+
+            <h4>The Adjust Stage</h4>
+            <p>Research shows persistence fails not at habit formation but at barrier navigation. Effective systems:</p>
+            <ul>
+                <li>Help users <strong>reinterpret</strong> goals when they fail (not just track failure)</li>
+                <li>Help users <strong>anticipate</strong> future barriers</li>
+                <li>Help users <strong>learn new skills</strong> when current approach isn't working</li>
+            </ul>
+
+            <hr>
+
+            <h3>B. Glossary</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Definition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Destination Goal</strong></td>
+                        <td>The extrinsic outcome the user wants (promotion, being liked, avoiding problems)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Management Goal</strong></td>
+                        <td>The intrinsic mindset shift needed (be a Learner, be a Partner)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tracking Goal</strong></td>
+                        <td>The specific microhabit practiced daily</td>
+                    </tr>
+                    <tr>
+                        <td><strong>The Gap</strong></td>
+                        <td>The distance between who the user is and who they want to be</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coach</strong></td>
+                        <td>System mode for deep conversations: goal-setting, processing setbacks, evolving the plan</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daily Companion</strong></td>
+                        <td>System mode for daily practice: reminders, check-ins, progress tracking</td>
+                    </tr>
+                    <tr>
+                        <td><strong>If-Then Habit</strong></td>
+                        <td>Implementation Intention format: "If [trigger], then [action]"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>GPS Dashboard</strong></td>
+                        <td>Visual showing progress toward Destination Goal</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Adjust Stage</strong></td>
+                        <td>When user struggles, system helps reinterpret and adapt (not just track failure)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr>
+
+            <h3>C. Hypotheses to Validate</h3>
+            <p>These are bets, not facts:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hypothesis</th>
+                        <th>What We Believe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Intrinsic goal</strong></td>
+                        <td>Goals from powerful conversation (not just assessment) → more commitment</td>
+                    </tr>
+                    <tr>
+                        <td><strong>If-Then</strong></td>
+                        <td>Habits structured as Implementation Intentions → higher adherence</td>
+                    </tr>
+                    <tr>
+                        <td><strong>GPS</strong></td>
+                        <td>Daily actions visibly connected to Destination Goal → longer persistence</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Adjust</strong></td>
+                        <td>Help users learn from failure (not just track it) → sustained engagement</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Integration</strong></td>
+                        <td>Reach users where they are (MS Teams) → higher interaction frequency</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coach-triggered</strong></td>
+                        <td>System suggests Coach mode when patterns emerge → more breakthroughs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <footer style="text-align: center; padding: 2rem 0; color: #888; font-size: 0.875rem;">
+            <p>Document version: January 2026</p>
+            <p>Archive of previous version: <code>conscious-insights-v2-archive.md</code></p>
+        </footer>
+    </main>
 </body>
 </html>

@@ -39,14 +39,15 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 
 ## Document Map
 
+**Keep README.md in sync** - when updating the document map here, also update README.md (and vice versa).
+
 ### Active Files (root)
 
 | Document | Purpose | Update Frequency |
 |----------|---------|------------------|
 | `README.md` | Command center overview | Weekly |
 | `conscious-insights-v2-english.md` | Core vision (rewritten Jan 2026) | As needed |
-| `vision.html` | HTML version of vision | When vision changes |
-| `index.html` | Pitch slides | As needed |
+| `index.html` | Vision document (HTML, Netlify deployed) | When vision changes |
 | `action-items-ruy-jan2026.md` | Master task list | After every session |
 
 ### Archive (reference only)
@@ -59,14 +60,16 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 | `archive/diagrams/` | Old diagram versions |
 | `archive/handwritten-notes/` | Transcribed personal notes |
 | `archive/unused-diagram-variants/` | Alternate diagram versions |
+| `archive/index-slides-old.html` | Old pitch slides |
 
-## Technical (Slides)
+## Technical
 
-The pitch slides are a static HTML/CSS/JS site:
+The vision document is a static HTML/CSS site:
 
 - **Run locally:** Open `index.html` in browser
 - **Deploy:** Push to master → Netlify auto-deploys
 - **Diagrams:** Generated with Gemini (prompts in `archive/diagram-prompts/`)
+- **Old slides:** Archived at `archive/index-slides-old.html`
 
 ### Brand Colors
 - Yellow: #FFD500

@@ -2,7 +2,7 @@
 
 ## What This Is
 
-Strategic planning hub for Conscious Insights v2 evolution. Contains the vision, roadmap planning, meeting notes, and action items for Q1 2026.
+Strategic planning hub for Conscious Insights v2 evolution. Contains the vision, roadmap planning, and action items for Q1 2026.
 
 **Timeline:** 3 months to prove product-market fit.
 
@@ -16,18 +16,26 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 
 ---
 
-## Document Map
+## Active Files
 
 | Document | Purpose |
 |----------|---------|
 | `conscious-insights-v2-english.md` | Core vision document (rewritten Jan 2026) |
-| `conscious-insights-v2-archive.md` | Previous version (for reference) |
+| `index.html` | Vision document (HTML, Netlify deployed) |
 | `action-items-ruy-jan2026.md` | Master action list with priorities |
-| `meeting-notes-mike-13jan2026.md` | Technical roadmap, Q1 features |
-| `meeting-notes-oseas-13jan2026.md` | Strategic alignment, PMF concerns |
-| `handwritten-notes-transcription.md` | Personal reflections, process gaps |
-| `index.html` | Pitch slides (Netlify deployed) |
-| `diagrams/` | Visual assets for presentation |
+| `diagrams/` | Visual assets for vision document |
+
+## Archive
+
+| Folder | Contents |
+|--------|----------|
+| `archive/vision-versions/` | Previous vision drafts |
+| `archive/meeting-notes/` | Meeting summaries and transcripts |
+| `archive/diagram-prompts/` | Prompts used to generate diagrams |
+| `archive/diagrams/` | Old diagram versions |
+| `archive/handwritten-notes/` | Transcribed personal notes |
+| `archive/unused-diagram-variants/` | Alternate diagram versions |
+| `archive/index-slides-old.html` | Old pitch slides |
 
 ---
 
@@ -36,7 +44,7 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 | # | Feature | Owner | Status |
 |---|---------|-------|--------|
 | 1 | MS Teams Notifications | Mike | In progress |
-| 2 | Thinking Partner Multi-Session | Shamil | Needs sprint story |
+| 2 | Coach Multi-Session | Shamil | Needs sprint story |
 | 3 | Voice Integration (TTS) | TBD | Needs validation |
 | 4 | Bidirectional Teams Chatbot | Mike | Needs validation |
 
@@ -65,7 +73,7 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 |--------|------|
 | **Ruy** | PM + CTO - vision, methodology, validation |
 | **Mike** | Dev lead - Teams integration, architecture |
-| **Shamil** | Dev - Thinking Partner features |
+| **Shamil** | Dev - Coach features |
 | **Daniel** | Dev - Infrastructure, deployment |
 | **Leo** | Sales/validation - PMF process, demo approval |
 | **Horacio** | SME - Coaching methodology |
@@ -74,7 +82,7 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 
 ## Quick Links
 
-- **Pitch slides:** [Netlify deployment](https://ci-2026-vision.netlify.app) (or open `index.html`)
+- **Vision document:** [Netlify deployment](https://ci-2026-vision.netlify.app) (or open `index.html`)
 - **HCI Research:** [NotebookLM](https://notebooklm.google.com/notebook/4c0920bd-9c40-4a9b-b78a-71669e46015b)
 - **Competitor Mural:** [Mural board](https://app.mural.co/t/axialent8953/m/axialent8953/1764890677283/ad8559ddadff366460dab38357447aaeeeea02d1)
 
