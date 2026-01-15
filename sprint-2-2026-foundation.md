@@ -98,6 +98,7 @@ WEEK 2 (Jan 22-29):
 - [ ] Ask Franco for his benchmark document
 - [ ] Review MindGym, Cloverleaf positioning
 - [ ] Scan App Store for habit/behavior apps
+- [ ] Review Superhuman AI assistant: https://superhuman.com/products/go-ai-assistant
 - [ ] Write findings (1-2 pages max)
 
 ---

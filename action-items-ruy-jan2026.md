@@ -91,7 +91,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 - [ ] **Competitor benchmark** (HIGH PRIORITY) - First draft for ongoing review
   - Key competitors: MindGym, Cloverleaf
-  - Ask Franco for his benchmark document
+  - **Franco's benchmark:** https://www.notion.so/axialent/Analisis-de-competidores-247073cafffb800ca830e7d8bd740d8d
   - Review others in [Mural board](https://app.mural.co/t/axialent8953/m/axialent8953/1764890677283/ad8559ddadff366460dab38357447aaeeeea02d1)
   - Review consumer behavior change apps (App Store)
   - Check apps against goal setting theory requirements (HCI research)
