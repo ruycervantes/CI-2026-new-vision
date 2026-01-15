@@ -48,7 +48,10 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 | `README.md` | Command center overview | Weekly |
 | `conscious-insights-v2-english.md` | Core vision (rewritten Jan 2026) | As needed |
 | `index.html` | Vision document (HTML, Netlify deployed) | When vision changes |
+| `roadmap-q1-2026-draft.md` | Q1 roadmap DRAFT (needs vision review) | Until finalized |
 | `action-items-ruy-jan2026.md` | Master task list | After every session |
+| `handwritten/` | Drop zone for handwritten note photos | As needed (use `/handwritten` to process) |
+| `calls/` | Call transcripts, summaries, and analysis | After calls (use `/process-call` to process) |
 
 ### Archive (reference only)
 
@@ -97,6 +100,13 @@ The vision document is a static HTML/CSS site:
 - **Leo** - Sales, owns PMF validation and demo approval
 - **Horacio** - Coach SME, needed for methodology validation
 - **Oseas** - CEO, strategic alignment, board communication
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `/handwritten` | Transcribe handwritten notes from `handwritten/` folder and propose additions to action items |
+| `/process-call` | Deep analysis of call transcripts - creates summary, strategic analysis, and extracts action items |
 
 ## What NOT to Do
 
