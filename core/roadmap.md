@@ -1,7 +1,8 @@
 # 2026 Roadmap - Conscious Insights v2
 
+> **Purpose:** What we build and when. Guide sales conversations with Leo.
+> **See also:** [vision.md](vision.md) for methodology, [alignment.md](alignment.md) for leadership sign-off
 > **Last updated:** January 2026
-> **Purpose:** Align team on what we build and when. Guide sales conversations with Leo.
 
 ---
 
@@ -26,8 +27,8 @@ We are going to own the behavior change cycle - not just offer a coaching chatbo
 | Phase | Focus |
 |-------|-------|
 | **Q1 2026** | Prove coaching works - multi-session Coach + cyclic Daily Companion |
-| **Q2 2026** | Daily practice + feedback - transcript analysis, touchpoints, context |
-| **H2 2026** | Full experience - GPS dashboard, real-time feedback, deep integrations |
+| **Q2 2026** | Daily practice + feedback - GPS dashboard, transcript analysis, touchpoints |
+| **H2 2026** | Full experience - real-time feedback, deep integrations, peer features |
 
 ---
 
@@ -40,8 +41,9 @@ We are going to own the behavior change cycle - not just offer a coaching chatbo
 | Feature | Owner | Status | Description |
 |---------|-------|--------|-------------|
 | **MS Teams Notifications** | Mike | In progress | One-way notifications. Foundation for everything. |
-| **Coach Multi-Session** | Shamil | Needs Horacio | Coaching across sessions with memory. Tracks goals, progress, what's urgent vs planned. |
 | **Daily Companion Cyclic Flow** | Shamil | Ready to build | Loop instead of end. User can continue, modify habit, or go to Coach. |
+| **Thinking Partner: Challenge/Gap/Commitment** | Shamil + Ruy | Ready to build | Small feature: show and store challenge, gap, action plan commitment. Foundation for multi-session. |
+| **Coach Multi-Session** | Ruy (design) + Shamil (impl) | Needs Horacio | Coaching across sessions with memory. Tracks goals, progress, what's urgent vs planned. |
 | **Voice OR Bidirectional Chatbot** | TBD | Validate with Leo | Choose one based on customer pull. |
 
 ### Coach Multi-Session Details
@@ -114,26 +116,60 @@ These are done, just need deployment:
 | Calendar: Reschedule & Delete | Our internal events only, not full MS Graph |
 | Auto-naming threads | Like ChatGPT - rename after a few messages |
 
-### Q1 Success Metrics
+### Q1 Validation Experiment
+
+Q1 is about proving the thesis, not measuring at scale. We run a structured pilot to validate utility and approach.
+
+**The Experiment**
+
+| Aspect | Details |
+|--------|---------|
+| **Users** | Mix of friendly clients, Leo's pipeline, internal (TBD) |
+| **Owner** | Ruy in collaboration with Leo |
+| **Duration** | 2-3 weeks |
+| **Goal** | Validate utility and approach, not behavior change outcomes |
+
+**What we're validating:**
+
+| Principle | How We Test It |
+|-----------|----------------|
+| Multi-session Coach feels like a coach who knows you | Do users reference previous sessions? Do they feel continuity? |
+| Cyclic Daily Companion keeps people engaged | Do users loop? Do they modify habits when stuck? |
+| "Don't nag, give alternatives" works | When users struggle, do they feel supported vs. guilty? |
+| Connected goals matter | Do users see how daily actions connect to what they want? |
+
+**Signals we're looking for:**
+
+| Signal | Question |
+|--------|----------|
+| Came back | Did they use it more than day 1? |
+| Found it useful | "This helped me" vs "It's nice but..." |
+| Felt supported when stuck | "It gave me options" vs "I felt bad for failing" |
+| Would continue | "I want to keep using this" |
+
+**Sales signal:**
 
 | Metric | How to Measure |
 |--------|----------------|
-| Multi-cycle completion | % users completing 2+ coaching cycles |
-| Interaction frequency | Before/after Teams integration |
-| Goal adherence | % Tracking Goals practiced 3+ times/week |
-| Sales pipeline | New opportunities from feature demos |
-| Qualitative | "This helps me change" sentiment |
+| Features open doors | Leo tracks: conversations that shifted from "nice chatbot" to "this is different" |
+| Pipeline opportunities | New opportunities generated from feature demos |
+
+**NOT measuring yet:**
+- Actual behavior change outcomes (too early, need longer timeframe)
+- Completion rate percentages (not enough volume for statistical significance)
+- NPS scores (need more users first)
 
 ---
 
 ## Q2 2026: Daily Practice + Feedback
 
-**Goal:** Tighter integration between Coach and Daily Companion. Add feedback on real practice through transcript analysis.
+**Goal:** Tighter integration between Coach and Daily Companion. Add feedback on real practice through transcript analysis. Make progress visible through GPS Dashboard.
 
 ### Features
 
 | Feature | Description |
 |---------|-------------|
+| **GPS Dashboard** | Visual progress toward Destination Goal. Shows trajectory: where you started, key moments, where you are. Helps users see how daily actions connect to what they want. |
 | **Call Transcript Analysis** | User shares transcript, LLM analyzes against their Tracking Goal. "You asked 2 questions before responding. Here's a moment you could have paused..." |
 | **Before/After Touchpoints** | Pre-meeting: "You have a meeting with Pedro. Remember your practice." Post-meeting: "How did it go?" |
 | **Calendar Read Access (MS Graph)** | Know user's schedule to enable context-aware reminders |
@@ -162,13 +198,12 @@ These are done, just need deployment:
 
 ## H2 2026: Full Experience
 
-**Goal:** Complete the vision - GPS dashboard, real-time feedback, seamless experience.
+**Goal:** Complete the vision - real-time feedback, deep integrations, seamless experience.
 
 ### Features
 
 | Feature | Description | Notes |
 |---------|-------------|-------|
-| **GPS Dashboard** | Visual showing progress toward Destination Goal. Trajectory view: where you started, key moments, where you are. | Needs Q1+Q2 data flowing |
 | **Real-Time Feedback** | "During" meeting interventions. Feedback while practicing, not just after. | Needs exploration - technically complex, privacy implications |
 | **Full Context Integrations** | Deep calendar, email, potentially other sources | Privacy concerns, needs Context Manager architecture |
 | **Peer Accountability** | Social goal-setting features | Research needed |
@@ -192,17 +227,18 @@ Park as "needs exploration" - don't commit until researched.
 Q1 Foundation
 ├── Horacio meeting (this week) → Coach methodology
 ├── MS Teams Notifications (Mike) → Foundation for touchpoints
-├── Coach Multi-Session (Shamil) → Core differentiator
+├── Coach Multi-Session (Ruy + Shamil) → Core differentiator
 └── Leo validation → Voice vs Bidirectional decision
 
 Q2 Builds On Q1
+├── GPS Dashboard → Needs Q1 goal storage working
 ├── Calendar MS Graph → Before/After touchpoints
 ├── Transcript analysis → Requires goals in structured memory
 └── Adaptive reminders → Requires usage data from Q1
 
 H2 Builds On Q2
-├── GPS Dashboard → Needs all data flowing
-└── Real-time feedback → Needs transcript analysis foundation
+├── Real-time feedback → Needs transcript analysis foundation
+└── Full context integrations → Needs Context Manager architecture
 ```
 
 ---

@@ -10,9 +10,10 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 
 ## How to Help
 
-### When Updating Vision Document (`conscious-insights-v2-english.md`)
-- Vision was rewritten Jan 2026 with new structure
-- Key sections: Goal Hierarchy, Change Process, Coach/Daily Companion modes, Juan's Journey
+### When Updating Core Documents (`core/`)
+- **vision.md** - Methodology, user journey, system design. Key sections: Goal Hierarchy, Change Process, Coach/Daily Companion modes, Juan's Journey
+- **roadmap.md** - Q1/Q2/H2 features, dependencies, team assignments
+- **alignment.md** - Leadership sign-off, validation activities, commitments
 - Previous versions in `archive/vision-versions/`
 - Spanish quotes can stay as-is (team is bilingual)
 
@@ -41,14 +42,20 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 
 **Keep README.md in sync** - when updating the document map here, also update README.md (and vice versa).
 
-### Active Files (root)
+### Core Documents (`core/`)
+
+| Document | Purpose | Update Frequency |
+|----------|---------|------------------|
+| `core/vision.md` | Methodology, user journey, architecture | As needed |
+| `core/roadmap.md` | Q1/Q2/H2 features, dependencies, team assignments | Each quarter |
+| `core/alignment.md` | Leadership sign-off, validation activities | Per alignment meeting |
+
+### Working Files (root)
 
 | Document | Purpose | Update Frequency |
 |----------|---------|------------------|
 | `README.md` | Command center overview | Weekly |
-| `conscious-insights-v2-english.md` | Core vision (rewritten Jan 2026) | As needed |
 | `index.html` | Vision document (HTML, Netlify deployed) | When vision changes |
-| `roadmap-q1-2026-draft.md` | Q1 roadmap DRAFT (needs vision review) | Until finalized |
 | `sprint-*-2026-*.md` | Ruy's sprint focus (e.g., `sprint-2-2026-foundation.md`) | During sprint |
 | `action-items-ruy-jan2026.md` | Master task list / backlog | After every session |
 | `sprints/` | Team sprint stories (use `/sprint-stories` to create) | Before sprint planning |

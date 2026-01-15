@@ -1,5 +1,8 @@
 # Conscious Insights - Vision for Behavior Change
 
+> **Purpose:** The "what" and "why" — methodology, user journey, system design
+> **See also:** [roadmap.md](roadmap.md) for Q1-H2 features, [alignment.md](alignment.md) for leadership sign-off
+
 ---
 
 ## 1. Why This Vision
@@ -12,7 +15,7 @@ The current product works. It has value. Clients understand it.
 
 But the market sees us as "a chatbot." We learned this with Sigma — an advanced client who saw us as just another tool.
 
-![Copilot Studio Coach Templates](diagrams/copilot-studio-coach-templates.png)
+![Copilot Studio Coach Templates](../diagrams/copilot-studio-coach-templates.png)
 
 The market is changing fast. Anyone with access to Claude or GPT can build a coaching chatbot with good prompting. If we stay where we are, we'll be just another one in the crowd.
 
@@ -58,7 +61,7 @@ We are going to own the behavior change cycle.
 
 The system has two modes — not two separate products, but two aspects of the same experience:
 
-![One System, Two Modes](diagrams/02-one-system-two-modes.png)
+![One System, Two Modes](../diagrams/02-one-system-two-modes.png)
 
 ### When Each Mode Activates
 
@@ -75,7 +78,7 @@ The system has two modes — not two separate products, but two aspects of the s
 
 Persistence requires connecting daily actions to what people really want. We use a three-level hierarchy:
 
-![Goal Hierarchy](diagrams/01-goal-hierarchy.png)
+![Goal Hierarchy](../diagrams/01-goal-hierarchy.png)
 
 ### Why This Matters
 
@@ -125,7 +128,7 @@ When Daily Companion detects a pattern (missed days, negative sentiment), it tri
 
 Juan wants to be seen as someone people want on their team — and get promoted to team lead.
 
-![Juan's Journey](diagrams/04-juan-journey-map.png)
+![Juan's Journey](../diagrams/04-juan-journey-map.png)
 
 ### The Arc
 
@@ -140,11 +143,11 @@ Juan wants to be seen as someone people want on their team — and get promoted 
 
 ### Daily Practice in Action
 
-![Juan's Day](diagrams/05-juan-day-comic-phone.png)
+![Juan's Day](../diagrams/05-juan-day-comic-phone.png)
 
 ### When Setbacks Happen
 
-![Setback and Adjustment](diagrams/07-juan-reflection-comic.png)
+![Setback and Adjustment](../diagrams/07-juan-reflection-comic.png)
 
 **The trajectory is visible.** Juan can see where he started, what he worked on, and where he is now.
 
@@ -154,7 +157,7 @@ Juan wants to be seen as someone people want on their team — and get promoted 
 
 The user must see that each daily action moves them toward their destination. This is the "GPS" that keeps them walking.
 
-![GPS Dashboard](diagrams/03-gps-dashboard.png)
+![GPS Dashboard](../diagrams/03-gps-dashboard.png)
 
 ### Key Principles
 
@@ -165,45 +168,7 @@ The user must see that each daily action moves them toward their destination. Th
 
 ---
 
-## 9. What We Build Q1 2026
-
-We have 3 months to prove this works. We'll deliver 3 of these 4 features:
-
-| # | Feature | Owner | Status | Why It Matters |
-|---|---------|-------|--------|----------------|
-| 1 | MS Teams Notifications | Mike | In progress | Reach users where they are |
-| 2 | Coach Multi-Session | Shamil | Needs sprint story | Enable the goal-setting conversation |
-| 3 | Voice Integration (TTS) | TBD | Needs validation | Make check-ins more natural |
-| 4 | Bidirectional Teams Chatbot | Mike | Needs validation | Full conversation in Teams |
-
-**Decision needed:** Feature 3 vs 4 priority → customer validation with Leo.
-
-### Dependencies
-
-```
-Coach Multi-Session (Shamil)
-         ↓
-Enables: Goal-setting conversation, Adjust stage
-         ↓
-MS Teams Notifications (Mike)
-         ↓
-Enables: Daily Companion reminders, check-ins
-         ↓
-Voice OR Bidirectional Chatbot
-         ↓
-Enables: More natural interactions
-```
-
-### What's NOT in Q1
-
-- GPS Dashboard (needs the foundation first)
-- Full context integrations (calendar, email)
-- Fluid mode transitions (V1 is explicit)
-- Peer accountability features
-
----
-
-## 10. Architecture
+## 9. Architecture
 
 ### System Overview
 
@@ -256,28 +221,6 @@ Enables: More natural interactions
 | Daily Practice | Daily Companion + Context Manager (MS Teams) |
 | Adjust | Daily Companion detects pattern → Coach Mode |
 | View Progress | GPS Dashboard reads from Structured Memory |
-
----
-
-## 11. Open Questions & Risks
-
-### Questions to Resolve
-
-| Question | How to Resolve |
-|----------|----------------|
-| How do we handle self-report bias? | Consider peer feedback, manager input, or objective signals |
-| Which context integrations move the needle? | Start with user-reported context, measure before building integrations |
-| What metrics show the iterative cycle works? | % completing multiple cycles, interaction frequency, NPS |
-| Should we add peer accountability? | V2 consideration — research social goal-setting |
-
-### Risks
-
-| Risk | Mitigation |
-|------|------------|
-| Users don't engage with goal-setting conversation | Make it shorter, test with real users, iterate |
-| Coach mode feels like "more work" | Position as help, not homework; make it valuable |
-| MS Teams integration is blocked by IT | Have fallback channels (email, web) |
-| We build features that don't move PMF | Validate with Leo + customers before building |
 
 ---
 
@@ -356,5 +299,4 @@ These are bets, not facts:
 
 ---
 
-**Document version:** January 2026
-**Archive of previous version:** `conscious-insights-v2-archive.md`
+*Document version: January 2026*
