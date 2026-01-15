@@ -22,7 +22,10 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 |----------|---------|
 | `conscious-insights-v2-english.md` | Core vision document (rewritten Jan 2026) |
 | `index.html` | Vision document (HTML, Netlify deployed) |
+| `roadmap-q1-2026-draft.md` | Q1 roadmap DRAFT (needs vision review) |
 | `action-items-ruy-jan2026.md` | Master action list with priorities |
+| `calls/` | Call transcripts and summaries |
+| `handwritten/` | Drop zone for handwritten note photos |
 | `diagrams/` | Visual assets for vision document |
 
 ## Archive
@@ -39,16 +42,35 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 
 ---
 
-## Q1 2026 Priorities (Deliver 3 of 4)
+## Q1 2026 Priorities
 
-| # | Feature | Owner | Status |
-|---|---------|-------|--------|
-| 1 | MS Teams Notifications | Mike | In progress |
-| 2 | Coach Multi-Session | Shamil | Needs sprint story |
-| 3 | Voice Integration (TTS) | TBD | Needs validation |
-| 4 | Bidirectional Teams Chatbot | Mike | Needs validation |
+### Current Sprint (Jan 15-29)
+| Task | Owner | Points | Status |
+|------|-------|--------|--------|
+| MS Teams Notifications MVP | Mike | Full sprint | In progress |
+| Assessment pull button | Mike | 1 day | Ready |
+| Deployment script | Daniel | 3 pts | Starting |
+| Infra checklist | Daniel | - | Carry-over |
+| Test Leadership Growth Partner | Leo | - | Assigned |
+| Evaluate Linear vs GitHub | Ruy | - | Research |
 
-**Decision needed:** Feature 3 vs 4 priority → customer validation with Leo.
+### Definite (Build This Quarter)
+| Feature | Owner | Status |
+|---------|-------|--------|
+| MS Teams Notifications | Mike | Sprint 1 focus |
+| Thinking Partner Multi-Session | Shamil + Ruy | Needs sprint story |
+| Calendar: Reschedule & Delete | TBD | Small, validate scope |
+| Ship STT + Executive Summary | - | Already built, needs ship process |
+
+### Choose One (Validate with Customers)
+| Option A: Voice | Option B: Bidirectional Chatbot |
+|-----------------|--------------------------------|
+| Ship STT + TTS play button | Check-ins via Teams bot |
+| → Later: voice-to-voice | → Later: richer interactions |
+
+**Decision needed:** Validate with Leo which has more customer pull.
+
+See `roadmap-q1-2026-draft.md` for details (draft - needs vision review).
 
 ---
 
@@ -62,8 +84,9 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 
 ### Process Gaps
 - [ ] PMF validation system (with Leo)
-- [ ] Feature shipping process (stop orphaning features)
-- [ ] Demo environment clarity (ci.demo, bsetus.com, staging)
+- [x] Environment naming clarified: development → testing → demo → production
+- [ ] Feature shipping process documentation (Ruy to write this sprint)
+- [ ] Dev tool migration (evaluating Linear vs GitHub Projects)
 
 ---
 
@@ -88,11 +111,20 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 
 ---
 
-## Next Actions (This Week)
+## Next Actions (Post-Sprint Planning)
 
-1. **Competitor research** - habit apps with AI coaches
-2. **Roadmap document** - for Leo and sprint planning
-3. **Sprint stories** - Thursday planning deadline
-4. **Horacio interview** - coaching methodology + testing
+1. **Follow up with IT (Javier)** - get Mike Teams admin access ASAP
+2. **Document testing process** - development → testing → demo → production
+3. **Add detail to Leo's testing task** - Leadership Growth Partner
+4. **Evaluate Linear vs GitHub** - share comparison via email
+5. **Horacio interview** - coaching methodology + testing
 
 See `action-items-ruy-jan2026.md` for complete list.
+
+---
+
+## Sprint Planning Notes
+
+Latest sprint planning: **January 15, 2026**
+- Full summary: `calls/Sprint Planning 15 jan 2026 - Summary.md`
+- Strategic analysis: `calls/Sprint Planning 15 jan 2026 - Analysis.md`

@@ -1,0 +1,2217 @@
+Ruy
+Bueno, pues sí, ya ahorita que se mete Daniel, podemos empezar.
+
+Speaker 1
+So yeah, I don't know.
+
+Ruy
+Va bueno entonces aunque vienes invitado Leo ya te va a tocar un una tarea venga dame que me gusta me gusta el curro digo ahorita ahorita empezamos entonces bueno
+
+Speaker 1
+Venga. Dame que me gusta. Me gusta el curro.
+
+Ruy
+Bienvenidos, este quieren empezamos para no hacerla muy larga y que Max se pueda ir a dormir temprano. Acá no todo. Este bueno, pues empezamos como siempre checando. lo que lo que vimos la la la este un poco no tuvimos no tuvimos demo entonces este Lo vamos revisando aquí lo que está en development. Lo de Shenil pues nos tenemos que esperar a él. Daniel, ¿tú te habías quedado con esto de hacer una. . Una listita de cosas que hubiera que checar para infra. ¿Pudiste avanzarla o no? Pude solo empezarla.
+
+Speaker 2
+Pude solo empezarla, eh, tuve
+
+Ruy
+Tuve mucho del otro proyecto que traigo, tuve un poco más de demanda de lo esperado, entonces no alcancé a sacar este pendiente.
+
+Speaker 2
+Mucho del otro proyecto que traigo tuve un poco más de demanda de lo esperado, entonces no alcancé a sacar este pendiente.
+
+Ruy
+Sí, me concentré en lo de PG, que fue lo más urgente que vi, lo más prioritario que vi en las listas, en las tareas que traía.
+
+Speaker 1
+Sí, me concentré en lo de PG, que fue lo más urgente que vi, lo más prioritario que vi en las listas, en las tareas que traía.
+
+Ruy
+Bueno, pues lo dejamos como algo para que completes en este siguiente hora.
+
+Speaker 1
+Uh-huh.
+
+Ruy
+Este I don't know. Entonces esta parte de la clarificación del onboarding Para PG. Sí, eso ya fue en esencia lo que lo que mandé en el correo de anoche.
+
+Speaker 3
+si eso eso ya fue en esencia lo que lo que mandé en el correo de anoche
+
+Ruy
+Ajá. No sé si ya pudiste leerlo.
+
+Speaker 3
+No sé si ya pudiste leerlo.
+
+Ruy
+No. Este aunque
+
+Speaker 3
+Este. Ah, ok.
+
+Ruy
+En resumidas cuentas, todo el proceso depende del Excel, de la lista de usuarios, para darlos de alta en Siquifil.
+
+Speaker 3
+En resumidas cuentas, todo el proceso depende del Excel, ese que, desde la lista de usuarios, para darlos delta en Psikifili.
+
+Ruy
+Con el proceso actual no se requiere hacer ningún ningún ajuste en el middlewall
+
+Speaker 3
+Con el proceso actual no se requiere hacer ningún ajuste en el middlewall.
+
+Ruy
+Y el ajuste acá del caso de lo que me pedía esa noche del grupo, específicamente todo eso viene del lado de EPG.
+
+Speaker 3
+Y el ajuste acá del caso de lo que me pedía esa noche del grupo, específicamente todo eso viene del lado de PG.
+
+Ruy
+Entonces ellos son los que simplemente van a filtrar si el usuario puede o no puede acceder a la aplicación y en ese sentido no se necesita ningún tipo de ajuste en Scientific o en el middleware.
+
+Speaker 3
+Entonces ellos son los que simplemente van a filtrar si el usuario puede o no puede acceder a la aplicación y en ese sentido no se necesita ningún tipo de ajuste en Scientific o en el middleware.
+
+Ruy
+Donde sí se va a necesitar es por en el asunto de que el flujo que usa ahorita en el SON depende completamente de ese archivo y vamos a tener que entonces automatizar la parte de asignación de cursos.
+
+Speaker 3
+Donde sí se va a necesitar es por en el asunto de que el flujo que uso ahorita en el SOM depende completamente de ese archivo y vamos a tener que entonces automatizar la parte de asignación de cursos.
+
+Ruy
+Entonces esa parte de asignación de cursos automática es lo que va a tener que cambiar ahora que quiera usar el grupo.
+
+Speaker 3
+Entonces esa parte de asignación de cursos automática es lo que va a tener que cambiar ahora que quiera usar el grupo.
+
+Ruy
+Okay. Pregunta que es eh P Proctor and Gamble.
+
+Speaker 4
+pregunta qué es pi ah, vale
+
+Ruy
+Ah vale. Sí vale y que hay que hacer hay que dar de alta usuario de manera masiva lo hace ahorita de manera masiva con un excel de nelson
+
+Speaker 4
+vale y que hay que hacer hay que dar de alta usuario de manera masiva lo hace ahorita de manera masiva con un excel de nelson
+
+Ruy
+Pero ahora con algo que implementamos para que ellos puedan usar su solución de SCO, ahora nosotros vamos a
+
+Speaker 3
+Pero de ahora con algo que implementamos para que ellos puedan usar su solución de SCO. Ahora nosotros vamos a tener que implementar una automatización del lado de Synkific para dar de alta a los usuarios.
+
+Ruy
+Vamos a tener que implementar una automatización de lado de Synkific para dar de alta a los usuarios, no de manera masiva, sino conforme se vayan conectando.
+
+Speaker 3
+No de manera masiva, sino conforme se vayan conectando.
+
+Speaker 4
+Vale. Vale.
+
+Ruy
+¿Ustedes le hicieron una capa de autenticación por sobre lo que ofrece TinkyFig para que sea autenticación propia de.
+
+Speaker 4
+¿Ustedes le hicieron una capa de autenticación por sobre lo que ofrece TinkyFig para que sea autenticación propia de.
+
+Ruy
+. de pg si ellos usan ping pero la forma en que están enviando los campos del lado de ping hacia cinquific
+
+Speaker 4
+.
+
+Speaker 3
+de pg si ellos usan ping pero la forma en que están enviando los campos del lado de ping hacia thinkific
+
+Ruy
+no hacía match con lo que es para Basin Kiffing, que ellos sí usan el OpenID estándar.
+
+Speaker 3
+No hacía match con lo que es para Basin Kiffing, que ellos sí usan el OpenID estándar.
+
+Ruy
+Entonces tuvimos que hacer ese middleware que básicamente es un traductor.
+
+Speaker 2
+Entonces tuvimos que hacer ese middleware que básicamente es un traductor.
+
+Ruy
+Bueno, entendí un skip sencillito.
+
+Speaker 2
+Vale, entendido.
+
+Ruy
+Este Bueno, pues a ver cómo nos voy a pronto hay que hablar con Nelson acerca de eso. Sí. Este. Para darle respuesta Y yo siento que si gestionáramos todo desde y como se llama desde work o es podríamos tener todo esto más bajo control pues Fíjate que en realidad no hace diferencia porque terminas donde mismo, que significa el trabajo de dar de asignarle el curso al usuario.
+
+Speaker 2
+Fíjate que en realidad no hace diferencia porque terminas donde mismo, que sin quifica el trabajo de asignarle el curso al usuario.
+
+Ruy
+Entonces ahorita ahorita como estamos, en realidad WorkOS no hace mucho.
+
+Speaker 1
+Entonces ahorita ahorita como estamos en realidad WordCoS no hace mucho.
+
+Ruy
+No, a lo que voy es, si haces la integración entre Thinkific y WorkOS lo haces una vez y ya lo haces para todos los clientes. Ah, en ese sentido sí.
+
+Speaker 1
+Ah, en ese sentido, sí, sí.
+
+Ruy
+En ese sentido. pero bueno habría que qué tipo de feedback tenemos del equipo de soporte de TikiFick bien
+
+Speaker 1
+¿Qué tipo de feedback tenemos del equipo de soporte de Tiki Fick? Bien.
+
+Ruy
+en términos de que leo perdón de soporte cuando necesitan algo de cambiada es bueno sí sí nomás pues este
+
+Speaker 1
+de soporte cuando necesitan algo de cambiar si
+
+Ruy
+tiene muchas limitaciones que ya le hemos estado encontrando y hemos hablado varias veces que si necesitamos otra otra solución no sé o sea tenemos que revisarlo contra un contra el roadmap Ok. ¿Y dónde ven la fricción más grande ahí con ellos?
+
+Speaker 1
+Ok. ¿Y dónde ven la fricción más grande? Ahí con ellos.
+
+Ruy
+Para mí es que. Este, pues tiene como una estructura de cursos muy específica. y si queremos que nuestro o sea si queremos ser un producto más standalone o sea más allá de ser un un chatbot que se mete adentro de un curso es donde vemos donde yo veo la la la mayor limitante este Okay, o sea, si quisiéramos hacer crear un curso
+
+Speaker 5
+Ok.
+
+Speaker 1
+O sea, si quisiéramos hacer crear un curso.
+
+Ruy
+y meter dentro del curso solo la actividad llamémosle así porque es un LMS no solo la actividad del chat no podríamos si se puede
+
+Speaker 1
+y meter dentro del curso solo la actividad, llamémosle así porque es un LMS, ¿no? Solo la actividad del chat no podríamos, dices.
+
+Ruy
+Pero, por ejemplo, si quieres tener un acceso directo en el curso, este. si quieres tener como una especie de tablero de entrada o sea como que hay algunos hacks que he hecho nelson para para arreglar un poco el ux pero al final de cuentas todo queda dos o tres clics en lugar de quedar a uno este o sea son son varias cosas así pero pero no bueno no sé cómo lo ve como lo ven ustedes no es algo crítico digamos entiendo que es mejor hablar experiencia pero
+
+Speaker 1
+pero pero no bueno no sé cómo lo cómo lo ven ustedes no no es algo crítico digamos entiendo que es mejorable la experiencia pero
+
+Ruy
+No, no es algo crítico y va a depender mucho de hacia dónde queremos llevar el producto.
+
+Speaker 1
+Pero no, no, no.
+
+Ruy
+O sea, como que. para para por ejemplo la la la visión que les compartí yo creo que ahí Nos tenemos un poco que. . bueno de hecho no lo he pensado bien, pero. Pero mi impresión es que dependiendo de cómo vayamos vendiendo las cosas, pero si empezamos a tener más tracción de ventas y cerrar más cosas. yo y sobre todo más interés en de los clientes en que les entreguemos algo más que un curso este yo empezaría a pensar en cambiarlo pero hay que pensarlo muy bien pues no es un cambio la ligera
+
+Speaker 1
+claro, sí,
+
+Ruy
+Entonces, Daniel, como hemos hablado Este sprint pues la idea es que ya ahora si te concentras en hacer el deployment script a ver y déjame ver si si está bien escrito que podamos crear este client specific environments custom environments for experimental branches este que haga el pool del branch de git específico y lo deployé en el environment que tenga el soporte para Docker containers. este los litres de aceptación que podamos crear nuevos clientes on demand a ver Nuevos environments from any branch, folder correct branch, support Docker container, plain installation y documentation on how to use the script. Este y lo primero que no puse aquí es que funcione para Este consults insights main up, este admin up Y se llama Analytics
+
+Speaker 1
+De cada instancia tiene que tener esas tres
+
+Ruy
+Sí, esta pa la de analytics. Analytics está separado de.
+
+Speaker 1
+Analytics está separado de sí.
+
+Ruy
+Analytics está separado, pero pensemos un segundito esto. Analytics está. Ahorita analytics está en un no, analytics no porque lo tenemos que tenemos que resolver varias cosas antes de meterlo en la lúpiz
+
+Speaker 1
+Fun things
+
+Ruy
+Para darle a Leo un poco de background, hasta ahora lo que hacemos is hacerlo todo a mano.
+
+Speaker 5
+Para darle a Leo un poco de background. Hasta ahora lo que hacemos es hacerlo todo a mano.
+
+Ruy
+Entonces ahí está documentado una serie de
+
+Speaker 5
+Entonces ahí está documentado, hay una serie de.
+
+Ruy
+no sé 15 veinte acciones conectar de aquí hacer un pool generar un certificado configurar dns subdominio bla bla bla todo esto
+
+Speaker 6
+no sé 15 20 acciones conectarte aquí hacer un pool generar un certificado configurar dns subdominio bla bla bla todo esto
+
+Ruy
+y la idea es crear un DB, la idea es automatizar esta parte porque nos toma tiempo y a veces hay que sacar instancias muy rápida muy rápido.
+
+Speaker 6
+Y la idea es crear un DB, la idea es automatizar esta parte porque nos toma tiempo y a veces hay que sacar instancias muy rápida, muy rápido.
+
+Ruy
+por eso levanté la mano la parte de DB es importante también que genere un db para la instancia
+
+Speaker 6
+por eso levanté la mano ruiz el la parte de div es importante también que genere un div para la instancia
+
+Ruy
+¿Es una tabla?
+
+Speaker 6
+es una tabla o es una base de datos completa no es una base de datos completa ok
+
+Ruy
+¿O es una base de datos completa? No, es una base de datos completa. Ok. las instancias de clientes están aisladas entre ellas tienen cada una su base de datos
+
+Speaker 6
+Las instancias de clientes están aisladas entre ellas o tienen cada una su base de datos.
+
+Ruy
+Y las instancias de experimentos o de testing pueden estar todas creo en la base dev, se llama app, creo.
+
+Speaker 6
+Y las instancias de experiments o de testing pueden estar todas creo en la base dev o la se llama app creo
+
+Ruy
+I bet this is a script, sí, for uh specific ¿Estás usando ya un formato en particular para nombrarlos, Mike?
+
+Speaker 2
+¿Estás usando ya un formato en particular para nombrarlos, Mike?
+
+Ruy
+Para, perdón.
+
+Speaker 7
+Para, perdón.
+
+Ruy
+¿Estás usando algún formato en específico para nombrar la base de datos del cliente?
+
+Speaker 3
+¿Estás usando algún formato en específico para nombrar la base de datos del cliente?
+
+Ruy
+No creo que es simplemente el mismo nombre que el subdominio.
+
+Speaker 6
+No creo que es simplemente el mismo nombre que el subdominio.
+
+Ruy
+Okay. So basically eliminate cliente.
+
+Speaker 6
+Okay. O sea, básicamente el nombre del cliente.
+
+Ruy
+Okay.
+
+Speaker 2
+Okay.
+
+Ruy
+Pero si quieres
+
+Speaker 6
+Pero si quieres.
+
+Ruy
+Sí.
+
+Speaker 6
+Sí. Sí, sería bueno.
+
+Ruy
+Dale, perdón, perdón.
+
+Speaker 4
+Dale, perdón, perdón.
+
+Ruy
+No, no, que es cuando usamos el nombre del cliente, que luego sea lo mismo en toda la cadena, ¿no?
+
+Speaker 6
+No, no, que es cuando usamos el nombre del cliente, que luego sea lo mismo en toda la cadena, ¿no?
+
+Ruy
+su dominio para que sea claro.
+
+Speaker 6
+De DB. su dominio para que sea claro.
+
+Ruy
+Déjenme compartirles una experiencia que tuvimos no tan agradable.
+
+Speaker 4
+Déjenme compartirles una experiencia que tuvimos no tan agradable.
+
+Ruy
+haciendo esto mismo los dominios como telus.
+
+Speaker 4
+haciendo esto mismo los dominios como telus.
+
+Ruy
+nosotros teníamos el Slack al final
+
+Speaker 4
+nosotros teníamos el Slack al final
+
+Ruy
+pero al final era un poco lo mismo un subdominio nos pasó que trabajamos con el cuál era bueno un banco
+
+Speaker 4
+Pero al final era un poco lo mismo, un subdominio. Nos pasó que trabajamos con el, ¿cuál era? Bueno, un banco.
+
+Ruy
+y pones el nombre del banco en un sitio web que tenga un login y es un posible phishing y fraude que te banea, nos banearon toda la aplicación
+
+Speaker 4
+y pones el nombre del banco en un sitio web que tenga un login y es un posible phishing y fraude que te banea, nos banearon toda la aplicación
+
+Ruy
+¿Vale? Digo para que lo tengamos en cuenta, porque cuando el nombre de un banco no es el oficial y está en el fucking URL,
+
+Speaker 4
+vale digo para que lo tengamos en cuenta porque cuando el nombre de un banco no es el oficial y está en el fucking url
+
+Ruy
+y tiene un login por sistema de monitoring o no sé qué detecta que hay un login
+
+Speaker 4
+y tiene un login por sistema de monitoring o no sé qué, detecta que hay un login y un nombre de un banco que no es el oficial y
+
+Ruy
+y un nombre de un banco que no es el oficial y a nosotros nos banearon, no entendíamos ni de dónde venía el problema, pero para que lo tengamos en cuenta si es que existe alguna manera de cuando es un banco
+
+Speaker 4
+Y a nosotros nos banearon, no entendíamos ni de dónde venía el problema, pero para que lo tengamos en cuenta si es que existe alguna manera de cuando es un banco
+
+Ruy
+hacer algo distinto solo a modo de experiencia lo comparto que fue nos dolió bastante la cabeza poner todo de nuevo en marcha nos llegó un día
+
+Speaker 4
+hacer algo distinto, solo a modo de experiencia lo comparto, porque nos dolió bastante la cabeza poner todo de nuevo en marcha, nos llegó un día
+
+Ruy
+Credit Court no es un banco, así que se afasa ahí.
+
+Speaker 4
+Credit Corp no es un banco, así que esa FAS ahí.
+
+Ruy
+Pues es un grupo financiero, pero no es un banco, sí Claro, pero en este caso es un banco tipo home banking para que no simule un home banking, que es el nombre del banco y tiene un login.
+
+Speaker 4
+Claro, pero en este caso es un banco tipo home banking para que no simule un home banking, que este es el nombre del banco y tiene un login.
+
+Ruy
+eso es lo que nos si quieren por si existe alguna manera de de dejar documentado de cuando es un banco no sé pero les comento que es complejo
+
+Speaker 4
+Eso es lo que nos, si quieren, por si existe alguna manera de dejar documentado de cuando es un banco, no sé. Pero les comento que es complejo.
+
+Ruy
+de el baneo de donde dónde vino en google o a qué nivel fue no va creo que a ws
+
+Speaker 3
+de el baneo de donde dónde vino en google o a qué nivel fue no nos va creo que a ws
+
+Ruy
+Ah, ok.
+
+Speaker 3
+Ah, ok.
+
+Ruy
+Sí, sí, nos tiró todo.
+
+Speaker 4
+Sí, sí, nos tiró todo.
+
+Ruy
+Además nos tiró toda la aplicación, la de todos los clientes, tiró abajo.
+
+Speaker 4
+Además nos tiró toda la aplicación, la de todos los clientes, tiró abajo.
+
+Ruy
+Sí.
+
+Speaker 3
+Sí.
+
+Ruy
+No solo ese dominio.
+
+Speaker 4
+No solo ese dominio.
+
+Ruy
+Luego entendimos por dónde venía, nos llevó mucho dolor de cabeza y un par de días.
+
+Speaker 4
+Luego entendimos por dónde venía, nos llevó mucho dolor de cabeza y un par de días.
+
+Ruy
+descubrir que era porque por esto.
+
+Speaker 4
+descubrir que era porque por esto.
+
+Ruy
+Son políticas de seguridad que no puede haber un login diferente
+
+Speaker 4
+Son políticas de seguridad que no puede haber un login diferente.
+
+Ruy
+Entonces, ¿qué es lo que implementamos?
+
+Speaker 4
+Entonces, ¿qué es lo que implementamos?
+
+Ruy
+Nosotros teníamos el dominio personalizado.
+
+Speaker 4
+Nosotros teníamos el dominio personalizado.
+
+Ruy
+Si es un subdominio del banco oficial, sí se puede.
+
+Speaker 4
+Si es un subdominio del banco oficial, sí se puede.
+
+Ruy
+¿Se entiende?
+
+Speaker 4
+¿Se entiende?
+
+Ruy
+Si la raíz es el la URL oficial, pero bueno, ya eso es un chino porque el banco nunca le gusta eso, tener sobre la raíz de los niños.
+
+Speaker 4
+Si la raíz es el la URL oficial, pero bueno, ya eso es un chino porque el banco nunca le gusta eso, tener sobre la raíz del dominio.
+
+Ruy
+Pero bueno
+
+Speaker 4
+Pero bueno.
+
+Ruy
+No quiero venir a poner mala onda, pero simplemente para que tengamos en cuenta que si es un banco, ponerle otro nombre o no sé.
+
+Speaker 4
+No quiero venir a poner mala onda, pero simplemente para que tengamos en cuenta que si es un banco, ponerle otro nombre o no sé.
+
+Ruy
+si como si fuera nubank en lugar de poner nubank.
+
+Speaker 3
+si como si fuera nubank en lugar de poner nubank.
+
+Ruy
+stockyu. com a lo mejor nb y ya por ejemplo que no se dé ajá ok
+
+Speaker 3
+stockyw. com a lo mejor nb y ya por ejemplo que no se dé ajá ok
+
+Ruy
+Y Daniel, ¿habría una manera de que solo tengamos, por ejemplo, app.
+
+Speaker 3
+Claro.
+
+Speaker 6
+Y Daniel, ¿habría una manera de que solo tengamos, por ejemplo, app.
+
+Ruy
+storycue.
+
+Speaker 6
+storyq.
+
+Ruy
+com y que luego todo se haga por.
+
+Speaker 6
+com y que luego todo se haga por.
+
+Ruy
+por el login ya que estamos usando workwise que el login luego conecte con
+
+Speaker 6
+por el login ya que estamos usando work o es el que el login luego conecte con
+
+Ruy
+Que te redirija la instancia que te corresponde, en teoría debemos de poder sin mucho problema,
+
+Speaker 3
+las dije a la instancia que te corresponde en teoría le vemos de poder sin mucho problema
+
+Ruy
+Al final del día el mismo WordQuest podría detectar a qué proyecto está asociado.
+
+Speaker 3
+porque al final del día el mismo WordOS podría detectar a qué proyecto está asociado sería algo que revisar pero yo creo que sí se puede maldad
+
+Ruy
+Si le hago que revisar, pero yo creo que sí se puede. ¿Male? y si no está asociado a ningún proyecto se bloquea el acceso sería el default el comportamiento default vale vale vale
+
+Speaker 4
+¿Y si no está asociado a ningún proyecto?
+
+Speaker 3
+Se bloquea el acceso. Sería el default, el comportamiento default. Vale, vale, vale.
+
+Ruy
+Sí, igual, igual que en Linux, primero niegas y luego no permites.
+
+Speaker 3
+Sí, igual igual que en Linux, primero niegas y luego no como permites.
+
+Ruy
+Muy bien.
+
+Speaker 4
+Muy bien.
+
+Ruy
+Claro, en nuestro caso era un poco distinto porque la aplicación estaba abierta para aquellos que no estaban logueados.
+
+Speaker 4
+Claro, en nuestro caso era un poco distinto porque la aplicación estaba abierta para aquellos que no estaban logueados.
+
+Ruy
+No tenían registro, pero bueno.
+
+Speaker 4
+No tenían registro, pero bueno.
+
+Ruy
+Sí, creo que sí ya se puede.
+
+Speaker 6
+Sí, creo que sí ya es que en B2B hay menos riesgo porque estas URLs no están en Google o son privadas.
+
+Ruy
+Hay menos riesgo porque estas URLs no están en Google o son prevales. Ah, de hecho, no me acuerdo, Mike.
+
+Speaker 3
+Ah, de hecho, no me acuerdo, Mike.
+
+Ruy
+¿Tenemos un robots que diga que no nos indexen?
+
+Speaker 3
+¿Tenemos un robot que diga que no nos indexen?
+
+Ruy
+Ok, entonces creo que eso es algo que tenemos que implementar.
+
+Speaker 3
+Ok, entonces creo que eso es algo que tenemos que implementar.
+
+Ruy
+El robot sí el otro que no me acuerdo cómo se llama para los motores de búsqueda de inteligencia artificial, que es diferente.
+
+Speaker 3
+Sí. El robot y el otro que no me acuerdo cómo se llama para los motores de búsqueda de inteligencia artificial, que es diferente.
+
+Ruy
+L9 from OLED. y Mike, tú me decías que lo hacían manualmente y qué proveedor de certificados usan porque usan uno gratuito este que tiene límite los dos
+
+Speaker 4
+Y Mike, tú me decías que lo hacían manualmente y qué proveedor de certificados usan porque usan uno gratuito.
+
+Speaker 6
+este que tiene límite los dos que es que que compraron ruiz el no me acuerdo del de la empresa pero hay uno
+
+Ruy
+¿Crees que compraron Rui el no me acuerdo del de la empresa? Pero hay un.
+
+Speaker 3
+y es viene el certificado es de Certigo al final del día y ahorita tenemos dos certificados que son igual card
+
+Ruy
+El certificado es de Certigo al final del día. Y ahorita tenemos dos certificados que son igual card. para cubrir todos los subdominios en primer nivel, claro, vale
+
+Speaker 3
+para cubrir todos los subdominios en primer nivel bueno
+
+Ruy
+And to the same thing.
+
+Speaker 6
+Confirmo que en Google sale solo sale solo la web. Estoy aquí.
+
+Ruy
+No entendí nada.
+
+Speaker 3
+Sí, no entendí nada.
+
+Ruy
+A ver, Mike.
+
+Speaker 3
+A ver, Mike.
+
+Ruy
+Perdón, perdón. No confirmo que cuando haces un search site Stoic U en Google sale solo la web de Stoic.
+
+Speaker 6
+Perdón, perdón. No confirmo que cuando haces un search site Stoic U en Google sale solo la web de Stoic.
+
+Ruy
+Ah, genial.
+
+Speaker 6
+Ah, genial.
+
+Ruy
+Entonces están bloqueados, pero vale la pena confirmar.
+
+Speaker 1
+Entonces están bloqueados, pero vale la pena confirmar. En fin, confirmar.
+
+Ruy
+Aquí lo puse como parte de. y aquí le puse una notita que documentes que hay un warning en algún momento preguntes bueno entonces creo que esta tarea ya está como cuánto tiempo estimas que te va a llevar es que esto no lo hemos puesto nunca y nos vamos sería el este sería el el el story como es que se llama lo que está poniendo ahí story point los story points
+
+Speaker 1
+sería el este sería el story como es que se llama lo que está poniendo ahí es story point eso no
+
+Ruy
+Pero pongamos dos días
+
+Speaker 1
+Okay.
+
+Ruy
+Pues yo pienso que sí me lleva todo el equivalente al a un sprint y si no es que a un ciclo, o sea, al mes completo.
+
+Speaker 2
+Pues yo pienso que sí me lleva todo el equivalente al a un sprint, a un sprint y si no es que a un ciclo, o sea, al mes completo.
+
+Ruy
+Digo, porque no le dedico todo los días, todo el día, pues.
+
+Speaker 2
+Digo, porque no le dedico todo todos los días, todo el día, pues.
+
+Ruy
+A ver, pero un. . Sí, pero un stream. Tú tienes. ¿Cuántas horas en la semana son? Son 20 años.
+
+Speaker 2
+Son como
+
+Ruy
+¿En cuántas quedamos?
+
+Speaker 2
+en cuántas quedamos creo que si no me acuerdo ahorita tengo que checar el documento este mira
+
+Ruy
+Creo que sí, no me acuerdo ahorita. Tengo que checar el documento. este mira poniéndolo en horas a ver déjame checar todo déjame abrir a sano para ver el contenido completo
+
+Speaker 3
+poniéndolo en horas a ver déjame checar todo déjame abrir a sana para ver el contenido completo
+
+Ruy
+Porque ya hay un avance, creo que aquí lo más tardado no es tanto el hacer el Steve que ya está hecho en buena medida, es más bien casi todo son pruebas.
+
+Speaker 3
+Porque ya hay un avance. Creo que aquí lo más tardado no es tanto el hacer el script que ya está hecho en buena medida. Es más bien casi todo son pruebas.
+
+Ruy
+y agregarlo de docker es lo más lo diferente vamos de lo que ya se tiene es tracen a deployment
+
+Speaker 2
+y agregarlo de docker es lo más lo diferente vamos de lo que ya se tiene es tracen a deployment
+
+Ruy
+Uy, yo tengo acceso a este tablero, ¿no?
+
+Speaker 1
+Rubi, yo tengo acceso a este tablero, ¿no?
+
+Ruy
+Sí.
+
+Speaker 1
+Vale.
+
+Ruy
+Sí, ya, te puse. Ah, aquí está, aquí está.
+
+Speaker 1
+Ah, aquí está, aquí está.
+
+Ruy
+Sí, sí, sí, sí. Ya lo tengo otros.
+
+Speaker 1
+Sí, sí, sí, sí, sí. Ya lo tengo otro.
+
+Ruy
+Ok.
+
+Speaker 1
+Ok.
+
+Ruy
+Sí, yo pienso que unas.
+
+Speaker 1
+Sí, yo pienso que el equivalente a unas 12 horas más o menos.
+
+Ruy
+. el equivalente a unas 12 horas más o menos. Entonces eso es, le voy a poner uno punto cinco días.
+
+Speaker 1
+Okay.
+
+Ruy
+sube a dos es que se supone que si tiene que ser tendría que ser la tabla de puntos
+
+Speaker 1
+Ah, te sube a dos. Es que se supone que sí tienen que ser, que tendría que ser la tabla de puntos.
+
+Ruy
+bueno está de hecho sí de hecho una de las cosas que quería hablar con usted bueno ahorita con esto ya lo lo cerramos no porque a ver y de esto de el house pick keeping eso te debe de llevar poquito no me ayudía si yo pienso que sí mira te comparto el ay no lo encuentro
+
+Speaker 1
+Sí, yo pienso que sí
+
+Speaker 3
+mira te comparto el ay donde está donde está no lo encuentro chat aquí está
+
+Ruy
+Esta es la tabla del último proyecto donde estuve participando ni BM que se utilizaba para hacer el size link
+
+Speaker 3
+Esta es la tabla del último proyecto donde estuve participando NIBM, que se utilizaba para hacer el sizing.
+
+Ruy
+No lo dale compartista. En el chat del de la llamada.
+
+Speaker 1
+En el chat del de la llamada
+
+Ruy
+Bueno, pues empezamos a usar esta convención. Este Oh yeah. Great description? Ay, perdón. Entonces esto debería ser en vez de 2. 3. Que dijiste como 1. 510. Este okay entonces Creo que contigo ya estamos, ¿no? Creo que sí.
+
+Speaker 1
+Creo que sí
+
+Ruy
+Entonces pasemos con Mike.
+
+Speaker 1
+Ahí como suave cuáles son las tareas de cada uno.
+
+Ruy
+las tareas de cada una aquí están es la persona Este. . estaba obvio. Sí, sí, sí, sí. Pará, perdón, perdón.
+
+Speaker 1
+Sí, sí, sí, sí, pará, perdón, perdón, sí, ya que en agua ahí estaba obvio, perdón.
+
+Ruy
+Sí, ya que nada. Estaba obvio, perdón. Sí. Este, oigan, una cosa que antes de pausa, antes de pasar con Mike, es que yo estoy viendo que
+
+Speaker 1
+Sí.
+
+Ruy
+Asana no nos está funcionando para los springs, bueno por lo menos a mí, porque no tiene manera de crear épicas y planear los streams está complicado luego tenemos lo de testing en un lado y lo de development en otro entonces voy a probar voy a empezar a hacer pruebas con linear que está hecho para pues para mantener un es un poco como jira pero he leído que está mejor que menos confuso porque Gira hijo de su mar está confuso lo que le sigue le parece confuso Jira
+
+Speaker 2
+Espero que menos confuso porque Gira, hijo de su madre. Está confuso lo que le sigue.
+
+Speaker 7
+¿Le parece confuso Gira?
+
+Ruy
+Al menos las implementaciones con las que me ha tocado trabajar son muy confusas.
+
+Speaker 2
+Sí. Al menos las implementaciones con las que me ha tocado trabajar son muy confusas.
+
+Speaker 7
+Mira.
+
+Ruy
+Entonces eso yo creo que nos va a permitir. llevar un o sea la idea es que tengamos un backlog unificado que tengamos Este unificado entre, o sea, estemos arreglando bugs o estemos implementando features nuevos. este post eh podamos tener aquí la documentación del proyecto porque luego aquí estamos brincando o sea notion digo en asana les escribo la tarea y luego la documentación está en notion y total que acaba siendo una mezcolanza y sobre todo porque aquí mantener el backlog y roadmap está siendo complejo este o sea tenía estas tareas grandotas que eran las cépicas este pero luego o sea ponerle subtasks los tienes aquí pero luego pues si los quieres pasar ya a desarrollo los tienes que dejar de hacer sus tasks de hacer las tareas total que se está volviendo o sea a mí me cuesta mucho trabajo mantenerlo organizado y por eso Empezamos con estos códigos y ya ni los estoy usando. O sea, tengo un desastre. Entonces la idea es.
+
+Speaker 1
+ya fíjate lo malo es que a la al resto de la gente no le gusta no le gusta usar github pero ahorita ya las funciones que tiene github ya están bastante decentes para todo esto
+
+Ruy
+. Lo malo es que al resto de la gente no le gusta usar GitHub, pero ahorita ya las funciones que tiene GitHub ya están bastante decentes para todo esto. Pues también podría revisar GitHub. Porque justo conseguimos que el resto del equipo se meta en la sana y entonces si ahora cambiamos.
+
+Speaker 6
+Sí, porque justo conseguimos que el resto del equipo se meta en Asana y entonces si ahora cambiamos.
+
+Ruy
+A ver.
+
+Speaker 6
+.
+
+Ruy
+es que necesitamos algo que funcione para todos no solo no solo nosotros de desarrollo pero o sea la idea es que a zarra se queda para todo el equipo para los para los proyectos
+
+Speaker 6
+es que necesitamos algo que funcione para todos no sólo no solo nosotros de desarrollo bueno
+
+Ruy
+de ventas de product market seed inclusive por arribaciones digamos para operaciones
+
+Speaker 7
+Claro, para relaciones, digamos
+
+Ruy
+Yo creo que usted tiene que usar la herramienta que les cuadre para desarrollo, que es una herramienta que sirva para desarrollo.
+
+Speaker 4
+Para operaciones. Yo creo que usted tiene que usar la herramienta que les cuadre para desarrollo, que es una herramienta que sirva para desarrollo.
+
+Ruy
+Y evidentemente esto no está ni cerca de.
+
+Speaker 4
+Y evidentemente esto no está ni cerca de por lo mismo que decía Rui.
+
+Ruy
+. de por lo que por lo mismo que decía Rui. Yo creo que la diferencia, no conozco Linar, pero uso a diario Gira
+
+Speaker 4
+Yo creo que la diferencia, ¿no conozco Linar? pero uso a diario Gira y la putada que a mí no me gusta mucho de Gira es que la documentación la tienes que hacer en Confluence.
+
+Ruy
+Y la putada que a mí no me gusta mucho de Jira es que la documentación la tienes que hacer en Confluence, que es otro, o sea, te saca otra.
+
+Speaker 7
+que es otro o sea te saca a otra a otro sitio a documentar pero no sé ahí tú dices que aquí se puede documentar también
+
+Ruy
+a otro sitio a documentar pero no sé ahí tú dices que aquí se puede documentar también aquí se con se crea la documentación entonces puedo hacer la documentación del proyecto este puedo hacer la documentación o sea muy a detalle entonces bajarlo la documentación del proyecto bajarla a la documentación pero te deja hacer tipo notion tipo páginas de notion te deja hacer aquí al parecer sí o sea
+
+Speaker 1
+Pero te deja hacer tipo notion, tipo páginas de notion, te deja hacer aquí mismo.
+
+Ruy
+voy a no notion manuel porque no notion que ya tenemos si la otra puede ser este
+
+Speaker 1
+y por qué no notion porque no notion que ya tenemos
+
+Ruy
+pero o sea hacer lo que les estoy diciendo adentro de notion ahí no esto es mi tío personal Este, o sea, llevar el el proyecto adentro de Notion como lo lleva Nelson aquí lleva todas las tareas y lo puedo, o sea, lo podría implementar en Notion. porque aquí o sea como aquí haces la base de datos pues puedas llevar todo lo todas las diferentes métricas. Por otro, si es solo para nosotros en dev sería directamente GitHub.
+
+Speaker 1
+Por lo otro, si es solo para nosotros en dev sería directamente GitHub.
+
+Ruy
+también puede ser para estar para estar muy cerca del del podio y de sí o sea
+
+Speaker 1
+Para estar muy cerca del código y de.
+
+Ruy
+tiene tiene tableros también así tableros canva si desde la última versión de enterprise lo implementaron
+
+Speaker 7
+Tiene tableros también así, tablero Kanban.
+
+Speaker 2
+Sí. Desde la última versión de Enterprise lo implementaron.
+
+Ruy
+puede ser este y usted tiene una versión esa aquí es github issues no issues eso es lo que tiene es accesos es proyectos
+
+Speaker 7
+Y ustedes tienen la versión esa?
+
+Speaker 2
+No, issues eso lo que tienes acceso, es projects.
+
+Ruy
+Y aquí pues ya la los epics ya están soportados de forma nativa desde siempre, entonces
+
+Speaker 2
+Y aquí pues ya los EPICs ya están soportados de forma nativa desde siempre, entonces.
+
+Speaker 7
+Claro.
+
+Ruy
+este ahí tienes el Kanban Pues está Kanban, team planning, feature releases
+
+Speaker 7
+Ahí tienes el campan. Está bueno.
+
+Ruy
+y también tiene roadmap mira el backtracker o sea que si ponemos eso que
+
+Speaker 7
+y también tiene roadmap mira y back tracker o sea que si ponemos eso que Eso que había desarrollado de feedback también podría.
+
+Ruy
+Lo bueno que tiene gifo y perdón que te corté
+
+Speaker 6
+Lo bueno que tiene GitHub y perdón que te corté.
+
+Ruy
+tiene todas las herramientas automatizadas de CD
+
+Speaker 6
+tiene todas las herramientas automatizadas de los bots que te miran el ticket antes de que lo veas y bueno
+
+Ruy
+de los bots que te miran el ticket antes de que lo veas y bueno podría ser bueno pues lo que puedo hacer es este
+
+Speaker 1
+Podría ser bueno.
+
+Ruy
+y además lo tenemos apago ya no entienden este ya está apagado sí puedo revisar esto
+
+Speaker 1
+Y además lo tenemos pago ya, ¿no? Entiendo. Bueno, esos son muy bien.
+
+Ruy
+y revisar o sea github y línea este y checar cuál nos funcionaría mejor les parece este linear o sea como que linear es la la la la nueva herramienta cool por eso lo tengo como como algo para revisar pero lo reviso y les explico o sea la idea sería que la yo lo voy a revisar durante este sprint También hacer una revisión de un montón de cosas de metodología que no se resuelven con una herramienta. ¿Qué sientes que le falta en términos de metodología RUI a cómo están trabajando?
+
+Speaker 1
+¿Qué sientes que le falta en términos de metodología a Ruy? a la a la a como están trabajando o qué te gustaría mejorar
+
+Ruy
+o que te gustaría mejorar bueno la en primer lugar esta desorganización que traigo de Y del del del road del roadmap y el backlog es es un montón. Este O sea, por ahí hay una cosa de organización muy importante para arreglar. Como que yo acabo siendo el pegamento del proceso, pues o sea ahorita yo y eso no es escalable ni sano. por ejemplo esto de GTP porting testing all prompts pues yo sé que es pero me hace falta poderlo especificar mejor La otra cosa que nos falta es todo esto de ver el capacity y tener más datos. Porque aunque lo podamos estimar, porque somos un equipo pequeñito, más bien, no lo estimamos, nada más sabemos qué hacemos y. y solemos llegar ahí pero no hay ni media métrica aunque sea muy básica de esto y entonces si llegáramos a trabajar que creo que va a ser la intención con personas externas este es como que va a ser muy difícil o sea va a ser muy subjetivo el decir si nos están ayudando o están yendo más lento Y otra cosa que yo veo que se podría mejorar teniendo acceso a una herramienta, yo creo que lo que han montado, lo que has montado aquí, con las limitaciones que tiene Asana.
+
+Speaker 4
+Y otra cosa que yo veo que se podría mejorar teniendo acceso a una herramienta, yo creo que lo que han montado, lo que has montado aquí. con las limitaciones que tiene Asana.
+
+Ruy
+la verdad que es para para para reconocer y si nos pasamos una herramienta que funcione para equipos de desarrollo poder entender a qué producto
+
+Speaker 4
+La verdad que es para reconocer. Y si nos pasamos una herramienta que funcione para equipos de desarrollo, poder entender a qué producto le está sumando valor cada issue al final nos va a permitir decir bueno
+
+Ruy
+le está sumando valor cada issue al final nos va a permitir decir bueno cómo estamos distribuyendo el tiempo de desarrollo en términos de los productos para después decir
+
+Speaker 4
+cómo estamos distribuyendo el tiempo de desarrollo en términos de los productos para después decir qué edad de rentabilidad tienen los productos.
+
+Ruy
+qué edad de rentabilidad tienen los productos, porque quizás nos estamos enfocando en no sé, el 80% en coaches AI y hace dos años que estamos vendiendo Tinky Fix, por decir una pagada.
+
+Speaker 4
+Quizás nos estamos enfocando en. No sé, el 80% en coaches AI y hace dos años que estamos vendiendo Tinky Fish, por decir una pavada. .
+
+Ruy
+Entonces
+
+Speaker 4
+Entonces.
+
+Ruy
+poder contestar no que la inversión que estamos haciendo en desarrollo está correlacionando bien con lo que estamos vendiendo creo que está bueno si o sea a mí el poder tener un tracking de
+
+Speaker 4
+. poder contrastar, ¿no? Que la inversión que estamos haciendo en desarrollo está correlacionando bien con lo que estamos vendiendo, creo que está bueno.
+
+Ruy
+Este etiquet en particular está pegándole a esta ética y eso resolvió tal cosa que entonces debería hacernos. ayudarnos a tener tal métrica en el negocio o a mejorar y eso ahorita lo tendría que hacer a mano y no lo estoy haciendo
+
+Speaker 7
+Claro.
+
+Ruy
+e incluso otro de la de las de los tags que se podría implementar es qué cliente lo está pidiendo
+
+Speaker 7
+E incluso otro de las de los tags que se podría implementar es qué cliente lo está pidiendo, ¿no?
+
+Ruy
+Esto es para este cliente o para este tipo de cliente, después definimos, ¿no?
+
+Speaker 7
+Esto es para este cliente o para este tipo de cliente, después definimos, ¿no?
+
+Ruy
+¿Por qué? Porque luego puedes entender.
+
+Speaker 4
+¿Por qué? Porque luego puedes entender.
+
+Ruy
+quién te está quitando, entre otras cosas, quién está usando más de tu equipo de desarrollo.
+
+Speaker 4
+. quién te está quitando, ¿no? Entre otras cosas, quién está usando más de tu equipo de desarrollo.
+
+Ruy
+Pero yo creo que sin duda
+
+Speaker 4
+Pero yo creo que sin duda.
+
+Ruy
+una herramienta que soporte cómo funciona un equipo de desarrollo va a ser allanar todo el camino de la implementación de una metodología
+
+Speaker 4
+. una herramienta que soporte cómo funciona un equipo de desarrollo va a ser allanar todo el camino de la implementación de una metodología.
+
+Ruy
+porque aquí no puedes hacer la mitad de las cosas que quieres hacer.
+
+Speaker 4
+porque no aquí no puedes hacer la mitad de las cosas que quieres hacer entonces
+
+Ruy
+Exacto. Entonces. Y también me parece que podría ser interesante porque entré en un par de issues, es definir cómo se documentan las issues.
+
+Speaker 4
+Y también me parece que podría ser interesante, porque entré en un par de issues, es definir cómo se documentan las issues, ¿no?
+
+Ruy
+con qué estructura que esperamos que tengan cada ellos, entonces
+
+Speaker 4
+con qué estructura que esperamos que tengan cada ello entonces
+
+Ruy
+creamos una isue y ya viene con un pres preset de qué formato trae y eso lo podemos meter en chat gpt o en alguna tul o lo que sea
+
+Speaker 4
+creamos una isue y ya viene con un pres preset de qué formato trae no y eso lo podemos meter en chat gpt o en alguna tool o en lo que sea
+
+Ruy
+que le demos cuatro indicaciones y nos dé una descripción acabada, mucho más si vamos a trabajar con gente externa que se entera del proyecto
+
+Speaker 4
+que le demos cuatro indicaciones y nos dé una descripción acabada, mucho más si vamos a trabajar con gente externa que se entera del proyecto.
+
+Ruy
+ahí abriendo la issue creo que sería sería otra buena práctica toda plantillas para isos y proyectos
+
+Speaker 4
+Ahí abriendo la issue, creo que sería sería otra buena práctica, ¿no?
+
+Speaker 3
+Las plantillas. Las plantillas para isos y proyectos.
+
+Ruy
+El deptop se hace, puedes hacer un markdown de plantilla y y cómo sería la la la migración, porque eso sí debe ser un chino, ¿no?
+
+Speaker 6
+en GitHub se hace, puedes hacer un markdown de plantilla y.
+
+Speaker 4
+¿Y cómo sería la la la cómo se dice la migración? Porque eso sí debe ser un chino, ¿no?
+
+Ruy
+cómo migramos todo eso a la herramienta que sea yo creo que ahorita como estamos empezando el año podríamos descartar todo el histórico y concentrarnos en lo nuevo en la nueva herramienta y ya
+
+Speaker 4
+¿Cómo migramos todo eso a la herramienta que sea?
+
+Speaker 2
+Pues yo creo que ahorita como estamos empezando el año, podríamos descartar todo el histórico y concentrarnos en lo nuevo, en la nueva herramienta y ya.
+
+Ruy
+No creo que de lo anterior haya mucho que tengamos que mover.
+
+Speaker 2
+No creo que de lo anterior haya mucho que tengamos que mover.
+
+Ruy
+O sea, lo que tenemos que mover es lo que está en los sprints ahorita.
+
+Speaker 2
+Ajá, lo que está activo.
+
+Ruy
+Ah bueno y una parte del backlog y ayer estuve jugando con el mcp de
+
+Speaker 7
+Ah, bueno, está buenísimo entonces.
+
+Ruy
+de Asana funciona bien entonces creo que me lo puedo llevar a Cloud Code ahí trabajarlo hacer un un backlog organizado y ya subirlo a la nueva herramienta y si me va a tomar un ratito pero No, bueno, pero claro, si solo migramos esa parte, seguro tengan más por detrás que por delante.
+
+Speaker 1
+No, bueno, pero claro, si solo migramos esa parte, seguro tengan más por detrás que por delante.
+
+Ruy
+Sí, porque todo lo que está aquí
+
+Speaker 1
+Entonces. .
+
+Ruy
+pues ya son cosas que ya pasaron y no tiene caso ponerlas este entonces Pues reviso a detalle github y línea. Este para ver cuál es la. las limitaciones de una y otra posiblemente haga algún algún test sí creo que voy a también una cosa importante va a ser ver cuál se conecta bien a cloud code este Tú dices para que vaya para que vaya desarrollando en advance lo que hay en el backlog o qué?
+
+Speaker 1
+Tú dices para que vaya para que vaya desarrollando in advance lo que hay en el backlog o qué?
+
+Ruy
+Pues todo para ir gestionando, o sea, la misma gestión de. del proyecto creo que la puedo llevar desde Cloud Code y eso a mí me ayuda mucho.
+
+Speaker 5
+eso para nosotros sería genial sería genial para mí no salir de cloud code y hacer updates de los tickets de los issues
+
+Ruy
+Sería genial para mí no salir de Cloud Code y hacer updates de los tickets, de los issues. y este se puede y bueno todos tienen mcp también entonces pero hay que checarlo sí
+
+Speaker 5
+Y este es el grito. Y bueno, todos tienen MCP también, entonces, pero hay que checarlos.
+
+Ruy
+o sea si esa es la otra cosa por la que Linear estaba como en mi bueno una porque hay un montón de gente hablando de ella y dos porque al parecer su su MCP y el trabajo con agente coding es bastante guay. Entonces este Pues inclusive podríamos probar ambas un poco y decidir, ¿no? O sea, a ver, para quedar, yo voy a revisar ambas con base en lo que yo sé, digamos, los problemas que he detectado. Se los comparto, yo creo que por correo para que lo discutamos así podamos discutir en alguna de las office hours. y luego ahí vemos si ya directamente nos metemos a algo o queremos hacer una prueba con una y con otra para ver cuál nos conviene mejor Bueno, me parece bien.
+
+Speaker 1
+Me parece bien.
+
+Ruy
+Entonces eso hacemos. Ahora sí seguimos con Mike. Este esta parte de workflow perdón del admin panel avanzaste con ello
+
+Speaker 5
+Si les
+
+Ruy
+Si quieres no hace falta que nos lo enseñes, nomás platícanos. Vale, vale. Sí, porque es que como él no estaba en demo, sí, está.
+
+Speaker 5
+Vale, vale. Sí, porque es que como ya no estaba en demo. Sí, está.
+
+Ruy
+Se puede regenerar los debriefs, por ejemplo, desde el admin.
+
+Speaker 5
+Se puede regenerar los debriefs, por ejemplo, desde el admin.
+
+Ruy
+Esto es bueno si quieres ajustar el prompt.
+
+Speaker 6
+Esto es bueno si quieres ajustar el prompt que genera los debriefs.
+
+Ruy
+que genera los debriefs lo puedes hacer update y le picas a regenerar y así te lo cambia en live luego
+
+Speaker 6
+lo puedes hacer update y le picas a regenerar y así te lo te lo cambia en live luego
+
+Ruy
+visualmente Shamil ya había integrado un buen de features relacionados al
+
+Speaker 6
+visualmente Shamil ya había integrado un buen de features relacionados al
+
+Ruy
+los assessments en el admin.
+
+Speaker 6
+los assessments en el admin ahora visualmente en la lista de usuarios podemos ver quién tiene assessment y quién no tiene y así le
+
+Ruy
+Ahora visualmente en la lista de usuarios podemos ver quién tiene assessment y quién no tiene. Si se puede ver a quien les falta y lo que quiero hacer ahora es que si uno no tiene, que tengamos un botoncito que dice como jala y
+
+Speaker 6
+si si se puede ver a quien les falta y lo que quiero hacer ahora es que si si uno no tiene que tengamos un botoncito que dice como jala y
+
+Ruy
+que cheque si hay uno disponible y que lo jale si si está, algo así.
+
+Speaker 6
+que cheque si hay uno disponible y que lo jale si si está, algo así.
+
+Ruy
+Ok. Pero entonces esto lo puedo marcar como don y nada más nos queda el testing. No, no, no, justo esa última parte que te digo de lo de hacer pool de los assessments
+
+Speaker 6
+No, no, no, justo esa última parte que te digo de lo de hacer pool de los assessments.
+
+Ruy
+Bueno, lo hace el CrossScript, pero es más, si tú quieres verificar a mano si hay uno que no llegó por alguna razón, poder hacerle pull manual, algo así.
+
+Speaker 6
+Bueno, lo hace el CrossScript, pero es más, si tú quieres verificar a mano si hay uno que no llegó por alguna razón, poder hacerle pull manual, algo así.
+
+Ruy
+Esto no está hecho todavía.
+
+Speaker 5
+Esto no está hecho todavía.
+
+Ruy
+Ok, entonces lo dejo aquí. Este, y cuánto te hace falta para terminar? Ponle un día como máximo.
+
+Speaker 1
+Ponle un día como máximo
+
+Ruy
+Entonces metemos lo del año. y luego lo del workflow document for cloth to build reflex efectively Sí, pues eso, um pues hice un skill de Cloud Code que ya
+
+Speaker 1
+See un skill de Claude Cod que ya
+
+Ruy
+fusionaron custom commands y skills es lo mismo de hecho entonces le llamamos skills y está en el repo de cloud config
+
+Speaker 6
+fusionaron custom commands y skills es lo mismo de hecho entonces le llamamos skills y está en el repo de cloud config
+
+Ruy
+entonces si lo si le haces update no tendrás también y
+
+Speaker 6
+entonces si lo si le haces update no tendrás también y
+
+Ruy
+Es un skill muy muy completo y le puse también el acento a la parte UI, que es lo que a Shamil le costaba, para que
+
+Speaker 6
+Es un skill muy muy completo y le puse también acento a la parte UI, que es lo que a Shamil le costaba, para que
+
+Ruy
+Bueno, que se puede desarrollar un poco más rápido y no tener tantos problemas como tenía.
+
+Speaker 6
+Bueno, se puede desarrollar un poco más rápido y no tener tantos problemas como tenía.
+
+Ruy
+Entonces ahí está el skill.
+
+Speaker 6
+Entonces ahí está el skill.
+
+Ruy
+No lo he probado mucho yo.
+
+Speaker 6
+No lo he probado mucho yo.
+
+Ruy
+todavía pero le quería dar una vuelta a ver si puede como en un buen prompt más el skill como duplicar un dashboard
+
+Speaker 6
+todavía pero le quería dar una vuelta a ver si puede como en un un buen prompt más el skill como duplicar un dashboard basado en un screenshot algo así
+
+Ruy
+basado en un screenshot algo así pero entonces ahorita ya lo podría hacer el testing shamir Sí, bueno, no sé si usa el Clot Confit, pero sí, sí, está aquí.
+
+Speaker 1
+Sí, bueno, no sé si usa el Cloud Config, pero sí, sí, está aquí.
+
+Ruy
+o si no lo usa le puede hacer copy pastas o lo que hace él ok entonces entonces esto lo voy a
+
+Speaker 1
+o si no lo usa le puede hacer copy paste o a lo que hace él
+
+Ruy
+bueno está marcado para review este lo voy a voy a crear una nueva tarea para Este te pongo el R del skill directo también.
+
+Speaker 1
+Le pongo el URL del scale director.
+
+Ruy
+Sí, si quieres ponlo aquí en Ah. Ya está, aquí.
+
+Speaker 1
+Ya está, ok.
+
+Ruy
+Okay, entonces bueno, esto lo cambio ahorita al ratito, eh Y lo enmarco como visible, y en lo que, en lo que vas a estar
+
+Speaker 5
+Sí.
+
+Ruy
+Había dos tres box que están resuelto que están en review para ti.
+
+Speaker 5
+Había dos, tres box que están resueltos, que están en review para ti. Y
+
+Ruy
+y por eso si entonces ahora me quiero dedicar a lo de Teams para los boxes next step hallucination ya está para testing
+
+Speaker 5
+y por eso sí entonces ahora me quiero dedicar a lo de Teams para estar muy enfocado en esto
+
+Ruy
+Sí, lo puse justo, sí está en el testing.
+
+Speaker 6
+Sí, lo puse justo, sí está en testing.
+
+Ruy
+Hice unas pruebas antes hoy y funciona, pero hay que probarlo más.
+
+Speaker 6
+Le hice unas pruebas antes hoy y funciona, pero hay que probarlo más.
+
+Ruy
+básicamente lo que hace si le pides cambiar de step te dice ok te entiendo pero por favor necesitamos seguir el
+
+Speaker 5
+Básicamente lo que hace, si le pides cambiar de step, te dice, ok, te entiendo, pero por favor necesitamos seguir el flujo y me falta esto, esto, esto para poder cambiar de step.
+
+Ruy
+flujo y me falta esto, esto, esto para poder cambiar el step. O sea que no lo hace.
+
+Speaker 1
+Y o sea que no no lo hace.
+
+Ruy
+y luego esto yo también esto hacerle testing a lo del rag y Ahorita vamos a hablar de este de Test Review Flow porque esto es básicamente lo que le quiero pedir a Leo que nos ayude. Sí.
+
+Speaker 1
+T-
+
+Ruy
+Oigan, estamos un poquito. Una cosa, si necesitan de mí, yo en unos minutos me tengo que bajar porque tengo otra reun, pero si quieres.
+
+Speaker 1
+Vamos, una cosa, si necesitan de mí, yo en unos minutos me tengo que bajar porque tengo otra reu, pero si quieres me dices que
+
+Ruy
+Me dice que básicamente lo que me gustaría es que nos ayudes a testear. hay varios filtros para testear para pasarlo a la versión de demo y que ya lo consideremos en producción y que este proceso de testing ya también nos ayude a formalizar cómo vamos a pasar de tener algún desarrollo a pasarlo para poderlo enseñar a clientes en lo demo Ah bueno. Entonces, este es, esa es básicamente la idea. Y tengo el acceso.
+
+Speaker 1
+Y tengo el acceso.
+
+Ruy
+no primero mike nos tiene que bueno esto lo necesito ahorita a ver con mike a ver si ya lo tienes
+
+Speaker 1
+Sí, sí.
+
+Ruy
+Este o sea, si ya tenemos de hecho, Leo, uh
+
+Speaker 6
+De hecho, Leo, ¿recibes las notificaciones a Sana porque te escribí un par de veces?
+
+Ruy
+¿Recibes las notificaciones a Sana? Sí, sí, pero hoy estuve todo el día con Oseas en un arma que no acababa nunca.
+
+Speaker 4
+¿Qué pasa que. Sí, sí, pero hoy hoy estuve todo el día con Oseas en una reunión que no acababa nunca. .
+
+Ruy
+Todo tranquilo.
+
+Speaker 6
+No, no, tranquilo, porque nos pasó que Microsoft las bloqueaba y nos estábamos escribiendo y nadie sabía qué pasaba.
+
+Ruy
+porque nos pasó que Microsoft las bloqueaba y nos estábamos escribiendo y nadie sabía qué pasaba. La de Tinking Partner estoy buscando aquí en Asana.
+
+Speaker 7
+La de Tinking Partner estoy buscando aquí en Asana.
+
+Ruy
+¿Cómo se llama?
+
+Speaker 7
+¿Cómo se llama? La notificación.
+
+Ruy
+No testing, sí
+
+Speaker 7
+Testing
+
+Ruy
+si testing de probabilidad esta es la tarea es nada más una si quieres la voy a ruid a través de te asigno una tarea
+
+Speaker 1
+ruit a través de te asignó una tarea ruí te asignó testing de mapro acá aquí lo tengo genial ahí la abrí aquí ahí es esa exacto
+
+Ruy
+Ruit te asigna testing de mapro. Aquí lo tengo. Ahí la abrí. Sí, esto aquí. Déjame. . O sea, aquí ya tiene algunos detalles. y le voy a poner más detalle para cómo lo tienes que probar y si tienes dudas nos juntamos y ya tienes que y déjame el acceso si puedes
+
+Speaker 1
+Y déjame el acceso si puedes para que entre a probarlo directo.
+
+Ruy
+para que entre a probarlo directo. Ruy, hay un asunto de naming
+
+Speaker 5
+Rui, hay un asunto de naming.
+
+Ruy
+Ahora, bueno, para simplificar el dominio también es testing.
+
+Speaker 7
+Ahora, bueno, para simplificar el dominio también es testing.
+
+Ruy
+Sí.
+
+Speaker 7
+Sí.
+
+Ruy
+Pero quiere que veamos algo más?
+
+Speaker 7
+Pero, ¿pero quieres que veamos algo más?
+
+Ruy
+No, creo que ya está ahorita. Esto, Mike, lo podemos ver tú y yo, ¿no?
+
+Speaker 7
+Vale
+
+Ruy
+Sí.
+
+Speaker 5
+Sí.
+
+Ruy
+Vale, gracias chicos, me encantó y me voy a sumar a todas las que pueda de estas porque me encanta dar el producto a mí.
+
+Speaker 4
+Vale, gracias chicos, me encantó y me voy a sumar a todas las que pueda de estas porque me encanta el producto a mí.
+
+Ruy
+Ok. Súper gracias a ti.
+
+Speaker 7
+Gracias.
+
+Ruy
+Bueno, abrazo.
+
+Speaker 7
+Bueno, abrazo.
+
+Ruy
+Perdón, Mike, ¿me estabas diciendo? Sí, no, no, que para simplificarlo para el equipo más.
+
+Speaker 6
+Sí, no, no, que para simplificarlo para el equipo más
+
+Ruy
+además de nosotros el el dominio es testing.
+
+Speaker 6
+además de nosotros el o sea el el dominio es testing punto stoyq.
+
+Ruy
+stoy q. com. Ese es donde se hacen los tests.
+
+Speaker 6
+com ese es donde se hacen los test y entonces
+
+Ruy
+Entonces Sí, staging sigue siendo de momento el nombre de la rama GitHub, pero esto nadie lo tiene que saber.
+
+Speaker 6
+Sí, staging sigue siendo de momento el nombre de la rama GitHub, pero esto nadie lo tiene que saber.
+
+Ruy
+Entonces, cuando hablamos de test, it's simply testing, testing.
+
+Speaker 6
+Entonces cuando hablamos de test es simple testing, testing.
+
+Ruy
+Porque mucha gente no sabe qué es staging y les suena confuso y tal, entonces para ellos development, testing, demo, production es muy claro así.
+
+Speaker 6
+porque mucha gente no sabe qué es staging y les suena confuso y tal entonces para ellos de development testing demo production es muy muy claro así
+
+Ruy
+Me parece bien, sí. este a ver entonces yo tengo aquí que si nada más reemplazar los staging por testing ahí tienes uno en dependency un poco más arriba
+
+Speaker 5
+Sí, nada más reemplazar los staging por testing. Ahí tienes uno en dependency, un poco más arriba.
+
+Ruy
+Entonces, dentro de este flujo tenemos dos oportunidades de prueba antes de llegar a producción.
+
+Speaker 2
+Entonces, dentro de este flujo tenemos dos oportunidades de prueba antes de llegar a producción.
+
+Ruy
+Demo es demo clientes.
+
+Speaker 6
+Demo es demo clientes.
+
+Ruy
+Son las instancias.
+
+Speaker 6
+Son las instancias.
+
+Ruy
+Es un demo que es básicamente la app de producción.
+
+Speaker 6
+Es un demo que es básicamente la app de producción.
+
+Ruy
+Está muy pulida, digamos.
+
+Speaker 5
+Está muy pulida, digamos.
+
+Ruy
+Este. Sí, sí, ya tiene que quedar básicamente vista. Es casi lo mismo que Producción.
+
+Speaker 1
+Es casi lo mismo que Production en en
+
+Ruy
+entonces entonces para realmente demos casi casi el staging en términos típicos porque hasta no recuerdo staging es justo antes de salir de producción
+
+Speaker 2
+entonces entonces para realmente demos casi casi el staging en términos típicos porque hasta no recuerdo staging es justo antes de salir de producción
+
+Ruy
+sí ok sí pero o sea es un poquito más high stakes que staging porque hace ser más con posibles clientes
+
+Speaker 1
+Sí, okay.
+
+Ruy
+Y si te sale mal, pues no. Ya. Este no está tan bien.
+
+Speaker 1
+Yeah
+
+Ruy
+A ver, entonces.
+
+Speaker 1
+Ahí te queda un te queda uno en Leo tests in staging.
+
+Ruy
+En la primera de acceptance criteria también hay uno staging.
+
+Speaker 1
+en la primera de acept acceptance criteria también hay una staging
+
+Ruy
+bueno igual mike a lo mejor no ahorita pero sería bastante conveniente entonces usar los mismos nombres en las
+
+Speaker 2
+Igual Mike, a lo mejor no ahorita, pero sería bastante conveniente entonces usar los mismos nombres en los branches para no confundirnos.
+
+Ruy
+en los branches para no confundirnos. Sí, sí, sí, es lo que quiero hacer, sí, sí.
+
+Speaker 5
+Sí, sí, sí, es lo que quiero hacer, sí, sí.
+
+Ruy
+Va.
+
+Speaker 1
+Va.
+
+Ruy
+entonces este deploy late testing staging ya lo marco como hecho
+
+Speaker 6
+Uh it's true, see.
+
+Ruy
+De hecho, eh, esto podemos también eh
+
+Speaker 6
+De hecho, esto podemos también decidir que todo lo que marco yo como review, puedes considerar que está en testing, o sea, está en staging.
+
+Ruy
+decidir que todo lo que marco yo como review puedes considerar que está en testing o sea está en staging lo
+
+Speaker 1
+lo cuando termino lo hago merge y lo subo a testing y aquí así tú puedes hacer el review and testing
+
+Ruy
+y sacar la especificación de esto entonces lo que yo voy a hacer con el proceso de testing es que ahorita voy a documentar lo que hablamos más otras cosas que se me puedan ocurrir este voy a generar un documento del proceso se lo voy a pasar a Leo, a ti Mike, Daniel, bueno, a todos, para que le demos una revisada y veamos si. . Hay algo más que hacer, o eso es suficiente. Este, y corramos el proceso. Ahora, este sprint. Este para ya pasar a producción sobre todo los dos cítulos de como se llama el que no lo están utilizando en los demos el que jale directamente el assessment ahorita se me olvidó como le dijimos le pusimos ese feature este y el speech to text Son dos features que no están ahí. Y otra cosa que también en este Tengo como pendiente Mike, pero no sé si ya hiciste. Es que en el aquí no, en CI Demo, este es una versione muy viejita. del código pero aquí sí aquí es donde está bien el o sea según yo es donde está más pulido el leadership growth partner Terminamos el del script y luego las tarjetitas. Este. Lo de los cards lo alineé todo la semana pasada.
+
+Speaker 1
+Lo de los cards lo alineé todo la semana pasada.
+
+Ruy
+Ya tenemos todos los cards en ambos idiomas.
+
+Speaker 6
+Ya tenemos todos los cards en ambos idiomas.
+
+Ruy
+Y lo demás no sé si hay diferencias de prompts.
+
+Speaker 6
+Y lo demás no sé será hay diferencias de prompts o de
+
+Ruy
+Pues hay que hacer un test. You need to do testing for revisit or if no.
+
+Speaker 1
+Esto Claude lo hace súper bien, lo hago mucho, le pides a Claude compare este archivo entre esta y esta rama y te lo hace bien.
+
+Ruy
+y te lo hace bien si yo también lo he hecho este pero pues hay que hacerlo y entonces ya ya por fin ahorita tengamos después este sprint lo último que creemos estable en demo para que eso se vaya a producción porque con Con caja popular mexicana, pues no estaba Sí, y esto es también, lo hemos comentado varias veces, que cuando haya un demo, que nosotros estemos avisados.
+
+Speaker 5
+Sí, y esto es también, lo hemos comentado varias veces, que cuando haya un demo, que nosotros estemos avisados.
+
+Ruy
+por lo menos tres días antes para también que yo haga un tour completo un poco que nos aseguremos que esté todo bien en demo entonces eso lo metemos como parte del proceso
+
+Speaker 5
+por lo menos tres días antes para también que yo haga un tour completo un poco que nos aseguremos que esté todo bien en demo
+
+Ruy
+Lo voy a documentar, este. Lo que me pregunto, no sé cómo hacerlo, pero.
+
+Speaker 6
+Lo que me pregunto, a ver, no sé cómo hacerlo, pero.
+
+Ruy
+La pregunta me digo muchas yo veo una instancia y me pregunta usada ahorita, por ejemplo, no sé, Telus.
+
+Speaker 6
+La pregunta me dio muchas veces, yo veo una instancia y me pregunto, ah, ¿esta está usada ahorita? . Por ejemplo, no sé, TELUS.
+
+Ruy
+¿Telus siguen usando la app?
+
+Speaker 6
+¿Telus siguen usando la app?
+
+Ruy
+Y a veces te lo pregunto y tal, pero no tenemos una visión clara de qué está activo y quién no está activo, de las varias instancias.
+
+Speaker 6
+Y a veces te lo pregunto y tal, pero no tenemos una visión clara de qué está activo y quién no está activo, de las varias instancias.
+
+Ruy
+Active in the sentiment that I'm going to client connected and life cycle.
+
+Speaker 6
+activo en el sentido de hay riesgo de que un usuario de este cliente se conecte y haga cosas y tal y un poco si un poco el life cycle
+
+Ruy
+Okay. También cuando se acaba el el trabajo con ellos, para
+
+Speaker 6
+también cuando se acaba el el el trabajo con ellos para
+
+Ruy
+archivar la instancia o desactivarla porque luego se acumulan y usan recursos para nada
+
+Speaker 6
+archivar la instancia o desactivarla porque luego se acumulan y usan recursos para nada
+
+Ruy
+Ok, entonces ese es otro proceso, el life cycle completo de los clientes. Sí. Para documentarlo. Posiblemente esto existe, pero al nivel de
+
+Speaker 1
+Posiblemente esto existe, pero al nivel de ventas, lo que venden está con un principio y un fin, ¿no?
+
+Ruy
+Lo que venden está con un principio y un fin, ¿no?
+
+Speaker 1
+O son cobarts o como no sé cómo funciona.
+
+Ruy
+Pero eso es solo ventas. Esta producción en donde Nelson lo tiene organizado. aquí en diferentes tareas de el programa de duke caliática sirion Aquí hay ciertas cosas que lleva, pues. Pero pues tendríamos que. sobre todo ahora que ya no va a estar y va a estar octavio pues tenemos que plancharlo para que
+
+Speaker 1
+Okay.
+
+Ruy
+Okay, un montón de trabajo. Como siempre. Como siempre. Bueno, entonces este Pero estuvo muy bien hablar de todo esto. Entonces, lo otro en lo que te vas a enfocar es en Microsoft Teams. Sí. Esto, ¿cómo está el estatus? ¿Cómo? A ver, platícanos un poquito. Pues
+
+Speaker 1
+Pues es difícil decir precisamente, pero MVP en ponle tres días, tres, cuatro.
+
+Ruy
+Es difícil decir precisamente, pero MVP and ponle tres días, tres, cuatro. Y el MVP es este solo notificaciones Bueno, digamos, bueno, las notificaciones es el objetivo de emití entonces atrás.
+
+Speaker 1
+Bueno, digamos, bueno, las notificaciones es el objetivo de. .
+
+Ruy
+Más bien lo puedo ver en Teams.
+
+Speaker 6
+más bien lo puedo ver en teams me llega algo en teams y luego si darle vueltas para
+
+Ruy
+me llega algo en Teams y luego si darle vueltas para hay una parte que
+
+Speaker 6
+hay una parte que hay una parte de no de autentificación pero el usuario tiene que aceptar
+
+Ruy
+Hay una parte de no de autentificación, pero el usuario tiene que aceptar que se conecte Chain Lead con sus notificaciones.
+
+Speaker 6
+que se conecte ChainLit con sus notificaciones.
+
+Ruy
+Hay una parte aquí de
+
+Speaker 6
+Hay una parte de aquí de
+
+Ruy
+como que bueno según claude estudiando la documentación de esto de del framework de microsoft cuando quieres
+
+Speaker 6
+que que bueno según claude estudiando la documentación de esto de del framework de microsoft cuando quieres
+
+Ruy
+hacer notificaciones hay un bueno hay un inter un diálogo entre teams y tu app y hay un hay una parte que es la aceptación de
+
+Speaker 6
+hacer notificaciones hay un bueno hay un interna un diálogo entre teams y tu app y hay un hay una parte que es la aceptación de
+
+Ruy
+de esta conexión y entonces es como es como cuando tu celular te pide permiso para acceder a la cámara tienes que darle el acceso si no no permite la conexión
+
+Speaker 3
+de esta conexión y entonces es como es como cuando tu celular te pide permiso para acceder a la cámara tienes que darle el acceso si no no permite la conexión una vez nada más una vez y luego está ya hecho
+
+Ruy
+Nada más una vez y luego está ya hecho. Primero me sugirió que the usuario entra un código de quatro numerosos algo así, pero lo quiero hacer lo más sencillo possible.
+
+Speaker 6
+Y entonces primero me sugirió que el usuario entre un código de cuatro números, algo así, pero lo quiero hacer lo más sencillo posible.
+
+Ruy
+Quizás un ahora la idea es un botoncito en el sidebar de Chainlit.
+
+Speaker 6
+Quizás un ahora la idea es un botoncito en el sidebar de Chainlit.
+
+Ruy
+como lo mismo como tenemos send me email notifications un otro check que es send me the teams notifications y ya está y esto es la esto es el agreement
+
+Speaker 6
+Como lo mismo, como tenemos send me email notifications, un otro check que es send me teams notifications. Ya está. Y esto es la esto es el agreement.
+
+Ruy
+pero más bien lo podemos dejar prendido por default y que el usuario lo apague si quiere
+
+Speaker 6
+Um, I don't know.
+
+Ruy
+Depende de cómo se instala la aplicación.
+
+Speaker 3
+Depende de cómo se instala la aplicación.
+
+Ruy
+Si lo instala un administrador de Microsoft de bueno de la
+
+Speaker 3
+Si lo instala un administrador de microsoft de bueno de la
+
+Ruy
+por ejemplo si lo instala ay se me olvidó el nombre del cuate de IT si lo instala el cuate de IT a nivel de toda la empresa
+
+Speaker 3
+Por ejemplo, si lo instala, se me olvidó el nombre del cuate de IT. Si lo instala este cuate de IT a nivel de toda la empresa
+
+Ruy
+podríamos llegar a evitar el permiso de algunas cosas por ahí otras cosas que si te las va a pedir
+
+Speaker 3
+podríamos llegar a evitar el permiso de algunas cosas por ahí otras cosas que sí te las va a pedir
+
+Ruy
+Eso mismo pasó con el TAP, también te permite, te solicita eso la primera vez que abres el TAP.
+
+Speaker 3
+Eso mismo pasó con el TAP, también te permite, te solicita eso la primera vez que abres el TAP.
+
+Ruy
+pero si una manera de evitarlo cuando tenía yo los poderes de administrador sí pude hacer que uno de esos prompts no saliera entonces sí depende mucho de cómo se instala la aplicación
+
+Speaker 3
+Pero sí hubo una manera de evitarlo cuando tenía yo los poderes de administrador, sí pude hacer que uno de esos prompts no saliera. Entonces sí depende mucho de cómo se instala la aplicación.
+
+Ruy
+Si lo instalas de marketplace, te va a pedir todos los permisos que te va a promptar por todos los permisos que requiere.
+
+Speaker 3
+Si lo instalas de marketplace, te va a pedir todos los permisos que todo, te va a promptar por todos los permisos que requiere.
+
+Ruy
+Si lo instalan desde administración, puede que unos cuantos no te los pida.
+
+Speaker 3
+Si me instalan desde administración, puede que unos o unos cuantos no te los pida.
+
+Ruy
+Los que sí te va a pedir es cuando ya es información personal o acceso a mensajes o cosas por el estilo.
+
+Speaker 3
+Los que sí te va a pedir es cuando ya es información personal o acceso a mensajes o cosas por el estilo.
+
+Ruy
+Eso sí, a fuerzas te los va a tener que pedir.
+
+Speaker 3
+Eso sí a fuerzas te los va a tener que pedir.
+
+Ruy
+Pero para notificaciones probablemente por medio de administrador se puede evitar.
+
+Speaker 3
+Pero para notificaciones probablemente por medio del administrador se puede evitar.
+
+Ruy
+Sí, por eso es difícil decirte cuántos días, porque sí, creo que en los medios print.
+
+Speaker 6
+Sí, sí, por eso es difícil decirte cuántos días porque sí. Creo que en medio sprint
+
+Ruy
+tendré una visión más clara de lo que queda pues pongamos pongámosle el sprint completo no para empezar digo yo entiendo posiblemente que esto
+
+Speaker 6
+tendré una visión más clara de lo que queda, pero Possiblemente sí
+
+Ruy
+Sí, y también este mic vas a necesitar que te asignen permiso de administración.
+
+Speaker 3
+Sí, y también este mike, vas a necesitar que te asignen permiso de administrador o que se crea una instancia de prueba para que puedas mover todo sin ningún tipo de restricción, porque sí estuve yo batallando mucho mientras esperaba.
+
+Ruy
+administrador o que se crea una instancia de prueba para que puedas mover todo sin ningún tipo de restricción porque si estuve yo batallando mucho mientras esperaba o sea muchos bloqueos fue que no tenía acceso como administrador a
+
+Speaker 3
+O sea, muchos bloqueos fue que no tenía acceso como administrador a Microsoft 365.
+
+Ruy
+A Microsoft 365. En Teams, específicamente en Teams.
+
+Speaker 3
+En Teams, específicamente en Teams.
+
+Ruy
+Ok.
+
+Speaker 6
+Ok.
+
+Ruy
+¿Valdría la pena?
+
+Speaker 6
+valdía la pena si Daniel puedes dedicar unas horas para trabajar juntos cuando llego y cuando yo llego a estos puntos para como tú ya lo hiciste
+
+Ruy
+Si Daniel puedes dedicar unas horas para. trabajar juntos cuando llego y cuando yo llego a estos puntos para como tú ya lo hiciste si si si lo que no sé lo según yo entiendo no o sea no sé si si se esto de notificaciones no es una app que se instala en teams es más
+
+Speaker 6
+Sí, sí, sí. Lo que no sé, según yo entiendo, no. O sea, no sé si se esto de notificaciones no es una app que se instala en Teams. Es más.
+
+Ruy
+según yo entiendo la aceptación es de mi lado es del lado de chain lead no es que son de los dos lados
+
+Speaker 6
+Según yo entiendo, la aceptación es de mi lado, es del lado de Chainlit.
+
+Ruy
+Porque del otro lado sí, ya creí la todos los keys y todo esto está hecho y está.
+
+Speaker 6
+porque del otro lado si ya creí la todos los keys y todo esto está hecho y está
+
+Ruy
+o sea hasta donde yo entiendo pero me gustaría saber si me estoy perdiendo de algo tenemos o sea el usuario o el administrador tiene que este poner el af para que te salga el para que te salga el chatbot no y del lado de chainbit también yo no llegué a ese punto en lo que estuvo revisando pero en teoría si es así como dice Roy
+
+Speaker 2
+Yo no llegué a ese punto en lo que estuve revisando, pero en teoría sí es así como dices Roy.
+
+Ruy
+si no porque así son todos alguien que no tiene instalada la app no recibiría las notificaciones aunque esté en teams porque en según el plan
+
+Speaker 5
+Ok, o sea, alguien que no tiene instalada la app no recibiría las notificaciones, aunque esté en Teams.
+
+Speaker 6
+Porque según el plan
+
+Ruy
+podría recibirlas si llegamos al punto donde la aplicación sea un usuario de Teams
+
+Speaker 3
+Podría recibirlas si llegamos al punto donde la aplicación sea un usuario de Teams.
+
+Ruy
+Porque ahí simplemente se comportaría como un usuario, como otro usuario que se conecta a Teams y ya.
+
+Speaker 3
+Porque ahí simplemente se comportaría como un usuario o como otro usuario que se conecta a Teams y ya.
+
+Ruy
+Un minuto. Baja.
+
+Speaker 3
+Va.
+
+Ruy
+Entonces si se llega al punto donde es un usuario simple, ahí no habría ningún tipo de necesidad de hacer una instalación porque ya la aplicación sería organization-wide.
+
+Speaker 3
+Entonces si se llega al punto donde es un usuario simple, ahí no habría ningún tipo de necesidad de hacer una instalación porque ya la aplicación sería organization wide.
+
+Ruy
+como un usuario adicional de la organización lo que lo que está en el plan es que es simplemente un check del email
+
+Speaker 6
+como un usuario adicional de la organización lo que lo que está en el plan es que hay simplemente un check del email
+
+Ruy
+y si es de normalmente los usuarios de Contrice Insights tienen el mismo mail
+
+Speaker 6
+Y si es si es el normalmente los usuarios de Controus Insights tienen el mismo mail.
+
+Ruy
+lo que usan en Teams, entonces si ve que es el mismo dice ah pues aquí hay una un link y luego pide esa confirmación y ya está
+
+Speaker 6
+lo que usan en Teams entonces si ve que es el mismo dice a pues aquí hay una un link y luego pide esa confirmación y ya está
+
+Ruy
+y luego envía la notificación nada más con los se me olvidaron app id y todo bueno todo esto ya está conectado con teams y pero ya veremos
+
+Speaker 6
+Y luego envía la notificación nada más con los se me olvidaron app id y todo bueno todo esto ya está conectado con teams y pero ya veremos
+
+Ruy
+Posiblemente funciona sin instalar la app.
+
+Speaker 6
+posiblemente funciona sin sin instalar la app puede ser que sí con esa con ese supuesto de que ya es un usuario normal
+
+Ruy
+Puede ser que sí, con ese supuesto de que ya es un usuario normal. Pero sí, la parte de que te da que te asignen como administrador, sí.
+
+Speaker 3
+Pero sí, la parte de que te da que te asignen como administradores.
+
+Ruy
+Y sí conviene que lo vayas tramitando igual Rui, tú que le digas a este cuate de IT, se me sigue olvidando su nombre, que le dé los permisos de administrador global a Mike.
+
+Speaker 3
+sí conviene que lo vayas tramitando igual Rui, tú que le digas a este cuate de IT, se me sigue olvidando su nombre, que le dé los permisos de administrador global a Mike
+
+Ruy
+para que pueda ir trabajando en eso porque si se tarda un ratito de repente en responder y yo sí estuve bloqueado como cinco o seis días hasta que tuve el acceso completo
+
+Speaker 3
+para que pueda ir trabajando en eso, porque sí se tarda un ratito de repente en responder. Yo sí estuve bloqueado como cinco o seis días hasta que tuve el acceso completo.
+
+Ruy
+Me dieron acceso, no sé si administrador, pero como se llaman.
+
+Speaker 5
+Me dieron acceso, no sé si administrador, pero como se llama la plataforma.
+
+Ruy
+Si te están llegando correos que hablan de costos, ya te dieron acceso completo.
+
+Speaker 3
+Si te están llegando correos que hablan de costos, ya te dieron acceso completo.
+
+Ruy
+Pero tú ma tu Mike les puedes mandar mensajes a Tu Mike estás pudiendo interactuar con la gente de soporte, ¿no? Sí, aquí en IT Service Desk.
+
+Speaker 5
+Sí, aquí en IT Service Desk.
+
+Ruy
+Ajá. hemos comunicado, sí, sí.
+
+Speaker 5
+Hemos comunicado, sí, sí.
+
+Ruy
+Lo que decía de Turroy para que le des como el visto bueno, que luego fue también algo que tardó conmigo.
+
+Speaker 2
+lo que os decía de turro y para que les des como el visto bueno que luego fue también algo que tardó conmigo
+
+Ruy
+Eso es lo que pasó: que había pedido algo y no pasó nada, y luego Rui les dijiste algo y se activó este.
+
+Speaker 5
+Eso es lo que pasó, que había pedido algo y no pasó nada y luego Rui les dijiste algo y se aclaró.
+
+Ruy
+Gabriel se llama, ¿no?
+
+Speaker 1
+Gabriel se llama, ¿no?
+
+Ruy
+Gabriel no está en
+
+Speaker 1
+Ah no, Gabriel no está Javier.
+
+Ruy
+Javier. Ah, ya no es Javier, ah.
+
+Speaker 1
+Ah, ya nos habían support
+
+Ruy
+Es IT service desk, ¿verdad? IT perdón support. IT support. Sí, tengo acceso al Azure Portal.
+
+Speaker 1
+Sí, tengo acceso al Azur Portal.
+
+Ruy
+No sé si es. .
+
+Speaker 1
+No sé si es.
+
+Ruy
+A ese te refieres, Daniel.
+
+Speaker 1
+. A ese te refieres, Daniel.
+
+Ruy
+Eh sí, debe ser ese ay Javier, okay
+
+Speaker 1
+Sí, debe ser ese ay, Javier, okay.
+
+Ruy
+Me parece que aquí Mike, tú contéstale Este y así ya lo hacemos. Bueno, entonces, pero digo, para cerrar el sprint planning.
+
+Speaker 1
+Okay, hold on.
+
+Ruy
+Ahorita ya estamos, ya estamos, nomás nisto hablar con Shamil, pero ya será la próxima semana.
+
+Speaker 5
+Ah, y Ruy, bueno, hoy no, pero
+
+Ruy
+ayer hicieron una mega eso recibí el transcript de que tiene muchas cosas de que tenemos que hacer asesmin usar la para
+
+Speaker 5
+ayer hicieron una mega eso recibía el transcript de que tiene muchas cosas de que tenemos que hacer asessment usar la app para
+
+Ruy
+identificar growth areas, hacer microhabits, todo esto.
+
+Speaker 6
+identificar growth areas, hacer microhobbits, todo esto.
+
+Ruy
+Quizás hablamos media ahorita, mañana o para que me
+
+Speaker 6
+Quizás hablamos media ahorita mañana o para que me Me hagas un refresh de esto si quieres.
+
+Ruy
+Es que yo creo que o sea tenemos que darle una pulida antes de llegar ahí pues o sea más bien más que una pulida lo que lo que dijo seas ahorita no lo podemos hacer
+
+Speaker 1
+Okay.
+
+Ruy
+Entonces, digo, ahí no quise entrar en ese detalle, pero ahorita no lo podemos hacer, tenemos que básicamente empezar a hacer una nueva versión lo que ahorita las personas pueden hacer es tener un micro hábito y empezar a trabajar en él este de conforme su asessment Entonces este esa es otra de las cosas que tengo por hacer. Y luego, o sea
+
+Speaker 1
+Okay.
+
+Ruy
+Si después llegara a eso, pero ese punto que estaba hablando seas, o sea, como de que yo le lleve algún problema que tengo y entonces con base en eso me lo ayude a. Partir en un micro hábito, eso es básicamente algo que vamos a estar trabajando este trimestre. No hasta ahorita. ¿Y qué onda con los daily stand-ups?
+
+Speaker 1
+Y qué onda con los daily stand-ups, esto está
+
+Ruy
+Esto está. No sé. O sea, los stand-ups creo que van a ser mensajes. O sea, yo entendí que van a ser por Teams. Ah, por Teams.
+
+Speaker 5
+Ah, por Teams.
+
+Ruy
+Yo estoy rellenando el forum que nos mandó en Asana.
+
+Speaker 5
+Yo estoy rellenando el forum que nos mandó en Asana.
+
+Ruy
+Híjole, no lo había visto. Bueno.
+
+Speaker 5
+Bueno.
+
+Ruy
+Bueno, sí, bueno, estamos montando mucho al mismo tiempo, pero por eso, importante alinear todo.
+
+Speaker 1
+Bueno, sí, bueno, estamos montando mucho al mismo tiempo, pero por eso, importante alinear todo.
+
+Ruy
+Sí, yo estoy una llamada con Leo.
+
+Speaker 1
+Okay
+
+Ruy
+Pero, a ver, específicamente de lo que me estás preguntando, voy a. Yo lo que estoy digo, este yo lo veo así ahorita Necessitation that Leo has a test of the new version that we have, the Leadership Girl Partner. Uh we have OK Lo pasamos a demo y ya en demo que si lo empiece a utilizar toda la compañía para que de esa manera tengamos más feedback por si hay cosas que hacerle. Pero vamos a probar ese, el Leadership Growth Partner, y luego cuando ya esté algo más listo de que te pueda hacer coaching. entonces pues será un flujo como del que hablaba oseas este sí bueno
+
+Speaker 1
+Hm, okay.
+
+Ruy
+más el roadmap para que lo empecemos a conversar o sea todo lo que ya hablamos ya lo estoy aterrizando en un documento este con énfasis en Q1 y lo conversemos y eso ya se vuelve nuestro OKR OKR. Ok, genial.
+
+Speaker 1
+Okay, genial.
+
+Ruy
+Muy bien, pues vamos hablando.
+
+Speaker 1
+Muy bien, pues vamos hablando.
+
+Ruy
+Gracias. Two Sundays ago, I went to Tesla with Elon and I went and visited the Optimus Lab. There were a large number of people working on a Sunday at 10 a. m. Yeah. And I saw Optimus 3. I can tell you now, nobody will remember that Tesla ever made a car. They will only remember remember the Optimus and that he is going to make a billion of those. And it is going to be the most transformative technology product ever made in the history of humanity. Because what LLMs are going to enable those products to do is understand the world and then do things in the world that we don't want to do. I believe it'll be a one-to-one ratio of humans to optimists, and I think he's already won, but I don't want to speak out of school. Two Sundays ago I went to Tesla with Elon and I went and visited the Optimus. Well, Including them.
+
