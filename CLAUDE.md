@@ -49,7 +49,9 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 | `conscious-insights-v2-english.md` | Core vision (rewritten Jan 2026) | As needed |
 | `index.html` | Vision document (HTML, Netlify deployed) | When vision changes |
 | `roadmap-q1-2026-draft.md` | Q1 roadmap DRAFT (needs vision review) | Until finalized |
-| `action-items-ruy-jan2026.md` | Master task list | After every session |
+| `sprint-*-2026-*.md` | Ruy's sprint focus (e.g., `sprint-2-2026-foundation.md`) | During sprint |
+| `action-items-ruy-jan2026.md` | Master task list / backlog | After every session |
+| `sprints/` | Team sprint stories (use `/sprint-stories` to create) | Before sprint planning |
 | `handwritten/` | Drop zone for handwritten note photos | As needed (use `/handwritten` to process) |
 | `calls/` | Call transcripts, summaries, and analysis | After calls (use `/process-call` to process) |
 
@@ -107,6 +109,8 @@ The vision document is a static HTML/CSS site:
 |---------|-------------|
 | `/handwritten` | Transcribe handwritten notes from `handwritten/` folder and propose additions to action items |
 | `/process-call` | Deep analysis of call transcripts - creates summary, strategic analysis, and extracts action items |
+| `/planning-review` | **Ruy's personal work** - weekly review, right-size deliverables, create sprint files |
+| `/sprint-stories` | **Team sprint planning** - create stories for Mike, Shamil, Daniel, Leo |
 
 ## What NOT to Do
 
