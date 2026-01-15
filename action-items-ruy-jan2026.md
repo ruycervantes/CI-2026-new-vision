@@ -5,7 +5,7 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 
 ---
 
-## Key Reflections & Context
+## Key Reflections & Context *(reference, not tasks)*
 
 ### Strategic Context (from Oseas)
 - **3-month runway** to prove Stoic works
@@ -47,98 +47,29 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ### Ruy's Sprint Tasks
 
-- [x] **Follow up with IT (Javier)** for Mike's Teams admin permissions - DONE Jan 15
-  - Mike was blocked 5-6 days last time waiting for access
-  - Ruy called Javier directly
-
 - [ ] **Evaluate Linear vs GitHub Projects** for development tracking
   - Problems with Asana: no epics, testing/dev boards split, no capacity metrics, can't track product/client per issue
   - Linear: modern, great MCP/Claude Code integration, designed for dev
   - GitHub: free, integrated, has Kanban/roadmap/epics, CI/CD automation
   - Action: Write comparison, share via email, discuss in office hours
 
-- [ ] **Document testing process** (Development → Testing → Demo → Production)
-  - Simplified naming: "testing" not "staging" for non-devs
-  - Domain: testing.stoicq.com
-  - **New rule:** Notify dev 3+ days before client demos
-  - Leo owns testing approval before demo
+- [ ] **Document testing/shipping process** - IN PROGRESS
+  - See details: `sprint-methodology-fix.md` → "Testing & Shipping Process" section
+  - **Open questions to resolve:**
+    - Who notifies sales team when features ready for demo?
+    - Can deployment script enforce 3-day demo notice?
 
-- [ ] **Add detail to Leo's testing task** ("Testing de mapro" in Asana)
-  - Explain how to test Leadership Growth Partner
+- [ ] **Add detail to Leo's testing task** (in Asana)
+  - Explain how to test Leadership Growth Partner in testing version
   - Give access to testing.stoicq.com
-
-- [ ] **Document bank URL warning**
-  - Leo's experience: bank name + login = AWS phishing ban, ALL clients went down
-  - Solution: Use abbreviations for bank clients (e.g., "nb" not "nubank")
-  - Or route through app.stoicq.com via WorkOS
-
-- [ ] **Implement robots.txt** and AI crawler blocking
-  - Confirmed: Google only indexes main website
-  - Need to block AI search engine crawlers too
-
-- [ ] **Create roadmap document** with Q1 emphasis → becomes team OKR
+  - See transcript: `calls/Sprint Planning 15 jan 2026.txt`
 
 - [ ] **Talk to Nelson** about P&G course automation timeline
-
-### Daniel's Sprint Tasks
-
-- [ ] **Complete infra checklist** (carried over)
-
-- [ ] **Deployment script** (3 story points, ~12 hours)
-  - Create client-specific environments from any git branch
-  - Support Docker containers + plain installation
-  - Generate separate DB per client
-  - Apps: Main + Admin (Analytics separate, not in scope)
-  - Naming convention: same client name throughout chain
-  - Documentation on usage
-
-- [ ] **Pair with Mike** on Teams integration when he hits admin permission issues
-
-### Mike's Sprint Tasks
-
-- [ ] **Finish assessment pull button** in admin panel (1 day max)
-  - Manual button to pull missing assessments
-
-- [ ] **Microsoft Teams integration - MVP** (full sprint)
-  - Goal: Notifications via Teams
-  - Match email (CI app ↔ Teams), request permission, send notifications
-  - Considering checkbox in Chainlit sidebar
-  - **Blocker:** Needs admin permissions from IT (Javier)
-
-- [ ] **Request Teams admin access** from IT Service Desk
-  - Contact: Javier
-  - Ruy to follow up for faster response
-
-- [ ] **Rename git branches** from staging → testing (when convenient)
-
-- [ ] **Compare prompts** between Demo and Leadership Growth Partner instances
-  - Use Claude Code to compare files between branches
-
-### Leo's Sprint Tasks
-
-- [ ] **Test Leadership Growth Partner** in testing.stoicq.com
-  - Task: "Testing de mapro" in Asana
-  - Ruy to add detailed test instructions
-
-- [ ] **Own testing → demo approval process**
-  - Test features before promotion to demo
-  - Approve features for client demos
-
-### Team Process Decisions
-
-| Decision | Details |
-|----------|---------|
-| **Story Points** | Adopted IBM sizing table (1,2,3,5,8,13) |
-| **Environment Naming** | development → testing → demo → production |
-| **Tool Migration** | Evaluate Linear/GitHub this sprint, decide in office hours |
-| **Demo Notice** | 3+ days before client demos |
-| **Daily Standups** | Via Teams messages, using Asana form |
 
 ### Blockers
 
 | Blocker | Owner | Resolution |
 |---------|-------|------------|
-| Mike needs Teams admin | Ruy → IT (Javier) | Follow up immediately |
 | P&G course automation | Nelson | Schedule discussion |
 | No client lifecycle visibility | Team | Document archival process |
 | Oseas's coaching vision | Ruy | Requires new version (Q1 roadmap) |
@@ -151,7 +82,12 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 - [ ] **Review bug list from Mike** - he prepared list to review
 - [ ] **Email Oseas** - clarify his product testing request/expectations
-- [ ] **Organize personal work/tasks backlog**
+  - Gap: Oseas expects assessment → growth areas → micro-habits coaching
+  - Reality: currently one micro-habit from assessment
+  - "Lo que dijo Oseas ahorita no lo podemos hacer" → requires new version
+  - Risk: if he demos his vision (not reality), creates misaligned expectations
+  - **Action:** Share Q1 roadmap for explicit alignment on what ships when
+- [ ] **Organize personal work/tasks backlog** → prioritized list in Todoist
 
 - [ ] **Competitor benchmark** (HIGH PRIORITY) - First draft for ongoing review
   - Key competitors: MindGym, Cloverleaf
@@ -167,12 +103,13 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - What makes people persist vs abandon?
   - Intervention timing and frequency
 
-- [ ] **Interview Horacio** about coaching methodology
+- [ ] **Interview Horacio** about coaching methodology (BLOCKS: Thinking Partner ship, vision methodology)
   - How does he take notes?
   - What does he track session-to-session?
   - How does he handle goal evolution?
   - Get photos of his notebook if possible
   - **Also:** Get him to test Thinking Partner to refine prompts
+  - **Also:** Validate multi-session coaching methodology in vision doc
 
 ### Documents & Materials
 
@@ -188,61 +125,19 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Add goal-based development flow (missing piece)
   - Share URL with Mike after update
 
-- [x] **Update vision document** (`conscious-insights-v2-english.md`) - DONE Jan 13
-  - [x] Added Goal Hierarchy (Destination → Management → Tracking)
-  - [x] Added Goals Dashboard (GPS visualization)
-  - [x] Added Coach + Daily Companion modes (replaces Thinking Partner / Accountability Partner)
-  - [x] Added Change Process with Adjust stage
-  - [x] Added Juan's complete journey
-  - [ ] Validate methodology with Horacio
-
-### Sprint Planning Prep - DONE Jan 15
-
-- [x] **Sprint planning completed** (Jan 15)
-  - Shamil: Absent, will sync next week
-  - Daniel: Deployment script (3 story points) + infra checklist
-  - Leo: Testing Leadership Growth Partner
-  - Mike: Teams integration MVP + assessment pull button
-  - See "Sprint Planning Outcomes" section above for full details
-
 ---
 
 ## Process & Systems (NEW - from Handwritten Notes)
 
-### Shipping Process (CRITICAL) - Updated Jan 15
-
-- [ ] **Define proceso para ship features** - IN PROGRESS
-  - Development → Testing → Demo → Production (simplified naming)
-  - testing.stoicq.com = where QA happens
-  - Leo owns testing approval before demo
-  - **New rule:** 3+ days notice before client demos
-
-- [ ] **Arreglar versiones de demos** - CLARIFIED
-  - testing.stoicq.com = testing environment (was "staging")
-  - demo.stoicq.com = client demos (almost production quality)
-  - production = live client instances
-  - Mike to rename git branches to match (staging → testing)
-
-- [ ] **Especificación de versiones**
-  - Stop the "desmadre"
-  - Clear version management process
-  - **New:** Use Claude Code to compare files between branches
-
-- [ ] **Comunicar cuando features ship**
-  - Notify: Data, Nelson, Axialent
-  - Who is responsible for communication?
-
-- [ ] **Describe client process** - discuss with Leo
-
 ### Personal Workflow
-- [ ] **Automate task/workflow management**
-  - Review CC → Todoist automation
-  - Explore better personal task capture system
+- [ ] **Define daily/weekly review process**
+  - What to review, when, how long
+  - Could include CC → Todoist if useful
 
 ### Unshipped Features (Technical Debt)
 - [ ] **Ship voice STT** - done but not shipped
 - [ ] **Ship data features** - done but not shipped
-- [ ] **Thinking Partner** - needs Horacio testing before ship
+- [ ] **Ship Thinking Partner** - blocked on Horacio interview
 
 ---
 
@@ -251,42 +146,41 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Nuevos contratos para Daniel y Mike**
 - [ ] **Set up Claude-Code account for Shamil**
   - Create shared account like oas@stoic.enterprise
-- [x] **Email transition: stoic.enterprises → stoicyou.com**
+- [ ] **Email transition: stoic.enterprises → stoicyou.com**
   - Transition ruy@ and others
   - Helpdesk ticket already created for related issue
 
 ---
 
-## With Leo (This Week)
+## Product Strategy & Process Definition (This Sprint)
 
-- [ ] **Set up Product-Market Fit validation process**
-  - How do we validate before building?
-  - Customer interview structure
-  - Define the experiments/MVPs cycle
+*See detailed discussion: `pmf-design-sprint-planning.md`*
 
-- [ ] **Design sprint for Q1 features**
-  - Run design sprint before development
-  - Include user research component
+### 1. Define PMF segments + hypotheses (with Leo, ~1 hour)
+- [ ] Which 1-2 customer segments for Q1?
+- [ ] What's the hypothesis per segment?
+- [ ] Who do we have access to? (Leo: clients, prospects, friends)
+- [ ] Who are potential users beyond customers?
 
-- [ ] **User research with potential users**
-  - Interview people who manage teams
-  - Potential: Peppe (cousin-in-law) - insight on managing people
-  - What would they find useful?
+### 2. Design the design sprint (Ruy, before sprint starts)
+- [ ] Choose format: remote accelerated (3-day) vs hybrid with research
+- [ ] Which Q1 features in scope?
+- [ ] Schedule: this sprint or next?
+- [ ] Participant list (Leo, Ruy, who else?)
 
-- [ ] **Validate with customers:**
-  - Would they buy "application coaching" sessions?
-  - Voice vs Bidirectional Teams chatbot - which first?
-  - Does the vision resonate vs competitors?
+### 3. PMF process doc (1-pager, create once)
+- [ ] Simple template: Segment → Hypothesis → Test → Learn → Iterate
+- [ ] Living doc, updated after each validation cycle
 
-- [ ] **Get Leo's help to unblock shipping**
-  - Leo to accelerate feature shipping
-  - Leo to help with PMF validation process
+### 4. User research (input to design sprint)
+- [ ] Interview people who manage teams
+- [ ] Potential: Peppe (cousin-in-law) - insight on managing people
+- [ ] What would they find useful?
 
-- [x] **Dev tools discussion** - DECIDED in Sprint Planning (Jan 15)
-  - Asana stays for company-wide coordination
-  - Dev team evaluating Linear vs GitHub Projects
-  - Ruy to compare and share findings
-  - Decision to be made in office hours this sprint
+### 5. Customer validation (during/after design sprint)
+- [ ] Would they buy "application coaching" sessions?
+- [ ] Voice vs Bidirectional Teams chatbot - which first?
+- [ ] Does the vision resonate vs competitors?
 
 ---
 
@@ -312,7 +206,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ---
 
-## Strategic Questions to Resolve
+## Strategic Questions to Resolve *(reference, not tasks)*
 
 | Question | Source | How to Resolve |
 |----------|--------|----------------|
@@ -328,10 +222,9 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 | Item | Blocked By | Next Step |
 |------|------------|-----------|
-| Multi-session coaching methodology in vision doc | Horacio interview | Schedule interview |
+| Vision methodology + Thinking Partner ship | Horacio interview | Schedule interview |
 | Feature 3 vs 4 priority | Customer validation | Talk to Leo |
 | Graph memory decision | Technical prototype | Mike to explore |
-| Thinking Partner ship | Horacio testing | Schedule with Horacio |
 
 ---
 
@@ -344,11 +237,10 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Needs investigation for automation possibilities
 
 - [ ] **Add Todoist integration skill** - for pending items tracking
-- [ ] **Add "Process Call" skill** - for meeting notes workflow
 
 ---
 
-## Team Transitions
+## Team Transitions *(reference, not tasks)*
 
 - **Mike** takes more day-to-day leadership of dev team
 - **Mike** can assign urgent tasks to Daniel/Shamil outside sprint
@@ -358,20 +250,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ---
 
-## Summary: Top Priorities
-
-### Immediate (Before Thursday)
-1. **Competitor research** - both meetings flagged this
-2. **Roadmap document** - needed for Leo and sprint planning
-3. **Write sprint stories** - Thursday deadline
-4. **Horacio interview** - informs coaching methodology + testing
-
-### This Quarter (Systems to Build)
-1. **PMF validation process** with Leo
-2. **Feature shipping process** - stop orphaning features
-3. **Version/demo environment clarity**
-
-### Key Insight to Remember
+### Key Insight to Remember *(reference)*
 > "Being a Product Manager + CTO... Lo más importante es que hecho pueda ser deseable, útil y viable y confortable."
 
 ---
