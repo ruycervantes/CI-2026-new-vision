@@ -1,7 +1,7 @@
 # Consolidated Action Items - Ruy (January 2026)
 
 Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
-**Updated:** January 15, 2026 - Sprint Planning Call outcomes added.
+**Updated:** January 15, 2026 - Sprint Planning Call outcomes + handwritten notes (Jan 15) added.
 
 ---
 
@@ -22,6 +22,11 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 
 ### Stickiness Insight
 > "Si esto se vuelve tu Pepe Grillo, no de la chamba sino de todo tu día, pues ahí está muy sticky."
+
+### Product Positioning Insights (Jan 15 Handwritten)
+- **"Personal Trainer for work"** - not just accountability, but helping you do what you NEED to do
+- **Skills architecture** - Thinking Partner should have specialized skills it can suggest contextually
+- **Broader than work** - also help with personal change
 
 ### Self-Reflection (from Handwritten Notes)
 - **"Yo soy un cuello de botella"** - blocking things by not shipping
@@ -144,6 +149,10 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ### Research & Preparation
 
+- [ ] **Review bug list from Mike** - he prepared list to review
+- [ ] **Email Oseas** - clarify his product testing request/expectations
+- [ ] **Organize personal work/tasks backlog**
+
 - [ ] **Competitor benchmark** (HIGH PRIORITY) - First draft for ongoing review
   - Key competitors: MindGym, Cloverleaf
   - Ask Franco for his benchmark document
@@ -170,6 +179,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Create roadmap document** for Leo and team
   - First draft: `roadmap-q1-2026-draft.md` (Jan 14)
   - **Next:** Review vision doc, then refine roadmap
+  - **Add:** Sprint Automation section
   - Purpose: help sell / validate with customers
   - Q1 features, OKRs structure, dependencies
   - **Flag Nelson's requests** (Thinkific SSO, chatbot creation) for Q2+ discussion
@@ -222,6 +232,8 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Notify: Data, Nelson, Axialent
   - Who is responsible for communication?
 
+- [ ] **Describe client process** - discuss with Leo
+
 ### Personal Workflow
 - [ ] **Automate task/workflow management**
   - Review CC → Todoist automation
@@ -251,6 +263,15 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - How do we validate before building?
   - Customer interview structure
   - Define the experiments/MVPs cycle
+
+- [ ] **Design sprint for Q1 features**
+  - Run design sprint before development
+  - Include user research component
+
+- [ ] **User research with potential users**
+  - Interview people who manage teams
+  - Potential: Peppe (cousin-in-law) - insight on managing people
+  - What would they find useful?
 
 - [ ] **Validate with customers:**
   - Would they buy "application coaching" sessions?
@@ -286,6 +307,9 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Ruy has scripts that could be automated
   - Even basic/unpolished would help
 
+### Nelson's Role
+- [ ] **Clarify Nelson's new role** - understand implications for collaboration/requests
+
 ---
 
 ## Strategic Questions to Resolve
@@ -318,6 +342,9 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Brilliant assessments integration** - potential issue to investigate
   - Tool where assessments are managed
   - Needs investigation for automation possibilities
+
+- [ ] **Add Todoist integration skill** - for pending items tracking
+- [ ] **Add "Process Call" skill** - for meeting notes workflow
 
 ---
 
@@ -354,7 +381,8 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - Mike meeting notes: `meeting-notes-mike-13jan2026.md`
 - Oseas meeting notes: `meeting-notes-oseas-13jan2026.md`
 - Handwritten notes (Jan 13): `handwritten-notes-transcription.md`
-- Handwritten notes (Jan 14): `handwritten/` folder (4 images)
+- Handwritten notes (Jan 14): `handwritten/` folder
+- Handwritten notes (Jan 15): `handwritten/IMG_7706-7708`
 - **Sprint Planning (Jan 15):** `calls/Sprint Planning 15 jan 2026 - Summary.md`
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
