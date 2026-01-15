@@ -126,33 +126,90 @@ Parse the transcript for commitments made. Organize by person:
 
 Be thorough - people make commitments casually that get forgotten.
 
-### Step 6: Update action-items-ruy-jan2026.md
+### Step 6: PROPOSE changes to action-items (CRITICAL REVIEW STEP)
 
-1. Read the current action items file
-2. Add new section for this meeting's outcomes (if sprint planning or significant meeting)
-3. Update existing sections where this call provides clarity
-4. Mark items as done if completed
-5. Add new blockers to Blocked Items table
-6. Update Reference section with new files
+**Do NOT edit action-items-ruy-jan2026.md yet.** First, present a structured proposal for user review.
 
-### Step 7: Update README.md if needed
+Read the current action items file and prepare a proposal showing:
+
+#### 6.1 Proposed additions for Ruy
+
+Present as a numbered list so user can reference by number:
+
+```markdown
+## Proposed Additions to Your Action Items
+
+### New Tasks (items you committed to)
+1. **[Task]** → Section: [target section]
+   - Context: [why this is attributed to you]
+
+2. **[Task]** → Section: [target section]
+   - Context: [quote or moment from call]
+
+### Items to Mark Complete
+3. **[Existing task]** - appears resolved per discussion at [timestamp/context]
+
+### New Blockers
+4. **[Blocker]** - Owner: [who], Resolution: [what]
+
+### Items Mentioned But NOT Yours (for awareness)
+These came up but are owned by others:
+- Mike: [task]
+- Leo: [task]
+- Daniel: [task]
+```
+
+#### 6.2 Flag uncertain attributions
+
+If a task is ambiguous about ownership, flag it:
+```markdown
+### ⚠️ Needs Your Input
+5. **[Task]** - Unclear owner. You were mentioned but [reason for uncertainty]
+   - Add to your list?
+   - Assign to someone else?
+   - Skip?
+```
+
+#### 6.3 Ask for explicit feedback
+
+End with:
+```markdown
+---
+**Please review and respond:**
+- Which items to ADD? (list numbers, or "all" / "none")
+- Which items to SKIP? (list numbers)
+- Any corrections to tasks or sections?
+- Anything missing?
+```
+
+**STOP and wait for user response before proceeding to Step 7.**
+
+### Step 7: Apply approved changes only
+
+After user provides feedback:
+
+1. Apply ONLY the approved additions
+2. Skip items user rejected
+3. Make any corrections user specified
+4. Update Reference section with new files
+5. If sprint planning or significant meeting, add section header
+
+### Step 8: Update README.md if needed
 
 - Update "Current Sprint" table if sprint planning
 - Update "Next Actions" section
 - Add reference to new call summary
 
-### Step 8: Present findings to user
+### Step 9: Present final summary
 
 Show:
 1. Summary of topics covered
 2. **Key strategic insights** (the analysis findings)
-3. List of action items extracted
+3. What was added to your action items (after approval)
 4. Files created/updated
-5. Any questions or clarifications needed
+5. Any remaining questions
 
-Wait for user approval before committing.
-
-### Step 9: Commit changes
+### Step 10: Commit changes
 
 ```bash
 git add calls/ action-items-ruy-jan2026.md README.md
