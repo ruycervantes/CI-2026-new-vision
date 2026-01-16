@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap 2026 - Conscious Insights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --stoic-yellow: #FFD500;
+            --stoic-red: #C9332B;
+            --stoic-gray: #E6E6E6;
+            --base-white: #FFFFFF;
+            --black: #000000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--black);
+            background: var(--base-white);
+        }
+
+        /* Top Navigation */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--base-white);
+            border-bottom: 3px solid var(--stoic-yellow);
+            padding: 1rem 2rem;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-nav .logo {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .top-nav .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .top-nav a {
+            color: var(--black);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .top-nav a:hover {
+            color: var(--stoic-red);
+        }
+
+        .top-nav a.active {
+            color: var(--stoic-red);
+            border-bottom: 2px solid var(--stoic-red);
+            padding-bottom: 2px;
+        }
+
+        /* Main content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 6rem 2rem 4rem;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 3rem 0 4rem;
+            border-bottom: 3px solid var(--stoic-yellow);
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: #555;
+        }
+
+        .hero .version {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: #888;
+        }
+
+        /* Table of contents */
+        .toc {
+            background: var(--stoic-gray);
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            columns: 2;
+        }
+
+        .toc li {
+            margin-bottom: 0.5rem;
+        }
+
+        .toc a {
+            color: var(--black);
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            color: var(--stoic-red);
+        }
+
+        /* Section headings */
+        h2 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 3rem 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--stoic-yellow);
+        }
+
+        h3 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+            color: var(--black);
+        }
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        /* Paragraphs */
+        p {
+            margin-bottom: 1rem;
+        }
+
+        /* Strong/emphasis */
+        strong {
+            font-weight: 600;
+        }
+
+        .highlight {
+            color: var(--stoic-red);
+            font-weight: 600;
+        }
+
+        /* Blockquotes */
+        blockquote {
+            background: var(--stoic-gray);
+            border-left: 4px solid var(--stoic-yellow);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+
+        blockquote p {
+            margin-bottom: 0;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 1rem 0 1.5rem 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9375rem;
+        }
+
+        th {
+            background: var(--stoic-yellow);
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.75rem 1rem;
+        }
+
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            vertical-align: top;
+        }
+
+        tr:hover td {
+            background: #fafafa;
+        }
+
+        /* Code blocks */
+        pre {
+            background: #1a1a1a;
+            color: #e6e6e6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.8125rem;
+            line-height: 1.5;
+            margin: 1.5rem 0;
+        }
+
+        /* Key insight boxes */
+        .insight-box {
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+            border: 2px solid var(--stoic-yellow);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .insight-box strong {
+            color: var(--stoic-red);
+        }
+
+        /* Phase cards */
+        .phase-card {
+            background: var(--stoic-gray);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .phase-card h4 {
+            margin-top: 0;
+            color: var(--stoic-red);
+        }
+
+        /* Section dividers */
+        hr {
+            border: none;
+            border-top: 1px solid var(--stoic-gray);
+            margin: 3rem 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                padding: 5rem 1rem 3rem;
+            }
+
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .toc ul {
+                columns: 1;
+            }
+
+            .top-nav .nav-links {
+                gap: 1rem;
+                font-size: 0.875rem;
+            }
+
+            table {
+                font-size: 0.8125rem;
+            }
+
+            th, td {
+                padding: 0.5rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .top-nav {
+                display: none;
+            }
+
+            main {
+                padding-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="logo">Stoic</div>
+        <div class="nav-links">
+            <a href="vision.html">Vision</a>
+            <a href="roadmap.html" class="active">Roadmap</a>
+            <a href="alignment.html">Alignment</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1>2026 Roadmap</h1>
+            <p class="subtitle">Conscious Insights v2</p>
+            <p class="version">Last updated: January 2026</p>
+        </header>
+
+        <nav class="toc">
+            <h3>Contents</h3>
+            <ul>
+                <li><a href="#context">Strategic Context</a></li>
+                <li><a href="#q1">Q1 2026: Prove Coaching Works</a></li>
+                <li><a href="#q2">Q2 2026: Daily Practice + Feedback</a></li>
+                <li><a href="#h2">H2 2026: Full Experience</a></li>
+                <li><a href="#dependencies">Dependencies</a></li>
+                <li><a href="#not">What's NOT on the Roadmap</a></li>
+                <li><a href="#questions">Open Questions</a></li>
+                <li><a href="#team">Team Assignments</a></li>
+                <li><a href="#risks">Risks and Mitigations</a></li>
+            </ul>
+        </nav>
+
+        <!-- Strategic Context -->
+        <section id="context">
+            <h2>Strategic Context</h2>
+
+            <h3>The Bet</h3>
+            <p>We are going to own the behavior change cycle - not just offer a coaching chatbot.</p>
+
+            <blockquote>
+                "Si nos quedamos como 'tenemos un chatbot de coaching', competimos con todos. Si nos posicionamos como 'somos dueños del ciclo de cambio de comportamiento', es otra conversación."
+            </blockquote>
+
+            <h3>What Creates the Moat</h3>
+            <ul>
+                <li><strong>Complete behavior change methodology</strong> - grounded in research</li>
+                <li><strong>System that orchestrates the full cycle</strong> - goals, habits, adjustments, evolution</li>
+                <li><strong>Integrations that create stickiness</strong> - reach users where they are</li>
+                <li><strong>Accumulated knowledge</strong> - what interventions work, when, how</li>
+                <li><strong>Structured memory of user's trajectory</strong> - not just chat history, but a model of growth</li>
+            </ul>
+
+            <h3>Phased Approach</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Phase</th>
+                        <th>Focus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Q1 2026</strong></td>
+                        <td>Prove coaching works - multi-session Coach + cyclic Daily Companion</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Q2 2026</strong></td>
+                        <td>Daily practice + feedback - GPS dashboard, transcript analysis, touchpoints</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 2026</strong></td>
+                        <td>Full experience - real-time feedback, deep integrations, peer features</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Q1 2026 -->
+        <section id="q1">
+            <h2>Q1 2026: Prove Coaching Works</h2>
+
+            <div class="insight-box">
+                <strong>Goal:</strong> Deliver a sellable Application Coaching experience. Prove the multi-session Coach + cyclic Daily Companion combination drives behavior change.
+            </div>
+
+            <h3>Core Features</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Owner</th>
+                        <th>Status</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>MS Teams Notifications</strong></td>
+                        <td>Mike</td>
+                        <td>In progress</td>
+                        <td>One-way notifications. Foundation for everything.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daily Companion Cyclic Flow</strong></td>
+                        <td>Shamil</td>
+                        <td>Ready to build</td>
+                        <td>Loop instead of end. User can continue, modify habit, or go to Coach.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Thinking Partner: Challenge/Gap/Commitment</strong></td>
+                        <td>Shamil + Ruy</td>
+                        <td>Ready to build</td>
+                        <td>Small feature: show and store challenge, gap, action plan commitment.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coach Multi-Session</strong></td>
+                        <td>Ruy + Shamil</td>
+                        <td>Needs Horacio</td>
+                        <td>Coaching across sessions with memory. Tracks goals, progress, what's urgent vs planned.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Voice OR Bidirectional Chatbot</strong></td>
+                        <td>TBD</td>
+                        <td>Validate with Leo</td>
+                        <td>Choose one based on customer pull.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Coach Multi-Session Details</h3>
+            <p><strong>The shift:</strong></p>
+            <ul>
+                <li>Current: Conversations are linear, no memory across sessions</li>
+                <li>Q1: Coach remembers what you're working on</li>
+            </ul>
+
+            <p><strong>Session flow:</strong></p>
+            <ul>
+                <li>Session 1: Establish goals (Destination → Management → Tracking), understand the gap</li>
+                <li>Session 2+: "¿Traes algo o quieres empezar por lo que habíamos dicho?"</li>
+                <li>System tracks: goals, progress, what's urgent vs planned</li>
+            </ul>
+
+            <p><strong>Technical approach:</strong></p>
+            <ul>
+                <li>Store goals as structured JSON (Goal Hierarchy)</li>
+                <li>User facts with timestamps for trajectory</li>
+                <li>Evolve to more sophisticated memory later if needed</li>
+            </ul>
+
+            <div class="insight-box">
+                <strong>Blocked by:</strong> Horacio methodology meeting (this week)
+            </div>
+
+            <h3>Daily Companion Cyclic Flow</h3>
+            <p><strong>Current (linear):</strong></p>
+            <pre>Microhabit → Follow-up → Check-in → [END]</pre>
+
+            <p><strong>Q1 (cyclic):</strong></p>
+            <pre>Microhabit → Follow-up → Check-in → [Continue / Modify / Go to Coach] → Loop</pre>
+
+            <p><strong>What's included:</strong></p>
+            <ul>
+                <li>Loop back after check-in (don't end)</li>
+                <li>Modify habit option (adjust without starting over)</li>
+                <li>User-initiated Coach handoff ("I'm stuck")</li>
+            </ul>
+
+            <p><strong>NOT included:</strong></p>
+            <ul>
+                <li>Complex pattern detection logic</li>
+                <li>Adaptive reminder timing</li>
+            </ul>
+
+            <h3>Voice vs Bidirectional Chatbot</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Option A: Voice</th>
+                        <th>Option B: Bidirectional Teams Chatbot</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul style="margin: 0; padding-left: 1rem;">
+                                <li>Ship STT (already built)</li>
+                                <li>Add TTS "play" button</li>
+                                <li>Later: full voice-to-voice</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="margin: 0; padding-left: 1rem;">
+                                <li>Check-ins via Teams bot</li>
+                                <li>Schedule next session via chat</li>
+                                <li>Later: richer bot interactions</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Decision:</strong> Leo validates with customers which has more pull.</p>
+
+            <h3>Ship What's Built</h3>
+            <p>These are done, just need deployment:</p>
+            <ul>
+                <li>Speech-to-text (STT)</li>
+                <li>Executive Summary</li>
+                <li>Data features</li>
+            </ul>
+
+            <h3>Q1 Validation Experiment</h3>
+            <p>Q1 is about proving the thesis, not measuring at scale. We run a structured pilot to validate utility and approach.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Users</strong></td>
+                        <td>Mix of friendly clients, Leo's pipeline, internal (TBD)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Owner</strong></td>
+                        <td>Ruy in collaboration with Leo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Duration</strong></td>
+                        <td>2-3 weeks</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Goal</strong></td>
+                        <td>Validate utility and approach, not behavior change outcomes</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>What we're validating</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Principle</th>
+                        <th>How We Test It</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Multi-session Coach feels like a coach who knows you</td>
+                        <td>Do users reference previous sessions? Do they feel continuity?</td>
+                    </tr>
+                    <tr>
+                        <td>Cyclic Daily Companion keeps people engaged</td>
+                        <td>Do users loop? Do they modify habits when stuck?</td>
+                    </tr>
+                    <tr>
+                        <td>"Don't nag, give alternatives" works</td>
+                        <td>When users struggle, do they feel supported vs. guilty?</td>
+                    </tr>
+                    <tr>
+                        <td>Connected goals matter</td>
+                        <td>Do users see how daily actions connect to what they want?</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Signals we're looking for</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Signal</th>
+                        <th>Question</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Came back</td>
+                        <td>Did they use it more than day 1?</td>
+                    </tr>
+                    <tr>
+                        <td>Found it useful</td>
+                        <td>"This helped me" vs "It's nice but..."</td>
+                    </tr>
+                    <tr>
+                        <td>Felt supported when stuck</td>
+                        <td>"It gave me options" vs "I felt bad for failing"</td>
+                    </tr>
+                    <tr>
+                        <td>Would continue</td>
+                        <td>"I want to keep using this"</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>NOT measuring yet:</strong></p>
+            <ul>
+                <li>Actual behavior change outcomes (too early, need longer timeframe)</li>
+                <li>Completion rate percentages (not enough volume for statistical significance)</li>
+                <li>NPS scores (need more users first)</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Q2 2026 -->
+        <section id="q2">
+            <h2>Q2 2026: Daily Practice + Feedback</h2>
+
+            <div class="insight-box">
+                <strong>Goal:</strong> Tighter integration between Coach and Daily Companion. Add feedback on real practice through transcript analysis. Make progress visible through GPS Dashboard.
+            </div>
+
+            <h3>Features</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>GPS Dashboard</strong></td>
+                        <td>Visual progress toward Destination Goal. Shows trajectory: where you started, key moments, where you are.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Call Transcript Analysis</strong></td>
+                        <td>User shares transcript, LLM analyzes against their Tracking Goal. "You asked 2 questions before responding..."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Before/After Touchpoints</strong></td>
+                        <td>Pre-meeting: "You have a meeting with Pedro. Remember your practice." Post-meeting: "How did it go?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Calendar Read Access (MS Graph)</strong></td>
+                        <td>Know user's schedule to enable context-aware reminders</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Adaptive Reminders</strong></td>
+                        <td>Timing and frequency adjust based on user patterns</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coach ↔ Daily Companion Data Flow</strong></td>
+                        <td>Goals and progress shared between modes. Coach sees struggles, Daily Companion knows commitments.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Transcript Analysis Details</h3>
+            <p><strong>Phase 1: Manual upload</strong></p>
+            <ul>
+                <li>User uploads transcript (any source)</li>
+                <li>Simple analysis against their active habit</li>
+            </ul>
+
+            <p><strong>Phase 2: Teams integration</strong></p>
+            <ul>
+                <li>Pull from Teams meeting recordings</li>
+                <li>Richer context from structured memory</li>
+            </ul>
+
+            <h3>Before/During/After Framework</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Moment</th>
+                        <th>Purpose</th>
+                        <th>Q2 Scope</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Before</strong></td>
+                        <td>Prepare, gain awareness</td>
+                        <td>Pre-meeting reminders based on calendar</td>
+                    </tr>
+                    <tr>
+                        <td><strong>During</strong></td>
+                        <td>Pause, offer distinctions</td>
+                        <td>Not Q2 - see H2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>After</strong></td>
+                        <td>Reflect, learn</td>
+                        <td>Post-meeting check-in, transcript analysis</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- H2 2026 -->
+        <section id="h2">
+            <h2>H2 2026: Full Experience</h2>
+
+            <div class="insight-box">
+                <strong>Goal:</strong> Complete the vision - real-time feedback, deep integrations, seamless experience.
+            </div>
+
+            <h3>Features</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Description</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Real-Time Feedback</strong></td>
+                        <td>"During" meeting interventions. Feedback while practicing, not just after.</td>
+                        <td>Technically complex, privacy implications</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Full Context Integrations</strong></td>
+                        <td>Deep calendar, email, potentially other sources</td>
+                        <td>Needs Context Manager architecture</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Peer Accountability</strong></td>
+                        <td>Social goal-setting features</td>
+                        <td>Research needed</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Seamless Mode Transitions</strong></td>
+                        <td>Fluid Coach ↔ Daily Companion without explicit switching</td>
+                        <td>Polish after foundation solid</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Real-Time Feedback - Exploration Needed</h3>
+            <p>This is a big bet requiring research:</p>
+            <ul>
+                <li>How to access live meeting audio/transcript?</li>
+                <li>How to notify without being annoying?</li>
+                <li>Privacy implications?</li>
+                <li>What feedback is actually helpful in the moment?</li>
+            </ul>
+            <p>Park as "needs exploration" - don't commit until researched.</p>
+        </section>
+
+        <hr>
+
+        <!-- Dependencies -->
+        <section id="dependencies">
+            <h2>Dependencies</h2>
+
+            <pre>Q1 Foundation
+├── Horacio meeting (this week) → Coach methodology
+├── MS Teams Notifications (Mike) → Foundation for touchpoints
+├── Coach Multi-Session (Ruy + Shamil) → Core differentiator
+└── Leo validation → Voice vs Bidirectional decision
+
+Q2 Builds On Q1
+├── GPS Dashboard → Needs Q1 goal storage working
+├── Calendar MS Graph → Before/After touchpoints
+├── Transcript analysis → Requires goals in structured memory
+└── Adaptive reminders → Requires usage data from Q1
+
+H2 Builds On Q2
+├── Real-time feedback → Needs transcript analysis foundation
+└── Full context integrations → Needs Context Manager architecture</pre>
+        </section>
+
+        <hr>
+
+        <!-- What's NOT -->
+        <section id="not">
+            <h2>What's NOT on the Roadmap</h2>
+            <p>Explicitly out of scope for 2026:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Why Not</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HRMS/LMS integrations</td>
+                        <td>Not validated as needed</td>
+                    </tr>
+                    <tr>
+                        <td>Multi-language beyond EN/ES</td>
+                        <td>Focus on core first</td>
+                    </tr>
+                    <tr>
+                        <td>White-label / multi-tenant</td>
+                        <td>Adds complexity, not proven needed</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile app</td>
+                        <td>Web + Teams is enough for now</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Open Questions -->
+        <section id="questions">
+            <h2>Open Questions</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Owner</th>
+                        <th>When to Resolve</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Voice vs Bidirectional priority</td>
+                        <td>Leo</td>
+                        <td>Q1 - customer validation</td>
+                    </tr>
+                    <tr>
+                        <td>System-triggered Coach methodology</td>
+                        <td>Ruy + Horacio</td>
+                        <td>After Horacio meeting</td>
+                    </tr>
+                    <tr>
+                        <td>Full calendar integration needed?</td>
+                        <td>Leo</td>
+                        <td>Q1 - is reschedule/delete enough?</td>
+                    </tr>
+                    <tr>
+                        <td>Transcript analysis: manual vs Teams first?</td>
+                        <td>Ruy</td>
+                        <td>Q2 planning</td>
+                    </tr>
+                    <tr>
+                        <td>Real-time feedback feasibility</td>
+                        <td>Mike</td>
+                        <td>H2 planning - technical research</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Team Assignments -->
+        <section id="team">
+            <h2>Team Assignments</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Person</th>
+                        <th>Focus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Mike</strong></td>
+                        <td>MS Teams integration, technical architecture</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Shamil</strong></td>
+                        <td>Coach Multi-Session, Daily Companion cyclic flow</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daniel</strong></td>
+                        <td>Infrastructure, deployment automation</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Leo</strong></td>
+                        <td>Customer validation, demo approval, sales</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ruy</strong></td>
+                        <td>Methodology, roadmap, Horacio/Dolo coordination</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Risks -->
+        <section id="risks">
+            <h2>Risks and Mitigations</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Risk</th>
+                        <th>Mitigation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Horacio meeting doesn't clarify methodology</td>
+                        <td>Start with "good enough" based on interview; refine iteratively</td>
+                    </tr>
+                    <tr>
+                        <td>Users don't engage with multi-session Coach</td>
+                        <td>Make sessions shorter, test with real users, iterate on prompts</td>
+                    </tr>
+                    <tr>
+                        <td>MS Teams blocked by client IT</td>
+                        <td>Fallback channels (email, web); escalate early</td>
+                    </tr>
+                    <tr>
+                        <td>We build features that don't move PMF</td>
+                        <td>Validate with Leo + customers before building</td>
+                    </tr>
+                    <tr>
+                        <td>Transcript analysis has privacy concerns</td>
+                        <td>Start with manual upload (user controls data)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <footer style="text-align: center; padding: 2rem 0; color: #888; font-size: 0.875rem;">
+            <p>Document version: January 2026</p>
+        </footer>
+    </main>
+</body>
+</html>

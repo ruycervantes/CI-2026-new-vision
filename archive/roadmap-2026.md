@@ -1,8 +1,7 @@
 # 2026 Roadmap - Conscious Insights v2
 
-> **Purpose:** What we build and when. Guide sales conversations with Leo.
-> **See also:** [vision.md](vision.md) for methodology, [alignment.md](alignment.md) for leadership sign-off
 > **Last updated:** January 2026
+> **Purpose:** Align team on what we build and when. Guide sales conversations with Leo.
 
 ---
 

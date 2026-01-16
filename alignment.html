@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Alignment - Q1 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --stoic-yellow: #FFD500;
+            --stoic-red: #C9332B;
+            --stoic-gray: #E6E6E6;
+            --base-white: #FFFFFF;
+            --black: #000000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--black);
+            background: var(--base-white);
+        }
+
+        /* Top Navigation */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--base-white);
+            border-bottom: 3px solid var(--stoic-yellow);
+            padding: 1rem 2rem;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-nav .logo {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .top-nav .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .top-nav a {
+            color: var(--black);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .top-nav a:hover {
+            color: var(--stoic-red);
+        }
+
+        .top-nav a.active {
+            color: var(--stoic-red);
+            border-bottom: 2px solid var(--stoic-red);
+            padding-bottom: 2px;
+        }
+
+        /* Main content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 6rem 2rem 4rem;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 3rem 0 4rem;
+            border-bottom: 3px solid var(--stoic-yellow);
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            color: #555;
+        }
+
+        .hero .meta {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Section headings */
+        h2 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 3rem 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--stoic-yellow);
+        }
+
+        h3 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+            color: var(--black);
+        }
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        /* Paragraphs */
+        p {
+            margin-bottom: 1rem;
+        }
+
+        /* Strong/emphasis */
+        strong {
+            font-weight: 600;
+        }
+
+        .highlight {
+            color: var(--stoic-red);
+            font-weight: 600;
+        }
+
+        /* Blockquotes */
+        blockquote {
+            background: var(--stoic-gray);
+            border-left: 4px solid var(--stoic-yellow);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+
+        blockquote p {
+            margin-bottom: 0;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 1rem 0 1.5rem 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9375rem;
+        }
+
+        th {
+            background: var(--stoic-yellow);
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.75rem 1rem;
+        }
+
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            vertical-align: top;
+        }
+
+        tr:hover td {
+            background: #fafafa;
+        }
+
+        /* Key insight boxes */
+        .insight-box {
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+            border: 2px solid var(--stoic-yellow);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .insight-box strong {
+            color: var(--stoic-red);
+        }
+
+        /* The Ask box - special styling */
+        .ask-box {
+            background: var(--stoic-yellow);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .ask-box p {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        /* CTA buttons */
+        .cta-links {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .cta-links a {
+            background: var(--stoic-yellow);
+            color: var(--black);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .cta-links a:hover {
+            background: var(--black);
+            color: var(--stoic-yellow);
+        }
+
+        /* Section dividers */
+        hr {
+            border: none;
+            border-top: 1px solid var(--stoic-gray);
+            margin: 3rem 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                padding: 5rem 1rem 3rem;
+            }
+
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .top-nav .nav-links {
+                gap: 1rem;
+                font-size: 0.875rem;
+            }
+
+            table {
+                font-size: 0.8125rem;
+            }
+
+            th, td {
+                padding: 0.5rem;
+            }
+
+            .cta-links {
+                flex-direction: column;
+            }
+
+            .cta-links a {
+                text-align: center;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .top-nav {
+                display: none;
+            }
+
+            main {
+                padding-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="logo">Stoic</div>
+        <div class="nav-links">
+            <a href="vision.html">Vision</a>
+            <a href="roadmap.html">Roadmap</a>
+            <a href="alignment.html" class="active">Alignment</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1>Leadership Alignment</h1>
+            <p class="subtitle">Q1 2026 Direction</p>
+            <p class="meta">
+                <strong>For:</strong> Oseas, Leo, Mike &nbsp;|&nbsp;
+                <strong>From:</strong> Ruy
+            </p>
+        </header>
+
+        <!-- The Ask -->
+        <section>
+            <h2>The Ask</h2>
+            <p>Read this document and the full vision. Come ready to say:</p>
+
+            <div class="ask-box">
+                <p>"Yes, this is the direction. Let's go."</p>
+            </div>
+
+            <p>We've discussed this. The vision reflects your feedback. Now we need to commit so we can execute.</p>
+
+            <div class="cta-links">
+                <a href="vision.html">Read the Full Vision →</a>
+                <a href="roadmap.html">Review the Roadmap →</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- The Bet -->
+        <section>
+            <h2>The Bet (Summary)</h2>
+            <p>We are going to <strong class="highlight">own the behavior change cycle</strong> — not just offer a coaching chatbot.</p>
+
+            <p>If we stay as "a chatbot," we compete with everyone. Microsoft Copilot Studio already has one-click coach templates. Anyone with GPT can build a coaching bot.</p>
+
+            <h3>What's Hard to Replicate</h3>
+            <ul>
+                <li><strong>The complete behavior change methodology</strong> (grounded in research)</li>
+                <li><strong>The system that orchestrates the entire cycle</strong> (goals → habits → adjustment → evolution)</li>
+                <li><strong>The integrations that create stickiness</strong> (reach users where they are)</li>
+                <li><strong>The structured memory of the user's change trajectory</strong></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Not a Blind Bet -->
+        <section>
+            <h2>This Is Not a Blind Bet</h2>
+            <p>We're not asking you to trust intuition. We're committing to validate before we go deep.</p>
+
+            <h3>The Core Assumptions We're Testing</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Assumption</th>
+                        <th>How We Validate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>The theory works for us</strong></td>
+                        <td>Build it, test with real users, measure engagement</td>
+                    </tr>
+                    <tr>
+                        <td><strong>"Owning the cycle" resonates</strong></td>
+                        <td>Leo runs sales conversations with this positioning</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Coaching + daily follow-up integration makes sense</strong></td>
+                        <td>User testing, customer feedback</td>
+                    </tr>
+                    <tr>
+                        <td><strong>No cheap substitutes exist</strong></td>
+                        <td>Market research, competitive analysis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Customers won't just build their own</strong></td>
+                        <td>Customer conversations, demo reactions</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Validation Activities</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Activity</th>
+                        <th>Owner</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Competitive Analysis</td>
+                        <td>Ruy</td>
+                        <td>In progress</td>
+                    </tr>
+                    <tr>
+                        <td>Customer Conversations</td>
+                        <td>Leo</td>
+                        <td>Q1</td>
+                    </tr>
+                    <tr>
+                        <td>User Pilot</td>
+                        <td>Ruy + Leo</td>
+                        <td>Q1</td>
+                    </tr>
+                    <tr>
+                        <td>Methodology Review</td>
+                        <td>Ruy + Horacio</td>
+                        <td>This week</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>What Would Make Us Pivot?</h3>
+            <ul>
+                <li>If customers don't care about "behavior change cycle" → find what they do care about</li>
+                <li>If coaching + daily follow-up feels disconnected → rethink the integration</li>
+                <li>If competitive analysis shows we're easily replaceable → double down on what's hard to copy</li>
+                <li>If users don't engage → simplify or change the approach</li>
+            </ul>
+
+            <div class="insight-box">
+                <strong>The commitment is to finding product-market fit, not to these specific features.</strong>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Q1 Strategy -->
+        <section>
+            <h2>Q1 Strategy: Validate + Build</h2>
+            <p>We run two tracks in parallel:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Track</th>
+                        <th>Owner</th>
+                        <th>What Happens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Validate</strong></td>
+                        <td>Leo</td>
+                        <td>Run customer conversations. Test if this direction resonates. Decide Voice vs Bidirectional Chatbot.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Build</strong></td>
+                        <td>Mike + Shamil</td>
+                        <td>Ship MS Teams notifications + Coach Multi-Session. Create something to show.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Why both tracks?</strong></p>
+            <ul>
+                <li>We can't wait to validate before building (3-month runway)</li>
+                <li>We can't build blind (risk building the wrong thing)</li>
+                <li>Leo's validation informs what we prioritize next</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Q1 Scope -->
+        <section>
+            <h2>Q1 Scope</h2>
+
+            <h3>What We're Building</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Owner</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MS Teams Notifications</td>
+                        <td>Mike</td>
+                        <td>In progress</td>
+                    </tr>
+                    <tr>
+                        <td>Daily Companion Cyclic Flow</td>
+                        <td>Shamil</td>
+                        <td>Ready to build</td>
+                    </tr>
+                    <tr>
+                        <td>Coach Multi-Session</td>
+                        <td>Shamil + Ruy</td>
+                        <td>Needs Horacio</td>
+                    </tr>
+                    <tr>
+                        <td>Voice OR Bidirectional Chatbot</td>
+                        <td>TBD</td>
+                        <td>Validate with Leo</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Q1 Validation Experiment</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Users</strong></td>
+                        <td>Mix of friendly clients + Leo's pipeline</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Owner</strong></td>
+                        <td>Ruy + Leo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Duration</strong></td>
+                        <td>2-3 weeks</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Goal</strong></td>
+                        <td>Validate utility and approach (not behavior change outcomes yet)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Sales signal:</strong> Leo tracks conversations that shift from "nice chatbot" to "this is different"</p>
+
+            <h3>What's NOT in Q1</h3>
+            <ul>
+                <li>GPS Dashboard (needs goal storage foundation first)</li>
+                <li>Full context integrations (calendar, email)</li>
+                <li>Fluid mode transitions (V1 is explicit)</li>
+                <li>Peer accountability features</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Beyond Q1 -->
+        <section>
+            <h2>Beyond Q1: The Trajectory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Phase</th>
+                        <th>Focus</th>
+                        <th>Key Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Q1 2026</strong></td>
+                        <td>Prove coaching works</td>
+                        <td>Multi-session Coach, Cyclic Daily Companion, Teams notifications</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Q2 2026</strong></td>
+                        <td>Daily practice + feedback</td>
+                        <td>GPS Dashboard, Transcript analysis, Before/After touchpoints</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 2026</strong></td>
+                        <td>Full experience</td>
+                        <td>Real-time feedback, Deep integrations, Peer features</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="cta-links">
+                <a href="roadmap.html">Full Roadmap →</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Your Role -->
+        <section>
+            <h2>Your Role</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Person</th>
+                        <th>What We Need From You</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Oseas</strong></td>
+                        <td>Strategic alignment. "This is the right bet, go execute." Board communication if needed.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Leo</strong></td>
+                        <td>Run validation conversations. Decide Voice vs Bidirectional. Track which features shift sales conversations.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mike</strong></td>
+                        <td>Ship Teams notifications. Support Shamil on multi-session architecture. Flag blockers early.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Risks -->
+        <section>
+            <h2>Key Risks (Acknowledged)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Risk</th>
+                        <th>Mitigation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Users don't engage with goal-setting conversation</td>
+                        <td>Make it shorter, test with real users, iterate</td>
+                    </tr>
+                    <tr>
+                        <td>MS Teams blocked by client IT</td>
+                        <td>Fallback channels (email, web)</td>
+                    </tr>
+                    <tr>
+                        <td>We build features that don't move PMF</td>
+                        <td>Leo validates before we build the next thing</td>
+                    </tr>
+                    <tr>
+                        <td>Methodology not clear enough</td>
+                        <td>Horacio meeting this week; start with "good enough" and refine</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Decision Needed -->
+        <section>
+            <h2>Decision Needed</h2>
+            <div class="insight-box">
+                <strong>Voice vs Bidirectional Chatbot</strong> — Leo validates with customers, we decide by end of Q1.
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- The Question -->
+        <section>
+            <h2>The Question</h2>
+            <blockquote>
+                <p>Are we aligned on this direction?</p>
+                <p>If yes, we start executing. Leo validates, Mike and Shamil build.</p>
+                <p>If concerns, let's surface them now — not after we've started building.</p>
+            </blockquote>
+
+            <div class="cta-links">
+                <a href="vision.html">Read the Full Vision →</a>
+                <a href="roadmap.html">Review the Roadmap →</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <footer style="text-align: center; padding: 2rem 0; color: #888; font-size: 0.875rem;">
+            <p>Document version: January 2026</p>
+        </footer>
+    </main>
+</body>
+</html>
