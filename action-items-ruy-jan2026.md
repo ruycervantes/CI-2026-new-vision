@@ -1,7 +1,22 @@
 # Consolidated Action Items - Ruy (January 2026)
 
 Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
-**Updated:** January 15, 2026 - Sprint Planning Call outcomes + handwritten notes (Jan 15) added.
+**Updated:** January 16, 2026 - Horacio call notes + handwritten notes (Jan 16) added.
+
+---
+
+## 🎯 Next Week Focus (Week of Jan 20)
+
+### First Priority
+- [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com
+
+### Also Next Week
+- [ ] **Document testing/shipping process** - continue IN PROGRESS work
+- [ ] **Evaluate Linear vs GitHub Projects** - write comparison + prototype Linear MCP
+- [ ] **Review bug list from Mike**
+- [ ] **Set up Claude-Code account for Shamil** - create shared account like oas@stoic.enterprise
+- [ ] **Competitor benchmark** - first draft, Franco's benchmark + Mural board
+- [ ] **Write Thinking Partner how-to** - methodology documentation
 
 ---
 
@@ -41,6 +56,19 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
                                               ↑_________________________|
 ```
 
+### Horacio Call Insights (Jan 16, 2026)
+
+**Ontology for coaching memory system:**
+- Personas → Metas → Comportamiento → Ejemplos
+- Key question: **"¿Qué es lo más valioso de recordar?"**
+
+**Coaching process notes:**
+- Group coaching (colectivas) vs individual instances
+- Reference: Hugo Tolivar - "Applications Coaching" / "cultura proyecto"
+- A/B test idea: detailed notes vs simple tracking
+- "Social Setup" / motivación social as feature concept
+- **Core insight:** "Necesito poder dar algo en memoria" - system must surface relevant history
+
 ---
 
 ## Sprint Planning Outcomes (Jan 15, 2026)
@@ -52,6 +80,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Linear: modern, great MCP/Claude Code integration, designed for dev
   - GitHub: free, integrated, has Kanban/roadmap/epics, CI/CD automation
   - Action: Write comparison, share via email, discuss in office hours
+  - **Prototype plan:** Test Linear MCP integration - try importing vision and roadmap docs
 
 - [ ] **Document testing/shipping process** - IN PROGRESS
   - See details: `sprint-methodology-fix.md` → "Testing & Shipping Process" section
@@ -81,14 +110,6 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 ### Research & Preparation
 
 - [ ] **Review bug list from Mike** - he prepared list to review
-- [ ] **Email Oseas** - clarify his product testing request/expectations
-  - Gap: Oseas expects assessment → growth areas → micro-habits coaching
-  - Reality: currently one micro-habit from assessment
-  - "Lo que dijo Oseas ahorita no lo podemos hacer" → requires new version
-  - Risk: if he demos his vision (not reality), creates misaligned expectations
-  - **Action:** Share Q1 roadmap for explicit alignment on what ships when
-- [ ] **Organize personal work/tasks backlog** → prioritized list in Todoist
-
 - [ ] **Competitor benchmark** (HIGH PRIORITY) - First draft for ongoing review
   - Key competitors: MindGym, Cloverleaf
   - **Franco's benchmark:** https://www.notion.so/axialent/Analisis-de-competidores-247073cafffb800ca830e7d8bd740d8d
@@ -103,13 +124,10 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - What makes people persist vs abandon?
   - Intervention timing and frequency
 
-- [ ] **Interview Horacio** about coaching methodology (BLOCKS: Thinking Partner ship, vision methodology)
-  - How does he take notes?
-  - What does he track session-to-session?
-  - How does he handle goal evolution?
-  - Get photos of his notebook if possible
-  - **Also:** Get him to test Thinking Partner to refine prompts
-  - **Also:** Validate multi-session coaching methodology in vision doc
+- [ ] **Process Horacio call (Jan 16)** ⚡ IMMEDIATE
+  - Transcribe call and extract coaching methodology insights
+  - Use `/process-call` command
+  - Key topics: ontology, memory system, group vs individual coaching
 
 ### Documents & Materials
 
@@ -130,9 +148,22 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 ## Process & Systems (NEW - from Handwritten Notes)
 
 ### Personal Workflow
-- [ ] **Define daily/weekly review process**
+- [ ] **Establish daily/weekly review habit** - done when doing reviews consistently for 1-2 weeks
   - What to review, when, how long
   - Could include CC → Todoist if useful
+
+- [ ] **Organize Todoist (fresh setup)** - new personal task management system
+
+- [ ] **Put resource map in Linear** - centralize project artifacts
+
+- [ ] **Add emails to resource map** - consolidate communications
+
+### Hackathon Prototype (Evening - Jan 16)
+- [ ] **Personal Life Coach prototype** - done when I have a working tool I use day-to-day
+  - Gym Coach component
+  - Brain/Life Coach component
+  - Relationship Coach component
+  - "Dónde cómo sustento para recordar" - where to store life context
 
 ### Unshipped Features (Technical Debt)
 - [ ] **Ship voice STT** - done but not shipped
@@ -149,6 +180,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Email transition: stoic.enterprises → stoicyou.com**
   - Transition ruy@ and others
   - Helpdesk ticket already created for related issue
+- [ ] **Buy earbuds for Irene** - small/in-ear, good sound quality
 
 ---
 
@@ -218,11 +250,23 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ---
 
+## With Mike (To Discuss)
+
+- [ ] **TODO completion UX + memory relevance**
+  - Question: "¿Quiero TODO completo... la memoria te trae lo más relevante?"
+  - How does memory surface the most relevant context automatically?
+  - UX for showing what's complete vs what's relevant
+- [ ] **Share notes from Horacio call** - "Ya le puedo armar algo a Mike con las NOTAS"
+  - Ontology structure: Personas → Metas → Comportamiento → Ejemplos
+  - What's most valuable to remember from coaching sessions
+
+---
+
 ## Blocked Items
 
 | Item | Blocked By | Next Step |
 |------|------------|-----------|
-| Vision methodology + Thinking Partner ship | Horacio interview | Schedule interview |
+| Vision methodology + Thinking Partner ship | Horacio interview | Process call notes |
 | Feature 3 vs 4 priority | Customer validation | Talk to Leo |
 | Graph memory decision | Technical prototype | Mike to explore |
 
@@ -262,7 +306,9 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - Handwritten notes (Jan 13): `handwritten-notes-transcription.md`
 - Handwritten notes (Jan 14): `handwritten/` folder
 - Handwritten notes (Jan 15): `handwritten/IMG_7706-7708`
+- **Handwritten notes (Jan 16):** `handwritten/IMG_7715-7718` - Horacio call + TODOs
 - **Sprint Planning (Jan 15):** `calls/Sprint Planning 15 jan 2026 - Summary.md`
+- **Horacio Call (Jan 16):** needs processing with `/process-call`
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
 - Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests
