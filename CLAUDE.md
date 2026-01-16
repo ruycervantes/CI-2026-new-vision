@@ -23,7 +23,13 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 - Keep stories concrete and actionable
 - Include acceptance criteria
 
-### When Doing Research (Competitors, HCI)
+### When Doing Ethnographic Research (`research/`)
+- Raw transcripts go in `research/interviews/{informant-date}/`
+- Analysis outputs go in `research/analysis/`
+- Update `research/coaching-knowledge-framework.md` with new findings
+- Sources (methodology docs) live in `research/sources/`
+
+### When Doing Competitive/HCI Research
 - Summarize findings in markdown
 - Answer the key question: "Are we differentiated or 80/20 replaceable?"
 - Connect findings to product decisions
@@ -50,6 +56,17 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 | `core/roadmap.md` | Q1/Q2/H2 features, dependencies, team assignments | Each quarter |
 | `core/alignment.md` | Leadership sign-off, validation activities | Per alignment meeting |
 
+### Research (`research/`)
+
+Ethnographic design research to inform AI coaching product.
+
+| Folder | Purpose | Contents |
+|--------|---------|----------|
+| `research/sources/` | Primary methodology docs | Application Coaching, CB Handbook, CB Workbook |
+| `research/interviews/` | Raw interview transcripts | Organized by informant (e.g., `horacio-jan2026/`) |
+| `research/analysis/` | Analysis outputs | Case studies, intervention analysis, observations |
+| `research/coaching-knowledge-framework.md` | Master synthesis | Three-layer framework consolidating all research |
+
 ### Working Files (root)
 
 | Document | Purpose | Update Frequency |
@@ -60,7 +77,7 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 | `action-items-ruy-jan2026.md` | Master task list / backlog | After every session |
 | `sprints/` | Team sprint stories (use `/sprint-stories` to create) | Before sprint planning |
 | `handwritten/` | Drop zone for handwritten note photos | As needed (use `/handwritten` to process) |
-| `calls/` | Call transcripts, summaries, and analysis | After calls (use `/process-call` to process) |
+| `calls/` | Operational call transcripts and summaries | After calls (use `/process-call` to process) |
 
 ### Archive (reference only)
 

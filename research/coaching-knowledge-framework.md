@@ -326,8 +326,8 @@ Questions to explore in future interviews and research:
 4. Context on organizational coaching structures (culture transformation, leadership development)
 
 **Analysis Documents:**
-- `calls/horacio-case-study-analysis.md` - Case narrative and methodological notes
-- `calls/horacio-intervention-setups.md` - Engagement types and process components
+- `research/analysis/horacio-case-study-analysis.md` - Case narrative and methodological notes
+- `research/analysis/horacio-intervention-setups.md` - Engagement types and process components
 
 **Key Quotes:**
 
