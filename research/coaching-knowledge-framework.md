@@ -12,10 +12,15 @@ A framework for organizing ethnographic research on coaching methodology to info
 
 ### 1.1 Methodology (Application Coaching)
 
-*Placeholder - to be populated from Application Coaching methodology document*
+**Source:** Application Coaching Handbook (~80 pages, 8-step methodology)
+
+**Definition:**
+> "Un coaching basado en los principios y conceptos de liderazgo consciente"
+
+Based on 7 pillars of Conscious Business. Emphasis on ending each session with concrete commitment for action.
 
 - Formal frameworks and models
-- Theoretical foundations
+- Theoretical foundations (Conscious Business, ontological coaching)
 - Prescribed processes and techniques
 
 ### 1.2 Praxis (Observed Practice)
@@ -36,16 +41,35 @@ The coach's responsibility: make ALL connections to prior conversations.
 **Note-Taking Practice:**
 - During Session: Takes detailed notes while coaching; informs coachee when doing so (ICF principle)
 - Post-Session: 20-30 minutes for clean-up; Word document per coachee, chronological; includes personal notes/reminders
-- Pre-Session: 15-minute review of all prior session notes - "Leo rápidamente cómo fue fluyendo la cosa"
+- Pre-Session: 15-minute review of all prior session notes - "Leo rápidamente cómo fue fluyendo la cosa" (not every detail, but flow/trajectory)
+
+**"Yellow Lights"** - Personal reminders interspersed in session notes:
+- "Veo riesgo de que se pierda en generalidades"
+- "Ver cuánto de esto se puede relacionar con el dependiente de su LSI1"
+- "Tener en cuenta indagar a fondo su preocupación sobre las malinterpretaciones"
+
+**ICF Note-Taking Transparency:**
+When taking notes, coach must inform coachee. In virtual sessions, clarify when eye gaze deviation is for notes:
+> "Desvío la mirada porque estoy tomando notas, si no tenés problemas"
+
+**Handling Objection to Note-Taking:**
+If coachee objects, specific response:
+> "Que yo no anote significa que me va a costar más acordarme la próxima vez de cosas que me dijiste acá."
+> "De última, como mínimo terminé esta sesión, alguna minuta me voy a tener que hacer para poder darte mejor mi servicio de coaching."
+
+**Recording Concerns:**
+Does NOT propose recording sessions - can be intimidating. Privacy concerns:
+> "No quiero dar ninguna señal que pueda despertar sospechas de que eso puede salirse de control."
+
+**Information Reveals or Conceals:**
+> "Todo es pertinente, todo te dice algo, te dice porque lo pone en evidencia o te dice porque lo tapa."
+
+Everything shared is relevant - either because it exposes something or because it covers something up.
 
 **Memory & Continuity Benefits:**
-- Builds Trust: "Si yo soy coachee y me encuentro con un coach que en la tercera sesión me cita algo que yo le comenté en la primera, lo primero que siento es que este tipo me escuchó."
-- Saves Time: No need to re-ask questions already answered
-- Tracks Examples by Name: If coachee mentions "Julián" in session 3, coach recalls "Julián from session 2 who..."
-
-**"Yellow Lights"** - Personal reminders for future exploration:
-- "Veo riesgo de que se pierda en generalidades"
-- "Tener en cuenta indagar a fondo su preocupación sobre las malinterpretaciones"
+- Builds Trust: "Si yo soy coachee y me encuentro con un coach que en la tercera sesión me cita algo que yo le comenté en la primera, lo primero que siento es que este tipo me escuchó, me tiene en cuenta y sé que puedo contar con que cada cosa que le digo no se pierde en la nada."
+- Saves Time: No need to re-ask questions already answered - "Recordarlo también nos ahorra tiempo futuro de que yo no vuelva a preguntar las mismas cosas."
+- Tracks Examples by Name: If coachee mentions "Julián" in session 3, coach recalls "Julián from session 2 who..." - "El tracking incluso de los ejemplos es pertinente."
 
 **Handling Resistance:**
 1. Don't defend tools extensively
@@ -116,6 +140,8 @@ Before showing any instrument results:
 
 Opens the door for honest self-reflection before seeing data.
 
+> "Es lo más poderoso que yo he visto para que la persona transite el coaching con conciencia y compromiso."
+
 ### 2.2 Session Flow
 
 **Questions for interviews:**
@@ -134,7 +160,26 @@ Opens the door for honest self-reflection before seeing data.
 **Mid-Session Dynamics:**
 - Watch for "success story sharing" that may mask real needs
 - Note when coachee speaks at high level, struggles to get to detail
-- Track mid-process revelations that change understanding (e.g., boss had requested something months ago)
+- Track mid-process revelations that change understanding (e.g., boss had requested succession plan 2 months prior, revealed in session 2)
+
+**Time Management within Sessions:**
+> "Faltando pocos minutos para el fin de la llamada, le propuse avanzar primero con el punto 2"
+
+Coach actively manages time to ensure key topics get addressed.
+
+**Coachee Using Sessions for Validation:**
+> "Él usó esas primeras dos sesiones para validar conmigo si lo que hacía con el desarrollo de su gente tenía oportunidades de mejora."
+
+Coachees sometimes seek confirmation of their approach before opening to change.
+
+**Mid-Process Revelations:**
+Coachee may reveal critical info mid-session that "cambia la película" - system should note and flag these moments.
+
+**Coachee Feedback Connecting to Coach Observations:**
+- Coachee: "lograba cerrar mejor los temas"
+- Coach: "yo desde el principio lo noté como que hablaba muy en alto nivel y le costaba bajar a detalle"
+
+When coachee self-reports improvement that aligns with coach's earlier observations, that's validation of progress.
 
 **Challenge Interventions:**
 - Distinguish helping solve a problem vs. developing the person
@@ -157,11 +202,23 @@ Opens the door for honest self-reflection before seeing data.
 **Pre-Session Preparation:**
 - 15-minute review of all prior session notes
 - Arrive with full context ready
+- "Leo rápidamente cómo fue fluyendo la cosa" - not reviewing ALL details, but flow/trajectory
+- Enables saying: "Te acordás que en la primera sesión habías identificado como 10 temas..."
 
 **Tracking & Connecting:**
 - Connect current topics to diagnostic findings
 - Reference prior examples by name: "Ah sí, el que me contaste la vez pasada"
 - Track commitments: "Hizo los deberes" - did they do the homework?
+
+**Tracking Prioritized vs Unprioritized Topics:**
+> "Priorizaste estos, pero fíjate que estos otros. Está bien que no los priorices, pero ¿qué vas a hacer con eso?"
+
+Coach tracks both what coachee chose to work on AND what they chose not to - then surfaces the choice.
+
+**Memory as Time-Saver:**
+> "Recordarlo también nos ahorra tiempo futuro de que yo no vuelva a preguntar las mismas cosas."
+
+No need to re-ask questions already answered; coachee doesn't waste time re-explaining.
 
 **Making Connections Explicit:**
 > "Si yo veo que entran muy en zona de luz algunos [objetivos] y otros quedan en sombra, digo: ¿te estás dando cuenta que estos están quedando en sombra y no los estamos atendiendo?"
@@ -186,6 +243,14 @@ A single session can include:
 
 ### 3.2 Multi-Session Arc (6-Session Example)
 
+**Core Framing: One Long Conversation**
+> "Es una larga conversación repartida en seis momentos."
+> "No son seis conversaciones distintas."
+
+Sessions are NOT isolated events - they form one continuous conversation distributed across moments.
+
+> "Es una gran responsabilidad velar por hacer todas las conexiones posibles con las cosas que se han conversado antes."
+
 **From Horacio's Case Study:**
 
 | Session | Theme | Key Moments |
@@ -193,10 +258,13 @@ A single session can include:
 | Pre-coaching | LSI Feedback | Pre-diagnostic question; blind spots discovery; initial commitments |
 | 1 | Resistance & Pivot | Coachee questions tool validity; coach pivots to coachee's priorities |
 | 2 | Succession Planning | Challenge intervention; mid-process revelation about boss's request |
-| 3 | Progress + New Topics | Matrix completed; new development areas emerge; advisory mode used |
+| 3 | Progress + New Topics | Opens "reportando avances significativos"; "Hizo los deberes"; new topics emerge organically; advisory mode used for one topic, coaching reserved for deeper one |
 | 4-6 | (Not detailed) | Continuation of themes |
 
 **Pattern:** Topics weave through sessions; new information can reframe earlier understanding.
+
+**AI Advantage:**
+> "Es más fácil, creería yo, con una IA que con un ser humano, porque nosotros nos podemos olvidar."
 
 ### 3.3 Long-term Relationship
 
@@ -224,10 +292,20 @@ These principles emerged from Horacio's interview with explicit relevance for AI
 ### 4.1 Memory is Non-Negotiable
 > "Una IA que haga coaching tiene que ser una IA con memoria, no puede ser una IA que empiece cada sesión olvidándose del contexto previo."
 
-**Implication:** AI coaching must maintain rich, persistent memory across all interactions.
+The "one long conversation" framing:
+> "Es una larga conversación repartida en seis momentos."
+
+> "Es más fácil, creería yo, con una IA que con un ser humano, porque nosotros nos podemos olvidar."
+
+**Implication:** AI coaching must maintain rich, persistent memory across all interactions. AI has a potential advantage over human coaches here - it won't forget.
 
 ### 4.2 Track Examples by Name
-If coachee mentions "Julian" in session 3, AI should recall "Julian from session 2 who received feedback about one-page reports..."
+If coachee mentions "Julián" in session 3, AI should recall "Julián from session 2 who received feedback about one-page reports..."
+
+From the Julián/Maxi case study:
+> "Yo prefiero que si él me lo vuelva a mencionar a Julián en la sesión 3, yo como coach diga, ah sí, el que me contaste la vez pasada que fue el que le pasó tal cosa."
+
+> "El tracking incluso de los ejemplos es pertinente."
 
 **Implication:** Entity recognition and linking across sessions; people, projects, situations should be tracked as named objects.
 
@@ -259,7 +337,10 @@ Consider interview-based intake - richer than questionnaires alone.
 Success story sharing may mask real needs:
 > "Una forma hasta inconsciente en que un coachee no te dice qué es lo que realmente necesita como ayuda."
 
-**Implication:** System should recognize when user is sharing wins vs. exploring challenges.
+The "reveals or conceals" framing:
+> "Todo es pertinente, todo te dice algo, te dice porque lo pone en evidencia o te dice porque lo tapa."
+
+**Implication:** System should recognize when user is sharing wins vs. exploring challenges. Everything shared is data - either revealing or concealing something important.
 
 ### 4.8 Support Both Modes
 - Advisory/tips (technical guidance, best practices)
@@ -278,6 +359,31 @@ Follow up on prior session outcomes:
 > "Si yo veo que entran muy en zona de luz algunos [objetivos] y otros quedan en sombra, digo: ¿te estás dando cuenta que estos están quedando en sombra y no los estamos atendiendo?"
 
 **Implication:** System should notice imbalances and point them out proactively.
+
+### 4.11 Listening Plus Memory
+> "Una de la habilidad que se supone que como coaches tenemos que garantizar más es nuestra escucha."
+
+> "Yo le agrego nuestra escucha más el mejor recuerdo posible de lo que escuchamos."
+
+**Implication:** AI coaching requires both real-time attention (understanding what's being said) AND persistent memory (recalling what was said before). Neither alone is sufficient.
+
+### 4.12 Memory Saves Time
+> "Recordarlo también nos ahorra tiempo futuro de que yo no vuelva a preguntar las mismas cosas."
+
+**Implication:** Good memory eliminates redundant questions - coachee doesn't waste time re-explaining context. Saves time AND builds trust.
+
+### 4.13 Note-Taking Transparency
+ICF principle: When taking notes, coach must inform coachee. In virtual sessions:
+> "Desvío la mirada porque estoy tomando notas, si no tenés problemas."
+
+**Implication:** AI should be transparent about what it's tracking. Users should know what information is being retained and how it will be used.
+
+### 4.14 Revelations That Change the Picture
+Mid-process info can reframe entire understanding - Horacio describes moments that "cambian la película."
+
+Example: Boss had requested succession plan 2 months prior, revealed only in session 2.
+
+**Implication:** System should note and flag moments when new information significantly recontextualizes prior understanding. These are pivotal moments.
 
 ---
 
@@ -343,6 +449,14 @@ On diagnostic power:
 On AI requirements:
 > "Una IA que haga coaching tiene que ser una IA con memoria."
 
+**Recommendation to Interview Other Coaches:**
+> "Vos no te quedes solo con mi testimonio... Fíjate con algún otro colega, por ahí descubrís otra cosa."
+
+Horacio explicitly suggested triangulating with other coaches to get diverse perspectives on methodology.
+
+**Offer to Anonymize Case Notes:**
+Horacio offered to use AI to sanitize his coaching notes (removing names, companies) to share as exemplar material for product design.
+
 ---
 
 ## Appendix: Intervention Types Reference
@@ -364,9 +478,13 @@ From Horacio's framework:
 **Type A: In-Situ Business Meeting Facilitation**
 - Observer in real business meetings
 - Permission to intervene and provide feedback
-- Points out: listening issues, interruptions, victim language
+- **What facilitator observes and points out:**
+  - Listening issues
+  - Interruptions
+  - Victim language
+  - Unchecked inferences
 
 **Type B: High Performing Teams (HPT)**
 - Structured team development sessions
-- Session 1: Clarify objectives, connect team to individual goals
-- Session 2: Define processes, decision mechanisms
+- **Session 1:** Clarify objectives, connect team to individual goals
+- **Session 2:** Define processes, decision mechanisms
