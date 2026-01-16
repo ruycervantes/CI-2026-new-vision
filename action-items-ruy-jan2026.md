@@ -64,7 +64,6 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 **Coaching process notes:**
 - Group coaching (colectivas) vs individual instances
-- Reference: Hugo Tolivar - "Applications Coaching" / "cultura proyecto"
 - A/B test idea: detailed notes vs simple tracking
 - "Social Setup" / motivación social as feature concept
 - **Core insight:** "Necesito poder dar algo en memoria" - system must surface relevant history
