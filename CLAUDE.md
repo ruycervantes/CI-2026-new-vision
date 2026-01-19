@@ -129,12 +129,19 @@ The vision document is a static HTML/CSS site:
 
 ## Available Commands
 
+### Personal Productivity (Ruy)
 | Command | Description |
 |---------|-------------|
 | `/handwritten` | Transcribe handwritten notes from `handwritten/` folder and propose additions to action items |
+| `/review-action-items` | Process new items into action-items file |
+| `/weekly-plan` | Weekly triage - consolidate action-items + Todoist, triage to 15-20 tasks, top 3 outcomes |
+
+### Work (Sprints & Calls)
+| Command | Description |
+|---------|-------------|
 | `/process-call` | Deep analysis of call transcripts - creates summary, strategic analysis, and extracts action items |
-| `/planning-review` | **Ruy's personal work** - weekly review, right-size deliverables, create sprint files |
-| `/sprint-stories` | **Team sprint planning** - create stories for Mike, Shamil, Daniel, Leo |
+| `/planning-review` | **Sprint planning** - right-size deliverables, create sprint files for dev team |
+| `/sprint-stories` | **Team sprint stories** - create stories for Mike, Shamil, Daniel, Leo |
 
 ## What NOT to Do
 

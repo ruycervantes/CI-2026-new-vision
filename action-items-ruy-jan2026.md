@@ -1,21 +1,29 @@
 # Consolidated Action Items - Ruy (January 2026)
 
 Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
-**Updated:** January 16, 2026 - Horacio call notes + handwritten notes (Jan 16) added.
+**Updated:** January 19, 2026 - Handwritten notes (Jan 19) added: coaching insights, skills architecture, urgent Bogotá contract.
 
 ---
 
-## 🎯 Next Week Focus (Week of Jan 20)
+## 🎯 This Week Focus
+
+### Week Outcomes (Jan 19-25)
+1. **PMF direction clarified** - Dolo interview + Leo discussion → clear on behavior change vs team effectiveness
+2. **Sprint set up for success** - Shamil story written + estimates reviewed + methodology advancing
+3. **Get the Avenida Bogotá sale done** - contract reviewed and signed
+
+### Today (Jan 19) - Urgent
+- [ ] **Escribir guión para entrevista con Dolo** - prepare interview questions/script
+- [ ] **Revisar contrato de Bogotá de compra venta** - review purchase/sale contract
+- [ ] **Write user story for Shamil: Thinking Partner sidebar** - task definition for sprint
 
 ### First Priority
 - [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com
+- [ ] **Mandar OKRs** - send my OKRs and work on Mike's
 
-### Also Next Week
+### Also This Week
 - [ ] **Document testing/shipping process** - continue IN PROGRESS work
 - [ ] **Evaluate Linear vs GitHub Projects** - write comparison + prototype Linear MCP
-- [ ] **Review bug list from Mike**
-- [ ] **Set up Claude-Code account for Shamil** - create shared account like oas@stoic.enterprise
-- [ ] **Competitor benchmark** - first draft, Franco's benchmark + Mural board
 - [ ] **Write Thinking Partner how-to** - methodology documentation
 
 ---
@@ -68,31 +76,48 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - "Social Setup" / motivación social as feature concept
 - **Core insight:** "Necesito poder dar algo en memoria" - system must surface relevant history
 
+### Coaching Insights (Jan 19, 2026 - Handwritten)
+
+**Coaching structure:**
+- Coaching typically runs 4-6 specific sessions focused on one thing
+- Then maintenance phase follows
+
+**AI vs Human Coaching - Key Distinction:**
+- "Las sesiones con Horacio son muy profundas. No sé si le daría eso a un AI."
+- **BUT the opportunity:** "Lo chido del AI es que podemos tener sesiones súper tácticas"
+- AI can have super tactical sessions focused on very specific things
+- Help people in day-to-day workflow - dedicate a coaching conversation to something that otherwise wouldn't have gotten dedicated attention
+- Things that would have been very difficult to address otherwise
+
+**Skills-based architecture insight:**
+- "Lo podemos implementar en skills"
+- See "With Mike" section for full architecture discussion
+
 ---
 
-## Sprint Planning Outcomes (Jan 15, 2026)
+## Sprint Planning Outcomes (Jan 15, 2026) *(reference, not tasks)*
 
 ### Ruy's Sprint Tasks
 
-- [ ] **Evaluate Linear vs GitHub Projects** for development tracking
+- **Evaluate Linear vs GitHub Projects** for development tracking
   - Problems with Asana: no epics, testing/dev boards split, no capacity metrics, can't track product/client per issue
   - Linear: modern, great MCP/Claude Code integration, designed for dev
   - GitHub: free, integrated, has Kanban/roadmap/epics, CI/CD automation
   - Action: Write comparison, share via email, discuss in office hours
   - **Prototype plan:** Test Linear MCP integration - try importing vision and roadmap docs
 
-- [ ] **Document testing/shipping process** - IN PROGRESS
+- **Document testing/shipping process** - IN PROGRESS
   - See details: `sprint-methodology-fix.md` → "Testing & Shipping Process" section
   - **Open questions to resolve:**
     - Who notifies sales team when features ready for demo?
     - Can deployment script enforce 3-day demo notice?
 
-- [ ] **Add detail to Leo's testing task** (in Asana)
+- **Add detail to Leo's testing task** (in Asana)
   - Explain how to test Leadership Growth Partner in testing version
   - Give access to testing.stoicq.com
   - See transcript: `calls/Sprint Planning 15 jan 2026.txt`
 
-- [ ] **Talk to Nelson** about P&G course automation timeline
+- **Talk to Nelson** about P&G course automation timeline
 
 ### Blockers
 
@@ -104,7 +129,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ---
 
-## This Week (Post-Sprint Planning)
+## This Week - Research & Documents
 
 ### Research & Preparation
 
@@ -123,7 +148,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - What makes people persist vs abandon?
   - Intervention timing and frequency
 
-- [ ] **Process Horacio call (Jan 16)** ⚡ IMMEDIATE
+- [ ] **Process Horacio call (Jan 16)** - ⚠️ 3 days old, still needed?
   - Transcribe call and extract coaching methodology insights
   - Use `/process-call` command
   - Key topics: ontology, memory system, group vs individual coaching
@@ -147,6 +172,8 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 ## Process & Systems (NEW - from Handwritten Notes)
 
 ### Personal Workflow
+- [ ] **Integrar todos los TODOs en una sola cosa** - consolidate all task lists into one system
+
 - [ ] **Establish daily/weekly review habit** - done when doing reviews consistently for 1-2 weeks
   - What to review, when, how long
   - Could include CC → Todoist if useful
@@ -173,6 +200,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ## Administrative Tasks (NEW - from Handwritten Notes)
 
+- [ ] **Sacar recibo CFE** - get receipt
 - [ ] **Nuevos contratos para Daniel y Mike**
 - [ ] **Set up Claude-Code account for Shamil**
   - Create shared account like oas@stoic.enterprise
@@ -251,6 +279,13 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ## With Mike (To Discuss)
 
+- [ ] **Skills architecture for AI coaching** - how to implement different knowledge layers
+  - **CB Skills** (grand skill with sub-skills): acuerdos y resolución de conflictos, conversaciones difíciles, mindsets, etc.
+  - **Coaching Skill** - separate skill for general coaching
+  - **Application Coaching methodology** - as skill/grand skill with sub-skills
+  - Layers: CB knowledge → General coaching knowledge → Application Coaching praxis
+  - Reference: `research/coaching-knowledge-framework.md` for the methodology levels
+
 - [ ] **TODO completion UX + memory relevance**
   - Question: "¿Quiero TODO completo... la memoria te trae lo más relevante?"
   - How does memory surface the most relevant context automatically?
@@ -306,6 +341,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - Handwritten notes (Jan 14): `handwritten/` folder
 - Handwritten notes (Jan 15): `handwritten/IMG_7706-7708`
 - **Handwritten notes (Jan 16):** `handwritten/IMG_7715-7718` - Horacio call + TODOs
+- **Handwritten notes (Jan 19):** `handwritten/IMG_7744-7747` - coaching insights, skills architecture, urgent items
 - **Sprint Planning (Jan 15):** `calls/Sprint Planning 15 jan 2026 - Summary.md`
 - **Horacio Call (Jan 16):** needs processing with `/process-call`
 - Vision document: `conscious-insights-v2-english.md`
