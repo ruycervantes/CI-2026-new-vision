@@ -72,7 +72,7 @@ Ethnographic design research to inform AI coaching product.
 | Document | Purpose | Update Frequency |
 |----------|---------|------------------|
 | `README.md` | Command center overview | Weekly |
-| `index.html` | Vision document (HTML, Netlify deployed) | When vision changes |
+| `site/` | Netlify site (index.html, vision.html, roadmap.html, diagrams/) | When vision changes |
 | `sprint-*-2026-*.md` | Ruy's sprint focus (e.g., `sprint-2-2026-foundation.md`) | During sprint |
 | `action-items-ruy-jan2026.md` | Master task list / backlog | After every session |
 | `sprints/` | Team sprint stories (use `/sprint-stories` to create) | Before sprint planning |
@@ -95,7 +95,7 @@ Ethnographic design research to inform AI coaching product.
 
 The vision document is a static HTML/CSS site:
 
-- **Run locally:** Open `index.html` in browser
+- **Run locally:** Open `site/index.html` in browser
 - **Deploy:** Push to master → Netlify auto-deploys
 - **Diagrams:** Generated with Gemini (prompts in `archive/diagram-prompts/`)
 - **Old slides:** Archived at `archive/index-slides-old.html`

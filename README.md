@@ -21,12 +21,11 @@ Strategic planning hub for Conscious Insights v2 evolution. Contains the vision,
 | Document | Purpose |
 |----------|---------|
 | `conscious-insights-v2-english.md` | Core vision document (rewritten Jan 2026) |
-| `index.html` | Vision document (HTML, Netlify deployed) |
+| `site/` | Netlify site (HTML pages + diagrams) |
 | `roadmap-q1-2026-draft.md` | Q1 roadmap DRAFT (needs vision review) |
 | `action-items-ruy-jan2026.md` | Master action list with priorities |
 | `calls/` | Call transcripts and summaries |
 | `handwritten/` | Drop zone for handwritten note photos |
-| `diagrams/` | Visual assets for vision document |
 
 ## Archive
 
@@ -105,7 +104,7 @@ See `roadmap-q1-2026-draft.md` for details (draft - needs vision review).
 
 ## Quick Links
 
-- **Vision document:** [Netlify deployment](https://ci-2026-vision.netlify.app) (or open `index.html`)
+- **Vision document:** [Netlify deployment](https://ci-2026-vision.netlify.app) (or open `site/index.html`)
 - **HCI Research:** [NotebookLM](https://notebooklm.google.com/notebook/4c0920bd-9c40-4a9b-b78a-71669e46015b)
 - **Competitor Mural:** [Mural board](https://app.mural.co/t/axialent8953/m/axialent8953/1764890677283/ad8559ddadff366460dab38357447aaeeeea02d1)
 
