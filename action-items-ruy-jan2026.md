@@ -1,7 +1,7 @@
 # Consolidated Action Items - Ruy (January 2026)
 
 Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
-**Updated:** January 19, 2026 - Handwritten notes (Jan 19) added: coaching insights, skills architecture, urgent Bogotá contract.
+**Updated:** January 20, 2026 - OKRs session with Leo: Q1 OKRs finalized (4 features), PMF weekly process agreed.
 
 ---
 
@@ -12,19 +12,29 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 2. **Sprint set up for success** - Shamil story written + estimates reviewed + methodology advancing
 3. **Get the Avenida Bogotá sale done** - contract reviewed and signed
 
-### Today (Jan 19) - Urgent
-- [ ] **Escribir guión para entrevista con Dolo** - prepare interview questions/script
-- [ ] **Revisar contrato de Bogotá de compra venta** - review purchase/sale contract
-- [ ] **Write user story for Shamil: Thinking Partner sidebar** - task definition for sprint
+### Completed ✓
+- [x] **Write user story for Shamil: Thinking Partner sidebar** - task definition for sprint (Jan 19)
+- [x] **Initial review of Bogotá contract** - reviewed, now needs follow-up (Jan 19)
 
-### First Priority
-- [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com
+### Today (Jan 20)
 - [ ] **Mandar OKRs** - send my OKRs and work on Mike's
+- [ ] **Escribir guión para entrevista con Dolo** - prepare interview questions/script
+- [ ] **Revisar contrato Bogotá - follow-up** - specific items + send follow-up
+- [ ] **PG - send response** - urgent
+- [ ] **Send note to Shamil** - about meeting discussion
+- [ ] **Send Discord message about refinement timing** - meeting time change for tomorrow
+
+### Tomorrow (Jan 21)
+- [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com
+- [ ] **Hacer extensión de contrato de Daniel**
+- [ ] **Evaluate Linear vs GitHub Projects** - write comparison + prototype Linear MCP (deep work)
+- [ ] **Set up Todoist plan with Irene**
+- [ ] **Sacar a Enol a andar en bicicleta**
 
 ### Also This Week
 - [ ] **Document testing/shipping process** - continue IN PROGRESS work
-- [ ] **Evaluate Linear vs GitHub Projects** - write comparison + prototype Linear MCP
 - [ ] **Write Thinking Partner how-to** - methodology documentation
+- [ ] **Schedule technical sync meeting with Leo** - ~30 min/week for team technical alignment (from Shamil 1:1)
 
 ---
 
@@ -117,13 +127,10 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Give access to testing.stoicq.com
   - See transcript: `calls/Sprint Planning 15 jan 2026.txt`
 
-- **Talk to Nelson** about P&G course automation timeline
-
 ### Blockers
 
 | Blocker | Owner | Resolution |
 |---------|-------|------------|
-| P&G course automation | Nelson | Schedule discussion |
 | No client lifecycle visibility | Team | Document archival process |
 | Oseas's coaching vision | Ruy | Requires new version (Q1 roadmap) |
 
@@ -202,8 +209,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 - [ ] **Sacar recibo CFE** - get receipt
 - [ ] **Nuevos contratos para Daniel y Mike**
-- [ ] **Set up Claude-Code account for Shamil**
-  - Create shared account like oas@stoic.enterprise
+- [x] **Set up Claude-Code account for Shamil** - Max account created (Jan 20, Shamil 1:1)
 - [ ] **Email transition: stoic.enterprises → stoicyou.com**
   - Transition ruy@ and others
   - Helpdesk ticket already created for related issue
@@ -303,6 +309,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 | Vision methodology + Thinking Partner ship | Horacio interview | Process call notes |
 | Feature 3 vs 4 priority | Customer validation | Talk to Leo |
 | Graph memory decision | Technical prototype | Mike to explore |
+| Environment automation completion | Daniel baby leave (mid-Feb) | Need coverage plan for infra work |
 
 ---
 
@@ -344,6 +351,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - **Handwritten notes (Jan 19):** `handwritten/IMG_7744-7747` - coaching insights, skills architecture, urgent items
 - **Sprint Planning (Jan 15):** `calls/Sprint Planning 15 jan 2026 - Summary.md`
 - **Horacio Call (Jan 16):** needs processing with `/process-call`
+- **Shamil 1:1 (Jan 20):** `calls/Shamil - Ruy - discuss feature thinking partner - Summary.md` - Thinking Partner handoff, Max account setup
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
 - Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests
