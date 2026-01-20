@@ -103,6 +103,24 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - "Lo podemos implementar en skills"
 - See "With Mike" section for full architecture discussion
 
+### Q1 OKRs (Jan 20 - Leo Session)
+
+**Objective 1: Feature Development** - 4 features:
+1. Teams integration
+2. New coaching version (complete sessions)
+3. Voice/STT
+4. **Sprint Automation** (environment + prompt customization)
+
+**Objective 2: Product Decision + PMF** - validated roadmap + weekly PMF review (Thu/Fri)
+
+**Objective 3: Team Performance** - processes + release lifecycle
+
+### HPT vs Behavior Change
+
+- Behavior Change: well-defined
+- High Performance Team: needs exploration (Mural, notes)
+- Explore in parallel to make data-based decision
+
 ---
 
 ## Sprint Planning Outcomes (Jan 15, 2026) *(reference, not tasks)*
@@ -352,6 +370,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - **Sprint Planning (Jan 15):** `calls/Sprint Planning 15 jan 2026 - Summary.md`
 - **Horacio Call (Jan 16):** needs processing with `/process-call`
 - **Shamil 1:1 (Jan 20):** `calls/Shamil - Ruy - discuss feature thinking partner - Summary.md` - Thinking Partner handoff, Max account setup
+- **OKRs with Leo (Jan 20):** `calls/OKRs Ruy - con leo - 20jan2026 - Summary.md` - Q1 OKRs, PMF process, HPT exploration
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
 - Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests

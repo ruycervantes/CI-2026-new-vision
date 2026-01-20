@@ -132,9 +132,10 @@ The vision document is a static HTML/CSS site:
 ### Personal Productivity (Ruy)
 | Command | Description |
 |---------|-------------|
+| `/today` | Daily work review - fetch today's Todoist tasks, organize by priority, recommend focus. Use at start of day or when planning. |
+| `/weekly-plan` | Weekly planning triage - consolidate action-items + Todoist, triage to 15-20 tasks, identify top 3 outcomes. Use on Mondays or when starting a new week. |
 | `/handwritten` | Transcribe handwritten notes from `handwritten/` folder and propose additions to action items |
 | `/review-action-items` | Process new items into action-items file |
-| `/weekly-plan` | Weekly triage - consolidate action-items + Todoist, triage to 15-20 tasks, top 3 outcomes |
 
 ### Work (Sprints & Calls)
 | Command | Description |
