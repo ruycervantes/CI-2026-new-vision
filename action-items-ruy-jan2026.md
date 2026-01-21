@@ -16,13 +16,22 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [x] **Write user story for Shamil: Thinking Partner sidebar** - task definition for sprint (Jan 19)
 - [x] **Initial review of Bogotá contract** - reviewed, now needs follow-up (Jan 19)
 
-### Today (Jan 20)
-- [ ] **Mandar OKRs** - send my OKRs and work on Mike's
+### Completed (Jan 20)
+- [x] **Send note to Shamil** - about meeting discussion ✓
+- [x] **Send Discord message about refinement timing** - meeting time change ✓
+- [x] **Mandar OKRs** - sent ✓
 - [ ] **Escribir guión para entrevista con Dolo** - prepare interview questions/script
 - [ ] **Revisar contrato Bogotá - follow-up** - specific items + send follow-up
-- [ ] **PG - send response** - urgent
-- [ ] **Send note to Shamil** - about meeting discussion
-- [ ] **Send Discord message about refinement timing** - meeting time change for tomorrow
+
+### Today (Jan 21)
+- [ ] **PG - send response** - urgent, blocking Bogotá signature tomorrow
+- [ ] **Prepare for Horacio interview (2nd round)** - deep work, methodology
+- [ ] **Talk to Daniel** - contract/management
+- [ ] **Email Leo** - coordinate technical meeting during office hours
+- [ ] **Create SSO note: Work OS and HRIS integration** - circulate with team
+
+### Tomorrow (Jan 22)
+- [ ] **Review Dolo interview** - deep work, results ready
 
 ### Tomorrow (Jan 21)
 - [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com

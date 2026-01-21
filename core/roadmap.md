@@ -225,18 +225,37 @@ Park as "needs exploration" - don't commit until researched.
 
 Internal tooling and automation - not user-facing, but critical for scaling.
 
-### Q1
+### Q1: Sprint Automation (OKR Feature #4)
 
-| Feature | Owner | Status |
-|---------|-------|--------|
-| **Deployment Automation** | Daniel | In progress |
+**Goal:** Remove Ruy and Mike as bottlenecks for client onboarding and coach creation.
 
-Automate creation of client environments (`client.stoyq.com`) and experimental branches.
+| Feature | Owner | Status | Bottleneck Removed |
+|---------|-------|--------|-------------------|
+| **Environment Generation** | Daniel | In progress | Mike (~half day per client) |
+| **Profile/Prompt Creation** | Daniel + Ruy | Not started | Ruy (prompt customization) |
+| **Testing Automation** | Daniel | Not started | Manual QA cycles |
 
-### Q2+
+**Environment Generation:**
+- Automate creation of client environments (`client.stoicq.com`)
+- Automate experimental branches
+
+**Profile/Prompt Creation:**
+- Templatize coach prompts (victim-protagonist, difficult conversations, etc.)
+- Self-service customization layer (change greeting, terminology, company name)
+- Reduce Ruy involvement from "write every prompt" to "approve template changes"
+
+**Testing Automation:**
+- Automated smoke tests for new deployments
+- Regression testing for prompt changes
+- Reduce manual QA cycles before shipping
+
+### Q2: Enterprise Readiness & Automation
 
 | Feature | Description |
 |---------|-------------|
+| **LMS Integration** | Deploy AI coaches into client LMS (via WorkOS SSO or per-LMS connector) |
+| **SOC 2 Compliance Readiness** | Policies, controls, and audit preparation |
+| **GDPR Full Audit** | Complete GDPR compliance review and documentation |
 | **Thinkific SSO** | Access chatbot from Thinkific student dashboard |
 | **Self-Service Chatbot Creation** | Nelson/Axialent can create chatbots without dev help |
 
@@ -317,4 +336,5 @@ Explicitly out of scope for 2026:
 
 | Date | Change |
 |------|--------|
+| Jan 20, 2026 | Expanded Q1 Sprint Automation (OKR #4): environment generation, profile/prompt creation, testing automation. Added Q2 Enterprise Readiness: LMS integration, SOC 2, GDPR audit. |
 | Jan 2026 | Initial version - separated Q1/Q2/H2, added transcript analysis, real-time feedback, Platform & Operations section |
