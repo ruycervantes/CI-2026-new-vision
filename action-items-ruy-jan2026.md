@@ -1,7 +1,7 @@
 # Consolidated Action Items - Ruy (January 2026)
 
 Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
-**Updated:** January 20, 2026 - OKRs session with Leo: Q1 OKRs finalized (4 features), PMF weekly process agreed.
+**Updated:** January 21, 2026 - Daniel 1:1: P&G SSO clarified (no middleware changes needed), WorkOS strategy discussed, paternity leave ~Feb 16.
 
 ---
 
@@ -24,11 +24,11 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Revisar contrato Bogotá - follow-up** - specific items + send follow-up
 
 ### Today (Jan 21)
-- [ ] **PG - send response** - urgent, blocking Bogotá signature tomorrow
+- [x] **Talk to Daniel** - contract/management ✓
+- [ ] **Reply to Gabriel (P&G) - Thinkific/business context** - on Daniel's email, explain hybrid program, ask if auto-provisioning needed
+- [ ] **Send WorkOS/SSO integration strategy document to Daniel** - the "documento larguito" for him to read
 - [ ] **Prepare for Horacio interview (2nd round)** - deep work, methodology
-- [ ] **Talk to Daniel** - contract/management
 - [ ] **Email Leo** - coordinate technical meeting during office hours
-- [ ] **Create SSO note: Work OS and HRIS integration** - circulate with team
 
 ### Tomorrow (Jan 22)
 - [ ] **Review Dolo interview** - deep work, results ready
@@ -41,6 +41,7 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Sacar a Enol a andar en bicicleta**
 
 ### Also This Week
+- [ ] **Escalate Microsoft sandbox request to Mario** - Daniel writing request, or just buy Boetus licenses (~$50-80/mo)
 - [ ] **Document testing/shipping process** - continue IN PROGRESS work
 - [ ] **Write Thinking Partner how-to** - methodology documentation
 - [ ] **Schedule technical sync meeting with Leo** - ~30 min/week for team technical alignment (from Shamil 1:1)
@@ -336,7 +337,8 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 | Vision methodology + Thinking Partner ship | Horacio interview | Process call notes |
 | Feature 3 vs 4 priority | Customer validation | Talk to Leo |
 | Graph memory decision | Technical prototype | Mike to explore |
-| Environment automation completion | Daniel baby leave (mid-Feb) | Need coverage plan for infra work |
+| Environment automation completion | Daniel baby leave (~Feb 16) | P&G solution documented before leave |
+| Microsoft Teams testing (Mike + Daniel) | No sandbox environment | Escalate to Mario or buy Boetus licenses |
 
 ---
 
@@ -380,6 +382,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - **Horacio Call (Jan 16):** needs processing with `/process-call`
 - **Shamil 1:1 (Jan 20):** `calls/Shamil - Ruy - discuss feature thinking partner - Summary.md` - Thinking Partner handoff, Max account setup
 - **OKRs with Leo (Jan 20):** `calls/OKRs Ruy - con leo - 20jan2026 - Summary.md` - Q1 OKRs, PMF process, HPT exploration
+- **Daniel 1:1 (Jan 21):** `calls/Catch up with Daniel 21jan2026 - pg and workos - Summary.md` - P&G SSO clarification, WorkOS strategy, paternity leave planning
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
 - Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests
