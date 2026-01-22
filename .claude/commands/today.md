@@ -53,6 +53,42 @@ Example:
 - Overloaded day (too many P1s)
 - P1 items missing from action-items file
 
+### 5. Triage Mode (Interactive)
+
+After presenting the day, ask:
+> "Any updates? (voice dump: what's done, what to move, what to add)"
+
+**Parse user input for these patterns:**
+
+| Pattern | Action |
+|---------|--------|
+| "X is done" / "X done" / "already did X" | Complete task X |
+| "move X to tomorrow" / "X for tomorrow" | Update due date to tomorrow |
+| "move X to [day]" | Update due date to specified day |
+| "add [task]" / "I need to [task]" | Add new task for today |
+| "add [task] for tomorrow" | Add new task for tomorrow |
+| "[task] is P1/urgent" | Update priority |
+| "[task] is deep work" | Add @deep-work label |
+
+**Execution flow:**
+1. Parse all updates from user input
+2. Show parsed actions for confirmation:
+   ```
+   Understood:
+   - Complete: "Meditar"
+   - Move to tomorrow: "Review Dolo interview"
+   - Add for today: "Talk to Daniel" (P1)
+   Proceed? (y/n)
+   ```
+3. Execute in Todoist (complete-tasks, update-tasks, add-tasks)
+4. If any P1/P2 work tasks changed → offer to sync action-items file
+5. Show cleaned-up day summary
+
+**Sync to action-items:**
+- Only sync work-related tasks (Product Strategy, Testing, Management projects)
+- Update "Today" section in action-items-ruy-jan2026.md
+- Mark completed items with [x]
+
 ## When User Says
 - "show me today"
 - "what's on for today"
