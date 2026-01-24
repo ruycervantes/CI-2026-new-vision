@@ -33,8 +33,22 @@ Without a compelling "TO" across all three dimensions, there's no intrinsic moti
 ### Why Teams Can't Fix This Alone
 
 - **You can't see what you're subject to.** Patterns are invisible until someone helps you make them object.
-- **Individual change alone doesn't stick.** Without social accountability, behavior reverts.
-- **Trust is prerequisite.** You can't have hard conversations without psychological safety — but teams don't know how to build it.
+- **You don't know what you don't know.** Teams lack the frameworks, methodology, understanding of what "good" looks like — and often don't even know what they're missing.
+- **Teams lack the conditions for necessary conversations.** Without trust, safety, and skills, the hard conversations that would surface real issues don't happen. And sometimes trust is already broken — a different starting point than just "not built yet."
+
+### The Fundamental Insight: Teams Are Created in Conversations
+
+Teams don't exist apart from the conversations that constitute them. **Conversations are not just a tool for teamwork — they ARE the substance of teamwork.** Good conversations make teams; bad conversations break them.
+
+This is why our interventions are fundamentally **language-based and symbol-based:**
+- Helping individuals acquire new language tools
+- Creating new distinctions (ways of seeing)
+- Shifting mindsets
+- Building new narratives and ways of looking at things
+
+The goal: enable people to behave differently and create something greater than the sum of its parts.
+
+**Why AI matters here:** AI can process language in ways that were reserved for humans until recently. Since the interventions are language-based, AI has a natural fit. The ability to work with words, distinctions, narratives, and meaning — at scale — is what makes AI-powered team effectiveness possible.
 
 ---
 
