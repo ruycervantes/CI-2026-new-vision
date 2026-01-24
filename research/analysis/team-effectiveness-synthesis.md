@@ -126,6 +126,12 @@ Individual coaching alone has low adherence. The team framing helps because:
 
 Don't sell "individual coaching." Sell "Team Performance." Individual coaching is how you deliver it. Same work, different framing, better commercial traction.
 
+**This is the mechanism for our MVP.** We work both levels simultaneously:
+- **Team level:** Human consultant handles assessment, facilitation, offsites — the integration and glue
+- **Personal level:** AI coach works with each individual — something that wasn't possible before at scale
+
+The breakthrough: Previously, having a personal coach for everyone on a team was too expensive. AI coaching removes that constraint. The consultant can focus on team-level work while EVERY team member gets individual development support.
+
 ---
 
 ### Non-Negotiable Values Underpin Everything
@@ -156,16 +162,26 @@ Frameworks, processes, how things connect.
 
 ### Assessment Frameworks
 
-| Framework | Level | What It Measures | Source |
-|-----------|-------|------------------|--------|
-| **4-Quadrant (Team Survey)** | Team | Purpose, Roles, Processes, Relationships | Axialent proprietary (Katzenbach operationalization) |
-| **Lencioni (5 Dysfunctions)** | Team | Trust, conflict, commitment, accountability, results | Public (consultants choose) |
-| **LSI** | Individual | Thinking/behavioral styles | Human Synergistics |
-| **OCI** | Team/Org | Culture patterns (current or desired) | Human Synergistics |
-| **CB Assessment** | Individual | CB behavioral patterns | Axialent proprietary |
-| **DISC / Leadership Impact** | Individual | Behavioral style, leadership effectiveness | Various |
+**Two levels of assessment:**
 
-**Key distinction:** Theoretical framework (Lencioni vs Katzenbach) is public. The **4-Quadrant assessment instrument** is Axialent proprietary.
+| Level | Purpose | Options |
+|-------|---------|---------|
+| **Team** | How well the team functions as a team | 4-Quadrant (Axialent), Lencioni survey, OCI |
+| **Individual** | Personal behavioral patterns | CB Assessment, LSI, DISC |
+
+**Underlying frameworks:**
+
+| Element | What It Is | Options |
+|---------|-----------|---------|
+| **Core Philosophy** | The principles that guide all work | CB (Conscious Business) — non-negotiable |
+| **Team Effectiveness Theory** | Framework for understanding what makes teams work | Lencioni (5 Dysfunctions) OR Katzenbach |
+
+**The specific instruments are choices.** You can use LSI or CB Assessment or DISC for individuals — depends on preference, cost, context. Same with team assessments.
+
+**Where Axialent has IP:** The 4-Quadrant model is Axialent's operationalization of Katzenbach. It's a proprietary assessment instrument with:
+- Survey (6-8 questions per quadrant, 1-5 scale)
+- Visualization (concentric circles showing development)
+- Historical data from past HPT engagements (benchmark potential)
 
 ---
 
@@ -282,15 +298,6 @@ The coach offers perspectives tentatively. If the coachee doesn't embrace it, fi
 
 ---
 
-### Materials Don't Self-Explain
-*Source: Horacio*
-
-> "Los materiales no se autoexplican — va a ser importante que las conversaciones que podamos tener tú y yo al respecto."
-
-Documentation alone isn't enough to transfer HPT knowledge. The tacit knowledge requires conversation, observation, iteration.
-
----
-
 ### Balance Investment Across Levels
 *Source: Horacio*
 
@@ -298,20 +305,27 @@ If leader gets individual attention, team members should too (maybe less, but no
 
 ---
 
-### Opening the Gap (Two Methods)
-*Source: Horacio*
+### Opening the Gap
+*Sources: Horacio, Richi*
 
-**With OCI Desired:**
+The gap needs a "FROM" (current state) and a "TO" (desired state).
+
+**The "TO" of the gap can be constructed in different ways:**
+
+**Within culture transformation (Horacio's example):**
 - Run OCI to capture desired team culture
 - Compare against LSI results
-- Gap = what each person needs to change
+- Gap = what each person needs to change to achieve desired culture
 
-**Without OCI (fallback):**
-- Use "ideal historical" from Human Synergistics
-- LSI results vs. known ideal profile
-- Less customized but still creates a behavioral gap
+**More generally (Richi):**
+The "TO" should cover all three dimensions:
+- **It** — Desired business results state
+- **Wi** — How we want to work together as a team
+- **I** — Who each of us wants to become
 
-> "Siempre tenemos la oportunidad de abrir una brecha comportamental."
+Facilitating a conversation about the desired state across all 3 dimensions creates intrinsic motivation. It becomes a goal people genuinely want to achieve, not just an external target. (Connects to goal-setting theory — intrinsically motivating goals are more powerful.)
+
+> "Siempre tenemos la oportunidad de abrir una brecha comportamental." — Horacio
 
 ---
 
