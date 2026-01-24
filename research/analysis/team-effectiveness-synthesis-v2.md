@@ -50,6 +50,18 @@ The goal: enable people to behave differently and create something greater than 
 
 **Why AI matters here:** AI can process language in ways that were reserved for humans until recently. Since the interventions are language-based, AI has a natural fit. The ability to work with words, distinctions, narratives, and meaning — at scale — is what makes AI-powered team effectiveness possible.
 
+### Context Determines the Conversation
+
+Setting the right context is key to making conversations successful. The same content, with a different frame, becomes a completely different conversation.
+
+**"Ayúdame a ayudarte" is the clearest example.** When you need something from someone:
+- Frame A: "I need X from you" → defensive, transactional
+- Frame B: "Help me help you — how can I better serve your agenda?" → opens hearts, creates collaboration
+
+Same underlying need. Completely different conversation. The reframe sets context that makes success possible.
+
+This is a core intervention pattern: **help people set better contexts for their conversations.** New language tools, new distinctions, new frames — these change the context, which changes the conversation, which changes the outcome.
+
 ---
 
 ## 2. The Mechanisms
