@@ -6,11 +6,77 @@
 
 | What designers need to understand | Section |
 |-----------------------------------|---------|
+| Core concepts and definitions | 0. The Mental Model |
 | What problem HPT solves | 1. The Problem |
 | How change actually happens | 2. The Mechanisms |
 | What consultants actually do | 3. The Interventions |
 | Why it's structured this way | 4. The Design Logic |
 | What's essential vs. contingent | 5. Human vs. Structure |
+
+---
+
+## 0. The Mental Model
+
+Key concepts that orient everything else.
+
+### What Is a Team?
+
+> "A team is a small number of people with complementary skills who are committed to a common purpose, performance goals, and approach for which they hold themselves mutually accountable." — Katzenbach & Smith
+
+Not every group is a team. A **working group** has a strong leader, individual accountability, and individual work products. A **team** has shared leadership, mutual accountability, and collective work products. The intervention must help groups understand what level of interdependency they actually need.
+
+### What Makes a Team Effective?
+
+**Team effectiveness = 4 things working together:**
+
+| Quadrant | What It Means |
+|----------|---------------|
+| **Purpose** | Shared mission, values, goals — why we exist |
+| **Roles** | Who does what, who's accountable for what |
+| **Processes** | How we work together — meetings, decisions, coordination |
+| **Relationships** | Trust, conversation quality, ability to have hard conversations |
+
+Most teams fail on **Relationships** — and that's where CB philosophy enters. But you can't fix relationships without clarity on Purpose, Roles, and Processes.
+
+### What Does Success Look Like?
+
+Effectiveness means success on **three dimensions (I/Wi/It):**
+
+| Dimension | What It Means |
+|-----------|---------------|
+| **It** (Results) | The team delivers business results |
+| **Wi** (We) | The team is healthy — trust exists, hard conversations happen |
+| **I** (Individual) | Members are thriving, developing, feel meaning in the work |
+
+A team that only hits results (It) but burns people out (I) or has toxic dynamics (Wi) is not truly effective.
+
+### How Does Change Happen?
+
+**The BE → DO → HAVE model:**
+
+```
+        ┌─────────────┐
+        │    HAVE     │  ← Results (visible)
+~~~~~~~~│~~~~~~~~~~~~~│~~~~~~~~ waterline
+        │     DO      │  ← Behaviors
+        │     BE      │  ← Mindsets, values, beliefs (deep)
+        └─────────────┘
+```
+
+- You can't change **HAVE** (results) directly
+- Changing **DO** (behaviors) doesn't stick without changing **BE** (mindsets)
+- Most interventions fail because they only work at the DO level
+- CB works at the BE level — so new behaviors become natural
+
+### What Is HPT?
+
+**HPT (High Performance Teams)** is Axialent's methodology for improving team effectiveness. It combines:
+- **Assessment** — Diagnose all 4 quadrants + individual patterns
+- **Skill building** — Workshops on CB philosophy and practices
+- **Coaching** — Individual development connected to team context
+- **Facilitation** — Catch patterns in real work, help team honor intentions
+
+The methodology works at the **BE level** across all four quadrants, with particular emphasis on **Relationships** — because that's where trust, authentic communication, and the ability to surface undiscussables live.
 
 ---
 
