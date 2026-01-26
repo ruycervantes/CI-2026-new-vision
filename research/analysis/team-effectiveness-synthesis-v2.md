@@ -78,6 +78,10 @@ A team that only hits results (It) but burns people out (I) or has toxic dynamic
 
 The methodology works at the **BE level** across all four quadrants, with particular emphasis on **Relationships** — because that's where trust, authentic communication, and the ability to surface undiscussables live.
 
+**Key insight:** HPT is not a separate methodology. It's the **same interventions** Axialent uses elsewhere — coaching, teaching, facilitation — applied through a **team lens**. There's no "HPT manual." The consultant's skill is knowing how to combine these components for a specific team's needs.
+
+> "La parte de skill building es la misma... tenés que mirarlo distinto, por eso tenés que entender el framework con el que lo estás mirando." — Dolo
+
 ---
 
 ## 1. The Problem
