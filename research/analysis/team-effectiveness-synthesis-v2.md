@@ -2,7 +2,15 @@
 
 **Sources:** Richi (22 Jan), Dolo (21 Jan), Horacio (22 Jan), Oseas (22 Jan)
 **Synthesis Date:** 23 Jan 2026
-**Purpose:** Help product designers understand HPT well enough to redesign it
+**Purpose:** Help product designers understand the current consultant-led HPT methodology — what it solves, how it works, and why it's designed that way — so they can design hybrid and digital alternatives.
+
+| What designers need to understand | Section |
+|-----------------------------------|---------|
+| What problem HPT solves | 1. The Problem |
+| How change actually happens | 2. The Mechanisms |
+| What consultants actually do | 3. The Interventions |
+| Why it's structured this way | 4. The Design Logic |
+| What's essential vs. contingent | 5. Human vs. Structure |
 
 ---
 
@@ -67,6 +75,43 @@ This is a core intervention pattern: **help people set better contexts for their
 ## 2. The Mechanisms
 
 How does change actually happen? What creates real improvement?
+
+### The Iceberg: BE → DO → HAVE
+
+This is the foundational model for understanding how change works.
+
+```
+        ┌─────────────┐
+        │    HAVE     │  ← Results (visible)
+        │   results   │
+~~~~~~~~│~~~~~~~~~~~~~│~~~~~~~~ waterline
+        │     DO      │  ← Behaviors (invisible)
+        │  behaviors  │
+        │             │
+        │     BE      │  ← Mental models, values, beliefs (deep)
+        │  mindsets   │
+        └─────────────┘
+```
+
+**High Performance = Consciousness + Skill**
+
+| Level | What It Is |
+|-------|-----------|
+| **BE** (Consciousness) | Mental models, values, beliefs |
+| **DO** (Skill) | Behaviors, practices |
+| **HAVE** | Results |
+
+The specific CB values and skills are detailed in **Logic 6: The Foundational Accord**.
+
+**Why this matters:**
+- You can't change HAVE (results) directly
+- You can try to change DO (behaviors), but it won't stick without changing BE (mindsets)
+- Most interventions fail because they work only at the DO level
+- CB works at the BE level — changing mental models so that new behaviors become natural
+
+**The leverage is in the invisible.** The deeper you go in the iceberg, the more leverage you have — but the harder it is to see and change.
+
+---
 
 ### Mechanism 1: Opening the Gap (Creating Awareness)
 
@@ -287,15 +332,72 @@ This is about responsible use, not limitation.
 
 ---
 
-### Logic 6: Non-Negotiable Values
+### Logic 6: The Foundational Accord
 
-The CB philosophy has principles that can't be compromised:
-- Player vs Victim (own your life)
-- Learner vs Knower (stay curious)
-- Essential Integrity (behavior aligned with values)
-- System optimization (suboptimize self for the whole)
+The product isn't values-neutral. It **embodies** a specific philosophy in how it behaves — and it **invites** users who share these values to develop themselves.
 
-These are the "constitution." They shape what the system encourages and what it won't help with.
+This is a mutual contract: the product commits to behaving according to these principles, and the user commits to developing toward them. This accord is the basis of the relationship.
+
+**The Values (Consciousness + Skill):**
+
+| Consciousness (BE) | What It Means |
+|--------------------|---------------|
+| **Unconditional responsibility** | Own your response to any situation |
+| **Ontological humility** | Your view is a view, not THE truth |
+| **Essential integrity** | Behavior aligned with values moment to moment |
+| **Positive-sum thinking** | Optimize the system, not just yourself |
+
+| Skill (DO) | What It Means |
+|------------|---------------|
+| **Authentic communication** | Say what you mean, mean what you say |
+| **Impeccable coordination** | Make and keep commitments reliably |
+| **Constructive negotiation** | Resolve differences to create value |
+
+**What This Means for Product Design:**
+
+| The Product WILL... | The Product WON'T... |
+|---------------------|----------------------|
+| Help you take responsibility for your response | Help you blame others or circumstances |
+| Challenge your assumptions with curiosity | Confirm your existing biases |
+| Help you align behavior with stated values | Help you justify incongruent behavior |
+| Encourage win-win solutions | Optimize for you at others' expense |
+| Support honest, direct communication | Help you manipulate or avoid hard truths |
+| Build commitment-keeping habits | Enable excuse-making or avoidance |
+
+This is the "constitution" — it shapes what the system encourages and what it won't help with. Users who don't share these values won't get value from the product.
+
+---
+
+### Logic 7: Real Change Takes ~90 Days
+
+This is a **design constraint**, not just an operational rhythm. Meaningful behavioral change takes approximately 90 days to become habitual. This is the time it takes for new patterns to move from conscious effort to automatic behavior.
+
+**Implications for product design:**
+
+| Don't... | Do... |
+|----------|-------|
+| Promise quick fixes | Build for sustained engagement over quarters |
+| Measure success in sessions | Measure progress across cycles |
+| Optimize for initial activation | Optimize for 90-day retention and change |
+| Let users quit when it gets hard | Design for the "dip" in the middle |
+
+**The cycle structure:**
+
+```
+    DIAGNOSE → PLAN → EXECUTE → REVIEW
+         ↑                         |
+         └─────────────────────────┘
+                  ~90 DAYS
+```
+
+| Phase | What Happens |
+|-------|-------------|
+| **Diagnose** | Surface current state (assessment, observation) |
+| **Plan** | Design intervention based on diagnostic |
+| **Execute** | Skill building, practice, real-work application |
+| **Review** | Measure progress, learn, adjust for next cycle |
+
+The cycle repeats. Each iteration builds on the last. A team that goes through 3-4 cycles over a year sees compounding progress — not because of more content, but because patterns have time to stick.
 
 ---
 
@@ -413,3 +515,114 @@ Some of these are closer than others. The hybrid MVP lets us learn which ones ar
 | **It** (Purpose) | Collective meaning | Team has unique contribution |
 
 The "TO" of the gap should cover all three dimensions to create intrinsic motivation.
+
+---
+
+## Appendix: Maturity Levels by Quadrant
+
+Each quadrant has three levels: Sub-Optimal → Standard → High Performance.
+
+### Purpose/Values/Culture
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Unclear or disagreement about goals. No shared vision or values. No unique team purpose. |
+| **Standard** | Clear purpose and how it supports strategy. Defined code of value-based behaviors. Agreed measures. |
+| **High Performance** | Mission generates powerful shared purpose. Breakthrough objectives come from within (not externally driven). "Let's see how good we can get!" |
+
+### Roles/Accountabilities
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Roles not defined. Overlaps and gaps create disruption. Interdependencies not understood. |
+| **Standard** | Each role defined with right metric. Interdependencies defined. Individual contributions linked to team goals. |
+| **High Performance** | "My word is my bond." Mutual accountability — if one falls, all help. Wise sacrifices for team optimization. |
+
+### Processes
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Interactions unstructured and chaotic. No defined output or agenda. Communication breakdowns. |
+| **Standard** | Effective meetings (right topics, right people). Clear output and agenda. Appropriate communication systems. |
+| **High Performance** | Flex rules to become faster. Processes are organic, not mechanistic. "More with less" essence. After-action reviews following each project. |
+
+### Relationships
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Shallow politeness covering mistrust. Silo-focused, self-promotion. Transactional exchanges only. |
+| **Standard** | Understand each other's styles. Differing viewpoints spoken and heard. Trust in competence and support. |
+| **High Performance** | No undiscussables — everything on the table. Productive inquiry and active listening. Team members seen as friends. Attracts talent. |
+
+---
+
+## Appendix: The Promise Framework (Accountability)
+
+A framework for building accountability in the Roles quadrant.
+
+**Core Principles:**
+1. Negotiated contract between two parties
+2. "My word is my bond"
+3. Countable, tangible, visible
+
+```
+                    Being Accountable
+         ┌──────────────────┬──────────────────┐
+         │  Before Promise  │  After Promise   │
+         │                  │                  │
+         │ • Self-set goals │ • Managing risk  │
+         │ • Anticipate risk│ • Keeping score  │
+         │ • Make promises  │ • Keeping word   │
+         │ • Planning       │ • Stay focused   │
+         │ • Personal resp. │ • Self-motivate  │
+         ├──────────────────┼──────────────────┤
+         │  Before Promise  │  After Promise   │
+         │                  │                  │
+         │ • Engage others  │ • Hold ground    │
+         │ • Asking         │ • Keep heat on   │
+         │ • Get commits    │ • Manage failure │
+         │ • Influencing    │ • Reward success │
+         └──────────────────┴──────────────────┘
+                Holding Others to Account
+```
+
+**The promise has three dimensions:**
+- **Objective** — what will be delivered
+- **Measures** — how success is counted
+- **Transparent** — visible to all parties
+
+---
+
+## Appendix: Teams vs. Working Groups (Katzenbach)
+
+Background theory on what distinguishes a team from a working group.
+
+### Not All Groups Are Teams
+
+Before improving a team, you need to understand: **is this actually a team, or just a working group?**
+
+| Working Group | Team |
+|---------------|------|
+| Strong, clearly focused leader | Shared leadership roles |
+| Individual accountability | Individual AND mutual accountability |
+| Purpose = broader organizational mission | Specific team purpose the team itself delivers |
+| Individual work products | Collective work products |
+| Informational meetings | Problem-solving meetings |
+| Discusses, decides, delegates | Discusses, decides, does real work together |
+
+**Katzenbach's definition:** "A team is a small number of people with complementary skills who are committed to a common purpose, performance goals, and approach for which they hold themselves mutually accountable."
+
+**Why this matters for design:** Not every group SHOULD be a team. Sometimes a working group is the right structure. The intervention must help groups understand what level of interdependency they actually need — and build toward that, not more.
+
+### Choosing the Level of Interdependency
+
+Teams should consciously choose HOW to team based on the task at hand.
+
+**The sports metaphor:**
+- **Swimming team** (low interdependency): Individual performances, no tradeoffs, 1+1=2
+- **Soccer team** (high interdependency): Continuous coordination, high synergies, 1+1>2
+- **Baseball team** (adaptive): Plays as cohesive unit in the field, individual batters at the plate
+
+**High-performing teams operate like baseball teams** — they have the flexibility to adapt and the competency to understand whether to address each task as a workgroup or a team.
+
+Some topics need full team collaboration (strategy, budgeting, people decisions). Others can be handled individually (local execution, sales). The key is making **disciplined choices about when and how to work together**.
