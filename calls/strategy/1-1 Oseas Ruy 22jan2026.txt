@@ -1,0 +1,414 @@
+Ruy
+¿Qué tal Ruby?
+
+Speaker 1
+¿Qué tal Rubi?
+
+Ruy
+¿Cómo estás?
+
+Speaker 1
+¿Cómo estás?
+
+Ruy
+Hola, bien, ¿y tú seas? Exhausto y hambriento, estuvo intenso el bordo tres horas.
+
+Speaker 2
+Exhausto y hambriento, estuvo intenso el bordo tres horas. Y me quedan tres horas más de reunión sin parar.
+
+Ruy
+Y me quedan tres horas más de reunión sin parar. ¿Quieres recoger algo de comer?
+
+Speaker 2
+Pero bien, bien, bien.
+
+Ruy
+Ah, ya lo estás haciendo. Aquí estoy, si no te incomoda, estoy preparando el hornito ya que no voy a hacer gran cosa.
+
+Speaker 2
+Aquí estoy, si no te incomoda, ya estoy preparando de lo pongo en el hornito y ya queda no voy a hacer gran cosa.
+
+Ruy
+Pero si me vas a ir moviéndome, pero si me oye, es verdad ahorita en que me muevan.
+
+Speaker 2
+Pero si me vas a ir moviéndome, pero si me oyes, ¿verdad? Ahorita en que me muevo.
+
+Ruy
+Sí, te digo, perfecto.
+
+Speaker 2
+Perfecto, perfecto.
+
+Ruy
+Perfecto, perfecto. Bueno, ¿qué tal?
+
+Speaker 2
+Bueno, este, ¿qué tal?
+
+Ruy
+¿Cómo vienes tú?
+
+Speaker 2
+¿Cómo vienes tu?
+
+Ruy
+Yo bien, arrancando el día ya. Este. Contento porque volví a entrenar. Ah, miren, ¿cuál anda? Sí, es que me enfermé un mes y dejé de entrenar y. Me duelen las piezas. ¿Por pronto duró un mes? Sí, me dio gripa, sinusitis, gripa, sinusitis. No, manches, qué pesado.
+
+Speaker 1
+No manches, qué pesado. Un mes me sonaba así como un COVID súper jodido, pero no aquí más que fue, te las alternaste entonces.
+
+Ruy
+Un menú sonaba así como un polito super jodido, pero no más te las alternaste entonces. Tenía las. Bueno, de hecho ya van tres inviernos donde me va súper mal. Este invierno no estuvo tan feo como el antepasado. Así que no te quiero platicar. Creo que la primera vez que me enfermé por. Dos meses, o sea. Pero bueno. Sí, los bichos de los niños como que se juntaron con defensas. No en estado óptimo y bueno.
+
+Speaker 1
+come más kimchi es lo que está ahorita de moda de para otro sistema inmunológico kimchi y sauerkraut
+
+Ruy
+Come más kimchi. Es lo que está ahorita de moda de autorización inmunológico. Pues yo creo, necesito comer más kimchi. Kimchi y Sauerkraft. Este sí, eh, pero creo que ya de por sí tengo algo ahí Mi mamá se enferma muy seguido de enfermedades virales de gripa. No se le ha complicado mayormente, pero o sea, si es así como que a cada rato le está dando gripa y tiene que cuidarse mucho. Y el inmunólogo que nos ve, el aerogólogo que nos ve, dice que él sospecha que tiene un pequeño detallito con. Sus células T que son medio más lentas de lo que deberían ser que cuando haces exámenes de laboratorio no se notan pero a él le ha tocado ver casos así este Entonces no sé si heredó algo de mi mamá o se pone más loquito cuando estoy más estresado, no sé. Tal vez todo junto. Tal vez todo junto. Este, como suele ser en estas cosas. Pero bueno, lo bueno es que ya me siento bien. Y pues llego con varios temas a nuestra reunión. Pues entremos.
+
+Speaker 2
+Pues entremos bien, nada más déjame ver una cosita aquí.
+
+Ruy
+Nada más, déjame ver una cosita aquí. The calendar patas para arriba, aside.
+
+Speaker 1
+The calendar patas para arriba aside.
+
+Ruy
+Ah, tengo hasta las 745 minutos sin problema.
+
+Speaker 1
+Ah, I'm hosting the 745 minutes since I was going to cancel the other.
+
+Ruy
+Fantastico.
+
+Speaker 1
+Fantastic.
+
+Ruy
+Comenzamos, por donde arrancamos.
+
+Speaker 1
+Come on, por done, arrancemos.
+
+Ruy
+Mira, yo tengo de temas para ver lo de las Integraciones que ayer mandé una nota, no sé si la alcanzaste a ver, pero me gustaría platicar de eso. La decisión esta de HPT, bueno, no HPT, sino Team Effectiveness contra Behavior Change. Esas son las dos cosas importantes que tengo para ver. Algunas cosas de equipo que estoy empezando a hacer. Este, pero no sé si, pero antes de entrar a esto, no sé si hay alguna nota de De cómo vienen las cosas que quisieras hablar antes de.
+
+Speaker 2
+Bien, bueno, mira, los escenarios que presentamos en general del budget sirvieron a propósito de decirle al board.
+
+Ruy
+Bien, bueno, mira, las personas que preguntamos en general del budget sirvieron. A propósito de decirle al board, digamos como estamos, pero con una responsabilidad de enfrentar, de entregar resultados, preparados por si hay una inversión del lado de plía.
+
+Speaker 2
+. Digamos como estamos, pero con una responsabilidad de enfrentar, de entregar resultados, preparados por si hay una inversión del lado de plía. .
+
+Ruy
+And preparados because if no one of the two things, why cuid that all the constructed queda at service of Acceler on a disminution of the budget?
+
+Speaker 2
+Y preparados, porque si no se dan ninguna de las dos cosas, ¿cómo cuidamos que todo lo que se ha construido en Stoic quede al servicio de Accelent con una disminución de budget? Entonces, esos tres scenarios que ya te había platicado, los escenarios
+
+Ruy
+Solucionarios estarían aceptados conceptualmente.
+
+Speaker 2
+Los escenarios están aceptados conceptualmente.
+
+Ruy
+Igual nos dijeron, oye, ¿por qué este número no?
+
+Speaker 2
+Igual nos dijeron, oye, ¿por qué este número no aparece o el otro? Y hay que revisar los números y ya está. Pero no hubo nada que nos afectara. No sé qué te cuento alguna otra cosa. El cambio más fuerte, digamos, de no lograr los resultados en ninguno de esos escenarios era que yo me despido a mí mismo. Pero al parecer me genera un problema migratorio. Entonces creo que no puede ser en la totalidad lo que pensamos, tiene que conservarse algo. Entonces eso afecta a los números, pero bueno, ok. no son el resultado tan positivo como yo quería en el Delta al bajarle el switch stoic y cuidar de que de que el afectado sea yo y no el resto del equipo. Pero bueno Bueno, no cambió y ya estamos viendo cómo hacerle y ya está, ¿no? Pero con esto lo que quiero decir es que no hubo algún cambio sustancial de. de lo que estaba ya planteado en lo que dijimos de Yanal Expenses, de la dedicación del equipo, etcétera, en general. Ahora, donde sí tengo un cambio y que tengo que tener ya el platito con él es con Mike. Porque en ningún escenario veo cómo soportarle el 100% de su dedicación al costo actual que tiene en Q2. Porque no me lo aguanta el escenario de break-even, sino me hubiera tenido que traer otros. Estos son como tus 20 mil dólares de margen para poder hacer el offset por esa diferencia y pues no puedo echar mis compromisos, no tengo. mucho para hacer eso este y me preocupa eso entonces este a nivel de budget lo que más cuidado quiero tener es
+
+Ruy
+Oh, eso eso aun si no continuaremos.
+
+Speaker 2
+Por el lado del producto y todo que no nos afecte que Mike regresara a la dedicación que tenía antes, pero también que no se nos de simple Mike, yo lo quiero tener bien, yo lo quiero como parte del equipo, nada más no puedo darse precio. Por eso eran parte de mi intención también ver qué clase de uso pudiéramos hacer como para sacar tanto output como pudiéramos tener de Mike. en cuanto a que no se coordine un poco la actividad de otras personas haciendo su cloud coding hiper eficiente, como subirle un poquito más el nivel de. . de producción en lo que tú y yo vayamos marcando algo así. Eso no lo tenemos que resolver ahorita, pero pero esa es como la preocupación que tengo más inmediata.
+
+Ruy
+Y eso, o sea, eso pasa, ese escenario que te cuesta trabajo mantenerle el sueldo. Mike con la dedicación que ahorita de 100%, que básicamente son creo que 8000 euros. Este eso es aún si no. continuaremos con Shamil por ejemplo a partir de mayo, ok,
+
+Speaker 2
+Y eso es considerando que Xavier no continúa. O sea, si conseguimos la inversión de PIAC, claro que lo puedo mantener, no hay ningún problema.
+
+Ruy
+Mm-hmm.
+
+Speaker 2
+Pues si no tengo inversión de PIA y nos quedamos contratadas de dar nuestro break even, no sabes cuántas notas le di para lograr el break even y este, y pues la única fue subirnos un poco más las ventas, además de un montón de recortes más. Tengo cero dólares para presupuesto de marketing, o sea, tal cual lo dejé en cero. y no da.
+
+Ruy
+Very gross.
+
+Speaker 2
+Entonces eso me jode un montón. Quiero avisar al mic tan pronto como sea posible, por eso lo quiero ver en persona. Y luego la otra la contraparte que le quiero ofrecer también que eso le hay una manera en la que puede hacer un offset de esto él con la cuestión fiscal Y él está facturando aquí en España, que es el problema que tenemos y nos queda como empleado. Entonces en ese nivel de ingresos está él tributando el 47% de sus ingresos. Carísimo el pinche ingreso aquí. En cambio, logra patear un lado para Estados Unidos, sin que le cause problemas aquí en Hacienda, entonces puede pagar mucho menos con una empresa pequeña ya por los. taxpot. Entonces le platiqué eso, quiero que me lo cuente porque igual le puedes disminuir el porcentaje de educación y quedar con igual de ingresos nomás recomendándose mejor un poquito en sus impuestos. Pero bueno. Ya me metí en demasiado detalle, perdona.
+
+Ruy
+No, está bien.
+
+Speaker 2
+Es eso.
+
+Ruy
+Se me hace muy importante hablar de esto. De hecho, es un tema que me preocupa.
+
+Speaker 2
+Sí, sí, sí.
+
+Ruy
+Este bueno, este digo de
+
+Speaker 1
+Ya está, no, no, no tengo más depotes para traerla.
+
+Ruy
+Okay Bueno, no sé si también, o sea, creo que se Sería importante pensarlo en otro momento, pero este pero sí pensarlo relativamente rápido de O sea, si no alcanzamos la inversión cumplida, eso se sabe en marzo más o menos, ¿verdad?
+
+Speaker 2
+En marzo lo vamos a tener clarísimo. O sea, tal vez la claridad que tenemos es que la inversión viene a partir de junio. Entonces me jode todos los escenarios porque tengo tres meses más que los tiene que aguantar Excelente. Pero ya es aguantarlos con un. Un escenario mucho más positivo. Entonces, el saber si sí o si no, marzo tiene que estar ya definido, pero mi mínimo delta sería que cambiara las fechas de inicio.
+
+Ruy
+Okay. Este y y y estás buscando otros eh O sea que porque yo había entendido que estabas buscando posible inversión con. O más bien en Vía California, pero eso no sé cómo va. No sé qué tan fácil sea que te inviertan de California a Europa.
+
+Speaker 1
+No está fácil.
+
+Ruy
+Creo que no es. Lo que suelen hacer, no sé si han visto, no sé si han visto otras fuentes europeas.
+
+Speaker 1
+Grandes rasgos en eso por tal vez
+
+Ruy
+Este O sea, no sé si esto sea algo que deberíamos hablar fuera de
+
+Speaker 1
+sí, sí, definitivamente. A ver, eh
+
+Ruy
+O sea que deberíamos de hablar, lo podemos hablar ahorita, pero siento que merita inclusive su propio espacio. Flash, un poco si
+
+Speaker 2
+amerita su propio espacio estoy de acuerdo porque eso sería otra forma de lifeline Está platicando con traté de establecer un contacto con una persona en California que se llama Michelle, recuerden por Joao, nos vimos en Boston, avanzó bien, yo el cuate desapareció. Es bueno, pero Como me di cuenta, es medio IDD, entonces bueno, creo que agarra otra cosa y se distrajo y no logré cerrar lo que quería. De impro si además suprilla, con quien tengo ya la relación más larga. Me hizo ya dos intros, por una que era la CEO de Ancestry. com hasta hace poco. Creo que tiene que hacer CTO en Una gran empresa grande está arrancando ahorita una. Entonces tengo dos intros y resulta que los dos tienen capacidad de inversión. Los dos quieren platicar un poco de la tecnología que traen para AI adoption. Entonces veo ahí la posibilidad de que nos conecten para inversión y o que pudiéramos hacer un partnership porque ellos están cuidando la parte dura del AI adoption, te miden para qué lo usa la gente, y nosotros con Odestoid pudiéramos reformularlo un poco como para la adopción de hábitos. de uso de AI con el coach y nada más. Tengo esas dos conversaciones. Hoy ya conoce a algunos inversores. Me presentó a la persona que nos ayuda como tener el readiness para estar listos para presentar para una ronda. Mientras no tenga algo un poquito más de revenue va a estar difícil.
+
+Ruy
+I don't know if I need to find this one.
+
+Speaker 2
+Si nos va a jugar en contra lo del revenue, sobre todo porque lo que tenemos de propiedad intelectual. No es un home run dado el entorno competitivo. Es un montón de trabajo el que hemos hecho, pero no es como que digas.
+
+Ruy
+No, no, no, es mucha talacha.
+
+Speaker 2
+Está clarísimo que. Exacto.
+
+Ruy
+Para ponerlo en plata pura es talacha.
+
+Speaker 2
+Entonces ha sido como mucho trabajo para poderlo meter en el enterprise, yo creo.
+
+Ruy
+Okay, eso también Con los inversores adecuados también vale, pues este, no sé si, o sea Este es que no sé si eso, o sea, no No sé qué tanto deberíamos estar pensando en inversión o pensando O pensando en vender, o las dos cosas, no sé si nos alcanza el tiempo para las dos cosas. Este Esto que dices de que no tenemos suficiente propiedad intelectual me parece que es cierto. Tengo algunas ideas
+
+Speaker 2
+Bueno, al menos no la tenemos modificada en producto digital. Yo todavía puedo utilizar como argumento a favor de inversión que le damos claro. Lo que se tenga propiedad intelectual de Axel. ¿Qué tanto se pueda medir y defender que no existe en otro lado? Nos jode también un poco. No tenemos un contrato, pero al menos tenemos dos chiquitos.
+
+Ruy
+Yeah. Voy a brincar rapidísimo al tema de HTPT versus behavior change. Porque creo que ahí puede haber. Algo de o sea, lo voy a hacer medio desordenado, lo tenía medio ordenado, pero bueno, a ver. Después de la reunión con Dolo, ahorita tuve una reunión con reunión. Honoracio, este al rato tengo una reunión con Richie hoy mismo. Mi conclusión preliminar está siendo la siguiente: La metodología que tiene Axialent para Para Team Effectiveness no está tan codificada como la metodología para dar coaching individual. Eso es prácticamente un hecho, por lo que entendí de Dolo, por lo que entendí de Horacio. que Richie tenga algo bajo la manga que no creo. Entonces, eso se me hace muy importante de tener en cuenta porque por ejemplo para team effectiveness tú como abres en en accelent tú como abres el El entendimiento donde está el equipo es un assessment que existe, que es propio de Axialent. O sea, está la rama Katzenback 4 cuadrantes de Accelent de metodología de equipo, que es como. La de la vieja escuela, está la de la nueva escuela o la de la escuela europea de Lencioni. Y Dolo quiere hacer una unificación de ambas cosas. Pero el hecho de que Dolo quiere hacer una unificación de ambas cosas a mí me. digamos y de lo que hablamos ayer pues hace claro que no la tenemos tan clara como la tenemos a la hora de dar coaching eso por un lado Por otro lado, los instrumentos para poder intervenir a un equipo ya a la hora de hacerlo son herramientas específicas que las metes en sesiones de trabajo de teaching que si hacer el team charter que si hacer Este que sea hablar de roles y responsabilidades, etcétera, etcétera. Coaching individual, coaching grupal, intervención. A lo que voy a esto. Si lo que queremos es tomar. Algo de lo que sabemos de la propiedad intelectual de Accelent para equipos estamos más. Estamos más jodidos que ver sus coaching porque no hay suficiente Trabajo hecho ya, o sea, como trabajo intelectual hecho de así se hace, este es el paso 1, 2, 3. 4. 5 Este es la matriz de decisiones y te llega un equipo nuevo, un equipo jodido, un equipo no sé qué. Eso no está tan Tan claro, o sea, yo no lo he visto tan claro, y entonces eso va a hacer que sea difícilmente codificable y automatizable. O no automatizable. sino hacer alguna interacción en donde necesites menos a los humanos. En cambio, por el lado de Behavior Change, creo yo que estamos bastante cerca. De poder hacer algo interesante, que ya lo que lo puse, lo expresé ahí en la visión. Que les vende, o sea, algo interesante me refiero a poder dar una especie de coaching en donde Entiendes qué es lo que necesitas cambiar, cambias tu mindset, ok. Si necesitas cambiar un comportamiento, eso lo aterrizas a. a un microhábito y eso te da este puede ser un acuerdo o un microhábito y le da seguimiento a las personas y entonces Entonces les ayudas a que cambie. A mí, ahora me parece que el tener bien armado ese ciclo de cambio de comportamiento. Te sirve tanto para la persona individual como para la persona como siendo miembro del equipo. Y no sé, me aventuro a decir que posiblemente no serviría para el equipo como equipo, con algunas modificaciones. No sé, pero lo que estoy tratando de decir es Creo que para poder decir, ya en términos muy comerciales, te voy a vender este curso. El cual tiene un poquito de curso, pero sobre todo tiene sesiones de coaching, de application coaching para tu gente, digitales, que te cuestan. Muy barato y que no te las podría dar si no fuera con AI y que van a ser bastante eficientes Eso es algo que yo creo que en tres meses pudiéramos empezar a vender. Bueno, pudiéramos empezar a ver Desde ahorita, pero digamos en tres meses ya con más producto, y que luego, eso, si vemos que no pega o no es tan fácil de vender. Este lo metes hacia, lo metes como algo de equipo, pero hasta ahorita Y apenas llevo un par de días, no veo un camino tan directo con Team Effectiveness. Porque, por ejemplo, las cosas que se me han empezado a ocurrir ahorita de hacer el wizard para onboarding de equipos nuevos. Eso va a requerir diseño y no hace el leverage tan fuerte, creo, de lo que ya tengo. tenemos. O sea, creo yo que hay que hacer una interfase diferente, sí la podemos hacer conversacional, pero como que mi. . . Sí, mi sensación en este punto es que para team efectiveness But for an MVP of this vision of the behavior change. estamos mucho más cerca de hacerla entonces mucho más cerca de hacerla en términos de necesitamos tener un coach que funciona a lo largo de sesiones que eso nos va a hacer o sea que eso va a forzarnos a tener una mejor memoria De las personas a través de sesiones, que esa mejor memoria nos habilitaría luego poder tener memoria de equipo, que es algo de lo que hablaste con Mike. En algún momento, entonces creo que nos daría piezas para poder luego Básicamente lo que quiero decir es, si nos vamos por el caminito ahorita de behavior change, vamos a tener luego piezas de Lego para equipos que creo que nos. Pueden servir para construir algo potente, pero mucho más rápido podemos tener algo que es vendible. Eh, y aunque ya existen coaches en el mercado, este Pues tampoco es que sea un mercado súper saturado. Coaches de AI tampoco es que sea un mercado súper saturado. Y creo que podemos tener una visión, o sea, podemos este. Tenemos espacio para crecer, pues, me parece. O sea, no es como que ya nos hayamos encontrado a las empresas que están haciendo el coaching por todos lados No sé, o sea, está un poco desordenado, pero estoy queriendo porque todavía no tengo las ideas claras. apenas empecé a pensar en el sensación que tengo bueno apenas empecé a pensar en ello y el año pasado estuve un buen rato machacándole este Y además de esto hay una cosa como muy técnica que me di cuenta. Todavía no sé si lo. Puede expresar super bien, pero palantir puede hacer inferencias super precisas y toma de Decisiones, muy específicamente porque llegan a una compañía y mandan ingenieros que juntan con la gente de la compagnia, empieza a construir una ontología super detallada de la compañía al punto que te arman
+
+Speaker 1
+Sí, sí, sí. Sí, me acuerdo que no lo pusiste en el documento, estaba. Estaba me quedó llamada la explicación de cómo incluso una compañía de ese técnico.
+
+Ruy
+Sí, al momento llegas a un Digital Twin. Pero lo que estoy entendiendo yo es lo siguiente. O sea, si nosotros podemos construir algo parecido, podríamos hacer mucho mejores inferencias. Y para mí es un poco por qué camino lo podemos empezar a hacer. Y el camino de. O sea, un camino puede ser empezarlo a hacer a través de. De los individuos, este en donde empiezo a platicar acerca de Ciertas cosas, y entonces con el permiso de la gente, oye, puedo guardar como memoria para el equipo que fulanito y fulanito hacen esto, que su tanito y cetanitos en aquello. O sea, necesito clarificarlo, pero si no Nosotros empezamos a construir a buena memoria que les sirve a las personas para que a coach los entiends a través del time. Eso mismo creo que es a través del tiempo y en su contexto de equipo y de compañía. Creo que esa misma arquitectura sería extendible para que luego le ayude ya no los individuos como unidad, sino a los equipos.
+
+Speaker 1
+No, okay.
+
+Ruy
+Y entonces, sí, o sea, creo que creo que eso podría ser muy potente, pues.
+
+Speaker 1
+Te lo reflejo, parece que lo escuché bien porque creo que hubo un interesante y no más quiero si no lo nombro por ahí.
+
+Speaker 2
+Pues lo que tú dices es, otro abordaje pudiera ser, dado que tenemos mayor fortaleza para ir individuo por individuo, podemos decir, ayudo a cada individuo a su desarrollo y esa es mi lente de análisis individual. Pero después podría ser como una especie de agregado de los individuos o mirarlos en conjunto y que se fuera quote en quote mi lente de equipo.
+
+Ruy
+Sí, o parcialmente tu lento de equipo. Creo que habría que construir otras cosas. But what you escuch is that when you mess around, let's have an assessment of equipping and then let's have an assessment of person. Y si las personas saben por dónde desarrollarse para llegar a ser el equipo que quieren ser, pues van mucho más rápido que si solamente saben lo que el equipo necesita. Entonces, o sea, hay una conexión muy fuerte entre te ayudo como individuo. Te ayudo como equipo. Y creo que en algún momento, o sea, creo que transitarla sería muy No sé si clarifica esto, o sea que creo que lo que podemos tener ahorita es. Primero te ayudo como individuo, luego te ayudo como equipo, y ya luego vemos si cambiamos el orden. Te ayudo primero como equipo y entonces lo bajo individuo. Pero lo que sí estoy entendiendo yo de las metodologías es que para hacer un high performing team tienes a huevo que pasar por las textas. Dos cosas, no nada más puedes hacerle intervenciones al equipo sin darle nada al individuo
+
+Speaker 1
+Sí, a ver, ese último statement tiene total sentido, pero tienes razón.
+
+Speaker 2
+Nosotros estamos pensando abordar. La idea original, Holy Grail, que la hemos estado hablando de de ella y era esto de salir al equipo como equipo para ver si en lo que pasa a nivel equipo conversaciones entre individuos más de individuos y demás se pueden detectar cosas que desde un lente más social y de relación nos pueda identificar que hay problemas.
+
+Ruy
+Just kind of just a mechanical model.
+
+Speaker 2
+Ese es el punto de partida. Lo que te escucho ahí te digo decir es, bueno, las teorías de equipo dicen, los equipos funcionan mejor cuando la gente se comporta de esta manera. Y pues podemos empezar desde abajo, los individuos medimos y decimos, ¿se comportan o no se comportan de esta manera? Si no se comportan de esta manera, a nivel de equipo no hay mucho más. Entonces, empecemos a abordar esos comportamientos individuales como una hora de contribuir el programa del equipo. Y si la teoría funciona, hicimos una medición hacer un assessment a nivel del equipo que nos da una idea y uno individual. El equipo está funcionando en una escala del 1 al 10 a un 5, porque todos sus individuos están en 2, en 3, en 4 y 5, porque uno cumplen ciertas cosas. Si le mejoras a todos los individuos esas cosas que tienen jodidas, entonces en algún momento el equipo tendría que subir un 7.
+
+Ruy
+Sí, y sí, pero además a huevo vas a tener que construir algo para el equipo. Pero me parece, o sea, si el equipo no tiene Team Charter, o si el equipo no tiene acuerdos operacionales, o si toda esa infraestructura básica no la tiene, pues por más que sea gente buena, no va a funcionar pero creo que mi insight fue ayer cuando lo bueno no sé si mi insight pero pero mi hipótesis si es cuando carajo se diga es a veces los equipos están tan mal que no se pueden autofacilitar Entonces, este, si estamos en ese punto, pues estamos jodidos. ¿Y qué se necesita? Para salir de ese punto, una de las posibles maneras de hacer es, oye, pues ayúdale al líder del equipo a que esté menos jodido. individualmente para que pueda tomar conciencia de un par de cosas y pueda autofacilitar un par de cosas a su equipo, por ejemplo, hablar de su Team Charter, hablar de sus roles y responsabilidades. O sea Ayuda al líder a que salga del hoyo para que pueda ayudar a su equipo. Esa podría ser también una de las. De las hipótesis a probar, hay que ver antes qué dice la teoría de eso o si hay alguna experiencia de eso, pero No sé, o sea, puede ser una. Sí, como que ayer fue algo que me brincó como idea de, bueno, y pues. Podríamos hacer eso. La otra es ayudarle a los consultores a que en vez de que puedan atender con un dólar a un bueno con mil dólares a un equipo que con mil dólares puedan atender a 30 este pero como que todo me hace regresar un poco a Pues hay que ayudarle a los individuos a subir un poquito su nivel de conciencia, porque si no es muy difícil lidiar con ellos. O sea, si tienes a pura gente. bien víctima este pues por más que les ayudes a tener buenas conversaciones en equipo vas a tener que tirar mucho Entonces, o sea, creo, mi impresión es que si hacemos algo para el individuo, eso luego nos puede ayudar. a construir algo para el equipo sin que sea suficiente pero si con una pieza ya importante para subir te lo voy a poner muy sencillo este para para porque siempre me queda en lo conceptual muy sencillote ya tenemos un coaching que más o menos funciona Para que tú tomes un CV assessment, tomes conciencia de decir, ah, carajo, soy bien pinche víctima, necesito un poco cambiar eso. Ok, ya sé que yo soy así. Después de eso te vendemos otra pieza que es para equipo, in which tomas ancions para ver cómo está tu equipo andar. la confianza mutua este y les hace fatig y necesitan mucha necesitan tener buenas conversaciones para saber quién hace qué porque también están jodidos por eso Entonces puedes hacer un bundle de a ver, vamos a hacer un assessment de equipo, entender en dónde está jodido, y lo que te voy a proponer es. Entendemos dónde está jodido. Ok. El equipo. Le voy a ayudar primero al líder a que salga del hoyo. El líder entonces va a. autofacilitar o facilitar junto con un consultor o lo que sea tres o cuatro conversaciones clave del team charter esto y aquello Eso va a ayudar a que haya una mejor estructura para el equipo y luego los individuos tienen que empezar a salir de sus propios hoyos, pero ya en un mejor ambiente. O sea, jugando con esos elementos, me refiero es este, ya tenemos esta pieza para los individuos. Ya tenemos podemos digitalizar fácilmente el assessment para los equipos Lo que no veo que podamos digitalizar tan fácilmente es intervenciones a equipos. But creo que puedes salir al paso. equipo en sí pero se hace mucha de la talacha por delante porque puedes ayudar al individuo de manera personalizada
+
+Speaker 2
+Te entiendo y me está gustando ahorita este abordaje porque Elimina la dicotomía entre individuo y equipo y más bien los conecta. y nos hace entrar por un punto de menor fricción que es el individuo y que es donde tenemos más desarrollo y más fuerza. Todos esos son todos esos puntos por lo del lado positivo.
+
+Ruy
+Y carajo, esto lo podríamos empezar a vender Como cursito, este con Leo facilitándolo para que no cueste o cueste muy barato. O sea, con Leo facilitando las reuniones, digo, no, pues él dice que sabe, no sé si sepa, pero yo creo que sí.
+
+Speaker 1
+Sí, sí, sí.
+
+Ruy
+Este debe de saber a huevo.
+
+Speaker 2
+Él facilitaba aquí lo de no bullshit en Barcelona, incluso hasta le ayudaba ya a Benja, le daba retro cómo hacerlo y todo. Entonces, sí.
+
+Ruy
+Sí, seguramente. Este, entonces, eh, digo, me da todo el avión, nomás no, pues apenas. No lo conozco, este entonces eh, o sea, ¿podrías hacer algo? muy pinche pero vendible en términos de agarramos los agarramos el hpt lo digitalizamos le bajamos dos rayitas para que sea menos Complicado, este y lo empieces a vender, y a ese HPT le metes coaching individual que los individuos tienen que hacer a huevo. Tiene por lo menos que tener una sesión a la semana para avanzar en algún tema y vemos cómo va. Y eso se puede armar. Vamos, para hacer eso, ni siquiera necesitas el coaching. El AI Coach, pero si tienes un AI Coach. O sea, pero yo creo que desde el punto de vista de tecnología, si empiezas a tener un AI coach que funciona y luego lo insertas en mod en. In processes of equipped yet, leverage del coaching individual para equipo. Que yo creo que hay muchas formas de hacerlo, pues entonces ahora sí empiezas a tener algo este De tecnología interesante, pues, o sea, en términos Ahora, en el option hay otros puntos, pero o sea, como que lo que quiero es Pues sí, mostrarte este escenario en donde, como dices tú, están conectados.
+
+Speaker 1
+Okay, okay, okay, okay.
+
+Ruy
+Están conectados y yo creo que podemos tumbar varias piezas de desarrollo de tecnología.
+
+Speaker 1
+Este
+
+Ruy
+Críticas construyendo para te vendo coaching application Coaching individual, but we'll get the hero at the equipped si lo queremos, o sea, si consideramos que no estamos vendiendo el ritmo que deberíamos. y necesitamos hacer un pivote de producto o vender uno nuevo o qué sé yo
+
+Speaker 1
+Okay, okay, okay.
+
+Speaker 2
+Yeah Creo que ahorita quiero ir acomodando bien estas ideas, va a ayudar bastante. Ahorita además se sentió todo lo que dices. Voy con algunas preguntas, pero va a ser más fácil abordarlas. si quieres una ronda más que le des de pensada con algunas cositas que te pongo sobre la mesa pero mira mi mayor objeción con todo esto y mi más que objeción es mi temor es lo que te ha dicho que yo veo
+
+Ruy
+Um
+
+Speaker 2
+blockers comerciales para que la compañía diga se compro coaching por todo lo que hemos platicado no que no tienen de budget o que si la tienen tienen los blockers de que el pinche puede compliance ya te la sabes todas y luego mi mi visión un poco optimista del ser humano de que somos horribles para cambiar y entonces esto es esto es como querer hacer que lo que vendemos es dietas que la gente sí siga cuando nadie puede ser una puta dieta dejando estas ocasiones de lado Yo creo que cambia mucho la manera de poder abordar la cuestión comercial si el framing y el empacado desde el principio es que tenemos una solución. Que tal cual se llama Team Performance Improvement, Team Performance como sea, pero Team Performance va por delante. Y a la hora de desempacarla ya decimos, bueno, el Team Performance se ancla en el desempeño de cada individuo y eso es Mike, taca, taca, tacata, y entonces realizamos un poco lo mismo que hacemos. Pero entonces, ahí tal vez lo que necesitaríamos es poder llegar con una capa ligerita, ligerita, ligerita que tenga cara de equipo. para al menos hacer que sea como el engrudo con el que se pegan las piezas de individuos que tenemos de coaching individual y que realmente tome una fisonomía de equipo y nos lo puedan comprar. Esa capita delgaditita que puede. conectar y pedostear un poco las interacciones individuales de los ACS mens y todo. Se me ocurren algunas cosas, ¿no? Una es No sé, que tuviéramos una forma de agrupar a los individuos que son de parte de un equipo para hacer un agregado de sus resultados del Conscious Business Assessment que te diga algo del equipo. La mayor parte de tu equipo son víctimas.
+
+Ruy
+Mira, te voy a decir una cosa que se puede hacer ya nomás hay que pensar el diseño.
+
+Speaker 2
+¿Qué pasa cuando tienes eso?
+
+Ruy
+Hay un instrumento que tiene Accellent, no sé cómo carajo se llama, Accellent Team Effectiveness, los cuatro pilares de Katzenbach. No tiene nombre, pero es un assessment que le haces al equipo entero en donde tienes 4 por 7. Como 30 preguntas, y con eso puedes entender dónde está el equipo versus el ideal. y que hay que desarrollar y luego con eso puedes hacer también contrastes de ok el equipo está acá Y está jodido por esto, por esto, por esto, y tú estás contribuyendo personalmente por ABC. Eso se puede hacer. Pues casi casi que ahorita, sin desarrollar mucha tecnología, es un problema de cómo presentamos la información en un assessment. O sea, es de cómo presentas la información, pero ahorita, o sea, yo ahorita podría, pegado con persona, pero yo ahorita podría agarrar ese assessment. meterlo a brilliant the person respond su Cvia Smen respond S que va a ser mucho más corto Y con eso podríamos poner a Horacio a que facilite un proceso para equipo.
+
+Speaker 2
+Ya. Y podemos preguntarle Horacio si hay alguna manera de cruzar los resultados del Acceling Team Effecting con el CD Assessment.
+
+Ruy
+No puedo hacer sin pedos
+
+Speaker 2
+Bien. Bueno, fíjate. Es un excelente ejemplo de un engrudo. Y ya de ahí ya está, ya estamos cambiando la excepcionalidad del producto de una forma que me gusta. Ahora te paso otra que puede constituir otro elemento del ingrudo que tal vez lo podamos poner, que es. . ¿Qué pudiéramos darle de visibilidad a la empresa de que los temas que está abordando la gente con su AI coach conectan con las deficiencias que se vieron, están hablando de esto y tiene más o menos que ver con las deficiencias que se vieron, no te digo uno por uno porque no se puede, pero o tal vez sí se puede, no lo sé, pero luego lo vemos. Pero bueno Que el agregado del tal equipo están viendo estos temas que, bueno, coinciden con lo que salió en la parte del assessment de equipo y está bueno.
+
+Ruy
+Mira, más fácil, ah sí, eso sí
+
+Speaker 2
+Y se están teniendo adoption. Pero mísenme las dos cosas. ¿De qué están hablando? Y lo están usando. Si esas dos cosas las tenemos, ya tienes dos piezas en grudo que puedes decir, vende una solución de equipos y te resuelvo los problemas de cada individuo que hacen que se joda el equipo y se rompa el equipo y esto ya empieza a apuntar bien.
+
+Ruy
+En vez de tener que ir a ver qué está hablando la gente con sus coaches, mejor lo metes como parte del proceso. O sea. I can modificate the leadership partner, pero es eso is bastante viable. Este, o lo metes, eso es bastante fiable de a ver, estos son tus resultados. En vez de hacerte la pregunta abierta, oye, este en qué área quieres trabajar es tu equipo está mal en 1, 2 y 3 tus resultados están contribuyendo por ABC Vamos a empezar por A o B o C. Dime tú con cuál sientes menos ficción, por cuál quieres empezar. Y de ahí empiezas a desarrollar un microhábito a cambiar. Este eso es otra vez ponerle en grudo, armar un para lo que.
+
+Speaker 1
+Okay.
+
+Ruy
+Si la gente pega copia y le pedimos a la gente que copie y pegue los resultados de sus assessments, ni siquiera necesito a Mike. Este y con un poquito de, y posiblemente, y si hacemos Un assessment combinado del C B2 del CV assessment más equipo, que va a ser medio largo porque van a ser las 144. preguntas más otras 40 pero así inclusive si creo que ni siquiera necesito mic o sea nomás Lo honesto muy poco, pues. O sea, la cosa es que podríamos eso sí Podemos hacer un prototipo muy rápido, que es un prototipo, ni siquiera es va apecodearlo.
+
+Speaker 1
+Es lo que te iba a decir, si puedes podearte algo o si quieres ser prototipo más robusto mejor.
+
+Ruy
+es armar un pues armar materiales comerciales o sea es que no es una bien para que o sea esto es esto es chamba de Horacio dolo que valide que lo que estoy diciendo no es una pendejada y me ayude a aterrizarlo mejor. Este Horacio diseñando un. Un curso y se vende como un CBC chiquito para equipos. Luego hay que pensar cuál es el diseño para que no salga como. exageradamente caro pero pero por ahí pues puedes hacer algo o sea lo que pasa es que los hpt son caros porque Es un consultor para un equipo natural
+
+Speaker 1
+Y además abarca más que lo que te marca un assessment, está en la sala viendo las dinámicas, te está corrigiendo, o sea, como que hay más.
+
+Ruy
+Sí, hace, o sea, el assessment combina este tanto una Sí, o sea, abarca más, pero pues podríamos hacer qué se puede hacer con sesiones facilitadas de teaching. Más coaching individual y posiblemente una instancia o algunas instancias de coaching grupal. por parte de Horacio este y tratas de vender eso pues este y si eso tiene pies y cabeza pues luego empezamos a ver de cómo digitalizas
+
+Speaker 1
+Okay,
+
+Ruy
+Horacio, porque, o sea, ahorita una de los de los de las preguntas que tengo es
+
+Speaker 1
+Sí, ándale, tener alguna especie de digital twin del facilitador, del COVID.
+
+Ruy
+No hay mucha información de cómo se lleva una sesión de coaching grupal. No lo vi, además no lo he visto. visto o sea esa es una limitación personal pero creo que es una limitación de materiales Horacio tiene unas bitácoras de Impressionante, bitácora de las sessions of coaching compartida anonymizadas where I'll have a much detail for aterrizar cómo ser un coach. Creo que no hay lo mismo para grupos. Entonces hay que empezarlo a construir.
+
+Speaker 1
+Okay.
+
+Ruy
+Y pones las dos cosas, o sea, pones las dos cosas en parejera. Tratas de vender lo de equipos, tratas de vender el.
+
+Speaker 1
+Okay.
+
+Ruy
+los los programas que tenemos ahorita con el twiste este no twist sino con la diferencia de que en vez de coaches así son application coaching más chido y ves que se vende
+
+Speaker 1
+Este
+
+Speaker 2
+Me gusta dónde va esto. Me parece bien porque nos da un win rápido para reempacar el producto con cara de Team Performance. Yo que nos puede ayudar. Utilizamos lo que tenemos. Todas esas cosas está bien. Me parece que encaja el. Proceso de coaching de cada quien, no como yo lo estoy haciendo porque sirva mi empresa, versus esto es parte de mi responsabilidad para el equipo. Eso cambia mucho, un montón, porque ya tienes, una de las cosas que ayudan a la adhesión del cambio de comportamiento es el entorno social, el contexto en el que operas. Entonces, yo solito voy a hacer ejercicio y no funciona. Si estoy en la casa, todos tienen que ir a la misma hora o me quedé contigo a la misma hora, sube mucho mi adhesión. Si estamos todos en equipo haciéndolo, está un poquito más cabrón. Eso no es menor. Eso yo diría que lo pondría en mi slide de ventas.
+
+Ruy
+Y puedes sí, y puedes, por ejemplo, estoy pensando, eso sí se puede hacer muy fácil, un dashboard de ha sido el equipo.
+
+Speaker 2
+Ándale, sí, oye.
+
+Ruy
+En términos de sucesiones de coaching
+
+Speaker 2
+A ver, esto pinta muy bien. Me tengo que irte a la reunión con este Dan Casper, el que era la I de los buenos de Instil, porque nos va a decir en qué anda su proyecto Stealth y queremos ver si sale algo para hacer. Yo te pedía que avances con esta idea y si lo quieres baicodear o prototipar o algo, que lo pudiéramos ver en principios del siguiente semana, me encantaría, porque entonces el concepto que tienes, lo bajamos y lo vemos.
+
+Ruy
+Oye, va, ok. Pero la otra que tengo es la de las integraciones. Mandé un correo. Hay algunas decisiones que tomar, no sé si la. No, no, no me. Pues creo que no me puedo esperar hasta la próxima semana, entonces cuando lo vemos.
+
+Speaker 2
+Este. . Hazme un favor nomás, porque ahora que me acuerdo, mañana mismo estoy topado de presentaciones. ¿Puedes echar un primer vistazo con Lero? de lo que de lo que se necesite o sea digo puede checar el correo que mandas de una respuesta o necesitas que nos reunamos o sea cuál es la forma para avanzar esto ahorita
+
+Ruy
+Creo que, pues nada más quiero que
+
+Speaker 1
+No más para que no pase de mañana.
+
+Ruy
+Puedes checar el correo. Mando mando un loom y lo hacemos asíncrono.
+
+Speaker 1
+Ándale, fantástico. Si me lo mandas yo mañana, mañana me lo pongo aquí en el calendario y te respondo también con un humo, con lo que sea, ¿sale?
+
+Ruy
+Dale.
+
+Speaker 1
+Bueno, gracias.
+

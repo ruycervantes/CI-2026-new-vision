@@ -1,0 +1,987 @@
+Speaker 1
+Bien, bien.
+
+Ruy
+Bien, bien.
+
+Speaker 1
+Perdón el minutillo de demora es que me fui a hacer mate y tuve un accidente doméstico, mira.
+
+Ruy
+Perdón el minutillo de demora que me fui a hacer mate y tuve un accidente doméstico, mira.
+
+Speaker 1
+Me apoyé, me arrodillé sobre el bote del agua del perro.
+
+Ruy
+Me apoyé, me arrodillé sobre el bote del agua del perro. Eh bueno, vamos a un poquito.
+
+Speaker 1
+Eh bueno, nos mojé un poquito. ¿Cómo empiezas el día?
+
+Ruy
+Bien, este empiezo, llego de una reunión con Shamil, entonces este
+
+Speaker 1
+¿Es lista de práctica o es un contratado, digamos?
+
+Ruy
+Es lista de práctica o es un contratado, digamos. está contratado como intern en un internship está haciendo su maestría ahí en barcelona Entonces básicamente le pagamos la maestría y un stipend y trabaja con nosotros Se supone un poquito más de medio tiempo, seis horas. Vale.
+
+Speaker 1
+Vale, ¿y dónde está haciendo la maestría?
+
+Ruy
+¿Y dónde está haciendo la maestría? Una universidad de tecnología que se llama. Harbor Space University Harbor Space University?
+
+Speaker 2
+Harvard Space University.
+
+Ruy
+Sí, Harbor de Puerto. Sí, sí.
+
+Speaker 2
+Sí, sí, no lo conozco, Harvard.
+
+Ruy
+No lo conozco. No, al parecer es chiquita. Este supongo que es trita y muy buena.
+
+Speaker 1
+Space Ah, que está al lado de ah, yo sé cuál es.
+
+Ruy
+Ah, que está al lado de ah, yo separé. ok ok vale y cuánto tiempo lo tenemos con nosotros por por por cuánto tiempo lo que dura la bacteria
+
+Speaker 2
+Ok. Ok, vale. ¿Y cuánto tiempo lo tenemos con nosotros? sí, lo que dure la maestría, vale, vale
+
+Ruy
+Termina en este mayo.
+
+Speaker 2
+Ah, un año, vale, vale.
+
+Ruy
+Vale. Y ya de ahí pues dependería si lo queremos contratar o no. Vale, y cómo su performance, bien, pero tuvo
+
+Speaker 2
+Vale, y como up to performance, bien
+
+Ruy
+o sea inició bastante bien luego tuvo un bajón este y ahorita creo que está empezando a volver a agarrarle
+
+Speaker 1
+Okay, okay, okay,
+
+Ruy
+Ok, ok. Ok, vale.
+
+Speaker 1
+Bueno, ¿te parece que vamos al lío con el tema de los OKA?
+
+Ruy
+Bueno, ¿te parece que vamos al río con el tema de los OKA? No sé si pudiste avanzar.
+
+Speaker 1
+No sé si pudiste avanzar algo, algunas ideas.
+
+Ruy
+algo, algunas ideas mira si tengo ideas pero O sea, básicamente creo que va por hacerme cargo de grandes filtros a desarrollar, que los saquemos en el equipo de. Desarrollo eh tres eh, este y luego es La decisión validada del producto, o sea, de qué producto vamos a desarrollar. y una implementación de. Este no sé porque este creo que lo vamos a hacer entre los dos. Una implementación de proceso de PMF. Y mejoras al proceso de desarrollo, este entonces Eso es lo que hablábamos el otro día, ¿no?
+
+Speaker 1
+Eso es lo que hablamos el otro día, ¿no?
+
+Ruy
+Sí, o sea. Ok. Entonces, en general. El año pasado cometí el error de no ponerme OKRs de equipo. y hacía un montón de cosas pero no los tenía como objetivos formales entonces este
+
+Speaker 2
+Claro, o sea que te pondrías, además de estos tres que me dijiste, uno más de equipo.
+
+Ruy
+O sea que te pondrías, además de estos tres que me dijiste, uno más de equipo. No, o sea, me pondría. El de el desarrollo de features, la decisión validada de producto Eso junto con el proceso, o sea, la decisión validada del producto con un proceso de PMF andando. Y por último, la mejora del proceso de desarrollo y el crecimiento del equipo. Pero por eso, ¿cómo los organizaste esos OEAs?
+
+Speaker 1
+Pero por eso, ¿cómo los organizaste esos OPRs?
+
+Ruy
+Sí, o sea, el primero es el desarrollo, el segundo es decisión validada del producto y el tercero es mejora de performance del equipo vía mejores procesos. Son tres. Vale, perfecto.
+
+Speaker 1
+Vale, perfecto.
+
+Ruy
+Este sí, básicamente, creo que eso, o sea y ya luego los los planteaste así como literalmente como un no key r tipo objetivo y los key results o así como un objetivo en términos generales como lo planteaste
+
+Speaker 1
+¿Los planteaste así como, literalmente como un OKR tipo objetivo y los key results? o así como un objetivo en términos generales, como lo planteaste.
+
+Ruy
+Este mira, uh Sí, o sea, de los de los features son por lo menos tres features importantes desarrollados. Por features importantes me refiero a una integración con teams este los que vimos ayer en el en el roadmap este la integración con teams hay Dios se me fue Okay. Como que todavía no me llega el café Sí, la integración con Teams, este ah un coach este más completo, o sea pasar de pasar de de perfiles como los que están ahorita en donde te hacemos preguntas a que sea una sesión de coaching más completa vos no este algo así y una pregunta lo de implantar vengo de una reunión con partner con dos o tres negocios más o menos grandes
+
+Speaker 1
+Okay, speech in that Y una pregunta, lo de implantar, vengo de una reunión con partners, con dos o tres negocios más o menos grandes, que ellos lo verían viable si podemos enchufar.
+
+Ruy
+que ellos lo verían viable si podemos enchufar nuestra solución, o sea, los AI Coach, en un LMS que no sea el nuestro.
+
+Speaker 1
+nuestra solución o sea los AI coach en un LMS que no sea nuestro como ves eso de viable creo que lo habíamos si
+
+Ruy
+¿Cómo ves eso? De viable. Eso es bien fácil. Creo que lo habíamos. A ver, bueno, en principio es bastante fácil, necesitamos ver que ahorita como está integrado esta cosa sin kific es un iframe.
+
+Speaker 1
+Claro, o sea, lo podríamos replicar exactamente igual en toda LMS que tenga el iframe.
+
+Ruy
+O sea, lo podríamos replicar exactamente igual en toda LMS que tenga iframe. Exactamente, tendría que ser un LMS que acepte iframes porque hay algunos que no les puedes meter ni HTML.
+
+Speaker 1
+¿Es así?
+
+Ruy
+Entonces verificar que funcione así. O sea, hay otro set de features que también que no están aquí en estos que te hablé, pero que tendríamos que ver si los priorizamos, que son de.
+
+Speaker 2
+Espera, tengo una pregunta, perdón.
+
+Ruy
+Espera, tengo una pregunta, perdón. Si nosotros enchufamos por iframe
+
+Speaker 1
+Si nosotros enchufamos por iframe, somos capaces de hacer el tracking.
+
+Ruy
+Si somos capaces de hacer el tracking del progreso y de todo eso, ¿nos perdemos ahí?
+
+Speaker 1
+del progreso y todo eso, nos perdemos ahí trazabilidad
+
+Ruy
+¿Prazabilidad? No, o sea, bueno, es que, perdón, integrar a los AI coaches en un LMS necesitamos En primer lugar, que se puedan utilizar iframes y que podamos hacer single sign on.
+
+Speaker 2
+Sí.
+
+Ruy
+Single sign on, me parecía.
+
+Speaker 1
+Single sign-on, o sea, me parecía allá, hay algo.
+
+Ruy
+Sí, perdón, se me estaba olvidando.
+
+Speaker 1
+Vale. No, no, tranquilo.
+
+Ruy
+Este tranquilo. Entonces, esa parte del single sign-on básicamente tendría que ser un un LMS que
+
+Speaker 1
+Porque es fundamental eso para antes.
+
+Ruy
+Que soporte single sign on. En general lo soportan, pero el single sign on ustedes no es que tienen un single sign known propio, sino que quizá podríamos hacerlo vía out zero o no.
+
+Speaker 1
+En general lo soportan, pero el single sign on ustedes no es que tienen un single sign on propio, sino que quizá podríamos hacerlo vía out zero o no.
+
+Ruy
+O es propio, a ver, aquí necesitaríamos decidir exactamente que queremos.
+
+Speaker 1
+O es propio.
+
+Ruy
+Ah, ahorita este O sea, como está la integración ahorita con Synkific, es este básicamente está. Creo que va a servir que hago un diagrama porque si no ya empiezan a hacer muchas cosas en el aire y. y luego se hace difícil platicar así que un segundo para abrir un rolito
+
+Speaker 3
+So you're gonna be the same.
+
+Ruy
+And tons Como está ahorita, es que nuestro sistema le decimos Conscious Insights. Sí. Este eso se conecta a un LMS. Via O sea, nuestro sistema está este por adentro, está basado en un sistema Este en un sistema que se llama Chainit.
+
+Speaker 2
+Sí, me aportaste el otro día.
+
+Ruy
+Sí, me importan que lo dije. y entonces tiene capacidad de conectarse a cualquier cosa vía o alf y ahorita tenemos Echa la conexión de Outh a Thinkific y a Microsoft Teams. Esta está en producción.
+
+Speaker 3
+Google now
+
+Ruy
+Google no. No, ahorita no. Se puede hacer. Este sin mucha sin mucho problema. Pero hay que desarrollarlo. Esta está en producción, funciona, es lo que usamos todos los días. Lo de Microsoft, extender.
+
+Speaker 2
+Pero una pregunta, pero una pregunta.
+
+Ruy
+Pero una pregunta. Sí. Entendiendo que no es que nosotros tenemos que integrar el single sign on, en realidad.
+
+Speaker 1
+Entendiendo que el no es que. Nosotros tenemos que integrar el single sign on. En realidad, debemos entender cuál es el sistema de autenticación que utiliza la LMS.
+
+Ruy
+debemos entender cuál es el sistema de autenticación que utiliza la LMS. A ver si estoy bien, cuál es el sistema de autenticación que utiliza la LMS para poder conectar ese usuario.
+
+Speaker 1
+A ver si estoy bien, ¿eh? ¿Cuál es el sistema de autenticación que utiliza la LMS para poder conectar ese usuario con lo que hace en el iframe?
+
+Ruy
+con lo que hacen el iframe no es que tiene que pasar por nuestro sistema de autenticación cierto no si tiene que pasar por nuestro sistema o sea
+
+Speaker 1
+No es que tiene que pasar por nuestro sistema de autenticación, ¿cierto?
+
+Ruy
+Este sí, sí tiene que pasar por nuestro sistema de autenticación. ¿Cómo decirlo? Toda la conversación que pasa entre esto y. . a ver, ¿cómo te lo hago? Todas las conversaciones que pasan Entre la ventanita que nos abre el LMS y Conscious Insights, al empezar está todo el flujo de autenticación, y una vez que ya hacemos el flujo de autenticación. Entonces este podemos empezar a hablar, no sé si me explico, es como si fuese una autenticación de doble entrada por decir de alguna manera o sea no es sólo yo me acuerdo pongo pongo el ejemplo de lo que conozco no en go for play vos tenías
+
+Speaker 1
+Es como si fuese una autenticación de doble entrada, por decir de alguna manera. O sea, no es solo. Yo me acuerdo, pongo el ejemplo de lo que conozco, ¿no? En GoForClay, vos tenías, yo te hacía un entorno para Stoic.
+
+Ruy
+yo te hacía un entorno para para estoy y estoy podía configurar ahí mismo el
+
+Speaker 1
+Y estoy podía configurar ahí mismo el single sign-on, ¿no?
+
+Ruy
+single sign on, ¿no? Que se que la peña pueda pasar ahí con el picando en Google y entraba, o sea, le reconocía el navegador que estaba conectado con Google y entraba con esas credenciales, o Microsoft o LinkedIn o el que sea.
+
+Speaker 1
+Que la peña pueda pasar ahí picando en Google y entraba, o sea, le reconocía al navegador que estaba conectado con Google y entraba con esas credenciales. o Microsoft o LinkedIn o el que sea.
+
+Ruy
+vale y dentro de confort click dentro de un curso dentro de una actividad o donde fuera podías meter un iframe sería exactamente igual el caso aquí ahora
+
+Speaker 1
+¿Vale? Y dentro de GoForClick, dentro de un curso, dentro de una actividad o donde fuera, podías meter un iframe. Sería exactamente igual el caso aquí. Ahora, era así o no.
+
+Ruy
+¿Era así o no? Sí, a ver, mira, ¿cómo funcionaría? Sería, haz de cuenta, si fuéramos a hacer. conectarnos con el lms de pg que no sé cuál sea tendríamos que hacer un pequeño conector que lleva algo de desarrollo para ellos si nos quisiéramos conectar con el lms de bw a entonces tendríamos que hacer un no para ellos si nos quisiéramos o sea cada por por cada tipo vale De este de LMS tendríamos que hacer un conector. Esa es una solución.
+
+Speaker 3
+But
+
+Ruy
+Otra solución que podemos hacer si sabemos que va a haber más de una lms al que nos vayamos a conectar es utilizar una cosa que se llama workOS que básicamente Se hacen cargo de un montón de cosas de Enterprise. Te ayudan.
+
+Speaker 3
+Okay.
+
+Ruy
+Haces una sola integración de single sign on. De ti hacia WordOS y entonces ya te lo habilitan para cualquier proveedor para Microsoft, Google y todo lo demás. No sé si me explico. Sí.
+
+Speaker 2
+Sí, sí
+
+Ruy
+Entonces, en vez de tener este desbarriate aquí, tendríamos. uno solo pero te cobra entiendo que te cobran por usuario que se loguea si pero no es caro
+
+Speaker 1
+Uno solo. Pero te cobra, entiendo que te cobran por usuario que se loguea.
+
+Ruy
+Este, bueno, además de del single sign on, que eso es, eso está bueno, tiene O sea, puedes hacer integración de Schim, o sea, de HRS. puedes además este tener role based authentication con ellos o sea tienes que conectar todo de tu lado pero ellos ya tienen todo un y cuál es a ver el a ver management o sea
+
+Speaker 2
+Y cuál es, a ver, el, a ver el precio,
+
+Ruy
+Ah, tienen un bot, mira.
+
+Speaker 2
+Ah, tienen un bot, mira.
+
+Ruy
+¿Lo viste?
+
+Speaker 2
+¿Lo viste?
+
+Ruy
+Tienen un bot para las calls, me parece.
+
+Speaker 2
+Tienen un bot para las calls, me parece.
+
+Ruy
+No, este es el En product, mira product Radar, real time, ah protection, no, no, no, protection, no no no básicamente es
+
+Speaker 2
+en product mira product radar real time a protection no cualquiera
+
+Ruy
+todo lo que puedes este todo lo que necesitas para que tu aplicación funcione en enterprise
+
+Speaker 2
+Vale, y me decías cuál era el pricing, a ver
+
+Ruy
+¿Y me decías cuál era el pricing? Sí, el pricing es bastante amigable porque Ah, pues sí, o sea, tú puedes tener un millón de usuarios y no te cobran.
+
+Speaker 2
+Ah, pues Ah, la flauta dulce
+
+Ruy
+a la flauta dulce lo que si te cobran es por cada conexión este de single sign on es decir Tienes tú aquí Work OS, ¿no? Entonces, esta es la segunda opción. Sí, en el WorkOS
+
+Speaker 2
+Sí, entienden.
+
+Ruy
+Este yo tengo conectado a Piji, tengo conectado a este B A B V A la empresa X y así hasta el N por cada conexión me cobran 125 dólares y lo van haciendo por al mes
+
+Speaker 2
+Por cinco al mes
+
+Ruy
+Entonces.
+
+Speaker 1
+O sea, el cálculo que hay que hacer es, imaginemos que vendemos un año, nos conviene, o sea, si el esfuerzo de desarrollo de cada LMS es menor a 1000.
+
+Ruy
+O sea, el cálculo que hay que hacer es, imaginemos que vendemos un año, nos conviene hacer. O sea, si el esfuerzo de desarrollo de cada LMS es menor a mil, conviene hacer el desarrollo.
+
+Speaker 1
+conviene hacer el desarrollo.
+
+Ruy
+Si fuese, ¿saben por qué mil?
+
+Speaker 1
+Si fuese, ¿saben por qué mil?
+
+Ruy
+Porque 125 por 12.
+
+Speaker 1
+Porque 125 por 12, o es más de 1000 miletros.
+
+Ruy
+Sí, o sea, más bien yo lo que les diría es. No, a ver, son dos cosas. Por un lado está el costo de conexión de single sign-up, ¿no? Sí. Eso va a costar. Y por el otro lado está también el costo de operaciones, que eso ya lo teníamos que ver con Nelson. Cuánto cuesta montar todo in otro LMS, dar soporte, etcétera, nuestro contenido Y ahí hay que entender, o sea, por ejemplo, si nosotros solamente vamos a montar el contenido, les entregamos un paquetito y ellos lo montan, nosotros lo montamos por ellos.
+
+Speaker 3
+No, I think that's a good thing.
+
+Ruy
+este quien del soporte nosotros ellos igual yo pensaba en solo los coaches porque vos no puedes darle el contenido en un elemento que no es el tuyo
+
+Speaker 1
+Igual yo pensaba en solo los coaches, porque vos no podés darle el contenido en un LMS que no es el tuyo. A no ser que sea a través de SCORM que tú puedas tener el control de subir y bajar la perilla, porque si no.
+
+Ruy
+a no ser que sea a través de SCORM que tú puedas tener el control de subir y bajar la perilla porque si no
+
+Speaker 1
+.
+
+Ruy
+pierdes todos esos contenidos.
+
+Speaker 1
+pierdes todos esos contenidos.
+
+Ruy
+Por lo tanto, esa parte no me imaginaba, sino más bien la parte de los coaches.
+
+Speaker 1
+Por lo tanto, esa parte no me imaginaba, sino más bien la parte de los coaches.
+
+Ruy
+Sí, pero bueno, si solamente les vendemos los coaches, entonces es. costo base son 125 dólares por este el esfuerzo de hacerlo por cada vez para el el mes de pi pi
+
+Speaker 2
+Y el esfuerzo de hacerlo por cada vez para el LMS de PHI el de B
+
+Ruy
+Eso lo tengo que estimar junto con Daniel para ver cuánto es, porque la verdad es que empezamos a hacer experimentos con Work OS. Y ya más o menos tenemos una idea, pero no tenemos tan o sea, no, por ejemplo, eso de cuál es el esfuerzo de onboardear una empresa nueva. Este lo necesito ver más allá de este
+
+Speaker 2
+Calcular.
+
+Speaker 1
+Claro
+
+Ruy
+Esto es solamente para la parte de las métricas, ¿cierto?
+
+Speaker 1
+Esto es solamente para la parte de las métricas, ¿cierto?
+
+Ruy
+Porque si no quisiéramos las métricas, estoy diciendo una.
+
+Speaker 1
+Porque si no quisiéramos las métricas, estoy diciendo una, estoy pensando en voz alta, si no queremos las métricas, lo metemos en un iframe y listo.
+
+Ruy
+. pensando en voz alta. Si no queremos las métricas, lo metemos en un iframe y listo.
+
+Speaker 1
+Y lo pueden usar, pero no te da métricas, ¿no?
+
+Ruy
+Y lo pueden usar, pero no te da métricas, ¿no? No sé, este, porque o sea, el año antepasado Bueno, todavía de hecho al año pasado, inicios del año pasado, metíamos un chatbot de una herramienta NoCode que se llama cómo se llama, que solamente era un iFrame. Este no tenía autenticación. Necesitaría ver si podemos desarrollar con lo que tenemos ahorita. Una conexión que no tenga autenticación y que te responda, eso tiene varios problemas. Este, porque si no tienes autenticación,. Pues de repente puedes tener usuarios que tengan consumos muy altos. Este, o sea que se queda. que se queda pegado que te está utilizando para meterse a los LLMs. Hay varias cositas que hemos puesto para que eso no pase en términos de ponerles rate limits. Pero, o sea, el paso de la autenticación es necesario no solo para identificar las métricas, sino también porque acceda a ciertas limitaciones.
+
+Speaker 1
+O sea, el paso de la autenticación es necesario no solo para identificar las métricas, sino también porque acceda a ciertas limitaciones en el uso.
+
+Ruy
+Nuestra propia seguridad, sí.
+
+Speaker 1
+Ok.
+
+Ruy
+Yo vería a menos de que encontremos una razón de negocio importante por la cual queremos tener chats anónimos este digamos es mucho mejor no digo que yo todavía eso no lo escuché como si entonces no no creo yo creo que más bien
+
+Speaker 2
+Sí, que yo no lo escuché todavía.
+
+Speaker 1
+No, digo que yo todavía eso no lo escuché como necesidad.
+
+Ruy
+O sea, si son clientes enterprise, lo más seguro es que van a querer alguna métrica. Sí, sí, seguro.
+
+Speaker 1
+Sí, sí, seguro. Eh, entonces
+
+Ruy
+Entonces Yo, por lo que vengo escuchando con partners, oportunidades y tal, me parece que esto de pensar una solución y tenerlo resuelto para el caso de que surja, lo pondría dentro de Q1.
+
+Speaker 1
+Yo, por lo que vengo escuchando con partners, oportunidades y tal, me parece que esto de pensar una solución y tenerlo resuelto para el caso de que surja, lo pondría dentro de Q1. esto de llevarlo a otra LMS porque yo lo escuché cuatro o cinco veces
+
+Ruy
+esto de llevarlo a otra l mes porque yo lo escuché cuatro o cinco veces pero a ver yo yo lo que diría es eso esto lo podemos hacer porque es algo que creo que ya tenemos bastante Aterrizado, cuál sería la solución. O sea, hay una claridad de qué se trata, no hay mucha ciencia, es hacer el trabajo. Pero la verdad es que esto de los partners, que si se puede conectar otro LMS, etcétera, etcétera, yo lo he escuchado ya. Más de alguna ocasión y no se ha materializado, por ejemplo, con este ¿Con quién fue? Con Telus International. No, con Procter, ¿no? Mira, con un montón de. O sea, con Telus International, con Sirion, todos los 3-4 clientes que entregamos el año pasado, ninguno tuvo SSO. El único que detuvimos que hacer una integración de ese soul para Thinkific fue Procter and Gamble. por una cuestión de seguridad que tienen ellos, de que los empleados no pueden acceder a ninguna página que no tenga double factor authentication Y como Synkific no ofrece Double Factor Authentication, entonces tuvimos que construir un single sign-on para ellos. Pero va a ser para un curso que se va a entregar en Marzo, okay, entonces a lo que voy es son muy lentos, este
+
+Speaker 2
+Okay. Okay.
+
+Ruy
+esos esos deals y si necesita o sea si tenemos uno que porque de los que ahorita ya tengo en el radar que están comprometidos o muy comprometidos no nos lo han o sea para credit corp no nos lo pidieron No, no, no, eso no, son todos nuevos, son para potenciales.
+
+Speaker 1
+No, no, no, esos no, son todos nuevos, son para potenciales.
+
+Ruy
+Entonces, yo coincido contigo que además nada podemos hacer hasta no tener la confirmación.
+
+Speaker 1
+Entonces, yo coincido contigo. que además nada podemos hacer hasta no tener la confirmación. Pero sí que, sí que.
+
+Ruy
+Pero sí que si tenemos, si tú me dices, yo tengo claridad de si alguien lo pide, cómo ejecutar y lo resolvemos, yo con eso ya estoy contento como para darme vuelta y decirle al equipo comercial.
+
+Speaker 1
+Sí que si tenemos, si tú me dices, yo tengo claridad de si alguien lo pide, cómo ejecutar y lo resolvemos, yo con eso ya estoy contento como para darme vuelta y decirle al equipo comercial. pueden ofrecerlo implantado en la LMS.
+
+Ruy
+pueden ofrecerlo implantado en la LMS. Porque hoy, por ejemplo, los padres decían no sabía que se podía implantar.
+
+Speaker 1
+Porque hoy, por ejemplo, los padres decían, ah, no sabía que se podía implantar.
+
+Ruy
+Lo sí, este, ahí nada más Lo que tenemos que tener mucha claridad es que se puede implantar en la LMS del otro cliente. Entonces, nos vamos a centrar específicamente en que te ofrezco los AI coaches para complementar, la la la la la la. Este y tenemos que ver: ¿van a querer los AI coaches estándar que tenemos ahorita o van a querer alguna modificación? Es decir, este es el de víctima protagonista, conversaciones difíciles Etcétera, as they are right now ahí, o necesitamos modificarle algo al prompt. Si necesitamos modificarle algo al prompt, este porque necesita decir en vez de víctima, protagonista. Player owner que le dicen ahí o lo que sea o necesitamos que lo reciba con este hola asociado de Walmart, pues eso también Lleva un costo dependiendo del lleva un tiempo más bien, pero en principio todo eso es muy lograble Este bueno, yo diría que hay que ofrecerlo. Este a mí lo que me piensa que estamos con
+
+Speaker 1
+Piensa que estamos cotizando, perdona que te interrumpo, estamos cotizando una parte de setup que incluye la configuración de estas cosas, así que yo lo tengo súper en cuenta.
+
+Ruy
+Cotizando, perdona, ven que te interrumpo. Estamos cotizando una parte de setup que incluye la configuración de estas cosas. Así que yo lo tengo súper en cuenta. Yo no estoy cotizando igual, pero.
+
+Speaker 1
+Yo no estoy cotizando igual, pero.
+
+Ruy
+Pero ese setup fee.
+
+Speaker 1
+. .
+
+Ruy
+Incluye cosas, creo que ya estándar. No sé quién lo está cotizando, si es si son, por ejemplo, los números que vienen de Nelson.
+
+Speaker 1
+Sí, los de Nelson.
+
+Ruy
+Sí, lo de Nelson. Aunque en realidad para mí todo eso está por revisarse, porque el otro día hice una sesión con él y a mí no me termina de encajar todo ese tocho, esa forma de cotizar, me parece un poco.
+
+Speaker 1
+Aunque en realidad para mí todo eso está por revisarse, porque el otro día hice una sesión con él. y a mí no me termina de encajar todo ese tocho de esa forma de cotizar me parece un poco
+
+Ruy
+demasiado manual poco ajustada a lo que estamos vendiendo estamos metiendo o omitiendo gastos como los de TinkyFake
+
+Speaker 1
+demasiado manual poco ajustada a lo que estamos vendiendo estamos metiendo o omitiendo gastos como los de TinkyFake
+
+Ruy
+. etcétera etcétera y me parece que requiere una doble pensadita eso sí no lo dudaría pero bueno a lo que voy es
+
+Speaker 1
+etcétera, etcétera, y me parece que requiere una doble pensadita eso.
+
+Ruy
+esos gastos de setup habría que verlos porque por ejemplo yo no tengo claridad si en este gasto de setup está este Considerado el tiempo que se tarda Mike ahorita en generar un nuevo ambiente para cada cliente. son 4000 por por por coach que hay cotizado de setup 4 mil por coach entonces eso posiblemente tiene algo de
+
+Speaker 2
+Son 4. 000 por coach que hay cotizado de setup.
+
+Ruy
+De customización. De customización. O sea, la verdad es que si me dices 4 mil por coach, ahorita no tengo. muy bien idea de eso a qué cuánto a qué corresponden tiempo y que le pusieron que le pusieron
+
+Speaker 1
+¿Te parece que propongo una reun con Nelson mañana o así una media horita para.
+
+Ruy
+Te parece que propongo una reun con Nelson mañana o así una media horita para al menos darle una pensadita por arriba, porque si bien empiezan a venir propuestas, vamos a
+
+Speaker 1
+. Al menos darle una pensadita por arriba, porque si bien empiezan a venir propuestas, vamos a ir por donde tenemos y capaz que erramos.
+
+Ruy
+Ir por donde tenemos y capaz que le ramo. Si, a ver, si tengamos la rápido, 4000, si son 4000 de setup por cada coach, eso sí ya está muy decente porque eso sí tiene. Suficiente tiempo para pagar a Mike y suficiente tiempo para pagar a mí. El problema es que yo me también me meto en eso. El problema es a lo que vengo y digamos, mañana sí a la reunión. El otro problema es que ahorita estoy hablando contigo, la automatización de para que Mike No se tarde esas distancias, claro.
+
+Speaker 1
+De la creación de esas instancias, claro, si lo que hablamos el otro día, ¿no?
+
+Ruy
+Si lo jugamos el otro día, no si eso justo estoy poniendo a Daniel. Que más bien, yo creo que ahorita estoy pensando. En las cosas para este Q el tercer feature debería ser automatización, este porque se me hace que O sea, es una tontería.
+
+Speaker 2
+Está bueno, eh, yo creo que sí, repetir
+
+Ruy
+Es una tontería que Mike por cada cliente se tarde media hora. Digo, mediodía, porque ni siquiera es media hora. que yo para hacer cada prompt nuevo porque es una cosa que nos pidió nelson este si hay un prompt nuevo Yo me tengo que sentar a hacer el primer draft, afinarlo, revisar que funcione, que no funciona y entonces me empiezo a volver un cuello de botella. Ya me pasó con. . Con el proyecto de Credit Corp, en donde hicimos un AI Coach específico para este pro Problem reframing, una metodología de innovación, en donde yo me tuve que sentar a hacerlo. Y para Duke también. Y en unos me tardé menos y en otros me tardé más, pero en algún momento fui un cuello de botella en el proyecto, lo cual no estuvo bien. Entonces, empezar a ver cómo automatizamos eso sería también bueno.
+
+Speaker 2
+Está bueno.
+
+Speaker 1
+Me gusta.
+
+Ruy
+Sí, me gusta.
+
+Speaker 1
+Sí, me gusta.
+
+Ruy
+Entonces, paso un limpio, a ver lo que tengo.
+
+Speaker 1
+Entonces, paso un limpio, a ver lo que tengo.
+
+Ruy
+Ah, agregué un cuarto objetivo.
+
+Speaker 1
+Ah, agregué un cuarto objetivo. que era participar en las propuestas.
+
+Ruy
+que era participar en las propuestas. ¿Recuerdas que habíamos quedado que tú participabas en la miradita a ver si estábamos calculando bien y etcétera?
+
+Speaker 1
+¿Te acuerdas que habíamos quedado que tú participabas en la miradita a ver si estábamos calculando bien y etcétera? Entonces tengo uno, objetivo uno, desarrollo, tres features, hablaste de Teams, de la nueva versión de coaching, para que sea, creo que dijiste, más robusto o algo así.
+
+Ruy
+Entonces tengo uno, objetivo uno, desarrollo. tres features hablaste de teams de la nueva versión de coaching para que sea creo que dijiste más robusto o algo así Después hablaste de vos, de speech to text o text to speech to speech, y a la automatización, tanto en la generación de ambientes como en el ajuste de los PROM.
+
+Speaker 1
+Después hablaste de voz, de speech to text o text to speech to speech y a la automatización, tanto en la generación de ambientes como en el ajuste de los prompt.
+
+Ruy
+Sí, este, o sea, yo diría que son tres de estos cuatro. Necesito revisar si son los cuatro o tres de estos cuatro.
+
+Speaker 1
+Ok. ¿Tú lo estás anotando o quieres que te lo pases después por correo?
+
+Ruy
+¿Tú lo estás anotando o quieres que te lo pases por correo? No, yo también lo estoy anotando. Vale.
+
+Speaker 1
+Vale.
+
+Ruy
+Vale. Después teníamos, eso luego me lo revisas y me confirmas si al final queda tres, cuatro y.
+
+Speaker 1
+Después teníamos, eso luego me lo revisas y me confirmas si al final quedan 3, 4 y listo.
+
+Ruy
+Te lo voy a mandar.
+
+Speaker 1
+Sí.
+
+Ruy
+Sí. Después teníamos, el segundo era la parte de la decisión sobre el roadmap de producto, la visión de producto.
+
+Speaker 1
+Después tenemos el segundo, era la parte de la decisión sobre el roadmap de producto, la visión de producto.
+
+Ruy
+Y ahí hablábamos de la visión y un poco el roadmap, ¿no?
+
+Speaker 1
+Y ahí hablábamos de la visión y un poco el roadmap, ¿no?
+
+Ruy
+Bien, ese es el segundo.
+
+Speaker 1
+Bien, ese es el segundo.
+
+Ruy
+El tercero, ya objetivos de liderazgo tuyo, que tenían que ver con la performance del equipo.
+
+Speaker 1
+El tercero, ya. objetivos de liderazgo tuyo que tenían que ver con la performance del equipo
+
+Ruy
+Este sí, performance equipo y processos.
+
+Speaker 2
+Que
+
+Ruy
+Este eh En esta decisión de producto, a mí me interesa que tengamos que hagamos un proceso de PMF en conjunto.
+
+Speaker 2
+Sí, eso había puesto, sí.
+
+Ruy
+O sea, desde O sea, sería como para mí serían dos key results. Uno, que tengamos una visión de un roadmap decidido. Y el segundo es que tengamos un proceso de PMF andando.
+
+Speaker 2
+¿Cómo pensaste algo ahí?
+
+Ruy
+¿Cómo pensaste algo ahí? ¿Cómo hacerlo?
+
+Speaker 2
+¿Cómo hacerlo?
+
+Ruy
+O sea, este tú lo pusiste de media hora, ¿tú tienes más tiempo?
+
+Speaker 2
+A las 5.
+
+Ruy
+A las 5.
+
+Speaker 2
+No, sí, tengo más tiempo porque es a las 5 el de el de Mike.
+
+Ruy
+No, si tengo más tiempo porque es a las 5 el de el de maestro.
+
+Speaker 2
+Así que tenemos hasta las 5.
+
+Ruy
+Así que tenemos hasta las 5. Va, bueno, perfecto. A ver, este de PMF yo me imagino algo como. Para empezar tenemos claridad de las hipótesis que vamos a querer probar, cuáles son las hipótesis que queremos hacer, que queremos empezar a probar. y los experimentos que vamos a hacer que sean vamos a acercarnos con clientes les vamos a enseñar esto les vamos a construir este boxeano Y entonces también tenemos una claridad de cómo vamos a ir recogiendo la evidencia de esos experimentos para luego poderla analizar. Digan eso a muy high level, ¿no? Como casi todos, o yo me imagino que este van a ser Cuestiones comerciales o una parte, no casi todos, una parte importante van a ser cuestiones comerciales. Creo que sería muy bueno que tuviéramos una reunión de ritmo. Tú, yo Este Rodrigo, quizá o seas, en donde, por ejemplo, cada semana, a ver, tuvimos Este cinco reuniones con clientes. En estas reuniones con clientes, en una aprendimos esto Este, otra apenas estamos mandando la propuesta, no sabemos nada. Y de la otra, no sé, concluimos que XZ. Entonces, de esa manera vamos, este em Pues sí, revisando el avance, revisando cómo eso está informando a o no este a los Al proceso de TMF, y quizá también, y eso no sé exactamente cómo hacerlo, me gustaría pensarlo después Experimentos nada más con clientes, sino también con usuarios o usuarios potenciales. Sí.
+
+Speaker 2
+sí, sí, me gusta
+
+Ruy
+me gusta y entonces me a mí me gustaría mucho que fuera un pros un me gustaría mucho y creo que necesitamos que sea una algo compartido este porque pues no me está alcanzando la vida para hacer las pruebas y meterme con. O sea, el año pasado yo sabía que necesitaba hacer pruebas con usuarios, aunque no tuviera clientes, este, y casi no hice porque no. No lo prioricé, este, y me estaba comiendo. Pero entonces, al estar juntos, primero se balancea la carga y segundo ya hay más accountability y decía hacerlo. Sí, sí, me gusta.
+
+Speaker 2
+Sí, sí, me gusta.
+
+Speaker 1
+Voy a buscar un huequito y nos propongo una reunión semanal.
+
+Ruy
+Voy a buscar un huequito y nos propongo una reunión semanal, quizás sobre el cierre de la semana, ¿te parece?
+
+Speaker 1
+Quizás sobre el cierre de la semana, ¿te parece para hacer una revisión?
+
+Ruy
+Para hacer una revisión. Sí, puede ser el jueves, el viernes, media hora.
+
+Speaker 1
+Vale.
+
+Ruy
+Este, y que lo vayamos viendo, pues este me gusta una pregunta antes de que me olvide.
+
+Speaker 1
+Me gusta. Una pregunta antes de que me olvide. ¿Cómo puedo ponerme el, si es que está disponible, el AI Coach en Teams?
+
+Ruy
+cómo puedo ponerme el si es que está disponible el el ai coach en teams No está disponible.
+
+Speaker 1
+Hoy ah, no es y lo que tiene o sea que está hardcodeado.
+
+Ruy
+Ah, no es y lo que tiene Oseas que está hardcodeado. No, o sea, lo que tiene Oseas es una versión vieja. O sea, por ejemplo, todo ese tipo de cosas de hacer el setup para que si esté ahí, etcétera, pues hay que meterlo como. . Por eso lo veo como parte del OKR.
+
+Speaker 2
+Compact si
+
+Ruy
+Como un OKR distinto, porque necesitamos tenerlo en. O sea, de hecho, este proceso de PMF para mí también incluiría. Bueno, no sé si ahí o en mi liderazgo. Un proceso de release y de todo el ciclo de vida. Este, o sea, como el proceso de producto que incluye. product market fit este y todo el ciclo de vida de producto este desde testing release etcétera etcétera etcétera que ahorita tenemos un desastre Claro, está bueno.
+
+Speaker 1
+Claro, está bueno.
+
+Ruy
+Ok, te preguntaba eso porque como tengo previsto ahora ponerme a jugar con eso y para llegar mañana con alguna idea más clara.
+
+Speaker 1
+Ok, te preguntaba eso porque como tengo previsto ahora ponerme a jugar con eso y para llegar mañana con alguna idea más clara. No sabía si lo podía hacer desde aquí desde Teams o voy desde el acceso de Loki.
+
+Ruy
+No sabía si lo podía hacer desde aquí desde Teams o voy desde el acceso del otro. No, no, no. Este. Oye, a mí hay otro punto que quisiera hablar un poquito, porque ahorita fue, me sacó
+
+Speaker 4
+Vale.
+
+Ruy
+A ver, este. Yo estoy entendiendo de la reunión de ayer conoceas que básicamente el pedido es Pero hicimos el poder hacer una prueba o el poder hacer pruebas en paralelo de. Viabilidad y deseabilidad, este entre la idea que tenemos de Behavior change y alguna idea que hay que empezar a bajar de Teams, Team Performance.
+
+Speaker 2
+See, see
+
+Ruy
+Entonces, eso quiere decir que yo Ahorita tengo que acomodar o reacomodar lo que tenga que hacer para empezar a bajar esa idea de team performance a algo que se pueda hacer.
+
+Speaker 1
+Sí, a ver, el tema es así, eh
+
+Ruy
+Sí, a ver, el el tema es así, eh
+
+Speaker 1
+podemos chequearlo con con no séas este cambio y ajuste de tu propio sprint la idea lo que yo le decía es hay
+
+Ruy
+podemos chequearlo con no seas este cambio y ajuste de tu propio sprint la idea lo que yo le decía es hay interés manifiesto por parte de clientes y partners
+
+Speaker 1
+Interés manifiesto por parte de clientes y partners
+
+Ruy
+en tener un producto así y evidentemente incluso de inversores o sea es un problema gordo porque están todos atrás de un producto como ese y por el otro lado estamos buscando
+
+Speaker 1
+en tener un producto así y evidentemente incluso de inversores o sea es un problema gordo porque están todos atrás de un producto como ese y por el otro lado estamos buscando
+
+Ruy
+el proceso de product market fit encontrándonos objeciones que comentaba se hace ayer no que esto es igual a aquello que aquello hay mil que no sé qué y no sé cuánto no entonces yo digo
+
+Speaker 1
+el proceso de product market fit encontrándonos objeciones que comentaba se hace ayer no que esto es igual a aquello que aquello hay mil que no sé qué y no sé cuánto no entonces yo digo no tendría sentido para poder tomar decisiones basadas en datos no tendría sentido construir algo
+
+Ruy
+No tendría sentido para poder tomar decisiones basadas en datos, no tendría sentido construir algo, eso que tú dices, no aterrizar una idea y poder hacer un prototipo simple, lo que sea, para poder decir.
+
+Speaker 1
+Eso que tú dices, no aterrizar una idea y poder hacer un prototipo simple, lo que sea, para poder decir de estas dos.
+
+Ruy
+De estas dos, ¿cuál me comprarías? .
+
+Speaker 1
+¿Cuál me comprarías? Y para llegar a poder decir eso, necesitamos primero analizar la viabilidad legal, lo que hablábamos ayer.
+
+Ruy
+Y para llegar a poder decir eso, necesitamos primero analizar la viabilidad legal, lo que hablábamos ayer. Entonces.
+
+Speaker 1
+Entonces.
+
+Ruy
+Si nosotros queremos tomar decisiones basadas en datos, sin duda tenemos que hacer ese avance en esa otra posibilidad para decidir si A o B es el mejor camino.
+
+Speaker 1
+Si nosotros queremos tomar decisiones basadas en datos, sin duda tenemos que hacer ese avance en es otra posibilidad para decidir si A o B es el mejor camino. Esa es mi opinión, pero podemos hacer un doble check con, o sea.
+
+Ruy
+Esa es mi opinión, pero podemos hacer un doble check con. Sí, yo también entendí eso, pero creo que a mí lo que me saca de onda es que Con nada hay una claridad de qué es, ¿no? O sea, behavior change está aterrizado a una cosa muy específica, muy particular. Con B, como decías ayer, es este que yo diría que no es un concepto, es una idea y puede ser lo que sea.
+
+Speaker 2
+Claro. Y que a todos responde que sí, porque porque como.
+
+Ruy
+Y que a todos responde que sí, porque sí, o sea, ¿quieres una varita mágica? Pues sí, a huevo quiero una varita mágica.
+
+Speaker 2
+.
+
+Speaker 4
+Correcto.
+
+Ruy
+Correcto. Entonces, o sea hay que la Pues sí, mañana hay que ver en la reunión con Dolo de qué se trata. Yo creo que lo que yo voy a hacer es empezar a. Pues empezar a darme espacios para reconectar con todo eso que estuve reviviendo hace unas semanas
+
+Speaker 2
+Tienes un documento, ¿no tú?
+
+Ruy
+Tienes un documento, ¿no tú? Un mural o algo así que me puedes comprar.
+
+Speaker 2
+Un Miural o algo así que me puedes compartir el.
+
+Ruy
+Tengo un mural, yo creo que voy a empezar a aterrizar eso. O sea, tengo un mural, un mural. Y tengo unas notas que están muy desperdigadas. Y como que básicamente necesito empezar a reconectar con todo eso y. Y sacarlo, este parecería enriquecedor si yo en paralelo
+
+Speaker 1
+¿Te parecería enriquecedor Si yo en paralelo empiezo a jugar también un poquito con algunas ideas de lo que me imagino viable, posible, como primer paso y poder.
+
+Ruy
+Empiezo a jugar también un poquito con algunas ideas de lo que me imagino viable, posible, como primer paso y poder.
+
+Speaker 1
+.
+
+Ruy
+¿Y dónde lo metemos esto en el OKR?
+
+Speaker 1
+Donde lo metemos esto in el Nokia
+
+Ruy
+Para mí, esto de los OKRs es esta parte de decisión de producto. Pues ahorita estoy armando.
+
+Speaker 2
+Bien, bien, me parece bien
+
+Ruy
+Para poder armar el roadmap, pues hay que decidir entre dos cosas y luego ir refinando esos dos caminos y refinando. Parece bien. O combinando, pues, pero sí, o sea, va ahí, por eso lo ponía. Entonces, bueno, Voy a voy a empezar a a trabajar ahí y yo creo que nos puedes cuando acabes de aterrizar al menos a alto nivel
+
+Speaker 2
+Nos puedes cuando acabes de aterrizar al menos a alto nivel tus objetos.
+
+Ruy
+A ver, no me quiero tardar mil horas en hacer esto, pues este.
+
+Speaker 1
+No, por eso los bullets.
+
+Ruy
+No, por eso los bullets. Tú dices lo de high performance team o a lo mejor.
+
+Speaker 1
+Tu dices lo de High Performance Team o los Autia?
+
+Ruy
+Sí, lo de high performance team. O sea, este.
+
+Speaker 2
+Ah, yo te decía el otro.
+
+Ruy
+Ah, los bullets de los OKR sí te los mundiales.
+
+Speaker 1
+de tu sociedad sí y comparte lo se lo auseas también así lo vamos teniendo bueno
+
+Ruy
+Sí, esos te los mando ahorita. Y compártelo a Oseas también. Te lo mando hoy por correo. Bueno. Otra cosa que sería muy buena es también. organizarnos para ver dónde ponemos documentos porque notion no lo estamos usando este y creo que sería bueno para tener ahí todos los procesos Y por ejemplo todo lo de PMF, pues ponerlo ahí. Sí, el que tú me digas, para mí Notion es un.
+
+Speaker 1
+Sí, el que tú me digas, para mí Notion es un es un gallinero.
+
+Ruy
+Es un gallinero.
+
+Speaker 1
+Lo que entré a ver está todo desordenado.
+
+Ruy
+Lo que entré a ver está de todo desordenado. Es una porquería.
+
+Speaker 1
+Hay que ordenar un poco ahí y en todo caso jerarquizar la información por áreas, o sea, después.
+
+Ruy
+Hay que ordenar un poco ahí y en todo caso jerarquizar la información. por áreas, o sea, después si tengo un momento me gustaría meterme, aunque no creo que tenga posibilidad de edición, pero para
+
+Speaker 1
+Si tengo un momento me gustaría meterme, aunque no creo que tenga posibilidad de edición, pero para sugerir una estructura para que pueda ser comestible eso, porque no se puede comer con nada. .
+
+Ruy
+sugerir una estructura para que pueda ser comestible eso porque no se puede. O sea, está este, como dices, es un gallinero, pues o sea, son año y medio de estarle aventando cosas sin ton ni son. Claro. ¿Te parece si creamos un nuevo entorno con la estructura íbamos migrando de una cosa a la otra?
+
+Speaker 1
+¿Te parece si creamos un nuevo entorno con la estructura íbamos migrando de una cosa a la otra?
+
+Ruy
+Así no. Pues sí, este. .
+
+Speaker 1
+Sí, pásame un entorno admin y yo le voy dando un poco de forma porque también ahí le podemos pedir que carguen los OKRs y ya empezar como un poco más limpio.
+
+Ruy
+Sí, pásame un entorno admin y yo le voy dando un poco de forma porque también. ahí le podemos pedir que carguen los OKRs y ya empezar como un poco más limpio si de hecho hasta hay un hay un dashboard de OKRs sí . Ah, sí.
+
+Speaker 2
+Pero, pero nadie se lo puede comer eso.
+
+Ruy
+Pero. . Pero nadie se lo puede comer eso. Pero tú.
+
+Speaker 2
+Está muy complejo.
+
+Ruy
+Es muy complejo. Tu este. ¿Tú estás cómodo con Notion? Digo, a mí la verdad me da igual.
+
+Speaker 2
+Sí, sí, yo estoy cómodo si
+
+Ruy
+Sí, yo estoy cómodo, sí. Ok. Este Bueno, si de hecho, por ejemplo, la administración de esto de Notion, igual tú deberías de ser administrador. Sí, o editor.
+
+Speaker 3
+Oh editor
+
+Ruy
+Que la verdad yo no tengo tiempo para administrarlo y Nelson ya se está saliendo, entonces este. voy a hacer un entorno nuevo que se llama Stoic Newste
+
+Speaker 2
+Okay.
+
+Ruy
+Va, bueno, entonces hago eso ahorita de una vez, este Entonces, quedo atento a eso y me voy a la reunión con Mike.
+
+Speaker 1
+Entonces, quedo atento a eso y me voy a la reunión con Mike, ¿te parece?
+
+Ruy
+Ya está, ya te lo hice.
+
+Speaker 1
+una pregunta quieres que te comparta los so que at the mic o le digo cuando menos lo pase que te copie a ti también como porque tú vas a estar de alguna manera monitoreando
+
+Ruy
+Una pregunta: ¿Quieres que te comparta los OK Admite? O le digo, cuando menos lo pase, que te copie a ti también, como pues tú vas a estar de alguna manera monitoreando su su avance te parece que que que te o quieres verlo tu con él si quieres este o sea si si tomas una nota que ya se que me lo mande él o me lo mandas tu ahorita que salga
+
+Speaker 1
+su su avance te parece que te o quieres verlo tú con él como lo ves eso Okay, done
+
+Ruy
+Ya hablamos de estos tres features son cosas que hablé con él. Si quieres decirle esta parte de automatización que salió como algo importante, pero bueno, este. a mí me parece que eso va a estar por ese orden vale me gusta venga bueno lo comento y seguimos por correo dale dale sale gracias gracias chau chau
+
+Speaker 1
+Vale, me gusta. Venga, lo comento y seguimos por correo, ¿dale?
+
+Speaker 3
+Gracias, chao.
+

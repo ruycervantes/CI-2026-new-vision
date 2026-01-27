@@ -23,11 +23,23 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 - Keep stories concrete and actionable
 - Include acceptance criteria
 
+### When Working on Team Effectiveness (`team-effectiveness/`)
+- Vision and planning docs live in `team-effectiveness/vision.md`
+- Research synthesis in `team-effectiveness/research/`
+- HPT sources (Katzenbach, surveys) in `team-effectiveness/sources/`
+- Related call transcripts in `calls/team-effectiveness/`
+- This is a separate product track from individual coaching
+
+### When Working on Enterprise Integration (`enterprise/`)
+- Strategy docs in `enterprise/integration-strategy.md`
+- Cross-cutting concerns: SSO, identity (WorkOS), HRMS integration
+- Applies to both individual and team products
+
 ### When Doing Ethnographic Research (`research/`)
 - Raw transcripts go in `research/interviews/{informant-date}/`
 - Analysis outputs go in `research/analysis/`
 - Update `research/coaching-knowledge-framework.md` with new findings
-- Sources (methodology docs) live in `research/sources/`
+- Application coaching sources in `research/sources/application-coaching/`
 
 ### When Doing Competitive/HCI Research
 - Summarize findings in markdown
@@ -50,22 +62,64 @@ This is the **command center** for Conscious Insights v2 evolution. Ruy is actin
 
 ### Core Documents (`core/`)
 
+Individual coaching product vision and roadmap.
+
 | Document | Purpose | Update Frequency |
 |----------|---------|------------------|
 | `core/vision.md` | Methodology, user journey, architecture | As needed |
 | `core/roadmap.md` | Q1/Q2/H2 features, dependencies, team assignments | Each quarter |
 | `core/alignment.md` | Leadership sign-off, validation activities | Per alignment meeting |
 
+### Team Effectiveness (`team-effectiveness/`)
+
+Separate product track for team-level coaching and development.
+
+| Document | Purpose |
+|----------|---------|
+| `team-effectiveness/vision.md` | Team effectiveness product vision, MVP approach, intervention matrix |
+| `team-effectiveness/research/` | Analysis and synthesis (methodology.md, synthesis-v1.md, synthesis-v2.md) |
+| `team-effectiveness/sources/` | HPT Katzenbach docs, team survey instruments, historical survey data |
+
+### Enterprise (`enterprise/`)
+
+Cross-cutting infrastructure that applies to any product (individual or team).
+
+| Document | Purpose |
+|----------|---------|
+| `enterprise/integration-strategy.md` | SSO, identity (WorkOS), HRMS integration strategy, P&G case study |
+
 ### Research (`research/`)
 
-Ethnographic design research to inform AI coaching product.
+Ethnographic design research for individual coaching product (team effectiveness research lives in `team-effectiveness/`).
 
 | Folder | Purpose | Contents |
 |--------|---------|----------|
-| `research/sources/` | Primary methodology docs | Application Coaching, CB Handbook, CB Workbook |
+| `research/sources/application-coaching/` | Primary methodology docs | AC Handbook, CB Workbook, Magic Cards, coaching cases |
 | `research/interviews/` | Raw interview transcripts | Organized by informant (e.g., `horacio-jan2026/`) |
 | `research/analysis/` | Analysis outputs | Case studies, intervention analysis, observations |
 | `research/coaching-knowledge-framework.md` | Master synthesis | Three-layer framework consolidating all research |
+
+### Calls (`calls/`)
+
+Call transcripts and processed summaries, organized by topic.
+
+| Folder | Contents |
+|--------|----------|
+| `calls/team-effectiveness/` | Team effectiveness interviews (Dolo, etc.) |
+| `calls/application-coaching/` | Coaching methodology calls (Richi, Horacio) |
+| `calls/strategy/` | Strategic discussions (Oseas 1-1s) |
+| `calls/operations/` | Dev/ops calls (Daniel, Shamil, Leo) |
+
+Use `/process-call` to process new transcripts.
+
+### Thinking (`thinking/`)
+
+Working documents, brain dumps, exploratory notes. Not finalized analysis.
+
+| Document | Purpose |
+|----------|---------|
+| `thinking/where-to-pick-up-work.md` | Current state of team effectiveness + behavior change integration |
+| `thinking/strategic-brain-dump.md` | Planning notes, operational commitments |
 
 ### Working Files (root)
 
@@ -77,7 +131,6 @@ Ethnographic design research to inform AI coaching product.
 | `action-items-ruy-jan2026.md` | Master task list / backlog | After every session |
 | `sprints/` | Team sprint stories (use `/sprint-stories` to create) | Before sprint planning |
 | `handwritten/` | Drop zone for handwritten note photos | As needed (use `/handwritten` to process) |
-| `calls/` | Operational call transcripts and summaries | After calls (use `/process-call` to process) |
 
 ### Archive (reference only)
 
@@ -107,6 +160,7 @@ The vision document is a static HTML/CSS site:
 
 ## Key Terminology
 
+### Individual Coaching
 - **Coach** - Deep conversation mode (goal-setting, processing setbacks, evolving the plan)
 - **Daily Companion** - Daily practice mode (reminders, check-ins, progress tracking)
 - **Goal Hierarchy** - Destination Goal → Management Goal → Tracking Goal
@@ -114,8 +168,16 @@ The vision document is a static HTML/CSS site:
 - **GPS Dashboard** - Visual showing progress toward Destination Goal
 - **If-Then Habit** - Implementation Intention format ("If X, then Y")
 - **Adjust Stage** - When users struggle, help them reinterpret and adapt (not just track failure)
-- **PMF** - Product-Market Fit
 - **Applied Learning** - Learning through practice, not just content
+
+### Team Effectiveness
+- **HPT** - High Performing Teams (Katzenbach framework + Axialent experience)
+- **4 Quadrants** - Team assessment dimensions from Axialent Team Effectiveness Assessment
+- **Intervention Matrix** - Personal/Team/System × Before/During/After framework for interventions
+- **CB Assessment** - Conscious Business individual assessment (maps to team gaps)
+
+### General
+- **PMF** - Product-Market Fit
 
 ## Team Context
 
@@ -132,6 +194,7 @@ The vision document is a static HTML/CSS site:
 ### Personal Productivity (Ruy)
 | Command | Description |
 |---------|-------------|
+| `/think` | Thinking partner for working through ideas - brainstorming, exploring concepts, developing plans through conversation. Captures incrementally to `thinking/` folder. |
 | `/today` | Daily work review - fetch today's Todoist tasks, organize by priority, recommend focus. Use at start of day or when planning. |
 | `/weekly-plan` | Weekly planning triage - consolidate action-items + Todoist, triage to 15-20 tasks, identify top 3 outcomes. Use on Mondays or when starting a new week. |
 | `/handwritten` | Transcribe handwritten notes from `handwritten/` folder and propose additions to action items |
