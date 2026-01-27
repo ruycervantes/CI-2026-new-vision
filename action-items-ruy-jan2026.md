@@ -190,6 +190,13 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ### Documents & Materials
 
+- [ ] **Write Team Effectiveness vision.md** - deep work, synthesize from research
+  - Input: `team-effectiveness/research/synthesis-v2.md` (especially Section 5: Human vs. Structure)
+  - Input: `team-effectiveness/design-rationale.md` (intervention matrix, MVP hypothesis)
+  - Input: `team-effectiveness/mvp-offer.md` (90-day cycle, what we're selling now)
+  - Output: `team-effectiveness/vision.md` - the product roadmap for what we're building toward
+  - Key question: Given all the digitization opportunities, what's the sequence? What becomes product after MVP?
+
 - [ ] **Create roadmap document** for Leo and team
   - First draft: `roadmap-q1-2026-draft.md` (Jan 14)
   - **Next:** Review vision doc, then refine roadmap
