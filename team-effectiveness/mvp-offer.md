@@ -14,7 +14,7 @@ We help your team become more effective by working both levels simultaneously:
 - **Team level:** Human consultant facilitates alignment, teaches frameworks, catches patterns
 - **Personal level:** AI coach for each person — personalized skill development at a pace that wasn't possible before
 
-![Two Tracks, One Team](site/diagrams/team-perf-01-two-tracks.png)
+![Two Tracks, One Team](../site/diagrams/team-perf-01-two-tracks.png)
 
 ---
 
@@ -46,7 +46,7 @@ Two parallel tracks running simultaneously:
 - Identify next cycle focus
 - Decide continuation
 
-![The 90-Day Cycle](site/diagrams/team-perf-02-90-day-cycle.png)
+![The 90-Day Cycle](../site/diagrams/team-perf-02-90-day-cycle.png)
 
 ---
 
@@ -74,7 +74,7 @@ A consultant can't coach everyone — budget doesn't allow it. In a typical enga
 
 This is the unlock: the same quality of individual attention that was reserved for executives, now available to everyone on the team — so the team can change as a unit.
 
-![Why AI Changes the Equation](site/diagrams/team-perf-03-the-unlock.png)
+![Why AI Changes the Equation](../site/diagrams/team-perf-03-the-unlock.png)
 
 ---
 
@@ -105,7 +105,7 @@ The AI doesn't just know your personal patterns — it knows:
 
 So when you say "I have a hard conversation coming up," the AI can reference the team's framework for difficult conversations.
 
-![The Team Agreement Doc](site/diagrams/team-perf-04-agreement-doc.png)
+![The Team Agreement Doc](../site/diagrams/team-perf-04-agreement-doc.png)
 
 ---
 
