@@ -1,0 +1,414 @@
+Speaker 1
+de HPT, porque queremos escucharlos o mirarlos de nuevo, pero ahora con el lente de ¿cuál de esos pudiera constituir un producto digital chiquito, bien enfocado, que sirva de algo? y que después pudiéramos construir sobre él. Entonces las dos cosas están muy interconectadas, ¿no? Escucharte y ver dónde se nos prende el foco que pudiera haber algo para digitalizar. Y segundo, ver cuál es tu visión de digitalización, porque seguramente ahí hay sinergia, overlap o lo que sea, y todo lo podemos tener en la conversación, dado que no hemos hecho nada más que prepararnos. Ruí preparó un poquito una guía de conversación, casi casi como si fuera más de tipo una entrevista, para ayudarnos a darle orden a las ideas. Pero quería darte este contexto si quieres y pausa ahorita a escucharte reaccionar y ver si te suena bien y si estás ok con que lo llevemos de esa forma o quieres darle otro formato.
+
+Speaker 2
+Sí, sí, perfecto. La verdad que, como decís vos, estamos empezando, estoy empezando a. . Incluso antes de pensar el. . El producto de HTP High Performing Teams como Blended by Design. Estoy un step anterior como definiendo los criterios de cómo va a ser ese y los componentes de Blended by Design. Con lo cual es una conversación que todavía no tengo, o sea, es un thought process que no tengo, no está acabado, por lo menos para mí, o sea, estoy trabajando en eso. Y me encanta, sin dudas puedo contarles un poco cómo abordamos los componentes y cómo abordamos sobre las soluciones de Performing Teams y pensar juntos. que puede, digamos, ayudarnos a pensar también que podría ser un productito acabado sobre eso. Estoy en el medio del proceso, pero encantada de compartir ideas y de explorarlo juntos. O sea, no tengo una visión. redondeada o acabada o en la que diga, bueno, vamos a ir por acá, estoy en eso, pero me parece buenísimo el espacio para pensarlo juntos además, así que sin dudas hay algunas cuestiones Hay algunos elementos que no tengo mapeado que necesitamos o que me gustaría desarrollar del lado de Excellent, independientemente de cómo se vea ese producto, y a lo mejor eso es good enough como un mini productito acabado para diseñar, así que digo, también hablemos de eso, así que. Sí, estoy, estoy, estoy súper ok.
+
+Speaker 1
+Perfecto, perfecto, gracias. Entonces, este, mira, yo creo que además es el mejor momento para platicar porque nos empapamos de lo que has pensado hasta la fecha y viceversa, y yo creo que eso siempre es muy generativo. Entonces, bueno, con eso en mente, yo le podemos dar forma con las preguntas que formulamos. Y aquí gracias de nuevo a Rui por crear y dar todo el orden a la conversación, pero nos va a ayudar mucho para pensarlo en conjunto. Entonces. Ruby, tengo aquí el documento de Notion Karmaste y si nos vamos a la parte de la entrevista con Dolo, creo que lo que es el contexto ahorita ya está planteado, a ver si es lo que quisieras agregar algo. Y la parte de la visión a largo plazo, si la dejamos ahorita esto que te decía que lo pusimos en la repisa, pensamos que a largo plazo, me gustó que Ruy le llama el salto Grial. Quisieramos en un futuro poder llegar a hacer la detección en tiempo real, tanto las comunicaciones electrónicas y poder de ahí dar toda la clase de información que ayuda al team performance. Pero eso que era un poco lo que estaba representado en el dashboard. Lo dejamos como un estado deseado futuro para que ahorita no nos distraiga. Y de aquí entonces ya llegaron las preguntas muy puntuales para explorar. que es entender un poco la intervención del consultor. Tenemos unos puntos muy específicos, ahorita los menciono. Tender un poquito la necesidad de intervención del consultor para el aproche de HPT desde ahora. Tratar de entender cuál es el mínimo viable de contexto. Ruy, un tema que habla mucho del contexto, ahorita te lo explico un poquito, es sumamente importante. Pero comienzo con este panorama general, un par de cositas más y arrancamos ya con las propias preguntas de cada uno. Mira, uno de los retos que nos. . descubrió Rui a la hora de echarse el primer clavado tecnológico a esta idea de tener como un dashboard que te dé Estos que interprete lo que está surgiendo en comunicaciones electrónicas y te dé insights del performance del equipo. Un gran riesgo que tenemos es que los LLMs siempre te responden. para bien o para mal pero si no tienen el contexto correcto pues responden la que se les canta y puede que no tenga nada que ver y eso lo vemos por ejemplo si tú has visto las notas de idom fireflies de repente te dice los action items las veces Algunos son accionarios, nadie acordó a ello, o. . O sea, incluso en un resumen ya comete errores y eso no es cosa menor. Entonces, Una cosa que estaba mirando Rui era el tema de cuánto contexto y de qué forma hay que dárselo a un LLM para que realmente pueda hacer bien su trabajo, lo cual a su vez estaría informado entonces por nosotros de cómo se contextualiza esto en engagement. analógico, digamos, hermano. Entonces, más es como para señalar que ese es uno de los impedimentos, como para poderle entrar a la búsqueda del santo grial. Con esto en mente, Ruiz, si quieres te lo paso para que nos ayudes ahorita como a ordenar la conversación. si quieres conocer por el reglamento del consultor o replantear lo que me ha hecho falta.
+
+Speaker 2
+Espera, un pesito, un pesito para agregar ahí, solamente para que lo tengamos, vos y yo, Top of Mind. Nosotros mañana mañana hablamos con Dan Casper.
+
+Speaker 1
+Sí.
+
+Speaker 2
+Bueno Una de las cosas que él dijo que estaba haciendo con su proprietary technology, whatever, whatsoever, era que entendía que él había como cracked. el tema del training y del contexto y de. . Entonces digo, yo le haría una pregunta al respecto de eso, lo digo para que lo tengamos presente, pues uno de los. de los problemas que están teniendo, más allá que él está diseñando su propia tecnología, está entrenando sus propios modelos y bla, bla, bla. . Él dijo como que él reconocía que uno de los problemas era el tema del contexto y la interpretación y que él. creía que en el nuevo producto que estaba diseñando tenía eso como resuelto. No te voy a decir cómo lo resolvió, pero hablaría del tema porque me parece interesante escuchar qué estuvo haciendo, digamos, o la estrategia que. eligió para poder abordarlo, te lo digo porque puede ser algo interesante ahí.
+
+Speaker 1
+Sí, a mí me interesa mucho la conversación con él y bueno, ya voy con mencionar este K1 porque voy entonces con la con la antena más. Eh, afinada para esto, entonces perfecto.
+
+Ruy
+Grábenlo, este A ver, sí, creo que creo que a mí lo que me gustaría entender es este, o sea, ya dado todo este contexto que hemos platicado, este, y creo que lo compartimos. Eh, es un poco uh si le llaman a un consultor de Accelen, este cuáles son cuáles son las las cosas que necesita entender para para poder empezar a intervenir. O sea, un poco cuál es ese proceso. Me gustaría empezar desde ahí. Y qué es lo que necesitas saber, si digamos, este le hiciéramos el pedido a
+
+Speaker 3
+Pero cuál es el proceso, ¿cuál es el proceso? Sí
+
+Ruy
+este Accelent que nos hiciera si no nos conociese este que nos hiciera un proceso de HPT por donde por donde empieza a Cuáles son las cosas clave que tiene que entender de nuestro equipo para poder empezar a llevar por un proceso de HPT.
+
+Speaker 2
+Bueno, por un lado hay una parte como de contexto de entender, digamos, el equipo. cómo es el equipo, si está configurado hace mucho poco tiempo, cuál es el rol en la organización, cuáles son los objetivos que tiene para el, como que busca los objetivos o los impactos que espera lograr con este proceso a nivel desempeño del equipo, porque High Performing Team, o sea, sí, obvio, desempeñas bien de todos, pero hay algunas cosas que ya anticipa
+
+Ruy
+Okay.
+
+Speaker 2
+donde ve que hay oportunidades y tener claro esos objetivos que trae el cliente a priori, los impactos de negocio, el rol en la organización. Bueno, hay una parte como de contexto. Pero después lo que haces es un diagnóstico de cultura, entendiendo, buscando entender cuál es el, digamos, cómo están configuradas ciertas dimensiones que hacen a un equipo de alto desempeño. Entonces, en el caso de. . Y ahí empieza a variar un poco el abordaje, en el caso, por ejemplo, de cómo trabaja Anabel y muchos de los consultores de España. trabajan con lención y entonces ahí mirás mirás las como las cinco las cinco dimensiones de las cinco las cinco dimensiones de Lención y de alguna manera y ese es un diagnóstico que te permite entender digamos cómo está en cada una de esas dimensiones
+
+Ruy
+Okay.
+
+Speaker 2
+Y en el caso de que uses otro framework, como podría ser el de Katzenbach, decís, bueno, mira, son cuatro dimensiones, y mirás en esas cuatro dimensiones, digamos. ¿Cómo arranquea el equipo contra el benchmark que plantea el modelo de lo que es un equipo de alto desempeño en esas cuatro o cinco o las dimensiones que uses dependiendo del modelo que estés usando, digamos? En ese sentido. No somos tan prescriptivos, no hemos sido hasta ahora tan prescriptivos en cuanto a lo que buscamos. Al modelo que usamos, o sea, usábamos siempre Wayback, usábamos siempre Katzenbach. Otras veces hacemos diagnósticos que obviamente miran las dimensiones del equipo, pero lo estructuramos en torno al modelo integral, digamos, de X-Ray, Sustainable Performance. Otras veces usamos lesion y como te digo, pero acá es básicamente un diagnóstico para entender, digamos, cuál es el estado actual del equipo versus el desired end state. Y a partir de ahí diseñás una serie de intervenciones que te empiezan a mover en esa dirección, básicamente, ¿no? Como consultor. Entonces lo primero que haces. Bueno, es que entendés el contexto y entendés cuál es la aspiración y cuál es el impacto que buscan lograr, qué es lo que va a hacer determinar el éxito del proceso para el cliente, entendés cuál es el estado actual del equipo. Eso es un diagnóstico en general. Y ese diagnóstico tiene dos, dependiendo también del señor y del investment y de todo, pero en general lo haces en dos planos. Lo haces. A nivel dinámica de equipo, que son estas dimensiones que te digo, pero también a nivel, lo hemos hecho y lo haces también a nivel, digamos, liderazgo de cada uno de los individuos o sea yo miro como disponí como el estilo de liderazgo de cada uno de los individuos puede estar influyendo, contribuyendo a la dinámica de equipo que ves cuando se hace el diagnóstico de equipo. Porque vos en un proceso de high performing team trabajás Por un lado, con los individuos y por otro con el equipo como un todo. O sea, tenés que trabajar los dos niveles, digamos.
+
+Ruy
+Y los instrumentos, perdón, los instrumentos para la dinámica de equipo es ya sea lencione o Katzenbach o cuál otro dijiste?
+
+Speaker 2
+Entonces. Usamos, en realidad usamos una mezcla, o sea, haces qual y quanti, o sea, siempre haces entrevistas cualitativas con los líderes y los miembros del equipo.
+
+Ruy
+Uh-huh.
+
+Speaker 2
+Y después usar lencioni, por lo que yo no uso nunca lencioni, pero cuando usan lencioni lo usan en conjunción, usan un una solución de una consultora llama Wiley que tiene que ofrece el Engen y con Disc. Entonces el análisis casi individual de los líderes es con el LISC.
+
+Ruy
+Okay.
+
+Speaker 2
+que no es estilo de liderazgo tampoco, dice que es un psicometrico, o sea, es otro tipo de. . busca otro tipo de analiza otro aspecto del liderazgo, pero digamos. Y a partir de eso lo que plantea es el trabajo que permite hacer ese link entre la dinámica actual del equipo y el individuo. En otros casos. tenemos un team pulse de alguna manera diseñado internamente sobre el modelo de Katzenbach y eso lo complementamos muchas veces o muchas veces hacemos . L SI, hemos hecho OCI del equipo, hay otro instrumento de HS que no se usa demasiado, pero que está muy bueno, que se llama Group Styles Inventory, que es para hacer, digamos, para mirar a los grupos. Y de la misma manera que hay otros instrumentos de nivel individual como el Leadership Impact, el LI, que está muy bueno porque Igual todos trabajas, o sea, el punto es que trabajas en la dimensión individual y en la dimensión colectiva en simultáneo, digamos. Son procesos paralelos.
+
+Ruy
+Okay, y entonces
+
+Speaker 2
+Y podés llegar a trabajar dependiendo del equipo, del apetito, del investment, de la apertura, podés trabajar o con todos los líderes a nivel individual, a veces identificas ciertos miembros, o sea, por ahí es un equipo que. Igual tiene alguna parte del equipo que está visiblemente underperforming, lo que sea, y el líder te pide que trabajes con algunos miembros y no con todos. Eso se hace un tema más de stakeholder management de con el líder y con los mismos miembros del equipo, ¿no? Pero. Pero digamos, tiene esas dos patas. Y a nivel, como mecanismos de intervención, que era otra pregunta casi o sea, vos tenés en el plano de lo que es individual el coaching.
+
+Ruy
+Okay.
+
+Speaker 2
+Y en el plano de lo colectivo tenés dos o tres tipos de intervenciones distintas. Por un lado, hay algo de, muchas veces hacemos como talleres en el sentido de que. de que les ofrecemos y trabajamos con que construyendo ciertas distinciones a nivel equipo, trabajamos con temas como como, no sé, el propósito del equipo, la claridad de los roles y las responsabilidades. Todo eso lo podés trabajar en el marco de un taller, eso puede ser una manera. Otras veces hacemos coaching grupal, donde trabajamos sobre desafíos del equipo. Y otras veces hacemos. Y otras veces hacemos facilitación de reuniones, donde nos invitan a reuniones que son propias del AROVI del equipo, donde trabajan temas de negocio de ellos y donde nosotros intervenimos. para ayudar a que la conversación y que la dinámica del equipo sea más conducente para que puedan lograr lo que quieren lograr esa reunión. Entonces como que en los talleres El contenido está en el forefront, en las facilitaciones el contenido está en el background. Y vos hay veces que haces intervenciones y les recordás cosas que les enseñaste o les mostrás cómo. O les haces preguntas para ayudar a que se escuchen cuando ves que no se escuchan, digamos, depende, el nivel de intervención depende mucho de la necesidad del momento. Y después tenés el coaching grupal, ¿no? Un coaching individual pero grupal. Esos son como tres, te diría, mecanismos básicos de intervención, dispositivos de intervención grupal con el equipo.
+
+Ruy
+Okay, este
+
+Speaker 2
+En los talleres hagas acuerdos operativos, trabajás a veces en clarificar el propósito. Si hay temas de accountability, de commitments o de objetivos, trabajas en eso, por lo menos trabajas en el marco de los talleres, como cosas que traes a la conversación. Los mismos mindsets se los diré, muchas veces trabajas en los talleres, digamos, todo eso lo trabajas en el marco de los talleres y después en los otros mecanismos.
+
+Ruy
+Ah okay, este mm
+
+Speaker 2
+Eso es el está, eso es el estándar, te diría, ¿no? Digamos, como el el basic roadmap.
+
+Ruy
+Este y y los mecanis y luego o sea Por un lado está este diagnóstico inicial que básicamente te permite entender el estado actual versus el estado deseado. los mecanismos que la idea es que empiezan a construir o llevarte hacia el mecanismo deseado este y cómo cómo ¿Cómo vas teniendo esa retroalimentación de saber si las intervenciones están ayudando a cerrar este el gap?
+
+Speaker 2
+Bueno, hay mucho que se ve en la misma dinámica del equipo y el equipo es self-reported en muchos casos, digamos, ¿no?
+
+Ruy
+Okay.
+
+Speaker 2
+Porque el equipo habla, o sea, si es un equipo, depende también un poco del. del estado inicial y cuáles son los pains iniciales, a veces hay mucho conflicto abierto, a veces las reuniones hay mucha atención, a veces están trabados, y mismo ya de ver que han logrado avanzar sobre los temas, ya tenés como un indicio claro de que estás, de que están moviéndose en la dirección correcta, ¿no? Pero por eso también acordás con el líder en el comienzo cuál es el dispositivo, digo, hay una parte de contexto y de entender qué es lo que va a hacer éxito de ese proceso, qué es lo que le gustaría lograr a partir de ese proceso, y vas trackeando, o sea, los mecanismos van variando. Hay una retroalimentación puntual luego de cada intervención que le pedís a cada uno de los miembros, vas teniendo conversaciones con el equipo, con el mismo líder del equipo o que te contrató. O si es un eso es un si es algo que viene más en el marco de por ahí de un proceso de más amplio, digamos, donde te piden que trabajes con un equipo que contrata para echar o que contrata la persona, digamos, el jefe del líder del equipo, por decirlo de alguna manera, ahí tenés conversaciones, digamos. para entender cómo se percibe organizacionalmente, obviamente entendiendo que los procesos de transformación no son inmediatos, o sea, lo que vos vas a percibir en términos de transformación O sea, hay cosas que son. . tenés quick wings, por eso hay cosas que podés percibir en el corto y está buenísimo, hay cosas que se destraban muy rápidamente, ¿viste? Pero. a nivel por ahí más tipo clima y experiencia de las personas, pero no necesariamente implica que está todavía como cerrada la brecha a nivel más como plataforma y digamos la manera de actuar y qué sé yo, ¿no? . Entonces, pero pero igual vas viendo. Pero eso lo que crees es que varía de engagement a engagement y tiene que ver con el acuerdo inicial que se hace también.
+
+Ruy
+Okay, este, uh Y a nivel, como digamos, este proceso de documentación, O sea, lo que yo veo es que en coaching hay como Hay como toda una serie de cosas ya documentadas, ¿no? Está el está el readiness, hay un manual de application coaching, etc. Hay algo Similar para HPT, en términos de que está descrito el
+
+Speaker 2
+a nivel redes internos. Es que no, porque vos pensás que lo que es como adicional es, o sea, entender el framework con el cual estás mirando el equipo y lo que es facilitación de reuniones.
+
+Ruy
+Mm-hmm.
+
+Speaker 2
+Todos los otros componentes son componentes que se usan en el marco de Leadership Development.
+
+Ruy
+Okay.
+
+Speaker 2
+La parte de skill building es la misma, voy a dar la misma como. pericia para hacer un taller de leadership development que para hacer un taller de equipo. . O sea, tenés que mirarlo distinto, por eso tenés que entender el framework con el que lo estás mirando para a nivel delivery y no necesitas ningún skill adicional. Y lo mismo en el coaching, es coaching individual y coaching grupal. O sea, eso es cierto para coaching, para Digership Development o para Team Performance. Entonces el único como ¿A dónde te diría de los procesos de Teams son la facilitación de reuniones? Y sí, tenemos, tenemos. Tenemos, de hecho, el año pasado hicimos a fin de año un readiness de facilitación y es algo que tengo que decirte que no somos tan efectivos, te diría. Muy Es muy disímil el nivel de mastery en lo que es facilitación de reuniones. Pero básicamente usamos el framework de Schwartz de Skill Facilitator. Ese es el framework que usamos a nivel intervención, digamos, para hacer el reines de la gente en facilitación de reuniones, entre otras cosas. Porque pensá que es adicional a todas las otras cosas que ya tienen para hacer todo lo otro. ¿Entendés lo que digo? Entonces ya tienen coaching, en coaching va a ser coaching handbook, vais a humbling, lo que sea. en delivery también y para lo que es workshops y teaching también y después esto es como un componente más es el componente que se agrega te diría
+
+Ruy
+Okay.
+
+Speaker 2
+Lo veo le digo que tiene la mano levantada, no voy para un cachito porque hace un ratito.
+
+Ruy
+I see
+
+Speaker 4
+Sí, gracias Dolo, qué lindo conocerte y bueno, esperte tomar mate también. Te veía, digo, te tomamos mate juntos. Estamos tomando mate juntos, sí. Yo quería hacerte dos preguntas. La segunda, medio que me la respondiste con lo último que dijiste. La primera es cómo gestionan la comunicación con los miembros que son parte de este high performance team que no fueron parte de la decisión, que de pronto están en un.
+
+Speaker 2
+Sí, en general hay una reunión de Kikofa y proceso donde el líder del equipo, digamos, comunica e invita al equipo a sumarse a este proceso de Team Performance explicando la relevancia que tiene. digamos, para ellos en su rol, en el impacto que tienen que tener en la organización, en el ligado que quieren construir, y de alguna manera te habilita como interlocutora que trabajes con ellos. Y obviamente Eso se va a construir, es un proceso de confianza que se va construyendo en estas instancias de grupo. Pero tu enabler y tu key stakeholder ahí es el líder del equipo que Y si no fuera él el que contrató, igual hay una sesión inicial. Primero de alineamiento con el que contrató y el líder del equipo y el líder haciéndote ese endorsement de alguna manera y posicionándote dentro de lo que es ese proceso. Hay como una reunión como de kickoff. A veces es como una serie de reuniones, por ahí es la primera de Kik Off, después hay una primera reunión de muchos de. . La primera reunión de un equipo de Jaime. En Hat Performing, además de compartir los resultados del diagnóstico como para generar el burning platform y alinear cuál es la brecha, ahí es donde quieren poner la energía, donde van a trabajar. Hay mucho de construir confianza. En hat O sea, toda la primera parte tiene que ver con construir confianza. Todo el tema de la confianza y la seguridad psicológica en cualquier equipo es fundamental. Entonces, los primeros workshops están muy orientados a A eso, a veces trabajamos también desde la perspectiva más inspiracional con temas de propósito, porque eso es muy como convocante, entonces cuando eso no está claro, es una fuente de energía. central para el proceso de transformación. Entonces, por ahí lo como que esas son las tres, cuatro cosas que siempre trabajás en el outset, viste, como entender la brecha, el burning platform, propósito, o sea, por qué estamos haciendo esto, el why, viste, el reason why Y que cada uno conecte con su guay individual en el marco del equipo, digamos, en Legacy, ese trabajo se hacía mucho al principio. Que es la plataforma para después empezar a construir la parte más como más. Táctica, pero no táctica. Por ahora más operativo, más en la parte de ejecución, de cómo conversan, porque digamos, sin esa confianza, no puedes hacer la verdad indiscutibles, no puedes tener conversaciones difíciles, no puedes. O sea, y en general lo que haces al principio también es una serie de cómo. de acuerdos operativos básicos que hasta que hasta que el equipo adquiere cierta manera de trabajar y de. a nivel individual y a nivel equipo, es lo que te ayuda a mantenerte en track. Te diría que esas son las como componentes de las primeras sesiones fundamentales para poder abordar y avanzar en todo lo otro.
+
+Speaker 4
+Y tengo otra, ahora me surgió, de qué parte del proceso del trabajo con equipos crees que es. crítico que haya un humano porque hay una sutileza, unos matices, una lectura del lenguaje no verbal y qué parte, o sea, qué parte nunca delegarías, digamos, en la tecnología.
+
+Speaker 2
+Yo creo que tiene que ser human led en general, digo, creo que hay. Que no quiere decir que no pueda tener un montón de componentes, porque por ejemplo. Pues era toda la recolección de feedback y toda la parte de diagnóstico con instrumentos quanti, pero la interpretación va a ser cual y tiene que ser human led, por ejemplo, no relegaría esa interpretación. Digo, como que es bien complementario, no me imagino que haya un pedazo que pueda ser. solamente digital porque me parece que dado el contexto que trajo hacías al principio los desafíos de contexto y demás Es muy fácil, o sea, porque aparte es lo que, es lo que nosotros, es nuestro framework de cómo la adopción de tecnología se vuelve efectiva. Necesitas un como un componente humano de conciencia, necesitas el stewardship, necesitas la revisión de que eso tiene sentido, necesitas, viste, como. Pero, pero, pero por ejemplo, no sé, Recontra utilizaría, y voy a proponer que usemos los AI coaches, por ejemplo para complemento de la parte de coaching individual o incluso del coaching de equipo para preparar conversaciones difíciles. Te puede ayudar a pensar, digamos, como un thought partner de contra. Pero las decisiones la toma el humano. A partir de las intervenciones con el Todd Partner, ¿entendés? Como que creo que siempre termina siendo human led. Estoy pensando, o sea, estoy pensando qué pedazos eh Y es lo que aparte que no tengo muy claro, o sea, porque para mí es más fácil porque desde la perspectiva de Excel es Blended by Design y Human está en el centro y yo tengo un montón de herramientas que puedo usar y aprovechar o apalancar en el contexto de esos procesos, no sé. Sin ir más lejos, vos podés usar una EG para que te arme las meeting minutes y después las revisás y las mandás, ¿entendés? Como que hay una mirada, entendés, no es todo automático, porque como dice OCA sino después te dice cualquier cosa que no, ¿entendés? No sé. Les trabajamos mucho con las reuniones porque el ámbito de interacción del equipo es las reuniones de equipo. Entonces, ¿qué hace una reunión efectiva? ¿Cómo se conduce una reunión efectiva? Ese es un ámbito en el que nosotros trabajamos un montón con los líderes. que dan dos kills de que tengan ruinas efectivas, digamos, ¿no? No sé, es que podría delegar 100%. me pareció, eh
+
+Ruy
+Bueno, hay muchas cosas. Este, a ver, déjame, déjame jalar un slide a ver si. que o sea en este en este slide están toda una serie de como de de posibles estrategias no este que yo entiendo esto es mucho como el El menú de cosas por las cuales podrías pasar un taller, este o sea, los talleres acaban cayendo en algo de aquí, ¿no?
+
+Speaker 2
+Sí, te diría que eso es como el como el sí, como lo mínimo.
+
+Ruy
+A grosso modo, este
+
+Speaker 2
+Pero sí, si tenés problemas, si ves que si haces un assessment, por ejemplo, y ves que hay una oportunidad con el propósito, con la claridad de propósito, la claridad de objetivos, en general En tus intervenciones de taller o traes elementos como la definición del propósito del equipo, haces algún tipo de trabajo de alineamiento de metas, o sea strategic alignment conversaciones de esa naturaleza con el equipo sí y si ves que hay un tema de de falta de claridad de errores poco claros o de temas de accountability das desde habilidades como obviamente hablas de hablas de los mindsets fundamentales pero más allá de eso trabajas con compromisos impecables con temas de comunicación y trabajas con con el Team Racing si hace falta para aclarar como un instrumento para aclarar y para facilitar temas de accountability. Pero también haces temas de alineamiento, digamos, de pedidos y, no sé, conectado con el anterior, ¿no? Como de pedidos y compromisos compartidos y ese tipo de cosas, que tienen que ver más con goals, pero que afectan después el accountability, no sé. A veces hay temas de planning y no solo de ejecución. Entonces, nada, vas viendo, vas viendo qué componentes traes en el marco de los talleres. Pero ¿por qué lo mostrabas? ¿Qué de esos componentes me
+
+Ruy
+Porque, o sea, yo lo que veo es que Todo eso, bueno, no todo eso, pero muchas de esas cosas, este, son piezas que podrías. No completamente automatizar, pero sí ayudar a quedar más claro. Por ejemplo, voy a decir una idea que tengo. Armamos un. De alguna manera hacemos que los diagnósticos sean más sencillos. Y entonces está la parte quanti quali, está medio automatizada. Hay un humano que te ayuda a terminar de darle una mirada y de veras entender dónde está el equipo. Este, y entonces ahí terminas de cerrar, ¿no? Y luego hay un montón de cosas que tienes que hacer para, por ejemplo, clarificar la misión, la visión, el racing, etc. ¿Y qué tal si en vez de que, o sea, qué pasaría si en vez de que todo eso lo tengas que hacer en un taller siempre con una persona que muchas cosas las pudieras adelantar como con una especie de wizards que te ayude a Este, a generarlos, ¿no?
+
+Speaker 2
+Definitivamente podés, digo, por eso digo que hay elementos. digitales que puedes integrar, pero no puedes saltear la instancia de conversación y de validación grupal, es inevitable en el tipo de procesos. Sí me imagino que se me ocurren un montón de elementos y de componentes digitales integrar. Y al mismo tiempo no me imagino que pudieran funcionar standalone, porque igual necesitas, o sea, tendría que ser un equipo que está en una instancia de self-facilitation para poder tener esas conversaciones efectivamente y justamente te llaman porque no, ¿entendés? Entonces, como que no. Medio que necesitan tu intervención ahí, lo veo, eso es lo único que digo, o sea, comparto. Y esos son los elementos que en mi. . diseño en mi búsqueda del blended para design esos son los elementos por ejemplo alguna de las cosas que tengo en el roadmap que queremos hacer este año posiblemente yo quiero si nosotros ahora estamos usando . Es Usamos el diagnóstico de, te digo, el de Wiley cuando hacemos lención y demás, pero digamos, perdemos la data. cruda en el fondo, digamos, esa data queda en otro lugar y no tenemos, entonces una de las cosas que quiero hacer es. . un TeamPulse que nos permita hacer el diagnóstico inicial y que nos permita hacer el seguimiento, digamos, que lo pudieras retomar, lo pudieras remedir seis meses into the process y que te pudiera dar una medida de ver si algo cambió o no cambió, digamos, si tienes que tener ciertas como componentes alineados a nuestra manera de ver. Esa es una de las cosas que tenemos como. . Entonces que eso se puede volver un estándar para todos los proyectos de.
+
+Ruy
+O sea, ustedes hacer el assessment
+
+Speaker 2
+Exacto. . Y si querés por lo que sea, porque el cliente quiere, te pido, preferís hacer el assessment inicial igual, puedas usar el pass check para el team pass para hacer el seguimiento de cómo va avanzando el. cómo es la evolución del equipo, vas a tener un baseline y puedas ir viendo como si adelante, porque vos no vas a hacer lensión ni cada seis meses ni cada dos meses, no tiene mucho sentido. Entonces, que haya algún tipo de paz, que nos permita mirar cómo se mueven esas distintas dimensiones que estás trabajando, por ejemplo. Esa es una de las cosas que quisiera implementar este año. De hecho, está en el roadmap, está ahí en el plan. Yo que no. Nosotros tenemos. Ah, perdón. Sí. No, no, coge, coge. No, antes de que migráramos al modelo de. . empezáramos a integrar el modelo de, o sea, usar el tool de elección y. . que eso entiendo que pasó. Digamos, yo estuve tratando de hacer un poco de backpack, de cómo llegamos a eso y por qué conviven los dos modelos y demás. Y eso fue un poco una cuestión que se dio en el marco de la pandemia. Y Creo que frente al no al desconocimiento de lo que hacíamos, se buscó otra manera de hacerlo y se certificaron y avanzaron ahí, digo, como que no había una cosa más centralizada de metodológica. Que tampoco tiene nada de malo, pero por ejemplo, antes de eso, nosotros la mayoría de los diagnósticos los corríamos con este Team Survey interno que teníamos. Y yo, de hecho, tengo toda esa data, guarda que es una de las cosas que tiene que hacer que una de las iniciativas con él son de. Yo tengo toda la data de todos los team performance que hicimos hasta 2019, incluso hay algunos que se siguen haciendo guardada. Y bueno, nunca se hizo nada. Nadie se hizo nada con eso, pero digo. Entender, digamos, qué pasa. Tenemos un montón de información ahí.
+
+Speaker 4
+Voy a hacer un pequeño, me tomo.
+
+Ruy
+Okay.
+
+Speaker 4
+30 segundos para dar un poquito de contexto y compartirles un poco lo que está pasando dentro de mi cabeza. Yo creo que vale la pena compartir que yo hice como unos 10 años así consultoría basada en conscious business mi propia película de eso Y los últimos seis y medio, siete, desarrollando tecnología para hacer que ese proyecto que era consultoría y formación pueda pregnar a través de tecnología. long story short y concretamente los últimos tres me obsesioné digamos con el uso de tecnología para amplificar el impacto de las intervenciones. Lo pongo a modo de contexto porque tengo acá un montón de anotaciones y cosas. que me parecen relevantes. Y cuando escucho eso, se me vienen a la cabeza muchas iniciativas e ideas que tuve, que me acuerdo que eran súper potentes, que luego. . quedaron como ahí en un no en un no lugar pero si me interesa que sepan que tengo como bastante experiencia porque intenté aplicar distintas estrategias algunas funcionaron muy bien otras vi la potencia con la que crecieron y despegaron en términos de tecnología y ahora que está Axial en este momento digo guau Siento que necesito decirles todo por lo que pasé y que puedan sacar provecho de todo eso, porque, por ejemplo. . Yo pasé por hacer esto, ¿no? Los survey al principio, survey al final. Después survey intermedio, post cada workshop, survey. de manera, ¿cómo se dice? random a los distintos miembros del equipo preguntarles cosas, entonces estaba continuamente tomando input ¿No? Como en cualquier momento te llegaba un mensajito que podía ser una pregunta de un momento puntual, pero disperso para que, bueno, ser más fiel, etc. Y lo interesante, y aquí me centro un poquito en lo que tiene que ver con el rol que puede tener la tecnología y coincido con Dolo en la mirada de la persona y del consultor o del manager. es, yo creo que la tecnología hoy nos permite hacer una toma de input infinitamente más grande. O sea, al principio del proceso de múltiples maneras, ya sea que user-based, es decir, que el usuario mete el dato, ya sea que nos metemos de prepo donde está el dato. O sea, la toma de input tiene un rol fundamental. Luego, el análisis, el poder de la IA para analizar un volumen. bestia de datos y encontrar patrones es un aporte súper potente.
+
+Speaker 2
+Sin duda.
+
+Speaker 4
+O sea, sugerir insights, patrones, cuestiones transversales, como verticales transversales, bueno, muy rico ahí. que es un material para que el consultor o el líder del equipo o el que sea pueda tomar decisiones informadas. Absolutamente. Y una vez que a toda esa producción el humano le aporta la mirada del contexto de la sutileza o del perfil conductual de la persona o el contexto del equipo o el momento o lo que fuera, o sea, le. . metemos un, llamémosle un archivo de contexto a eso, que no es un archivo, sino que la mirada humana, pero bueno, podría ser un archivo también, pueda hacer toda esa todo ese mix ese análisis esa mezcla para generar potenciales outputs siempre hay un punto de un checkpoint humano que valida y que y que Obviamente hace sentido de todo eso, pero la potencia de la capacidad de encontrar valor en infinidad de datos. Creo que nosotros no seríamos capaces de hacerlo jamás. Y lo último que digo, esto que deseado lo de la previa que tiene Axialend, yo conozco empresas que monetizan el benchmark, por ejemplo. Como una feature adicional de mi solución, querés ver, digamos, el promedio de tu industria en este país, del high performance team, es 8. 9.
+
+Speaker 2
+Bueno, por eso yo quiero la data y por eso estoy extrayendo toda la data histórica, porque una de las cosas que no hemos hecho efectivamente en Accelent, es sabido hacer, es capitalizar la data que tenemos. Y comparto absolutamente, y de hecho en esa capability, en los que vos decís, los que estamos integrando la tecnología en los blended by design. Lo que pasa es que hoy, hoy lo que pasa es que depende, como no está. No está establecido como la norma, como la manera de hacer. Sucede en algunos engagements, dependiendo de que si yo me metí, si hay un partner que tiene el insight de se le ocurre pedirlo o hacerlo, estoy yo. El año pasado logramos ser mucho más estructurados y más efectivos, de hecho, desde Excellent utilizar la tecnología para conseguir esos inputs a lo largo de las distintas instancias del proceso. Eso mejoró un montón. El año pasado logramos. La implementación de todo lo que es la estrategia de medición de impacto, casi te diría que más del 80-85% de los casos, este año queremos que sea el 100, digamos, pero eso se logró. Y este año lo que estamos trabajando, porque el año pasado Por mil motivos, no llegué a lograr que la automatización de los flujos de la información para que entonces esa información vuelva al sistema y sucede al servicio de eso. Pero, por ejemplo, una de las features que estamos, por ejemplo, cuando pensamos en los. Ahora estamos tratando de. . Bueno, estamos tratando de activar todo lo que son los learning journeys dentro de lo que es el LMS y los learning recommendations a partir de una serie de preguntas. Con esa misma lógica, esa misma lógica podría usarse internamente al consultor. para mejorar, digamos, la preparación y el diseño de los talleres como para la persona en la parte de self-led. Esos son el tipo de cosas donde yo estoy buscando apalancar Digamos, features que la tecnología y características de la tecnología te da que vos no podés reemplazar, como esto vos decías, de los patrones y que yo. De hecho, en los diagnósticos de cultura ya yo utilizo o ya utilizamos inteligencia artificial para un montón de análisis de patrones y cosas, y la verdad que que muy efectivamente siempre va a seguir mejorando, pero digamos, el impacto ya es notable. Y la idea es seguir en esa línea. Así que, de hecho yo lo había dicho, o sea, que a mí me encantaría que nos juntemos a charlar para que me cuentes un poco más en detalle cosas que hayas hecho. Digamos, esto es algo con lo que. Esto no es nuevo en Axel, digo, venimos implementando esto hace mucho tiempo, para que no pienses que como que recién estamos en esa, llegamos como a esa instancia. Having said that, compartir aprendizajes y experiencias siempre sumo un montón y acorta los hace shortcuts, viste, para Para los failers o para pensar, bueno, esto no funciona ahí porque la hacías así, por ahí acá lo hacemos distinta y funciona, o por ahí yo hice algo, y me decís, bueno, dale esta vuelta porque a mí me funciona así, digo, como que me encantaría.
+
+Speaker 4
+Y importante, dato importante, tengo mucho input de cliente diciéndome cosas respecto de eso que yo intentaba venderle. Que al final es para mí la ley. O sea, lo que yo creo me da igual. O sea, le va a ser más útil que les cuente lo que dicen los clientes cuando vas con esto. por lo menos los que visité yo hoy acotado, ¿no? Pero tal cual.
+
+Speaker 2
+Absolutamente, por eso, digo, agendemos, porque yo ahora me voy de vacaciones este viernes, dos semanas, pero agendemos para la vuelta y me encantaría que gendemos un rato y charlemos. Pero bueno, sí, es en esos typabilities que vos decís, que nos imaginamos integrando y estamos buscando la manera más efectiva de hacerlo, también tratando de entender. lo que hemos hecho hasta ahora, las posibilidades. Hay toda una parte como muy infraestructura que estamos haciendo este año que no existe, digamos, que está muy mal, que es esto que te digo de los datos, de cómo se guardan los datos, toda la infraestructura y todo el data layer Es un desastre, o sea, por decirlo de alguna manera. Y eso es una de las cosas claves que tenemos que ordenar este año. Mientras que hacemos todo lo otro también. Porque si no, lo otro después no corre bien, si no tenés esa infraestructura bien armada. Entonces es como que es condición cine cuanor para este año. Así que, re, conversemos.
+
+Speaker 4
+Nos queda.
+
+Speaker 1
+Bien. Bueno, oye, pues estamos ahorita en. Ya está terminando la hora y imagínate no sugiero otras llamadas, yo sí me tengo que bajar, pero nos dan nos dan primero en empujón dolo, gracias. Como vas a estar fuera, lo pienso en dos cosas. La primera es. . Vamos a avanzar en formarnos un punto de vista de qué se pudiera hacer para que a tu regreso podamos platicar y pensamos en esto, cómo lo ves, sería súper bueno encontrarte con dientes por acá. And because I'm going to see the empute of contact partners with the message, visit what I'm saying for correct, no sé si tuviste. These are the points that I'm saying, the person with the Nelson, this is the activity that I'm going to do. Hoy lo vean a Sophie Hours. Si necesitas que lo, o sea, que le mantenga el día de alguna otra forma, más allá de esto que acabo de poner, y irle avisando, lo hago, pero ahorita por lo pronto ese es el mensaje con el que estoy yendo y todos están ok y a la expectativa de que conforme vayan saliendo las cosas de digitalización. Las vamos a ir rescindiendo. Entonces, eso es lo que queda de mi lado. ¿Te parece?
+
+Speaker 2
+Sí, perfecto. Para que vos sepas en paralelo, a mi vuelta voy a tener una ronda con todos los partners. Porque más allá de la parte como de la mirada y como de bueno, qué cosas podemos pueden incorporar desde la perspectiva de las soluciones de Stoic para digitalización. Yo voy a empezar a impulsar la conversación de contame por qué no es Blended. ¿Entendés? Como desde la mirada de Blended de Axel. Entonces yo voy a. . Y también qué cosas necesitaría. Quiero entender, tener un mejor sense de cómo están pensando para poder intervenir también en la perspectiva como más de cambio de mindset organizacional. Entonces, como que voy a hacer esa ronda también, y después yo te mantengo, obviamente nos mantenemos al tanto. y en el loop, ¿viste? Además en las reuniones de business y development la idea es también impulsar todo esto.
+
+Speaker 1
+Está perfecto. Lo único que te pediría nomás que cuidemos de administraciones para el aspecto comercial Se los focalizo yo, por ejemplo, platica todo como el blend el learning y todo, pero cuando digamos esto es lo que hay que vender, platiquemos en su momento cuando ya se los vamos a traer, porque la preocupación que todos me externan es. Si voy a tener que entender lo que viene de digitalización, lo que viene de estoy, cómo lo junto, vamos a hacer pelotas, y le estoy diciendo la cuestión comercial, explicarte qué hay que vender, te lo traemos integrado para que no tengas que Tener una lista de productos diferentes y ver cómo se combinan. O sea, a la hora de pensar blended learning, el diseño que haga todo lo va a haber integral de esto y que tenga que venir y todo. Yo le estoy avisando mucho la idea de que lo vamos a hacer de manera integrada y que no corren los caminos por separado, porque comercialmente se les cae. platiquémoslo para ella sea mantenerles la promesa que les hice o estarles cómo funciona en adelante, pero no hay que llegarles comercialmente por los dos lados en lo único.
+
+Speaker 2
+Sí, sin duda, sin duda, pero bueno, es lo que hablábamos. El positioning, digamos, nosotros vamos a empujar las soluciones digitales, pero necesito que entiendan qué es Blended by Design y qué implica eso para Excellence. Así que digo, sí, desde ya.
+
+Speaker 1
+No, no hay problema, muy bien.
+
+Speaker 2
+Alineamos azul.
+
+Speaker 1
+Excelente.
+
+Ruy
+Yo tengo una pregunta.
+
+Speaker 1
+Pues gracias, Dolo, por tu tiempo y este. ¿Qué tal, perdón?
+
+Ruy
+No, no, no, digo, si ya vas a cerrar, ya te tienes que ir tú, o sea, pero si no seas lo dualo si tienes cinco minutos y si no te.
+
+Speaker 2
+Sí, cinco minutos tengo, re.
+
+Ruy
+.
+
+Speaker 2
+Necesito cortar en cinco, pero sí, reto tengo cinco.
+
+Speaker 3
+Yo cinco también, perfecto.
+
+Ruy
+Este no a mi me a mi me digo, y más entendiendo que ya te vas de vacaciones, a mi me serviría mucho. Digamos como entender a profundidad los procesos de HPT, tener propuestas, revisar cómo es que alguien me platique. eh cómo se ejecutan, este eh y entonces
+
+Speaker 3
+Pero cuando decís cómo es, cómo se ejecutan, ¿en qué?
+
+Ruy
+En por ejemplo, o sea que me poder entender de punta a punta todo lo que ahorita nos platicaste. Con mucho nivel de detalle. Primero para empezar a empapar porque me siento Que cuando estoy hablando de esto, no sé, no entiendo bien los detalles, entonces me cuesta mucho trabajo pensar en diseñar cosas. Básicamente es eso, o sea eh, co
+
+Speaker 2
+Y bueno, pero ¿por qué no las. . mi sugerencia si necesitas, o sea. . O sea, Valentín hace, básicamente se dedica a hacer mucho high performing team y lo tenés ahí a la mano, ya está trabajando con, estuvo trabajando con lo de lo de PLIA, o sea, cualquier duda que tengas, o sea, mientras que yo no esté Definitivamente pues, digamos, de cómo avanza y lo puedes ver con él. O sea, no estoy tratando de pensar qué más. Necesitas entender que por ahí él no te pueda dar. Así dicen cómo se ejecutan.
+
+Ruy
+Digamos otra mirada. Si Valentín, este sí, me queda claro que Valentín es una persona clave para platicar, ya lo tengo en mente. Pero hay otro Valentín, digamos poniéndolo así
+
+Speaker 2
+Todos los consultores que hacen HPT cualquiera te puede explicar. Lo que quiero entender es. ¿Qué es lo que está tratando de buscar? Para ver si alguien te lo va a dar distinto, porque yo sé que no sabes lo que no sabes y es difícil decir lo que estás tratando de buscar.
+
+Ruy
+Exactly, this is locked.
+
+Speaker 2
+Yo lo entiendo esa parte. Pero.
+
+Ruy
+Mira, te voy a tratar de hacer este.
+
+Speaker 2
+No hay mucho secreto tampoco. No hay mucho más detalle de lo que te dice, lo que crecí.
+
+Ruy
+No, ya sé que no hay mucho secreto, pero por ejemplo, para entender coaching, a mí me sirve un montón. Correr el readiness de coaching, entenderlo. No voy a poder hacer eso para equipos. Y ya luego, este, ahorita, por ejemplo, estoy. teniendo algunas conversaciones con Horacio que es súper metódico a la hora de llevar el coaching, entonces tiene notas muy detalladas y me está platicando. De un proceso de coaching, cómo empieza, cómo se lleva, cómo se conectan. Este, tanto desde la parte. digamos teórica de la metodología como desde la práctica entonces eso es este o sea Estoy tratando de buscar algo parecido que me ayude a tener como ese conocimiento. De manera, pues, más rápida. No sé si me explico. Creo que mucho va a ser con Valentín, pero no sé con no sé si hay que ver si no sé.
+
+Speaker 4
+Jo qui Yo me ofrezco, Ruy, que yo hacía exactamente eso, a explicarte cómo lo hacía yo, tenés la mirada de Valentín y nosotros estamos diariamente juntos.
+
+Ruy
+Ah, pues perfecto.
+
+Speaker 4
+Hacemos una sesión bien en detalle, yo voy a buscar las propuestas que hacía, como los documentos que tenía, etcétera, para hacer, por ejemplo, coaching de equipo, intervenciones de facilitación en reuniones de. de Bord o lo que sea y te cuento dos o tres casos de uso y cómo porque tal cual lo dijo Dolo es Así, o sea, pues. .
+
+Speaker 2
+No hay tanto más detalle, eso es lo que vos estás tratando de entender cuál es el nuance que querés entender porque estoy tratando de pensar quién te lo puede dar, ¿viste?
+
+Speaker 4
+Pero podemos incluso, yo creo que la documentación le va a ser útil y también poder hacer algo así como un roleplay, en donde te narre discursivamente, digamos, cómo es. dos o tres intervenciones de un proceso de transformación para que te puedas hacer una mejor idea pero que cuentes conmigo solamente quería aportar eso que también te puedo echar un cable y estoy más cerca quizás los
+
+Ruy
+Sí, sí, sí, creo que, creo que eso, pues
+
+Speaker 2
+Y después en Moure tenés un montón, digo, si querés ver propuestas, en Mogre hay un montón de propuestas, o sea, hay un montón de propuestas distintas.
+
+Ruy
+Uh-huh.
+
+Speaker 2
+De nuevo, en esto de que no hemos tenido hasta ahora como un mandato en términos de framework para usar, hay algunas propuestas estructuradas en términos de lensión y otras propuestas estructuradas en términos de la Catemác. Yo justo estoy reactualizando un poquito la narrativa de la de la del offering de team performance porque porque no está marcado debajo del paraguas de Catching Transformation y dado que el position in the acceler es como líder del Catherine Transformation, hay que meterle ese componente al chau León, no, te busco, voy a agendar, busco para agendar. O le voy a pedir, en realidad le voy a pedir a Franco que nos agende.
+
+Ruy
+Bueno, este y documentos, digamos, de del proceso de que expliquen o del reiness algo. Por ejemplo, en este Redinés que tuvieron hace poco, ¿hay documentación? ¿Hay cosas que le dan a leer a los consultores?
+
+Speaker 2
+Sí, pero es. . Sí, el rey desde hace poco fue un para mí gusto bastante. O sea, yo creo que Axelen perdió mucho rigor en Rediness, te voy a decir la verdad.
+
+Ruy
+Okay.
+
+Speaker 2
+Y a mí lo que les dan a los consultores de Redinés me parece que no alcanza. O sea No puedes leerte tres capítulos de Skill Facilitator. Tenés que leer el libro. Hay muchos pedazos bastante importantes del libro que no estaban en el resumen que nos dieron.
+
+Ruy
+Okay.
+
+Speaker 2
+Que como yo lo leí hace bastante libre y me leí los capítulos, olí el libro, digo, faltan partes claves, o sea, para mi gusto. Entonces, que Digo, sí, te diría que como que el framework que más usamos, pero tenés que entender Lención, y tenés que entender el framework de Lensioni, tenés que entender el framework de Katzemax, tenés que tener, entender para lo que es facilitación puntualmente de reuniones, usamos mucho como guía. el Skill Facility, pero hay otros porque que también usamos para reines como Teaching from the Back of the Room, hay varios. Contributing frame marks que podes, digamos, como perspectivas que te enriquecen para mejorar en el rol. Pero no De nuevo, hablan del rol del fast. Esa es la parte humana que no vas a reemplazar. Eso es lo que te quiero decir. O sea, no sé si te servirá por entender lo que hacemos, pero esa es la parte que no vas a reemplazar.
+
+Ruy
+Pero de todas maneras es importante para saber cuáles son los límites y saberlo conocer.
+
+Speaker 2
+Entonces. Perfecto, solamente te digo que esto que te estoy diciendo tiene que ver con cómo desarrollar skills para facilitar una reunión. La reunión la facilita una persona, no la va a facilitar un AI. Bueno, no me lo imagino, por lo menos no en este momento de la tecnología y del mundo, quizás en 50 años, en 10 años sí, no sé, cambia muy rápido o en 5, pero hoy no está ese capability.
+
+Ruy
+Yeah.
+
+Speaker 2
+Entonces digo, te lo digo nada más para que. No sé si enfocaría ahí, pero te podemos pasar, te podemos pasar el. . Y voy a ver lo que tengo viejo también de Redinés de High Performing Teams, que debo tener cosas viejas, tengo que buscar.
+
+Ruy
+Te voy a decir, este eh, cuando me compartiste el documento de este de aplication coaching un documento como de 80 páginas te hace del 2012 fue buenísimo
+
+Speaker 2
+Pero ese es el coaching handbook. Eso te explica la métodología. Eso es un. .
+
+Ruy
+A lo que voy a es si hay si hubiese al uh
+
+Speaker 2
+Eso es. Pero es que no hay eso de team, no, es que no hay eso, porque no funciona así, eso es lo que te quiero decir. El Team Performance es el resultado de los distintos elementos. Tenés el coaching handbook, para lo que es coaching, tenés los lo que tiene que ver con el playbook para todo lo que tiene que ver con teaching y después tenés facilitación y tenés estos pero no hay una O sea, la metodología que usamos es la Skill Facilitator. Entonces, leete eso si querés. Es como el equivalente, pero es puntualmente para facilitación de reuniones. O sea.
+
+Ruy
+Pero, o sea, no hay nada que explique cómo se pega todo. No está documentado, pues.
+
+Speaker 2
+Es que no sé, es que No sé si estoy terminando de entender. O sea, el abordaje, el appt de High Performing Teams, el offering, explica cómo se pegan todos los elementos.
+
+Ruy
+Eso cuál es, porque es que quizá me hace falta eso.
+
+Speaker 2
+Bueno, es parecida, la que vos viste es de una slide vieja de una de esas presentaciones, te la busco y te la paso, por ahí te falta eso. Pero no hay un. Es que no hay un manual, porque las intervenciones varían mucho de equipo a equipo, o sea, tienen que ver con los desafíos del equipo. Entonces son los elementos, se combinan el. El consultor entiende cómo se combinan los elementos, ¿entendés? Como es que es la parte que no sé cómo explicarte y cómo reemplazar. O sea, los elementos son esos, pero por ahí lo que te cuente Leo. Y en lo que pasará con Valen, tenés una primera mirada y si querés, cuando yo vuelvo, o sea hacemos una conversación donde me contás lo que vos las cosas las te texturas que entendiste y yo te puedo dar si veo que hay otras que te falten de cómo lo hacemos te las puedo sumar. Por ahí puedo hacer ese proceso. Igual te busco lo que te digo y voy a ver si hay otra cosa que te pueda dar. de facilitarlo de training que tengo de facilitación pero es básicamente facilitación es el componente que se agrega por eso todo lo demás ya está cubierto
+
+Ruy
+Okay. Bueno, este también esto, esta, esta, esta explicación me sirve.
+
+Speaker 2
+Ah, perfecto, perfecto, por eso.
+
+Ruy
+Dale.
+
+Speaker 2
+Avancemos así y agendamos a la vuelta. Igual nosotros estaría bueno que tengamos una ROV mensual, ¿no te parece? Digo, no sé en qué va a quedar, pero por lo menos mensual, ¿no?
+
+Ruy
+Sí, sí, sí, necesitamos, sí
+
+Speaker 2
+Digo.
+
+Ruy
+Sí, te a mi también, a mi también, este te
+
+Speaker 2
+Me gustaría. Dale. Digo, por ahí cada 15, pero digo, de mínima mensual. Me parece que una horita cada 15 días no es mucho tampoco, ¿no?
+
+Ruy
+Yo cada 15 estoy perfecto y si lo hacemos creo que a tu tarde, a mi mediodía.
+
+Speaker 2
+Dale. Tu tarde, mi tarde que es tu mañana.
+
+Ruy
+Ajá, ya se quita la locura de estar con Europa y podemos.
+
+Speaker 2
+Dale. Sí.
+
+Ruy
+¿Quieres que te mande una propuesta o tú me mandas una?
+
+Speaker 2
+Dale, sí, sí, sí, perfecto. Fíjate que yo traté de bloquear, y voy a bloquear un por más, pero bastante focus times. Ya estas primeras dos semanas del año me dieron un indicio de lo que no necesito hacer cuando vuelva las vacaciones. Entonces ya empecé a blocar mucho focus time, porque me estoy volviendo loca, de cantidad de reuniones.
+
+Ruy
+Okay.
+
+Speaker 2
+Así que. en alguno de esos si donde quieras metelo y si lo acepto tal todavía no tengo nada ahora tengo es más metelo que ahora voy a pedir a franco que agenda de toda la ROV del equipo y ahí se me va a complicar un poquito más la agenda así que metelo donde vos te quede bien y y I'll follow your lead.
+
+Ruy
+Bueno, entonces este ahorita mismo mandando alguna propuesta.
+
+Speaker 2
+Dale.
+
+Ruy
+Bueno, dolo.
+
+Speaker 2
+Y no sé Leo si estás escuchando o no, pero te busco para que nos conectemos nosotros también
+
+Speaker 3
+Bueno, beso.
+
+Ruy
+Bueno, beso, bye, si chao
+
+Speaker 3
+Bye. Te mando chum
+

@@ -132,6 +132,7 @@ The vision document is a static HTML/CSS site:
 ### Personal Productivity (Ruy)
 | Command | Description |
 |---------|-------------|
+| `/think` | Thinking partner for working through ideas - brainstorming, exploring concepts, developing plans through conversation. Captures incrementally to `thinking/` folder. |
 | `/today` | Daily work review - fetch today's Todoist tasks, organize by priority, recommend focus. Use at start of day or when planning. |
 | `/weekly-plan` | Weekly planning triage - consolidate action-items + Todoist, triage to 15-20 tasks, identify top 3 outcomes. Use on Mondays or when starting a new week. |
 | `/handwritten` | Transcribe handwritten notes from `handwritten/` folder and propose additions to action items |

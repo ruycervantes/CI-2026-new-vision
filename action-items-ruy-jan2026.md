@@ -1,7 +1,7 @@
 # Consolidated Action Items - Ruy (January 2026)
 
 Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
-**Updated:** January 21, 2026 - Daniel 1:1: P&G SSO clarified (no middleware changes needed), WorkOS strategy discussed, paternity leave ~Feb 16.
+**Updated:** January 23, 2026 - Added Richi call action items (team effectiveness methodology), reorganized today's tasks.
 
 ---
 
@@ -16,29 +16,32 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [x] **Write user story for Shamil: Thinking Partner sidebar** - task definition for sprint (Jan 19)
 - [x] **Initial review of Bogotá contract** - reviewed, now needs follow-up (Jan 19)
 
-### Completed (Jan 20)
-- [x] **Send note to Shamil** - about meeting discussion ✓
-- [x] **Send Discord message about refinement timing** - meeting time change ✓
-- [x] **Mandar OKRs** - sent ✓
-- [ ] **Escribir guión para entrevista con Dolo** - prepare interview questions/script
-- [ ] **Revisar contrato Bogotá - follow-up** - specific items + send follow-up
 
-### Today (Jan 21)
+### Today (Jan 23)
+- [ ] **Review Dolo interview** - deep work, team effectiveness insights
+- [ ] **Team Effectiveness work plan** - deep work, see `team-effectiveness-work-plan.md`
+- [ ] **Send Richi resources** - AI podcast (OpenAI coach), book on history of intelligence (from Richi call Jan 22)
+- [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com
+- [ ] **Carpintero cama Enoles** - call them
+- [ ] **Update OKRs** - add enterprise integration (HRMS, LMS, messaging)
+
+### Moved to Later
+- [ ] **Sacar a Enol a andar en bicicleta** → Tomorrow (Jan 24)
+- [ ] **Poner strategic brain dump en un solo lugar** → Monday (Jan 27)
+- [ ] **Evaluate Linear vs GitHub Projects** → Monday (Jan 27)
+
+### Done (Jan 21-22)
 - [x] **Talk to Daniel** - contract/management ✓
+- [x] **Meditar** ✓
+- [x] **Daily Priority Selection** ✓
+
+### Still Pending (from earlier)
 - [ ] **Reply to Gabriel (P&G) - Thinkific/business context** - on Daniel's email, explain hybrid program, ask if auto-provisioning needed
 - [ ] **Send WorkOS/SSO integration strategy document to Daniel** - the "documento larguito" for him to read
 - [ ] **Prepare for Horacio interview (2nd round)** - deep work, methodology
 - [ ] **Email Leo** - coordinate technical meeting during office hours
-
-### Tomorrow (Jan 22)
-- [ ] **Review Dolo interview** - deep work, results ready
-
-### Tomorrow (Jan 21)
-- [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com
 - [ ] **Hacer extensión de contrato de Daniel**
-- [ ] **Evaluate Linear vs GitHub Projects** - write comparison + prototype Linear MCP (deep work)
 - [ ] **Set up Todoist plan with Irene**
-- [ ] **Sacar a Enol a andar en bicicleta**
 
 ### Also This Week
 - [ ] **Escalate Microsoft sandbox request to Mario** - Daniel writing request, or just buy Boetus licenses (~$50-80/mo)
@@ -161,6 +164,33 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 |---------|-------|------------|
 | No client lifecycle visibility | Team | Document archival process |
 | Oseas's coaching vision | Ruy | Requires new version (Q1 roadmap) |
+
+---
+
+## From Richi Call (Jan 22) - Team Effectiveness
+
+*See full extraction: `calls/Application Coaching - richi and ruy 22jan2026 - Extraction.md`*
+
+### For Ruy
+- [ ] **Send Richi resources** - AI podcast (OpenAI coach), book on history of intelligence ← TODAY
+- [ ] **Review Application Coaching Manual** - re-read with focus on design principles
+- [ ] **Contact Dolo** - request Facilitator Guides (e.g., Meli), proposals that explain coaching/facilitation/offsites
+- [ ] **Process "ayúdame a ayudarte" conversation** - consider having this with Oseas
+- [ ] **Schedule follow-up with Richi** - after he reviews materials
+
+### For Vision Document
+- [ ] **Add design principles to team-effectiveness-vision.md** - DP1-DP7 from extraction
+- [ ] **Document the two "aha moment" types** - espoused vs values-in-action, "ayúdame a ayudarte"
+- [ ] **Clarify MVP sequence** - Individual coaching → Team reflection (human facilitated) → Dashboard (later)
+
+### Key Design Principles (reference)
+1. **The Gap is the Raw Material** - espoused vs values-in-action
+2. **Real Content Creates Real Learning** - no hypotheticals
+3. **"Ayúdame a Ayudarte"** - frame for the other's agenda
+4. **Individual Skills Enable Collective** - start with 1:1
+5. **Role Modeling Creates Moments of Truth** - demonstrate alternatives
+6. **Non-Negotiable Values** - player, learner, integrity, system optimization
+7. **Zero Attachment to Direction** - offer and let go
 
 ---
 
@@ -383,6 +413,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - **Shamil 1:1 (Jan 20):** `calls/Shamil - Ruy - discuss feature thinking partner - Summary.md` - Thinking Partner handoff, Max account setup
 - **OKRs with Leo (Jan 20):** `calls/OKRs Ruy - con leo - 20jan2026 - Summary.md` - Q1 OKRs, PMF process, HPT exploration
 - **Daniel 1:1 (Jan 21):** `calls/Catch up with Daniel 21jan2026 - pg and workos - Summary.md` - P&G SSO clarification, WorkOS strategy, paternity leave planning
+- **Richi Call (Jan 22):** `calls/Application Coaching - richi and ruy 22jan2026 - Extraction.md` - Team effectiveness methodology, design principles, "ayúdame a ayudarte" framework
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
 - Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests

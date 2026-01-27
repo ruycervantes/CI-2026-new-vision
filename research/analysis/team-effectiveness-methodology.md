@@ -1,7 +1,10 @@
-# Team Effectiveness Methodology — Working Doc
+# Team Effectiveness Methodology — Reference Document
 
-**Status:** Working document, may contain contradictions to resolve
+**Purpose:** Detailed frameworks, assessments, and source-by-source notes for team effectiveness methodology.
+**Status:** Reference document — detailed material for consultation
 **Sources:** Richi (22 Jan), Dolo (21 Jan), Horacio (22 Jan), Oseas (22 Jan)
+
+For design-level understanding, see `team-effectiveness-synthesis-v2.md`.
 
 ---
 
@@ -11,11 +14,15 @@
 
 #### Three Dimensions (I / Wi / It)
 
+The "TO" of any gap should cover all three dimensions to create intrinsic motivation.
+
 | Dimension | What it means | Key indicators |
 |-----------|---------------|----------------|
-| **I** (Individual) | Person is inspired by the project, feels it's what they need | Engagement, fit with career moment |
-| **Wi** (We) | High trust, psychological safety, no undiscussables | People talk about everything openly |
-| **It** (Purpose) | Team has its own purpose beyond company mission | Unique contribution, reason to exist |
+| **I** (Individual) | Person is inspired by the project, feels it's what they need | Engagement, career fit, thriving, development, meaning in work |
+| **Wi** (We) | High trust, psychological safety, no undiscussables | People talk about everything openly, trust exists, hard conversations happen |
+| **It** (Purpose) | Team has its own purpose beyond company mission | Unique contribution, reason to exist, team delivers business results |
+
+**Why all three matter:** A team that only hits results (It) but burns people out (I) or has toxic dynamics (Wi) is not truly effective. Effectiveness means success on all three dimensions.
 
 #### Three Intervention Tracks
 
@@ -108,6 +115,30 @@ Axialent uses public frameworks (Lencioni OR Katzenbach) for team assessment. Th
 1. CB philosophy applied to teams
 2. Consultant judgment in combining components
 3. Facilitation skill
+
+#### Teams vs. Working Groups (Katzenbach)
+
+Before improving a team, understand: **is this actually a team, or just a working group?**
+
+| Working Group | Team |
+|---------------|------|
+| Strong, clearly focused leader | Shared leadership roles |
+| Individual accountability | Individual AND mutual accountability |
+| Purpose = broader organizational mission | Specific team purpose the team itself delivers |
+| Individual work products | Collective work products |
+| Informational meetings | Problem-solving meetings |
+| Discusses, decides, delegates | Discusses, decides, does real work together |
+
+**Katzenbach's definition:** "A team is a small number of people with complementary skills who are committed to a common purpose, performance goals, and approach for which they hold themselves mutually accountable."
+
+**Why this matters for design:** Not every group SHOULD be a team. Sometimes a working group is the right structure. The intervention must help groups understand what level of interdependency they actually need — and build toward that, not more.
+
+**Choosing the Level of Interdependency (Sports Metaphor):**
+- **Swimming team** (low interdependency): Individual performances, no tradeoffs, 1+1=2
+- **Soccer team** (high interdependency): Continuous coordination, high synergies, 1+1>2
+- **Baseball team** (adaptive): Plays as cohesive unit in the field, individual batters at the plate
+
+**High-performing teams operate like baseball teams** — they have the flexibility to adapt and the competency to understand whether to address each task as a workgroup or a team. Some topics need full team collaboration (strategy, budgeting, people decisions). Others can be handled individually (local execution, sales). The key is making **disciplined choices about when and how to work together**.
 
 ---
 
@@ -269,6 +300,112 @@ This IS the activity theory move: Operation → Action, Subject → Object.
 
 ---
 
-## Synthesis Notes
+---
 
-*To be written after all calls processed*
+## Assessment Details
+
+### Two Levels of Assessment
+
+| Level | Purpose | Options |
+|-------|---------|---------|
+| **Team** | How well the team functions | 4-Quadrant (Axialent), Lencioni survey, OCI |
+| **Individual** | Personal behavioral patterns | CB Assessment, LSI, DISC |
+
+### Underlying Frameworks
+
+| Element | What It Is | Options |
+|---------|-----------|---------|
+| **Core Philosophy** | Principles that guide all work | CB (Conscious Business) — non-negotiable |
+| **Team Effectiveness Theory** | Framework for understanding teams | Lencioni (5 Dysfunctions) OR Katzenbach |
+
+### The 4-Quadrant Model (Axialent IP)
+
+| Quadrant | Focus | What You Work On |
+|----------|-------|------------------|
+| **Purpose/Values/Objectives** | Why the team exists | Mission clarity, goal alignment |
+| **Roles & Responsibilities** | Who does what | RACI, accountability |
+| **Processes** | How work gets done | Meeting effectiveness, coordination |
+| **Relationships** | Quality of conversations | CB skills, trust, psychological safety |
+
+**Relationships quadrant = CB entry point.** This is where CB teaching becomes most relevant in team context.
+
+---
+
+## Maturity Levels by Quadrant
+
+Each quadrant has three levels: Sub-Optimal → Standard → High Performance.
+
+### Purpose/Values/Culture
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Unclear or disagreement about goals. No shared vision or values. No unique team purpose. |
+| **Standard** | Clear purpose and how it supports strategy. Defined code of value-based behaviors. Agreed measures. |
+| **High Performance** | Mission generates powerful shared purpose. Breakthrough objectives come from within (not externally driven). "Let's see how good we can get!" |
+
+### Roles/Accountabilities
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Roles not defined. Overlaps and gaps create disruption. Interdependencies not understood. |
+| **Standard** | Each role defined with right metric. Interdependencies defined. Individual contributions linked to team goals. |
+| **High Performance** | "My word is my bond." Mutual accountability — if one falls, all help. Wise sacrifices for team optimization. |
+
+### Processes
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Interactions unstructured and chaotic. No defined output or agenda. Communication breakdowns. |
+| **Standard** | Effective meetings (right topics, right people). Clear output and agenda. Appropriate communication systems. |
+| **High Performance** | Flex rules to become faster. Processes are organic, not mechanistic. "More with less" essence. After-action reviews following each project. |
+
+### Relationships
+
+| Level | Characteristics |
+|-------|----------------|
+| **Sub-Optimal** | Shallow politeness covering mistrust. Silo-focused, self-promotion. Transactional exchanges only. |
+| **Standard** | Understand each other's styles. Differing viewpoints spoken and heard. Trust in competence and support. |
+| **High Performance** | No undiscussables — everything on the table. Productive inquiry and active listening. Team members seen as friends. Attracts talent. |
+
+---
+
+## Accountability Framework (Promise Framework)
+
+A framework for building accountability in the Roles quadrant.
+
+**Core Principles:**
+1. Negotiated contract between two parties
+2. "My word is my bond"
+3. Countable, tangible, visible
+
+```
+                    Being Accountable
+         ┌──────────────────┬──────────────────┐
+         │  Before Promise  │  After Promise   │
+         │                  │                  │
+         │ • Self-set goals │ • Managing risk  │
+         │ • Anticipate risk│ • Keeping score  │
+         │ • Make promises  │ • Keeping word   │
+         │ • Planning       │ • Stay focused   │
+         │ • Personal resp. │ • Self-motivate  │
+         ├──────────────────┼──────────────────┤
+         │  Before Promise  │  After Promise   │
+         │                  │                  │
+         │ • Engage others  │ • Hold ground    │
+         │ • Asking         │ • Keep heat on   │
+         │ • Get commits    │ • Manage failure │
+         │ • Influencing    │ • Reward success │
+         └──────────────────┴──────────────────┘
+                Holding Others to Account
+```
+
+**The promise has three dimensions:**
+- **Objective** — what will be delivered
+- **Measures** — how success is counted
+- **Transparent** — visible to all parties
+
+---
+
+## Open Questions / Contradictions
+
+*Add as they emerge from analysis*
