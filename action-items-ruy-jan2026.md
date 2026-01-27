@@ -44,6 +44,7 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Set up Todoist plan with Irene**
 
 ### Also This Week
+- [ ] **Discuss AI coaching dependency with team** - Review `team-effectiveness/ai-coaching-dependency.md` with Mike/Shamil. Key question: does minimum (Coach mode + simple check-ins) feel right for TE pilot?
 - [ ] **Escalate Microsoft sandbox request to Mario** - Daniel writing request, or just buy Boetus licenses (~$50-80/mo)
 - [ ] **Document testing/shipping process** - continue IN PROGRESS work
 - [ ] **Write Thinking Partner how-to** - methodology documentation
