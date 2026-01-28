@@ -1,0 +1,852 @@
+Ruy
+And when it's not super ideal.
+
+Speaker 1
+And well, it's not super ideal
+
+Ruy
+I see.
+
+Speaker 1
+Yeah, it's um with the front end.
+
+Ruy
+Yeah, it's um but the front end
+
+Speaker 1
+I don't know some strange issue with uh uh line chain chained.
+
+Ruy
+Some strange issue with uh uh line chain chain lead.
+
+Speaker 2
+Yeah yeah I think it's uh
+
+Ruy
+Yeah. Yeah I think it's uh
+
+Speaker 2
+Because it's kind it's caching the sidebar and so we have to force it not to cache it because we're updating data there.
+
+Ruy
+Because it's kind it's caching the sidebar and so we have to force it not to cache it because we're updating data there.
+
+Speaker 3
+And so yeah, it's like the rendering
+
+Ruy
+And so yeah, it's like the rendering as you see.
+
+Speaker 3
+As you see. So we're waiting for Daniel, right?
+
+Ruy
+So we're waiting for Daniel, right? Uh You know something let's uh let's start Este do you hear me now? Okay.
+
+Speaker 3
+Mm-hmm.
+
+Ruy
+Uh Yeah, because it doesn't seem to not be wrong. Let me just pull out Oh yes. Okay. So So do you want to start, Shamil?
+
+Speaker 1
+Yeah, I can. I can, yeah. So uh that was um it was not so hard to implement.
+
+Ruy
+Well,
+
+Speaker 1
+My goodness, why surrender is strangely? Um just a second No, that's strange because locally it was working good. Uh this is retro or this is spring demo. This is spring demo, yeah.
+
+Ruy
+This is sprint demo, yes. Uh yes, the retro it's uh We were supposed to have it yesterday but uh we ended up I mean discussing other things. Uh so
+
+Speaker 1
+Yeah, like yeah, I've added this panel. So you add some messages like generated from Yeah it's um
+
+Ruy
+Mm-hmm.
+
+Speaker 1
+Every free message. Yeah, maybe you could see the small lights here. No, this is a glitch from Yeah, it's like Every three messages, yeah. It's like uh gradually updating some challenges, goals And then it feels the key insides. So yeah, that's it. When the bot is changing from switching from the thinking partner to I don't know playing mindset or other bots, it will fill the my commitment also
+
+Ruy
+Okay.
+
+Speaker 1
+Probably at the thinking partner we we should turn it off.
+
+Ruy
+One thing
+
+Speaker 1
+Actually, my commitment, I don't know. Because Yeah, we're as far as soot in this bot we're investigating the pre actual problem and trying to find a solution. I mean we I were trying to find a bot that will help to find the solution.
+
+Ruy
+Uh huh.
+
+Speaker 1
+And yeah, when we find a solution, and then during the conversation, the user will agree to do something or he'll propose, he will fill this my commitment field. Yeah, probably we should we can leave it or we can just leave it empty or I don't know
+
+Ruy
+You know something uh So if you continue here it will send you to the to the uh next both, no
+
+Speaker 1
+Yeah, exactly. So this information will be saved. Yeah.
+
+Speaker 2
+When you do copy summary, it copies the whole sidebar. Is that the summary?
+
+Speaker 1
+Slide quick, please.
+
+Ruy
+Yeah.
+
+Speaker 1
+Cool. Yeah, I've tested it, it switches to another board and this sidebar is saved. And yeah, and probably the key insights also will be added on a new board. Or maybe the Also the challenge could be a little bit more precisely formulated.
+
+Ruy
+You know something
+
+Speaker 2
+Which bots can it switch to right now?
+
+Speaker 1
+Oh here it says I player mindset.
+
+Ruy
+Yeah. I think it's player mindset, uh difficult conversations, it's the commitments. I think those three
+
+Speaker 2
+Okay. So they are bots that don't have a sidebar, basically. So it I was wondering what happens if you switch to leadership growth.
+
+Ruy
+No, I think we should uh
+
+Speaker 2
+Well stay within here, no?
+
+Ruy
+Yeah, we will need to rethink that for uh when we have multiple coaching sessions going on Este um there is something that I don't know I mean it looks funny that the challenge well that everything changes. And I don't know what to do about because when you started the first three tournament it'll start to fill out the challenge and goal and gap. But it was very unprecise and now it's uh much more precise. Um
+
+Speaker 1
+Yeah, it's updating
+
+Ruy
+Yes, so I feel
+
+Speaker 1
+Maybe uh this is something we should undo this. I don't know.
+
+Speaker 2
+In a way it's it's it's good because it it it updates Maybe important things while you chat, but it's the sensation at the very beginning that's weird, no? When you have not much info and
+
+Ruy
+Yeah, when I when I was seeing it, I don't know, I feel that I mean if we wanted to wait until you talk about the gap, can you scroll in the text messages? a ver este can you go a little bit down
+
+Speaker 1
+It doesn't tell explicitly that uh this like message is my gap or I don't know. It's like
+
+Speaker 4
+connects the messages between in the session
+
+Ruy
+Yeah, it's uh around so when did it's doing the gap is here If you could wave a magic wand, so this is where it starts understanding what's the gap here. Because wave of magic wall it's where you are at and where you want to be. So it affects my work So in the last turn of the bot, that's uh when it's checking with you the the guy So I want to go
+
+Speaker 1
+Yeah we I think we can wait for you you like suggest like to wait until the gap is clear and then to fill
+
+Ruy
+Yes, I'm I'm I'm trying to figure out. I was thinking if we if we wait until the gap is clear But the thing is that there is no way of programmatically so having a fixed number of turns Uh uh so basically you are stuck with the prompt and you don't know exactly where it is. Uh Can you show us a prompt, please, of the thinking partner
+
+Speaker 3
+Ah, prompt, uh just second prompts.
+
+Ruy
+Yes, uh thinking partner, I think. Yeah, last one
+
+Speaker 2
+The last one.
+
+Speaker 3
+The last one
+
+Ruy
+Can you go to the uh steps? So it's that lag and cup Gap identification gap acknowledgement. So we uh I mean we don't have unless we force the uh the Tell them to write your cap is dot dot uh We have no way to to to
+
+Speaker 2
+I think one thing we could try. Can you open uh profiles dot uh tomo? Because there we have the the tiny extraction prompts like here. AI extract goal you could start you know if for example the goal one if you if you think a goal has been clearly defined Extract the goal in one or two sentences. Like you know, putting if statements, maybe it will make it wait a bit more before explaining
+
+Ruy
+Yeah.
+
+Speaker 2
+Because there we're telling him take a goal uh from the first phrase you write pretty much. Yeah I would put it even in at the beginning in caps, like if you think uh
+
+Ruy
+Yeah, exactly. See, maybe only if you think
+
+Speaker 3
+Yeah. Um maybe for other sources.
+
+Ruy
+Mm-hmm, yeah, the other things, the challenge and the gap as well
+
+Speaker 3
+Yeah.
+
+Speaker 1
+I also was thinking like um to use some structured
+
+Speaker 2
+prompting because um like in the prompting yeah you can do it right in the there uh on XML like critical Only if gap has been identified and then
+
+Speaker 1
+Okay. I was thinking like we have uh here the fixed amount of steps. I like to convert this prompt into structured prompt that will return JSOL like uh for example assistant message um cont um summary of context uh summary of identification what is gap, what is framework-based choice. But yeah we lose the ability of like streaming tokens like it's So it would be a like large message.
+
+Ruy
+Yeah, exactly.
+
+Speaker 1
+It wouldn't be like talking by talking. That's not so good.
+
+Ruy
+No, I mean it's an interesting idea, uh, but the problem is e exactly that that we need to be able to stream tokens is the because otherwise people will get uh yeah um
+
+Speaker 1
+Yeah, it's worth the your use experience.
+
+Ruy
+Exactly, este
+
+Speaker 3
+Yeah, I think I'll uh
+
+Ruy
+you can stream first and then get the structure piece or I don't know what uh Este quick question, you you I noticed that you're using uh Oh uh Visual Studio, you are not using cursor anymore
+
+Speaker 1
+Um I don't know like when I like uh like you remember the situation I was uh like using the API token for uh this extension.
+
+Ruy
+Yeah
+
+Speaker 1
+In cursor I try to log out and then log in. But yeah it was I spent like maybe three attempts but yeah right now like this print I didn't use the cursor
+
+Ruy
+Okay. If you notice because because I'm using it less
+
+Speaker 1
+Yeah, maybe I need to fix it.
+
+Ruy
+and less so uh yeah just tell me if if next print you notice you are not using it maybe I will turn it off
+
+Speaker 3
+Oh, yeah.
+
+Speaker 4
+So yeah, that's it.
+
+Ruy
+I
+
+Speaker 4
+Um
+
+Ruy
+Okay, este
+
+Speaker 1
+And also I'll add like some I don't know I've been yeah I add some linter to repository so Yeah it would be less messy a little bit a little bit yeah maybe uh just for
+
+Ruy
+Okay.
+
+Speaker 1
+For simplifying development. Maybe it would help. I hope that will it will help.
+
+Speaker 2
+Yeah
+
+Ruy
+Yeah, it looks nice.
+
+Speaker 2
+Sorry, can you share can you share it again, uh Shamil?
+
+Ruy
+Uh
+
+Speaker 1
+Yeah um So yeah, here is like make file.
+
+Speaker 2
+No the the the partner, the the application.
+
+Speaker 1
+Application, okay, yeah
+
+Speaker 2
+Uh I was well what came to mind while seeing it is the the sidebar is now quite busy. Are there some things that should be more visible than others? Like for example the commitment, once it's defined, maybe it should be in a different
+
+Ruy
+Yeah, I think it's a little bit of a
+
+Speaker 2
+present it in a different way or like because this is the thing the user has to focus on or I don't know what you think uh guys
+
+Ruy
+Mm, yes, este
+
+Speaker 2
+It's a bit a wall of text now like now.
+
+Ruy
+You mean like uh highlighting my commitment? I mean but ha in both
+
+Speaker 2
+Yeah, just the styles maybe the Yeah, or with a yeah white background, I don't know. Insights. The insights, do you do we say how many points we want?
+
+Ruy
+It said between three and five, no.
+
+Speaker 1
+I think maximum five.
+
+Speaker 2
+Yeah, it's five. It's in the prompt.
+
+Speaker 3
+Uh up to five. Okay.
+
+Speaker 2
+Yeah.
+
+Ruy
+Yeah, I think it makes sense to the commitment, este highlight it and then we need to test this with uh people to see what they think about the text It is
+
+Speaker 2
+What's the approach? It just says player mindset. Is that like it tells you which bot uh or which methodology?
+
+Ruy
+Yeah, maybe yeah, maybe that's something to to uh change. Right now yes, it just tells you if you're using player mindset, uh difficult conversations, whatever
+
+Speaker 2
+Okay.
+
+Ruy
+Este es el mundo.
+
+Speaker 1
+So yeah, it's the name of the bot. It was like general code and then when it was
+
+Speaker 2
+So when you change bot you know that now you are this one. Yeah it makes sense. Oh and you have it up also. Yeah it's duplicating.
+
+Ruy
+Yeah. Um I've been uh well this this is not for about this but uh I I've been thinking quite a bit of uh uh a general like a uh coaching bot that can coach you for five six sessions uh and I don't even know if we will have like specialist or we need to talk skills or get skills or so on. Well I I I uh no sorry I will not touch that
+
+Speaker 1
+I've been thinking like uh this is like you see this design and when I switch to the default bot
+
+Ruy
+Uh-huh. Yeah, that's weird.
+
+Speaker 1
+A little bit different. Yeah.
+
+Ruy
+Oh, the default that's because the UI tunnel is not well
+
+Speaker 1
+So the
+
+Ruy
+Configure not este micro
+
+Speaker 2
+So the de yeah, pr it's it's a feature. The default bot it displays all the possible uh UI element. So um it's just to show that what what what is what is showing. I I did that at some point because I wanted to make sure they are all displayed correctly. So I in ui. toml you'll see that the default bot has all these elements
+
+Speaker 1
+Your eye tonal okay.
+
+Speaker 2
+Yeah it's more down Anyway, the default bot is normally not used by anybody. Like it's not a bot that we publish.
+
+Speaker 1
+Okay. So to mmm I don't know it's better to polish here my panel sandbar or At least to highlight the commits when when it's filled.
+
+Ruy
+Yes.
+
+Speaker 1
+Yeah.
+
+Speaker 2
+And and one suggestion, I don't know if it this is these are UI questions, so it's very subjective, but Instead of showing all the things we'd not captured yet, could we display them progressively, like show just my challenge, and then you know that they appear one after the other?
+
+Ruy
+Yes Yes, yes, let's do those two things, please.
+
+Speaker 2
+Can you repeat like first so First, like right now, you would see only my challenge, and then you start chatting. And once it finds your challenge, it fills it. And then once it finds your goal, it shows my goal and it feels it, and so on.
+
+Speaker 1
+In the beginning there is nothing or uh maybe just my challenge.
+
+Speaker 2
+I don't know. Either nothing or just my challenge. Because then just the title is also weird if there's no I think in the um in the leadership growth partner it's just your challenge at first. Your challenge and your commitment. Those are the two things that show and then the rest it appears progressively. Okay.
+
+Speaker 1
+Okay, yeah.
+
+Ruy
+Yeah, that that uh exactly
+
+Speaker 2
+See And maybe it will make this flickering thing less obvious because you will have less things displayed.
+
+Ruy
+I would just put just my challenge and then the The rest progressing progress see the link.
+
+Speaker 3
+Yeah. Okay.
+
+Ruy
+Cool, yes there looks cool. Um I like it, este bueno, okay, este
+
+Speaker 3
+Yeah, that's it.
+
+Ruy
+Mike, do you want to go? I don't know. I think Daniel is is not here Maybe she has something.
+
+Speaker 2
+So I was working on the VLAN assessment admin And so uh now we have this new card in the dashboard. First of all, it it confirms that the CrownScript is running here on the right And then it gives you here the info of the last run uh and the settings that it's set right now. So uh It fetches ten ten per run. These are the things we can configure in the in the end. And uh here you can do a manual fetch because if somebody did the assessment a month ago and you want him to be in this db, you can uh go back in time to fetch all the past stuff and then when they are fetched they appear here So you see the email, the type of assessment, the date, and you can also open it right away to have a look and uh you can look for for stuff here And then it detects, for example, those two CDs icons. That means they are users who did the assessment, but they don't have yet an account in the app.
+
+Ruy
+Mm-hmm.
+
+Speaker 2
+So when they log in to Thinky Fig this a little user with a plus
+
+Ruy
+Let's stay eye cool.
+
+Speaker 2
+uh so that means when they when they log in to think if or to the app uh through the sso their account will be created automatically uh but you can also create it yourself if you want uh That was useful for me for testing, but so you can also do it here. It opens the add user model and it pre-fills the email button So that's it for the assessment. Then yeah, you can see them also here in this column, the new column, assessments. You can click. Uh debrief generation I showed last time already, you can regenerate the debriefs. And uh I think that's it for
+
+Speaker 1
+You have changed the font of the reflex. This looks like a programming font.
+
+Speaker 2
+This is my browser. I I set it to my programming font, yeah uh find it easier to record but i think this it depends on the browser Uh there were a few tiny things I think here. No, I'm not sure. Uh
+
+Speaker 1
+Maybe if there is a there was a who sorry, sorry, cold. Huge lux.
+
+Speaker 2
+A few small things like the profiles. It was not showing them all. And they are now alphabetically, as we have a lot, it's easier to find your thing and the defaults appear at the beginning. Yeah. And so that was mostly last week and uh yeah maybe Until half of last week and uh this week I've been mostly debugging. Uh Dealing with all the tickets here, Rui. I yeah, we you probably saw some some messages pass.
+
+Ruy
+Yes.
+
+Speaker 2
+And so I did one of the asks of Jonathan which was to instead of uh identify as conscious insights uh it now identifies as stoic
+
+Ruy
+Mm-hmm.
+
+Speaker 2
+Uh, if we do overview Evil oops. Maybe it's the army, right?
+
+Speaker 3
+Because I am here.
+
+Speaker 2
+Here, I am Stoic, your leadership coach, yeah. And So yeah, he was asking about privacy policy, so we need to discuss that. How to uh I was suggesting to put a link
+
+Ruy
+Are you already? Yeah. Because I already have a draft uh that we can put uh uh did you that's marking the ticket of the
+
+Speaker 2
+Mm-hmm. So you know
+
+Ruy
+Privacy policy
+
+Speaker 2
+Um uh the you have a ticket already? This is the the ticket of Jonathan's uh
+
+Ruy
+Can you just uh add me and say uh or um just uh for
+
+Speaker 2
+I think you are yeah.
+
+Ruy
+say that we need Yeah, but it's uh I have too many things.
+
+Speaker 2
+I think you should have received this it you are in at that
+
+Ruy
+Can you just in in the comment that say But we also need to look into the privacy policy.
+
+Speaker 3
+Okay.
+
+Ruy
+Please Okay, thank you.
+
+Speaker 2
+Yeah. Then um There was Nelson's request of removing this step. like to create right away instead of having the confirmation. This is this is difficult. It will be possible but a bit hacky because this is chainlit default
+
+Ruy
+Yeah. No I don't I don't think that's uh no.
+
+Speaker 2
+And I also think it's good to have it. Yeah. Because if you have a long discussion, you don't want to. I mean, although it's it is saved in your threads, but yeah.
+
+Ruy
+Yeah, but it will confuse the user Este just um can you just say that uh Close it.
+
+Speaker 3
+Okay.
+
+Speaker 2
+uh one thing yeah this and he marked it as hype so i wanted to discuss with you is the tutorial wizard and
+
+Ruy
+What's the tutorial wizard?
+
+Speaker 2
+So you know when you you arrive and let me check because I took some notes on the Onboarding. Ah, yeah. There is this thing You know it's this and this library seems quite easy to use and so we could do uh
+
+Ruy
+Ah, yes, that's nice.
+
+Speaker 2
+You know like one select your language two uh select your butt select your butt
+
+Ruy
+Well now you're going to be able to do that.
+
+Speaker 2
+For now it's just the admins who have this. So this is also another question, like at what point do we uh associate a certain list of bots with users so they have the choice here or is that something we want to do and so this could be in the
+
+Ruy
+You know Before doing this we need to understand what uh what the standalone is the what the standalone f uh um UX should be and we haven't discussed that we haven't uh have not even thought about properly so while it is a good idea right now is not the right time
+
+Speaker 2
+Yeah, yeah.
+
+Ruy
+So I I
+
+Speaker 2
+So it would be language, uh, new chat, maybe and and sidebar, open close sidebar. And then that's it pretty much.
+
+Ruy
+Taxi,
+
+Speaker 2
+So this I I think it could be done quite fast. Um pretty straightforward. We just have to do it in well the different languages. And then uh one question is once it's done, do we have a way to bring it back if you want to see it again, like small tutorial icon or I don't know, something.
+
+Ruy
+Yeah, we also had the help uh which I mean you created but we never
+
+Speaker 3
+Mm-hmm. It it could be the help.
+
+Ruy
+implemented este cay
+
+Speaker 3
+Yeah
+
+Speaker 2
+And then there's a few other things. Uh changing the
+
+Ruy
+The the issue Uh okay. No go on.
+
+Speaker 3
+Yeah.
+
+Ruy
+I see the the issue of uh yesterday uh not been able to
+
+Speaker 2
+I don't know why today Asana doesn't show me the attachments. Basically Nelson was saying that instead of Reading continue with sync to put continue with Axialent that it would be more clear for the users. And I looked into it, but it's a bit it's like there's no title field, it takes the name of the variable, so we would have to rename everywhere in our auth code think if to accelerant which is no huge deal but uh it then it confuses us because we
+
+Ruy
+Yeah, they don't really think we're making uh simulation on the training on the label.
+
+Speaker 2
+We don't remember if it's think if or not, but well. But we can do it. It's no problem.
+
+Ruy
+Maybe I mean the maybe the proper name would be Axial and LMS or something like that
+
+Speaker 2
+Excellent LMS.
+
+Ruy
+The name of the variable or just or learnaxcellent.
+
+Speaker 2
+Yeah
+
+Ruy
+com Maybe that's a great recommendation. I mean this is something that again the users will only see when we have a standalone exp uh we are pushing a standalone experience no can you can you add me because
+
+Speaker 3
+Yeah, yeah.
+
+Ruy
+Because right now this is uh Yeah again. We need to decide what we want to do with the stunt
+
+Speaker 2
+And then is this issue it's kind of a double issue because Leo also had that. So if If you complete your assessment in one language, but then you use the app in another language, well it will fetch
+
+Ruy
+I'm turning off my camera in here.
+
+Speaker 2
+Yeah.
+
+Ruy
+We were competing one language and the one
+
+Speaker 2
+So right now the way it works is if a user did assessments, for example, I think Octavio See, he has assessments in English and Spanish So there there is no problem. He can enter the app and if he uses English, he will fetch it will fetch his English assessment. If he uses Spanish, he will fetch the Spanish one.
+
+Ruy
+So
+
+Speaker 2
+But for example, uh Leo he has he did the Spanish. And then he connected to CI in English and he was surprised to see the Spanish assessment results. So the question is, is there going to be many people who make an assessment in one language, but then will use the app in another language? To me it kind of doesn't make sense. Like it they they should be the same language uh by default.
+
+Ruy
+Yeah. I mean the thing here that's uh underlying is that use So normal user user stream won't be able to change things.
+
+Speaker 3
+Yeah. Yeah.
+
+Ruy
+And that's uh something that we could should uh in the user profile.
+
+Speaker 2
+So yeah, and we have it already. I mean yeah here when you you define uh language
+
+Ruy
+Well
+
+Speaker 2
+uh yeah i i don't know we we had discussed this and we still made it possible for people to switch Maybe for the case of big companies where they mainly use, I don't know, Spanish, but they have some employees who are better in English.
+
+Ruy
+No, no,
+
+Speaker 2
+Like uh Shamil is a perfect example. Like if you it gives you the choice to
+
+Ruy
+Between English and Spanish, yeah.
+
+Speaker 2
+But from a technical point of view, it would be much simpler if from the provisioning moment we define a language. And then that's what that's what there is in the app, and that's it.
+
+Ruy
+So I think that that second thing is the easiest one to manage right now, no? In in terms of uh if you are provision in English, that's only what that's the only thing that you get.
+
+Speaker 2
+Yeah.
+
+Ruy
+And if you don't have an assessment, maybe their message should be You don't have an English assessment, please go do it.
+
+Speaker 2
+Yeah. And maybe also that means that it's good to have the languages just to test the prompts in the different languages.
+
+Ruy
+Este yeah
+
+Speaker 2
+But for a normal user,
+
+Ruy
+Exactly. It's the unless we because I mean the other what would be the implication to give people the the the ability to to use multiple languages that I mean first off we should be able to handle This the the the assessment that you take it in one language and you might use it in another. And what else?
+
+Speaker 2
+Um well it will cause problems with uh if we have global memory. If there is stuff stored in one language and then he uses the other language and then he's surprised the bot doesn't know the memory from the other language, things like that. I don't know.
+
+Ruy
+So we should support only one language. uh for the time being. I mean if you store mem memories in in in in a global thing Technically we could I mean it wouldn't be complicated to to to tell the LM if uh if there are memories in one language and you are Talking another language, just translate them.
+
+Speaker 4
+Yeah, yeah, yeah it does that really
+
+Ruy
+If if uh in case uh the clients and users re ask for for multiple languages, but I suspect not. I suspect it's only weird people like me who
+
+Speaker 2
+Because then there was there was the case of the Portuguese, no, that then we have to be sure that the assessment is available in all the languages.
+
+Ruy
+Yeah, I think Portuguese Yes, that but that uh that's I guess that's something uh we need to discuss with uh Nelson and Dolo. Or or say that we recommend that it's only one language unless they have Uh well Nelson and O and the other members of the team like we we We think only with one language we're fine unless there is something that we're not seeing or that there are requests from the clients
+
+Speaker 3
+Yeah.
+
+Speaker 2
+Well this it should be pretty simple to just deactivate it without technically removing it just with the UI settings, uh not show the language portion for normal users. And if we need it back we can bring it back.
+
+Ruy
+Uh can you can you move that uh configuration and I will send a note about languages
+
+Speaker 3
+Um
+
+Speaker 2
+I remove the configuration and yeah okay um yeah we will I'll I'll write it down properly in in planning or we can do uh I don't know if we can transform these things into tasks. This is already a task, so I can just assign it to myself. And then in when we do planning you move it to my sprint or I don't know.
+
+Ruy
+Yeah. That's one of the things that it uh It it drives me crazy with Asana is that it's not built for sprints. So we have the project of testing and development, which makes sense to be separated, but there is no view for managing the backlog of a sprint.
+
+Speaker 2
+Did you see this the workflows? I haven't checked it, but couldn't it be something
+
+Ruy
+No, that's uh that that's for creating workflows, but I mean what you can do is to have portfolios what that costs extra and so you can have a portfolio of uh several projects and then you can do things. And and that's why I was uh linear was was uh so interesting because it has I mean you can create it has uh templates for creating proper uh backlogs with uh epics and user stories and it It's not ha as hacky as it is here. And then from a user story you can create a task, or from a bug report you can create a task, and you have you a view of the screen. So it's it's built for pro teams like us.
+
+Speaker 2
+Yeah. Yeah, it would help to have a clear view of the sprint and who's working on what, yeah.
+
+Ruy
+Exactly. Because when I mean the bug reports add up quite a
+
+Speaker 2
+What Bob was going to do is sorry. Also you don't see the date like I have to go I hover over the attachment and there it tells me January 27. But Either I'm blind or but I don't see like the submission date of this feedback, you know, it's it's nowhere
+
+Ruy
+Uh That's weird. It's the
+
+Speaker 2
+Oh here. Leo Jimenez created this task here. Here it is. Yesterday. But you know you have to go inside to see it. It's it's strange. Maybe there's another view for
+
+Ruy
+Probably you can if you look at the user report also click on one of the the tickets and click on one of the three dots at the top left. Sorry at the top right I uh uh thought marriage compared to no No, uh I don't know.
+
+Speaker 2
+Well now I saw it it's it's here but yeah
+
+Ruy
+You can not add something
+
+Speaker 2
+In the form fields no, I checked. Uh it doesn't have or I I didn't find out. I mean it's no it's no huge deal. And the other thing, do you receive uh notifications when there is a feedback? Because I don't and so the other day I I suddenly saw there were things from Nelson uh two days after. Uh maybe that's in the forum settings.
+
+Ruy
+Este uh
+
+Speaker 2
+This too is weird, I don't see the form here
+
+Ruy
+Settings. Nope, I don't have a Uh it doesn't have an email. No, I I I think I don't get automatic emails from this So that's yeah, that's one of the other things that I would look into.
+
+Speaker 2
+ni
+
+Ruy
+Another tool uh so I think uh I I I I was not able to to to do the test for linear this sprint But next print I will do a test of linear and see if it looks better to us than
+
+Speaker 3
+Yeah.
+
+Ruy
+Dana Sana and if it does we can change it change the tools okay so
+
+Speaker 2
+Okay.
+
+Ruy
+A lot of books up box up in
+
+Speaker 2
+Uh yeah, but well they are not very big deals well today I there is an issue with the calendar dates sometimes uh uh struggling a bit with that it's like LLM is not reliable it's gonna tell you the right date
+
+Ruy
+Hmm.
+
+Speaker 2
+Nine times out of ten, but then every once in a while it's gonna mess it up. And so I need to use uh a form like a a real function for date calculation that detects when the guy says uh into weeks find what what day what day that is or you know It's tricky because the user can say a date in many different ways
+
+Ruy
+Mm-hmm.
+
+Speaker 2
+And so we have to interpret it, uh store it as a rational date, and then calculate based on that. um so i don't know i saw the last uh update of chain it finally has a date picker calendar remember uh that was not possible Now it seems like it is. I haven't tried it, but it is. So I don't know if if that would be an option. But we're also trying to go full text, so that kind of goes against it. Sorry.
+
+Ruy
+And and what happens if you give uh the Lemma tool to To calculate things, you can use the
+
+Speaker 2
+Well, that would be the um Yeah, that's what I'm trying to do. Yeah. Right now what I do is I I pass him uh today's date and then
+
+Ruy
+I think that would be fantastic to have a time when we're not doing red handled evidence differently.
+
+Speaker 2
+Literally the next 30 days dates like tomorrow is Friday the 2nd of February.
+
+Ruy
+Okay.
+
+Speaker 2
+And so with this list, uh it can guess pretty good. But not hundred percent.
+
+Ruy
+I mean dates are always such a tricky thing
+
+Speaker 2
+Dates are always super Yeah, and then you know you have the year change, like if you ask end of December, it needs to also change the year. If you ask for an event on January, you know, like these kinds of things. So I have to find a library that probably the default Python one is good for date calculations and then yeah make it use a date tool to calculate and then bring that back. into the answer
+
+Ruy
+Yeah. It it seems that date time has has a lot of things. It has a from Python it has time delta to calculate things.
+
+Speaker 2
+Yeah, plus we're based on the Yeah, it is what I was gonna say. It's it's based on the time zone of the user, so on your browser's time zone. And it's so it's not the same for everybody. So yeah the the and cloud gets mixed up it's like it's it's not coded super well with the what's existing now so I need to kind of work on that
+
+Ruy
+Yeah. I I guess that there should should be already more than one person that has had this problem probably there is a recipe on how to do it. I mean it's not a super just add the ticket because it's I think it's important but not super important because uh you get a confirmation from the user no or or the ics come with the wrong date sometimes
+
+Speaker 2
+Uh well sometimes it says uh when you say like next Friday, it says okay, Friday 31st.
+
+Ruy
+Ah, we need to switch.
+
+Speaker 2
+When 31st is actually Saturday. And so if the user he might not be double checking on his calendar. And so if he says yes. What's weird is actually the the calendar scheduling is good. It never makes mistakes. But it's in the text in the answer text. It it gets confused sometimes
+
+Ruy
+Oye, este I think they are in Gather
+
+Speaker 2
+We should switch together?
+
+Ruy
+Yeah, so let's switch there and then we continue talking about uh other stuff later.
+
+Speaker 2
+Okay.
+
+Ruy
+Thank you.
+

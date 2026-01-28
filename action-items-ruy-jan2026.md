@@ -7,33 +7,40 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 
 ## 🎯 This Week Focus
 
-### Week Outcomes (Jan 19-25)
-1. **PMF direction clarified** - Dolo interview + Leo discussion → clear on behavior change vs team effectiveness
-2. **Sprint set up for success** - Shamil story written + estimates reviewed + methodology advancing
-3. **Get the Avenida Bogotá sale done** - contract reviewed and signed
-
-### Completed ✓
-- [x] **Write user story for Shamil: Thinking Partner sidebar** - task definition for sprint (Jan 19)
-- [x] **Initial review of Bogotá contract** - reviewed, now needs follow-up (Jan 19)
-
-
-### Today (Jan 23)
-- [ ] **Review Dolo interview** - deep work, team effectiveness insights
-- [ ] **Team Effectiveness work plan** - deep work, see `team-effectiveness-work-plan.md`
-- [ ] **Send Richi resources** - AI podcast (OpenAI coach), book on history of intelligence (from Richi call Jan 22)
-- [ ] **Add detail to Leo's testing task** (in Asana) - explain how to test Leadership Growth Partner, give access to testing.stoicq.com
 - [ ] **Carpintero cama Enoles** - call them
 - [ ] **Update OKRs** - add enterprise integration (HRMS, LMS, messaging)
+- [ ] **Add privacy policy draft to Asana ticket** - Jonathan's request, you have draft ready (from Sprint Demo Jan 28)
+- [ ] **Send note about language policy to Nelson/Dolo** - Decision: single language per user at provisioning, remove selector for normal users
+- [ ] **Test Linear this sprint** - evaluate vs Asana for sprint management (committed Jan 28 demo)
+- [ ] **Define standalone UX vision** - blocks tutorial wizard, bot selection, language settings final design
+
+### Tomorrow (Jan 28) - Pick Up Work
+
+**First Thing:**
+- [ ] **Do own work management review** - catch up on personal task management (haven't done it). Include reflection with Claude: what's not working? Doing a lot but not getting to sprint review items, vision work slipping. Why?
+
+**Calls to Process:**
+- [ ] **Process Horacio call (Jan 27)** - `calls/cont explicación coaching : htp horacio 27ene2026.txt` - coaching/HTP methodology
+- [ ] **Process Nelson + Oseas call (Jan 27)** - `calls/Sesión con Nelson más Oseas 27enero2026.txt` - impact analytics layer for team effectiveness
+- [ ] **Process Pricing call (Jan 27)** - `calls/Pricing Oseas Nelson Leo 27ene2026.txt` - MVP team effectiveness items
+- [ ] **Process Enterprise connections call (Jan 27)** - `calls/Decisiones Enterprise connections 27ene2026.txt`
+
+**Send to Nelson:**
+- [ ] **Send MVP for team effectiveness** - `team-effectiveness/mvp-offer.md` (not sent yet)
+- [ ] **Send design logic document** - `team-effectiveness/design-rationale.md` (not sent yet)
+
+**Documentation:**
+- [ ] **Update MVP team effectiveness notes** - review/refine `mvp-offer.md` based on call insights
+- [ ] **Document AI coach design** - coaching skills + behavior change monitoring skills architecture
+
+**Sprint Prep:**
+- [ ] **Finalize sprint stories and add to tools** - review `sprints/sprint-stories-jan2026.md`, add to Notion and Asana
 
 ### Moved to Later
 - [ ] **Sacar a Enol a andar en bicicleta** → Tomorrow (Jan 24)
 - [ ] **Poner strategic brain dump en un solo lugar** → Monday (Jan 27)
 - [ ] **Evaluate Linear vs GitHub Projects** → Monday (Jan 27)
 
-### Done (Jan 21-22)
-- [x] **Talk to Daniel** - contract/management ✓
-- [x] **Meditar** ✓
-- [x] **Daily Priority Selection** ✓
 
 ### Still Pending (from earlier)
 - [ ] **Reply to Gabriel (P&G) - Thinkific/business context** - on Daniel's email, explain hybrid program, ask if auto-provisioning needed
@@ -422,6 +429,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - **OKRs with Leo (Jan 20):** `calls/OKRs Ruy - con leo - 20jan2026 - Summary.md` - Q1 OKRs, PMF process, HPT exploration
 - **Daniel 1:1 (Jan 21):** `calls/Catch up with Daniel 21jan2026 - pg and workos - Summary.md` - P&G SSO clarification, WorkOS strategy, paternity leave planning
 - **Richi Call (Jan 22):** `calls/Application Coaching - richi and ruy 22jan2026 - Extraction.md` - Team effectiveness methodology, design principles, "ayúdame a ayudarte" framework
+- **Sprint Demo (Jan 28):** `calls/Sprint Demo -28ene2026- 2026 series - Summary.md` - Thinking Partner sidebar, VLAN assessment admin, language policy, Linear evaluation
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
 - Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests
