@@ -1,0 +1,248 @@
+Speaker 1
+Mike, ¿me oyes bien? Tuve que poner el micrófono de mi cámara, de mi webcam.
+
+Speaker 3
+Está bien, está un poquito cortado durante el
+
+Speaker 5
+Just antes. Okay, don't have a second. A ver, ¿qué tal ahora? ¿Se oye mejor o igual? Ahora está bien, para mí está bien.
+
+Microphone
+See, stay more
+
+Speaker 1
+Ok, bueno, perfecto. Ok, yo se escucho mejor con esto que con los speakers. Bueno, estamos. Oigan, bueno, gracias. Como pueden ver, sigo buscando la manera de imprimirle el ritmo, de que nos pongamos todos en el equipo a mover la labor comercial y creo que nos da foco. Nos requiere un poquito de conversación back and forth, pero gracias por irnos ajustando y espero nos siga funcionando bien. Y gracias porque le echemos el empujón para el día 9 poderlo lanzar. Creo que nos estoy necesitando poco el tiempo. We have to do this, so está bien. Bueno, a ver, tenemos la conversación de lo del producto, como que creo que abrimos varios frentes. El tema de si vamos a hacer el pro la plataforma de equipo como top-down, es decir, vamos a armar un dashboard que está informado por esto y entonces de ahí vamos a captar la información y totalmente arranca al lado del equipo. Como decíamos, es un heavy lift, requiere mucho desarrollo, tiene implicancias de datos, etc. Que no lo vamos a hacer si no nos invierten, e incluso si nos invierten, quién sabe si se puede. Entonces esa era una objeción que levantabas, que me parece muy sensalta, buscábamos otro ángulo y lo que me propusiste en la llamada era algo en torno a busquemos el desarrollo de los individuos, que ya lo tenemos, que está armada la solución en torno a eso. Pongamos una capita interconectora que la pueda hacer lo de equipos, nos mostraste algo que iba en ese sentido, la lógica, el tema del contexto, etc, etc, etc, etc, etc. Today me ha pasado como que nos echamos ese clavado a esta. profundización que teníamos de ese camino, ¿no? Entonces, básicamente, recordando la visión de producto en función de vámonos por algo que. Sobre lo que ya tenemos, empieza a integrar una capa de equipo y nos diste un poco cómo, con el énfasis que has hecho en varias ocasiones, de que hay que darle un buen contexto al Elena para que pueda hacer un buen trabajo y no se invente pendejadas. . Entonces, ahí me quedé yo en la conversación. Algo importante, crítico, que no esté, de cierta manera, implicado ya en el resumen, más para saber si no me perdí algo ahorita en el recuerdo.
+
+Microphone
+O sea, no está en el resumen, pero es algo que ha estado avanzando últimamente.
+
+Speaker 3
+Yeah.
+
+Microphone
+De hecho, ayer que nos quedamos platicando Nelson y yo avancé y avancé. Gracias a la plática. Avanzamos uno porque Nelson ha estado pensando en cómo generamos soluciones para equipos específicamente HPT. Yo he estado haciendo entrevistas a profundidad varias con Richie, con Horacio, revisando documentos, entendiendo qué carajo significa el HPT.
+
+Speaker 3
+Yeah, uh
+
+Microphone
+no por encimita sino desde sus principios de diseño que está haciendo y qué podríamos hacer Y qué es lo que tenemos adentro de Axialent, que es nuestro On Fair Advantage versus todas las otras aplicaciones de equipo que podría construir cualquier persona. Entonces, este eh lo que veo es Un poco lo que les mostré el día de ayer de este y con Nelson ya lo empezamos a delinear mucho más. Que una de las cosas más cercanas que podemos construir para una solución en equipo es este journey híbrido donde Hacemos una especie de curso digital para los equipos para que se vayan desarrollando. Corremos una especie de HPT híbrido digital. Qué es algo que está en el interés de Accelerante de hacer, y nosotros podemos, o sea, y Stoic, nosotros podemos contribuir con algo. nuevo en términos de este nuevo y que le añade mucho valor por lo menos el 20% que ellos están buscando para hacer su facturación lo creo
+
+Speaker 3
+Yeah.
+
+Microphone
+este de darle coaching individual a las personas a través del proceso para que se vayan desarrollando.
+
+Speaker 3
+I don't think that's four and this
+
+Microphone
+Entonces, eso tendríamos también que construir esta.
+
+Speaker 3
+Three
+
+Microphone
+Primero es un documento en Word en donde el equipo va. poniendo cuáles son sus metas, qué quieren hacer, los distintos acuerdos a los que van llegando, y eso puede informar para tener mejor coaching hacia los individuos, que sea coaching. de los individuos, pero en el contexto del equipo y que se entiende. Eso es un poco lo que les platiqué ayer Si construimos eso para probar esa, digamos
+
+Speaker 3
+Yeah.
+
+Microphone
+Visión un poco más allá de MVP, pero todavía no es una visión en donde te imaginas desde cero que podrías hacer.
+
+Speaker 3
+I think it's great.
+
+Microphone
+Que nos ayuda a validar si realmente hay interés en equipo, o versus este leadership development o nos encontramos que las dos cosas se venden
+
+Speaker 3
+No, no.
+
+Microphone
+Lo que tiene de. . Porque yo lo que entiendo es que estamos, no hemos cambiado formalmente la visión de decir ya no vamos a vender nada de Leadership Development, sino es.
+
+Speaker 3
+Nada ha cambiado en la visión hasta ahorita, no hemos decidido, estamos explicando.
+
+Microphone
+Vamos a ver, vamos a tomar una decisión si nos conviene hablar de Teams o de Leadership Development o de las dos. Entonces, la idea es que con esta visión se puede hablar. de leadership development, pero también de team development. Y la idea es lo que subyace como tecnología, este And pedazo of technology is construct a coach that you can coach a travel of various sessions on base in a plan, and the plan se se informa de lo que el equipo va haciendo. Entonces, la recomendación es enfoquémonos en construir ese coach. The AI, porque ese coach lo podemos utilizar tanto para procesos de HPT como para procesos de leadership development. Y ayer con Nelson y ahorita ya me callo, veíamos también que poder tener Un coach de AI que te ayude y luego que también lo puedas bajar a microhábitos y te pueden mandar recordatorios, etcétera, etcétera. Es algo que le sirve a Accelent no nada más para empujar su offering de HPT, que venden, sino para sus offerings de Leadership Development, que también venden y mucho. Entonces es el resumen que luego mandaré más documentación de esto para que lo puedan. este ver y podamos este discutirlo con mayor profundidad, pero el resumen de esto es lo que yo entiendo que O sea, lo mejor que podemos hacer en los próximos meses es enfocarnos en construir ese coach al que le puedas dar ciertas instrucciones de hacia dónde ir de inicio y te ayude a hacer un plan de coach y desarrollarlo
+
+Speaker 1
+Me gusta mucho el punto de que el coach cubra los dos frentes y de que es tu, como dices tú, desarrollarlo de esa forma sirve a distintos aspectos de la agenda de digitalización de Axel y a la vez a desarrollar el producto. Entonces eso Me hace sentido, suena como el best of both worlds. Y también que la manera en la que estás planteándolo no es un either or de desarrollo y de equipo, sino que parece que nos da de las dos. Entonces, eso A este nivel de cómo te lo acabo de reflejar lo que escuché, si estoy equivocado, dime, pero a ese nivel como que lo escuché, a menos que esté demasiado optimista, me suena muy bien, me suena muy prudente irnos por ahí.
+
+Microphone
+Sí, nomás pongo un caviar ahí, ¿no? O sea El caveat es la tecnología básica para poder hacer eso: que es que puedas mantener el hilo por varias conversaciones, seis conversaciones, que puedas llevar el track. qué hace quién, sus metas, etcétera. Esa es la que sería común a ambos productos. Pero ya todo el prompting y el UX y dónde lo pones, etcétera, etcétera. Va a ser difícil, o sea, sí son dos productos diferentes, pero que tienen básicamente, o sea, que pueden compartir el mismo, este. La misma base tecnológica es
+
+Speaker 3
+Muy rudimentariamente no es constituir ese mismo vaca y le pones dos fronts.
+
+Microphone
+Exactamente, es un poco como ahorita que Conscious Insights nos sirve para ser el leadership group partner y nos sirve para ser este los ¿Cómo se llama? AI Specialist, o ya no me acuerdo como ellos dicen a los que vendemos sueltos. Cada uno requiere, para hacer los que sea un product, pulire muchas, but no start hablando micro 5 minutos.
+
+Speaker 1
+Me suena bien, me suena bien. Me entusiasmo a escuchar esto. Y la vez pasada que platicamos me comentaste algo que me pareció sería sumamente útil. Y es, no sé si te puedes hacer como te decía un bytecode o alguna demo o algo, porque el valor que esto tendría para mí es, primero, me ayuda a entenderlo mejor. Dos, si en algún momento me sirve dar un flashazo para obtener algún feedback comercial, lo tengo a la mano. Es más fácil decirles. . ¿Cómo te parece esto? . Y sacar información y no me comprometo a venderle nada a nadie, nomás que me digan. Y un tercer punto es que creo que nos va a ir a la conversación con Dolo. La comunical Dolo va a ser clave porque estamos hablando de la coordinación con ellos. Y como sabes, Dolo va a verlo con un lente de profundidad y precisión que nos va a ayudar, pero también va a acelerar el proceso en el que haga el catch-up. Este y pues acelerar el proceso de decisión. Cuando platicamos tu vida la semana pasada, lo que te entendí con lo que habías pensado hasta aquel entonces, que obviamente ya ha evolucionado y las implicaciones pueden ser diferentes, lo que yo te entendí es que No lo veías tan difícil, decías incluso, ah, puedo hacer algo ya más o menos que funcione, el scope de lo que estabas pensando será diferente. Entonces, no es not trying to hold you to it, solamente que me gustó la idea de tener algo que pueda enseñar.
+
+Microphone
+Sí, pero eh
+
+Speaker 1
+Entonces, ¿cómo es?
+
+Microphone
+Ahí sí, o sea, a ver, hay dos cosas que se pueden enseñar.
+
+Speaker 1
+¿Algo esto que se puede enseñar?
+
+Microphone
+Este, una es terminar de pulir el documento de visión. pasárselo a Nelson, que eso es lo que hablamos él y yo, este con los monitos y dibujitos que estoy pudiendo hacer relativamente rápido, y entonces eso tenerlo
+
+Speaker 3
+Yeah.
+
+Microphone
+Pues entre hoy y mañana, Nelson le da una vuelta, se lo mostramos a Richie, se lo mostramos a Horacio, este, y vemos que
+
+Speaker 3
+Yeah.
+
+Microphone
+Son palabritas y monitos y dibujitos no más, pero que nos sirven para comunicar y para con los expertos decir: tiene patas, no tiene patas, la estamos cagando, no, etc. Entonces, eso es uno. Ya que sepamos bien qué onda con eso, hay que meterse a hacer un trabajo muy a profundidad. de qué carajo significa ser un AI coach. Este para Accellent, entendiendo que Accellent tiene su O sea, ahí ya empecé con ese trabajo, pero ya vi que es mucho. O sea, básicamente tenemos que agarrar. El manual de application coaching más la práctica real de application coaching y destilarlo en un producto de AI, que eso ya es empezar a ser el coach. Este, una versión 5 coded la podríamos tener en el momento que ya. O sea, yo creo que no vale la pena hacerla ahorita. Porque mejor te hago dibujitos. Mejor empezarla a hacer cuando ya tengamos más claridad de qué carajo significa hacer coaching al estilo Accellent. For enseñar a los expertos and no, no, no, aquí no es cierto que hacemos el gap así, no es cierto que gestionamos las metas así a lo largo de las different sessions, etc. Entonces, eso es lo que creo que sería bueno.
+
+Speaker 2
+Y o sea, parte de esta experiencia tiene varias patas, ¿no?
+
+Microphone
+Perdón.
+
+Speaker 2
+O sea, una cosa es De hecho, traté un poco de irlo poniendo en el documento de vitro, que es ir generando esa capa de contexto, aunque en un inicio sea manual.
+
+Microphone
+Spear. And
+
+Speaker 2
+Entonces tienes el haces el disk, etcétera. En un inicio por último creamos custom GPTs para que el coach pueda procesar la información, llegue con esa data. Luego parte es, tienes tu taller, eso se conecta con un AI coach, ¿no? Que es lo que Ruy estaría desarrollando y que en teoría. te ayuda a llegar a un siguiente taller pero en ese proceso también parte de la visión de dolo es ir poniendo contenido dentro de la plataforma igual siguiendo el contenido de aula invertida pero con piezas más chiquitas y ahí yo traigo una idea de qué tan fácil sería desarrollar un una solución de como un AI mentor o es decir Quiero ver cómo reemplazar los huevos. No sé si te acuerdas de los huevos. Son como es un wordbook digital que te hacen preguntas y tú escribes ahí. Pero qué tal, qué tal si tenemos más bien ahí. mentores que están entrenados con el contenido previo que vieron y que te hacen reflexiones o te ayudan a responder preguntas de contenido. Es una idea que pues la traigo para validar. Y que en teoría no debería ser tan difícil tampoco de crearla. Entonces ahí tienes como diferentes componentes para mejorar el proceso de. desarrollo del individuo, eso regresa de nuevo al taller, o sea, toda esa información la intención es que poder extraer esa data sacar encontrar patrones dársela al coach informar las sesiones en en vivo y continuar como el proceso entonces ahí queremos ir continuar generando este este sistema Y ya no solo adons, o sea, a lo que voy es para que no solo se trate acerca de que vamos a tener un AI coach. Es mucho más que eso, ¿no?
+
+Speaker 1
+Hacia allá iba. A ver, tengo una observación que hacer más. Mike, ¿cómo te sienta todo esto? ¿Alguna perspectiva que tengas?
+
+Speaker 5
+Bien, bien, bien. No veo ningún mega challenge, pero sí, es como dijo Ruiz, exactamente definir qué entendemos. De momento estamos lejos de algunas especificaciones claras de cómo es un coach, pero técnicamente lo que dicen son de memoria.
+
+Microphone
+If somebody could have been doing it,
+
+Speaker 5
+Dar contexto a todo esto es ya lo hacemos. No veo ningún challenge a este nivel.
+
+Speaker 1
+Bueno, les hago un par de observaciones, porque me hace sentido, pero hay un par de cosas que.
+
+Microphone
+Yes.
+
+Speaker 1
+Una muy fácil, perdón, no es una parte de cosas, un pedido muy sencillo. Estaría muy bueno que se reúnan con Tirry y le expliquen el documento, porque Horacio y Richie son expertos metodológicos, pero no tienen visión comercial. Y Tirry tiene mucha visión comercial. Me encantaría que él lo vea porque es experto en contenido también. el trabajo con ejecutivos todo el tiempo, pero lo va a ir a decir, ah puta, esto lo podemos conectar con este value proposition, yo lo vendería así, taca, taca, tac, tac. Entonces el ente que él traiga nos va a redondear bastante El pensamiento sobre la solución, sin haber construido nada, sin que lo salga a vender, simplemente le podemos pedir eso. Yo les pediré mucho que lo vean con él porque no sirve y también es consistente con la determinación que dio el board de que el trabajo que se haga de digitalización va a estar supervisado por personas que tienen ente comercial, que son Thierry, y probablemente Fernando Fascioli, que es un externo. Entonces, cualquier cosa que vayamos a movernos o en alguna dirección, tienen que revisarlo con el sombrero comercial. Y también a lo largo del año nos van a revisar con la gente comercial para ayudarnos a no cometer. oversights estratégicos. Creo que se los había explicado, pero si no lo vuelvo a recordar, la observación puntual fue no tenemos la total certeza de si el meter digital en los productos nos va a permitir ponerle un valor agregado a las propuestas en vez de facturarte 100. te facturo 115, o el hecho de digitalizar nos va a obligar a que en vez de que te cobre 100 te cobro 50 porque ya está digitalizado. No es una diferencia menor. parte como lo intentemos ves cómo nos va ponemos como nos va a ir con el mercado y nos cambia o no la meta de facturación y de margen. Entonces tiene un montón de implicaciones, si esto mediano y largo plazo. Y eso Esa determinación no va a salir de Stoik, no va a salir del equipo de digitalización, va a salir de la gente que ha determinado el bot para traernos las preguntas y decirnos, cabrón, el pricing tiene que ir por aquí. Entonces Se los recuerdo como un tema que tiene mucha importancia estratégica, no es nada más el input, sino que además nos puede evitar un problema grave o ayudar a capturar una oportunidad importante. Por favor, entonces metan a tierra en el loop, sería muy bueno. Esa sería una cosa. La otra que ya es un poquito más de. Este te a ver, voy a explicar algo cómo lo estoy viendo.
+
+Microphone
+And uh in the moon.
+
+Speaker 1
+Perdón, quiero ir a ejemplos rudimentarios, pero. Me acuerdo mucho de la película de Forrest Gum cuando dice mi mamá me explicaba las cosas de una forma que las pueda entender y trato de hacer eso conmigo mismo y eso los digo como lo entendí. A ver. Lo que estamos hablando ahorita de entender mejor la metodología de coach y profundizar y to get it right. That's the way to go, tenemos que llegar ahí. Pero cuando yo empiezo a entenderlo, La metáfora rudimentaria que se me ocurre es la siguiente. Yo escucho lo que ustedes dicen y lo que me imagino es, estamos construyendo un coche que tengo que salir a vender y estamos hablando de. Del chasis, de las llantas, de cómo tiene que mejorar el motor y hay que hacer lo que sea más eficiente y su putonada. Digo, si es cierto todo eso Pero no puedo salir a vender un chasis. Necesito que venga la parte de arriba, donde se va a sentar la gente, que se vea bonito, que tenga asientos, aunque no hayamos terminado la parte de abajo a lo mejor, la versión 1, no puedo venderlo porque está incompleto el carro. Y es lo que siento un poco ahorita. No veo que sea viable que vendamos un sistema que el hilo conductor más visible y donde le hemos metido el mayor punch es la parte de coaching. Y no lo veo visible porque nuestros compradores no son expertos de coaching y no pueden discernir, aunque se los expliques, se quedan al nivel de, ¡ay, coach! Ya lo tengo. Ya hemos platicado nosotros de esto, estamos tratando de cambiar el framing, ¿no? Es que es un proceso y es una plataforma, pero como que the most salient future.
+
+Microphone
+Yeah, like a few.
+
+Speaker 1
+sigue siendo la i coaching y el most robust future sigue siendo la i coaching y lo que siento yo a nivel comercial es que en la venta de este coche tenemos que Avanzamos el chasis, le paramos un poquito y arreglamos la parte de arriba que se vea bonito, que tenga bonitos interiores. Bajamos otra vez al chasis y hay que ir como una parte de arriba y hacia abajo. ¿Qué quiere decir en la práctica? Cuando estamos preparando ahorita la propuesta de Vitro, por ejemplo, mi mayor preocupación no es que el coach lo haga bien. Creo que lo que tenemos es lo suficientemente bueno para que le sirva. Mi mayor preocupación es el tema del reporte. Digo, puta, pues no sé. si nos lo piden por grupos o no, exactamente qué les puedo decir, va a funcionar bien, eso me da un poquito más dependiente, ¿no? Este, entonces para mí el. dashboard, si quieres es de una cierta manera, es lo que ven. . Es la parte bonita del coche, es los interiores a los que me estoy refiriendo. Y en esta descripción que me estaban haciendo ahorita digo, puta, me hace sentido, pero seguimos Pero mencionando un chasis que nadie le entiende cómo funciona y nadie me ha pedido, quiero que corra 120 kilómetros por hora en vez de 50. Nadie me lo ha pedido. Nadie me ha dicho, necesito que el coaching sea más preciso, que siga la mejor lógica, que siga otro objetivo de negocio.
+
+Microphone
+A ver, pero okay.
+
+Speaker 1
+Nada. Entonces, no quise que no importe.
+
+Microphone
+Pero a ver qué neces a ver nomás, nomás para para para
+
+Speaker 1
+Pero sí quiero decir que a nivel comercial.
+
+Speaker 3
+Bien.
+
+Microphone
+Entender el reporting significa que yo puedo entender como líder si esto le está sirviendo o no le está sirviendo a mi equipo. ¿No? O sea, esa es la pregunta que queremos resolver. ¿Cuál es el impacto que está teniendo? Y abajo de eso hay un montón de métricas que podemos sacar. Si las personas están yendo o más están yendo a sus sesiones, si lo están completando o lo están completando, si hay adherencia o si no hay adherencia, si la gente está diciendo que le funciona o no le funciona, etc. Todo eso es súper crítico. Este y habría que diseñarlo también como parte de la especificación. Pero con la experiencia que ya tenemos de sacarle a los mismos datos la vista de este que está ahorita en el dashboard, que es este.
+
+Speaker 3
+Yeah, it's not it's also
+
+Microphone
+Pues estas son las métricas de progreso y esto es más o menos lo que está queriendo decir la gente y luego utilizarlo para ver con un lente de. de cultura es bastante o sea es muy factible hay trabajo por detrás bastante lo que quiero decir es
+
+Speaker 3
+Maybe you marked it up, you know.
+
+Microphone
+Pues también hay que diseñar cuál es el chasis para construir el. Perdón, hay que diseñar cómo se va a levar el coche para asegurarnos que el chasis está a medida y no le va a quedar grande o chico.
+
+Speaker 2
+Claro, pero para mí yo no veo que esta visión del producto sea algo que con lo que nosotros deberíamos vender ahora o sea el yo ahorita quería empezar a construir como la la especificación, la inscripción del HPT blended, pero sin esto todavía, porque no, justamente porque no está listo para poder salir a venderlo mañana. Y pensar con las componentes actuales que tenemos. ¿Qué valor adicional podemos agregar sobre el que ya sobre un HPT tradicional ¿No? Entonces, ¿qué componentes puede, o sea, cómo generamos esta primera experiencia con lo que ya tenemos? Ese es como para mí el primer objetivo. Pero en este en este y en este y todo esto de la AI Coach para mí es como la versión posterior. Pero de nuevo, yo coincido contigo. no debe ser lo que salgamos a vender o sea tenemos que ir salir o sea la propuesta de valor sigue siendo el hpt pero un hpt con una mayor visión de impacto porque en teoría lo que vamos a conseguir es más datos para demostrar más impacto y ahí está el pitch o sea el pitch está en Vamos a generarte más impacto porque toda esta data que vamos a tener por estos features que ahora tiene nuestra solución. No sé.
+
+Microphone
+Bueno, yo creo que es más impacto. Más impacto porque no nada, porque tradicionalmente Nadie atendía al resto del equipo y ahora sí. Y eso sabemos que si atiendes al resto del equipo de manera individualizada les va a ir mejor. De alguna manera lo vamos a tener que medir. Y la segunda, lo invisible, se hace visible. O sea, si ahorita tú quieres.
+
+Speaker 2
+S
+
+Microphone
+. Si ahorita tú quieres ir a ver cuál fue el impacto del HPT que hubo en Western Union que hizo Horacio, te tienes que ir a meter a los documentos de Horacio, escarbarlos, hacerles entrevistas de tres horas. Y entonces podría yo salir con un informe de eso. La idea es que con este proceso, en vez de tener que hacer ese trabajo de. De detective, de arqueólogo, salga solito. Pero yo diría que la propuesta de valor es doble. Voy a incrementarte el impacto. O sea, si me compras el HPT sin digital, vas a tener primero más impacto porque la gente va a tener su trabajo individual. Y además va a ser visible.
+
+Speaker 1
+Exacto, es incremento el impacto y te vas a dar cuenta. Son las dos las dos partes de la propuesta de valor.
+
+Microphone
+Yo creo, pues
+
+Speaker 1
+Bien, perfecto. Si no sé, a ver, sí, si no tengo esas dos cosas, no sirve. Yo creo que es la forma más fácil de ponerlo Si no estoy incrementando el impacto, ¿para qué te lo compro? Y si no es visible, no me entero, entonces ahí tiene que estar el ancla. Por eso está insistiendo en el punto. ¿Incrementar el impacto? Sí. Lo que yo creo es que lo que tenemos ya ahorita sin hacerle ninguna mejora más allá de que no se rompa cuando lo usas, Ya incrementa impacto en una cosa que no entregábamos antes.
+
+Microphone
+Mm-hmm.
+
+Speaker 1
+Por eso digo que ya le dimos la primera pasadita al chasis y ya tengo algo para vender. Y camina. Sí, sí, sí. No va a 200 kilómetros por hora, pero camina. La parte de arriba es, bueno, ¿y cómo me doy cuenta si sirvió? Y este, y esta es la que no he escuchado en las conversaciones que estamos teniendo de en qué nos estamos enfocando en desarrollo. O en, si quieres, en la parte de la concepción del producto, de qué deberíamos estarle mostrando al cliente, qué deberíamos medir que diga, pues esto está funcionando. I think I'm going to have the part proportional pension in this. I think what we're going to do and we'll disease the process. I think there's a sequence, not to arrange from the mitt. But Lo que quiero ver es cómo podemos ir avanzando iterativamente, dando ciclos completos donde tengo chasis y parte de arriba y chasis y parte de arriba, en vez de hold your horses, tenemos que definir la parte de abajo de poca madre, porque Este, pues bueno, hay que tener el input de dolo y para construir algunas cosas y eso nos va a llevar otra cosa que va a estar muy buena, va a ser un blended muy padre. Y sobre eso vamos a contribuir ahí y ese va a ser el producto a vender. O sea, todo eso, por supuesto. Pero ahorita ya tenemos suficiente para salir a vender. Y para mí esa parte es la que está faltando. Y les propongo una última cosa antes de que me tengan que dar la siguiente llamada. Lo que está muy interesante del proyecto que está haciendo ahorita Thierry con Victor y Mike creo que no te haya platicado eso, lo platicé con Ruin Nelson por la propuesta. Es que básicamente se paró con el equipo directivo de ellos y les dijo, tengo un análisis aceptado por su CFO. No sé cómo carajo hizo eso. Pero revisamos con su CFO cómo cierta clase de comportamientos que tienen los directivos que no hacen algunas cosas y hacen otras, les está costando a su empresa 100 millones de dólares de Evita, no de facturación, de evita. Entonces el CFO le brinca y dice. Puta es mucha lana, ¿qué hacemos? Ancado en ese business case, necesito ofrecer una solución. ¿Qué crees que es lo que más va a importar en esa solución? Bueno, pues que efectivamente podamos incidir de alguna manera a que cambien eso. pero que lo puedan ver. Porque están tratando de conectarlo con un impacto en el Evita. Nosotros no vamos a conectar la medición, esa blanca de Tierrillas, mira cómo le hace que lo que salga ahí conecte con lo que le está vendiendo. Pero esa para mí es como la forma más potente de decir, necesito que lo que vendamos sea igual de suerte en la visibilidad y en la ética. que lo es en su calidad del coaching. Entonces si ya tenemos dos puntos de calidad en el coaching, necesito dos puntos de calidad en el reporte. Cuando tengamos cinco una de coaching necesito cinco una de reporte. Y que se vayan dando. Si tengo 10 cenas de coaching y 2 de la de reporte, no lo vendo. Eso es un poquito lo que quería decir. Si le metemos más y lo avanzamos un montón, la gente no se da cuenta, no lo entendían a la venderlo, no se van a dar cuenta a la hora de usarlo, nosotros lo puedo demostrar después. Entonces. Fue un esfuerzo que nada más los expertos van a poder appreciar. Y ahí se nos puede morir. Entonces, si quieren, mi petición para cerrar is sigamos con la conversación Me agradezco mucho cómo están peloteando ideas porque ayuda mucho a ordenarla. Por favor, introduzcan a ti en la conversación de la revisión. Excelente a lo que está haciendo con vitro y la manera en la que vea las cosas, creo que puede llevarnos bastante a pensar, bueno, que tenemos que enseñarle al cliente para que esto, carajos, le sirva. Mi petición sería que le pregunten a ti, pero te sirve que el cliente lo vea y diga Si es cierto, si está sirviendo. Pídenle que los demás ese input y tanto nos podemos acercar a eso con lo que tenemos hoy de coaching. Ese es mi único pedido. Olvídense del HPT, que si el diseño es. En la forma en la que nos están pidiendo los proyectos, todos son la misma chingadera. Axel en mal les enseña algo y quieren que el AI Coach lo refuerce. Leadership, Development, AI Coach, HTT no tienen nombre, todos son la misma chingadera. ¿Hicimos algo y que lo practiquen con el AICOS y dime si funcionó? Bueno, con ese blueprint en común, ¿qué es lo mejor que podemos ofrecer de visibilidad de datos? Y cuando tengamos el diseño del HPT súper preciso, distintivo y que nos exija diferentes cosas cuando estemos codeseñando eso. Veamos de que se codiseñe, que acordemos cómo construir lo que se le estamos dando al primer cliente, ya estamos en Q2. Y tal vez más. Entonces, enfoquémonos ahorita en eso y hago lo mejor que pueda para empujarlo con las propuestas que estamos ya armando. que es con lo que tenemos hoy en día, no estoy vendiendo nada a futuro. Ustedes lo están viendo para que vean que no estoy ofreciendo nada que nos comprometa. Y seguimos la conversación.
+
+Microphone
+Yo lo que veo rapidísimo es que este trabajo O sea, trabajo de visibilidad es algo que Nelson tiene 100% en su cancha, o sea, de métricas de impacto, pues ahora sí que hay que juntarnos.
+
+Speaker 2
+Sí, yo lo tomo Sí, o sea, yo tomo ahorita, o sea, es para diseñar, o sea, conceptualizar esto, que es muy en línea de lo que ya fui bajando con vitro. Entonces, yo lo tomo de. . Ayer me siguió la conversión con Rui. Ruí, pásame lo que tú tengas porque tú tienes ahorita más información de Richie. Y de Horacio, porque no entiendo muy bien. Quiero ver si hay matices en el proceso, pero como dice ustedes, la verdad es que como nosotros lo vemos en la misma chingadera. Luego viene Dolo y nos hace notar ciertos matices, pero bueno, para poder seguir avanzándolo.
+
+Microphone
+En las grandes cajitas, sí, yo te lo paso.
+
+Speaker 2
+Ajá. Y yo lo aterrizo y voy con cierr. En esta versión sin el AI Coach, o sea, o sea, sin el AI Coach, yo quisiera validar primero si es que les da sentido con la ensalada de frutas que podamos hacer con lo que ya tenemos.
+
+Speaker 1
+después bueno no sé qué quieres decir sin área de coach nomás te lo reflejo en la propuesta de victorio que le está viendo el caminito que además te me encanta assessment debrief Microhappy.
+
+Speaker 2
+Claro, ese es, pero ese es ya, yo le llamo AI Coach a lo que Rui quiere desarrollar. El leadership Growth Partner, con eso sí, pero con el AI Coach que no está desarrollado, eso lo dejamos para después.
+
+Speaker 1
+Sí, claro, claro, eso no lo vamos a poner una propuesta ahorita, por supuesto. Sí, dale. Ya estamos. Bueno, entonces, Nelson, pues igual tú conectas con Tirry o lo hacen los dos. Porque el tema de las métricas, él te puede ayudar bastante. O sea, tú piénsalo, tú diseñalo, pero la gente va a decir, wey, esto es lo que sirve, es lo que yo diría, eso es lo que yo muestro el business case, esto es lo que el cliente me pide. Va a haber mucho insight ahí que al principio o a la media de tu pensamiento te puede servir. Bueno, entonces, gracias de nuevo por la conversación y sigamos avanzando. Y Mike, te he visto callado porque sé que estás tratando de traducir todo esto al técnico, pero me interesa asegurarme que Encuentras de valor la conversación y que no sientes como que tienes que estar chutando aquí, o sea, sí.
+
+Speaker 5
+Te estamos viendo. Perfecto. Sí, Ruiz, si tienes un momento podemos seguir un poco. Entonces, bueno, pues gracias.
+
+Microphone
+Andale by
+
+Speaker 1
+Me voy a ver si consigo funding por otro lado. Saludos. Bye.

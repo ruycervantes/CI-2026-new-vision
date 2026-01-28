@@ -1,0 +1,224 @@
+Speaker 1
+Excellent. And I already had a serious post connecting on that. So we're going to be publishing a series of posts around it. I set up a buffer account to schedule the meetings. And I also gave a presentation at a local school here. for parenting uh with the utilization of AI. Matri Mike actually want to talk to you uh when we uh you know, next connect in person But uh some of those are going to be turned into videos and posted. So that's on the plus sign. Uh I also started working with the new version and I really like the experience of the new CD assessment and how I pass out everything to the coach. I did not finalize that look uh transferring and taking my uh my new uh habit development assignment based on that. So I am lacking on that front and I will complete it to finalize my course correction of what was one commitment that I needed to do for the company at High Connects to the other on the on the product check-in. So that's me, Nelson. That's a good idea.
+
+Speaker 2
+Hello, can you can you hear me? Yes, okay, perfect. Well, uh first I I will uh I was testing yesterday the the two uh the the the the the the the the new testing version so I shared that with Mike already uh some bugs that I found or some ideas that I I found to maybe improve the the experience. I also then had a large dodge base with Rui in terms of like what We could develop in terms of developing the new high performing teams demo, just for you to know. So that's something that we we were aligning as part of the conversation for the the the proposal for for vitro oh something else that i want i i would like to add for for this is that I have been responding to some requests from Maho, so that's Terry, and also from Carlos Agustin regarding pricings. This is more like hey, how much costs like the coin should be in an assessment for 18 people and things like that. So I've been replying for that, not uh for the sake of agility, but I wanted to double check if that's the right approach with you. Okay, I know that we need to create a tool for the pricing model, but that's what's been happening. Also two cases that I've been dealing with.
+
+Speaker 1
+Thank you. Let's talk about it once we're done with this check-in, but I would say for the time being, until we don't have anything better, let's use the tool that we have and let's move forward with it so that we don't slow to not slow anything down. Right, but but let's still talk about it once we're done with with this with this session. We can just meet here right now and gather. All right, so uh Nelson, who do you pass it to?
+
+Speaker 2
+And then I pass it uh to Rui.
+
+Microphone
+Hi. Uh So I've been working, I will continue to work on um polishing or creating the alternative visions for uh the product uh for working this Uh during this year. So that has been my main focus because if we don't have uh clarity on the vision and then on the roadmap, it's uh difficult to know what to what to build. I think I'm Converging towards uh uh some some recommendations that I will share with the team later on. I I understand we will be talking about product uh just after it is. That's correct. It's a question to you or says. Yes
+
+Speaker 3
+Can you repeat that, please?
+
+Microphone
+No, no, no.
+
+Speaker 3
+What?
+
+Microphone
+I I just wanted to ask as a question, part of my check-in. We're gonna be talking about product right after this.
+
+Speaker 4
+Yes, yes, yes, we we will, we will. Um
+
+Microphone
+Okay. Well, uh so that's by been my main thing. I've also been uh I mean working on the management of uh the sprint uh reviewing uh box with mic and so on uh so uh that's me and I pass it on to Mike
+
+Speaker 5
+Uh so as Luis said, uh I've been working mostly this week on on debugging the the some of the feedbacks I received. And uh It's interesting this feedback exercise because it puts into light not just not just technical box but also understanding about how the app works. And there's probably a need like Nelson suggested of a tutorial part or an onboarding wizard or something that makes it clear what you can do and what you cannot do. And um so we're also discussing with Rui like what what are some features that uh are really necessary and others that maybe not, like in terms of leaving the choice of languages and all these things. So This uh the whole feedback thing is very interesting because it it it really um not just from a technical point of view but uh it it lets everybody kick the app and see like what what should change and uh Yeah Jonathan pointed out privacy policy issues. We should have a page that talks about that. My suggestion would be like how to how to bring this now out of feedback and into the discussion with the relevant people. So first Rui, I guess, but we need to have a good flow of communication after the feedback to bring it back into the app in a productive way and not just leave it there. And uh storms of the the the growth partner, um yeah, uh did an interesting uh chat with the with the bot and uh uh trying to find some time every day to to implement the the recommendations the microhabits so happy with it so far yeah and I pass it to um shamil
+
+Speaker 6
+Yeah, I mean doing coding, doing working was was working on a thinking partnership board, structing conversation summary just for users to make it easy to visualize this conversation and uh yeah fixing some bugs with um change it framework it wasn't it's also not so obvious how to fix them and yeah for me that's it
+
+Speaker 1
+Wait, you can sit on two?
+
+Speaker 6
+I don't know. Frank.
+
+Speaker 7
+So for I've been using the the the word mainly my my goal is to enhance my AI skills uh this year. So this is what I what I wanted to do. So I was working with my commitments for following two, three months mainly to um yeah do some some courses or follow some uh some specific uh um Yeah, like trends or or or people that provide some insight. I've been also having some meetings with Horacio who has taught me some things he's using So it's quite interesting. So that's on the bot side. I've had some challenges. I I shared some feedback with uh with Mike. uh this morning. Uh I was using the bot, then I left it. Uh and when I came back it didn't remember the the the conversation but I I had done like nothing. I did not like close and reopen. So that was a little bit weird. And uh when I asked it to like sent me an invite for the upcoming two weeks. It said it couldn't do it. So I had some challenges. I I shared it with uh with Mike. But it was interesting to to to to test it. Like I was Coming more with intention to test it than than something else. So it was interesting. And with that, I mean I I think we're we're done, right?
+
+Speaker 8
+Uh can I ask some oceas? Uh I I want to I I was thinking about create a kind of uh log About uh about yourself
+
+Microphone
+Mike, Samil
+
+Speaker 6
+Yeah.
+
+Speaker 8
+Um I I want to create a learning path in the notion of Molequo. So uh I want to create a a learning hub in Notion, if you are agree with that, uh to share some insight about I don't know product market fit. a trend some trends or things like that to to all of you can all of uh us can share some information relevant information uh yeah okay thank you I will create it.
+
+Speaker 1
+Um So Mike, have so far, I guess from last meeting to today, so you've had enough feedback that you can work with, right?
+
+Speaker 5
+Uh yes. Yeah, yeah.
+
+Speaker 1
+Okay. We need to give them up, but I think this is good to get started. Now I have a specific question based on what I listened and just connecting with what I mentioned at the beginning. I'm doing a world show and talking to all partners. Last Monday I had suggested that I wanted to come to every partner meeting, give them a demo, have them do it online, and then we said, you know what, we're not ready to do this with the new And then they said, okay, I won't do it. And I'd like to keep this Friday. Like communicated to the partner says, oh, this is coming. We have this ask. of you which is let's plan accounts together we have this other ask of you which is reaching out your linkedin contacts how we have this third aspect of you which is join our monthly challenge i move to one month like next to it here and we're gonna do it together and everybody's like oh sure I'm on board they're there i've gotten very positive responses from everybody regarding using uh our product one month so
+
+Microphone
+Yeah,
+
+Speaker 1
+not send anything to anybody i'm just letting them know that this is coming and i'll be sending an email by you know this week are we ready to send them access for the platform for them to do their assessment and go all the way to their microhabit and do their check-ins for the month of February if I send it this Friday. Are we ready?
+
+Speaker 5
+Uh as it stands today, no, not yet. No, the there are a few things need to be ironed out And my my worry is that we've done some test runs, but giving full freedom of using the app to many people They they will find things for sure because well especially us in the product team, we're using the app in uh we know we use it nicely, you know. We're we're not uh Yeah. I I I think I would like more people to use it who are uh insiders before uh giving it to the world because yeah
+
+Microphone
+But I mean I understand my concerns and and and I share it. But on the other side is like shouldn't I mean the partners are insiders in some way, no?
+
+Speaker 5
+Yeah.
+
+Microphone
+What do you think, Oceas? Do you think that they will freak out if there is a bug or they do you think that they will understand like okay we're working on a product there are bugs and we have to resolve them and it's nice that I catch it before a client.
+
+Speaker 1
+Position a moment There's a little bit of both. I could send the email saying, you know, partners, we're inviting you to join us on you know using the product for your own benefit but also we're giving you like the latest greatest most recent version was released just yesterday to give you the full access to the latest features and the risk of doing so is that you know we are still need like maybe a couple weeks to test it So our task is for you to use it. And if anything breaks, let us know and we'll be fixing it right away. So I can give them a heads up that, you know, in the spirit of giving them access to the best. We've chosen to take this risk and we're inviting them to run it with us. That could work. Some partners, I think they may go like, oh wait, this is not ready. I should not introduce in my proposals yet because they're cooking stuff. So it may be a disincentive for some. I don't know to tell which one's which. So another approach could be for me to say, guys, based on what we discussed, here's our first task. It's the LinkedIn. looked at it, etc. Next week I'll come back to you uh for the challenge that we discussed and and they'll be okay. Nothing will break. It's not ideal, but we can do it.
+
+Microphone
+Maybe wait, we don't wait what's the one.
+
+Speaker 1
+And then in the meantime We could reach out to maybe two or three partners or PMs, et cetera, saying, can you test the word of course next week? Test it between, I don't know, between now and Monday. Go to the full cycle, see what happens. Can you do it? And give us the feedback. If I do it with two or three partners, he's like his son commercially speaking. I can ask Annabelle who's been around for longer. to be possible. Can think of two or three people that if something was wrong they'll be like, yeah, I get it. We can work with it. And just get their, you know the other upfront opinion before listening to the others. So that's one way of doing it. But the other one could be if we get other people in the company to test them and like for people. uh and just telling like this is the latest race version please use it here's a protocol sign in assessment brief microhabit just where we'll see how it goes I think it would be best if we do the second option first. If it's like driving five people different parts of the company that are combined and testing it um but just we need this to be paint needs to have a indication what to do and give us feedback right this day maybe we we even have a meeting with And uh and then I just kick back uh the uh you know the utilization of the platform for the commercial team. ask would be can we have this by february 9th? Let me tell you why. Firing business development, I can do that. Okay. We're officially launching our monthly Stoic Utilizational Platform Challenge. Connie's gonna be there, she's gonna give you the blessing, and what and so forth. February 9th, that is 12 days from now. How does that sound? Doing two things. Then giving us feedback and doing the invitation for three February 9th.
+
+Speaker 5
+For me, uh it it's it's important to explain well how the app works, like not just send the link and oh follow the process
+
+Microphone
+Uh, I'm not sure if you're not going to be able to do that.
+
+Speaker 5
+Especially with the Leadership Growth Partner, which is a very long journey, let's say, to do it fully, with very specific steps. And I I think Franco the feedback you sent today is very uh eye-opening. It's he said pretty much uh at some point I asked him to send me a reminder. And he didn't do it. And that that's actually not a bug, it's a feature. It's the the reminder process. It is when you actually are in the scheduling step, when you have completed.
+
+Speaker 1
+I understood that he said he wanted to schedule a follow-up, but he couldn't. He's a reminder.
+
+Speaker 5
+I think he's well scheduled schedule the next event You can schedule when you are in the scheduling part of the conversation. If you are before or after or Well what I mean is this is a it's a training flow with with specific steps.
+
+Microphone
+But you can't.
+
+Speaker 5
+And we have we've had other feedbacks of oh this step is too long or too short or So I think it needs really proper explanation of how the system works, like what is expected of the user, what he can and cannot do. We just send the link. There will be there will be issues like hey, I wanted to do this and you didn't do it. And you know.
+
+Speaker 1
+I understand that. So uh let me refund my proposal. February month, not Monday, February 9th, I get a slot and it is like a 20-minute slot. I'm gonna invite everybody to join the challenge, give them the link, etc. And I will walk them through what we are doing, why we are doing it, the steps to follow, and giving them a heads up. Like this is an entire process. It's debrief. He's gonna ask you a question. There's a step two, there's a step three, there's a step four. It will take you 30 minutes it is by design, then you will be doing this checking. I can actually add all of that. I could even ask them if it works. to um come to the session having done their assessment. Now I don't know if it breaks something but the system if they do the assessment don't do the debrief they just like do the assessment brilliant And then they come back a week later and then they just finally start with free.
+
+Speaker 5
+No, that's good. That's good.
+
+Speaker 1
+Okay, okay, perfect.
+
+Microphone
+Yeah.
+
+Speaker 1
+Sorry. Franco Joe responded to me that he indeed asked for a reminder, which is not the right word. So I get why it didn't work. uh perfect oh so then let's plan um actually i i don't know why he dropped it uh i think he's having a problem coming back in but i will ask franco to see if he can help us
+
+Microphone
+Yeah. Yeah.
+
+Speaker 1
+uh find this group of users to do something over the course of the next week. Actually something starting today so we can have uh feedback. Leo, do you can you think of anybody maybe outside of Axiolan that could give us a hand with this? You're like testing it and giving us some feedback following the process, maybe with the guys that they're getting a free assessment that we charge others to try and So on and so forth.
+
+Speaker 8
+Yeah, it's dependent on the What kind of contact is? Do you mean uh excellent uh partner or people around my my network? Right. Yeah from my network.
+
+Speaker 1
+Yeah, your network. People that they're like, I don't know what accent, I don't care. But uh I'll I'll check this out because Leo tells me that it's useful and getting it for free. Just don't look for do it between, I don't know, now on Monday and Tuesday give us feedback on anything that happened.
+
+Speaker 8
+Yeah.
+
+Speaker 1
+Definitely.
+
+Speaker 8
+Mike, is that helpful if we do it that way? Yeah yeah I will I I will create the the list of people and well let's start that that uh testing
+
+Microphone
+Okay.
+
+Speaker 1
+All right, so I'll play back to you what we're agreeing on. And if it's different, if you heard anything different, please correct me Today, uh, Leo will give some thought and actually today, Leo might and reconnect please very briefly during the meeting and agree on how to reach out to people, what we're going to be telling, inviting them to do, etc. And please just either we send their appropriate information or that's something for them to try it. Mike, to your point, we should probably send a good email telling them here's what's gonna happen. This is a process, it takes 30 minutes, you have to follow the steps, so on and so forth. That needs to be described so that they know what you're doing, so that we don't bring outsiders having no idea and then everything works. So we can do that. But the idea to see would be to see we can send that out today, tomorrow, and see by maybe Monday, end of business, we can have some feedback so that we can have Tuesday through the end of the week to work with it so that on Monday, February 9, which is when we had the business development meeting, I invite partners to do this. giving them during the session the instructions of how to do this. Are we all seeing the same thing?
+
+Microphone
+Yeah.
+
+Speaker 1
+Okay. On Monday I'll ask for the status of you on February 2nd. How did this go? And we will be expecting for some of this uh you know progress. Leo, if if uh you know if there's any issue getting users please also you know uh reach out to Franco because Franco is part of the game community you may be able to get some of our project managers to try it as well. Uh so let's make sure we get those users external RID. But if we need like two and two it's okay. I just want you to to please uh run with this as far as how we're uh getting feedback for the product in yeah Beautiful. Alright, so that's what we're doing.
+
+Speaker 8
+Mike, our meeting should should be uh tomorrow morning because I am starting in 30 minutes my class here in the master.
+
+Speaker 1
+You're right, you're right. Okay, tomorrow. That's perfect. But then in the meantime, uh Mike, we're just uh please put together whatever needs to be put together to send this out, check with Nelson, like, oh, we already have this email that has all the steps. We already have bits and pieces. I just want you to see what we have and that's what has sent in the past for you to go like, I have this is enough. Or no, this is not enough. You should add this bullet point. Just be comfortable with whatever we're sending out. Sending it to Leo. So he can use it tomorrow. I think that's probably the best way to just make this work around the clock.
+
+Speaker 8
+Yeah, we we should create a kind of a one pager to to with instruction or that that uh uh like uh Mike was saying yeah the the step one step two step it also has recorded loose on how you do it so there's an email so here's how you do it here's a short video that explains how to do this
+
+Speaker 1
+So uh Nelson, let's leverage everything you've done in the past that is still current. Just want Mike and to see it and then like, oh yeah, we're still confident that people follow these instructions, it'll work. Whatever you're confident that if people follow, it'll work, send it over to Love so that he can do this tomorrow morning. Yeah.
+
+Microphone
+Okay.
+
+Speaker 8
+Okay. And Mike, I how many people do you do you think that could be interesting?
+
+Microphone
+Uh
+
+Speaker 1
+Five. Good. Five people, thank you. The reason why I'm pushing for February 9th is because the business development meeting now happens once a month. And it's the only time where everybody that I want to reach is in the same place. And I've already gave everybody a heads up. So the timing works. I can send him an email about the linking stuff this morning, this uh Friday, and letting them know all the kickoff thing that I told you about to try. It's gonna be on February 9th because Kanye's gonna be here and so on and so forth and it's okay for me to punt it back uh 10 days uh to use that date it it works well but i do want to make sure that we can actually give them access uh to for this latest and greatest version, which by the way is different from the one we're using with current projects. So we have like a stable version and the latest version. We're trying to give them the version. If we had a project tomorrow, maybe some of them So anything else on this? Mike, are you okay with this? Yep. All right. Jonathan.
+
+Speaker 9
+I know I'm jumping in in the middle, but um um a request about the the platform. I think when when people on board besides knowing what to do Uh one of the things that we should add is an element like a statement, maybe like two sentences, three sentences. about privacy. I think one of the fears of people is should I actually expose myself? Should I actually raise the topics that I raise my fears, raise my real problems And I think clear statement of what kind of information your employees get and for what kind of information stays uh secret to everybody that uh that would be amazing so if we can formulate this kind of statement i will gladly fine-tune or make it more kind of um friendly to people. I think it's very important for engagement with the platform and for the willingness with engagement.
+
+Speaker 1
+That's good. If if if you can help us with that, Jenna, that would be fantastic. And uh Mike probably in terms of making sure that that's like the first thing that It shows up when you engage with the coach or maybe Nelson does this thing that shows when you're about to do the assessment. There should not be a problem to display a screen with text. So When you guys discuss what to set to look, can you just choose where's the best place to put this in and that's it? Yeah, put the privacy statement before the assessment, after the assessment, before you start with the AI coach. just like a splash screen or like a click here before you get started anything to that effect
+
+Microphone
+Okay, that's uh I'll think about how to do that And create the spec.
+
+Speaker 2
+Yeah, there is
+
+Microphone
+Uh
+
+Speaker 2
+There is a in the email that we sent for the assessment, there is a note regarding that. But not in the platform itself.
+
+Speaker 3
+Yeah. Okay.
+
+Speaker 1
+Okay. I'm writing down what we're gonna be looking at on February on Monday, February 2nd, which is the follow-up to all of this, including privacy. um but i'm not set blocking right so i think we're set in terms of everything that we need to make sure that we are ready for engaging with our partner community, producing it and thus putting them in a better place to sell just what we need. It's our one priority and it's one of the many efforts that mine to that. Thank you for that. All right We are 45 minutes in and we have a pending conversation about the product, which last time we chose not to have because we had to cover also a few other things that we prioritized in the time. So what I suggest we do is we have a follow-up on that conversation. Leo won't be here. He has a special event that happens once today. So what I'd like to do is uh Nelson Mike, I mean let's just pick that up that conversation so that we can further direct the efforts and then we can uh reconvene. Okay.
+
+Speaker 4
+Can I uh look for you uh later to to discuss about uh the the Friday meeting we have? So we can try to jump those lights.
+
+Speaker 1
+Yeah, yeah. Thanks. All right. Perfect. All right. Let's get to it. I'm just going to jump to like the little room next and I'll see my green else over there. Okay, thank you.
+
+Speaker 8
+Thank you. Bye bye.
+
+Speaker 3
+Bye-bye. Bye

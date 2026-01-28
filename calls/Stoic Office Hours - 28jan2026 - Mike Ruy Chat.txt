@@ -1,0 +1,206 @@
+Microphone
+Eh me das dos minutos para ir por agua y Bio Break And you know what's the shirt? Maybe you maybe should be able to do it. I think we can Ya ando por acá Hola hola, ya ando por acá
+
+Speaker 3
+Intense, intenso
+
+Microphone
+Sí, este, pero qué bueno, porque ya me sentía que No más no podía tener esta conversación con o seas.
+
+Speaker 5
+Y realmente el mega challenge es vender algo que no sabemos qué es, básicamente, todavía Y entiendo que se tiene que hacer, pero es como es una dinámica.
+
+Microphone
+Yeah.
+
+Speaker 5
+Bueno, una cosa que se me ocurrió que no la pude compartir se está buscando seas básicamente este efecto wow, ¿no? Mostrarle algo que digan wow, aunque no sepamos muy bien qué es, y un win un poco fácil, creo que sería lo de lo platicamos a veces el el dashboard pero de usuario no nada más el tener este tenemos todos los datos del db que se podrían usar para un mini dashboard del mismo usuario. Cuando tú te conectas, no ves el chat directamente, pero ves el dashboard y Hoy has hecho 15 sesiones. Esos son tus temas importantes. Y aquí está tu próximo reminder. Algo algo así, porque esto es visual, ¿no? Y eso es lo que les gusta en venta cuando vendes. Pues mira, esto tiene un gráfico, tiene números, está bonito. Y así salimos un poco del puro chatbot, que ya lo han visto. No sé, era nada más esto.
+
+Microphone
+Sí, este eso se conecta con Una cosa que medio empecé a pensar este en la versión inicial de The behavior change que es bien necesario que tú tengas visibilidad de cuáles son las metas para las que estás trabajando, porque si no te estás acordando constantemente para qué estás trabajando. Es muy difícil que cambies. Y creo que eso sería la cosa a mostrar. Si tu avance, pero en función de mi meta es.
+
+Speaker 3
+Wow.
+
+Microphone
+no sé tener menos broncas en mi equipo que me asciendan a este manager etcétera Y al parecer, eso tiene un efecto súper positivo en los usuarios. O sea Yeah, just there's no
+
+Speaker 3
+Sí, hasta como visualmente como un timeline.
+
+Speaker 5
+Lo hacemos un poco en el mail. pero un timeline donde hiciste tus microchecks aquí es el objetivo y un poco de manera lúdica No tipo videojuego, pero muy visual, ¿no?
+
+Microphone
+Sí, un poco gamified, este inclusive. Sí, una cosa que me di cuenta, este O sea que está como más como open question. Pero ahorita que escuché al equipo hablar y entonces. Oseas está forzando al sistema para que lo ayude a mejorar sus hábitos de. De posteo en LinkedIn y este y Franco también dijo que él lo está utilizando para que le ayude a aprender más de AI.
+
+Speaker 3
+Subscribe
+
+Microphone
+Pues es que lo que está también súper pendiente es cuál es la experiencia de esta cosa como standalone. Que creo que eso se tiene que empezar a resolver. Este, o más bien lo tenemos que resolver para este AI General Coach, o como carajos le vayamos a poner. y conecta con esto que dices de qué es lo que veo aparte de un chat este pero bueno Y sí, mostrar un dashboard a las personas puede que ayude a. O sea, por un lado, tenemos que saber qué poner en un dashboard para un comprador. tan difícil sabemos las cosas que les importan este les importa el progreso de la gente que están hablando Cómo este programa está avanzando hacia los objetivos de ellos. Creo que eso no está tan difícil de saber, tan difícil de saber qué es lo que quieren. yo creo que tampoco de implementarlos pero esta otra pieza puede que sea lo que nos ayude en el en el mintan Este igual también y hacer el coach O sea, no sé, ¿tienes algún otro comentario o alguna otra cosa?
+
+Speaker 5
+No, I bueno um Un poco recapitular. Ahora para el demo que quiere hacer, o sea, los demos. Bueno, para mí el foco sí va a ser este bug de scheduling que funciona bien el El flujo creo que es muy corto para cambiar a date picker o cambiar de estrategia de fechas de momento. y qué más lo de lo del privacy que querés hacer algo en los próximos dos días o
+
+Microphone
+No, no, eso hay que ponerlo en el backlog. Posiblemente para este sprint, no sé. A ver, yo como veo recapitulando, es pues arreglarle los bugs urgentes de aquí al viernes. Este para que lo utilicen. O sea, los que ya sabemos que están. Para que lo utilicen cinco personas. Luego de ahí se pasa hasta el
+
+Speaker 5
+Yeah.
+
+Microphone
+¿Qué día de febrero? 5 de febrero o algo así. Este, o 9 de febrero, que tampoco es tanto. Pero yo siento que con lo que dijimos de una buena explicación de así se usa porque así es como contextualizamos a los usuarios.
+
+Speaker 3
+No,
+
+Microphone
+No debe de haber mayor problema. O sea, le van a encontrar Vox, pero me parece que no van a ser Vox que se van a jalar de los pelos y van a decir este.
+
+Speaker 3
+So maybe
+
+Microphone
+qué mal está esto porque yo creo que o sea el llegar hasta tu micro hábito y que te manda el este tu cita eso funciona bastante bien este y eso ya te da una primera buena impresión entonces este
+
+Speaker 3
+Um thing
+
+Microphone
+O sea, yo creo que la otra chamba es nomás asegurarme que las instrucciones están bien para que la gente no llegué ahí a querer que lo ayude con sus metas de entrenamiento deportivo o cualquier cosa que no tiene que ver
+
+Speaker 5
+Si quieres, revisa el core base. Base MD, se llama. Bueno, la personalidad de base del bot. A lo mejor se podría. Ajustar un poco. No hay mucho de momento en este pronto.
+
+Microphone
+Yo no le movería ahorita.
+
+Speaker 5
+Ok.
+
+Microphone
+porque todo lo que tiene que ver con prompts siempre lo menosprecio y acaba siendo un time sink este para mí enorme
+
+Speaker 5
+Es difícil testarlos de manera
+
+Microphone
+Sí, o sea, es un pedo. Entonces, yo haría esas dos cosas así como urgentes. Asegurarnos que arreglar los bugs que encontremos de aquí entonces el viernes. Lo utilizan algunas personas más, nos mandarán algunas más observaciones. Asegurarnos que mandamos muy bien el setting de qué es para que no haya falsas expectativas. y lleguen con buen contexto y lo utilizan como está intended to para clients este y eso ya de de del del proceso digamos esto y si tienes si tienes cinco minutos más de espacio mental que no sé porque ya es tarde para ti quisiera recar a ver para los sprints que siguen y un poco para el quarter que sigue
+
+Speaker 3
+Sí, sí, sí, ya diez minutos.
+
+Microphone
+Lo voy a poner por escrito, pero quería como platicarlo contigo, porque también hubo muchas implicaciones de eso, ¿no? A ver, por un lado, Enterprise Integración. Creo que tenemos el ok, lo que pensamos está bien. Eso lo voy a poner en las especificaciones para trabajar hacia allá después la parte de métricas todo eso Nelson se lo queda, nos ayuda a hacer las especificaciones de cómo debería ser un dashboard para el comprador, y de ahí vemos qué implicaciones para desarrollo hay. Este entonces así como de menos a más, eh ahora
+
+Speaker 3
+Yeah. Okay.
+
+Microphone
+Ya las implicaciones de desarrollo son hacer este coaching partner multisesion, que ahí sí hay este Mucho trabajo de investigación, no sé cómo decirlo, después, pues sí, como un poco de aterrizarlo. Ese es el que yo pensaría estarme enfocando. como en este cuarter para eh y además eh
+
+Speaker 3
+I think
+
+Microphone
+Pues lo que quisiera es que Shamil sea el que me ayude a hacer las cuestiones de implementación que necesitamos. Este sí vamos a necesitar hablar contigo bastante para tomar decisiones de, por ejemplo, la memoria la metemos en la memoria que ya existe y tratamos de hackearlo un poco.
+
+Speaker 3
+Yeah.
+
+Microphone
+O hacemos lo que ya existe, tratándolo de hackear un poco, poniéndole ahí diferentes, o sea, cuáles son tus challenges, cómo se van abriendo, etc. Este yo codeamos algo con GetSet y vemos cuál funciona mejor. Otra cosa que he estado pensando mucho también que posiblemente la CLLMs ahorita ya que se haga pelos que le demos buenos prompts y que guarde todo en texto este Y que ahí vaya jalando el contexto. O sea, como que yo veo que para este coach hay algunas cuestiones de UX, de a dónde llegas, posiblemente crear pantallas, etcétera. Pero del core of the technología sobre todo es la memoria y el prompting. Y veo que hay tres alternativas que en realidad no sé cuál sería mejor. Ayer Nelson me dio una idea que se me hizo interesante. O sea, tienes un coach, haz de cuenta como si estuvieras en close la aplicación. Le pones un base prompt al coach que saca la primera sesión y en el mismo base prompt tiene unas instrucciones para generarte un resumen al final. este en texto y eso se guarda como parte de un proyecto en la segunda sesión revisa si hay en qué sesión vas con el archivo
+
+Speaker 3
+And what is this?
+
+Microphone
+Y empiezas con base en eso y generas otro al final de la sesión. No sé, se me hizo. No se me había ocurrido algo tan simple y puede que algo así también funcione. este luego tienes un problema de cómo extraer los datos pero nada eso es como para
+
+Speaker 3
+Yeah.
+
+Speaker 5
+Sí, sí, resumen. Es un poco tipo los facts, pero a nivel de sesión uno. Un resumen de la sesión entera y luego guardar esto.
+
+Microphone
+No sé, o igual y se pueden combinar, no sé ahorita que lo estoy pensando, guardas algunos datos de manera estructurada para poder le dar visibilidad a los usuarios y darle visibilidad a los este compradores
+
+Speaker 5
+devět
+
+Microphone
+Pero le pidas al alem que primero haga un archivo, lo guardas en texto plano y luego lo procesas. No sé, no sé.
+
+Speaker 5
+Sí, es que Hay que buscar e interrogar a Claude también, basado en
+
+Microphone
+Sí, lo que yo o sea lo que yo pensaría es empezar a hacer a interrogarlo. sacar algunas hipótesis, compartirlas contigo y Shamil, tomar tu input y que Shamil me ayude a a desarrollar para no volver a alentar este en Teams Y espero, o sea, creo que Shamil puede ayudarme con esto. Ya me gustó que hoy ya. entrego este feature este creo que ya le está agarrando la onda con choice insert después
+
+Speaker 5
+Me parece, me parece un buen plan, sí Sí, porque ya, bueno, esta semana sí lo de Teams ya está un poco al lado y siento que Estoy optimista con el trimestre, pero basado en la idea de que no haya nada más, no haya mucho más.
+
+Microphone
+O sea, yo lo que te diría es: los bugs los tenemos que priorizar un montón. Como lo hicimos hoy de esto no, esto hay que comunicarlo, este lo más simple Porque hay un montón de preguntas que están saliendo que más que voc son requests de features
+
+Speaker 3
+Sí, sí, también
+
+Microphone
+O sea, la mayoría son request features, no ideas, no son, no son box. Para no orcarnos y
+
+Speaker 5
+también nos va a dar trabajo ese ese filtro de recoger ideas hablarlas decidir y tal y tal porque no con todas las prioridades, no cada idea, aunque sea buena, a lo mejor no es el momento.
+
+Microphone
+Sí, no otro enfoque de este sprint, de este cuarter, es que tengamos un mejor sistema de. de desarrollo o sea que estemos en una plataforma configurada de una manera que nos funcione que ahorita no nos está funcionando sana que tengamos buenos filtros para los bugs que nos alineamos bien en las pruebas de PMF con Leo y con los demás. De hecho No sé si inclusive más importante que lo que pueda avanzar con él. Bueno, no, las dos cosas son importantes.
+
+Speaker 3
+That's fun very good. Bueno, eh, ¿tenemos más otras cosas? Espera, perdón.
+
+Speaker 5
+Este, ok, pues creo que sí. Mañana tengo que terminar con estos box y así, mañana es jueves ya, ¿no? Sí. ¿Tenemos otro call mañana? Me confundo un poco con todo lo que se ha movido esta semana.
+
+Microphone
+Sí, uh tenemos el uh el spin plano.
+
+Speaker 5
+Okay. En mi calendario lo tengo como cancelado. No sé si.
+
+Microphone
+A ver, no, eso no está bien.
+
+Speaker 5
+Tres y media.
+
+Microphone
+Oh cielos oh no, lo borré este ay no
+
+Speaker 3
+Bueno, Franco lo puede volver a poner, ¿no?
+
+Microphone
+No, es que sab ya vi qué es lo que pasa. Yo lo dejé A ver, Shamin nos pidió de diez a once, ¿verdad?
+
+Speaker 3
+Yeah,
+
+Microphone
+A ver, lo volvió a mandar. ¿Me puedes este decir si sí lo recibiste?
+
+Speaker 5
+Bueno, si no me llega, te pasarás el link por Discord.
+
+Microphone
+A ver, este No, ya lo mandé otra vez. Ahorita les vuelvo a mandarle. Bueno, te ahí les mando un mensaje porque ya debería de estar en todos. Con todos.
+
+Speaker 3
+Okay
+
+Microphone
+Bueno, este que descanses
+
+Speaker 3
+Um
