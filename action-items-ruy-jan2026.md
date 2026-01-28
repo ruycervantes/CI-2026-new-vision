@@ -21,13 +21,16 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 
 **Calls to Process:**
 - [ ] **Process Horacio call (Jan 27)** - `calls/cont explicación coaching : htp horacio 27ene2026.txt` - coaching/HTP methodology
-- [ ] **Process Nelson + Oseas call (Jan 27)** - `calls/Sesión con Nelson más Oseas 27enero2026.txt` - impact analytics layer for team effectiveness
+- [x] **Process Nelson + Oseas call (Jan 27)** - `calls/Sesión con Nelson más Oseas 27enero2026.txt` - impact analytics layer for team effectiveness
 - [ ] **Process Pricing call (Jan 27)** - `calls/Pricing Oseas Nelson Leo 27ene2026.txt` - MVP team effectiveness items
 - [ ] **Process Enterprise connections call (Jan 27)** - `calls/Decisiones Enterprise connections 27ene2026.txt`
 
 **Send to Nelson:**
 - [ ] **Send MVP for team effectiveness** - `team-effectiveness/mvp-offer.md` (not sent yet)
 - [ ] **Send design logic document** - `team-effectiveness/design-rationale.md` (not sent yet)
+- [ ] **Send Horacio call notes/summary to Nelson** - processed call insights on HPT methodology + design principles
+- [ ] **Send design principles + digitization opportunities doc to Nelson** - table of what can be digitized from Horacio's process
+- [ ] **Share repository access with Nelson** - so he can iterate on vision docs directly
 
 **Documentation:**
 - [ ] **Update MVP team effectiveness notes** - review/refine `mvp-offer.md` based on call insights
@@ -65,6 +68,10 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - **3-month runway** to prove Stoic works
 - If it doesn't work → potential pivot to Axialent digitalization
 - Focus 100% on Stoic roadmap for now
+- **AI Coach is the single unlock** for both behavior change AND team effectiveness. Build this first. (Jan 27 session insight)
+
+### Nelson's Guiding Principle (Jan 27)
+> "Todo esto tiene que estar siempre girado acerca del impacto." - Impact demonstration is the north star for the digital layer.
 
 ### Positioning Insight (from Mike)
 > "Si nos quedamos como 'tenemos un chatbot de coaching', competimos con todos. Si nos posicionamos como 'somos dueños del ciclo de cambio de comportamiento', es otra conversación."
@@ -187,6 +194,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Schedule follow-up with Richi** - after he reviews materials
 
 ### For Vision Document
+- [ ] **Prepare visual HPT journey (comics/diagrams)** - for Nelson/Dolo alignment meeting (2nd week Feb). Use Gemini API for visuals.
 - [ ] **Add design principles to team-effectiveness-vision.md** - DP1-DP7 from extraction
 - [ ] **Document the two "aha moment" types** - espoused vs values-in-action, "ayúdame a ayudarte"
 - [ ] **Clarify MVP sequence** - Individual coaching → Team reflection (human facilitated) → Dashboard (later)
@@ -429,6 +437,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - **OKRs with Leo (Jan 20):** `calls/OKRs Ruy - con leo - 20jan2026 - Summary.md` - Q1 OKRs, PMF process, HPT exploration
 - **Daniel 1:1 (Jan 21):** `calls/Catch up with Daniel 21jan2026 - pg and workos - Summary.md` - P&G SSO clarification, WorkOS strategy, paternity leave planning
 - **Richi Call (Jan 22):** `calls/Application Coaching - richi and ruy 22jan2026 - Extraction.md` - Team effectiveness methodology, design principles, "ayúdame a ayudarte" framework
+- **Nelson + Oseas (Jan 27):** `calls/Sesión con Nelson más Oseas 27enero2026 - Summary.md` - Pricing alignment, Vitro opportunity, HPT MVP design, AI coach architecture, impact measurement
 - **Sprint Demo (Jan 28):** `calls/Sprint Demo -28ene2026- 2026 series - Summary.md` - Thinking Partner sidebar, VLAN assessment admin, language policy, Linear evaluation
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
