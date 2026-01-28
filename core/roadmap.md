@@ -170,11 +170,43 @@ Q1 is about proving the thesis, not measuring at scale. We run a structured pilo
 | Feature | Description |
 |---------|-------------|
 | **GPS Dashboard** | Visual progress toward Destination Goal. Shows trajectory: where you started, key moments, where you are. Helps users see how daily actions connect to what they want. |
+| **Behavior Adoption Tracking** | Mini-pulse surveys embedded in micro-habit check-ins. Gives visibility into *actual behavior adoption* (not just usage metrics). Self-reported data aggregated across users shows whether people are practicing desired behaviors. Answers: "Are we moving the needle?" |
 | **Call Transcript Analysis** | User shares transcript, LLM analyzes against their Tracking Goal. "You asked 2 questions before responding. Here's a moment you could have paused..." |
 | **Before/After Touchpoints** | Pre-meeting: "You have a meeting with Pedro. Remember your practice." Post-meeting: "How did it go?" |
 | **Calendar Read Access (MS Graph)** | Know user's schedule to enable context-aware reminders |
 | **Adaptive Reminders** | Timing and frequency adjust based on user patterns |
 | **Coach ↔ Daily Companion Data Flow** | Goals and progress shared between modes. Coach sees Daily Companion struggles. Daily Companion knows Coach commitments. |
+
+### Behavior Adoption Tracking Details
+
+**The problem:**
+- Current analytics show *usage* (topics discussed, session length, sentiment)
+- No visibility into *actual behavior change* - are people doing the work?
+- No way to segment by department/team for enterprise reporting
+
+**The solution:**
+- Mini-pulse surveys embedded in Daily Companion check-ins (not a separate survey)
+- Self-reported data on behavior practice ("Did you pause before responding today?")
+- **Consolidated view**: conversation themes + pulse survey results in one report
+- **Segmented by org structure**: show data per department/area (e.g., "Marketing team: 72% practicing")
+
+**Why this matters for sales:**
+- Enterprises need to show ROI on coaching investment
+- "3,847 conversations" is vanity; "72% practicing target behaviors" is impact
+- Segmentation lets L&D see which teams need attention
+- Differentiates from chatbots that only show engagement metrics
+
+**Implementation approach:**
+- Phase 0: Manual Excel reports (export data, manually group by department) - use to validate value before building
+- Phase 1: Simple yes/no pulse questions during check-in + basic segmentation
+- Phase 2: Contextual questions based on user's specific habit + full dashboard
+- Future: Triangulate with transcript analysis for validated data
+
+**Prerequisites:**
+- Capture "who is who" in our database (department, team, role)
+- Not a big technical lift, just needs to be prioritized
+
+**Source:** Oseas feedback (Jan 27, 2026) - current Stoic Analytics shows topics but not adoption. Manual workaround viable for early clients (e.g., Vitro 50-80 users).
 
 ### Transcript Analysis Details
 
@@ -300,11 +332,13 @@ Explicitly out of scope for 2026:
 
 | Question | Owner | When to Resolve |
 |----------|-------|-----------------|
+| Behavior adoption tracking: scope & timing | Ruy + Oseas | Q2 planning - pulse survey design, org segmentation, manual vs built |
 | Voice vs Bidirectional priority | Leo | Q1 - customer validation |
 | System-triggered Coach methodology | Ruy + Horacio | After Horacio meeting |
 | Full calendar integration needed? | Leo | Q1 - is reschedule/delete enough? |
 | Transcript analysis: manual vs Teams first? | Ruy | Q2 planning |
 | Real-time feedback feasibility | Mike | H2 planning - technical research |
+| Coach handoff interface: how does Daily Companion hand off? | Ruy | During Coach Multi-Session design |
 
 ---
 
@@ -336,5 +370,6 @@ Explicitly out of scope for 2026:
 
 | Date | Change |
 |------|--------|
+| Jan 27, 2026 | Added Q2 feature: Behavior Adoption Tracking - pulse surveys + org segmentation + consolidated reporting. Includes manual-first approach for validation. Source: Oseas feedback on Progress Visibility. |
 | Jan 20, 2026 | Expanded Q1 Sprint Automation (OKR #4): environment generation, profile/prompt creation, testing automation. Added Q2 Enterprise Readiness: LMS integration, SOC 2, GDPR audit. |
 | Jan 2026 | Initial version - separated Q1/Q2/H2, added transcript analysis, real-time feedback, Platform & Operations section |
