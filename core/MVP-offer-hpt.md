@@ -2,7 +2,7 @@
 
 **Purpose:** Validate this concept with Horacio (27 Jan 2026)
 
-**See also:** [AI Coaching Dependency](ai-coaching-dependency.md) — what we need to build for this to work
+**See also:** [AI Coaching Dependency](../team-effectiveness/ai-coaching-dependency.md) — what we need to build for this to work
 
 ---
 
