@@ -82,12 +82,32 @@
 | Item | Status |
 |------|--------|
 | Daily Companion Cyclic Flow FRD | Done — handed to Shamil |
-| Coach Multi-Session design | Blocked — needs Horacio meeting |
+| AI Coach design (shared foundation for LD + HPT) | In progress — design doc started (`thinking/ai-coach-design-considerations.md`) |
+| Platform vision restructuring | In progress — processing calls, restructuring `core/` docs (see `thinking/call-processing-plan-28jan2026.md`) |
 | Thinking Partner feature | To do (Ruy builds this) |
 
 ### Next Milestone
-- Horacio meeting → unblock Coach Multi-Session
+- Process remaining calls → restructure core docs (Step 3-5 of call processing plan)
 - Fri check-in with Shamil on Cyclic Flow
+
+**Note:** Ruy is a bottleneck for specs — Shamil had 2 idle days between sprints waiting for feature descriptions. Need to build a spec pipeline.
+
+---
+
+## Nelson
+
+**Location:** Barcelona, Spain
+
+### Sprint 3 Status
+| Item | Status |
+|------|--------|
+| Impact/visibility design | In progress — designing what to show clients with current product |
+| HPT blended journey spec | In progress — reviewing Ruy's Horacio/Richie materials, iterating on narrative |
+| Thierry coordination | To do — schedule product vision review |
+
+### Next Milestone
+- Impact visibility design completed
+- Review with Thierry for commercial lens validation
 
 ---
 
@@ -98,6 +118,8 @@
 ### Sprint 3 Status
 - Strategic oversight
 - Behavior Adoption Tracking input (Q2 planning with Ruy)
+- Mandated Thierry + Fernando Fascioli as commercial reviewers for all product direction (board decision)
+- Confirmed AI Coach as shared foundation for LD + HPT (Jan 28)
 
 ---
 
@@ -124,6 +146,14 @@
 **Jan 28 Sprint Demo:**
 - Progressive sidebar display — show fields as they're filled, not all upfront
 - Single language per user — remove selector for normal users; set at provisioning
+
+**Jan 28 Product Strategy (Oseas, Nelson, Mike, Ruy):**
+- AI Coach is the shared technology foundation — serves both LD and HPT
+- Impact/visibility must advance in lockstep with coaching quality ("Si tengo 10 de coaching y 2 de reporte, no lo vendo")
+- Thierry + Fernando Fascioli review all product direction (board mandate)
+- HPT-specific design waits for Dolo (Q2+); focus on common foundation now
+- Nelson owns impact/visibility design
+- Don't over-distinguish HPT vs LD at technology level — "todos son la misma chingadera" (Oseas)
 
 **Jan 27 Enterprise Meeting:**
 - pip in production — UV shared cache = security risk; use isolated venvs
@@ -158,5 +188,13 @@
 ### Ruy
 **Focus:** Methodology, roadmap, Coach design. Horacio/Dolo coordination. Unblock Shamil, guide his development.
 
+### Nelson
+**Role:** Product/operations lead for Axialent digital. Owns impact/visibility design and HPT blended journey spec. Increasingly technical — learning Claude Code and Cursor. May build chatbot wizard independently.
+
+**Skills:** Understands Axialent's data landscape, commercial context, and client needs. Bridge between consulting team and product team.
+
 ### Oseas
-**Role:** CEO, strategic alignment, board communication.
+**Role:** CEO, strategic alignment, board communication. Thinks commercially and in metaphors — anchor product conversations in what's sellable and visible.
+
+### Thierry + Fernando Fascioli (External)
+**Role:** Board-designated commercial reviewers. Must be included in product direction decisions. Thierry has strong commercial vision (anchored Vitro project to CFO-validated EBITDA impact). Fascioli is external board advisor.

@@ -4,9 +4,25 @@ Instructions for Claude Code when working in this repository.
 
 ## Project Context
 
-This is the **command center** for Conscious Insights v2 evolution. Ruy is acting as PM + CTO with a 3-month runway to prove product-market fit (PMF).
+This is the **command center** for Conscious Insights / Stoic platform evolution. Ruy is acting as PM + CTO with a 3-month runway to prove product-market fit (PMF).
 
 **Key constraint:** Limited time, small team. Prioritize ruthlessly.
+
+### Strategic Situation (as of Jan 28, 2026)
+
+**Key decision (not yet captured in core docs — restructuring pending):**
+- **Two market bets running in parallel:** Leadership Development (LD) and Team Effectiveness (HPT)
+- **One shared technology bet:** AI Coach (multi-session coaching with memory) is the core unlock for both
+- **Validating which market has more pull** — LD has a more built product; HPT validation uses current product + slides/visual prototypes (Nelson leads)
+- **Oseas's lockstep principle:** coaching quality and reporting/visibility quality must advance together — without visible impact data, the product is unsellable
+
+**Unresolved:** Stoic is a separate spin-off (that's decided), but whether Stoic sells its own product independently or operates as Axialent's digital arm is not resolved.
+
+**Active restructuring plan:** `thinking/call-processing-plan-28jan2026.md` — Step 5 will restructure `core/` docs to reflect platform reality (platform vision, behavior change as LD product spec, common engineering roadmap with 3 pillars: AI Coach + Enterprise Integration + Impact/Visibility).
+
+**Key thinking docs:**
+- `thinking/platform-vision-thinking-28jan2026.md` — platform vision framing (will become `core/vision.md`)
+- `thinking/ai-coach-design-considerations.md` — AI coach architecture and design questions
 
 ## Team
 
@@ -77,6 +93,12 @@ Call transcripts and processed summaries. Use `/process-call` to process new tra
 | `operations/` | Dev/ops calls (Daniel, Shamil, Leo) |
 
 **When reviewing meeting notes:** Extract action items, capture key decisions and who made them, note blocking items.
+
+### Team (`team/`)
+
+| Document | Purpose |
+|----------|---------|
+| `status.md` | Sprint status per person, blockers, key decisions, team profiles. Use `/update-team-status` to update. |
 
 ### Thinking (`thinking/`)
 

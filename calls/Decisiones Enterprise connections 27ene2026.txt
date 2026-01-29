@@ -1,0 +1,1158 @@
+Ruy
+Bueno, por un lado tenemos la retrospectiva del equipo para hablar del sprint, pero siento que hay un tema más urgente que es este pues las decisiones de que hemos estado hablando por correo de de las conexiones enterprise y pues no sé quisiera quisiera más bien dedicar ese tiempo a eso este porque no hemos tenido chance de hablar ¿Cómo ven? ¿Les parece?
+
+Speaker 1
+Está bien, sí sí
+
+Ruy
+Está bien. Sí, sí. Este, entonces, y ya luego buscamos algún algún espacio para la retrospectiva y así sirve que tenemos a Shamil este A ver, uh para recapitular Lo que ay Dios mío perdón es que estoy tratando de O sea, para recapitular lo que estamos haciendo, los clientes nos piden integración a sus sistemas, como de una manera muy vaga.
+
+Speaker 1
+Okay.
+
+Ruy
+Integración a su HRMS, a su L Ms y a Teams.
+
+Speaker 1
+Okay, gosh, everybody.
+
+Ruy
+Y entonces eso yo creo que significan varias cosas diferentes. Este, por un lado que no se tengan que firmar a un sistema nuevo, sino que simplemente le piquen y funcionan. De hablar, o sea que esté integrado a su Teams, a su sistema de mensajería es para que. mejorar la adopción y que la que las herramientas estén este ahí pues presentes y que no sea una más de las 700 herramientas, sino que esté metido en el flujo de trabajo. Y con el HR MS, este, básicamente que podamos, o sea, eso son varias cosas, este Ay Dios, ¿qué pasó? Que primero le cueste menos trabajo a nuestro cliente el crear grupos y asignar. Quién va a ir a qué lado y lo puede hacer desde ese sistema de HR y por otro lado que podamos este por otro lado la parte de aprovisionamiento que no es tema menor que ya lo vimos con Con PG, este y finalmente, dos cosas: que podamos jalar información de contexto del HRMS. Para personalizar la experiencia y que podamos escribir cómo va la gente en diferentes cosas. Entonces, de toda esta ensalada de posibles necesidades, Bueno, primero eso les parece que son las diferentes Razones por las cuales nos pueden decir que queremos estar integrados, o se me hace que se me esté escapando alguna gorda Pues de mi lado no se me ocurre otra cosa, o sea, poniéndome a pensar, ahora sí que poniéndome, en mi caso, que estuve en IBM y en Intel, sobre todo en IBM fue donde tuve acceso más directo, porque en Intel era como externo.
+
+Speaker 1
+Pues de mi lado no se me ocurre otra cosa, o sea, poniéndome a pensar, ahora sí que poniéndome.
+
+Speaker 2
+En mi caso, que estuve en IBM y en Intel, sobre todo en IBM fue donde tuve acceso más directo porque en Intel era como externo.
+
+Ruy
+Este, según cómo veo las plataformas, sí me hace razonable eso que estás diciendo.
+
+Speaker 2
+Según como veo las plataformas, sí me hace razonable eso que estás diciendo. O sea, que necesiten eso de saber qué es lo que está pasando con el usuario dentro de nuestra plataforma, que es la parte de la integración con los sistemas de administración.
+
+Ruy
+O sea que necesiten eso de saber qué es lo que está pasando con el usuario dentro de nuestra plataforma, que es la parte de la integración con los sistemas de administración. Y pues reducir la fricción en general de simplemente picarle un botoncito y que ya estés conectado a la plataforma sin necesidad de hacer algo más.
+
+Speaker 2
+Y pues reducir la fricción en general de simplemente picarle un botoncito y que ya estás conectado a la plataforma sin necesidad de hacer algo más.
+
+Ruy
+En este caso en particular, que es un chatbot, pues sí tiene un lugar como muy lógico dentro de las aplicaciones de intercambio de mensajes que puedan estar utilizando en cualquier plataforma, en cualquier empresa, pues.
+
+Speaker 2
+En este caso en particular, que es un chatbot, pues sí tiene un lugar como muy lógico dentro de las aplicaciones de intercambio de mensajes que pueden estar utilizando en cualquier plataforma, en cualquier empresa.
+
+Speaker 1
+Entonces es lo que se me hace razonable, no se me ocurre a mí, desde mi contexto y perspectiva no se me ocurre otra cosa.
+
+Ruy
+Entonces es lo que se me hace razonable, no se me ocurre a mí, desde mi contexto y perspectiva no se me ocurre otra cosa. gorda que estaba aquí y no lo había leído que es la integración con el LMS que nos lo piden en algunos casos este Y que eso lo que quiere decir es que podamos embebros chatbots adentro de su LMS. Como si fuera científica. Ok, pues ahí sí ya va a depender mucho de cada plataforma de esas.
+
+Speaker 1
+ok pues ahí sí ya va a depender mucho de cada de cada plataforma de esas si ahí sí no hay como manera de ser un genérico
+
+Ruy
+Sí, ahí sí no hay como manera de hacer un genérico. No
+
+Speaker 3
+Y con la distinción de si estamos solo leyendo del LMS o también escribiendo al LMC.
+
+Ruy
+Y con la distinción de si estamos solo leyendo del LMC o también escribiendo al LMC. Exacto. O sea, si bi-directional o
+
+Speaker 1
+Sí, porque lo sencillo es simplemente poner un link y que se abra la ventana en otro lado y ya no hay nada de integración como tal, simplemente reducimos la fricción de que el usuario se tenga que aprender un URL.
+
+Ruy
+Sí, porque lo simple es, perdón, lo sencillo es simplemente poner un link y que se abra la ventana en otro lado y ya no hay nada de integración como tal, simplemente reducimos la fricción de que el usuario se tenga que aprender un URL.
+
+Speaker 1
+Pero no creo que sea el caso de lo que quieren.
+
+Ruy
+Pero no creo que sea el caso de lo que quieren. Yo veo que hay como varios niveles. para hacerlo más fácil está un nivel de SSO y provisionamiento o sea que Primera fricción that the usuarios no tengan que aprenderse un password nuevo and simplemente sea SSO. Y lo segundo es que el provisionamiento, en vez de estar manejando Excel de i de vuelta, que pueda ser junto, o sea que puede ser hecho junto con su Sistema de Sesó, este como es el caso de P Y eso creo que se resuelve con WorkOS, hasta donde entiendo. Entonces esa es la fase 1. Poder firmar y poder decidir quién sí entra y quién no entra. La fase este bueno, otra fase en paralelo, o después de esa fase 1 es La integración con el sistema de mensajería. Este, que es lo que estamos haciendo ahorita con la integración con Teams, ¿no? Que te primero te lleguen alertas. Y segundo. Este que hay alguna funcionalidad de ese chatbot bidireccional. Y luego un tercer componente es la integración de lectura con su sistema de gestión de HR Para poder jalar contexto, quién es, qué rol tiene, en dónde está, datos de su performance reviews, este datos de su assessment de competencias, etcétera, cosas que le interesan a nuestros clientes para poder personalizar más la experiencia. Basicamente eso se pasa como contexto o se pasa como parte del assessment. Este, o por ejemplo, a la hora de estarles haciendo el debrief y decirles no sé que tienes un que eres muy sabelo todo bueno y eso como está relacionado con tu tu performance review o cómo está relacionado con las competencias que deberías de tener en este rol en el que estás Entonces eso, a ver, lo voy a proyectar para no sean tantas cosas en la cabeza. Les decía está la parte de SSO y provisionamiento, es como la fase cero, una en que corre en paralelo que no está aquí, es la de integración con chat. Este que ya lo hablamos, y la segunda sería solamente la lectura de los datos de char. Este y una tercera para mí sería la escritura en los datos de HR de poder pasar de datos. If you completed your learning journeys, what were the result of your assessment, how with your abilities, etc. ni siquiera o sea vale la pena entender que la vamos a necesitar pero no tenemos la más mínima bueno yo no me siento con mucha claridad de qué podemos de qué datos realmente les van a servir a ellos que les escribamos A nivel de a nivel de usuario entonces Para mí, un poco y aquí lo voy a parar. O sea, para mí el plan para este trimestre sería. Y a ver aquí hay un montón de cosas. A ver, bueno. Lo pago. Este sería seguir como seguimos con Teams porque eso ya sabemos que si lo necesitamos y además nos abre La arquitectura para otros sistemas de mensajería y la segunda pieza, que esa es la que no estoy 100% segura de qué con seguro de qué construir. Este sería el SSO y el provisionamiento. Automático con Work OS, o sea, no sé si solamente en este trimestre decir que lo podemos hacer y esperarnos a que nos lo pidan. escenario 1, escenario 2, lo podemos hacer y nos ponemos a investigar qué implicaría, escenario 3 sumado nos podemos investigar y hacemos alguna prueba de concepto No sé, ahí ya dejo de hablar para ver ustedes qué piensan. Pues a ver, Mike, las etapas están bastante claras, que lo lógico es empezar con el signal sign on.
+
+Speaker 4
+Pues a ver, las etapas están bastante claras, que lo lógico es empezar con el signal sign on.
+
+Speaker 3
+Y bueno, lo que está ya en desarrollo lo de Teams.
+
+Ruy
+Y bueno, lo que está ya en desarrollo lo de Teams.
+
+Speaker 3
+Y lo que se me ocurre para lo del provisioning tiene mucho sentido hacerlo, bueno, usar como WordOS como
+
+Ruy
+Y lo que se me ocurre para lo del provisioning tiene mucho sentido hacerlo. bueno usar como workpress como pasarela todos los provisionings uh que pueden tener los clientes lo que me pregunto es si está todo en workers tenemos también que
+
+Speaker 3
+pasaré la hacía todos los provisionings que pueden tener los clientes. Lo que me pregunto es si está todo en WordPress, tenemos también que migrar nuestro propio provisioning que ahora los usuarios están en Postgres y supongo que implica que
+
+Ruy
+migrar nuestro propio provisioning que ahora los usuarios están en Postgres y supongo que implica que
+
+Speaker 3
+quitarlos de Postgres y migrarlos a WordPress.
+
+Ruy
+quitarlos de Postgres y migrarlos a WordPress.
+
+Speaker 3
+¿No crees Daniel?
+
+Ruy
+¿No crees, Daniel? No, no, no es que cada al final del día cada sistema mantiene su base de datos de usuarios.
+
+Speaker 2
+No, no, no, es que cada a final del día cada sistema mantiene su base de datos de usuarios. WordOS tiene una forma de que tú pongas puedas poner ahí usuarios, pero no es requerido que lo utilices.
+
+Ruy
+WordQuest tiene una forma de que tú pongas, puedas poner ahí usuarios, pero no es requerido que lo utilices.
+
+Speaker 2
+Es como una función adicional que puedes usar ahí si tú de plano no quieres, o sea, si tu aplicación en particular no requiere que tengas algún tipo de seguimiento de sesiones del lado de tu aplicación como tal.
+
+Ruy
+Es como una función adicional que puedes usar ahí si tú de plano no quieres usar, o sea, si tu aplicación en particular no requiere que tengas algún tipo de seguimiento de sesiones. del lado de tu aplicación como tal.
+
+Speaker 2
+Es una cosa ahí medio extraña, pero el rollo es que si quieres dejarle esa chamba WordQuest, puedes.
+
+Ruy
+Es una cosa ahí medio extraña, pero el rollo es que si quieres dejarle esa chamba WordQuest, puedes, pero si no, lo puedes seguir haciendo como lo estamos haciendo y nosotros no tener que modificar nada.
+
+Speaker 2
+Pero si no, lo puedes seguir haciendo como lo estamos haciendo y nosotros no tener que modificar nada.
+
+Ruy
+para seguir teniendo la opción, que no sé si agregue valor ahorita a este punto, seguir teniendo la opción de nosotros poder entrar con usuario y contraseña
+
+Speaker 2
+para seguir teniendo la opción, que no sé si agregue valor ahorita a este punto, seguir teniendo la opción de nosotros poder entrar con usuario y contraseña
+
+Ruy
+Para el caso de nuestro debug y de nuestro desarrollo, seguimos necesitando eso, hasta donde yo entiendo.
+
+Speaker 2
+Para el caso de nuestro debug y de nuestro desarrollo, seguimos necesitando eso, hasta donde yo entiendo. Porque sería más complicado tener que pasar por un intermediario de identidad para poder hacer pruebas en local.
+
+Ruy
+Porque sería más complicado tener que pasar por un intermediario de identidad para poder hacer pruebas en local. Entonces ahí yo siento que necesitamos seguir teniendo esa parte, esa habilidad.
+
+Speaker 2
+Entonces ahí yo siento que necesitamos seguir teniendo esa parte, esa habilidad. En realidad lo que terminas siendo con esa dupla,
+
+Ruy
+En realidad lo que terminas haciendo con esa dupla.
+
+Speaker 2
+es ayudándote a que WordOS haga la parte de la autenticación con un tercero, que en este caso en el caso de PNG es ping
+
+Ruy
+es ayudándote a que WordQuest haga la parte de la autenticación con un tercero, que en este caso en el caso de PNG es ping.
+
+Speaker 2
+Entonces se hace esa autenticación y WordCoil ya nada más le dice a la aplicación a nosotros, pues así hay.
+
+Ruy
+Entonces se hace esa autenticación y WordCoil ya nada más le dice a la aplicación a nosotros, pues así hay.
+
+Speaker 2
+Dice: oye, ya este usuario ya está autenticado, es fulanito de tal y aquí están sus datos, párale contar.
+
+Ruy
+Dice, oye, ya este usuario ya está autenticado, es fulanito de tal y aquí están sus datos, párale de contar. Ya llegas a la aplicación y ahí decidimos qué hacemos, si se le crea un usuario nuevo, si se le pone cierto tipo de privilegios, etcétera, etcétera, etcétera.
+
+Speaker 2
+Ya llegas a la aplicación y ahí decidimos qué hacemos, si se le crea un usuario nuevo, si se le pone cierto tipo de privilegios, etcétera, etcétera, etcétera.
+
+Ruy
+Entonces, en esencia, digamos, WordCoy sigue siendo una capa que podemos cambiar en algún momento, si no nos sirve para un caso en particular, lo que sea, como ahorita en P<unk>G.
+
+Speaker 2
+Entonces, en esencia, digamos, WordOS sigue siendo una capa que podemos cambiar en algún momento si no nos sirve para un caso en particular, lo que sea, como ahorita en P<unk>G. ¿Qué pasó con P<unk>G?
+
+Ruy
+¿Qué pasó con P<unk>G?
+
+Speaker 2
+Podía haber hecho todo por medio de WordOS.
+
+Ruy
+Podía haber hecho todo por medio de WordOS, pero a final de cuentas iba a tener que escribir un middleware para hacer la traducción, porque en realidad WordOS no la estaba haciendo.
+
+Speaker 2
+Pero a final de cuenta iba a tener que escribir un middleware para hacer la traducción, porque en realidad WordOS no la estaba haciendo. Entonces dije, ¿para qué meto un intermediario si lo único que necesito es la traducción?
+
+Ruy
+Entonces dije, ¿para qué meto un intermediario si lo único que necesito es la traducción?
+
+Speaker 2
+No necesito hacer más.
+
+Ruy
+No necesito hacer más.
+
+Speaker 2
+Entonces por eso fue que dice, me quise brincar Borco S y dije, directo, no necesitamos otra cosa en este caso en particular, ahorita
+
+Ruy
+Entonces, por eso fue que me quise brincar WordCoS y dije, directo, no necesitamos otra cosa en este caso en particular. Ahorita
+
+Speaker 2
+Entonces, en esencia es la pieza del autenticador que puede ser WordOS, puede ser inclusive directamente Microsoft, qué sé yo.
+
+Ruy
+Entonces, en esencia es la pieza del autenticador que puede ser WordOS, puede ser inclusive directamente Microsoft, qué sé yo.
+
+Speaker 2
+Si se necesita un middleware para lo que sea, el que la cosa, la parte que hace la provisión, tanto a lo mejor de Thinkific como de CI y directamente las dos aplicaciones que usamos que son Thinkific y CI
+
+Ruy
+Si se necesita un middleware para lo que sea, la parte que hace la provisión, tanto a lo mejor de Thinkific como de CI y directamente las dos aplicaciones que usamos, que son Thinkific y CI.
+
+Speaker 2
+No sé si queda más o menos claro, no sé si me hice pelotas.
+
+Ruy
+No sé si queda más o menos claro, no sé si me hice pelotas. O sea, entonces.
+
+Speaker 2
+Entonces.
+
+Ruy
+. Nomás hay para entender Work OS Workes en el caso de si hay más este más cinquific, funcionaría como el lugar a donde llegan los usuarios y de ahí dependiendo del de a donde van y del rol que tienen les das acceso ya sea a Synkific o le como este y les das acceso a este perdón, conscious insights con la bandera que necesites
+
+Speaker 1
+Sí, más o menos por ahí va.
+
+Ruy
+Sí, más o menos por ahí va. Sabor Cress es la puerta de entrada y luego te manda a donde sea.
+
+Speaker 3
+Y luego te manda a donde sea.
+
+Speaker 2
+Aquí viene un reto interesante.
+
+Ruy
+Aquí viene un reto interesante. Hasta donde yo entiendo, WordQue solamente nos permite usar una sola URL para toda la aplicación como tal.
+
+Speaker 2
+Hasta donde yo entiendo, WordOE solamente nos permite usar una sola URL para toda la aplicación como tal. Entonces eso nos va a terminar obligando a escribir algún pequeño script, algún pequeño middleware que va a tener que encargarse de redirigir a los usuarios a la instancia que les corresponde.
+
+Ruy
+Entonces eso nos va a terminar obligando a escribir algún pequeño script, algún pequeño middleware que va a tener que encargarse de redirigir a los usuarios a la instancia que les corresponde.
+
+Speaker 2
+Entonces todos van a terminar cayendo a lo mejor en login.
+
+Ruy
+Entonces todos van a terminar cayendo a lo mejor en login.
+
+Speaker 2
+stoicview.
+
+Ruy
+stoicview.
+
+Speaker 2
+com y de ahí se tienen que mandar a PG Stoic o como sea, ¿no?
+
+Ruy
+com y de ahí se tienen que mandar a PG, Stoic o como sea, ¿no?
+
+Speaker 2
+Según el cliente.
+
+Ruy
+Según el cliente. O sea, vamos a tener que tener un pequeño software que haga esa redirección, porque hasta donde entiendo no puedes tener como múltiples instancias de una aplicación asignada cada
+
+Speaker 2
+O sea, vamos a tener que tener un pequeño software que haga esa redirección. Porque hasta donde entiendo, no puedes tener como múltiples instancias de una aplicación y asignada a cada.
+
+Ruy
+a cada grupo de usuarios, hasta donde yo entiendo, pues no ha entrado tanto ese detalle.
+
+Speaker 2
+grupo de usuarios, hasta donde yo entiendo, pues no ha entrado tanto a ese detalle. Entonces nomás para contemplar que puede venir esa necesidad.
+
+Ruy
+Nomás para contemplar que puede venir esa necesidad. y luego la otra cosa de la que no hemos hablado además de esto es el dashboard que ahí sí no hay este no tenemos básicamente login habría que construirlo Este y habría que construirlo. Y ahí es tomar la decisión de WordOS nos sirve para hacer el login o mejor hacemos otra cosa y lo utilizamos de esta manera. ¿No?
+
+Speaker 1
+Jim
+
+Ruy
+Sí.
+
+Speaker 1
+porque si de plano ese no tiene nada de integración con nada más entras a un url y te muestra todo y ya
+
+Ruy
+Porque si de plano ese no tiene nada de integración con nada, ¿verdad? Nada más. Entras a un URL y te muestra todo y ya. Fast up. ¿Cómo está el bebé?
+
+Speaker 3
+¿Cómo está el bebé? Falta poco, ¿no?
+
+Ruy
+Falta poco, ¿no? Sí, ya va a ser para el 5.
+
+Speaker 3
+Sí, ya va a ser para el 5.
+
+Ruy
+O sea una semana, sí.
+
+Speaker 3
+O sea, una semana.
+
+Speaker 2
+Sí, ya una semana.
+
+Ruy
+Sí, ya una semana. Se maneja un par de días, pero sí.
+
+Speaker 2
+Se maney un par de días, pero sí.
+
+Speaker 3
+Ya saben si niño o niña, o sea.
+
+Ruy
+Ya saben si niño o niña, o sea. Sí, es niña.
+
+Speaker 2
+Sí, es niña.
+
+Ruy
+No es niña.
+
+Speaker 2
+No, es niña. Enhorabuena.
+
+Ruy
+Enhorabuena.
+
+Speaker 2
+Sí, como que ahorita toda la gente cercana que me haya tocado, todos van a ser niñas.
+
+Ruy
+Sí, como que ahorita toda la gente cercana que me ha tocado, todos, todos van a ser niñas.
+
+Speaker 2
+si de que están sí de gente que cercano que me entero de del círculo cercano pues de un uno o dos brincos que van a tener bebé resulta que todas son niñas
+
+Ruy
+de gente que cercano que me entero de del círculo cercano pues de un uno o dos brincos que van a tener bebé resulta que todas son niñas
+
+Speaker 2
+Mi hermano también hace dos años tuvo bebé y fue fue niña también.
+
+Ruy
+Mi hermano también hace dos años tuvo bebé y fue niña también.
+
+Speaker 2
+Pues está interesante que están haciendo muchas niñas.
+
+Ruy
+Entonces está interesante que están haciendo muchas niñas.
+
+Speaker 3
+En mi familia, nosotros somos los únicos con niños en la familia.
+
+Ruy
+En mi familia, nosotros somos los únicos con niños en la familia.
+
+Speaker 3
+Todos los demás son niñas.
+
+Ruy
+Todos los demás son niñas.
+
+Speaker 2
+que hasta cierto punto tengo entendido que es normal porque la población más o menos siempre hay más más mujeres que hombres casi siempre pueden creo que en casi todos los países
+
+Ruy
+Hasta cierto punto tengo entendido que es normal porque la población más o menos siempre hay más mujeres que hombres casi siempre pueden, creo que en casi todos los países.
+
+Speaker 3
+Como 51.
+
+Ruy
+Como 5149 algo sí.
+
+Speaker 3
+49 algo, sí.
+
+Ruy
+No es mucho, pero un poco más.
+
+Speaker 3
+No es mucho, pero un poco más.
+
+Speaker 2
+Yo recuerdo que cuando era adolescente decían mucho de, no es que a cada hombre le tocan, no sé, cinco mujeres, un pedo así decían.
+
+Ruy
+Yo recuerdo que cuando era adolescente decían mucho de no es que a cada hombre le tocan, no sé, cinco mujeres, un pedo así decían. Ya después salieron estadísticas que no era cierto, pero ese era el saber popular.
+
+Speaker 2
+Ya después salieron estadísticas que no era cierto, pero ese era el saber popular.
+
+Ruy
+Bueno, ya puedes pintar todo en roso, en rosa.
+
+Speaker 4
+Bueno, ya puedes pintar todo todo en roso, en rosa. En rosa, eh.
+
+Ruy
+En rosa, ¿eh?
+
+Speaker 4
+Uno de los cortos.
+
+Ruy
+Uno de los cortos.
+
+Speaker 2
+Ah, pues ya quisieras que mi esposa no es muy fan del rosa, así que a ver qué color terminamos eligiendo.
+
+Ruy
+Ah, pues ya quisieras que mi esposa no es muy fan del rosa, así que a ver qué color terminamos eligiendo.
+
+Speaker 3
+El México y el rosa típico de México.
+
+Ruy
+El México y el rosa típico de México.
+
+Speaker 2
+Ah, el rosa mexicano.
+
+Ruy
+Ah, el rosa mexicano.
+
+Speaker 3
+Sí, sí, sí. Me hizo reír porque en Texas había muchas niñas así con el, sabes, con el jogging completo rosa y lo típico que ves en México.
+
+Ruy
+Me hizo reír porque en Texas había muchas niñas así con el, sabes, con el jogging completo rosa y lo típico que ves en México. Pues que Texas es una sucursal de México, Texas y California.
+
+Speaker 2
+Pues que Texas es una sucursal de México, Texas y California.
+
+Speaker 3
+Sí, un americano me dijo, yo soy mexicano, pero de hace cuatro generaciones.
+
+Ruy
+Si un americano me dijo, yo soy mexicano, pero de hace cuatro generaciones.
+
+Speaker 3
+Sí, antes de la reconquista, conquista mal.
+
+Ruy
+Antes de la reconquista, conquistar man. Bueno, perdón, Rubi, seguimos.
+
+Speaker 1
+Bueno, perdón, Ruby, seguimos.
+
+Ruy
+No, no, no. Este. Entonces estamos en dashboard, que es algo pendiente. No súper urgente, pero sí necesario considerar. Este entonces yo lo que veo de WordCo es que De mínima en este sprint sí estaría bueno por lo menos investigar bien para tener mucha claridad de que quisieran, o sea, de si nos piden hacer integración. Eh, podemos empezar a ejecutar rápido, eh, pero no sé No sé cómo lo ven. O sea, si necesitamos hacer algo más de. más allá de investigar. O si para investigar no es suficiente leer la documentación, sino hacer alguna POC. O, si es suficiente. Mira, yo en lo personal siempre soy más de hacer POCs porque ahí te vas dando cuenta de cómo en realidad están las cosas.
+
+Speaker 1
+Mira, yo en lo personal siempre soy más de hacer POCs porque ahí te vas dando cuenta de cómo en realidad están las cosas.
+
+Speaker 2
+Porque luego la documentación dice algo y a la hora de la hora que lo estés implementando resulta que se hace distinto o hay alguna variación que no esté contemplada.
+
+Ruy
+Porque luego la documentación dice algo y a la hora de la hora que lo estés implementando resulta que se hace distinto o hay alguna variación que no esté contemplada.
+
+Speaker 2
+o alguna limitante que supusimos que iba a funcionar el oro ahora no funciona.
+
+Ruy
+o alguna limitante que supusimos que iba a funcionar y ahora la hora no funciona.
+
+Speaker 2
+Entonces yo prefiero que en mi experiencia pues que nos vayamos por hacer un pequeño POC.
+
+Ruy
+Entonces yo prefiero que en mi experiencia pues que nos vayamos por hacer un pequeño Pio sí
+
+Speaker 1
+que hasta donde entiendo era lo que se intentó con lo que estuvo haciendo Shamil pero siento que no le entendió y se desesperó y dijo a no se me vaya
+
+Ruy
+Que hasta donde entiendo era lo que se intentó con lo que estuvo haciendo Shamil, pero siento que no le entendió y se desesperó y dijo, ah, no sé, me vaya. Sí, o sea, lo de Shamili va por ahí, creo que algo, o sea, un poquito más entendimos, pero posiblemente Estamos algo más. No sé, se me ocurre, por ejemplo Si ahora vamos a tener ese ese dominio de boetus. com con Microsoft, este hacer un POC en donde Te conectas a o sea wetus. com se conecta sin kiffic de StoyQ y StoyQ Perdón, no se conecta a ThinkIPG, se conecta a WorkOS vía. Se conecta a stoikeyu. com vía WorkOS. y de ahí te manda dependiendo de lo que necesitas a scientific o a conscious insights O sea, algo así.
+
+Speaker 1
+Well dashboard. Sí, sí, sí, sí.
+
+Ruy
+Sí. Igual de algo así. Este Y ya nomás para saber que si funciona en esa vía Quizá si vemos que hay interés, o sea paso dos, eh Pero si ya tendríamos que verlos, se me está ocurriendo. Como hay esta petición de cómo le hacemos para que la gente en, sobre todo las personas comerciales, en. Excelente. Usen más este regularmente conscious insights, pues una vez que ya tenemos esa cosa dominada de cómo se hace De Boetus hacia StoyQ, implementar como un cliente interno de Axialent estoy que no tengas jakif que hacer login sino que te firmes
+
+Speaker 1
+Ay, perdón.
+
+Ruy
+Ay, perdón.
+
+Speaker 1
+Sí, es que en esencia Boetus lo usaríamos como nuestro playground de desarrollo.
+
+Ruy
+Sí, es que en esencia, Boetus lo usaríamos como nuestro playground de desarrollo. y acceleran sería como el staging básicamente básicamente considerando un cliente real como producción
+
+Speaker 1
+y acceler sería como el staging básicamente considerando a un cliente real como producción
+
+Ruy
+Pero digo, podemos ver, o sea, creo que para este trimestre, que ya en realidad nada más quedan dos meses. Este. Pues enfocarnos en, enfocarnos en sacarlo, este En COC sacar el POC combo etus y si todo va muy bien y es rápido, implementamos Accellent. si empezamos a encontrar detalles pues aprender cuáles son esos detalles sí
+
+Speaker 1
+Sí.
+
+Speaker 2
+Sí, igual este yo tengo una cuenta de en google pagada pues.
+
+Ruy
+Sí, igual este yo tengo una cuenta de en google pagada pues.
+
+Speaker 2
+Entonces también podría intentar hacer esa integración, porque acabas de mencionar Meet, entonces supongo que hay clientes por ahí que están utilizando solo aplicaciones de Google para todo su ambiente.
+
+Ruy
+Entonces también podría intentar hacer esa integración. Porque acabas de mencionar Meet, entonces supongo que hay clientes por ahí que están utilizando solo aplicaciones de Google para todo su ambiente.
+
+Speaker 2
+Entonces también sería interesante ver esa parte.
+
+Ruy
+Entonces también sería interesante. ver esa parte.
+
+Speaker 1
+Yo no lo pondría como algo a decir ahí que estamos haciendo, pero sí que sí me dio echarle una explorada
+
+Ruy
+Yo no lo pondría como algo a decir ahí que estamos haciendo, pero sí que sí sí me dio echarle una explorada. Sí, este, o sea Mercado libre le estamos mercado libre que le vamos a pichar la solución. Usa solamente Google y entonces, si llegaran a comprarnos esto, tendría que funcionar en Google Meet. Pero Yo quisiera pensar que Google Meet es menos complejo que Teams. este probablemente no no sé realmente no he hecho mucho con google mexic
+
+Speaker 1
+probablemente no no sé realmente no no he hecho mucho con google me
+
+Ruy
+Bueno, pero un primer paso sería el sign-on con Google, con direcciones de Google Workspace.
+
+Speaker 4
+Pero un primer paso sería el sign-on con Google, bueno, con direcciones de Google Workspace.
+
+Ruy
+Sí, exacto.
+
+Speaker 1
+Sí.
+
+Speaker 4
+y con este más el signor microsoft ya tenemos mucho bueno cubre un una gran parte sí
+
+Ruy
+Con este más el sign on microsoft ya tenemos mucho bueno cubre un ochenta si o sea quedan Pues ya nada más quedan los que tengan su ping, este, o su octa. Pero Pues sí, pero yo creo que con eso cubrimos un. Como dices tú ya, muchos. Muchas posibilidades, okay, ahora una cosa Daniel, ¿cómo vienes tú? Con el skip de install
+
+Speaker 1
+Ahorita ya tengo solucionada parcialmente la parte de la creación de la instancia de Cloud Funnel.
+
+Ruy
+Ahorita ya tengo solucionada parcialmente la parte de la creación de la instancia de Cloud Funnel.
+
+Speaker 2
+Estoy ahí arreglando algunos detalles con la forma en que se está creando los sitios y estoy decidiendo cómo rayos voy a llevar el seguimiento de cuál es el último puerto abierto.
+
+Ruy
+Estoy ahí arreglando algunos detalles con la forma en que se está creando los sitios. Y estoy decidiendo cómo rayos voy a llevar el seguimiento de cuál es el último puerto abierto.
+
+Speaker 2
+Porque esa es otra cosa que se tiene que considerar durante el desarrollo, durante la implementación, perdón, durante la creación de la instancia en Cloud Panel.
+
+Ruy
+Porque esa es otra cosa que se tiene que considerar durante el desarrollo, eso durante la implementación. Durante la creación de la instancia en Cloud Panel.
+
+Speaker 2
+Entonces estoy viendo esa parte cómo lo voy a controlar.
+
+Ruy
+Entonces estoy viendo esa parte cómo lo voy a controlar.
+
+Speaker 2
+No estoy muy seguro, pero pues creo que va a terminar siendo un archivo de texto en algún directorio genérico del sistema para saber cuál fue el último puerto que se usó y para de contar.
+
+Ruy
+No estoy muy seguro, pero pues creo que va a terminar siendo un archivo de texto. En algún directorio genérico del sistema para saber cuál fue el último puerto que se usó y para de contar.
+
+Speaker 2
+pero ando con eso este ya teniendo eso liberado continúo con la parte de a también estoy viendo la parte de la actualización del
+
+Ruy
+Pero ando con eso. Este, ya teniendo eso liberado, continuó con la parte de. . Ah, también estoy viendo la parte de la actualización del.
+
+Speaker 2
+que se estaba utilizando pip y ahora se va a usar yubi cierto mike y estás usando yu v normalmente está también esa parte que
+
+Ruy
+que se estaba utilizando pip y ahora se va a usar y ubic cierto mike está sucediendo y ubi normalmente está también esa parte que
+
+Speaker 2
+no estoy muy seguro ahorita con algo que pasó en como se llama esto en npm me parece que tuvieron por ahí inyección de código en algunos paquetes entonces
+
+Ruy
+No estoy muy seguro ahorita con algo que pasó en cómo se llama esto en MPM me parece que tuvieron por ahí inyección de código en algunos paquetes, entonces Estoy pensando que tal vez UV lo dejemos para local y sigamos usando PIP en producción, porque si no, luego si se infecta una instancia se van a infectar todas en caso de que llegue a pasar eso en PIP.
+
+Speaker 2
+Estoy pensando que tal vez UV lo dejemos para local y sigamos usando PIB en producción, porque si no, luego si se infecta una instancia se van a infectar todas en caso de que llegue a pasar eso en PIB. Perdón, en Yubi, entonces no sé, ahí esa parte quería verla contigo, Mike.
+
+Ruy
+Perdón, en Yubi, entonces no sé, ahí esa parte, quería verla contigo, Mike.
+
+Speaker 2
+¿Qué opinas de esa posibilidad de riesgo que existe ahí con los manejadores de librerías?
+
+Ruy
+¿Qué opinas de esa posibilidad de riesgo que existe ahí con los manejadores de librerías?
+
+Speaker 3
+Pero UV porque sería más un riesgo que pip son similares, ¿no?
+
+Ruy
+Pero UV porque sería más un riesgo que pip son similares, ¿no? Sí, pero Yubi usa un solo repositorio para todos los sitios y eso es lo que hace que sea más rápido y que sea menos, o sea, usa un caché de forma muy agresiva, vamos.
+
+Speaker 2
+Sí, pero Yubi usa un solo repositorio para todos los sitios y eso es lo que hace que sea más rápido y que sea menos, o sea, usa un caché de forma muy agresiva, vamos.
+
+Ruy
+Te deja sitios más pequeños, pero usa una sola fuente para todo.
+
+Speaker 2
+Te deja sitios más pequeños, pero usa una sola fuente para todo. Entonces, si se actualiza
+
+Ruy
+Entonces, si se actualiza alguna versión de un paquete y ese bien infectado, todas las instancias que usen ese paquete van a estar infectadas.
+
+Speaker 2
+alguna versión de un paquete y ese bien infectado todas las instancias que usen ese paquete van a estar infectadas en ese momento
+
+Ruy
+en ese momento digo a lo mejor estoy siendo paranoico pero
+
+Speaker 4
+Digo, a lo mejor estoy diciendo paranoico, pero.
+
+Speaker 3
+Ajá. Sí, cuando Pip tiene su virtual enf separado para cada instancia.
+
+Ruy
+Sí, cuando Pip tiene su virtual enf por separado para cada instancia.
+
+Speaker 3
+Exactamente.
+
+Ruy
+Exactamente.
+
+Speaker 3
+Ok.
+
+Ruy
+Ok.
+
+Speaker 3
+Sí, pues a mí no me molestaba pipes.
+
+Ruy
+Sí, pues a mí no me molestaba pipes.
+
+Speaker 3
+Hay como una etapa menos, es un poquito más rápido cuando lo usas, pero
+
+Ruy
+Hay como una etapa menos, es un poquito más rápido cuando lo usas, pero Yo soy para lo más seguro, claro.
+
+Speaker 3
+Yo soy para lo más seguro, claro, si hay que volver a Peep.
+
+Ruy
+Si hay que volver a Peep. Porque la otra que hay es que hagamos un freeze.
+
+Speaker 2
+Porque la otra que hay es que hagamos un freeze. cuando hagamos una un un este un release que hagamos un freeze y nos con que seamos como se dice
+
+Ruy
+cuando hagamos una pro un un este un release que hagamos un frizz y nos que seamos como se dice Que nos quedemos con la versión de la librería que se está usando en ese momento y no se use la posibilidad de usar una más nueva.
+
+Speaker 2
+Que nos quedemos con la versión de la librería que se está usando en ese momento y no se use la posibilidad de usar una más nueva. Eso también nos ayuda a evitar problemas de incompatibilidades con actualizaciones en las librerías.
+
+Ruy
+Eso también nos ayuda a evitar problemas de incompatibilidades con actualizaciones en las librerías. Entonces, eso podemos seguir.
+
+Speaker 3
+Entonces eso podemos seguir. Es un poco el tema del CICD que deberíamos de tener de.
+
+Ruy
+Es un poco el tema del CICD que deberíamos de tener. que todo esté controlado así con un release de tal y tal versión y así luego son muy fijos, las instancias no se pueden actualizar.
+
+Speaker 3
+Que todo esté controlado así con un release de tal o tal versión y así luego son muy fijos, las instancias no se pueden actualizar. Esto todavía no lo tenemos.
+
+Ruy
+todavía no lo tenemos y otra cosa rápido es que ahora con el admin
+
+Speaker 3
+Y otra cosa rápido es que ahora con el admin.
+
+Ruy
+O sea, estamos mezclando muchas cosas y va a caber ser un rollo porque el admin está con reflex y en Docker.
+
+Speaker 3
+O sea, estamos mezclando muchas cosas y va a caber ser un rollo porque el admin está con reflex. en Docker o sea de esta Docker o sea se puede si hay un Docker Compose y el admin no tiene este script de restart el CI
+
+Ruy
+O sea, está en Docker. o sea se puede si hay un docker compose y el admin no tiene este script de restart el ci que hiciste para la los servicios porque no corre como un servicio está
+
+Speaker 3
+que hiciste para los servicios porque no corre como un servicio está está iniciado a mano
+
+Ruy
+está iniciado a mano haciendo docker up docker compose up entonces bueno
+
+Speaker 3
+haciendo docker up docker compose up entonces bueno a medio largo plazo habría que armonizar un poco todo no sé si no sé si puede tener un servicio para ambos
+
+Ruy
+A medio o largo plazo habría que armonizar un poco todo. No sé si puede tener un servicio para ambos.
+
+Speaker 3
+que corra Chainlit y Reflex y el admin al mismo tiempo y así cuando leamos stop o start a tratar los dos o dos servicios pero que el script los controle los dos
+
+Ruy
+que corra Chainlit y Reflex y el admin al mismo tiempo y así cuando le damos stop o start tratar los dos o dos servicios pero que el script los controle los dos
+
+Speaker 3
+O dockerizar todo, ya, porque eso también está pendiente.
+
+Ruy
+O dockerizar todo, ya porque eso también está pendiente. y correrlo todo con Docker, no sé.
+
+Speaker 3
+y correrlo todo con docker no sé eso son cuestiones que también quiero escuchar tu tu opinión y
+
+Ruy
+Estas son cuestiones que también quiero escuchar tu opinión y.
+
+Speaker 3
+qué estrategia sería mejor.
+
+Ruy
+¿Qué estrategia sería mejor?
+
+Speaker 2
+Yo no he llegado a la parte de admin, o sea, esa parte todavía ni siquiera la he instalado localmente, no sé todavía ni cómo funciona, entonces no te sé decir esa parte de cómo quede.
+
+Ruy
+Yo no he llegado a la parte de admin, o sea, esa parte todavía ni siquiera la he instalado localmente, no sé todavía ni cómo funciona, entonces no te sé decir esa parte de cómo quede. Lo que sí es que lo de Docker creo que tiene que ser una opción, no una obligación.
+
+Speaker 2
+Lo que sí es que lo de Docker creo que tiene que ser una opción, no una obligación.
+
+Ruy
+Porque al menos para mí en local se me hace mucho más fácil y más sencillo usar directamente pipo o UV y ya.
+
+Speaker 2
+Porque al menos para mí en local se me hace mucho más fácil y más sencillo usar directamente pipo o UV y ya, y no andarme metiendo con Docker y ajá
+
+Ruy
+Y no andarme metiendo con Docker y. Ajá.
+
+Speaker 2
+Pero a lo mejor en producción, o como se llegó a mencionar, que algún cliente se lo quiere llevar a su infraestructura, pues ahí sí nos conviene extenducker.
+
+Ruy
+Pero a lo mejor en producción, o como se llegó a mencionar, que algún cliente se lo quiera llevar a su infraestructura, pues ahí sí nos conviene extenddocken.
+
+Speaker 2
+Si lo quieren usar y les funciona, pues está bien que lo tengamos.
+
+Ruy
+Si lo quieren usar y les funciona, pues está bien que lo tengamos.
+
+Speaker 2
+Entonces yo lo estoy considerando como una opción más dentro del script de instalación.
+
+Ruy
+Entonces yo lo estoy considerando como una opción más dentro del script de instalación.
+
+Speaker 2
+O sea, básicamente tener un script de instalación que levante las cosas con Docker y otro que lo haga normal.
+
+Ruy
+O sea, básicamente tener un script de instalación que levante las cosas con Docker y otro que lo haga normal.
+
+Speaker 2
+O un parámetro después que te pregunte ahí cómo lo quieres instalar.
+
+Ruy
+O un parámetro pues que te pregunte ahí cómo lo quieres instalar. Sí.
+
+Speaker 3
+Sí.
+
+Ruy
+Sí, eso tiene sentido.
+
+Speaker 3
+Sí, eso tiene sentido.
+
+Ruy
+Y no sé si ampliar el.
+
+Speaker 3
+Y no sé si ampliar el. o tener un script para hacer start stop restart logs de chain lead o de reflex o de admin se puede tener más flexibilidad aquí para
+
+Ruy
+o tener un script para hacer start stop restart logs de chain lead o de reflex o de ladmin se puede tener más flexibilidad aquí para
+
+Speaker 2
+Sí, yo creo que lo podemos manejar por separado porque a final de cuentas admin no necesariamente tiene que estar corriendo todo el tiempo.
+
+Ruy
+Sí, yo creo que lo podemos manejar por separado porque a final de cuentas admin no necesariamente tiene que estar corriendo todo el tiempo. O sea, podría llegar un momento en que dice, ¿sabes qué?
+
+Speaker 2
+O sea, podría llegar el momento en que dice, ¿sabes qué?
+
+Ruy
+Ahorita no mucho tiempo no voy a entrar a esa parte, mejor bajo el contenedor y si lo necesito, vuelvo, levanto y ya me meto.
+
+Speaker 2
+Ahorita no mucho tiempo no voy a entrar a esa parte, mejor bajo el contenedor y si lo necesito, vuelvo, levanto y ya me meto. A lo mejor ahorita puede ser una opción, ¿no?
+
+Ruy
+A lo mejor ahorita puede ser una opción, ¿no?
+
+Speaker 2
+No sé exactamente cómo se está usando el admin, pero eso puede ser una opción.
+
+Ruy
+No sé exactamente cómo se está usando el admin, pero eso puede ser una opción.
+
+Speaker 3
+Sí, sí.
+
+Ruy
+Sí, sí. Sí, para gestionar los usuarios de momento y tener la vista sobre los assessments.
+
+Speaker 3
+sí para gestionar los usuarios de momento y y tener la vista sobre los assessments de que se está jalando y tal
+
+Ruy
+de que se está jalando y tal.
+
+Speaker 3
+Pero es puntual, es verdad
+
+Ruy
+Pero es puntual, es verdad. Yo creo del admin O sea, hablando de lo que pudiera llegar a ser, este una cosa que he conversado con Nelson es que tuviéramos alguna forma para que el crear nuevos perfiles sea relativamente fácil y no necesite no necesita tanto o sea meterte mucho con el con el backend entonces lo primero los prompts dices si los prompts
+
+Speaker 1
+Los props dices
+
+Ruy
+Este, de prompt profile. O sea que puedas construir un prompt nuevo de variación de difficult conversations o variación de leadership growth partner o lo que sea. Lo primero para eso va a ser: yo creo que automatizar creando skills de cloth. Que te vaya preguntando cómo se hace y lo tengas que hacer local en tu máquina y luego mandas un pull request, pero eventualmente O sea, si sería. Creo que eventualmente podríamos llegar a necesitar un Wizard, en donde creas tu propio chatbot o lo configuras existentes o le metes contexto extra O sea, configuras el contexto por sobre todo, por ejemplo, cuando si lo llegásemos a conectar con el HRMS, que ahí jalarías information del HRMS, pues necesitas algo que diga que campos vas a jalar del HRMS hacia el contexto y cuál va y cuál no va, etc. Entonces, eso sí puede llegar a ser, pero no es algo inmediato. O sea, más bien es empezamos a vender lo suficiente como para que eso sea un problema.
+
+Speaker 1
+No, sí
+
+Ruy
+O tenemos la perspectiva de vender lo suficiente para que eso sea un problema. Pero ahí es donde yo veo que el admin puede llegar a ser más este. Va a tener más funcionalidades, pues más allá de nuestro debugging o de O de estar viendo cosas para obtener report, o sea, obtener información real de si las personas se están metiendo o no. Sí. Este y las otras cosas que ahorita me Sí, es, es, eso tenía otra idea, pero ya se me fue. Oye Roy, ¿Axelent usa alguna cosa como Wordlay?
+
+Speaker 1
+Oye Roy, Axel entusa alguna cosa como Wardley.
+
+Ruy
+Sí, usa una cosa que se llama personio. Okay, pero es este creo que es para empresas más chiquitas.
+
+Speaker 1
+Okay.
+
+Ruy
+Es que sería interesante para el siguiente Q estar viendo de hacer también un pie o sí sobre eso.
+
+Speaker 1
+Es que sería interesante para el siguiente Q estar viendo de hacer también un POC sobre eso.
+
+Ruy
+para estar creando ya la integración el context pooling y viendo por ejemplo con esa cosa con personio como lo trabaja para ir creando esa capa
+
+Speaker 2
+para estar creando ya la integración el context pooling y viendo por ejemplo con esa cosa con personio como lo trabaja para ir creando esa capa
+
+Ruy
+Sí, me encontré, o sea, para la integración con los HRMS, creo que hay dos caminos, WorkOS parece, o sea, dice que puede jalar información de ciertos hechos Más bien, anuncia que tiene integraciones con diferentes HRMS, o sea, tiene integración con Bamboo HR y Workday.
+
+Speaker 1
+ok porque estamos viendo que eso de ah estoy integrado significa muchas cosas
+
+Ruy
+¿Qué significa eso? Hay que ver. Porque estamos viendo que eso de ah, estoy integrado, significa muchas cosas. Este, yo me imagino que por lo menos debes de poder jalar así información muy básica o desde ahí decir. quién si está y quién no está porque este o sea lo anuncian en la en la en el apartado del producto que se llama directory sync automátic user en groupo provisioning este entonces igual y el próximo paso es investigar eso o sea el paso cero es que funciona el SSO y el paso uno es que este esto de Bamboo HR y WordP. Y luego también Mike había encontrado en la documentación que hay una madre que se llama como pipes que puedes este configurar para jalar este bueno para hacer cosas si si es un poco como esa otra app que encontraste de conexión entre apis
+
+Speaker 1
+Sí, sí, es un poco como esa otra app que encontraste de conexión entre apis.
+
+Ruy
+sí, y exacto, y luego hay una conecta, hay un una madre que yo me acuerdo cómo se llama. Este. que es de conexión entre APIs que se llama merge defension
+
+Speaker 1
+Eso
+
+Ruy
+que se supone que puedes lo puedes utilizar para leer de un montón de apps diferentes y según esto hasta escribir apps diferentes pero bueno este sabrá Dios pero lo que sí creo que sí necesitamos a fuerzitas es lo del single signal y si no lo necesitas o sea y si no nos lo piden este si se los ofreces muy seguramente te van a cuesta poquitos cientos o miles de dólares este van a lo van a querer porque reduce fricción o sea como que creo que en eso que estamos decidiendo no hay pierde Ya todo lo demás, ahora sí que dependiendo del sapo. Entonces, pues a ver, yo nada más esto una última cosa, Daniel. A ti se te hace realista. acabar con el script de instalación para que quede en una forma que nos ahorra tiempo para la creación de nuevas instancias y no estemos corriendo como pollos este sin cabeza cuando hay nuevos proyectos y además hacer ese POC de WordOS en los próximos dos meses entendiendo que también vas a estar si viendo una bebé si puedo si puedo estar dedicado a ese par de cosas únicamente yo siento que sí
+
+Speaker 2
+Sí. Si puedo estar dedicado a ese par de cosas únicamente, yo siento que sí. Porque como te dije, de mi trabajo oficial ante el gobierno.
+
+Ruy
+Porque como te dije, de mi trabajo oficial ante el gobierno, este, pues yo voy a estar fuera como casi un mes, básicamente.
+
+Speaker 2
+este pues yo voy a estar fuera como casi un mes básicamente entonces nada más tendría los pendientes con ustedes y si se me hace razonable
+
+Ruy
+Entonces, nada más tendría los pendientes con ustedes y sí se me hace razonable darme el tiempo para sacar eso.
+
+Speaker 2
+darme el tiempo para sacar eso entonces yo siento que sí sí sí es razonable
+
+Ruy
+Entonces yo siento que sí, sí, sí es razonable. Entonces, eso es lo que se puede.
+
+Speaker 2
+de nuevo suponiendo que me puedo concentrar en ese par de cosas nada más que no que no salga otra otro movimiento con p and y o algo así
+
+Ruy
+De nuevo, suponiendo que me puedo concentrar en ese par de cosas nada más. Que no, que no salga otra. Exactamente, que no salga un bomberazo o que hay que hacer este X, YZ o lo que sea, si no hay una urgencia, si suena razonable.
+
+Speaker 1
+Aha, see
+
+Ruy
+Sí, entonces yo me imaginaría que el plan es pues Daniel se dedica a eso, Mike, y luego el otro bunch de cosas pues los tenemos que hablar.
+
+Speaker 4
+Sí.
+
+Ruy
+Sí, tú y yo. Pero bueno.
+
+Speaker 4
+Posiblemente.
+
+Ruy
+Posiblemente en lo de Teams, ahora estoy bien con este
+
+Speaker 4
+En lo de Teams, ahora estoy bien con este.
+
+Ruy
+esta este entorno local de microsoft está está muy bien pero cuando nos acercamos a la producción habrá esta etapa de ponerlo en el
+
+Speaker 3
+está este entorno local de microsoft está está muy bien pero cuando nos acercamos a producción habrá esta etapa de ponerlo en el pues esta instancia de azul que quieren la quieren comprar no una instancia nuestra de testing o de staging
+
+Ruy
+pues esta instancia de Azul que quieren la quieren comprar no una instancia nuestra de testing o de staging
+
+Speaker 3
+Y ahí posiblemente necesitaré conectar contigo, Daniel, que lo a ver, para que sea más fluido.
+
+Ruy
+Y ahí posiblemente necesitaré conectar contigo, Daniel, que lo. . A ver, para que sea más fluido, pues más. Entonces sí, posiblemente al final del trimestre, o no sé, los últimos 15 días.
+
+Speaker 3
+Entonces sí, posiblemente al final del trimestre, como no sé, los últimos 15 días. Si tienes tiempo para hacer esto, un poco más tiempo a dedicar.
+
+Ruy
+Si tienes tiempo para hacer esto, un poco más tiempo a dedicar.
+
+Speaker 2
+Ya debería de estar más tranquilo, sí.
+
+Ruy
+Ya debería de estar más tranquilo, sí, sí, sí.
+
+Speaker 2
+Sí, sí.
+
+Speaker 3
+O posiblemente antes, a mí me gustaría acabar antes del final del trimestre.
+
+Ruy
+O posiblemente antes, a mí me gustaría acabar antes del final del trimestre. Estoy avanzando bien.
+
+Speaker 3
+Estoy avanzando bien.
+
+Ruy
+Pero sí hay que tomar eso en cuenta.
+
+Speaker 3
+Pero sí hay que tomar eso en cuenta. Y también no sé qué complicado es montar la instancia, no sé, darnos accesos, qué podemos hacer con esto de Azure.
+
+Ruy
+Y también no sé qué complicado es montar la instancia, no sé, darnos accesos, qué podemos hacer con esto de Azure.
+
+Speaker 3
+vale la pena migrar cosas aquí no sé es todo un otro mundo que se
+
+Ruy
+vale la pena migrar cosas aquí, no sé. Es todo un otro mundo que se. Mira, de azul básicamente es como a lo que estuve releyendo y reinvestigando porque no me acordaba muy bien de esa parte.
+
+Speaker 2
+Mira, de azul básicamente es como a lo que estuve releyendo y reinvestigando porque no me acordaba muy bien de esa parte. Se supone que nada más va a ser para el control del manifiesto de la aplicación en realidad.
+
+Ruy
+Se supone que nada más va a ser para el control del manifiesto de la aplicación en realidad.
+
+Speaker 2
+O sea, no va más allá de generar un costo o algo así.
+
+Ruy
+O sea, no va más allá de generar un costo o algo así.
+
+Speaker 2
+Probablemente con el uso del boot form del boot framework sí llegue a generar algo.
+
+Ruy
+Probablemente con el uso del boot form del boot framework sí llegue a generar algo.
+
+Speaker 2
+Pero bueno, eso ya lo vamos a ver hasta que hagamos el deploy.
+
+Ruy
+Pero bueno, eso ya lo vamos a ver hasta que hagamos el deploy.
+
+Speaker 2
+Y de ahí en fuera, pues realmente solo es para eso, como para darle el soporte que requiere.
+
+Ruy
+Y de ahí en fuera, pues realmente solo es para eso, como para darle el soporte que requiere.
+
+Speaker 2
+que te pide Teams para saber dónde buscar los datos de la aplicación y ya o sea para eso es para lo que se usa esa parte
+
+Ruy
+que te pide Teams para saber dónde buscar los datos de la inf de la aplicación y ya o sea para eso es para lo que se usa esa parte
+
+Speaker 2
+La integración del lado de Teams es básicamente como creo que sí lo hiciste tú también, Mike, en tu Teams, es instalar la aplicación y párale de contar.
+
+Ruy
+La integración del lado de Teams es básicamente como creo que sí lo hiciste tú también, Mike, en tu Teams, es instalar la aplicación y párale de contar. No, no debería de haber algo más allá de eso.
+
+Speaker 2
+No, no debería de haber algo más allá de eso.
+
+Ruy
+Y vale, ok.
+
+Speaker 2
+Y vale, ok.
+
+Ruy
+Bueno.
+
+Speaker 2
+Bueno.
+
+Ruy
+Sí, en stricte.
+
+Speaker 2
+Sí, en estricta.
+
+Ruy
+Sí, en estricta teoría, como la aplicación ya está dada de alta en Teams, bastaría con actualizar el manifiesto para las cosas nuevas que estás metiendo.
+
+Speaker 2
+Sí, en estricta teoría, como la aplicación ya está dada de alta en Teams, bastaría con actualizar el manifiesto para las cosas nuevas que estás metiendo.
+
+Ruy
+Es donde se declaran los endpoints para los mensajes y etcétera.
+
+Speaker 2
+Es donde se declaran los endpoints para los mensajes y etcétera. Entonces no debería de ser mayor complicación actualizar ese manifiesto en la implementación actual de Accelent.
+
+Ruy
+Entonces no debería de ser mayor complicación actualizar ese manifiesto en la implementación actual de Accelent.
+
+Speaker 2
+Lo único que sí es que a lo mejor vamos a tener que volver a pedir los accesos de administrador general para poder hacer la actualización de la aplicación.
+
+Ruy
+Lo único que sí es que a lo mejor vamos a tener que volver a pedir los accesos de administrador general para poder hacer la actualización de la aplicación. Pero eso sería el limitante más grande del lado de Axial.
+
+Speaker 2
+Pero eso sería el limitante más grande del lado de Axialent. Si ya tenemos Vetus y eso instalado con Microsoft y Azure y todo ese rollo, ya no va a haber bronca con eso.
+
+Ruy
+Si ya tenemos Boetus y eso instalado con Microsoft ViaSure y todo ese rollo, ya no va a haber bronca con eso.
+
+Speaker 2
+Ahora si me haces el manifiesto.
+
+Ruy
+Ahora si me haces del manifiesto. Sí, pregunta rápida.
+
+Speaker 3
+Sí, pregunta rápida.
+
+Ruy
+El manifiesto de ahora de la app, ¿dónde lo puedo encontrar?
+
+Speaker 3
+El manifiesto de ahora de la app, ¿dónde lo puedo encontrar? Está en el código.
+
+Ruy
+Está en el código. y está en el código de Teams ahí déjame ver en qué carpeta quedó oigan chicos yo me tengo que cambiar a otra junta entonces
+
+Speaker 1
+está en el código de teams ahí déjame ver en qué carpeta quedó ok
+
+Ruy
+Ahorita ya quedamos. Mike, nosotros necesitamos hablar todavía un cachito más. Yo tengo una junta de una hora. ¿Tú crees que tengas tiempo hoy todavía o mejor ya te busco mañana? O te mando un mensaje y vemos.
+
+Speaker 1
+Sí, mándame un mensaje.
+
+Ruy
+Sí, manden un mensaje.
+
+Speaker 1
+Normalmente sí, pero sí, a ver.
+
+Ruy
+Normalmente sí, pero sí, a ver. Mejor.
+
+Speaker 1
+Sí, dime, dime sobre las seis, sobre mi seis, si vemos.
+
+Ruy
+Sí, dime, dime sobre las 6, sobre mi 6. Va. Bueno. Entonces. este pues ahí seguimos hablando muy bien bueno está en vídeo bye bye estoy bien
+
+Speaker 1
+Muy bien. Estoy bien, Roy. Bye.
+
+Ruy
+Well something.
+

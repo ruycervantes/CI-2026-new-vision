@@ -13,6 +13,8 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Send note about language policy to Nelson/Dolo** - Decision: single language per user at provisioning, remove selector for normal users
 - [ ] **Test Linear this sprint** - evaluate vs Asana for sprint management (committed Jan 28 demo)
 - [ ] **Define standalone UX vision** - blocks tutorial wizard, bot selection, language settings final design
+- [ ] **Ask Mike to follow up on user instructions** - check if what Nelson has is sufficient for the 5-user test. Users need clear context/setting so they use it as intended (from Mike-Ruy chat Jan 28)
+- [ ] **Write enterprise integration specs** - based on Mike-Ruy chat + enterprise decisions. Feed into `enterprise/integration-strategy.md`
 
 ### Tomorrow (Jan 28) - Pick Up Work
 
@@ -34,7 +36,7 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 
 **Documentation:**
 - [ ] **Update MVP team effectiveness notes** - review/refine `mvp-offer.md` based on call insights
-- [ ] **Document AI coach design** - coaching skills + behavior change monitoring skills architecture
+- [x] **Document AI coach design** - initial version done: `thinking/ai-coach-design-considerations.md`. Next: prototype multi-session architecture (artifacts vs memory graph)
 
 **Sprint Prep:**
 - [ ] **Finalize sprint stories and add to tools** - review `sprints/sprint-stories-jan2026.md`, add to Notion and Asana
@@ -68,7 +70,7 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - **3-month runway** to prove Stoic works
 - If it doesn't work → potential pivot to Axialent digitalization
 - Focus 100% on Stoic roadmap for now
-- **AI Coach is the single unlock** for both behavior change AND team effectiveness. Build this first. (Jan 27 session insight)
+- **AI Coach is the single unlock** for both behavior change AND team effectiveness. Build this first. Enables: individual coaching at scale within team processes, 20% ticket price increase, Torch-model (AI as TA to human coach), and data for impact measurement. (Jan 27 Nelson 1-on-1 + group session)
 
 ### Nelson's Guiding Principle (Jan 27)
 > "Todo esto tiene que estar siempre girado acerca del impacto." - Impact demonstration is the north star for the digital layer.
