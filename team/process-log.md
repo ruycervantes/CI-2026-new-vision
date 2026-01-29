@@ -54,6 +54,41 @@
 
 ---
 
+## Cadences
+
+### Monday: Sprint Prep (30 min)
+> Todoist: "Sprint prep: review process log + prep retro"
+
+1. Review this file — check each active decision's review question
+2. Check: did shipping checklist get used?
+3. Check: are estimates being recorded?
+4. Pull estimate vs actual data for retro discussion
+5. Update stale decisions → move to Resolved/Archived
+6. Prep sprint planning backlog
+
+### Wednesday: Retro + Demo
+- Demo completed work (use shipping checklist)
+- Retro: 15 min estimation review (estimate vs actual, why the gap)
+- Retro: review process decisions from this file
+
+### Thursday: Sprint Planning
+- Sprint planning call with team
+- Estimate all tasks, assign owners, set sprint scope
+
+### Thursday: Post-Sprint Planning (Ruy, 1-2 hrs)
+> Todoist: "Post-sprint planning: process call + update everything"
+
+1. `/process-call` the sprint planning transcript → summary + analysis
+2. Update `sprints/sprint-stories-{period}.md` with agreements
+3. Update Asana tasks (descriptions, estimates, new/closed/split tasks)
+4. `/update-team-status` from the call
+5. Review analysis findings → land decisions in this file
+6. Update `action-items-ruy-{month}.md` with your commitments
+7. Commit all changes
+8. Message team with any immediate asks (e.g., "push X to dev")
+
+---
+
 ## Resolved / Archived
 
 *(Move decisions here once they're established habit or no longer relevant)*
