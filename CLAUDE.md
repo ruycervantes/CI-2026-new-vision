@@ -22,7 +22,7 @@ This is the **command center** for Conscious Insights / Stoic platform evolution
 
 **Key thinking docs:**
 - `thinking/platform-vision-thinking-28jan2026.md` — platform vision framing (will become `core/vision.md`)
-- `thinking/ai-coach-design-considerations.md` — AI coach architecture and design questions
+- `research/coaching/ai-coach-design-considerations.md` — AI coach architecture and design questions
 
 ## Team
 
@@ -33,6 +33,31 @@ This is the **command center** for Conscious Insights / Stoic platform evolution
 - **Leo** - Sales, owns PMF validation and demo approval
 - **Horacio** - Coach SME, needed for methodology validation
 - **Oseas** - CEO, strategic alignment, board communication
+
+## Sprint Process
+
+After each sprint planning, Ruy runs a post-planning process (see `team/process-log.md` under Cadences):
+
+1. `/process-call` the sprint planning transcript → summary + analysis
+2. Update `sprints/sprint-stories-{period}.md` with agreements
+3. Update Asana tasks (descriptions, estimates, new/closed/split tasks)
+4. `/update-team-status` from the call
+5. Review analysis findings → land decisions in `team/process-log.md`
+6. Update `action-items-ruy-{month}.md` with commitments
+7. Commit all changes
+8. Message team with immediate asks
+
+**Weekly cadence:**
+- **Monday:** Sprint prep — review `team/process-log.md`, prep retro data (estimates vs actuals)
+- **Wednesday:** Retro + demo (shipping checklist: dev → staging → demo → team tests → ship)
+- **Thursday:** Sprint planning → post-planning process above
+
+**Key files:**
+- `team/process-log.md` — living process decisions, reviewed at each retro
+- `team/status.md` — sprint status per person, blockers, key decisions
+- `sprints/sprint-stories-jan2026.md` — current sprint stories with acceptance criteria
+
+---
 
 ## Document Map
 
@@ -68,16 +93,20 @@ Cross-cutting infrastructure (SSO, identity via WorkOS, HRMS integration) that a
 |----------|---------|
 | `integration-strategy.md` | SSO, identity, HRMS integration strategy, P&G case study |
 
-### Research (`research/`)
+### Coaching Research (`research/coaching/`)
 
-Ethnographic design research for individual coaching product. Team effectiveness research lives in `team-effectiveness/`.
+Coaching methodology research — the source material for AI Coach design. Application coaching praxis, interview data, and analysis.
 
 | Path | Purpose |
 |------|---------|
-| `sources/application-coaching/` | Primary methodology docs (AC Handbook, CB Workbook, Magic Cards, coaching cases) |
+| `sources/` | Primary methodology docs (AC Handbook, CB Workbook, Magic Cards, coaching cases) |
 | `interviews/` | Raw interview transcripts, organized by informant (e.g., `horacio-jan2026/`) |
 | `analysis/` | Case studies, intervention analysis, observations |
 | `coaching-knowledge-framework.md` | Master synthesis - three-layer framework consolidating all research |
+| `ai-coach-design-considerations.md` | AI Coach architecture — memory, implementation paradigms, design questions |
+| `minimum-ai-coaching-for-te.md` | How AI Coach connects to Team Effectiveness — minimum coaching needed for HPT to work |
+
+The AI Coach design docs are the bridge between coaching methodology and team effectiveness. The coach is what makes the HPT offering scalable — without it, team interventions depend entirely on the consultant being present.
 
 **When doing competitive/HCI research:** Answer the key question "Are we differentiated or 80/20 replaceable?" and connect findings to product decisions.
 

@@ -28,7 +28,8 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 | [`core/roadmap.md`](core/roadmap.md) | **Engineering roadmap** — shared foundation (Q1) + feature candidates by path |
 | [`core/alignment.md`](core/alignment.md) | **Leadership alignment** — decisions, validation plan, roles |
 | [`team-effectiveness/mvp-offer.md`](team-effectiveness/mvp-offer.md) | **HPT near-term MVP** — 90-day hybrid cycle for market validation |
-| [`thinking/ai-coach-design-considerations.md`](thinking/ai-coach-design-considerations.md) | **AI Coach architecture** — memory, implementation paradigms, design questions |
+| [`research/coaching/ai-coach-design-considerations.md`](research/coaching/ai-coach-design-considerations.md) | **AI Coach architecture** — memory, implementation paradigms, design questions |
+| [`research/coaching/minimum-ai-coaching-for-te.md`](research/coaching/minimum-ai-coaching-for-te.md) | **AI Coach ↔ HPT bridge** — minimum coaching needed for team effectiveness to work |
 
 ## Other Folders
 
@@ -36,9 +37,9 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 |------|----------|
 | `team-effectiveness/` | HPT product vision, research, Katzenbach sources |
 | `enterprise/` | SSO, identity (WorkOS), HRMS integration strategy |
-| `research/` | Ethnographic design research, coaching knowledge framework |
+| `research/coaching/` | Coaching methodology research (input to AI Coach design). Includes AI Coach architecture, minimum coaching for TE, methodology sources, interview data. **This is the bridge between LD and HPT** — the AI Coach design lives here because it serves both paths. |
 | `calls/` | Call transcripts and processed summaries |
-| `team/` | Sprint status per person, team profiles |
+| `team/` | Sprint status per person, team profiles, process log |
 | `thinking/` | Working documents, exploratory notes |
 | `sprints/` | Team sprint stories |
 | `site/` | Netlify site (HTML pages + diagrams) |
@@ -82,6 +83,7 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 
 | Path | Purpose |
 |------|---------|
+| `team/process-log.md` | Living process decisions — reviewed at each sprint retro |
 | `action-items-ruy-jan2026.md` | Master task list / backlog |
 | `sprint-*-2026-*.md` | Ruy's sprint focus |
 | `handwritten/` | Drop zone for handwritten note photos |
