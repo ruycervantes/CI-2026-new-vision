@@ -141,7 +141,7 @@ Working documents, brain dumps, exploratory notes. Not finalized analysis.
 | `site/` | Netlify site (index.html, vision.html, roadmap.html, diagrams/) |
 | `sprint-*-2026-*.md` | Ruy's sprint focus |
 | `action-items-ruy-{month}.md` | Master task list / backlog |
-| `sprints/` | Team sprint stories (use `/sprint-stories` to create) |
+| `sprints/` | Team sprint stories (use `/sprint-stories` to create) + `backlog.md` (committed work not yet in a sprint) |
 | `handwritten/` | Drop zone for handwritten note photos (use `/handwritten` to process) |
 
 **When writing sprint stories:** Reference Q1 priorities in README.md. Owners: Mike (Teams), Shamil (Coach features), Daniel (infra), Leo (testing/PMF). Keep stories concrete with acceptance criteria.
@@ -190,6 +190,36 @@ Previous vision drafts, meeting summaries, diagram prompts, old diagrams, transc
 | `/process-call` | Deep analysis of call transcripts - creates summary, strategic analysis, and extracts action items |
 | `/planning-review` | **Sprint planning** - right-size deliverables, create sprint files for dev team |
 | `/sprint-stories` | **Team sprint stories** - create stories for Mike, Shamil, Daniel, Leo |
+| `/sync-notion` | **Notion sync** - push markdown docs to Notion pages (images, cross-links, tables) |
+
+## Notion Sync
+
+Syncs 6 core markdown docs to Notion pages under **"Vision, Roadmap and Docs 2026"** (page ID: `2f7073cafffb8038bcf7f4335612b1e2`).
+
+**Sync command:**
+```bash
+export $(cat .env | xargs) && python3 scripts/notion-sync.py
+```
+
+**Sync one file:** `python3 scripts/notion-sync.py --file core/alignment.md`
+
+**Config:** `scripts/notion-sync-config.yaml` — maps files to Notion page titles. To add a new doc, add an entry there and run sync.
+
+**Synced files:**
+| File | Notion title |
+|------|-------------|
+| `team-effectiveness/research/synthesis-v2.md` | TE — Synthesis v2 |
+| `team-effectiveness/research/methodology.md` | TE — Methodology |
+| `core/alignment.md` | Leadership Alignment |
+| `core/vision.md` | Platform Vision |
+| `core/roadmap.md` | Engineering Roadmap |
+| `core/MVP-offer-hpt.md` | Team Performance MVP |
+
+**Images:** Files under `site/` use Netlify URLs (`stoic-2026.netlify.app`). Other images use GitHub raw URLs. Images must be committed and pushed to git before they render in Notion.
+
+**Cross-doc links:** Relative `.md` links between the 6 synced pages resolve to Notion page URLs. Links to non-synced files render as plain text.
+
+**API key:** `NOTION_API_KEY` in `.env` (not committed). The parent page must be shared with the Notion integration.
 
 ## What NOT to Do
 
