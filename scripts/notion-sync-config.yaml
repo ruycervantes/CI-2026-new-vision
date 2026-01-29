@@ -1,0 +1,16 @@
+parent_page_id: "2f7073cafffb8038bcf7f4335612b1e2"
+notion_api_key_env: "NOTION_API_KEY"
+
+pages:
+  - file: "team-effectiveness/research/synthesis-v2.md"
+    title: "TE — Synthesis v2"
+  - file: "team-effectiveness/research/methodology.md"
+    title: "TE — Methodology"
+  - file: "core/alignment.md"
+    title: "Leadership Alignment"
+  - file: "core/vision.md"
+    title: "Platform Vision"
+  - file: "core/roadmap.md"
+    title: "Engineering Roadmap"
+  - file: "core/MVP-offer-hpt.md"
+    title: "Team Performance MVP"
