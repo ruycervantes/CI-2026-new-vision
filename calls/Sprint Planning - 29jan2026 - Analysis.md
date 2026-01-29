@@ -102,6 +102,20 @@
 
 ---
 
+---
+
+## Decisions from Analysis Review (Jan 29)
+
+| # | Finding | Decision |
+|---|---------|----------|
+| 1 | Estimation without retros | Add 15-min estimation review to next sprint planning (compare estimates vs actuals) |
+| 2 | No usage data for LGP | Move forward on methodology. Other re-engagement features exist. Add re-engagement ideas to backlog. |
+| 3 | Shipping process | Create a shipping checklist. Talk to Leo about owning the process. |
+| 4 | Meeting overhead | Already told Shamil to reach out to Mike for recurring sync. Follow up. Talk to Leo about office hour scheduling. |
+| 5 | Infra coverage during Daniel's leave | No new client onboarding during leave. Mike is emergency backup for infrastructure (has sufficient knowledge). Support team handles Azure/Microsoft environment setup. |
+
+---
+
 ## Meta-Theme
 
 **This is a team learning to work as a team.** The conversation reveals a group of skilled individuals who haven't yet built the connective tissue of a product team: specs before code, estimation discipline, product usage culture, knowledge sharing, sprint goals. The ingredients are there (good technical skills, clear product vision from Ruy, modular thinking from Daniel), but the process is immature. With a 3-month runway, the process maturity needs to accelerate faster than the feature development.

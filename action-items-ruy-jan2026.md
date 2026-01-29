@@ -26,6 +26,11 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Send vision and roadmap docs to Shamil and Daniel** - share so they understand the bigger picture (from Sprint Planning Jan 29)
 - [ ] **Check if support team can set up Azure environment** - instead of Daniel spending 3-4 hours. Needs Stoic credit card + finance auth before 2pm MX. Target: second week of Feb. (from Sprint Planning Jan 29)
 - [ ] **Talk to Leo about office hour scheduling** - request at least one lighter office hour day/week for technical work and pair programming (from Sprint Planning Jan 29)
+- [ ] **Create shipping checklist** - dev done → push to staging → demo in office hours → team tests → ship. Talk to Leo about owning this process. (from Analysis Jan 29)
+- [ ] **Add estimation review to next sprint planning** - 15 min at start: each task, estimated vs actual, why the gap. (from Analysis Jan 29)
+- [ ] **Message Shamil: push Thinking Partner to dev** - so it can be demoed in next office hours. First test of shipping process. (from Analysis Jan 29)
+- [ ] **Follow up with Shamil on Mike technical sync** - already told him to reach out, make sure it's scheduled (from Analysis Jan 29)
+- [ ] **Add re-engagement ideas to backlog** - other features for re-engagement beyond check-in redesign (from Analysis Jan 29)
 
 ### Tomorrow (Jan 28) - Pick Up Work
 
@@ -406,7 +411,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 | Environment automation completion | Daniel baby leave (~Feb 16) | P&G solution documented before leave |
 | Microsoft Teams testing (Mike + Daniel) | No sandbox environment | Escalate to Mario or buy Boetus licenses |
 | LGP accountability loop redesign (Shamil) | Ruy hasn't designed the check-in dialogue prompt | Ruy to write prompt spec |
-| Infrastructure script handoff | Daniel's baby leave ~Feb 16 | Document/transfer before leave |
+| Infrastructure script handoff | Daniel's baby leave ~Feb 16 | Document before leave. No new onboarding during leave. Mike is emergency backup. |
 
 ---
 
