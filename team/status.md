@@ -1,7 +1,7 @@
 # Team Status & Development
 
 > **Current Sprint:** Sprint 3, 2026 (starts Thu Jan 30)
-> **Last updated:** January 28, 2026
+> **Last updated:** January 29, 2026
 
 ---
 
@@ -12,12 +12,14 @@
 ### Sprint 3 Status
 | Item | Status |
 |------|--------|
-| Daily Companion Cyclic Flow | Assigned — exploring system Wed-Thu, check-in Fri evening |
+| Thinking Partner extraction | Done — pushing to dev (~3 days actual) |
+| Daily Companion Cyclic Flow | Assigned — pre-work: experience LGP flow as user, study code (step prompts, trigger words, extraction). Check-in with Ruy Jan 30 |
 | Thinking Partner sidebar | Demoed — needs progressive display + commitment highlighting |
 
 ### Next Milestone
-- **Fri Jan 31:** Propose technical approach for Cyclic Flow (30-min check-in)
-- Then: implement in Sprint 3 (~1 sprint scope)
+- **Thu Jan 30:** Check-in with Ruy on Cyclic Flow approach. Prompt/spec pending from Ruy.
+- Then: implement dialogue-based check-in with coaching/adapt capability
+- Propose recurring weekly technical sync time to Mike
 
 ---
 
@@ -28,13 +30,14 @@
 ### Sprint 3 Status
 | Item | Status |
 |------|--------|
-| MS Teams Notifications | In progress — local dev env working, approaching production deployment |
-| VLAN Assessment Admin | Done — production-ready (demoed Jan 28) |
+| MS Teams Integration — Development | In progress (21 pts). Local dev env working. Staging/testing on Azure split as separate task. |
+| MS Teams Integration — Staging & Testing on Azure | Deferred (~Feb second week). Ruy checking if support team can set up Azure. |
+| Admin panel audit | Done (~2-3 days) |
 | Language selector removal | Assigned — single language per user for normal users |
 
 ### Next Milestone
-- MS Teams Notifications shipped (Q1 foundation)
-- Production deployment needs: Azure instance setup, manifest updates, Axialent Teams admin access
+- MS Teams development feature-complete (Q1 foundation)
+- Azure staging deferred to ~Feb second week. Ruy checking if support team can set up.
 - Will need Daniel support for deployment (last 15 days of Q1)
 
 ---
@@ -46,17 +49,17 @@
 ### Sprint 3 Status
 | Item | Status |
 |------|--------|
-| Installation Script Automation | In progress (resolving port tracking, pip vs UV decided) |
-| WorkOS SSO POC (Boetus) | Assigned — after installation script |
-| Profile/Prompt Creation | Not started |
-| Testing Automation | Not started |
+| Infrastructure Automation Script | In progress — separate repo, modular step-based. Vulture API working, Cloud Panel in progress. Target 50-75% this sprint. |
+| StatusGator monitoring setup | Doing today (Jan 29) — testing, demo, client instances |
+| Opt-in robot | Quick task — adding as step in automation script |
+| WorkOS SSO POC (Boetus) | Deferred — after infra script + depends on baby leave timing |
 
 ### Next Milestone
-- Installation script completed
-- WorkOS POC with Boetus (SSO + provisioning test)
-- Support Mike on Teams production deployment (last 15 days of Q1)
+- Infrastructure automation script 50-75% complete
+- StatusGator monitoring live for testing, demo, client instances
+- Script documented/transferable before baby leave
 
-**Note:** Baby due Feb 5 (~1 week); taking ~1 month government leave, available for CI work
+**Note:** Baby due ~Feb 16; taking ~1 month government leave. Script must be documented/transferable before leave.
 
 ---
 
@@ -82,15 +85,18 @@
 | Item | Status |
 |------|--------|
 | Daily Companion Cyclic Flow FRD | Done — handed to Shamil |
-| AI Coach design (shared foundation for LD + HPT) | In progress — design doc started (`thinking/ai-coach-design-considerations.md`) |
-| Platform vision restructuring | In progress — processing calls, restructuring `core/` docs (see `thinking/call-processing-plan-28jan2026.md`) |
+| Design LGP check-in dialogue prompt | To do — blocks Shamil's implementation |
+| Send vision/roadmap docs to Shamil and Daniel | To do |
+| AI Coach design (shared foundation for LD + HPT) | In progress — design doc started (`research/coaching/ai-coach-design-considerations.md`) |
+| Platform vision restructuring | In progress — processing calls, restructuring `core/` docs |
 | Thinking Partner feature | To do (Ruy builds this) |
 
 ### Next Milestone
-- Process remaining calls → restructure core docs (Step 3-5 of call processing plan)
-- Fri check-in with Shamil on Cyclic Flow
+- **Jan 30:** Check-in with Shamil. Design LGP prompt. Talk to Leo re office hours.
+- Process remaining calls → restructure core docs
+- Check if support team can set up Azure environment
 
-**Note:** Ruy is a bottleneck for specs — Shamil had 2 idle days between sprints waiting for feature descriptions. Need to build a spec pipeline.
+**Note:** Ruy is a bottleneck for specs — Shamil had 2 idle days between sprints waiting for feature descriptions. LGP prompt design is the current critical path.
 
 ---
 
@@ -125,8 +131,7 @@
 
 ## Notes
 
-- Sprint Demo completed Jan 28 — Daniel absent
-- Sprint planning Thursday Jan 30
+- Sprint planning completed Jan 29
 - Sprint retro skipped Jan 27 — needs reschedule (include Shamil)
 
 ---
@@ -135,6 +140,9 @@
 
 | Blocker | Owner | Resolution |
 |---------|-------|------------|
+| LGP check-in prompt not designed | Ruy | Design before Shamil implements |
+| Azure environment for Teams testing | Ruy | Deferred ~Feb; checking if support team can set up |
+| Infra script handoff before Daniel leave | Daniel/Ruy | Document/transfer before ~Feb 16 |
 | Axialent Teams admin access | Ruy | Request from Mario when deployment ready |
 | WorkOS single-URL limitation | Daniel | Build routing middleware as part of POC |
 | CICD not set up | Team | Needed for proper release freezing |
@@ -142,6 +150,14 @@
 ---
 
 ## Key Decisions
+
+**Jan 29 Sprint Planning:**
+- Teams task split into two: development (21 pts) vs staging/testing on Azure (deferred ~Feb)
+- Estimation practice: estimate upfront, comment actual time on completion
+- Infrastructure automation: separate repo, modular steps. Postmark optional, admin app optional, scientific packages skipped.
+- StatusGator: monitor testing, demo, client instances (not personal dev)
+- Weekly technical sync: Shamil + Mike to schedule recurring meeting
+- Housekeeping checklist deferred — Daniel focuses on infra automation
 
 **Jan 28 Sprint Demo:**
 - Progressive sidebar display — show fields as they're filled, not all upfront
