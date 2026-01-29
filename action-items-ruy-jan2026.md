@@ -15,6 +15,13 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Define standalone UX vision** - blocks tutorial wizard, bot selection, language settings final design
 - [ ] **Ask Mike to follow up on user instructions** - check if what Nelson has is sufficient for the 5-user test. Users need clear context/setting so they use it as intended (from Mike-Ruy chat Jan 28)
 - [ ] **Write enterprise integration specs** - based on Mike-Ruy chat + enterprise decisions. Feed into `enterprise/integration-strategy.md`
+- [ ] **Clean up platform vision** - `core/vision.md` needs a general cleanup pass (too many things, tighten)
+- [ ] **Clean up roadmap** - `core/roadmap.md` needs a general cleanup pass (tighten, remove redundancy)
+- [ ] **Add diagrams to platform vision** - visuals for the two design spaces, AI Coach as shared foundation, etc.
+- [ ] **Process team effectiveness calls** - remaining call transcripts related to HPT
+- [ ] **Process AI coach calls** - extract AI coach design clues from: (1) Nelson 1-on-1 Jan 27 (re-review for coach architecture insights), (2) Horacio coaching calls (methodology for multi-session), (3) Richi coaching call Jan 22 (design principles, application coaching praxis). Land all insights into `research/coaching/ai-coach-design-considerations.md`
+- [ ] **Send Nelson the team effectiveness research** - share TE research materials so he can use them for validation
+- [ ] **Process strategic brain dump** - review and process `thinking/strategic-brain-dump.md`, land insights into appropriate core docs
 
 ### Tomorrow (Jan 28) - Pick Up Work
 
@@ -36,7 +43,7 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 
 **Documentation:**
 - [ ] **Update MVP team effectiveness notes** - review/refine `mvp-offer.md` based on call insights
-- [x] **Document AI coach design** - initial version done: `thinking/ai-coach-design-considerations.md`. Next: prototype multi-session architecture (artifacts vs memory graph)
+- [x] **Document AI coach design** - initial version done: `research/coaching/ai-coach-design-considerations.md`. Next: prototype multi-session architecture (artifacts vs memory graph)
 
 **Sprint Prep:**
 - [ ] **Finalize sprint stories and add to tools** - review `sprints/sprint-stories-jan2026.md`, add to Notion and Asana
