@@ -1,7 +1,7 @@
 # Consolidated Action Items - Ruy (January 2026)
 
 Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwritten notes (Jan 13 & Jan 14).
-**Updated:** January 23, 2026 - Added Richi call action items (team effectiveness methodology), reorganized today's tasks.
+**Updated:** January 29, 2026 - Added Sprint Planning (Jan 29) action items.
 
 ---
 
@@ -22,6 +22,10 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Process AI coach calls** - extract AI coach design clues from: (1) Nelson 1-on-1 Jan 27 (re-review for coach architecture insights), (2) Horacio coaching calls (methodology for multi-session), (3) Richi coaching call Jan 22 (design principles, application coaching praxis). Land all insights into `research/coaching/ai-coach-design-considerations.md`
 - [ ] **Send Nelson the team effectiveness research** - share TE research materials so he can use them for validation
 - [ ] **Process strategic brain dump** - review and process `thinking/strategic-brain-dump.md`, land insights into appropriate core docs
+- [ ] **Design LGP check-in dialogue prompt** - write the prompt/spec for the new chat-based check-in step: rating (1-5) → assess struggle → adapt microhabit (trigger/action) or tactical coaching → schedule next. Shamil blocked on this. (from Sprint Planning Jan 29)
+- [ ] **Send vision and roadmap docs to Shamil and Daniel** - share so they understand the bigger picture (from Sprint Planning Jan 29)
+- [ ] **Check if support team can set up Azure environment** - instead of Daniel spending 3-4 hours. Needs Stoic credit card + finance auth before 2pm MX. Target: second week of Feb. (from Sprint Planning Jan 29)
+- [ ] **Talk to Leo about office hour scheduling** - request at least one lighter office hour day/week for technical work and pair programming (from Sprint Planning Jan 29)
 
 ### Tomorrow (Jan 28) - Pick Up Work
 
@@ -401,6 +405,8 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 | Graph memory decision | Technical prototype | Mike to explore |
 | Environment automation completion | Daniel baby leave (~Feb 16) | P&G solution documented before leave |
 | Microsoft Teams testing (Mike + Daniel) | No sandbox environment | Escalate to Mario or buy Boetus licenses |
+| LGP accountability loop redesign (Shamil) | Ruy hasn't designed the check-in dialogue prompt | Ruy to write prompt spec |
+| Infrastructure script handoff | Daniel's baby leave ~Feb 16 | Document/transfer before leave |
 
 ---
 
@@ -448,6 +454,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - **Richi Call (Jan 22):** `calls/Application Coaching - richi and ruy 22jan2026 - Extraction.md` - Team effectiveness methodology, design principles, "ayúdame a ayudarte" framework
 - **Nelson + Oseas (Jan 27):** `calls/Sesión con Nelson más Oseas 27enero2026 - Summary.md` - Pricing alignment, Vitro opportunity, HPT MVP design, AI coach architecture, impact measurement
 - **Sprint Demo (Jan 28):** `calls/Sprint Demo -28ene2026- 2026 series - Summary.md` - Thinking Partner sidebar, VLAN assessment admin, language policy, Linear evaluation
+- **Sprint Planning (Jan 29):** `calls/Sprint Planning - 29jan2026 - Summary.md` - LGP accountability loop, infra automation progress, Teams 21pts, Azure deferred, technical syncs
 - Vision document: `conscious-insights-v2-english.md`
 - Pitch slides: `index.html` (Netlify deployed)
 - Nelson chat (Jan 13): WhatsApp - Thinkific SSO & chatbot creation requests

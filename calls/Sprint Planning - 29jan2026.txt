@@ -1,0 +1,1011 @@
+Ruy
+And Shamilan That's me. Did I get confused? Oh yeah. What's happening here?
+
+Speaker 1
+He's on Discord. Oh no, he's not. Daniel is on Discord.
+
+Ruy
+Daniel is on Discord Weird. Change it for for Shamil. Uh Okay, yes joining up Trying what
+
+Speaker 1
+Hi guys, I can you hear me?
+
+Ruy
+Yeah.
+
+Speaker 1
+Hello, Jamil. Yeah. Um I don't know why. Microsoft teams is strange.
+
+Ruy
+Well, okay. But did you got the new invite? Both of you no, I suppose, because you weren't otherwise you wouldn't be able to be here.
+
+Speaker 1
+Yeah. Yeah, I don't know what happened. I was cleaning like all the meetings like that were canceled from the previous year. Maybe I quit some this meeting
+
+Ruy
+No, no, no. Yeah for some reason today's meeting it was uh I had to remove it and do it again because it wasn't show up showing up in any of your calendars.
+
+Speaker 1
+Yeah, okay.
+
+Ruy
+But we are here now. Okay. Well, este I think Daniel will be joining them when ready. So let me open the board and restart. Let me cord this and So So let's start here. Uh so Shamil, yesterday you showed us uh the extraction, it was working. You had to do a couple of adjustments, no?
+
+Speaker 1
+Yeah, I'm just holding it today. Um small things.
+
+Ruy
+Okay, uh and then can you push it to uh
+
+Speaker 1
+Um
+
+Ruy
+it to yeah, to death and let me know over Discord
+
+Speaker 1
+Okay. Okay, um
+
+Ruy
+I would mark this as complete and move it to down. It's the ah no, before I move it to dawn. How many I mean I I wanted to start uh looking at the cost uh of of the task. Um how much how much time did you spend implementing it? It was one day, two days, three days, week.
+
+Speaker 1
+How much pain? Um I didn't track it I don't know, maybe three days, I don't know, yeah
+
+Ruy
+Okay. Uh so I will put uh a So it was between um three and eight is the uh Okay. It's then skip. So I think you were not here last time, last screen planning, but uh it would be really useful if we start tracking how much time we We spell implementing things so we can plan better and estimate better because so far we're doing no estimations Yeah.
+
+Speaker 1
+Uh you mean like uh to put that line and then when the task is finished just to move to the done or
+
+Ruy
+No, I guess that uh I guess try to estimate how much time it would take you and maybe add a comment and And maybe just add a comment. So we have what you estimated versus what it was actually. Yeah so so we start to develop this this uh uh capability to estimate and capability to to know how much is uh how fast we can go
+
+Speaker 1
+Yeah, when I finish the task, uh I need to write a comment on this.
+
+Ruy
+Yeah.
+
+Speaker 1
+Yeah? When I finish it.
+
+Ruy
+Yeah.
+
+Speaker 1
+Okay.
+
+Ruy
+Just uh
+
+Speaker 1
+Okay. Yeah, I I missed this point, yeah.
+
+Ruy
+Yeah, I think it was last uh we talked about the last screen planning and you were sick Yes, three, so that's one.
+
+Speaker 1
+Uh yeah, kind of uh call yeah, uh now I remember. Why is it
+
+Ruy
+Okay. So And and I don't know if you saw it, I I created this task for uh for this sprint. So the the issue you didn't uh go through it.
+
+Speaker 1
+Yeah, can we go through a uh I didn't think
+
+Ruy
+Okay, I'll uh go through it and and I'll ask you to So right now when we are doing in the accountability partner the flow it's almost linear Este you do a microhabit, you follow up, you do check-in and then it dance. And it if you're having problems with the microhabit, for instance, in the follow-up, uh There is no way to modify it, there is no way to change it. There is no way to get some well there is way there is a way but this is is It's not very intuitive on how to get some advice or coaching on how to implement the microhabit if it's uh being hard. And this is when you're coming back after you get your calendar invite and you fill out the form. You can actually you can chat uh but it's not intuitive that that you can uh That you can uh chat to get some advice.
+
+Speaker 1
+You mean like to make a chat board to like keep one session and so that
+
+Ruy
+Yeah, so this is how this is how it this is how it works right now.
+
+Speaker 1
+Okay.
+
+Ruy
+U I I don't know if you are familiar uh I mean if you have in your head how currently it works, like the current experience.
+
+Speaker 1
+I never work with these chatbot contribution partner.
+
+Ruy
+Okay. So we will start working on it.
+
+Speaker 1
+um so you like you want the user to return to the one session many times yeah
+
+Ruy
+Uh, No, uh so yeah, let's let's break this down, este So the idea is that when you come back you do your check-ins and then you do your check-in and in fact it doesn't end there. You check in the form, you give the starts, you create a comment, and then you still schedule the next follow-up, and that's it. So the idea is to change it so when you come into the check-in It's a dialogue instead of filling out the form, and then I I would like uh Mike's uh comments on this and then Uh you can in the check-in you say how did go, one to five, and then it asks you how how it was. And then you're able to continue or do some slight modification if it's required, or it will give you some tactical coaching on how on what to try this session. And then you go to the schedule next um And and the the thing is that uh or or the the uh the reason to fix this is that The main reason why people fail to stick to new habits is not because they are lazy, but they uh they get stuck and they know how to adapt. So the idea is that if you get stuck Yeah it tells you how to adapt or it helps you adapt a little bit the the microhabit
+
+Speaker 1
+Okay. Um
+
+Ruy
+And And the idea is that the flow instead of filling out the forms, it it asks you how it goes one, two, five, tell me more. To see if uh the they are struggling or they are okay or they are good, and based on that You just continue or you help them to modify the habit or you give them tactical coaching. uh in how to follow through. And then you schedule the next uh checking
+
+Speaker 1
+It is like in the chain lead or it should be like the uh it should be pop-up.
+
+Ruy
+Yes, enchant it in the no in the app. So you mm The first thing that you need to do is to come and do the whole flow and uh feel so I want to to to and
+
+Speaker 1
+Okay, first I need to test this board, the can it's a guilty partner.
+
+Ruy
+Exactly, you need to test it and to understand Uh so this is what I put. Experience it as a user. Uh And then you look at how it is, you will understand why it's why I say that it's it's linear. You understand also how how the code works and then uh We meet up I guess uh tomorrow to see if you have any questions and also uh for you to come up with some ideas on how to to implement it.
+
+Speaker 1
+Okay.
+
+Ruy
+And uh and and why I'm asking you to come and experience it as a user and then understanding is How to implement the looping. Uh it's because I mean I I I want you to Moving forward to help me implement a few things with inside chainlib for the user and sometimes it It will not be hundred percent uh clear on how to implement them in terms of the UX uh or um
+
+Speaker 1
+But it is not a good idea.
+
+Ruy
+So I need you to start getting getting familiar in understanding this from the user point of view
+
+Speaker 1
+Okay. Good.
+
+Ruy
+I don't know, Mike, Mike, what do you think about this?
+
+Speaker 2
+Um mute, no. So uh yeah first uh really encourage you to use the to use the bots. We are in uh huge need of testing the app and As we are the developers of the app, it's important that we actually use the product. So guys use the Leadership Growth Partner. and uh and give feedback. And so while you were talking, Rui, I I wrote a few questions. So for this Pretty much we're re we will have the ability to to reframe the microhabit depending on the feedback of the user.
+
+Ruy
+Yeah.
+
+Speaker 2
+Do you have um A different prompt for this step then? Because we can already chat at this point once once the microhabit is done.
+
+Ruy
+Mm-hmm.
+
+Speaker 1
+Uh so you I guess you have uh another prompt for this part?
+
+Ruy
+We'll have to build it. I haven't built it yet.
+
+Speaker 1
+Okay.
+
+Ruy
+But the main so so so So the dialogue will be something like, okay, if you are strolling, do you want to talk about it? Why why that why you're strolling it with it? And then based on that uh you you st you suggested okay, should we Modify a little bit how the microhabit works, uh adjusting the trigger, adjusting the action, adjusting both. Or uh giving some tactical coaching or both este so yes, the the
+
+Speaker 1
+Okay, so there's a lot. Yeah, there's a lot that can be done with the prompt of the step.
+
+Ruy
+Yeah.
+
+Speaker 1
+We can do all that.
+
+Speaker 2
+I guess from a UX point of view, what we want is to if We have to update the commitment in the sidebar if it gets updated. And so uh Yeah, we need the same flow of discussion and then a trigger step thing. where then it's it says uh your commitment is now you know and this is what we extract uh So Shamil, yeah, you need to look at uh profiles. com, how the step prompts are built, how it happens the succession of steps. It's based on a trigger word. which when the LLM says the word uh the the text that follows gets extracted and into the sidebar It's a little bit like the AI extract. It's like the it's like the the first iteration of the AI extract that we had
+
+Speaker 1
+Okay. Yeah. And then we update and then where do we go, Rui? Like once.
+
+Ruy
+And then uh once we update we come back yeah we come back to the schedule uh again
+
+Speaker 1
+I it's another schedule. Then we schedule again.
+
+Ruy
+Yeah.
+
+Speaker 1
+Okay.
+
+Ruy
+So the idea of having this, I mean there that there there is multiple things of having of why having this. One is I was reading quite a bit on on the research on on why people fail to develop habits and and it's I mean the gist is that that If uh if someone is struggling to develop a habit, mostly it's because they don't figure out how to do it, you need to help them adjust and uh Right now uh it it's not exactly I mean it's not exactly there. So that's one thing and and uh And having the chat the chatbot being able to help you adjust is is a really necessary step. Then the second thing of skipping the form and doing it only via text. It's also because then we could do the check-ins in something like uh Microsoft Teams or another I mean when that is ready. So it's easier to be done in a in a chat in sorry.
+
+Speaker 1
+Are you also okay? No, no, you okay. This is also part of the of this print then. Replace forum-based check with dialogue.
+
+Ruy
+Where? Sorry, I didn't get that.
+
+Speaker 1
+Uh no no no I I just saw ya so yeah. Okay.
+
+Ruy
+Yeah, replace the form based check-in with dialogue, which shouldn't be too complicated este given that for you Shamil given that you're already este Did the extractions with the thinking partner of the so
+
+Speaker 1
+Okay.
+
+Ruy
+Yeah, uh, yeah.
+
+Speaker 1
+So the rating it has to be structured, it's a bit different. The rating, well you need uh you need to force it to give uh one to five uh have some kind of validation. Okay, and I'm wondering, so yeah, you want to
+
+Speaker 2
+When you want to discuss, yeah. Yeah, okay. You you'll figure it out, Shamin.
+
+Ruy
+Yeah.
+
+Speaker 1
+Um we I'll try trying on both.
+
+Ruy
+Yeah, and and
+
+Speaker 1
+Yeah.
+
+Speaker 2
+Yeah, we we we can And the the leadership growth partner is very long flow, so you use the play button to go forward when you know it will answer automatically so you don't have to type or copy paste and if you this is very useful too if you need to change steps in the settings button you have this gear button down in the message part where you can jump to a different profile step automatically. And uh that will make you win a lot of time.
+
+Ruy
+Yeah, uh so what Mike is Leadership Growth Partner
+
+Speaker 1
+This task is about leadership growth partner or accountability partner? Okay,
+
+Ruy
+Yeah. Uh yeah. Let me just uh super clarify it. Este Yeah, and uh and what I Yeah oh yeah yeah what uh eh Mike was talking about of the play button is this one That's the literally you put play and then it's the
+
+Speaker 1
+It simulates your user. Yeah, I know.
+
+Ruy
+Este but I would ask you to that the first uh first run
+
+Speaker 1
+So
+
+Ruy
+Do it yourself with your assessment so you understand the flow as a user. And the other thing about the step change is here. Because otherwise I mean you will be Jumping basically you're gonna I think build another step between practice design and follow-up that's gonna be I don't know follow-up talking about the follow-up or something like that. If reporting back results or uh
+
+Speaker 1
+While we're working on this board, the steps are automatically changes change changing, right? During the conversation. Yes.
+
+Ruy
+Yeah, you would yeah you will under have to understand deeply how this spot works. And I think so so the idea is that with understanding now how this bot works and the scheduling part Also the scheduling part. You will have command of uh the most important pieces so we can build uh Like an actual AI chatbot that can coach you for several sessions. I mean we'll have to build something else for that, but uh These are the building blocks that are existing so it's the yeah so
+
+Speaker 1
+Okay. You said tomorrow we have a checkup or book.
+
+Ruy
+Yeah, let's uh let's meet tomorrow, just thirty minutes.
+
+Speaker 1
+Yeah, okay.
+
+Ruy
+to to ensure that you I mean just uh ensure that before that you have done the flow yourself uh in case you have questions so I can uh uh uh Explain you is the and and also clarify things because I I I didn't flesh out the entire uh requirement so there might be gaps in What I explained is the yeah, so so we're we're changing gears a little bit of uh
+
+Speaker 1
+Okay.
+
+Ruy
+Uh you know the something let me send you uh invite. I'll uh send you an invite, let me know if it works for you.
+
+Speaker 1
+Do we have do you have any more tasks for me for this sprint?
+
+Ruy
+Uh not yet, but if you finish early, I will So there are there are a few things that uh that we need to do around this uh
+
+Speaker 1
+After this task, okay
+
+Ruy
+Yeah, so there are many things that are coming. I I will also send uh we're finalizing the vision and the roadmap and uh I will also send that uh to you as well to you and Daniel so you can read that and but now I have a bunch of tasks for you to to to help me out is the the main idea is uh for for for the following sprints is that my uh focus on getting the integration with teamstone este and uh the next evolution of the chatbot uh For it to be a coach that keeps track of uh sessions across time and so on. It's gonna be you who's gonna be helping me. And I also will be involved on that.
+
+Speaker 1
+Okay.
+
+Ruy
+So you will have plenty of challenging work Este bueno, ah so I think that's that's that en Daniel, hello, yeah, we're staying And so you I mean you were working in environment creation automation and last yeah last Friday if I
+
+Speaker 1
+Yeah, I'm still on that.
+
+Ruy
+If I capture it correctly, you needed to handle the port tracking, use pip in production. Este a ver, let me see. No. What else what else was missing?
+
+Speaker 1
+Uh on this one I think that's all
+
+Ruy
+On the script completion? I I mean on the
+
+Speaker 1
+Sí, sí, aquí no en esa parte, en ese que tenías abierto, no había nada en específico más que agregar.
+
+Ruy
+Ok, entonces la suma de los dos es que va a funcionar con CI, admin. Vamos a poder crear nuevos clientes.
+
+Speaker 3
+Sí, ahorita me estoy concentrando, ahorita me estoy concentrando en la parte que tiene que ver más con la infraestructura.
+
+Ruy
+Uh-huh.
+
+Speaker 3
+Acabo de validar que ya se puede crear el subdominio mediante el API de Vulture. Ya tengo un subdominio ahí que se llama deploy test. Entonces ese ya está. Y ahorita estoy verificando la parte de meter en el script que estoy haciendo como global la onda esta de Cloud Panel para que ya funcione directamente. ahorita es con lo que escal que son los primeros pasos para permitir todo lo demás
+
+Ruy
+Okay, okay Está haciendo lo de Cloud Panel.
+
+Speaker 3
+O sea que nos permita crear el sitio con el script. pero ya en el o sea lo hice aislado y ahorita lo estoy integrando al igual si gusten les muestro muy rápido Ay, se me ha perdido el botoncito. Aquí estoy. Ah, se comparte todo. Bueno, ahorita estoy viendo. esta parte lo me lo implementó raro acá me está pidiendo un api key que cloud panel no lo tiene acabo de validar eso entonces estoy pidiendo ahorita que me haga ajustes pero bueno lo que acabo de checar es esta parte le estoy pidiendo ya que me cree un dominio creo que va a ser más pequeño saben que voy a compartir nada más la la pura ventana de cursor
+
+Ruy
+Mm-hmm.
+
+Speaker 1
+para que no esté tan grandota, es este, sí, ajá
+
+Speaker 3
+y aquí para que se vea más fácil todo lo demás ahí está entonces aquí me pide el dominio com luego le digo que que subdominio diploites dos Luego me pide la IP del servidor. En este caso estoy trabajando, estoy creando todo sobre Crisifus. Denme un segundo para copiarla. Ahí está. Ahí entra con el IP aquí que ahorita lo estoy imprimiendo para porque andaba haciendo debug y ya me creó el dominio. Entonces ahorita entramos al panel de control de Vulture, ahí vamos a ver que ya está. el dominio deploy test 2 déjenme entonces ahora me cambio no me acordaba que iba a tener que mostrarles esto ahí está si pueden ver aquí está el anterior que creé y ahorita voy a actualizar Ahí está, diploides 2. Entonces esta parte de interactuar con Vulture ya lo tengo resuelto, que era otra de las cosas que tenía pendiente. De aquí ya quedaría ahorita, en cuanto pueda hacer que el otro trabaje, quedaría ya solucionado el crear la instancia, crear el sitio en Cloud Panel. más la entrada del DNS y eso ya me permite empezar con el resto de las interacciones. Terminé creando un script que va a funcionar, bueno, como vieron ahí un poquito, en pasos. Déjenme regresarme a la otra pantalla. Y la idea es que podamos ir probando. Ah, hi Shamil, I thought you were off. So the Oh, what is this? No Well the idea is to to so that we can run every step isolated so we can do whatever we want or whatever we need about the steps So this is all the steps that the I found that we can't uh um
+
+Ruy
+Mm
+
+Speaker 3
+automate based on the list that uh mike uh sent to us shared to us So the first step is to fix the to have the cloud panel, then to create the database, set the database permissions, DNS. So I'm testing this part. a knowledge on how to do this this part. So now that I have this for this working, I can enable easily this other two. So I will test those in a couple of minutes more. Ah but well the idea is to try to to automate almost all the steps. There are some steps that I'm not sure that we can automate, like the think thinking if things, but this this is something that I will try later.
+
+Ruy
+Okay.
+
+Speaker 3
+But yeah, this is the idea. So uh then at some point we will be able we will be able to call this uh this script and it will take care of all the or almost all the the steps to create a new instance. And then it comes the uh the script that already exists that is the installation for the API itself. Sorry for the app itself.
+
+Ruy
+Okay, nice.
+
+Speaker 1
+Nice. Looking looking good.
+
+Ruy
+Yeah, it's the Yeah, I I hope well I I think this will help help us quite a bit.
+
+Speaker 1
+Yeah. It is estimated that we will get this in like five to ten minutes instead of uh 30 to 45 that I think is currently what it takes to do this work.
+
+Speaker 3
+And we will able to fully automate this with GitHub Actions. Or almost fully. Let me say, let me check how if there is something there. It's definitively not possible to automate at all.
+
+Ruy
+Yeah, I mean no if the scientific goal packs are not working that's not a huge deal, I think.
+
+Speaker 3
+And I had a question. Sorry, Ruy.
+
+Speaker 1
+Yeah, I know. Probably not also.
+
+Speaker 2
+That will be difficult.
+
+Speaker 1
+Okay.
+
+Speaker 3
+Yeah, I have a question about this. Do we need postmark for every instance?
+
+Speaker 2
+So for the client instances. It's so their mails are not mixed in the same Flow.
+
+Speaker 1
+Oh, okay, okay, okay.
+
+Speaker 2
+But so postmark could be sorry? Yeah, no, right now we are at the limit of the number of accounts, so we're using the same again mostly. Okay Um so I don't know if they have an API where you can create uh stuff remotely
+
+Speaker 3
+Not sure yet. I think it has, but not sure. But anyway, if this isn't like not a requirement for every instance, I think like we I can get this off or maybe make it optional or something like that.
+
+Speaker 2
+You could say the for example there is a I don't remember how it's called testing or dev that's like the default postmark uh flow ah okay okay okay so we could check at the end once once it's ready we could set up some defaults that uh
+
+Ruy
+One second. Well, we're doing that for their own.
+
+Speaker 3
+Yeah, like like uh setting here the default uh I don't find the the section but well to set the default uh environment template uh like leaving this as the false for everyone and then so so this this is the
+
+Speaker 2
+Sorry, yeah, the the token is the same always, but it's the message stream ID that can change for some instances.
+
+Speaker 3
+Okay. So very safe to to leave always the same and don't know how to make this step.
+
+Speaker 1
+Well leaving us an as an optional.
+
+Speaker 2
+Yeah, as an option.
+
+Speaker 1
+Okay.
+
+Speaker 3
+Well then I will ask you the the for the tokens or the data and in case I can find them and cannot find that in one password.
+
+Speaker 1
+Okay. Well, that's all.
+
+Ruy
+Nice. Okay, so I think this sprint you will be finishing up this and do you think you will have time for anything else?
+
+Speaker 1
+Um not sure at this moment, maybe.
+
+Ruy
+Okay.
+
+Speaker 1
+And the same applies if uh there is no nothing about PNG or something like that.
+
+Ruy
+Yeah.
+
+Speaker 1
+I think it will be able to to at least get this to to um maybe a 15-17% done.
+
+Ruy
+So uh sorry, I uh you can get the If we don't have any fires to put off, then you would be able to get it working at 75 to 50%.
+
+Speaker 1
+Yeah, I think I think it it's possible. Mainly because I will remove the scientific thing and the postmark will be like an optional thing. So I won't I won't focus on those on those steps by now.
+
+Ruy
+Okay, okay, este
+
+Speaker 1
+Just with infrastructure and all those things.
+
+Ruy
+So I guess this is uh yeah you estimated three hours and you were I think it it wasn't enough
+
+Speaker 1
+No, no, this this is uh yeah it's because I went to
+
+Ruy
+That three days, sorry.
+
+Speaker 3
+Yeah, this this is because I went to I decided to to find the best way to do everything at once and then I had to change the way I was doing things. uh because i was working on the install script for the for the application but then i realized that The application is just one of a lot of applications we could need to install. So I decided decided to go to a step above and create the the infrastructure automation first and then they worry about the application itself.
+
+Ruy
+I see.
+
+Speaker 3
+So that's I I have to change the paradigm.
+
+Ruy
+Okay.
+
+Speaker 3
+And now I have to work about with the the admin admin app that I think is just there and I just need to to fire up that when I finish the the inst the installation, but I still I still don't really know how to do that. So when I get to that point I will discover how to how to fire up that that application too.
+
+Ruy
+Okay.
+
+Speaker 2
+One question about the admin, what about work OS? Will there be some like do you need to to create stuff on WordOS for the logins or this is you don't need to touch it or
+
+Speaker 3
+I'm not really sure on that part yet. In theory, we can do the same as postmark, just leaving some defaults and that's it, but not sure
+
+Speaker 2
+Okay. Also, uh what we're doing right now, for example, the admin is on CI dev. And on CI staging, so on testing, uh the engine just redirects to the admin from dev. Because it's the same DB and there's no point in duplicating the the application. Okay. So I guess for all the instances that share the same DB, we don't need duplicate admins. You know what I mean?
+
+Speaker 3
+We could yeah okay okay okay yeah so maybe we can get the admin part off of the repo and create another repo with just the admin app
+
+Speaker 2
+Or in the install script you make it optional like install the main app, yes, install the admin, no, yes, no, like let us choose if we need an admin or Or even better, can you control the v-host settings from the admin script?
+
+Speaker 3
+Yeah, that's the idea. I will create like uh in fact I have now a template So the idea is to have just the the like the default template that will just change the port. Very similar as we do at this moment. So we can have two versions, one with admin and one without.
+
+Speaker 1
+Yeah.
+
+Speaker 2
+So the if the yeah are the ones that are without we might redirect slash admin to another instance or something other. Yeah that would be great. Cool.
+
+Speaker 3
+Okay Nice.
+
+Ruy
+Okay.
+
+Speaker 3
+So that's a worryless in my in my list.
+
+Speaker 2
+I I feel like this install script is gonna grow into a very powerful uh thing that
+
+Speaker 3
+That's exactly why I decided to change paradigm because uh otherwise it will just get complicated and complicated. In fact, I I just created a new repo for that because this will another thing completely different, completely separated from our apps.
+
+Ruy
+Yes.
+
+Speaker 2
+Yeah, so you made it more modular. So right now it's CI, but we can do whatever whatever you need to install.
+
+Speaker 3
+Yeah, yeah, yeah. Yes.
+
+Speaker 1
+That's cool. Yeah. It it will turn in just in another step.
+
+Ruy
+Yeah.
+
+Speaker 1
+And that's it. Mm-hmm. Very nice.
+
+Ruy
+Yeah, it makes sense. So that way it will be Yeah, easy to add uh the dashboard uh once we have it as a an instance.
+
+Speaker 1
+Work something.
+
+Ruy
+Bueno, okay, este So I'll uh make up some notes of what we discussed. Ah you had some a task that was uh create a checklist for how housekeeping the infrastructure
+
+Speaker 1
+Oh no I had not much on that and also uh other thing was that
+
+Speaker 3
+I don't remember what we decided about adding all the instances to status gator or to I don't remember. There is another task about that. But I don't remember if we decided that that everything has to be there.
+
+Speaker 1
+I lost track on that on that task.
+
+Ruy
+Which one sweet?
+
+Speaker 1
+The one for the status gator or the other service that we use? I don't remember the name.
+
+Ruy
+Yeah.
+
+Speaker 1
+Uh we decided to uh to add everything because that's another I will add to the script.
+
+Speaker 2
+What I had suggested is to have the client instances on status caterer.
+
+Ruy
+Yeah.
+
+Speaker 1
+Just the client. Ah, okay.
+
+Speaker 3
+Right.
+
+Ruy
+Yeah
+
+Speaker 3
+Okay, so I will I will take care of that today.
+
+Ruy
+Maybe the and maybe also testing no? I think it would be good to have testing there
+
+Speaker 1
+Yeah, actually actually all the instances.
+
+Ruy
+Yeah. Bueno.
+
+Speaker 1
+So even even the the development ones that that are the like the defaults, not the personal instances.
+
+Speaker 2
+No, no, no.
+
+Speaker 3
+Not all test this instances, just like testing and development.
+
+Speaker 2
+Even dev, I mean I don't know. I'm on dev every day, so if it's not up, I will see it very fast. But yeah, testing, I would say testing the main ones, which is already there, testing and then all the individual uh client ones.
+
+Speaker 3
+Ah okay.
+
+Ruy
+Close demo.
+
+Speaker 2
+The ones that are on on markers plus demo, yeah.
+
+Speaker 3
+Okay. Ah demo, okay.
+
+Ruy
+Yeah, that's uh very important to be monitoring.
+
+Speaker 1
+Okay, entonces demo, testing, develop no dep, dev, you said no? It has no sense? Well if if you're on it then you can pull it easily. Yeah, put them all here. Okay. And all the clients.
+
+Ruy
+Yeah.
+
+Speaker 1
+Okay. And guys, what about the the Azure? uh environment that we were talking about. Are we gonna do that or
+
+Ruy
+Yes, uh good thing that you uh remember. So Daniel basically Can you configure it or how how do we do that? Or I can buy I mean how do we do that
+
+Speaker 1
+Uh well, uh B.
+
+Ruy
+I mean I have no other I have to put in the credit card of Stoic and and and and be there so I can ask uh the finance guys to give me an authorization code
+
+Speaker 1
+Okay. Sorry.
+
+Speaker 3
+Well, based on what I did on my own domain for Google, basically is getting the the payment and setting some DNSs on the domain and create new users. and then I add the the application I create the new manifest and all those things uh there is like uh just a lot of steps to do, not something like too complicated. But it will take some time. I think like maybe Three to four hours maybe just to be sure everything's working and that's it.
+
+Ruy
+Shit. Um So let's do that first or let's do that soon uh because Mike w when do you need that
+
+Speaker 1
+Uh not next week. I have plenty to do on the local environment before needing the online one, I think.
+
+Ruy
+Okay, so let's let's schedule it for next week before the baby go uh comes when the baby is coming.
+
+Speaker 1
+Okay. Okay. Yes, that's another thing.
+
+Ruy
+Yeah eh Yeah, that's uh yeah but I mean tell me when when you think it is best to do it. I mean if you think it's best to do it Today or tomorrow. We just need if we need to pay something, we need to do it before Three o'clock. No, before two o'clock Mexico because uh we need to get uh the guys in Argentina
+
+Speaker 1
+Um well if Mike It won't need the does that thing in the near future.
+
+Speaker 3
+Maybe we can think uh of doing that on the second week of February, maybe Mike? Or do you think it's better to solve this now?
+
+Speaker 2
+No, for me it's not a huge priority.
+
+Ruy
+So for for for this print is not something that you need
+
+Speaker 2
+Like uh
+
+Speaker 1
+I don't think so. Like I have the fake teams right here on my desktop where I can do everything locally uh with
+
+Ruy
+Okay. Or you know something, mm This is something the guys from from the from support could could do it for us, no? Because
+
+Speaker 1
+Mostly. We will that that will just return uh we maybe we just need to sorry we will just need to create the DNS entries And they can configure everything else.
+
+Ruy
+Let me check because that's m maybe I mean that's better uh than than than uh making you spend five hours configuring that is the if they can do it Then you can put those five hours back into all the work that we have. Okay. So Mike, we're uh getting at the end of this but uh just one last thing Daniel this checklist Will you realistically work on this this sprint or or not really?
+
+Speaker 1
+I don't think I don't think uh it's better to for me to focus on all one thing.
+
+Ruy
+Okay. Yeah, okay. Uh more uh
+
+Speaker 3
+The other test about the opt-en robot because it's something very quickly, so no more no no real issue with that
+
+Ruy
+Okay, este
+
+Speaker 2
+If you if just a crazy idea, in the same spirit of the install script, you could do an a part that is just updating Updating all our instances, checking if there are updates, running the updates.
+
+Speaker 3
+Yeah, that could be another thing. In fact, the the opt-in robot thing I will do that with uh I will add another step to the current uh the to the current instance creation thing as an optional step And I will test the I I will use the same time for to develop that feature in that script. So I can test it with real data, real sites and everything.
+
+Ruy
+So Mike, you finished with this uh the admin panel, no? Uh as far as I got in the demo
+
+Speaker 1
+Uh yes, so far, yes.
+
+Ruy
+So I will mark it last on and and this sprint you will be focusing on on this on the integration basically
+
+Speaker 1
+Yeah. That probably well this week was mostly feedback from the testing of the app.
+
+Ruy
+Yeah, and the testing.
+
+Speaker 1
+So this has been taking a lot of time this week.
+
+Ruy
+Yeah.
+
+Speaker 1
+Uh yeah.
+
+Ruy
+Okay, um and how much time did you really spend on on Microsoft Teams last sprint
+
+Speaker 1
+So last sprint maybe yeah so like half the sprint probably uh That would be well, like four or five days.
+
+Ruy
+Okay, este mate per pieces It's gonna be 13 weeks. It's probably gonna take more than 13 I mean two weeks probably be no more than that
+
+Speaker 1
+Yeah. What did I say at the beginning, thirteen?
+
+Ruy
+You said thirteen points, which is two weeks.
+
+Speaker 1
+Two weeks. Yeah.
+
+Ruy
+Do you want to update it to I mean maybe it's taking to twenty-one Or do you think it should be a
+
+Speaker 1
+I don't know. I I suck at predicting always too optimistic and then when we test it's like oh no that there's this and this.
+
+Ruy
+Okay.
+
+Speaker 1
+So let's make it maybe a bit
+
+Ruy
+So
+
+Speaker 1
+Why are you going to get a lot of people?
+
+Ruy
+So I will put 21 points. I mean I I I also sub but if we don't try
+
+Speaker 1
+Yeah now we have the with the Azure platform we'll have all this phase of staging there and testing there and then deploying on the other one. So yeah, it makes everything a bit longer.
+
+Ruy
+So basically that's gonna be a different task. One is the development of this and the other one is the testing and
+
+Speaker 1
+Oh you want but yeah could could be also separate, yeah.
+
+Ruy
+Okay. Este es el que se puede hacer.
+
+Speaker 1
+And the point of the brilliant, did you write down uh the the brilliant admin? That was probably two or three days.
+
+Ruy
+Ah, okay.
+
+Speaker 2
+I mean wait because it's mixed up at the same time I did also uh well uh finishing auditing the admin doing a few few changes also there It's really difficult to be that precise, that precise in the time spent, because I tend to work on three different things during the same hour sometimes.
+
+Ruy
+Separate. Yeah.
+
+Speaker 1
+uh which maybe is not not that good but uh we'll we'll we'll get used to it yeah
+
+Ruy
+Yeah. Well I guess that Yeah having the conversations is is good no so we because I mean when I when I'm right now I'm starting to to look at the Roadmap for this year and it's like we need two teams if we really want it But I guess that the idea of starting to have the conversations also can give us a A better hint on I don't know maybe there are things that we can ask someone else to to do Bueno, okay, este Do we need to discuss something about Teams, Mike, or the Microsoft Teams integration besides of what we discussed?
+
+Speaker 1
+I think not at this point. Uh no.
+
+Ruy
+Okay. So so let's leave it here so we finish sort of on time.
+
+Speaker 1
+Okay.
+
+Ruy
+Stay well.
+
+Speaker 1
+Cool. So do we we meet tomorrow or you you use just you and Shamil? I I don't I didn't understand that.
+
+Ruy
+Ah I don't know, I I sent an invite from me and Shamil, esteemed. I think it would be useful if you can
+
+Speaker 1
+Okay, well just uh check.
+
+Ruy
+But I don't know if you no no no worry.
+
+Speaker 1
+Yeah, I won't be able Yeah, I won't be available tomorrow. I have to do a last-minute trip to to Jimena's hometown.
+
+Ruy
+No this is Don't worry, we we uh this is this is uh uh only for for the uh uh tasks that that Shamil will be working on.
+
+Speaker 1
+Okay.
+
+Ruy
+Well, just one question before before uh before we go is the So uh I mean at some point Shamil and I discussed that it would be good to have a a technical meeting, a technical demo, I think with m este Mike Seth that. But then At the same time uh we are having uh the office hours are are are being uh I mean we're having a lot of meetings uh right now. I think it is because it's the beginning of the year. So what's your sense? Should we Wait to have those kind of uh technical meetings should we try to do them
+
+Speaker 1
+What what was your idea, Shamil? Is it like just showing off random things or or like talking about specific technical issues with the project or
+
+Speaker 4
+Um like oh we don't have a meetings like when we discuss them technical things. Like I had this thing of the flashing the screen I had some things maybe yeah maybe some specific things like that happen
+
+Speaker 3
+A good topic for those kind of calls maybe the could be the could was the the uh the web sockets issues that you have. Something like that, right?
+
+Speaker 4
+This also was like maybe was solved a little bit more more time consuming to communicate via the chat because like these kind of things we cannot discuss. Because we don't have uh meetings for it. We only have meetings uh for the OZ that we tell non-technical things and we have the meetings of the
+
+Ruy
+Sprint
+
+Speaker 4
+uh retro demo when we say that we finished we have a meeting so what we would gonna plan and we have a meetings and on behalf we have a uh a refinement where we can ask yeah ladies and but this is also not a technical thing
+
+Speaker 2
+Maybe this doesn't need to involve everybody, like if it's a specific technical thing. um like for this flashing sidebar you we can do it uh you and me if you want or I don't know if it's we all have limited time uh it's crazy the The amount of meetings this week was insane.
+
+Ruy
+Yeah.
+
+Speaker 2
+But uh yeah, maybe those things is more uh one-to-one or you know two.
+
+Speaker 1
+More like co-working than meeting, just uh pair programming or
+
+Ruy
+Do can I can I suggest something because I think moving forward, especially Shamil and you will have a lot to talk Este and myself as well, but the problem is that we only have like two three hours of of uh So maybe if uh Shamil and you have a a technical one one every two weeks and if necessary one more
+
+Speaker 1
+I would love to do it on during the um gather hours.
+
+Speaker 2
+Like It's a good moment after the general meeting with everybody. We can work together on each gather time if you want Shamil.
+
+Speaker 4
+Mm these days gather meetings are too long. Like I don't know. Like when earlier when it was like 15 minutes it was like nice, you're not so tired and yeah, but I don't know. Should I like stay at team and try to meet you and Rai and Rui?
+
+Speaker 1
+Try to catch you both or during office hours. I don't know.
+
+Ruy
+I mean the the thing is that I saw two things. I I I need to ask to Leo, who's now owning the agenda. Which days uh we're not gonna take one hour of meeting uh in the So not one hour with the full team so so you can so we can meet. The other alternative is that Shamil and Mike can meet earlier in your day.
+
+Speaker 1
+Yeah, it's also possible.
+
+Ruy
+Just the two of you.
+
+Speaker 5
+Pues este es el batido.
+
+Ruy
+So I I I mean I will get some more information about uh
+
+Speaker 5
+Los análisis se hacen de lunes a viernes y ya que para sí.
+
+Ruy
+What's gonna be happening with the office hours and then also for you to figure out
+
+Speaker 5
+Para ahora no. El laboratorio funciona. El mes a viesles.
+
+Ruy
+When do we need to meet and especially you Shamil that uh uh I think that you're gonna be needing to to talk more with Mike. So reach uh reach out to him and see when when when it can be done.
+
+Speaker 1
+Let's do it. Okay. So what we agree?
+
+Ruy
+We agree
+
+Speaker 1
+I I'll reach Mike indirectly.
+
+Ruy
+Yeah, you re you reach Mike and you figure out the time when it works for you too in terms of time and also mental energy
+
+Speaker 1
+Okay
+
+Ruy
+And uh I'll I'll check with Leo and also tell him like hey let's leave at least one one uh office hour a day that is not so packed with uh Old team meeting
+
+Speaker 1
+I was suggesting gather because it's convenient if Rui, you need to jump in fast or you know it's a bit more flexible.
+
+Speaker 2
+And so we have a fixed hour where we know we can do these things. But if you want to talk at another hour, Shamil, no problem. Just let me know and we block a slot.
+
+Speaker 4
+I'm more like a planning man. I need to if we have a meeting, I want to see it in the calendar.
+
+Speaker 1
+I want to make sure that everybody's uh agreed, everybody sees it. No, yeah.
+
+Ruy
+So suggest something to Mike and uh for that and I will uh figure out the other things with uh Leo the more flexible time
+
+Speaker 1
+Okay.
+
+Ruy
+Bueno, okay
+
+Speaker 1
+Muy bien. Bueno, see you tomorrow. Yeah. Five minutes, yeah, I have.
+
+Ruy
+Yeah, I just wanted to to uh finish up talking about that without holding them. So so I mean, este does it does it make sense to you that you will Uh talk with uh Mike and figure out the time where you two can meet for technical stuff. Y que no ella está, tiene tres hermanos, pero ella era la que se hacía cargo de él.
+
+Speaker 1
+In theory, yes, but I know
+
+Speaker 4
+Mic sometimes respond very uh lately. Yeah but like if I need like like right now to meet maybe probably he's not online um probably if we plan it yeah in a couple of days to meet okay maybe that work
+
+Ruy
+No, but Yeah, exactly. That that's what I'm I was trying to say that Find a time like I don't know every Wednesday at one Pm uh your time or eleven or whatever time it works for you both both of you is the every week uh One hour, I'm I'm sure that you will agree to it because we we all need to invest in you so you can become more proficient and help us uh is the implement the things moving forward.
+
+Speaker 1
+Okay.
+
+Ruy
+And uh and and also I need to
+
+Speaker 1
+Yeah.
+
+Ruy
+Yeah, so so I think it's a good idea to have a planned meeting at a fixed time and And you do and you and you do it And uh in the office hours I will I mean that's another thing I'll I'll uh ask Leo about the time Or how we plan to to to spend time.
+
+Speaker 1
+Okay.
+
+Ruy
+Why? So we talk tomorrow then
+
+Speaker 1
+Yeah, um just just second. So yeah, good.
+
+Ruy
+Yeah, we have a a meeting tomorrow. Why did I put that near? Now I understand why Danay said that he couldn't make it. I put a nail instead of uh Bueno, Okay. So see you tomorrow.
+
+Speaker 1
+Okay, see ya still.
+
+Ruy
+Hasta luego.
+
