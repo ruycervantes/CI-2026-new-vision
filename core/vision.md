@@ -104,6 +104,8 @@ The AI Coach is the shared technology foundation. Beyond it, there are two desig
 
 **Where this is described:** `team-effectiveness/mvp-offer.md` (near-term MVP), team effectiveness vision (evolving)
 
+**Research references:** [research-references-te.md](research-references-te.md) — HCI/CSCW papers illustrating meeting facilitation and team conversation tracking concepts.
+
 **Note:** The near-term validation uses current product + consultant-led process (Nelson is leading). The full engineering vision is significantly larger — meeting facilitation, real-time feedback, team dynamics visualization.
 
 ### Why the Same Company Should Do Both
@@ -178,7 +180,7 @@ Every feature should pass one of these tests.
 | `core/vision-behavior-change.md` | LD product spec — detailed behavior change product design |
 | `team-effectiveness/mvp-offer.md` | HPT near-term MVP — the 90-day hybrid cycle |
 | `core/roadmap.md` | Engineering roadmap — shared foundation + feature candidates by path |
-| `thinking/ai-coach-design-considerations.md` | AI Coach architecture — memory, implementation paradigms, design questions |
+| `research/coaching/ai-coach-design-considerations.md` | AI Coach architecture — memory, implementation paradigms, design questions |
 
 ---
 
