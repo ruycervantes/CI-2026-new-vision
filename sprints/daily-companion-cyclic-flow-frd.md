@@ -161,7 +161,7 @@ These are technical pointers Mike gave during the call. Shamil should study thes
 
 ### Step prompt architecture
 The bot uses **trigger words** — when the LLM says a specific word, the text that follows gets extracted into the sidebar. This is similar to the AI extract Shamil already built (first iteration). Shamil needs to understand:
-- How step prompts are built (`profiles.com`)
+- How step prompts are built (`profiles.toml`)
 - How step succession works (based on trigger words)
 - How text after the trigger gets extracted and placed in the sidebar
 
