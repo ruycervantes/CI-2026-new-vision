@@ -16,6 +16,11 @@
 | Daily Companion Cyclic Flow | Assigned — pre-work: experience LGP flow as user, study code (step prompts, trigger words, extraction). Check-in with Ruy Jan 30 |
 | Thinking Partner sidebar | Demoed — needs progressive display + commitment highlighting |
 
+### Why These Tasks (from Sprint Planning Jan 29)
+- Shamil needs to understand the product from the user's point of view, not just code. The UX for upcoming features won't always be 100% specified — he needs product intuition to fill gaps.
+- Understanding the LGP flow + scheduling mechanism = the building blocks for a multi-session AI coaching chatbot. These are the existing pieces he needs to master.
+- Going forward, Shamil is the main person helping Ruy build the next evolution of the chatbot (multi-session coaching with memory) and will also support Teams integration. "You will have plenty of challenging work."
+
 ### Next Milestone
 - **Thu Jan 30:** Check-in with Ruy on Cyclic Flow approach. Prompt/spec pending from Ruy.
 - Then: implement dialogue-based check-in with coaching/adapt capability
