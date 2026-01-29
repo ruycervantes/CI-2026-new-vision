@@ -155,4 +155,32 @@ If stuck before Friday, ping Ruy — don't spin for too long.
 
 ---
 
+## Implementation Notes from Mike (Sprint Planning Jan 29)
+
+These are technical pointers Mike gave during the call. Shamil should study these before proposing an approach.
+
+### Step prompt architecture
+The bot uses **trigger words** — when the LLM says a specific word, the text that follows gets extracted into the sidebar. This is similar to the AI extract Shamil already built (first iteration). Shamil needs to understand:
+- How step prompts are built (`profiles.com`)
+- How step succession works (based on trigger words)
+- How text after the trigger gets extracted and placed in the sidebar
+
+### Sidebar update on commitment change
+If the user modifies their microhabit during the check-in dialogue, the **commitment in the sidebar must update**. Same trigger-word extraction flow: the bot says the trigger word, then states the new commitment, and it gets captured. This is the same mechanism as the existing extraction — just applied to an updated commitment.
+
+### Existing chat capability
+You can already chat at the check-in point in the current flow. The question is whether we need a **different prompt** for the new check-in step — yes, we do (Ruy to design).
+
+### Testing shortcuts
+- **Play button** — auto-advances through steps you've already seen (don't have to type/copy-paste). Very useful for testing the long LGP flow.
+- **Gear button** (in message area) — jump to a different profile step directly. Saves time when you need to skip to a specific point in the flow.
+
+### Where the new step fits
+The new check-in dialogue is likely a **new step between "practice design" and "follow-up"** — something like "reporting back results" or "follow-up check-in." After this step completes (with possible habit modification), the flow returns to schedule the next check-in.
+
+### Why chat-based (not form)
+Beyond the coaching rationale: replacing the form with a text dialogue means check-ins could eventually happen inside **Microsoft Teams or other messaging platforms** — no need to come back to the app. This is a strategic enabler.
+
+---
+
 *Shamil: propose technical approach before implementing. This is how we do feature-driven development.*
