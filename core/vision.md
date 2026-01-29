@@ -1,302 +1,185 @@
-# Conscious Insights - Vision for Behavior Change
+# Platform Vision
 
-> **Purpose:** The "what" and "why" — methodology, user journey, system design
-> **See also:** [roadmap.md](roadmap.md) for Q1-H2 features, [alignment.md](alignment.md) for leadership sign-off
-
----
-
-## 1. Why This Vision
-
-We face two problems that demand a new direction.
-
-### Problem 1: The Product is Vulnerable
-
-The current product works. It has value. Clients understand it.
-
-But the market sees us as "a chatbot." We learned this with Sigma — an advanced client who saw us as just another tool.
-
-![Copilot Studio Coach Templates](../diagrams/copilot-studio-coach-templates.png)
-
-The market is changing fast. Anyone with access to Claude or GPT can build a coaching chatbot with good prompting. If we stay where we are, we'll be just another one in the crowd.
-
-**We need to own the entire behavior change cycle, not just offer conversations.**
-
-### Problem 2: People Struggle to Change
-
-Self-development is hard. People don't naturally persist.
-
-> "Sigo teniendo esta impresión de que si el producto está diseñado para ayudarle a personas a que hagan un proceso de crecimiento de propia voluntad... nos pone en una situación muy vulnerable, en tanto en cuanto no es lo normal que las personas hagamos eso y que seamos consistentes."
-
-Current tools track habits but don't help people ACTUALLY change. They nag when you fail instead of helping you adapt. They count streaks instead of connecting daily actions to what you really want.
-
-**We're integrating the best research on how change happens — from HCI, behavioral science, and longitudinal goal-setting studies — to build a system that actually helps people change.**
-
-### Our Response
-
-1. Build a system grounded in research on what makes people persist
-2. Own the complete cycle: goals → gaps → habits → adjustment → evolution
-3. Not just a coach that talks — a system that guides real change
+> **Purpose:** Why we exist, what we do, how we do it — the umbrella for everything we build
+> **See also:** [vision-behavior-change.md](vision-behavior-change.md) for LD product spec, [roadmap.md](roadmap.md) for engineering roadmap, [alignment.md](alignment.md) for leadership sign-off
 
 ---
 
-## 2. The Bet
+## Why We Exist
 
-We are going to own the behavior change cycle.
+We help humans become more conscious — of themselves, of how they show up, of the gap between who they want to be and who they are — so they can be more effective.
 
-> "Si nos quedamos como 'tenemos un chatbot de coaching', competimos con todos. Si nos posicionamos como 'somos dueños del ciclo de cambio de comportamiento', es otra conversación."
+We live in a moment of massive uncertainty. AI is reshaping work, roles are shifting, and people need to navigate this transition with greater awareness and adaptability. We believe AI should serve human flourishing — that technology can increase human consciousness rather than diminish it.
 
-### What is NOT Easy to Replicate
-
-- **The complete behavior change methodology** — grounded in research, not intuition
-- **The system that orchestrates the entire cycle** — not just a conversation, but goals, habits, adjustments, evolution
-- **The integrations that create real stickiness** — we reach users where they already are
-- **The accumulated knowledge about what works** — what interventions move people, when, how
-- **The structured memory of the user's change trajectory** — not just chat history, but a model of their growth
-
-**That's what we're going to build.**
+We believe work is and will continue to be a source of meaning and satisfaction beyond generating money. And we believe that helping people become more conscious makes them more effective — not the other way around.
 
 ---
 
-## 3. One System, Two Modes
+## What We Do
 
-The system has two modes — not two separate products, but two aspects of the same experience:
+**We help humans have better conversations.**
 
-![One System, Two Modes](../diagrams/02-one-system-two-modes.png)
+- **With yourself:** Reflection, awareness, closing the gap between your espoused values and your values-in-action. Understanding why you fall back into reactive patterns. Turning awareness into action through practice.
+- **With others:** Showing up differently in difficult conversations, giving feedback, being a learner instead of a know-it-all.
+- **As a team:** Having conversations that build alignment, honor commitments, and evolve how the team works together.
+- **As an organization:** Organizations are networks of conversations. Improve the conversations, improve the organization.
 
-### When Each Mode Activates
-
-| Moment | Mode | What Happens |
-|--------|------|--------------|
-| Starting out | Coach | Set goals, understand yourself, create the plan |
-| Day to day | Daily Companion | Practice habits, track progress, check in |
-| Hit a setback | Coach | Process what happened, adjust approach |
-| Pattern detected | Coach | "You've struggled for 2 weeks. Let's talk." |
+This is the unifying thread across everything we build. Whether we're helping an individual leader close the gap between intention and behavior, or helping a team track and honor their agreements, the core competence is the same: **increasing consciousness to enable better conversations.**
 
 ---
 
-## 4. The Goal Hierarchy
+## How We Do It
 
-Persistence requires connecting daily actions to what people really want. We use a three-level hierarchy:
+### AI That Increases Consciousness
 
-![Goal Hierarchy](../diagrams/01-goal-hierarchy.png)
+Not AI that replaces human judgment, but AI that helps you see what you couldn't see — your patterns, your reactivity, your progress, your team's dynamics.
 
-### Why This Matters
+The AI Coach is a persistent coaching relationship — not a one-shot chatbot. It maintains context across sessions, tracks your goals and commitments, and helps you bridge awareness to action.
 
-- **Destination Goals** get people started — promotions, being liked, avoiding problems
-- **Management Goals** keep people going — intrinsic motivation drives long-term engagement
-- **Tracking Goals** make it concrete — you can't practice "be a better leader," but you can practice "ask one question before responding"
+### Three Pillars of Our Approach
 
-**All three must be connected and visible.**
+**1. Coaching Methodology (Axialent)**
+Decades of application coaching praxis — Richie, Horacio, the Conscious Business framework. Not just theory: a structured process for how to coach behavior change. Design principles grounded in real practice: the gap as raw material, real content creates real learning, zero attachment to direction.
 
----
+**2. Scientific Foundation**
+Behavioral science, HCI research, CSCW research. We don't rely on one methodology alone — we bring frontier research on how technology can genuinely help humans develop. We design based on what works, validated by science.
 
-## 5. The Change Process
+**3. Enterprise Integration**
+Be in the flow of work. Not a separate app people go to — your coach embedded where you already work. Teams, email, calendar. Your coach for people who work in enterprise.
 
-Four stages, facilitated by Coach and Daily Companion:
+### Visibility as Design Constraint
 
-| Stage | Mode | What Happens |
-|-------|------|--------------|
-| **Know Yourself** | Coach | Assessment + Debrief → understand your patterns |
-| **Set Intrinsic Goals** | Coach | Powerful conversation → OWNED goals (not assigned) |
-| **Connect to Action** | Coach → Daily Companion | Create If-Then habit, handoff for execution |
-| **Daily Practice** | Daily Companion | Reminders, check-ins, GPS updates |
+Every feature we build must make the invisible visible. Individual leadership change normally takes 2 years to show with a 360. Team progress is hard to measure without digital tools. We design for observability from the start — every coaching interaction produces structured, queryable data that can demonstrate impact.
 
-**Key insight:** Goals must be OWNED (from intrinsic conversation), not ASSIGNED (from assessment alone).
-
-**If-Then Structure:**
-> "IF I'm in a meeting and I want to prove I'm right, THEN I ask one question before responding."
+This is Oseas's lockstep principle: coaching quality and visibility quality must advance together. 10 points of coaching + 2 points of reporting = unsellable.
 
 ---
 
-## 6. The Adjust Stage
+## The AI Coach: Why This Changes Everything
 
-When users fail, most systems just track the failure. That doesn't help.
+Consultants have always been able to coach leaders. But they can only be in one room at a time. A leadership development program reaches the top 20 people. A team intervention depends on the consultant being present. Between sessions, people are on their own.
 
-| Don't | Do |
-|-------|-----|
-| Track failure ("You missed 3 days") | Reinterpret ("What got in the way?") |
-| Nag ("Remember your habit!") | Anticipate barriers ("Tough week ahead. Let's plan.") |
-| Create guilt | Help learn a new skill or approach |
+The AI Coach changes what's possible. Not by replacing the consultant, but by making a persistent coaching relationship available to **every person** in the process.
 
-When Daily Companion detects a pattern (missed days, negative sentiment), it triggers Coach mode — not to guilt, but to help adapt.
+**For individual development:** Instead of a workshop you attend and forget, you get a coach that knows your goals, remembers your setbacks, and helps you practice every day. The full behavior change cycle — goals, habits, adjustment, evolution — becomes continuous, not episodic.
 
-**The goal is learning, not compliance.**
+**For teams:** This is where it gets powerful. Team interventions historically fail because only the leader gets coached. The rest of the team sits through a facilitation, makes agreements, and then goes back to old patterns. The AI Coach means every person on the team gets their own coaching relationship — connected to the team's agreements, aware of what they committed to, helping them show up differently between facilitations. That's what makes team change stick.
 
----
+**Together:** Individual coaching in team context is more powerful than either alone. Your coach knows your personal patterns AND your team's commitments. "The team agreed to improve decision-making. You tend to dominate conversations. Here's your practice for today." The paths reinforce each other.
 
-## 7. Juan's Journey
-
-Juan wants to be seen as someone people want on their team — and get promoted to team lead.
-
-![Juan's Journey](../diagrams/04-juan-journey-map.png)
-
-### The Arc
-
-| Stage | What Happens | Result |
-|-------|--------------|--------|
-| Assessment + Debrief | Discovers his "Knower" pattern | Understands himself |
-| Goal Conversation | Sets intrinsic goals with Coach | Destination: Team Lead, Management: Leader who listens |
-| Habit Created | Creates If-Then practice | "If I want to prove I'm right → Ask a question" |
-| Daily Practice | Daily Companion sends reminders, tracks progress | GPS updates, wins logged |
-| Setback + Adjust | Misses check-ins → Coach helps adapt | New practice for stressful times |
-| Sustained Change | Multiple iterations over months | Gets the promotion |
-
-### Daily Practice in Action
-
-![Juan's Day](../diagrams/05-juan-day-comic-phone.png)
-
-### When Setbacks Happen
-
-![Setback and Adjustment](../diagrams/07-juan-reflection-comic.png)
-
-**The trajectory is visible.** Juan can see where he started, what he worked on, and where he is now.
+This is why the AI Coach is the right shared investment. It's not an efficiency play (build once, use twice). It's the core unlock — it makes possible what wasn't possible before.
 
 ---
 
-## 8. The Goals Dashboard (GPS)
+## Two Design Spaces
 
-The user must see that each daily action moves them toward their destination. This is the "GPS" that keeps them walking.
+The AI Coach is the shared technology foundation. Beyond it, there are two design spaces — each with genuine depth, each a full product.
 
-![GPS Dashboard](../diagrams/03-gps-dashboard.png)
+### Design Space 1: Inside the Individual (Leadership Development)
 
-### Key Principles
+**The core:** A continuous conversation with yourself — increasing consciousness of how you think and act, closing the gap between who you say you want to be and who you show up as.
 
-- **Connection is visible** — Every habit completion updates progress toward Destination Goal
-- **Trajectory, not just state** — Shows where you started, key moments, where you are
-- **Wins are captured** — Not just counts, but specific moments that mattered
-- **Next focus is clear** — What you're working on now vs. what's coming
+**What this looks like as product:**
+- Goal hierarchy (destination → management → tracking goals)
+- Daily Companion: microhabits that bridge awareness to action, cyclic check-ins, the adjust stage when things aren't working
+- Coach mode: deep conversations about setbacks, goals, and growth
+- Multi-session memory: the coach knows your trajectory across sessions
+- The "Pepe Grillo": deep integrations (email, chats, calendar) that make the coach present in your day-to-day, not just when you open the app
 
----
+**Where this is described:** [vision-behavior-change.md](vision-behavior-change.md) (detailed product spec)
 
-## 9. Architecture
+**Note:** Behavior change is a powerful starting point, but leadership development is broader than behavior change alone. The deeper work is consciousness itself.
 
-### System Overview
+### Design Space 2: Inside the Team (Team Effectiveness)
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     INTEGRATED UX LAYER                         │
-│             (One system from user's perspective)                │
-│                                                                 │
-│              ┌──────────────┬──────────────┐                    │
-│              │    COACH     │    DAILY     │                    │
-│              │    MODE      │   COMPANION  │                    │
-│              └──────────────┴──────────────┘                    │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    STRUCTURED MEMORY                            │
-│                (User's change trajectory)                       │
-│                                                                 │
-│   • Goal Hierarchy (Destination → Management → Tracking)        │
-│   • Where they started (assessment, initial gap)                │
-│   • What they've worked on (habits, coaching sessions)          │
-│   • Key moments (setbacks, insights, wins)                      │
-│   • Current state and focus                                     │
-│                                                                 │
-│   Technical: Exploring Graphiti or similar for relationships    │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    CONTEXT MANAGER                              │
-│          (Pulls information from user's world)                  │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-              ┌───────────────┼───────────────┐
-              ▼               ▼               ▼
-         ┌─────────┐    ┌─────────┐     ┌─────────┐
-         │MS Teams │    │Calendar │     │ Email   │
-         │(Q1 2026)│    │(Future) │     │(Future) │
-         └─────────┘    └─────────┘     └─────────┘
-```
+**The core:** Teams are made through conversations. We help teams have better conversations and manage their commitments — so they evolve together rather than stagnate.
 
-### How Architecture Maps to User Journey
+**What this looks like as product:**
+- **Team memory:** The Team Agreement Doc — a living artifact structured around Katzenbach dimensions (purpose, roles, relationships, processes). A testament of the team's ongoing conversation about who they are, how they evolve, and how they strive for excellence. Updated by humans AND AIs.
+- **Individual coaching in team context:** Each person gets an AI coach that knows both their personal patterns AND their team's agreements. "I see the team committed to improving decision-making. How is that showing up for you?"
+- **Meeting facilitation support:** Real-time AI support during team meetings — topic tracking, goal reflection, ambient visualization. Augmenting what a consultant does in meeting facilitation. (Reference: Chen et al. "Are We On Track?" — AI-assisted goal reflection during meetings.)
+- **Team conversation tracking:** Capture agreements across meetings, track whether they're being honored, surface patterns over time.
+- **Accountability model:** Social commitment to the process (visible), private content in individual coaching.
+- **Before/during/after:** Preparing for conversations, supporting during, reflecting after — at the team level.
 
-| User Stage | System Component |
-|------------|------------------|
-| Know Yourself | Assessment + Coach Mode |
-| Set Intrinsic Goals | Coach Mode + Structured Memory (stores Goal Hierarchy) |
-| Connect to Action | Coach Mode → Daily Companion handoff |
-| Daily Practice | Daily Companion + Context Manager (MS Teams) |
-| Adjust | Daily Companion detects pattern → Coach Mode |
-| View Progress | GPS Dashboard reads from Structured Memory |
+**Where this is described:** `team-effectiveness/mvp-offer.md` (near-term MVP), team effectiveness vision (evolving)
+
+**Note:** The near-term validation uses current product + consultant-led process (Nelson is leading). The full engineering vision is significantly larger — meeting facilitation, real-time feedback, team dynamics visualization.
+
+### Why the Same Company Should Do Both
+
+It's not two different bets — it's **one competence applied at two levels.** Helping humans have better conversations through increased consciousness. The individual path helps you show up better in conversations. The team path helps the team have better conversations together. The individual work feeds the team work and vice versa.
+
+### The Resource Reality
+
+Both design spaces are full products with substantial engineering depth. Without significant funding, we can't do both justice simultaneously. The shared foundation (AI Coach, enterprise integration, visibility) buys us time to validate which path has customer pull — or whether a combined path is viable.
 
 ---
 
-# Appendix
+## Strategic Filter for What We Build
 
-## A. Research Foundations
+> **Build things that either:**
+> 1. Scale what a consultant does — deliver to every team member what was previously only possible for executives
+> 2. Augment a consultant — give them capabilities they don't have today (real-time meeting analysis, cross-session pattern detection, team dynamics visualization)
 
-### Goal Hierarchy Framework
-
-From longitudinal goal-setting research:
-
-- **Management Goals** = The desired professional/personal state (who you want to be)
-- **Tracking Goals** = The specific behaviors that move you there (what you do daily)
-- Persistence requires connecting tracking to management to destination
-
-### IIMC: Implementation Intentions + Mental Contrasting
-
-Two evidence-based techniques for behavior change:
-
-**Mental Contrasting:**
-1. Visualize the desired future (Destination Goal achieved)
-2. Contrast with current obstacles (the Gap)
-3. Creates motivation by connecting desire to reality
-
-**Implementation Intentions:**
-1. Structure habits as "If X, then Y"
-2. The "If" is the trigger (situation, cue, obstacle)
-3. The "Then" is the specific action
-4. Reduces cognitive load — you've pre-decided what to do
-
-### The Adjust Stage
-
-Research shows persistence fails not at habit formation but at barrier navigation. Effective systems:
-- Help users **reinterpret** goals when they fail (not just track failure)
-- Help users **anticipate** future barriers
-- Help users **learn new skills** when current approach isn't working
-
-### Self-Report Limitations
-
-Relying solely on user self-report has bias. Possible mitigations:
-- Peer or manager feedback loops
-- Objective behavioral signals (if available)
-- Prompting for specific evidence, not just feelings
+Every feature should pass one of these tests.
 
 ---
 
-## B. Glossary
+## What's Shared (Build Now)
 
-| Term | Definition |
-|------|------------|
-| **Destination Goal** | The extrinsic outcome the user wants (promotion, being liked, avoiding problems) |
-| **Management Goal** | The intrinsic mindset shift needed (be a Learner, be a Partner) |
-| **Tracking Goal** | The specific microhabit practiced daily |
-| **The Gap** | The distance between who the user is and who they want to be |
-| **Coach** | System mode for deep conversations: goal-setting, processing setbacks, evolving the plan |
-| **Daily Companion** | System mode for daily practice: reminders, check-ins, progress tracking |
-| **If-Then Habit** | Implementation Intention format: "If [trigger], then [action]" |
-| **Mental Contrasting** | Technique: visualize desired future, contrast with current obstacle |
-| **GPS Dashboard** | Visual showing progress toward Destination Goal |
-| **Adjust Stage** | When user struggles, system helps reinterpret and adapt (not just track failure) |
+| Layer | What it is |
+|-------|------------|
+| **AI Coach** | Multi-session coaching with memory, goal tracking, behavior change methodology. The core technology bet. |
+| **Enterprise Integration** | Teams notifications, WorkOS/SSO, calendar, flow-of-work presence. |
+| **Visibility** | Design constraint: every feature stores process data that demonstrates impact. Analytics, reporting, dashboards. |
+| **CB Methodology** | Conscious Business embedded in prompting and coaching design. |
+| **Scientific Foundation** | Behavioral science, HCI, CSCW informing design decisions. |
 
 ---
 
-## C. Hypotheses to Validate
+## Decisions Made
 
-These are bets, not facts:
+1. **AI Coach is the shared technology investment** — build this first, it unlocks both paths (Oseas, Nelson, Mike, Ruy — Jan 28)
+2. **Validate both markets in parallel** — LD and HPT, see which has customer pull
+3. **HPT validation uses current product** — no new engineering needed for validation. Nelson builds slides, visual prototypes, uses existing capabilities
+4. **Impact visibility in lockstep** — coaching quality and reporting quality must advance together (Oseas, Jan 28)
+5. **Commercial validation required** — Thierry + Fernando Fascioli review all product direction (board mandate)
+6. **Don't over-design HPT now** — co-design with Dolo is Q2+. Focus on common foundation.
+7. **Stoic is a separate spin-off** — decided. What's unresolved is commercial relationship with Axialent.
 
-| Hypothesis | What We Believe |
-|------------|-----------------|
-| **Intrinsic goal** | Goals from powerful conversation (not just assessment) → more commitment |
-| **If-Then** | Habits structured as Implementation Intentions → higher adherence |
-| **GPS** | Daily actions visibly connected to Destination Goal → longer persistence |
-| **Adjust** | Help users learn from failure (not just track it) → sustained engagement |
-| **Integration** | Reach users where they are (MS Teams) → higher interaction frequency |
-| **Coach-triggered** | System suggests Coach mode when patterns emerge → more breakthroughs |
+## Decisions Not Made
+
+1. **Stoic's commercial model** — does Stoic sell independently or operate as Axialent's digital arm?
+2. **Where to go deep** — LD, HPT, or combined? Waiting for customer pull.
+3. **Are we differentiated?** — "80/20 replaceable by a $10 app?" hasn't been answered. Need competitive research.
+4. **Long-term team effectiveness product** — beyond the MVP, the full vision is sketched but not designed.
+5. **Pricing model** — does digital add-on increase ticket (100→115) or decrease it (100→50)?
 
 ---
 
-*Document version: January 2026*
+## The Competitive Question (Unresolved)
+
+> "Are we differentiated or 80/20 replaceable by a $10 app?"
+
+- Anyone can build an AI coaching chatbot with good prompting
+- What's hard to replicate: the complete methodology, the orchestration of the full cycle, the accumulated knowledge of what works, the scientific rigor
+- But we haven't proven this is hard to replicate — it's an assumption
+- Lots of competitors: Torch (AI + human coach), MindGym, Cloverleaf, plus every generic AI coaching app
+- Need to do competitive research to answer this honestly
+
+---
+
+## Document Structure
+
+| Document | Purpose |
+|----------|---------|
+| **This document** (`core/vision.md`) | Platform vision — the why, the what, the two design spaces |
+| `core/vision-behavior-change.md` | LD product spec — detailed behavior change product design |
+| `team-effectiveness/mvp-offer.md` | HPT near-term MVP — the 90-day hybrid cycle |
+| `core/roadmap.md` | Engineering roadmap — shared foundation + feature candidates by path |
+| `thinking/ai-coach-design-considerations.md` | AI Coach architecture — memory, implementation paradigms, design questions |
+
+---
+
+*Document version: January 28, 2026*

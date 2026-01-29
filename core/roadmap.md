@@ -1,8 +1,8 @@
-# 2026 Roadmap - Conscious Insights v2
+# Engineering Roadmap — 2026
 
 > **Purpose:** What we build and when. Guide sales conversations with Leo.
-> **See also:** [vision.md](vision.md) for methodology, [alignment.md](alignment.md) for leadership sign-off
-> **Last updated:** January 2026
+> **See also:** [vision.md](vision.md) for platform vision, [vision-behavior-change.md](vision-behavior-change.md) for LD product spec, [alignment.md](alignment.md) for leadership sign-off
+> **Last updated:** January 28, 2026
 
 ---
 
@@ -10,31 +10,41 @@
 
 ### The Bet
 
-We are going to own the behavior change cycle - not just offer a coaching chatbot.
+The AI Coach is a persistent coaching relationship — not a one-shot chatbot. It's the shared technology foundation serving both Leadership Development and Team Effectiveness.
 
-> "Si nos quedamos como 'tenemos un chatbot de coaching', competimos con todos. Si nos posicionamos como 'somos dueños del ciclo de cambio de comportamiento', es otra conversación."
+- **In LD:** We own the complete behavior change cycle — goals, habits, adjustment, evolution. The methodology orchestrates real change, not just conversation.
+- **In HPT:** The AI Coach makes individual coaching possible at scale within team context. Teams change because each person has ongoing conversations about how they're showing up relative to the team's agreements — not just the leader getting coached.
 
-### What Creates the Moat
+> "Si nos quedamos como 'tenemos un chatbot de coaching', competimos con todos."
 
-- **Complete behavior change methodology** - grounded in research
-- **System that orchestrates the full cycle** - goals, habits, adjustments, evolution
-- **Integrations that create stickiness** - reach users where they are
-- **Accumulated knowledge** - what interventions work, when, how
-- **Structured memory of user's trajectory** - not just chat history, but a model of growth
+### Dual Value Proposition (Jan 28 alignment)
 
-### Phased Approach
+1. **Increase impact** — individual AI coaching for everyone in the process (not just the team leader)
+2. **Make it visible** — reporting/analytics that shows sponsors whether it's working
 
-| Phase | Focus |
-|-------|-------|
-| **Q1 2026** | Prove coaching works - multi-session Coach + cyclic Daily Companion |
-| **Q2 2026** | Daily practice + feedback - GPS dashboard, transcript analysis, touchpoints |
-| **H2 2026** | Full experience - real-time feedback, deep integrations, peer features |
+> "Si no estoy incrementando el impacto, ¿para qué te lo compro? Y si no es visible, no me entero." — Oseas
+
+### Lockstep Principle
+
+Coaching quality and reporting quality must advance together. 10 points of coaching + 2 points of reporting = unsellable.
+
+### Validation Determines What Comes Next
+
+Q1 commitments are firm. Everything after depends on which path shows customer pull:
+
+| Outcome | What it means |
+|---------|---------------|
+| **LD pulls** | Go deep on individual behavior change (presence, integrations, "Pepe Grillo") |
+| **HPT pulls** | Go deep on team effectiveness (team memory, meeting facilitation, conversation tracking) |
+| **Both pull** | Combined path — individual coaching within team context |
+
+Commercial validation: Thierry + Fernando Fascioli (board-designated) review all product direction.
 
 ---
 
-## Q1 2026: Prove Coaching Works
+## Shared Foundation (Q1 2026 — Build Now)
 
-**Goal:** Deliver a sellable Application Coaching experience. Prove the multi-session Coach + cyclic Daily Companion combination drives behavior change.
+**Goal:** Deliver a sellable Application Coaching experience. Prove the multi-session Coach + cyclic Daily Companion combination works as a persistent coaching relationship.
 
 ### Core Features
 
@@ -42,7 +52,7 @@ We are going to own the behavior change cycle - not just offer a coaching chatbo
 |---------|-------|--------|-------------|
 | **MS Teams Notifications** | Mike | In progress | One-way notifications. Foundation for everything. |
 | **Daily Companion Cyclic Flow** | Shamil | Ready to build | Loop instead of end. User can continue, modify habit, or go to Coach. |
-| **Thinking Partner: Challenge/Gap/Commitment** | Shamil + Ruy | Ready to build | Small feature: show and store challenge, gap, action plan commitment. Foundation for multi-session. |
+| **Thinking Partner: Challenge/Gap/Commitment** | Shamil + Ruy | Ready to build | Show and store challenge, gap, action plan commitment. Foundation for multi-session. |
 | **Coach Multi-Session** | Ruy (design) + Shamil (impl) | Needs Horacio | Coaching across sessions with memory. Tracks goals, progress, what's urgent vs planned. |
 | **Voice OR Bidirectional Chatbot** | TBD | Validate with Leo | Choose one based on customer pull. |
 
@@ -90,24 +100,15 @@ Microhabit → Follow-up → Check-in → [Continue / Modify / Go to Coach] → 
 
 ### Voice vs Bidirectional Chatbot
 
-**Option A: Voice**
-- Ship STT (already built)
-- Add TTS "play" button
-- Later: full voice-to-voice
+**Option A: Voice** — Ship STT (already built) + TTS play button → later full voice-to-voice
 
-**Option B: Bidirectional Teams Chatbot**
-- Check-ins via Teams bot
-- Schedule next session via chat
-- Later: richer bot interactions
+**Option B: Bidirectional Teams Chatbot** — Check-ins via Teams bot → later richer interactions
 
 **Decision:** Leo validates with customers which has more pull.
 
 ### Ship What's Built
 
-These are done, just need deployment:
-- Speech-to-text (STT)
-- Executive Summary
-- Data features
+Already done, just need deployment: Speech-to-text (STT), Executive Summary, Data features.
 
 ### Smaller Items
 
@@ -117,10 +118,6 @@ These are done, just need deployment:
 | Auto-naming threads | Like ChatGPT - rename after a few messages |
 
 ### Q1 Validation Experiment
-
-Q1 is about proving the thesis, not measuring at scale. We run a structured pilot to validate utility and approach.
-
-**The Experiment**
 
 | Aspect | Details |
 |--------|---------|
@@ -147,115 +144,55 @@ Q1 is about proving the thesis, not measuring at scale. We run a structured pilo
 | Felt supported when stuck | "It gave me options" vs "I felt bad for failing" |
 | Would continue | "I want to keep using this" |
 
-**Sales signal:**
-
-| Metric | How to Measure |
-|--------|----------------|
-| Features open doors | Leo tracks: conversations that shifted from "nice chatbot" to "this is different" |
-| Pipeline opportunities | New opportunities generated from feature demos |
-
-**NOT measuring yet:**
-- Actual behavior change outcomes (too early, need longer timeframe)
-- Completion rate percentages (not enough volume for statistical significance)
-- NPS scores (need more users first)
+**Sales signal:** Leo tracks conversations that shift from "nice chatbot" to "this is different."
 
 ---
 
-## Q2 2026: Daily Practice + Feedback
+## Feature Candidates by Path
 
-**Goal:** Tighter integration between Coach and Daily Companion. Add feedback on real practice through transcript analysis. Make progress visible through GPS Dashboard.
+Features beyond Q1 are organized by which path they serve, prioritized by customer pull — not assigned to specific quarters.
 
-### Features
-
-| Feature | Description |
-|---------|-------------|
-| **GPS Dashboard** | Visual progress toward Destination Goal. Shows trajectory: where you started, key moments, where you are. Helps users see how daily actions connect to what they want. |
-| **Behavior Adoption Tracking** | Mini-pulse surveys embedded in micro-habit check-ins. Gives visibility into *actual behavior adoption* (not just usage metrics). Self-reported data aggregated across users shows whether people are practicing desired behaviors. Answers: "Are we moving the needle?" |
-| **Call Transcript Analysis** | User shares transcript, LLM analyzes against their Tracking Goal. "You asked 2 questions before responding. Here's a moment you could have paused..." |
-| **Before/After Touchpoints** | Pre-meeting: "You have a meeting with Pedro. Remember your practice." Post-meeting: "How did it go?" |
-| **Calendar Read Access (MS Graph)** | Know user's schedule to enable context-aware reminders |
-| **Adaptive Reminders** | Timing and frequency adjust based on user patterns |
-| **Coach ↔ Daily Companion Data Flow** | Goals and progress shared between modes. Coach sees Daily Companion struggles. Daily Companion knows Coach commitments. |
-
-### Behavior Adoption Tracking Details
-
-**The problem:**
-- Current analytics show *usage* (topics discussed, session length, sentiment)
-- No visibility into *actual behavior change* - are people doing the work?
-- No way to segment by department/team for enterprise reporting
-
-**The solution:**
-- Mini-pulse surveys embedded in Daily Companion check-ins (not a separate survey)
-- Self-reported data on behavior practice ("Did you pause before responding today?")
-- **Consolidated view**: conversation themes + pulse survey results in one report
-- **Segmented by org structure**: show data per department/area (e.g., "Marketing team: 72% practicing")
-
-**Why this matters for sales:**
-- Enterprises need to show ROI on coaching investment
-- "3,847 conversations" is vanity; "72% practicing target behaviors" is impact
-- Segmentation lets L&D see which teams need attention
-- Differentiates from chatbots that only show engagement metrics
-
-**Implementation approach:**
-- Phase 0: Manual Excel reports (export data, manually group by department) - use to validate value before building
-- Phase 1: Simple yes/no pulse questions during check-in + basic segmentation
-- Phase 2: Contextual questions based on user's specific habit + full dashboard
-- Future: Triangulate with transcript analysis for validated data
-
-**Prerequisites:**
-- Capture "who is who" in our database (department, team, role)
-- Not a big technical lift, just needs to be prioritized
-
-**Source:** Oseas feedback (Jan 27, 2026) - current Stoic Analytics shows topics but not adoption. Manual workaround viable for early clients (e.g., Vitro 50-80 users).
-
-### Transcript Analysis Details
-
-**Phase 1: Manual upload**
-- User uploads transcript (any source)
-- Simple analysis against their active habit
-
-**Phase 2: Teams integration**
-- Pull from Teams meeting recordings
-- Richer context from structured memory
-
-### Before/During/After Framework
-
-| Moment | Purpose | Q2 Scope |
-|--------|---------|----------|
-| **Before** | Prepare, gain awareness | Pre-meeting reminders based on calendar |
-| **During** | Pause, offer distinctions | Not Q2 - see H2 |
-| **After** | Reflect, learn | Post-meeting check-in, transcript analysis |
-
----
-
-## H2 2026: Full Experience
-
-**Goal:** Complete the vision - real-time feedback, deep integrations, seamless experience.
-
-### Features
+### Serves Both Paths
 
 | Feature | Description | Notes |
 |---------|-------------|-------|
-| **Real-Time Feedback** | "During" meeting interventions. Feedback while practicing, not just after. | Needs exploration - technically complex, privacy implications |
-| **Full Context Integrations** | Deep calendar, email, potentially other sources | Privacy concerns, needs Context Manager architecture |
-| **Peer Accountability** | Social goal-setting features | Research needed |
-| **Seamless Mode Transitions** | Fluid Coach ↔ Daily Companion without explicit switching | Polish after foundation solid |
+| **GPS Dashboard** | Visual progress toward Destination Goal. Shows trajectory: where you started, key moments, where you are. | Mike proposed user dashboard as "wow factor." |
+| **Behavior Adoption Tracking** | Mini-pulse surveys embedded in check-ins. Self-reported data on behavior practice, segmented by org structure. | Serves LD sponsors AND HPT progress visibility. Manual-first for validation (Phase 0: Excel). |
+| **Call Transcript Analysis** | User shares transcript, LLM analyzes against their goals. For LD: individual conversations. For HPT: team meeting dynamics. | Phase 1: manual upload. Phase 2: Teams integration. |
+| **Before/After Touchpoints** | Pre-meeting: "You have a meeting with Pedro. Remember your practice." Post-meeting: "How did it go?" | Requires calendar read access. |
+| **Calendar Read Access (MS Graph)** | Know user's schedule to enable context-aware reminders. | Enterprise integration. |
+| **Adaptive Reminders** | Timing and frequency adjust based on user patterns. | AI Coach evolution. |
+| **Coach ↔ Daily Companion Data Flow** | Goals and progress shared between modes. Coach sees Daily Companion struggles. Daily Companion knows Coach commitments. | |
 
-### Real-Time Feedback - Exploration Needed
+### Leadership Development Path
 
-This is a big bet requiring research:
-- How to access live meeting audio/transcript?
-- How to notify without being annoying?
-- Privacy implications?
-- What feedback is actually helpful in the moment?
+| Feature | Description | Notes |
+|---------|-------------|-------|
+| **Deep Context Integrations** | Email, chats, calendar — the "Pepe Grillo" always-present companion. | Privacy concerns, needs Context Manager architecture. |
+| **Seamless Mode Transitions** | Fluid Coach ↔ Daily Companion without explicit switching. | Polish after foundation solid. |
+| **Peer Accountability** | Social goal-setting features. | Research needed. |
 
-Park as "needs exploration" - don't commit until researched.
+### Team Effectiveness Path
+
+| Feature | Description | Notes |
+|---------|-------------|-------|
+| **Team Agreement Doc** | Living artifact structured around Katzenbach dimensions. Updated by humans and AIs. | Core HPT concept — co-design with Dolo Q2+. |
+| **Meeting Facilitation Support** | Real-time AI during team meetings — topic tracking, goal reflection, ambient visualization. | Technically complex. Reference: Chen et al. "Are We On Track?" |
+| **Team Conversation Tracking** | Capture agreements across meetings, track whether honored, surface patterns. | |
+| **Individual-to-Team Bridge** | AI coach knows personal patterns AND team context. Aggregate individual patterns to team level (privacy-preserving). | |
+
+### Needs Exploration
+
+| Feature | Description | Notes |
+|---------|-------------|-------|
+| **Real-Time Feedback** | "During" meeting interventions. Feedback while practicing, not just after. | Technically complex, privacy implications. Potentially more useful for HPT. |
+| **Full Context Integrations** | Deep calendar, email, potentially other sources. | What do you pull in? What does a consultant do that we can replicate? |
 
 ---
 
 ## Platform & Operations
 
-Internal tooling and automation - not user-facing, but critical for scaling.
+Internal tooling and automation — not user-facing, but critical for scaling.
 
 ### Q1: Sprint Automation (OKR Feature #4)
 
@@ -267,21 +204,7 @@ Internal tooling and automation - not user-facing, but critical for scaling.
 | **Profile/Prompt Creation** | Daniel + Ruy | Not started | Ruy (prompt customization) |
 | **Testing Automation** | Daniel | Not started | Manual QA cycles |
 
-**Environment Generation:**
-- Automate creation of client environments (`client.stoicq.com`)
-- Automate experimental branches
-
-**Profile/Prompt Creation:**
-- Templatize coach prompts (victim-protagonist, difficult conversations, etc.)
-- Self-service customization layer (change greeting, terminology, company name)
-- Reduce Ruy involvement from "write every prompt" to "approve template changes"
-
-**Testing Automation:**
-- Automated smoke tests for new deployments
-- Regression testing for prompt changes
-- Reduce manual QA cycles before shipping
-
-### Q2: Enterprise Readiness & Automation
+### Enterprise Readiness (Post-Q1)
 
 | Feature | Description |
 |---------|-------------|
@@ -302,13 +225,14 @@ Q1 Foundation
 ├── Coach Multi-Session (Ruy + Shamil) → Core differentiator
 └── Leo validation → Voice vs Bidirectional decision
 
-Q2 Builds On Q1
+Post-Q1 Builds On Q1
 ├── GPS Dashboard → Needs Q1 goal storage working
 ├── Calendar MS Graph → Before/After touchpoints
 ├── Transcript analysis → Requires goals in structured memory
-└── Adaptive reminders → Requires usage data from Q1
+├── Adaptive reminders → Requires usage data from Q1
+└── HPT co-design with Dolo → Requires validation signals
 
-H2 Builds On Q2
+Later Builds On Post-Q1
 ├── Real-time feedback → Needs transcript analysis foundation
 └── Full context integrations → Needs Context Manager architecture
 ```
@@ -332,13 +256,13 @@ Explicitly out of scope for 2026:
 
 | Question | Owner | When to Resolve |
 |----------|-------|-----------------|
-| Behavior adoption tracking: scope & timing | Ruy + Oseas | Q2 planning - pulse survey design, org segmentation, manual vs built |
+| Behavior adoption tracking: scope & timing | Ruy + Oseas | Post-Q1 planning |
 | Voice vs Bidirectional priority | Leo | Q1 - customer validation |
 | System-triggered Coach methodology | Ruy + Horacio | After Horacio meeting |
 | Full calendar integration needed? | Leo | Q1 - is reschedule/delete enough? |
-| Transcript analysis: manual vs Teams first? | Ruy | Q2 planning |
-| Real-time feedback feasibility | Mike | H2 planning - technical research |
-| Coach handoff interface: how does Daily Companion hand off? | Ruy | During Coach Multi-Session design |
+| Transcript analysis: manual vs Teams first? | Ruy | Post-Q1 planning |
+| Real-time feedback feasibility | Mike | Later - technical research |
+| Coach handoff interface | Ruy | During Coach Multi-Session design |
 
 ---
 
@@ -350,6 +274,7 @@ Explicitly out of scope for 2026:
 | **Shamil** | Daily Companion cyclic flow, Coach features |
 | **Daniel** | Infrastructure, deployment automation |
 | **Leo** | Customer validation, demo approval, sales |
+| **Nelson** | Impact/visibility design, HPT blended journey spec, Thierry coordination |
 | **Ruy** | Methodology, roadmap, Coach design, Horacio/Dolo coordination |
 
 ---
@@ -363,6 +288,7 @@ Explicitly out of scope for 2026:
 | MS Teams blocked by client IT | Fallback channels (email, web); escalate early |
 | We build features that don't move PMF | Validate with Leo + customers before building |
 | Transcript analysis has privacy concerns | Start with manual upload (user controls data) |
+| Both paths demand resources simultaneously | Shared foundation buys time; let customer pull determine depth |
 
 ---
 
@@ -370,6 +296,8 @@ Explicitly out of scope for 2026:
 
 | Date | Change |
 |------|--------|
-| Jan 27, 2026 | Added Q2 feature: Behavior Adoption Tracking - pulse surveys + org segmentation + consolidated reporting. Includes manual-first approach for validation. Source: Oseas feedback on Progress Visibility. |
-| Jan 20, 2026 | Expanded Q1 Sprint Automation (OKR #4): environment generation, profile/prompt creation, testing automation. Added Q2 Enterprise Readiness: LMS integration, SOC 2, GDPR audit. |
-| Jan 2026 | Initial version - separated Q1/Q2/H2, added transcript analysis, real-time feedback, Platform & Operations section |
+| Jan 28, 2026 | **Restructured:** Reorganized from quarterly timeline to shared foundation + feature candidates by path. Visibility as design constraint. Added HPT feature candidates. Source: platform vision restructuring. |
+| Jan 28, 2026 | Added: dual value proposition (increase impact + make visible), lockstep principle, AI Coach as shared foundation for LD + HPT, Nelson owns visibility, Thierry/Fascioli commercial review gate. Source: Product Strategy Office Hours (Oseas, Nelson, Mike, Ruy). |
+| Jan 27, 2026 | Added Q2 feature: Behavior Adoption Tracking - pulse surveys + org segmentation + consolidated reporting. Source: Oseas feedback on Progress Visibility. |
+| Jan 20, 2026 | Expanded Q1 Sprint Automation (OKR #4): environment generation, profile/prompt creation, testing automation. Added Q2 Enterprise Readiness. |
+| Jan 2026 | Initial version. |
