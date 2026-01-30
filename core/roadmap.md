@@ -200,7 +200,8 @@ Internal tooling and automation — not user-facing, but critical for scaling.
 
 | Feature | Owner | Status | Bottleneck Removed |
 |---------|-------|--------|-------------------|
-| **Environment Generation** | Daniel | In progress | Mike (~half day per client) |
+| **Installation Script** | Daniel | In progress | Mike (~half day per client). Parameterized script for instance creation. |
+| **WorkOS SSO/Provisioning POC** | Daniel | Q1 — after installation script | Custom middleware per client. POC with Boetus, then Axialent as staging. See `enterprise/integration-strategy.md`. |
 | **Profile/Prompt Creation** | Daniel + Ruy | Not started | Ruy (prompt customization) |
 | **Testing Automation** | Daniel | Not started | Manual QA cycles |
 
@@ -245,7 +246,8 @@ Explicitly out of scope for 2026:
 
 | Item | Why Not |
 |------|---------|
-| HRMS/LMS integrations | Not validated as needed |
+| HRMS reads/writes | Phase 2/3 — after SSO/provisioning solved. See `enterprise/integration-strategy.md` |
+| LMS integrations | Not validated as needed |
 | Multi-language beyond EN/ES | Focus on core first |
 | White-label / multi-tenant | Adds complexity, not proven needed |
 | Mobile app | Web + Teams is enough for now |
@@ -272,7 +274,7 @@ Explicitly out of scope for 2026:
 |--------|-------|
 | **Mike** | MS Teams integration, technical architecture |
 | **Shamil** | Daily Companion cyclic flow, Coach features |
-| **Daniel** | Infrastructure, deployment automation |
+| **Daniel** | Installation script, WorkOS SSO POC, deployment infrastructure |
 | **Leo** | Customer validation, demo approval, sales |
 | **Nelson** | Impact/visibility design, HPT blended journey spec, Thierry coordination |
 | **Ruy** | Methodology, roadmap, Coach design, Horacio/Dolo coordination |
@@ -296,6 +298,7 @@ Explicitly out of scope for 2026:
 
 | Date | Change |
 |------|--------|
+| Jan 29, 2026 | Updated Daniel's Q1 scope: installation script + WorkOS SSO POC (Boetus). HRMS reads/writes split from LMS in "not on roadmap." Source: Enterprise Connections call (Jan 27). |
 | Jan 28, 2026 | **Restructured:** Reorganized from quarterly timeline to shared foundation + feature candidates by path. Visibility as design constraint. Added HPT feature candidates. Source: platform vision restructuring. |
 | Jan 28, 2026 | Added: dual value proposition (increase impact + make visible), lockstep principle, AI Coach as shared foundation for LD + HPT, Nelson owns visibility, Thierry/Fascioli commercial review gate. Source: Product Strategy Office Hours (Oseas, Nelson, Mike, Ruy). |
 | Jan 27, 2026 | Added Q2 feature: Behavior Adoption Tracking - pulse surveys + org segmentation + consolidated reporting. Source: Oseas feedback on Progress Visibility. |

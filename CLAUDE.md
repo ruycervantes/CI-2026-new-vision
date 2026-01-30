@@ -16,9 +16,61 @@ This is the **command center** for Conscious Insights / Stoic platform evolution
 - **Daniel** - Dev, infrastructure and deployment
 - **Leo** - Sales, owns PMF validation and demo approval
 - **Horacio** - Coach SME, needed for methodology validation
-- **Oseas** - CEO, strategic alignment, board communication
+- **Oseas** - CEO, **PMF owner**, strategic alignment, board communication
 
-## Sprint Process
+## Ruy's Personal Productivity Workflow
+
+### System Overview
+
+Ruy uses a two-layer system:
+1. **Action items file** (`action-items-ruy-{month}{year}.md`) — capture + context + triage workspace. This is upstream. Items land here from calls, meetings, thinking sessions, handwritten notes.
+2. **Todoist** — daily/weekly execution. Downstream. Items get pulled here after triage with proper labels (@this-week, @next-week, @deep-work, etc.).
+
+**Flow:**
+```
+Calls/meetings/notes → action items file → triage → Todoist → daily execution
+```
+
+### Cadences
+
+**Daily:**
+- Use `/today` to review Todoist @this-week, pick 3 important + 3 quick wins.
+
+**Weekly (Monday):**
+- Use `/weekly-plan` to consolidate action items + Todoist, triage to 15-20 tasks, identify top 3 outcomes.
+- Review @this-week → move incomplete to @next-week if needed.
+- Promote from @next-week → @this-week.
+
+**End of sprint (Thursday, after planning) or when file feels heavy:**
+- Use `/triage` to clean up the action items file.
+- Cross-reference against Todoist for duplicates.
+- Kill done/stale items, reframe changed items, create next month's file if end of month.
+
+### Key Files
+
+| File | Role |
+|------|------|
+| `action-items-ruy-{month}{year}.md` | Current month's action items (upstream source of truth) |
+| `okrs-q1-2026.md` | OKRs — north star for prioritization |
+| `team/oseas-1on1-log.md` | Running log of Oseas conversations + pending items |
+| `team/status.md` | Sprint status per person, blockers, key decisions |
+| `team/process-log.md` | Living process decisions, reviewed at each retro |
+| `sprints/sprint-stories-jan2026.md` | Current sprint stories with acceptance criteria |
+
+### Todoist Label System
+
+See `.claude/commands/todoist-org.md` for full details. Key labels:
+- **Time:** @this-week, @next-week, @this-month, @someday
+- **Energy:** @deep-work, @quick-win, @energy-low
+- **Status:** @Doing, @waiting, @followup, @urgent
+
+**Principle:** Dates are for appointments, not aspirations. Labels are for possibilities, not obligations.
+
+### When Skills Capture Action Items
+
+`/process-call`, `/review-action-items`, and `/handwritten` should add items to the action items file with enough context to triage later. They do NOT push to Todoist — that happens during triage or weekly planning.
+
+## Sprint Process (Team)
 
 Post-planning steps are documented in `team/process-log.md` under Cadences.
 
@@ -84,6 +136,10 @@ Coaching methodology research — the source material for AI Coach design. Appli
 | `ai-coach-design-considerations.md` | AI Coach architecture — memory, implementation paradigms, design questions |
 | `minimum-ai-coaching-for-te.md` | How AI Coach connects to Team Effectiveness — minimum coaching needed for HPT to work |
 
+### Chatbot Design (`chatbot-design/`)
+
+Process, instructions, and examples for designing custom chatbots on the platform. See `chatbot-design/README.md`.
+
 ### Calls (`calls/`)
 
 Call transcripts and processed summaries. Use `/process-call` to process new transcripts.
@@ -112,6 +168,7 @@ Working documents, brain dumps, exploratory notes. Not finalized analysis.
 | `README.md` | Command center overview |
 | `site/` | Netlify site (index.html, vision.html, roadmap.html, diagrams/) |
 | `sprint-*-2026-*.md` | Ruy's sprint focus |
+| `okrs-q1-2026.md` | Ruy's Q1 OKRs — AI Coach, PMF validation, execution |
 | `action-items-ruy-{month}.md` | Master task list / backlog |
 | `sprints/` | Team sprint stories (use `/sprint-stories` to create) + `backlog.md` (committed work not yet in a sprint) |
 | `handwritten/` | Drop zone for handwritten note photos (use `/handwritten` to process) |
@@ -157,6 +214,7 @@ Previous vision drafts, meeting summaries, diagram prompts, old diagrams, transc
 | `/weekly-plan` | Weekly planning triage - consolidate action-items + Todoist, triage to 15-20 tasks, identify top 3 outcomes. Use on Mondays or when starting a new week. |
 | `/handwritten` | Transcribe handwritten notes from `handwritten/` folder and propose additions to action items |
 | `/review-action-items` | Process new items into action-items file |
+| `/triage` | Triage action items — clean up, reorganize, prepare for next period. End-of-sprint or when file feels heavy. |
 
 ### Work (Sprints & Calls)
 | Command | Description |
@@ -165,6 +223,7 @@ Previous vision drafts, meeting summaries, diagram prompts, old diagrams, transc
 | `/planning-review` | **Sprint planning** - right-size deliverables, create sprint files for dev team |
 | `/sprint-stories` | **Team sprint stories** - create stories for Mike, Shamil, Daniel, Leo |
 | `/sync-notion` | **Notion sync** - push markdown docs to Notion pages (images, cross-links, tables) |
+| `/publish` | **Knowledge base publish** - sync shareable docs to `stoicenteprises/knowledgebase2026` GitHub repo |
 
 ## Notion Sync
 

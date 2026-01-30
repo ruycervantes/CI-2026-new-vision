@@ -128,7 +128,7 @@ Be thorough - people make commitments casually that get forgotten.
 
 ### Step 6: PROPOSE changes to action-items (CRITICAL REVIEW STEP)
 
-**Do NOT edit action-items-ruy-jan2026.md yet.** First, present a structured proposal for user review.
+**Do NOT edit action-items-ruy-{month}{year}.md yet.** First, present a structured proposal for user review.
 
 Read the current action items file and prepare a proposal showing:
 
@@ -194,13 +194,30 @@ After user provides feedback:
 4. Update Reference section with new files
 5. If sprint planning or significant meeting, add section header
 
-### Step 8: Update README.md if needed
+### Step 8: Todoist Sync Prep
+
+After landing action items in the file, prepare a Todoist sync summary for Ruy's items.
+
+Reference the `todoist-org` skill for label conventions, project mapping, and task creation rules.
+
+For each Ruy action item extracted from the call, prepare:
+- Task name
+- Suggested project (match to existing Todoist projects)
+- Time label (@this-week, @next-week, @this-month, @someday)
+- Energy label if obvious (@deep-work, @quick-win)
+- Priority (P1-P4)
+
+Also flag any existing Todoist tasks that were resolved in this call.
+
+Present the sync list. Do NOT push to Todoist — let the user decide.
+
+### Step 9: Update README.md if needed
 
 - Update "Current Sprint" table if sprint planning
 - Update "Next Actions" section
 - Add reference to new call summary
 
-### Step 9: Present final summary
+### Step 10: Present final summary
 
 Show:
 1. Summary of topics covered
@@ -209,10 +226,20 @@ Show:
 4. Files created/updated
 5. Any remaining questions
 
-### Step 10: Commit changes
+### Step 11: Add to PENDING.md
+
+After processing, append a row to `calls/PENDING.md` so Ruy knows this call still needs his review before archiving:
+
+```markdown
+| [Call name] | [Date] | Yes | Need to review decisions and land them | `[target folder]/` |
+```
+
+The call transcript and its Summary/Analysis stay in `calls/` root until Ruy reviews, lands decisions, and archives to the target subfolder.
+
+### Step 12: Commit changes
 
 ```bash
-git add calls/ action-items-ruy-jan2026.md README.md
+git add calls/ action-items-ruy-{month}{year}.md README.md
 git commit -m "[Meeting type] [Date]: summary, analysis, and action items
 
 - [Key outcome 1]
@@ -243,7 +270,7 @@ Use this checklist when doing Step 4 analysis:
 |------|---------|
 | `calls/[Name] - Summary.md` | Structured topic-by-topic summary |
 | `calls/[Name] - Analysis.md` | Deep strategic implications |
-| `action-items-ruy-jan2026.md` | Updated with new tasks |
+| `action-items-ruy-{month}{year}.md` | Updated with new tasks |
 | `README.md` | Updated if sprint planning |
 
 ## Parameters

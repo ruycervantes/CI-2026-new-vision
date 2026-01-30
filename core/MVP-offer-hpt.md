@@ -154,4 +154,13 @@ So when you say "I have a hard conversation coming up," the AI can reference the
 
 ---
 
+## Research References
+
+The methodology behind this offer is documented in detail:
+
+- **[Synthesis v2](../team-effectiveness/research/synthesis-v2.md)** — Design-level understanding of HPT: what it solves, how change happens, what consultants do, and what could be digitized. Start here.
+- **[Methodology](../team-effectiveness/research/methodology.md)** — Detailed frameworks, assessment instruments, maturity levels, and source-by-source notes from Richi, Dolo, Horacio, and Oseas.
+
+---
+
 *Draft: 26 Jan 2026*

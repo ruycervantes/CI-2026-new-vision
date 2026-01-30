@@ -80,12 +80,40 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 
 ---
 
+## Ruy's Productivity System
+
+Two layers: **capture** (this repo) and **execution** (Todoist).
+
+```
+Calls/meetings/notes → action items file → triage → Todoist @this-week → daily execution
+```
+
+**Upstream (this repo):**
+- `action-items-ruy-{month}{year}.md` — monthly action items file. Items land here from calls, meetings, `/process-call`, `/handwritten`, thinking sessions. Triaged end-of-sprint or when heavy.
+- `okrs-q1-2026.md` — north star for what matters. Used during triage to prioritize.
+- `team/oseas-1on1-log.md` — running log of Oseas conversations, pending items for next meeting.
+
+**Downstream (Todoist):**
+- Labels: @this-week, @next-week, @this-month, @someday + energy tags (@deep-work, @quick-win, @energy-low)
+- Daily: pick 3 important + 3 quick wins from @this-week
+- Weekly (Monday): `/weekly-plan` to triage and set top 3 outcomes
+
+**Rituals:**
+| When | What | Command |
+|------|------|---------|
+| Daily | Review Todoist, pick focus | `/today` |
+| Monday | Weekly planning, consolidate + triage | `/weekly-plan` |
+| Thursday (post-sprint-planning) | Triage action items, cross-ref Todoist | `/triage` |
+| When file feels heavy | Same as above | `/triage` |
+
 ## Working Files
 
 | Path | Purpose |
 |------|---------|
+| [`okrs-q1-2026.md`](okrs-q1-2026.md) | **Ruy's Q1 OKRs** — AI Coach, PMF validation, execution |
+| `action-items-ruy-feb2026.md` | Current month action items (upstream source of truth) |
 | `team/process-log.md` | Living process decisions — reviewed at each sprint retro |
-| `action-items-ruy-jan2026.md` | Master task list / backlog |
+| `team/oseas-1on1-log.md` | Oseas 1-on-1 running log |
 | `sprint-*-2026-*.md` | Ruy's sprint focus |
 | `handwritten/` | Drop zone for handwritten note photos |
 

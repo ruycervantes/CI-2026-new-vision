@@ -41,6 +41,13 @@
 - Understanding LGP flow + scheduling = building blocks for that future
 - **Review:** After cyclic flow implementation — does Shamil have product intuition? Can he propose UX ideas?
 
+### Deep-Work Weeks Break Rituals
+**Identified:** Jan 30, 2026 (triage session)
+- When Ruy goes deep on vision/architecture work, weekly planning rituals drop. Items from calls and meetings pile up in the action items file unreviewed. Todoist and the action items file drift apart.
+- **Mitigation:** Use `/triage` at end of sprint (Thursday) or whenever the file feels heavy. This catches the drift before it compounds. Don't wait for end of month.
+- **Root cause:** Action items file is upstream (capture), Todoist is downstream (execution). When triage doesn't happen, the two systems diverge and neither is trustworthy.
+- **Review:** After next deep-work week — did `/triage` get triggered? Did the weekly planning survive?
+
 ---
 
 ## Process Gaps Identified (Not Yet Decided)

@@ -86,7 +86,7 @@ After presenting the day, ask:
 
 **Sync to action-items:**
 - Only sync work-related tasks (Product Strategy, Testing, Management projects)
-- Update "Today" section in action-items-ruy-jan2026.md
+- Update "Today" section in action-items-ruy-{month}{year}.md
 - Mark completed items with [x]
 
 ## When User Says

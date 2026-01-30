@@ -406,6 +406,38 @@ A framework for building accountability in the Roles quadrant.
 
 ---
 
+## Praxis Notes
+
+Practical observations and tacit knowledge — the "how" behind the methodology.
+
+### Role Modeling Creates Moments of Truth
+*Source: Richi*
+
+> "A través del role modeling, es como que creamos esos momentos de verdad que hacen que se ancle el aprendizaje."
+
+When a coach demonstrates an alternative way to say something, in the moment, it creates an "aha" that sticks. This is the tacit skill that's hardest to digitize.
+
+### Consultant Coherence
+*Source: Richi*
+
+> "El consultor ofrece una gran coherencia interna entre lo que está diciendo y cómo se comporta."
+
+The coach must embody what they teach. Credibility comes from alignment between what you say and how you act. "Se comporta generando confianza, seguridad psicológica, se comporta diciendo su verdad."
+
+### Zero Attachment to Direction
+*Source: Richi*
+
+> "Puedes hacer sugerencias, lo que no puedes es quedarte pegado a tu sugerencia."
+
+The coach offers perspectives tentatively. If the coachee doesn't embrace it, fine. Zero attachment to pushing in a particular direction.
+
+### Balance Investment Across Levels
+*Source: Horacio*
+
+If leader gets individual attention, team members should too (maybe less, but not zero). Western Union case was unusual — CEO got 6 coaching sessions, team got nothing individual. Horacio wouldn't recommend that imbalance.
+
+---
+
 ## Open Questions / Contradictions
 
 *Add as they emerge from analysis*

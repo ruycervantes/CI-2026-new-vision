@@ -547,6 +547,22 @@ Some of these are closer than others. The hybrid MVP lets us learn which ones ar
 
 ---
 
+## What's Confirmed Across All Calls
+
+| Principle | Richi | Dolo | Horacio | Oseas |
+|-----------|:-----:|:----:|:-------:|:-----:|
+| Work both levels (individual + team) | ✓ | ✓ | ✓ | ✓ |
+| CB methodology is the differentiator | ✓ | ✓ | ✓ | - |
+| Start with individual coaching | ✓ | ✓ | ✓ | ✓ |
+| Diagnostic drives intervention | - | ✓ | ✓ | - |
+| Trust before task | - | ✓ | ✓ | - |
+| Foreground/background flip | ✓ | ✓ | - | - |
+| Social accountability helps adherence | - | - | - | ✓ |
+| Position as Team Performance | - | - | - | ✓ |
+| Steward AI thoughtfully | - | ✓ | - | - |
+
+---
+
 ## Reference
 
-For detailed frameworks, assessment instruments, maturity levels, and source-by-source notes, see `team-effectiveness-methodology.md`.
+For detailed frameworks, assessment instruments, maturity levels, praxis notes, and source-by-source notes, see `methodology.md`.

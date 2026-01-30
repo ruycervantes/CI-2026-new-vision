@@ -79,12 +79,26 @@ For each category with findings:
 - Offer concrete options based on task type
 - Update task with clear completion criteria
 
-**Step 5: Summary**
+**Step 5: Todoist Sync Prep**
+
+After cleanup, prepare a Todoist sync summary.
+
+Reference the `todoist-org` skill for label conventions, project mapping, and task creation rules.
+
+For each new or changed item, prepare:
+- Task name, suggested project, time label, energy label, priority
+
+Flag items in the file that are already in Todoist (duplicates) and items in Todoist that should be completed based on changes made.
+
+Present the sync list. Do NOT push to Todoist — let the user decide.
+
+**Step 6: Summary**
 
 After all changes:
 - List files modified
 - Count tasks removed/consolidated
 - Note any cross-references added
+- List Todoist sync items pending
 
 ### Example interaction
 

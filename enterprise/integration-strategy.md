@@ -1,15 +1,9 @@
 # Enterprise Integration Strategy
 
-*21 January 2026 — For discussion and alignment: Leo, Ruy, Daniel, Shamil, Mike + decision with Oseas*
+*Last updated: January 29, 2026*
+*Origin: Discussion doc (Jan 21) → decisions made in Enterprise Connections call (Jan 27)*
 
-**Note:** This document is a starting point for discussion, based on my best interpretation of what Oseas has shared and what we've heard from customers.
-
-**Validation needed:**
-
-1. **Oseas:** Is this what you meant? Is this the right framing?
-2. **Axialent partners:** Does this match what they're hearing from clients?
-3. **Daniel & Mike:** Does this make technical sense? What are we missing?
-4. **All:** What are the implications for our OKRs this quarter?
+**Status:** Q1 2026 plan decided. Teams integration first (Mike, parallel), WorkOS SSO/provisioning POC with Boetus (Daniel). HRMS integration deferred to Phase 2.
 
 ---
 
@@ -23,7 +17,7 @@ This is rational from their perspective:
 - **HR/Admin:** "I already manage users in Workday. Now I manage them somewhere else too?"
 - **Sponsors:** "How do I prove ROI if the data is trapped in your system?"
 
-### We already lost a deal because of this: Sigma Alimentos (best guess interpretation)
+### We already lost a deal because of this: Sigma Alimentos
 
 They chose not to go with ConsciousInsights because:
 
@@ -32,9 +26,7 @@ They chose not to go with ConsciousInsights because:
 
 Sigma chose a simpler solution that lived inside their existing ecosystem (Teams + Workday) over our more sophisticated coaching platform that would be "another app" and "another silo."
 
-*(Need to validate this interpretation with Oseas — is this what actually happened?)*
-
-**The implication (if true):** Integration isn't a feature request — it's table stakes for enterprise deals. If we can't say "we integrate with your identity, your HRMS, and your collaboration tools," we lose to inferior products that can.
+**The implication:** Integration isn't a feature request — it's table stakes for enterprise deals. If we can't say "we integrate with your identity, your HRMS, and your collaboration tools," we lose to inferior products that can.
 
 ---
 
@@ -110,9 +102,9 @@ ConsciousInsights chatbot
 
 ---
 
-## Strategic Decision: ConsciousInsights Should Own Identity
+## Strategic Decision: ConsciousInsights Owns Identity (Decided)
 
-**Proposed architecture:**
+**Target architecture:**
 
 ```
 Enterprise IdP (Ping, Okta, Azure AD, Workday, etc.)
@@ -138,6 +130,27 @@ ConsciousInsights (owns identity)
 
 **Note:** WorkOS can also integrate at a basic level with HRMS systems for directory sync — this could be a stepping stone before deeper HR data integration.
 
+### Q1 POC Plan: WorkOS with Boetus (Decided Jan 27)
+
+**Owner:** Daniel
+**Playground:** Boetus.com (team's own Microsoft tenant — can experiment freely)
+
+**POC scope:**
+1. Configure WorkOS to handle Boetus.com authentication
+2. Route users to either Thinkific or Conscious Insights based on role
+3. Test provisioning flow
+
+**Phase 2 (if POC succeeds):** Implement for Axialent internal use (staging), then real clients (production).
+
+**Key technical notes from discussion:**
+- WorkOS does NOT replace our Postgres user database — it handles the IdP translation layer
+- Single URL limitation: need routing middleware to direct users to correct instance (pg.stoic, axialent.stoic, etc.)
+- P&G went direct (custom middleware) because "all we needed was translation" — WorkOS remains the scalable path for multi-client
+
+### Google Workspace (Exploratory, Not Committed)
+
+Mercado Libre (potential client) uses only Google. Daniel has a paid Google Workspace account and can explore informally. First step would be SSO with Google Workspace before Google Meet integration. Not a sprint commitment — depends on whether Google-only clients materialize.
+
 ---
 
 ## HRMS Integration: Phased Approach
@@ -154,7 +167,9 @@ What it solves:
 
 This is the **urgent** piece. WorkOS handles this.
 
-### Phase 2: Read HR Data for Context (FUTURE — via Merge.dev or n8n)
+### Phase 2: Read HR Data for Context (FUTURE — via Merge.dev, n8n, or Personio POC)
+
+**Near-term candidate:** Axialent uses Personio (smaller company HRMS). Could do an internal POC next quarter to build the "context pulling" abstraction layer using our own system before generalizing to client HRMS.
 
 **HR data that could improve coaching:**
 
@@ -243,22 +258,28 @@ Potentially write back:
 
 ---
 
-## Decisions Needed (for Oseas discussion)
+## Decisions Made (Jan 27, 2026)
 
-1. **Do we commit to CI owning identity via WorkOS?** This is the strategic unlock. Without it, we keep building custom middleware per client.
-2. **Priority: WorkOS integration vs. other work?** It's foundational — but competes with current sprint.
-3. **P&G urgent fix:** Approve Daniel's 6-8 hour course enrollment automation — this unblocks them now.
-4. **HR data (Phase 2):** When do we explore Merge.dev / n8n? Not urgent, but valuable for differentiation.
+| Decision | Details |
+|----------|---------|
+| CI owns identity via WorkOS | Committed. POC with Boetus first, then Axialent, then clients |
+| Teams integration parallel track | Mike owns. Approaching production deployment |
+| pip in production, UV for dev only | UV shared cache = security risk; isolated venvs per instance in prod |
+| Docker optional for deployment | Keep as option for client-hosted; not required |
+| Google Workspace exploration | Informal — Daniel can look into it, not a sprint commitment |
+| Dashboard login deferred | No auth on admin panel yet; evaluate when needed |
+| HRMS write (Phase 3) deferred | Wait for client demand |
+| LMS embedding deferred | Per-platform work, no generic solution; wait for demand |
 
 ---
 
 ## Open Action Items
 
-| Action | Owner | Urgency |
+| Action | Owner | Status |
 | --- | --- | --- |
 | P&G course auto-enrollment fix | Daniel | 🔴 Urgent — unblocks P&G |
-| Confirm Thinkific can use CI as OAuth provider | Daniel | 🔴 Before WorkOS decision |
-| WorkOS spike — understand lift, migration path | Daniel | 🟡 Next sprint |
-| Clarify Teams tab POC auth approach | Daniel | 🟡 Needed for multi-client |
+| Finish installation script (parameterized) | Daniel | 🟡 In progress |
+| WorkOS SSO POC with Boetus | Daniel | 🟡 Q1 — after installation script |
+| Teams production deployment | Mike | 🟡 Needs Azure setup + Axialent admin access (request from Mario) |
 | Explore Merge.dev / n8n for HR data reads | Team | 🟢 Future — after identity solved |
 | Probe deeper on "integration" per client opportunity | Sales/Oseas | 🟡 Ongoing |

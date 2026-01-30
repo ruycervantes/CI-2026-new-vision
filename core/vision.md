@@ -69,6 +69,8 @@ The AI Coach changes what's possible. Not by replacing the consultant, but by ma
 
 This is why the AI Coach is the right shared investment. It's not an efficiency play (build once, use twice). It's the core unlock — it makes possible what wasn't possible before.
 
+![GPS Dashboard — Reminded of what matters, acting with intention](../site/diagrams/gps-dashboard-comic-strip.png)
+
 ---
 
 ## Two Design Spaces
@@ -85,6 +87,8 @@ The AI Coach is the shared technology foundation. Beyond it, there are two desig
 - Coach mode: deep conversations about setbacks, goals, and growth
 - Multi-session memory: the coach knows your trajectory across sessions
 - The "Pepe Grillo": deep integrations (email, chats, calendar) that make the coach present in your day-to-day, not just when you open the app
+
+![The moment of change — Trigger, Intervention, Outcome](../archive/diagrams/09-email-response-comic-strip.png)
 
 **Where this is described:** [vision-behavior-change.md](vision-behavior-change.md) (detailed product spec)
 
@@ -105,6 +109,8 @@ The AI Coach is the shared technology foundation. Beyond it, there are two desig
 **Where this is described:** `team-effectiveness/mvp-offer.md` (near-term MVP), team effectiveness vision (evolving)
 
 **Research references:** [research-references-te.md](research-references-te.md) — HCI/CSCW papers illustrating meeting facilitation and team conversation tracking concepts.
+
+![Ambient Visualization — AI-assisted goal tracking during a team meeting (Chen et al., "Are We On Track?")](../paper-images/ambient-viz-on-teams.png)
 
 **Note:** The near-term validation uses current product + consultant-led process (Nelson is leading). The full engineering vision is significantly larger — meeting facilitation, real-time feedback, team dynamics visualization.
 

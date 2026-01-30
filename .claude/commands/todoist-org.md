@@ -73,3 +73,42 @@ Example bad task:
 - When creating: always include at least one time label
 - Prefer labels over due dates for planning
 - Project structure uses emoji prefixes for visual scanning
+
+### MCP Tool Usage (CRITICAL)
+
+When calling `add-tasks`, you MUST include the `labels` parameter. This is the most common failure — tasks get created without labels and drift out of the system.
+
+**Required parameters for every task:**
+```json
+{
+  "content": "Task name",
+  "labels": ["this-week", "deep-work"],  // ALWAYS include at minimum one time label
+  "priority": "p2"  // p1=highest, p2=high, p3=medium, p4=lowest
+}
+```
+
+**Optional but preferred:**
+```json
+{
+  "projectId": "...",  // assign to correct project, not Inbox
+  "description": "Context or details"
+}
+```
+
+**Label names in MCP** (no @ prefix):
+- Time: `this-week`, `next-week`, `this-month`, `someday`
+- Energy: `quick-win`, `deep-work`, `energy-low`
+- Status: `Doing`, `waiting`, `followup`, `urgent`, `recurrent`
+
+**Do NOT set `dueString`** unless it's a real external deadline (meeting, contract, payment).
+
+### Project Mapping
+
+When creating work tasks, map to these projects:
+- Product/roadmap → ConsciousInsights - Product Strategy
+- Dev/engineering → ConsciousInsights Development
+- Testing/QA → ConsciousInsights Testing
+- Team management → Stoic_Management
+- Sales → Sales Team tasks
+- Personal → Personal or sub-projects (Kids, Salud, Home Maintenance, etc.)
+- Unsure → Inbox (will be filed during weekly planning)

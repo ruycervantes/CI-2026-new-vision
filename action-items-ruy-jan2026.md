@@ -8,59 +8,33 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 ## 🎯 This Week Focus
 
 - [ ] **Carpintero cama Enoles** - call them
-- [ ] **Update OKRs** - add enterprise integration (HRMS, LMS, messaging)
 - [ ] **Add privacy policy draft to Asana ticket** - Jonathan's request, you have draft ready (from Sprint Demo Jan 28)
 - [ ] **Send note about language policy to Nelson/Dolo** - Decision: single language per user at provisioning, remove selector for normal users
 - [ ] **Test Linear this sprint** - evaluate vs Asana for sprint management (committed Jan 28 demo)
 - [ ] **Decide sprint management process: roadmap → backlog → sprint** - How does committed work flow from roadmap to backlog to sprint stories? Includes: Linear vs Asana decision, backlog format (`sprints/backlog.md` created as placeholder), sprint file naming when sprints cross months, how Daniel picks up work after leave. Related to all sprint management process decisions.
 - [ ] **Define standalone UX vision** - blocks tutorial wizard, bot selection, language settings final design
 - [ ] **Ask Mike to follow up on user instructions** - check if what Nelson has is sufficient for the 5-user test. Users need clear context/setting so they use it as intended (from Mike-Ruy chat Jan 28)
-- [ ] **Write enterprise integration specs** - based on Mike-Ruy chat + enterprise decisions. Feed into `enterprise/integration-strategy.md`
-- [ ] **Clean up platform vision** - `core/vision.md` needs a general cleanup pass (too many things, tighten)
-- [ ] **Clean up roadmap** - `core/roadmap.md` needs a general cleanup pass (tighten, remove redundancy)
-- [ ] **Add diagrams to platform vision** - visuals for the two design spaces, AI Coach as shared foundation, etc.
-- [ ] **Process team effectiveness calls** - remaining call transcripts related to HPT
-- [ ] **Process AI coach calls** - extract AI coach design clues from: (1) Nelson 1-on-1 Jan 27 (re-review for coach architecture insights), (2) Horacio coaching calls (methodology for multi-session), (3) Richi coaching call Jan 22 (design principles, application coaching praxis). Land all insights into `research/coaching/ai-coach-design-considerations.md`
-- [ ] **Send Nelson the team effectiveness research** - share TE research materials so he can use them for validation
 - [ ] **Process strategic brain dump** - review and process `thinking/strategic-brain-dump.md`, land insights into appropriate core docs
 - [ ] **Design LGP check-in dialogue prompt** - write the prompt/spec for the new chat-based check-in step: rating (1-5) → assess struggle → adapt microhabit (trigger/action) or tactical coaching → schedule next. Shamil blocked on this. (from Sprint Planning Jan 29)
-- [ ] **Send vision and roadmap docs to Shamil and Daniel** - share so they understand the bigger picture (from Sprint Planning Jan 29)
 - [ ] **Check if support team can set up Azure environment** - instead of Daniel spending 3-4 hours. Needs Stoic credit card + finance auth before 2pm MX. Target: second week of Feb. (from Sprint Planning Jan 29)
 - [ ] **Talk to Leo about office hour scheduling** - request at least one lighter office hour day/week for technical work and pair programming (from Sprint Planning Jan 29)
 - [ ] **Create shipping checklist** - dev done → push to staging → demo in office hours → team tests → ship. Talk to Leo about owning this process. (from Analysis Jan 29)
 - [ ] **Add estimation review to next sprint planning** - 15 min at start: each task, estimated vs actual, why the gap. (from Analysis Jan 29)
-- [ ] **Message Shamil: push Thinking Partner to dev** - so it can be demoed in next office hours. First test of shipping process. (from Analysis Jan 29)
-- [ ] **Follow up with Shamil on Mike technical sync** - already told him to reach out, make sure it's scheduled (from Analysis Jan 29)
 - [ ] **Add re-engagement ideas to backlog** - other features for re-engagement beyond check-in redesign (from Analysis Jan 29)
 - [ ] **Do own work management review** - catch up on personal task management. Include reflection: what's not working? Doing a lot but not getting to sprint review items, vision work slipping. Why?
 
 **Calls to Process:**
 - [ ] **Process Horacio call (Jan 27)** - `calls/cont explicación coaching : htp horacio 27ene2026.txt` - coaching/HTP methodology
-- [ ] **Process Pricing call (Jan 27)** - `calls/Pricing Oseas Nelson Leo 27ene2026.txt` - MVP team effectiveness items
-- [ ] **Process Enterprise connections call (Jan 27)** - `calls/Decisiones Enterprise connections 27ene2026.txt`
 
 **Send to Nelson:**
-- [ ] **Send MVP for team effectiveness** - `team-effectiveness/mvp-offer.md` (not sent yet)
-- [ ] **Send design logic document** - `team-effectiveness/design-rationale.md` (not sent yet)
-- [ ] **Send Horacio call notes/summary to Nelson** - processed call insights on HPT methodology + design principles
-- [ ] **Send design principles + digitization opportunities doc to Nelson** - table of what can be digitized from Horacio's process
 - [ ] **Share repository access with Nelson** - so he can iterate on vision docs directly
 
-**Documentation:**
-- [ ] **Update MVP team effectiveness notes** - review/refine `mvp-offer.md` based on call insights
-- [ ] **Finalize sprint stories and add to tools** - review `sprints/sprint-stories-jan2026.md`, add to Notion and Asana
 
 ### Still Pending (from earlier)
-- [ ] **Reply to Gabriel (P&G) - Thinkific/business context** - on Daniel's email, explain hybrid program, ask if auto-provisioning needed
-- [ ] **Send WorkOS/SSO integration strategy document to Daniel** - the "documento larguito" for him to read
-- [ ] **Prepare for Horacio interview (2nd round)** - deep work, methodology
 - [ ] **Set up Todoist plan with Irene**
 - [ ] **Sacar a Enol a andar en bicicleta**
 - [ ] **Discuss AI coaching dependency with team** - Review `team-effectiveness/ai-coaching-dependency.md` with Mike/Shamil. Key question: does minimum (Coach mode + simple check-ins) feel right for TE pilot?
 - [ ] **Escalate Microsoft sandbox request to Mario** - Daniel writing request, or just buy Boetus licenses (~$50-80/mo)
-- [ ] **Write Thinking Partner how-to** - methodology documentation
-- [ ] **Schedule technical sync meeting with Leo** - ~30 min/week for team technical alignment (from Shamil 1:1)
-
 ---
 
 ## Key Reflections & Context *(reference, not tasks)*
@@ -132,24 +106,6 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - "Lo podemos implementar en skills"
 - See "With Mike" section for full architecture discussion
 
-### Q1 OKRs (Jan 20 - Leo Session)
-
-**Objective 1: Feature Development** - 4 features:
-1. Teams integration
-2. New coaching version (complete sessions)
-3. Voice/STT
-4. **Sprint Automation** (environment + prompt customization)
-
-**Objective 2: Product Decision + PMF** - validated roadmap + weekly PMF review (Thu/Fri)
-
-**Objective 3: Team Performance** - processes + release lifecycle
-
-### HPT vs Behavior Change
-
-- Behavior Change: well-defined
-- High Performance Team: needs exploration (Mural, notes)
-- Explore in parallel to make data-based decision
-
 ---
 
 ## Sprint Planning Outcomes (Jan 15, 2026) *(reference, not tasks)*
@@ -185,30 +141,10 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 ## From Richi Call (Jan 22) - Team Effectiveness
 
-*See full extraction: `calls/Application Coaching - richi and ruy 22jan2026 - Extraction.md`*
-
 ### For Ruy
-- [ ] **Send Richi resources** - AI podcast (OpenAI coach), book on history of intelligence ← TODAY
-- [ ] **Review Application Coaching Manual** - re-read with focus on design principles
-- [ ] **Contact Dolo** - request Facilitator Guides (e.g., Meli), proposals that explain coaching/facilitation/offsites
-- [ ] **Process "ayúdame a ayudarte" conversation** - consider having this with Oseas
 - [ ] **Schedule follow-up with Richi** - after he reviews materials
 
-### For Vision Document
-- [ ] **Prepare visual HPT journey (comics/diagrams)** - for Nelson/Dolo alignment meeting (2nd week Feb). Use Gemini API for visuals.
-- [ ] **Add design principles to team-effectiveness-vision.md** - DP1-DP7 from extraction
-- [ ] **Document the two "aha moment" types** - espoused vs values-in-action, "ayúdame a ayudarte"
-- [ ] **Clarify MVP sequence** - Individual coaching → Team reflection (human facilitated) → Dashboard (later)
-
-### Key Design Principles (reference)
-1. **The Gap is the Raw Material** - espoused vs values-in-action
-2. **Real Content Creates Real Learning** - no hypotheticals
-3. **"Ayúdame a Ayudarte"** - frame for the other's agenda
-4. **Individual Skills Enable Collective** - start with 1:1
-5. **Role Modeling Creates Moments of Truth** - demonstrate alternatives
-6. **Non-Negotiable Values** - player, learner, integrity, system optimization
-7. **Zero Attachment to Direction** - offer and let go
-
+#
 ---
 
 ## This Week - Research & Documents
@@ -235,26 +171,6 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
   - Use `/process-call` command
   - Key topics: ontology, memory system, group vs individual coaching
 
-### Documents & Materials
-
-- [ ] **Write Team Effectiveness vision.md** - deep work, synthesize from research
-  - Input: `team-effectiveness/research/synthesis-v2.md` (especially Section 5: Human vs. Structure)
-  - Input: `team-effectiveness/design-rationale.md` (intervention matrix, MVP hypothesis)
-  - Input: `team-effectiveness/mvp-offer.md` (90-day cycle, what we're selling now)
-  - Output: `team-effectiveness/vision.md` - the product roadmap for what we're building toward
-  - Key question: Given all the digitization opportunities, what's the sequence? What becomes product after MVP?
-
-- [ ] **Create roadmap document** for Leo and team
-  - First draft: `roadmap-q1-2026-draft.md` (Jan 14)
-  - **Next:** Review vision doc, then refine roadmap
-  - **Add:** Sprint Automation section
-  - Purpose: help sell / validate with customers
-  - Q1 features, OKRs structure, dependencies
-  - **Flag Nelson's requests** (Thinkific SSO, chatbot creation) for Q2+ discussion
-
-- [ ] **Update pitch slides**
-  - Add goal-based development flow (missing piece)
-  - Share URL with Mike after update
 
 ---
 
@@ -263,7 +179,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 ### Personal Workflow
 - [ ] **Set up personal task system (Todoist) with daily/weekly review** - consolidate all task lists into Todoist, establish review cadence. Done when: single source of truth for tasks + doing reviews consistently.
 
-### Hackathon Prototype (Evening - Jan 16)
+### Hackathon Prototype (1Evening - Jan 16)
 - [ ] **Personal Life Coach prototype** - done when I have a working tool I use day-to-day
   - Gym Coach component
   - Brain/Life Coach component
@@ -274,17 +190,6 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] **Ship voice STT** - done but not shipped
 - [ ] **Ship data features** - done but not shipped
 - [ ] **Ship Thinking Partner** - blocked on Horacio interview
-
----
-
-## Administrative Tasks (NEW - from Handwritten Notes)
-
-- [ ] **Sacar recibo CFE** - get receipt
-- [ ] **Nuevos contratos para Daniel y Mike**
-- [ ] **Email transition: stoic.enterprises → stoicyou.com**
-  - Transition ruy@ and others
-  - Helpdesk ticket already created for related issue
-- [ ] **Buy earbuds for Irene** - small/in-ear, good sound quality
 
 ---
 
@@ -318,58 +223,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 - [ ] Voice vs Bidirectional Teams chatbot - which first?
 - [ ] Does the vision resonate vs competitors?
 
----
 
-## Operations Requests (Nelson/Axialent)
-
-*Flag these for roadmap discussion - potential Q2+ items*
-
-### Thinkific SSO Integration
-- [ ] **Thinkific as SSO provider** (feasible, needs roadmap discussion)
-  - Access chatbot from student dashboard (not from lesson)
-  - CI shows sidebar menu with coaches
-  - "Home" link redirects back to Thinkific
-  - *Context:* Makes chatbots an element, not a learning activity
-
-### Chatbot Creation Interface
-- [ ] **Self-service chatbot creation for Axialent** (backlog)
-  - Nelson wants autonomy to create chatbots
-  - Ruy has scripts that could be automated
-  - Even basic/unpolished would help
-
-### Nelson's Role
-- [ ] **Clarify Nelson's new role** - understand implications for collaboration/requests
-
----
-
-## Strategic Questions to Resolve *(reference, not tasks)*
-
-| Question | Source | How to Resolve |
-|----------|--------|----------------|
-| Which angle has most customer pull? (behavior change vs team performance vs culture compass) | Oseas | Customer validation |
-| Are we differentiated from habit apps? | Oseas | Competitor research |
-| Voice vs bidirectional chatbot priority? | Mike | Customer validation |
-| Can we show ROI to L&D buyers? | Oseas | Need to define metrics |
-| Will L&D buyers who buy courses see value in this? | Oseas | Customer interviews |
-
----
-
-## With Mike (To Discuss)
-
-- [ ] **Skills architecture for AI coaching** - how to implement different knowledge layers
-  - **CB Skills** (grand skill with sub-skills): acuerdos y resolución de conflictos, conversaciones difíciles, mindsets, etc.
-  - **Coaching Skill** - separate skill for general coaching
-  - **Application Coaching methodology** - as skill/grand skill with sub-skills
-  - Layers: CB knowledge → General coaching knowledge → Application Coaching praxis
-  - Reference: `research/coaching-knowledge-framework.md` for the methodology levels
-
-- [ ] **TODO completion UX + memory relevance**
-  - Question: "¿Quiero TODO completo... la memoria te trae lo más relevante?"
-  - How does memory surface the most relevant context automatically?
-  - UX for showing what's complete vs what's relevant
-- [ ] **Share notes from Horacio call** - "Ya le puedo armar algo a Mike con las NOTAS"
-  - Ontology structure: Personas → Metas → Comportamiento → Ejemplos
-  - What's most valuable to remember from coaching sessions
 
 ---
 

@@ -29,7 +29,7 @@ Read and pull from all task sources:
 
 ```
 ACTION-ITEMS FILE
-├── Read: action-items-ruy-jan2026.md
+├── Read: action-items-ruy-{month}{year}.md
 ├── Extract: "This Week Focus" section
 └── Extract: Any items marked for this week
 
