@@ -27,7 +27,7 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 | [`core/vision-behavior-change.md`](core/vision-behavior-change.md) | **LD product spec** — behavior change methodology, goal hierarchy, Coach + Daily Companion |
 | [`core/roadmap.md`](core/roadmap.md) | **Engineering roadmap** — shared foundation (Q1) + feature candidates by path |
 | [`core/alignment.md`](core/alignment.md) | **Leadership alignment** — decisions, validation plan, roles |
-| [`team-effectiveness/mvp-offer.md`](team-effectiveness/mvp-offer.md) | **HPT near-term MVP** — 90-day hybrid cycle for market validation |
+| [`core/MVP-offer-hpt.md`](core/MVP-offer-hpt.md) | **HPT near-term MVP** — 90-day hybrid cycle for market validation |
 | [`research/coaching/ai-coach-design-considerations.md`](research/coaching/ai-coach-design-considerations.md) | **AI Coach architecture** — memory, implementation paradigms, design questions |
 | [`research/coaching/minimum-ai-coaching-for-te.md`](research/coaching/minimum-ai-coaching-for-te.md) | **AI Coach ↔ HPT bridge** — minimum coaching needed for team effectiveness to work |
 
@@ -35,13 +35,13 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 
 | Path | Contents |
 |------|----------|
-| `team-effectiveness/` | HPT product vision, research, Katzenbach sources |
+| `team-effectiveness/` | HPT research and synthesis (methodology, synthesis-v2, design rationale) |
 | `enterprise/` | SSO, identity (WorkOS), HRMS integration strategy |
-| `research/coaching/` | Coaching methodology research (input to AI Coach design). Includes AI Coach architecture, minimum coaching for TE, methodology sources, interview data. **This is the bridge between LD and HPT** — the AI Coach design lives here because it serves both paths. |
+| `research/coaching/` | Coaching methodology research — AI Coach architecture, knowledge framework, minimum coaching for TE, interview data |
 | `calls/` | Call transcripts and processed summaries |
 | `team/` | Sprint status per person, team profiles, process log |
 | `thinking/` | Working documents, exploratory notes |
-| `sprints/` | Team sprint stories |
+| `sprints/` | Team sprint stories + `backlog.md` (committed work not yet in a sprint) |
 | `site/` | Netlify site (HTML pages + diagrams) |
 | `archive/` | Previous vision drafts, old meeting notes, diagram prompts |
 
@@ -70,6 +70,7 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 | MS Teams Notifications | Mike | In progress |
 | Daily Companion Cyclic Flow | Shamil | Ready to build |
 | Coach Multi-Session | Shamil + Ruy | Needs Horacio |
+| Installation Script + WorkOS POC | Daniel | In progress / Q1 |
 | Voice OR Bidirectional Chatbot | TBD | Validate with Leo |
 
 ### Validating

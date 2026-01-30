@@ -8,22 +8,6 @@ This is the **command center** for Conscious Insights / Stoic platform evolution
 
 **Key constraint:** Limited time, small team. Prioritize ruthlessly.
 
-### Strategic Situation (as of Jan 28, 2026)
-
-**Key decision (not yet captured in core docs — restructuring pending):**
-- **Two market bets running in parallel:** Leadership Development (LD) and Team Effectiveness (HPT)
-- **One shared technology bet:** AI Coach (multi-session coaching with memory) is the core unlock for both
-- **Validating which market has more pull** — LD has a more built product; HPT validation uses current product + slides/visual prototypes (Nelson leads)
-- **Oseas's lockstep principle:** coaching quality and reporting/visibility quality must advance together — without visible impact data, the product is unsellable
-
-**Unresolved:** Stoic is a separate spin-off (that's decided), but whether Stoic sells its own product independently or operates as Axialent's digital arm is not resolved.
-
-**Active restructuring plan:** `thinking/call-processing-plan-28jan2026.md` — Step 5 will restructure `core/` docs to reflect platform reality (platform vision, behavior change as LD product spec, common engineering roadmap with 3 pillars: AI Coach + Enterprise Integration + Impact/Visibility).
-
-**Key thinking docs:**
-- `thinking/platform-vision-thinking-28jan2026.md` — platform vision framing (will become `core/vision.md`)
-- `research/coaching/ai-coach-design-considerations.md` — AI coach architecture and design questions
-
 ## Team
 
 - **Ruy** - PM + CTO, decision maker, writes vision/methodology
@@ -36,16 +20,7 @@ This is the **command center** for Conscious Insights / Stoic platform evolution
 
 ## Sprint Process
 
-After each sprint planning, Ruy runs a post-planning process (see `team/process-log.md` under Cadences):
-
-1. `/process-call` the sprint planning transcript → summary + analysis
-2. Update `sprints/sprint-stories-{period}.md` with agreements
-3. Update Asana tasks (descriptions, estimates, new/closed/split tasks)
-4. `/update-team-status` from the call
-5. Review analysis findings → land decisions in `team/process-log.md`
-6. Update `action-items-ruy-{month}.md` with commitments
-7. Commit all changes
-8. Message team with immediate asks
+Post-planning steps are documented in `team/process-log.md` under Cadences.
 
 **Weekly cadence:**
 - **Monday:** Sprint prep — review `team/process-log.md`, prep retro data (estimates vs actuals)
@@ -63,13 +38,16 @@ After each sprint planning, Ruy runs a post-planning process (see `team/process-
 
 ### Core Documents (`core/`)
 
-Individual coaching product vision and roadmap. Spanish quotes can stay as-is (team is bilingual).
+Platform vision, product specs, and roadmap. Spanish quotes can stay as-is (team is bilingual).
 
 | Document | Purpose |
 |----------|---------|
-| `vision.md` | Methodology, user journey, architecture. Key sections: Goal Hierarchy, Change Process, Coach/Daily Companion modes, Juan's Journey |
-| `roadmap.md` | Q1/Q2/H2 features, dependencies, team assignments |
+| `vision.md` | Platform vision — why we exist, two design spaces, strategic filter |
+| `vision-behavior-change.md` | LD product spec — behavior change methodology, goal hierarchy, Coach + Daily Companion |
+| `roadmap.md` | Engineering roadmap — shared foundation (Q1) + feature candidates by path |
 | `alignment.md` | Leadership sign-off, validation activities, commitments |
+| `MVP-offer-hpt.md` | HPT near-term MVP — 90-day hybrid cycle for market validation |
+| `pitch.md` | Pitch deck content |
 
 Previous versions in `archive/vision-versions/`.
 
@@ -79,9 +57,9 @@ Separate product track for team-level coaching and development.
 
 | Path | Purpose |
 |------|---------|
-| `vision.md` | Product vision, MVP approach, intervention matrix |
-| `research/` | Analysis and synthesis (methodology.md, synthesis-v1.md, synthesis-v2.md) |
-| `sources/` | HPT Katzenbach docs, team survey instruments, historical survey data |
+| `research/` | Analysis and synthesis (methodology.md, synthesis-v2.md) |
+| `design-rationale.md` | Design rationale and decisions |
+| `ai-coaching-dependency.md` | AI coaching dependency for TE |
 
 Related call transcripts in `calls/team-effectiveness/`.
 
@@ -106,10 +84,6 @@ Coaching methodology research — the source material for AI Coach design. Appli
 | `ai-coach-design-considerations.md` | AI Coach architecture — memory, implementation paradigms, design questions |
 | `minimum-ai-coaching-for-te.md` | How AI Coach connects to Team Effectiveness — minimum coaching needed for HPT to work |
 
-The AI Coach design docs are the bridge between coaching methodology and team effectiveness. The coach is what makes the HPT offering scalable — without it, team interventions depend entirely on the consultant being present.
-
-**When doing competitive/HCI research:** Answer the key question "Are we differentiated or 80/20 replaceable?" and connect findings to product decisions.
-
 ### Calls (`calls/`)
 
 Call transcripts and processed summaries. Use `/process-call` to process new transcripts.
@@ -120,8 +94,6 @@ Call transcripts and processed summaries. Use `/process-call` to process new tra
 | `application-coaching/` | Coaching methodology calls (Richi, Horacio) |
 | `strategy/` | Strategic discussions (Oseas 1-1s) |
 | `operations/` | Dev/ops calls (Daniel, Shamil, Leo) |
-
-**When reviewing meeting notes:** Extract action items, capture key decisions and who made them, note blocking items.
 
 ### Team (`team/`)
 
@@ -144,11 +116,15 @@ Working documents, brain dumps, exploratory notes. Not finalized analysis.
 | `sprints/` | Team sprint stories (use `/sprint-stories` to create) + `backlog.md` (committed work not yet in a sprint) |
 | `handwritten/` | Drop zone for handwritten note photos (use `/handwritten` to process) |
 
-**When writing sprint stories:** Reference Q1 priorities in README.md. Owners: Mike (Teams), Shamil (Coach features), Daniel (infra), Leo (testing/PMF). Keep stories concrete with acceptance criteria.
-
 ### Archive (reference only)
 
 Previous vision drafts, meeting summaries, diagram prompts, old diagrams, transcribed handwritten notes.
+
+### Behavioral Guidelines
+
+- **Competitive/HCI research:** Answer "Are we differentiated or 80/20 replaceable?" and connect findings to product decisions.
+- **Meeting notes:** Extract action items, capture key decisions and who made them, note blocking items.
+- **Sprint stories:** Reference Q1 priorities in README.md. Owners: Mike (Teams), Shamil (Coach features), Daniel (infra), Leo (testing/PMF). Keep stories concrete with acceptance criteria.
 
 ## Technical
 
@@ -162,10 +138,8 @@ Previous vision drafts, meeting summaries, diagram prompts, old diagrams, transc
 - **Daily Companion** - Daily practice mode (reminders, check-ins, progress tracking)
 - **Goal Hierarchy** - Destination Goal → Management Goal → Tracking Goal
 - **The Gap** - Distance between "who I am" and "who I want to be"
-- **GPS Dashboard** - Visual showing progress toward Destination Goal
 - **If-Then Habit** - Implementation Intention format ("If X, then Y")
 - **Adjust Stage** - When users struggle, help them reinterpret and adapt (not just track failure)
-- **Applied Learning** - Learning through practice, not just content
 
 ### Team Effectiveness
 - **HPT** - High Performing Teams (Katzenbach framework + Axialent experience)
