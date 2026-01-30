@@ -12,6 +12,7 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Add privacy policy draft to Asana ticket** - Jonathan's request, you have draft ready (from Sprint Demo Jan 28)
 - [ ] **Send note about language policy to Nelson/Dolo** - Decision: single language per user at provisioning, remove selector for normal users
 - [ ] **Test Linear this sprint** - evaluate vs Asana for sprint management (committed Jan 28 demo)
+- [ ] **Decide sprint management process: roadmap → backlog → sprint** - How does committed work flow from roadmap to backlog to sprint stories? Includes: Linear vs Asana decision, backlog format (`sprints/backlog.md` created as placeholder), sprint file naming when sprints cross months, how Daniel picks up work after leave. Related to all sprint management process decisions.
 - [ ] **Define standalone UX vision** - blocks tutorial wizard, bot selection, language settings final design
 - [ ] **Ask Mike to follow up on user instructions** - check if what Nelson has is sufficient for the 5-user test. Users need clear context/setting so they use it as intended (from Mike-Ruy chat Jan 28)
 - [ ] **Write enterprise integration specs** - based on Mike-Ruy chat + enterprise decisions. Feed into `enterprise/integration-strategy.md`
@@ -31,15 +32,10 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 - [ ] **Message Shamil: push Thinking Partner to dev** - so it can be demoed in next office hours. First test of shipping process. (from Analysis Jan 29)
 - [ ] **Follow up with Shamil on Mike technical sync** - already told him to reach out, make sure it's scheduled (from Analysis Jan 29)
 - [ ] **Add re-engagement ideas to backlog** - other features for re-engagement beyond check-in redesign (from Analysis Jan 29)
-
-### Tomorrow (Jan 28) - Pick Up Work
-
-**First Thing:**
-- [ ] **Do own work management review** - catch up on personal task management (haven't done it). Include reflection with Claude: what's not working? Doing a lot but not getting to sprint review items, vision work slipping. Why?
+- [ ] **Do own work management review** - catch up on personal task management. Include reflection: what's not working? Doing a lot but not getting to sprint review items, vision work slipping. Why?
 
 **Calls to Process:**
 - [ ] **Process Horacio call (Jan 27)** - `calls/cont explicación coaching : htp horacio 27ene2026.txt` - coaching/HTP methodology
-- [x] **Process Nelson + Oseas call (Jan 27)** - `calls/Sesión con Nelson más Oseas 27enero2026.txt` - impact analytics layer for team effectiveness
 - [ ] **Process Pricing call (Jan 27)** - `calls/Pricing Oseas Nelson Leo 27ene2026.txt` - MVP team effectiveness items
 - [ ] **Process Enterprise connections call (Jan 27)** - `calls/Decisiones Enterprise connections 27ene2026.txt`
 
@@ -52,29 +48,16 @@ Consolidated from meetings with Mike and Oseas on January 13, 2026, plus handwri
 
 **Documentation:**
 - [ ] **Update MVP team effectiveness notes** - review/refine `mvp-offer.md` based on call insights
-- [x] **Document AI coach design** - initial version done: `research/coaching/ai-coach-design-considerations.md`. Next: prototype multi-session architecture (artifacts vs memory graph)
-
-**Sprint Prep:**
 - [ ] **Finalize sprint stories and add to tools** - review `sprints/sprint-stories-jan2026.md`, add to Notion and Asana
-
-### Moved to Later
-- [ ] **Sacar a Enol a andar en bicicleta** → Tomorrow (Jan 24)
-- [ ] **Poner strategic brain dump en un solo lugar** → Monday (Jan 27)
-- [ ] **Evaluate Linear vs GitHub Projects** → Monday (Jan 27)
-
 
 ### Still Pending (from earlier)
 - [ ] **Reply to Gabriel (P&G) - Thinkific/business context** - on Daniel's email, explain hybrid program, ask if auto-provisioning needed
 - [ ] **Send WorkOS/SSO integration strategy document to Daniel** - the "documento larguito" for him to read
 - [ ] **Prepare for Horacio interview (2nd round)** - deep work, methodology
-- [ ] **Email Leo** - coordinate technical meeting during office hours
-- [ ] **Hacer extensión de contrato de Daniel**
 - [ ] **Set up Todoist plan with Irene**
-
-### Also This Week
+- [ ] **Sacar a Enol a andar en bicicleta**
 - [ ] **Discuss AI coaching dependency with team** - Review `team-effectiveness/ai-coaching-dependency.md` with Mike/Shamil. Key question: does minimum (Coach mode + simple check-ins) feel right for TE pilot?
 - [ ] **Escalate Microsoft sandbox request to Mario** - Daniel writing request, or just buy Boetus licenses (~$50-80/mo)
-- [ ] **Document testing/shipping process** - continue IN PROGRESS work
 - [ ] **Write Thinking Partner how-to** - methodology documentation
 - [ ] **Schedule technical sync meeting with Leo** - ~30 min/week for team technical alignment (from Shamil 1:1)
 
@@ -278,17 +261,7 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 ## Process & Systems (NEW - from Handwritten Notes)
 
 ### Personal Workflow
-- [ ] **Integrar todos los TODOs en una sola cosa** - consolidate all task lists into one system
-
-- [ ] **Establish daily/weekly review habit** - done when doing reviews consistently for 1-2 weeks
-  - What to review, when, how long
-  - Could include CC → Todoist if useful
-
-- [ ] **Organize Todoist (fresh setup)** - new personal task management system
-
-- [ ] **Put resource map in Linear** - centralize project artifacts
-
-- [ ] **Add emails to resource map** - consolidate communications
+- [ ] **Set up personal task system (Todoist) with daily/weekly review** - consolidate all task lists into Todoist, establish review cadence. Done when: single source of truth for tasks + doing reviews consistently.
 
 ### Hackathon Prototype (Evening - Jan 16)
 - [ ] **Personal Life Coach prototype** - done when I have a working tool I use day-to-day
@@ -308,7 +281,6 @@ Visión de Producto → Validación PMF → Aprendizaje PMF → SPRINT DE DESARR
 
 - [ ] **Sacar recibo CFE** - get receipt
 - [ ] **Nuevos contratos para Daniel y Mike**
-- [x] **Set up Claude-Code account for Shamil** - Max account created (Jan 20, Shamil 1:1)
 - [ ] **Email transition: stoic.enterprises → stoicyou.com**
   - Transition ruy@ and others
   - Helpdesk ticket already created for related issue
