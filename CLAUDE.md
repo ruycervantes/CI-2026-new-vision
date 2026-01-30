@@ -260,3 +260,4 @@ export $(cat .env | xargs) && python3 scripts/notion-sync.py
 - Don't create new markdown files unless asked
 - Don't restructure the vision document without asking
 - Don't guess at technical architecture - ask Mike
+- **Don't call Todoist MCP tools directly** — always use the `/todoist-org` skill so tasks get proper labels, project mapping, and follow the org system
