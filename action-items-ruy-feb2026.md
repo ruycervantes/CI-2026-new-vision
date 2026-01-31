@@ -18,6 +18,8 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ### Ship what's built
 
+- [ ] **Stabilize Shamil's fixer feature for demo** — server is unstable ("pinche servidor es bien inestable"). Oseas wants to start selling this immediately. Needs stable enough for client demos.
+- [ ] **Prepare/ensure demos ready for Feb 9 Madrid meeting** — Oseas preparing slides incorporating dashboard + fixer + Teams into commercial storyline. Mike needs Teams demo ready.
 - [ ] **Fix shipping process for done features** — voice STT, data features, Thinking Partner are all built but not shipped. Establish: dev done → staging → demo → team tests → ship. Talk to Leo about owning this flow.
 - [ ] **Demo Thinking Partner to Oseas** — show what's already shipped
 
@@ -29,6 +31,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ### Quick wins (carry from Jan)
 
+- [ ] **Ensure Oseas is admin/owner on OnePassword vault** — board audit requires him to have admin control over all infrastructure access. He's the only legal employee of Stoic.
 - [ ] **Follow up on Oseas vision sign-off** — he committed to reading vision docs. Check if he did, get confirmation.
 - [ ] **Schedule one working session with Oseas/Nelson/Leo** — align on PMF materials, then they run validation conversations. Target: before Feb second week.
 - [ ] **Add privacy policy draft to Asana ticket** — Jonathan's request
@@ -56,6 +59,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ### PMF Process Design (OKR #2 — Oseas owns, Ruy designs)
 
+- [ ] **Establish "Mike office hours" for prototype ideas** — biweekly, lightweight. Mike presents prototype ideas, team decides what to pursue commercially. Agreed in Jan 30 call.
 - [ ] **Establish prioritization process with Oseas and Leo** — how do we decide what to build? Backlog triage cadence.
 - [ ] **Define PMF segments + hypotheses with Leo** — which 1-2 customer segments for Q1? Hypothesis per segment?
 - [ ] **Design the design sprint** — format, features in scope, schedule, participants
@@ -108,6 +112,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 - [ ] **Personal Life Coach prototype** — hackathon idea. Gym/Brain/Relationship coach components.
 - [ ] **Brilliant assessments integration** — investigate automation possibilities
+- [ ] **Follow up on Inworld.ai TTS** — Oseas to connect with cousin for credits + dev relationships. Mike already evaluated, recommends. See `sprints/backlog.md`.
 
 ---
 

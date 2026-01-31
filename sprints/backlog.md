@@ -36,3 +36,20 @@
 - Installation script should be finished first
 - Daniel available ~1 month during government leave (baby due ~Feb 5)
 - Mike will need Daniel support in last 15 days of Q1 for Teams production deployment
+
+---
+
+## Evaluate Inworld.ai for TTS (Mike)
+
+**Source:** Email thread — Oseas/Mike/Ruy, Jan 29, 2026
+
+Top model in TTS benchmarks: best quality, much cheaper than ElevenLabs. Oseas has a personal connection (cousin works at Inworld in San Francisco). Strategic angle: credits + developer relationships to accelerate.
+
+- Evaluate Inworld Runtime for voice/TTS: https://inworld.ai/runtime
+- Benchmarks: https://artificialanalysis.ai/-families/inworld
+- Pursue credits and dev access through Oseas's connection
+
+### Dependencies
+
+- Mike already reviewed and recommends it
+- Oseas to facilitate intro for credits/dev relationships
