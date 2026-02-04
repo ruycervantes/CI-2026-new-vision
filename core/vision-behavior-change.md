@@ -102,6 +102,12 @@ Persistence requires connecting daily actions to what people really want. We use
 
 **All three must be connected and visible.**
 
+### This is the Anchor
+
+The Goal Hierarchy is why Session 1 exists (to capture YOUR goals), why the GPS Dashboard exists (to show YOUR progress), and why the whole system works — because it's built around what matters to you, not what the company wants from you.
+
+Everything flows from this: the coaching agenda is YOUR agenda, the check-ins ask about YOUR commitments, the progress you see is toward YOUR destination. Without this anchor, we're just another corporate training tool. With it, we're a system that helps people change because they want to.
+
 ---
 
 ## 5. The Change Process
