@@ -12,14 +12,14 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 ### Mercado Libre Opportunity (Feb 11 meeting)
 
 - [ ] **Review Nelson's Meli proposal deck** — Nelson leading, Ruy reviews. Due: before sending to Laura (tonight or tomorrow)
-- [ ] **Articulate AI Coach + Thinking Partner for Meli** — Requirements and positioning. Thinking Partner = ready now ("aspirin for headaches"). AI Coach = Q2 roadmap capability. Emphasize: practical application + org-level analytics visibility.
+- [ ] **Articulate AI Coach + Thinking Partner for Meli** — Positioning: coaching as reinforcement for workshop learning, not standalone microhabits. Three flavors by level (ADN Meli, Leaders of Teams, Leaders of Leaders). Anchor everything to "what's in it for me" (user's personal agenda). Flow: assessment → workshop → coaching kickoff → 6 sessions → maintenance.
 - [ ] **Send video note to Oseas** — pending topics that didn't fit in 1:1. He's in meetings all day tomorrow.
 
 ### AI Coach (OKR #1 — critical path)
 
 - [ ] **Design LGP check-in dialogue prompt** — write the prompt/spec for chat-based check-in: rating (1-5) → assess struggle → adapt microhabit (trigger/action) or tactical coaching → schedule next. **Blocks Shamil.**
-- [ ] **Build AI Coach MVP plan** — scope with Mike: current memory structure or Getzep drop-in. Demo-able, not production. Discuss architecture (Getzep stores messages → needs Postgres decision or graph-only solution). **Mike context (Jan 30 Slack):** "MVP at best" given other priorities. Getzep could work for multi-session memory but has Postgres dependency — either drop Postgres and go back to full Zep, or use graph-only solutions. Mike to discuss further.
-- [ ] **Create AI Coach concept visuals** — storyboards/comic strips showing concrete use cases (preparing for important meeting, being more effective at work). Eye candy for Oseas to show prospects.
+- [ ] **Build AI Coach MVP plan** — First: write specs (how coach should work — session flow, use cases, differentiation by level). Then scope MVP with Mike: architecture, memory, demo-ability. **Mike context (Jan 30 Slack):** "MVP at best" given other priorities. Getzep could work for multi-session memory but has Postgres dependency.
+- [ ] **Create AI Coach concept visuals** — storyboards/comic strips for prospects + simple flow diagram showing how AI Coach works. Diagram blocked by specs. Eye candy for Oseas to show prospects.
 - [ ] **Add concrete examples to vision doc** — make "why AI coaching" visceral, not abstract. Practical scenarios.
 
 ### Ship what's built

@@ -11,3 +11,4 @@ Calls in root that still need review/processing before archiving.
 | 1-1 Oseas 30ene2026 (recovered) | Jan 30 | Yes | Review decisions and land them | `strategy/` |
 | Mike-ruy-3feb2026 | Feb 3 | Yes | Informational — Mike role transition + dashboard mockup | `operations/` |
 | nelson-ruy-check-meli-3feb2026 | Feb 3 | Yes | MELI proposal design — Axia naming, session structure, microhabit-as-tool | `strategy/` |
+| in-promptu-meeting-w-oseas4feb2026 | Feb 4 | Yes | AI Coach specs commitment, named assistants concept, Meli timeline coordination | `strategy/` |
