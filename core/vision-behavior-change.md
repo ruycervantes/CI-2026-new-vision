@@ -103,61 +103,44 @@ Four stages, facilitated by Coach and Daily Companion:
 
 **Key insight:** Goals must be OWNED (from intrinsic conversation), not ASSIGNED (from assessment alone).
 
-### Tools Within Coaching
+### Conscious Business Tools
 
-The Coach has multiple tools to help users work on their agenda — microhabits are ONE option, not the forced structure:
+The Coach uses Conscious Business methodology — microhabits are a tracking mechanism, not the core toolset:
 
-| Tool | When to Use |
-|------|-------------|
-| **If-Then Microhabit** | Behavior the user wants to practice consistently |
-| **Difficult Conversation Prep** | User has a specific conversation coming up |
-| **Framework Application** | User needs to think through a situation (e.g., mental contrasting) |
-| **Commitment** | User needs accountability for a one-time action |
+| Category | Tools |
+|----------|-------|
+| **Mindsets** | Player (protagonist vs victim), Learner (vs Knower), Essential Integrity |
+| **Conversations** | Difficult Conversations, Feedback, Requests & Commitments |
+| **Conflict** | Agreements, Conflict Resolution, BATNA |
 
-**If-Then Structure** (for microhabits):
-> "IF I'm in a meeting and I want to prove I'm right, THEN I ask one question before responding."
+> See `research/coaching/axialent-coaching-handbook-summary.md` for full methodology.
 
 ---
 
 ## 5b. Coach Session Structure
 
-A coaching engagement isn't one conversation — it's a series of sessions with continuity.
+### The Coaching Process
 
-### Typical Journey
+| Session | Purpose |
+|---------|---------|
+| **Session 1: Establish Agenda** | Understand what's important to the person — goals, themes, priorities. NOT a coaching conversation. |
+| **Sessions 2+: Work the Agenda** | Each session follows Application Coaching methodology (8 steps below) |
+| **Final Session: Closing** | Recap learnings, celebrate progress, close the process |
 
-| Phase | Sessions | Focus |
-|-------|----------|-------|
-| **Onboarding** | 1 | Assessment debrief + establish coaching agenda |
-| **Active Coaching** | 4-6 weekly | Work through agenda items, adjust as needed |
-| **Maintenance** | Monthly | Check progress, surface new themes |
+### Each Coaching Conversation (Sessions 2+)
 
-### Session 1: Establish the Agenda
+| Step | What Happens |
+|------|--------------|
+| 1. Preparación | Coach reviews context; user prepares situation to work on |
+| 2. Apertura | Build connection, set context |
+| 3. Comprensión | Understand the gap — current state vs desired state |
+| 4. Contrato | Agree on objectives for this session |
+| 5. Resolución | Work the problem (CB tools, role plays) |
+| 6. Compromiso | Commit to specific action with deadline |
+| 7. Cierre | Reflect on learnings, anchor |
+| 8. Seguimiento | Follow up on commitments between sessions |
 
-Before diving into specific work, Coach helps user define their themes:
-
-> "Platícame cuáles son los temas que traes."
-
-After exploring, Coach reflects back:
-
-> "Veo que los temas que tú traes son: 1, 2, 3. ¿Te parece que esto es lo que vayamos enfocándonos durante tus sesiones de coaching?"
-
-This creates a shared agenda that persists across sessions.
-
-### Sessions 2+: Work the Agenda
-
-Each session:
-1. Check if user has something urgent ("¿Traes algo?")
-2. If not, pick from the agenda
-3. Use appropriate tools (microhabit, conversation prep, framework, commitment)
-4. End with clear next step
-
-### Proactive Outreach (Heartbeat)
-
-Between sessions, Coach can reach out based on context:
-
-> "¿Cómo te fue en tu reunión de equipo?"
-
-This requires knowing the user's agenda and (optionally) their calendar.
+> "Si no hay brecha, no hay coaching."
 
 ---
 
