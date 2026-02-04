@@ -9,6 +9,12 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 **Note:** Monday Feb 3 is feriado. 4-day week.
 
+### Mercado Libre Opportunity (Feb 11 meeting)
+
+- [ ] **Review Nelson's Meli proposal deck** — Nelson leading, Ruy reviews. Due: before sending to Laura (tonight or tomorrow)
+- [ ] **Articulate AI Coach + Thinking Partner for Meli** — Requirements and positioning. Thinking Partner = ready now ("aspirin for headaches"). AI Coach = Q2 roadmap capability. Emphasize: practical application + org-level analytics visibility.
+- [ ] **Send video note to Oseas** — pending topics that didn't fit in 1:1. He's in meetings all day tomorrow.
+
 ### AI Coach (OKR #1 — critical path)
 
 - [ ] **Design LGP check-in dialogue prompt** — write the prompt/spec for chat-based check-in: rating (1-5) → assess struggle → adapt microhabit (trigger/action) or tactical coaching → schedule next. **Blocks Shamil.**
@@ -70,6 +76,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ### AI Coach Deep Work
 
+- [ ] **AI Coach technical exploration (2-3 weeks)** — After Meli materials complete, protected time to explore implementation: memory architecture, session continuity, how to make it work. Output: implementation approach + realistic timeline. "Necesito meterme a las tripas."
 - [ ] **Process strategic brain dump** — review `thinking/strategic-brain-dump.md`, land insights into core docs
 - [ ] **Discuss AI coaching dependency with team** — review `team-effectiveness/ai-coaching-dependency.md` with Mike/Shamil. Does minimum (Coach mode + simple check-ins) feel right for TE pilot?
 
