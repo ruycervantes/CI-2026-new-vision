@@ -44,14 +44,14 @@ Commercial validation: Thierry + Fernando Fascioli (board-designated) review all
 
 ## Shared Foundation (Q1 2026 — Build Now)
 
-**Goal:** Deliver a sellable Application Coaching experience. Prove the multi-session Coach + cyclic Daily Companion combination works as a persistent coaching relationship.
+**Goal:** Deliver a sellable Application Coaching experience. Prove the multi-session Coach with proactive check-ins works as a persistent coaching relationship.
 
 ### Core Features
 
 | Feature | Owner | Status | Description |
 |---------|-------|--------|-------------|
 | **MS Teams Notifications** | Mike | In progress | One-way notifications. Foundation for everything. |
-| **Daily Companion Cyclic Flow** | Shamil | Ready to build | Loop instead of end. User can continue, modify habit, or go to Coach. |
+| **Check-in Loop** | Shamil | Ready to build | Loop instead of end. User can continue, modify habit, or go to Coach. |
 | **Thinking Partner: Challenge/Gap/Commitment** | Shamil + Ruy | Ready to build | Show and store challenge, gap, action plan commitment. Foundation for multi-session. |
 | **Coach Multi-Session** | Ruy (design) + Shamil (impl) | Needs Horacio | Coaching across sessions with memory. Tracks goals, progress, what's urgent vs planned. |
 | **Voice OR Bidirectional Chatbot** | TBD | Validate with Leo | Choose one based on customer pull. |
@@ -74,7 +74,7 @@ Commercial validation: Thierry + Fernando Fascioli (board-designated) review all
 
 **Blocked by:** Horacio methodology meeting (this week)
 
-### Daily Companion Cyclic Flow
+### Check-in Loop
 
 **Current (linear):**
 ```
@@ -131,7 +131,7 @@ Already done, just need deployment: Speech-to-text (STT), Executive Summary, Dat
 | Principle | How We Test It |
 |-----------|----------------|
 | Multi-session Coach feels like a coach who knows you | Do users reference previous sessions? Do they feel continuity? |
-| Cyclic Daily Companion keeps people engaged | Do users loop? Do they modify habits when stuck? |
+| Check-in loop keeps people engaged | Do users loop? Do they modify habits when stuck? |
 | "Don't nag, give alternatives" works | When users struggle, do they feel supported vs. guilty? |
 | Connected goals matter | Do users see how daily actions connect to what they want? |
 
@@ -162,7 +162,6 @@ Features beyond Q1 are organized by which path they serve, prioritized by custom
 | **Before/After Touchpoints** | Pre-meeting: "You have a meeting with Pedro. Remember your practice." Post-meeting: "How did it go?" | Requires calendar read access. |
 | **Calendar Read Access (MS Graph)** | Know user's schedule to enable context-aware reminders. | Enterprise integration. |
 | **Adaptive Reminders** | Timing and frequency adjust based on user patterns. | AI Coach evolution. |
-| **Coach ↔ Daily Companion Data Flow** | Goals and progress shared between modes. Coach sees Daily Companion struggles. Daily Companion knows Coach commitments. | |
 | **Interface Discoverability** | Surface use cases visibly: coaching sessions, emergency help, career conversations. New chat suggestions. Onboarding explains 3-4 core use cases. | UX — helps users build mental model. |
 | **Proactive Personalized Check-ins** | Context-aware outreach based on previous sessions, not generic "how's it going?" Connect to calendar for timely prompts. | Drives re-engagement + reinforces "system knows me." |
 
@@ -171,7 +170,6 @@ Features beyond Q1 are organized by which path they serve, prioritized by custom
 | Feature | Description | Notes |
 |---------|-------------|-------|
 | **Deep Context Integrations** | Email, chats, calendar — the "Pepe Grillo" always-present companion. | Privacy concerns, needs Context Manager architecture. |
-| **Seamless Mode Transitions** | Fluid Coach ↔ Daily Companion without explicit switching. | Polish after foundation solid. |
 | **Peer Accountability** | Social goal-setting features. | Research needed. |
 
 ### Team Effectiveness Path
@@ -276,7 +274,7 @@ Explicitly out of scope for 2026:
 | Person | Focus |
 |--------|-------|
 | **Mike** | MS Teams integration, technical architecture |
-| **Shamil** | Daily Companion cyclic flow, Coach features |
+| **Shamil** | Check-in loop, Coach features |
 | **Daniel** | Installation script, WorkOS SSO POC, deployment infrastructure |
 | **Leo** | Customer validation, demo approval, sales |
 | **Nelson** | Impact/visibility design, HPT blended journey spec, Thierry coordination |
