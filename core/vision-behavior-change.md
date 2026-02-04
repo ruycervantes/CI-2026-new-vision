@@ -57,38 +57,33 @@ We are going to own the behavior change cycle.
 
 ---
 
-## 3. One System, Two Modes
+## 3. The Coach Relationship
 
-The system has two modes — not two separate products, but two aspects of the same experience:
+You have one coach. Not a coach AND a companion — just a coach who shows up in different ways depending on what you need.
 
-| Mode | Purpose | Nature |
-|------|---------|--------|
-| **Coach** | Conversations — for development and problem-solving | Dialogue, depth, reflection |
-| **Daily Companion** | Practice — maintain momentum day-to-day | Light touches, tracking, reminders |
+This is how real coaching works. When your coach texts to check how a conversation went, they don't become a "different mode" — they're still your coach.
 
-![One System, Two Modes](../diagrams/02-one-system-two-modes.png)
+### Four Touchpoints
 
-### Coach: Two Types of Conversations
+| Touchpoint | Intensity | Who initiates | What it is |
+|------------|-----------|---------------|------------|
+| **Scheduled sessions** | Deep | User (planned) | Full coaching conversations (weekly/biweekly). Works through your agenda. Follows 8-step methodology. |
+| **On-demand** | Medium | User (urgent) | Quick tactical help. Bounce ideas, prepare for a meeting, process a situation. |
+| **Check-ins** | Light | Coach (proactive) | "How did that conversation go?" Context-aware follow-up on commitments. |
+| **Reminders** | Light | Coach (proactive) | "Remember your practice today." Connects daily action to your goals. |
 
-The Coach is one relationship, but it can show up in two ways — like a real coach where sometimes you have your weekly session, sometimes you text them "I have this thing in an hour, quick thoughts?"
+All touchpoints share the same memory, same context, same relationship. Progress from all feeds into your GPS Dashboard.
 
-| Type | When | Duration | What it is |
-|------|------|----------|------------|
-| **Scheduled** | Weekly/biweekly, planned | 30-45 min | Full development conversation. Works through your agenda. Follows 8-step methodology. |
-| **On-Demand** | Anytime, user-initiated | 10-20 min | Quick tactical help. Bounce ideas, prepare for a meeting, process a situation. Lighter, focused on immediate need. |
+### How You Interact with Your Coach
 
-Both types share the same memory, same context, same relationship. Progress from both feeds into your GPS Dashboard.
-
-### When Each Mode Activates
-
-| Moment | Mode | What Happens |
-|--------|------|--------------|
-| Starting out | Coach (Scheduled) | Set goals, understand yourself, create the plan |
-| Weekly session | Coach (Scheduled) | Work through your agenda, full coaching conversation |
-| Urgent need | Coach (On-Demand) | Quick tactical help — prepare, reflect, problem-solve |
-| Day to day | Daily Companion | Practice habits, track progress, check in |
-| Hit a setback | Coach | Process what happened, adjust approach |
-| Pattern detected | Coach | "You've struggled for 2 weeks. Let's talk." |
+| Moment | Touchpoint | What Happens |
+|--------|------------|--------------|
+| Starting out | Scheduled session | Set goals, understand yourself, create the plan |
+| Weekly session | Scheduled session | Work through your agenda, full coaching conversation |
+| Urgent need | On-demand | Quick tactical help — prepare, reflect, problem-solve |
+| Day to day | Check-ins + Reminders | Practice habits, track progress, stay connected |
+| Hit a setback | Scheduled or On-demand | Process what happened, adjust approach |
+| Pattern detected | Coach reaches out | "You've struggled for 2 weeks. Let's talk." |
 
 ### Discoverability & User Mental Model
 
@@ -130,14 +125,14 @@ Everything flows from this: the coaching agenda is YOUR agenda, the check-ins as
 
 ## 5. The Change Process
 
-Four stages, facilitated by Coach and Daily Companion:
+Four stages, all facilitated by the Coach through different touchpoints:
 
-| Stage | Mode | What Happens |
-|-------|------|--------------|
-| **Know Yourself** | Coach | Assessment + Debrief → understand your patterns |
-| **Establish Agenda** | Coach | User defines their themes/priorities for coaching |
-| **Work the Agenda** | Coach | Sessions address agenda items using appropriate tools |
-| **Daily Practice** | Daily Companion | Reminders, check-ins, GPS updates |
+| Stage | Touchpoint | What Happens |
+|-------|------------|--------------|
+| **Know Yourself** | Scheduled session | Assessment + Debrief → understand your patterns |
+| **Establish Agenda** | Scheduled session | User defines their themes/priorities for coaching |
+| **Work the Agenda** | Scheduled + On-demand | Sessions address agenda items using appropriate tools |
+| **Daily Practice** | Check-ins + Reminders | Practice habits, track progress, GPS updates |
 
 **Key insight:** Goals must be OWNED (from intrinsic conversation), not ASSIGNED (from assessment alone).
 
@@ -166,19 +161,25 @@ The Coach uses Conscious Business methodology — microhabits are a tracking mec
 | **Final Session: Closing** | Recap learnings, celebrate progress, close the process. |
 | **Maintenance** | After the main process: periodic check-ins (monthly or as needed) to sustain progress and address new challenges. |
 
-### Two Types of Coaching Interactions
+### Four Touchpoints in Practice
 
-| Type | When | What it is |
-|------|------|------------|
+| Touchpoint | When | What it is |
+|------------|------|------------|
 | **Scheduled Sessions** | Weekly/biweekly, planned | Full coaching conversation for development. Works through your agenda systematically. |
-| **On-Demand Sessions** | Anytime, urgent | Quick, tactical help. Not a full coaching session — bounce ideas, reflect, prepare for something specific. |
+| **On-Demand Sessions** | Anytime, user-initiated | Quick, tactical help. Bounce ideas, reflect, prepare for something specific. |
+| **Check-ins** | After commitments, context-aware | Coach follows up on what matters. "How did that conversation go?" |
+| **Reminders** | Daily, tied to practices | Light touches that connect daily action to goals. |
 
 **On-demand examples:**
 - "I have a conversation with my boss in an hour — help me prepare"
 - "I'm having a weird feeling about this situation — quick check-in"
 - "How should I handle this specific thing?"
 
-These are shorter, focused on immediate work. The system should make both types easily accessible (see Discoverability above).
+**Check-in examples:**
+- "You had that conversation with your manager yesterday. How did it go?"
+- "You've been working on asking questions before responding. Any wins this week?"
+
+All touchpoints are the same coach — just different intensities. The system should make each easily accessible (see Discoverability above).
 
 ### Each Coaching Conversation (Sessions 2+)
 
@@ -207,7 +208,7 @@ When users fail, most systems just track the failure. That doesn't help.
 | Nag ("Remember your habit!") | Anticipate barriers ("Tough week ahead. Let's plan.") |
 | Create guilt | Help learn a new skill or approach |
 
-When Daily Companion detects a pattern (missed days, negative sentiment), it triggers Coach mode — not to guilt, but to help adapt.
+When the Coach detects a pattern in your check-ins (missed days, negative sentiment), it suggests a deeper conversation — not to guilt, but to help adapt.
 
 **The goal is learning, not compliance.**
 
@@ -226,7 +227,7 @@ Juan wants to be seen as someone people want on their team — and get promoted 
 | Assessment + Debrief | Discovers his "Knower" pattern | Understands himself |
 | Goal Conversation | Sets intrinsic goals with Coach | Destination: Team Lead, Management: Leader who listens |
 | Habit Created | Creates If-Then practice | "If I want to prove I'm right → Ask a question" |
-| Daily Practice | Daily Companion sends reminders, tracks progress | GPS updates, wins logged |
+| Daily Practice | Coach sends check-ins and reminders, tracks progress | GPS updates, wins logged |
 | Setback + Adjust | Misses check-ins → Coach helps adapt | New practice for stressful times |
 | Sustained Change | Multiple iterations over months | Gets the promotion |
 
@@ -266,10 +267,12 @@ The user must see that each daily action moves them toward their destination. Th
 │                     INTEGRATED UX LAYER                         │
 │             (One system from user's perspective)                │
 │                                                                 │
-│              ┌──────────────┬──────────────┐                    │
-│              │    COACH     │    DAILY     │                    │
-│              │    MODE      │   COMPANION  │                    │
-│              └──────────────┴──────────────┘                    │
+│  ┌───────────────────────────────────────────────────────────┐  │
+│  │                        COACH                              │  │
+│  │  ┌───────────┬───────────┬───────────┬─────────────────┐  │  │
+│  │  │ Scheduled │ On-Demand │ Check-ins │    Reminders    │  │  │
+│  │  └───────────┴───────────┴───────────┴─────────────────┘  │  │
+│  └───────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -304,11 +307,11 @@ The user must see that each daily action moves them toward their destination. Th
 
 | User Stage | System Component |
 |------------|------------------|
-| Know Yourself | Assessment + Coach Mode |
-| Set Intrinsic Goals | Coach Mode + Structured Memory (stores Goal Hierarchy) |
-| Connect to Action | Coach Mode → Daily Companion handoff |
-| Daily Practice | Daily Companion + Context Manager (MS Teams) |
-| Adjust | Daily Companion detects pattern → Coach Mode |
+| Know Yourself | Assessment + Coach (Scheduled) |
+| Set Intrinsic Goals | Coach (Scheduled) + Structured Memory (stores Goal Hierarchy) |
+| Connect to Action | Coach creates practices → Check-ins + Reminders begin |
+| Daily Practice | Coach (Check-ins + Reminders) + Context Manager (MS Teams) |
+| Adjust | Coach detects pattern → suggests deeper conversation |
 | View Progress | GPS Dashboard reads from Structured Memory |
 
 ---
@@ -364,8 +367,11 @@ Relying solely on user self-report has bias. Possible mitigations:
 | **Management Goal** | The intrinsic mindset shift needed (be a Learner, be a Partner) |
 | **Tracking Goal** | The specific microhabit practiced daily |
 | **The Gap** | The distance between who the user is and who they want to be |
-| **Coach** | System mode for deep conversations: goal-setting, processing setbacks, evolving the plan |
-| **Daily Companion** | System mode for daily practice: reminders, check-ins, progress tracking |
+| **Coach** | One relationship with four touchpoints: scheduled sessions (deep), on-demand (tactical), check-ins (follow-up), reminders (daily practice) |
+| **Scheduled Session** | Deep coaching conversation, weekly/biweekly, follows 8-step methodology |
+| **On-Demand Session** | Quick tactical help, user-initiated when urgent |
+| **Check-in** | Coach-initiated follow-up on commitments and progress, context-aware |
+| **Reminder** | Light daily touch connecting action to goals |
 | **If-Then Habit** | Implementation Intention format: "If [trigger], then [action]" |
 | **Mental Contrasting** | Technique: visualize desired future, contrast with current obstacle |
 | **GPS Dashboard** | Visual showing progress toward Destination Goal |
@@ -384,7 +390,7 @@ These are bets, not facts:
 | **GPS** | Daily actions visibly connected to Destination Goal → longer persistence |
 | **Adjust** | Help users learn from failure (not just track it) → sustained engagement |
 | **Integration** | Reach users where they are (MS Teams) → higher interaction frequency |
-| **Coach-triggered** | System suggests Coach mode when patterns emerge → more breakthroughs |
+| **Coach-triggered** | Coach suggests deeper conversation when patterns emerge → more breakthroughs |
 
 ---
 
