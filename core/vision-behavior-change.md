@@ -135,11 +135,26 @@ The Coach uses Conscious Business methodology — microhabits are a tracking mec
 
 ### The Coaching Process
 
-| Session | Purpose |
-|---------|---------|
+| Phase | Purpose |
+|-------|---------|
 | **Session 1: Establish Agenda** | Understand what's important to the person — goals, themes, priorities. NOT a coaching conversation. |
-| **Sessions 2+: Work the Agenda** | Each session follows Application Coaching methodology (8 steps below) |
-| **Final Session: Closing** | Recap learnings, celebrate progress, close the process |
+| **Sessions 2+: Work the Agenda** | Regular coaching sessions (weekly or biweekly). Each follows Application Coaching methodology (8 steps below). |
+| **Final Session: Closing** | Recap learnings, celebrate progress, close the process. |
+| **Maintenance** | After the main process: periodic check-ins (monthly or as needed) to sustain progress and address new challenges. |
+
+### Two Types of Coaching Interactions
+
+| Type | When | What it is |
+|------|------|------------|
+| **Scheduled Sessions** | Weekly/biweekly, planned | Full coaching conversation for development. Works through your agenda systematically. |
+| **On-Demand Sessions** | Anytime, urgent | Quick, tactical help. Not a full coaching session — bounce ideas, reflect, prepare for something specific. |
+
+**On-demand examples:**
+- "I have a conversation with my boss in an hour — help me prepare"
+- "I'm having a weird feeling about this situation — quick check-in"
+- "How should I handle this specific thing?"
+
+These are shorter, focused on immediate work. The system should make both types easily accessible (see Discoverability above).
 
 ### Each Coaching Conversation (Sessions 2+)
 
