@@ -97,14 +97,67 @@ Four stages, facilitated by Coach and Daily Companion:
 | Stage | Mode | What Happens |
 |-------|------|--------------|
 | **Know Yourself** | Coach | Assessment + Debrief → understand your patterns |
-| **Set Intrinsic Goals** | Coach | Powerful conversation → OWNED goals (not assigned) |
-| **Connect to Action** | Coach → Daily Companion | Create If-Then habit, handoff for execution |
+| **Establish Agenda** | Coach | User defines their themes/priorities for coaching |
+| **Work the Agenda** | Coach | Sessions address agenda items using appropriate tools |
 | **Daily Practice** | Daily Companion | Reminders, check-ins, GPS updates |
 
 **Key insight:** Goals must be OWNED (from intrinsic conversation), not ASSIGNED (from assessment alone).
 
-**If-Then Structure:**
+### Tools Within Coaching
+
+The Coach has multiple tools to help users work on their agenda — microhabits are ONE option, not the forced structure:
+
+| Tool | When to Use |
+|------|-------------|
+| **If-Then Microhabit** | Behavior the user wants to practice consistently |
+| **Difficult Conversation Prep** | User has a specific conversation coming up |
+| **Framework Application** | User needs to think through a situation (e.g., mental contrasting) |
+| **Commitment** | User needs accountability for a one-time action |
+
+**If-Then Structure** (for microhabits):
 > "IF I'm in a meeting and I want to prove I'm right, THEN I ask one question before responding."
+
+---
+
+## 5b. Coach Session Structure
+
+A coaching engagement isn't one conversation — it's a series of sessions with continuity.
+
+### Typical Journey
+
+| Phase | Sessions | Focus |
+|-------|----------|-------|
+| **Onboarding** | 1 | Assessment debrief + establish coaching agenda |
+| **Active Coaching** | 4-6 weekly | Work through agenda items, adjust as needed |
+| **Maintenance** | Monthly | Check progress, surface new themes |
+
+### Session 1: Establish the Agenda
+
+Before diving into specific work, Coach helps user define their themes:
+
+> "Platícame cuáles son los temas que traes."
+
+After exploring, Coach reflects back:
+
+> "Veo que los temas que tú traes son: 1, 2, 3. ¿Te parece que esto es lo que vayamos enfocándonos durante tus sesiones de coaching?"
+
+This creates a shared agenda that persists across sessions.
+
+### Sessions 2+: Work the Agenda
+
+Each session:
+1. Check if user has something urgent ("¿Traes algo?")
+2. If not, pick from the agenda
+3. Use appropriate tools (microhabit, conversation prep, framework, commitment)
+4. End with clear next step
+
+### Proactive Outreach (Heartbeat)
+
+Between sessions, Coach can reach out based on context:
+
+> "¿Cómo te fue en tu reunión de equipo?"
+
+This requires knowing the user's agenda and (optionally) their calendar.
 
 ---
 
@@ -299,4 +352,4 @@ These are bets, not facts:
 
 ---
 
-*Document version: January 2026*
+*Document version: February 2026*
