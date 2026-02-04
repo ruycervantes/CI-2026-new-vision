@@ -1,7 +1,7 @@
 # Team Status & Development
 
 > **Current Sprint:** Sprint 3, 2026 (starts Thu Jan 30)
-> **Last updated:** January 29, 2026
+> **Last updated:** February 3, 2026
 
 ---
 
@@ -22,8 +22,7 @@
 - Going forward, Shamil is the main person helping Ruy build the next evolution of the chatbot (multi-session coaching with memory) and will also support Teams integration. "You will have plenty of challenging work."
 
 ### Next Milestone
-- **Thu Jan 30:** Check-in with Ruy on Cyclic Flow approach. Prompt/spec pending from Ruy.
-- Then: implement dialogue-based check-in with coaching/adapt capability
+- Implement dialogue-based check-in with coaching/adapt capability (prompt/spec pending from Ruy)
 - Propose recurring weekly technical sync time to Mike
 
 ---
@@ -97,9 +96,10 @@
 | Thinking Partner feature | To do (Ruy builds this) |
 
 ### Next Milestone
-- **Jan 30:** Check-in with Shamil. Design LGP prompt. Talk to Leo re office hours.
+- Design LGP check-in dialogue prompt (blocks Shamil)
 - Process remaining calls → restructure core docs
 - Check if support team can set up Azure environment
+- Talk to Leo re office hours
 
 **Note:** Ruy is a bottleneck for specs — Shamil had 2 idle days between sprints waiting for feature descriptions. LGP prompt design is the current critical path.
 
