@@ -61,13 +61,31 @@ We are going to own the behavior change cycle.
 
 The system has two modes — not two separate products, but two aspects of the same experience:
 
+| Mode | Purpose | Nature |
+|------|---------|--------|
+| **Coach** | Conversations — for development and problem-solving | Dialogue, depth, reflection |
+| **Daily Companion** | Practice — maintain momentum day-to-day | Light touches, tracking, reminders |
+
 ![One System, Two Modes](../diagrams/02-one-system-two-modes.png)
+
+### Coach: Two Types of Conversations
+
+The Coach is one relationship, but it can show up in two ways — like a real coach where sometimes you have your weekly session, sometimes you text them "I have this thing in an hour, quick thoughts?"
+
+| Type | When | Duration | What it is |
+|------|------|----------|------------|
+| **Scheduled** | Weekly/biweekly, planned | 30-45 min | Full development conversation. Works through your agenda. Follows 8-step methodology. |
+| **On-Demand** | Anytime, user-initiated | 10-20 min | Quick tactical help. Bounce ideas, prepare for a meeting, process a situation. Lighter, focused on immediate need. |
+
+Both types share the same memory, same context, same relationship. Progress from both feeds into your GPS Dashboard.
 
 ### When Each Mode Activates
 
 | Moment | Mode | What Happens |
 |--------|------|--------------|
-| Starting out | Coach | Set goals, understand yourself, create the plan |
+| Starting out | Coach (Scheduled) | Set goals, understand yourself, create the plan |
+| Weekly session | Coach (Scheduled) | Work through your agenda, full coaching conversation |
+| Urgent need | Coach (On-Demand) | Quick tactical help — prepare, reflect, problem-solve |
 | Day to day | Daily Companion | Practice habits, track progress, check in |
 | Hit a setback | Coach | Process what happened, adjust approach |
 | Pattern detected | Coach | "You've struggled for 2 weeks. Let's talk." |
