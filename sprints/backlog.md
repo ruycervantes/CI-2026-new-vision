@@ -39,6 +39,19 @@
 
 ---
 
+## Coach Naming: "Axia" (Design Decision)
+
+**Source:** Nelson/Ruy MELI call, Feb 3, 2026
+
+Proposed name for the AI Coach: **Axia**
+- Gender-neutral
+- "Suena bonito" (sounds good)
+- Enables "flavors" concept: Axia for ADN MELI, Axia for Leading at MELI, etc.
+
+**Decision needed:** Adopt Axia as official coach name? If yes, propagate to vision docs, product specs, demos.
+
+---
+
 ## Evaluate Inworld.ai for TTS (Mike)
 
 **Source:** Email thread — Oseas/Mike/Ruy, Jan 29, 2026

@@ -141,6 +141,13 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 - Realistic Q1 output = AI Coach MVP (demo-able, not production) per Mike
 - Eye candy matters — prospects need to see it, not read about it
 
+### MELI = AI Coach Forcing Function (Feb 3 Nelson call)
+- **MELI opportunity IS the AI Coach MVP.** Same work, not separate tracks. Q2-Q3 timeline.
+- Key design decision: **Microhabits as ONE tool within coaching**, not the forced structure. Coach establishes agenda first, then uses microhabits/conversations/frameworks as needed.
+- Proposed session sequence: Assessment → Workshop → Plan of Coaching → 6 weekly sessions → monthly maintenance
+- **"Axia"** proposed as coach name (gender-neutral, sounds good). Different "flavors" for ADN MELI vs Leading at MELI.
+- Google Chat is MELI's official platform (context for future integration)
+
 ### Nelson's Guiding Principle (Jan 27)
 > "Todo esto tiene que estar siempre girado acerca del impacto."
 

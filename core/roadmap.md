@@ -258,6 +258,7 @@ Explicitly out of scope for 2026:
 
 | Question | Owner | When to Resolve |
 |----------|-------|-----------------|
+| Coach naming: adopt "Axia"? | Ruy | Before MELI proposal (Feb 11) |
 | Behavior adoption tracking: scope & timing | Ruy + Oseas | Post-Q1 planning |
 | Voice vs Bidirectional priority | Leo | Q1 - customer validation |
 | System-triggered Coach methodology | Ruy + Horacio | After Horacio meeting |
