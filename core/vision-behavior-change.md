@@ -72,6 +72,20 @@ The system has two modes — not two separate products, but two aspects of the s
 | Hit a setback | Coach | Process what happened, adjust approach |
 | Pattern detected | Coach | "You've struggled for 2 weeks. Let's talk." |
 
+### Discoverability & User Mental Model
+
+Users need a clear mental model of how the system can help them and for what. Without this, they default to treating it as a generic chatbot — or worse, they don't reach for it when they need it.
+
+**Design principles:**
+
+1. **Anchor to "what's in it for me"** — The system serves the user's personal agenda (career growth, avoiding problems, being effective), not the company's agenda. Intrinsic motivation drives engagement.
+
+2. **Make capabilities visible** — The interface should surface use cases: coaching sessions, emergency help, career conversations. New chat suggestions (like ChatGPT/Claude) help users discover what's possible.
+
+3. **Proactive, personalized outreach** — Don't send generic check-ins ("how's it going?"). Use context from previous sessions to ask about what matters to them. Connect to their calendar if available.
+
+> "Todo esto tiene que estar girado acerca de lo que a mí me importa, no de lo que la compañía quiere de mí."
+
 ---
 
 ## 4. The Goal Hierarchy

@@ -163,6 +163,8 @@ Features beyond Q1 are organized by which path they serve, prioritized by custom
 | **Calendar Read Access (MS Graph)** | Know user's schedule to enable context-aware reminders. | Enterprise integration. |
 | **Adaptive Reminders** | Timing and frequency adjust based on user patterns. | AI Coach evolution. |
 | **Coach ↔ Daily Companion Data Flow** | Goals and progress shared between modes. Coach sees Daily Companion struggles. Daily Companion knows Coach commitments. | |
+| **Interface Discoverability** | Surface use cases visibly: coaching sessions, emergency help, career conversations. New chat suggestions. Onboarding explains 3-4 core use cases. | UX — helps users build mental model. |
+| **Proactive Personalized Check-ins** | Context-aware outreach based on previous sessions, not generic "how's it going?" Connect to calendar for timely prompts. | Drives re-engagement + reinforces "system knows me." |
 
 ### Leadership Development Path
 

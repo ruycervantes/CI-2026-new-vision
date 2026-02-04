@@ -6,6 +6,7 @@
 
 ## Pending for Next Time
 
+- [ ] AI Coach UX: discoverability + user mental model (how to reach us, for what) + proactive reach-out mechanism
 - [ ] Q1 execution reality check: Teams integration progress, WorkOS/infra status, Daniel's baby leave plan
 - [ ] Any urgent client deployments? P&G is May, SSO works. If nothing urgent, current plan holds.
 - [ ] Stoic commercial model: sells independently or as Axialent digital arm?
