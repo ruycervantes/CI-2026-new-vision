@@ -8,7 +8,7 @@ Sprint Planning: Thursday, January 30
 
 ---
 
-### Shamil: Daily Companion Cyclic Flow
+### Shamil: Check-in Loop
 
 Loop instead of end after check-in. User can continue, modify habit, or go to Coach.
 

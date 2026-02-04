@@ -13,7 +13,7 @@
 | Item | Status |
 |------|--------|
 | Thinking Partner extraction | Done — pushing to dev (~3 days actual) |
-| Daily Companion Cyclic Flow | Assigned — pre-work: experience LGP flow as user, study code (step prompts, trigger words, extraction). Check-in with Ruy Jan 30 |
+| Check-in Loop | Assigned — pre-work: experience LGP flow as user, study code (step prompts, trigger words, extraction). Check-in with Ruy Jan 30 |
 | Thinking Partner sidebar | Demoed — needs progressive display + commitment highlighting |
 
 ### Why These Tasks (from Sprint Planning Jan 29)
@@ -88,7 +88,7 @@
 ### Sprint 3 Status
 | Item | Status |
 |------|--------|
-| Daily Companion Cyclic Flow FRD | Done — handed to Shamil |
+| Check-in Loop FRD | Done — handed to Shamil |
 | Design LGP check-in dialogue prompt | To do — blocks Shamil's implementation |
 | Send vision/roadmap docs to Shamil and Daniel | To do |
 | AI Coach design (shared foundation for LD + HPT) | In progress — design doc started (`research/coaching/ai-coach-design-considerations.md`) |
@@ -187,7 +187,7 @@
 ## Team Profiles (Reference)
 
 ### Shamil
-**Development Goals:** Learn to refine PRDs with technical detail before implementing. Do feature-driven development independently. Understand the full Daily Companion flow end-to-end.
+**Development Goals:** Learn to refine PRDs with technical detail before implementing. Do feature-driven development independently. Understand the full check-in flow end-to-end.
 
 **Skills:** Knows Postgres, can navigate the data model. Ready to take on features with less hand-holding.
 
