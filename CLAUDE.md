@@ -95,7 +95,7 @@ Platform vision, product specs, and roadmap. Spanish quotes can stay as-is (team
 | Document | Purpose |
 |----------|---------|
 | `vision.md` | Platform vision — why we exist, two design spaces, strategic filter |
-| `vision-behavior-change.md` | LD product spec — behavior change methodology, goal hierarchy, Coach + Daily Companion |
+| `vision-behavior-change.md` | LD product spec — behavior change methodology, goal hierarchy, One Coach Relationship |
 | `roadmap.md` | Engineering roadmap — shared foundation (Q1) + feature candidates by path |
 | `alignment.md` | Leadership sign-off, validation activities, commitments |
 | `MVP-offer-hpt.md` | HPT near-term MVP — 90-day hybrid cycle for market validation |
@@ -191,8 +191,8 @@ Previous vision drafts, meeting summaries, diagram prompts, old diagrams, transc
 ## Key Terminology
 
 ### Individual Coaching
-- **Coach** - Deep conversation mode (goal-setting, processing setbacks, evolving the plan)
-- **Daily Companion** - Daily practice mode (reminders, check-ins, progress tracking)
+- **Coach** - One persistent coaching relationship with four touchpoints: deep sessions, check-ins, nudges, emergency support
+- **Check-in Loop** - Cyclic check-ins (loop instead of end, user can continue, modify, or go deeper)
 - **Goal Hierarchy** - Destination Goal → Management Goal → Tracking Goal
 - **The Gap** - Distance between "who I am" and "who I want to be"
 - **If-Then Habit** - Implementation Intention format ("If X, then Y")

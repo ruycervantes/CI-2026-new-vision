@@ -62,14 +62,14 @@ We are building **one platform with two design spaces** — Leadership Developme
 
 ## Q1 Strategy: Validate + Build
 
-The shared foundation we build in Q1 enables both design spaces. The AI Coach, Teams integration, and Daily Companion are not LD-specific — they're the platform layer that makes both LD and HPT digitization possible.
+The shared foundation we build in Q1 enables both design spaces. The AI Coach, Teams integration, and check-in loop are not LD-specific — they're the platform layer that makes both LD and HPT digitization possible.
 
 We run two tracks in parallel, coordinated with Axialent:
 
 | Track | Owner | What Happens |
 |-------|-------|--------------|
 | **Validate** | Leo + Nelson | Run customer conversations for LD and HPT. Test if direction resonates. Track requests by path and source. |
-| **Build** | Mike + Shamil + Daniel | Ship shared foundation: Teams notifications, Daily Companion cyclic flow, Thinking Partner, Coach Multi-Session. |
+| **Build** | Mike + Shamil + Daniel | Ship shared foundation: Teams notifications, check-in loop, Thinking Partner, Coach Multi-Session. |
 
 ---
 
@@ -79,8 +79,8 @@ We run two tracks in parallel, coordinated with Axialent:
 
 | Feature | Owner | Status | Why It Matters |
 |---------|-------|--------|----------------|
-| MS Teams Notifications | Mike | In progress | Reach users where they are. Foundation for Daily Companion. |
-| Daily Companion Cyclic Flow | Shamil | Ready to build | Loop instead of end. Users can continue, modify, or escalate to Coach. |
+| MS Teams Notifications | Mike | In progress | Reach users where they are. Foundation for check-ins. |
+| Check-in Loop | Shamil | Ready to build | Loop instead of end. Users can continue, modify, or escalate to Coach. |
 | Thinking Partner: Challenge/Gap/Commitment | Shamil + Ruy | Ready to build | Show and store challenge, gap, action plan commitment. |
 | Coach Multi-Session | Ruy + Shamil | Needs Horacio | Coaching with memory. Tracks goals, progress, what's urgent vs planned. |
 | Voice OR Bidirectional Chatbot | TBD | Validate with Leo | Choose one based on customer pull. |
@@ -99,7 +99,7 @@ We run two tracks in parallel, coordinated with Axialent:
 | Principle | How We Test It |
 |-----------|----------------|
 | Multi-session Coach feels like a coach who knows you | Do users reference previous sessions? Do they feel continuity? |
-| Cyclic Daily Companion keeps people engaged | Do users loop? Do they modify habits when stuck? |
+| Check-in loop keeps people engaged | Do users loop? Do they modify habits when stuck? |
 | "Don't nag, give alternatives" works | When users struggle, do they feel supported vs. guilty? |
 | Connected goals matter | Do users see how daily actions connect to what they want? |
 
@@ -198,7 +198,7 @@ We may not get a clean "kill this path" signal. Both paths will likely generate 
 | **Leo** | Own PMF tracking. Run LD validation conversations. Track every request by path and source. |
 | **Nelson** | Build Axialent Offerings. Axialent market validation. Impact/visibility design. Thierry coordination. See [MVP-offer-hpt.md](MVP-offer-hpt.md) for HPT product spec and [team effectiveness research](../team-effectiveness/research/synthesis-v2.md) for methodology background. |
 | **Mike** | Ship Teams notifications. Support Shamil on multi-session architecture. Flag blockers early. |
-| **Shamil** | Daily Companion cyclic flow, Thinking Partner, Coach features. |
+| **Shamil** | Check-in loop, Thinking Partner, Coach features. |
 | **Daniel** | Infrastructure, deployment automation. |
 | **Ruy** | Methodology, roadmap, Coach design (demo-able MVP + concept visuals). Produces showable artifacts for PMF validation. |
 

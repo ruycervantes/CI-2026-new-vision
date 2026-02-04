@@ -24,7 +24,7 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 | Document | Purpose |
 |----------|---------|
 | [`core/vision.md`](core/vision.md) | **Platform vision** — why we exist, two design spaces, strategic filter |
-| [`core/vision-behavior-change.md`](core/vision-behavior-change.md) | **LD product spec** — behavior change methodology, goal hierarchy, Coach + Daily Companion |
+| [`core/vision-behavior-change.md`](core/vision-behavior-change.md) | **LD product spec** — behavior change methodology, goal hierarchy, One Coach Relationship |
 | [`core/roadmap.md`](core/roadmap.md) | **Engineering roadmap** — shared foundation (Q1) + feature candidates by path |
 | [`core/alignment.md`](core/alignment.md) | **Leadership alignment** — decisions, validation plan, roles |
 | [`core/MVP-offer-hpt.md`](core/MVP-offer-hpt.md) | **HPT near-term MVP** — 90-day hybrid cycle for market validation |
@@ -55,7 +55,7 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 | **Oseas** | CEO — strategic alignment, board communication, lockstep validation |
 | **Nelson** | HPT market validation, impact/visibility design, Thierry coordination |
 | **Mike** | Dev lead — Teams integration, technical architecture (Barcelona) |
-| **Shamil** | Dev — Coach features, Daily Companion |
+| **Shamil** | Dev — Coach features, check-in loop |
 | **Daniel** | Dev — Infrastructure, deployment automation |
 | **Leo** | Sales — PMF validation, customer conversations, demo approval |
 | **Horacio** | Coach SME — methodology validation |
@@ -68,7 +68,7 @@ Strategic planning hub for the Stoic platform (formerly Conscious Insights). Con
 | Feature | Owner | Status |
 |---------|-------|--------|
 | MS Teams Notifications | Mike | In progress |
-| Daily Companion Cyclic Flow | Shamil | Ready to build |
+| Check-in Loop | Shamil | Ready to build |
 | Coach Multi-Session | Shamil + Ruy | Needs Horacio |
 | Installation Script + WorkOS POC | Daniel | In progress / Q1 |
 | Voice OR Bidirectional Chatbot | TBD | Validate with Leo |

@@ -83,7 +83,7 @@ The AI Coach is the shared technology foundation. Beyond it, there are two desig
 
 **What this looks like as product:**
 - Goal hierarchy (destination → management → tracking goals)
-- Daily Companion: microhabits that bridge awareness to action, cyclic check-ins, the adjust stage when things aren't working
+- Check-ins: microhabits that bridge awareness to action, cyclic check-ins, the adjust stage when things aren't working
 - Coach mode: deep conversations about setbacks, goals, and growth
 - Multi-session memory: the coach knows your trajectory across sessions
 - The "Pepe Grillo": deep integrations (email, chats, calendar) that make the coach present in your day-to-day, not just when you open the app
