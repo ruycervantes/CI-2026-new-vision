@@ -11,15 +11,13 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ### Mercado Libre Opportunity (Feb 11 meeting)
 
-- [ ] **Review Nelson's Meli proposal deck** — Nelson leading, Ruy reviews. Due: before sending to Laura (tonight or tomorrow)
-- [ ] **Articulate AI Coach + Thinking Partner for Meli** — Positioning: coaching as reinforcement for workshop learning, not standalone microhabits. Three flavors by level (ADN Meli, Leaders of Teams, Leaders of Leaders). Anchor everything to "what's in it for me" (user's personal agenda). Flow: assessment → workshop → coaching kickoff → 6 sessions → maintenance.
-- [ ] **Send video note to Oseas** — pending topics that didn't fit in 1:1. He's in meetings all day tomorrow.
+- [ ] **Follow up on MELI requirements** — After Laura's Tuesday meeting, clarify specific ecosystem requirements. What does MELI actually need? What's the timeline? What content do they provide? *(From Feb 5 Laura call)*
+- [ ] **Send video note to Oseas** — pending topics that didn't fit in 1:1. *(For tomorrow, Feb 6)*
 
 ### AI Coach (OKR #1 — critical path)
 
 - [ ] **Design LGP check-in dialogue prompt** — write the prompt/spec for chat-based check-in: rating (1-5) → assess struggle → adapt microhabit (trigger/action) or tactical coaching → schedule next. **Blocks Shamil.**
-- [ ] **Build AI Coach MVP plan** — First: write specs (how coach should work — session flow, use cases, differentiation by level). Then scope MVP with Mike: architecture, memory, demo-ability. **Mike context (Jan 30 Slack):** "MVP at best" given other priorities. Getzep could work for multi-session memory but has Postgres dependency.
-- [ ] **Create AI Coach concept visuals** — storyboards/comic strips for prospects + simple flow diagram showing how AI Coach works. Diagram blocked by specs. Eye candy for Oseas to show prospects.
+- [ ] **Build AI Coach MVP plan** — First: write specs (how coach should work — session flow, use cases, differentiation by level). Then scope MVP with Mike: architecture, memory, demo-ability. **Mike context (Jan 30 Slack):** "MVP at best" given other priorities. Getzep could work for multi-session memory but has Postgres dependency. **MELI is the forcing function** — Q2-Q3 launch requires this plan now. *(Priority elevated from Feb 5 Laura call)*
 - [ ] **Add concrete examples to vision doc** — make "why AI coaching" visceral, not abstract. Practical scenarios.
 
 ### Ship what's built
@@ -33,24 +31,21 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 - [ ] **Review Nelson's Blended Leadership Journey doc** — 10-page Word doc on how to sell hybrid HPT learning journey using current platform. Give him feedback on how to hack it in CI. [SharePoint link](https://axialent.sharepoint.com/:w:/s/ContentDevelopment/IQD6WZAns4oARbVxGZLi8OvEAfZGEeE92-hW58-txw7C6kA?e=fDdVJJ)
 - [ ] **Follow up: Nelson analytics portal spec** — Nelson writing spec for analytics portal (Thinkific + Typeform + CI data). Review with him next week. Watch for impact on Shamil's work.
-- [x] **Send Nelson chatbot builder resources** — prompt design guide, Custom Bot FRD, Claude conversation, chatbot-design directory README. Sent via chat + email.
 
 ### Quick wins (carry from Jan)
 
 - [ ] **Ensure Oseas is admin/owner on OnePassword vault** — board audit requires him to have admin control over all infrastructure access. He's the only legal employee of Stoic.
-- [ ] **Follow up on Oseas vision sign-off** — he committed to reading vision docs. Check if he did, get confirmation.
 - [ ] **Schedule one working session with Oseas/Nelson/Leo** — align on PMF materials, then they run validation conversations. Target: before Feb second week.
 - [ ] **Add privacy policy draft to Asana ticket** — Jonathan's request
 - [ ] **Send language policy note to Nelson/Dolo** — single language per user at provisioning
 - [ ] **Ask Mike to follow up on user instructions** — check if sufficient for 5-user test
-- [ ] **Share dashboard access with Oseas** — for prospect demos
 - [ ] **Share all CI platform access with Oseas** — 1Password access, code repos, tools, dashboards. Audit-readiness so he can show he has access to everything.
 - [ ] **Share repository access with Nelson** — so he can iterate on vision docs
-- [ ] **Hacer extensión de contrato de Daniel** — due Feb 3
+- [ ] **Hacer extensión de contrato de Daniel** — due Feb 3 *(synced to Todoist)*
 
 ### Process
 
-- [ ] **Test Linear this sprint** — evaluate vs Asana for sprint management
+- [ ] **Test Linear this sprint** — evaluate vs Asana for sprint management *(synced to Todoist)*
 - [ ] **Decide sprint management process: roadmap → backlog → sprint** — includes Linear vs Asana, backlog format, sprint file naming, how Daniel picks up work after leave
 - [ ] **Add estimation review to next sprint planning** — 15 min at start: estimated vs actual, why the gap
 - [ ] **Talk to Leo about office hour scheduling** — request lighter day/week for technical work
@@ -77,7 +72,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 ### AI Coach Deep Work
 
 - [ ] **AI Coach technical exploration (2-3 weeks)** — After Meli materials complete, protected time to explore implementation: memory architecture, session continuity, how to make it work. Output: implementation approach + realistic timeline. "Necesito meterme a las tripas."
-- [ ] **Process strategic brain dump** — review `thinking/strategic-brain-dump.md`, land insights into core docs
+- [ ] **Process strategic brain dump** — review `thinking/strategic-brain-dump.md`, land insights into core docs *(synced to Todoist)*
 - [ ] **Discuss AI coaching dependency with team** — review `team-effectiveness/ai-coaching-dependency.md` with Mike/Shamil. Does minimum (Coach mode + simple check-ins) feel right for TE pilot?
 
 ### Research
@@ -109,10 +104,6 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ## System Fixes (workflow)
 
-- [x] **Fix `/process-call` to capture action items to Todoist** — added Step 8: Todoist Sync Prep, references todoist-org skill. Fixed hardcoded month.
-- [x] **Fix `/review-action-items` to sync with Todoist** — added Step 5: Todoist Sync Prep, references todoist-org skill.
-- [x] **Fix `/todoist-org` skill** — added explicit MCP tool instructions: labels param required, label names without @, project mapping, no due dates unless real deadline.
-- [x] **Fix hardcoded month in `/today` and `/weekly-plan`** — changed to `{month}{year}` pattern.
 - [ ] **Update Todoist project structure** — consolidate Stoic projects, archive dead projects (Crypto Learning, Old Writing Ideas, MetaDevelopment, etc.)
 
 ## Someday / Backlog

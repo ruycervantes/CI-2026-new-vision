@@ -12,3 +12,4 @@ Calls in root that still need review/processing before archiving.
 | Mike-ruy-3feb2026 | Feb 3 | Yes | Informational — Mike role transition + dashboard mockup | `operations/` |
 | nelson-ruy-check-meli-3feb2026 | Feb 3 | Yes | MELI proposal design — Axia naming, session structure, microhabit-as-tool | `strategy/` |
 | in-promptu-meeting-w-oseas4feb2026 | Feb 4 | Yes | AI Coach specs commitment, named assistants concept, Meli timeline coordination | `strategy/` |
+| Reunion-con-laura-preparacion-meli | Feb 5 | Yes | Need to review after Laura's Tuesday meeting — track MELI requirements | `strategy/` |
