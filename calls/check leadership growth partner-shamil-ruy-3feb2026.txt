@@ -1,0 +1,261 @@
+Speaker 1
+No that is uh yeah.
+
+Ruy
+So let's do Yeah
+
+Speaker 1
+If the posi if feedback is positive it just generated personalized message. It's like connecting in system instruction the whole uh Information from the feedback is included about the rating, about how it was, about what he how he replied to the answer. Yeah, um after sharing the feedback as kind of making clear what the security want maybe we could probably yeah probably this line only need to be changed
+
+Ruy
+Yes, I I think so let's do something. You will I mean you continue doing the prototype because I see that you have uh progressed quite a bit. You continue doing the prototype. Uh But one question. Are you sorry I'm organizing my ideas? You need uh you need to do a perverse check in the in the ca can you go back please?
+
+Speaker 2
+Uh okay why uh in the progress checking
+
+Ruy
+See, here the progress check you do it here
+
+Speaker 1
+Yeah, like you share the feedback. I don't know like this button works, but it doesn't change the color. I don't know why. Um Yeah
+
+Ruy
+You created that, right?
+
+Speaker 1
+Yeah, I just started this kind of I don't know it's like ugly but I will fix the UI. I don't know. Um yeah it would
+
+Ruy
+So because let's go back. I I mean I like this, but um can you show me the Notion document So flow here, este so you uh I mean Having the UI option? Um, I don't know. Is it are you asking The question I mean rather than filling the UI are you doing the uh the check-in conversationally?
+
+Speaker 1
+So uh user fills the um progress check He says like it was bad, it was good. Um he selects the option. I want to keep I want to try once again, I want to change I want to modify the probably this one is also duplicating. Um yeah, he wants to Maybe new progress. Yeah, this is should be debatable. Maybe it's should be asked from the chat. I don't know. The feedback was saved.
+
+Ruy
+Okay, 'cause I like the I
+
+Speaker 1
+Saving and he's like uh after the you share it like bad feedback and what Asking like what have you done? What what was the most difficult? Uh what do you want to change? Um Yeah, you timeline
+
+Ruy
+Coste what I had in mind, uh Shamil was that instead of uh doing this in uh or typing this information in a pop-up but I I I didn't specify it. Instead of uh doing it in the pop-up it was to Come here and the chat bot uh is asking you, uh
+
+Speaker 1
+Do you want like um it would ask questions like uh uh
+
+Ruy
+Exactly, like how b good it was one to five, uh I mean w from one to five
+
+Speaker 1
+No no no no so you want like this field like from the conversation um from the okay
+
+Ruy
+Yeah, the the rating, how it went from the conversation. Um However, I like the this thing. So the let me be clear. I was imagining to have Everything done by conversation, este so this way eh uh When we did an integration with Microsoft Teams, este the user didn't need the UI of uh chainlit It just it was just via conversation, it was easier. However, what you're showing me It's also nice is the and I would like to have Mm, these to show to users and and decide este
+
+Speaker 1
+Yeah, like I don't know how it is convenient for the user. Um just second
+
+Ruy
+Yeah, because specifically when you do the progress check, este
+
+Speaker 1
+Yeah, like for example, this feel like uh schedule full up. I don't know, it's like uh you need to wait for this and you need to type and you need to and it's trying to confirm and you say like yes.
+
+Ruy
+Exactly.
+
+Speaker 1
+And like when you do it in a pop-up, it's like uh really automatically.
+
+Ruy
+It's easy. Yeah, and I like it este
+
+Speaker 1
+Yeah. I don't know. It's debatable. Okay. We can do it in the chat like right now, how it's implemented.
+
+Ruy
+Exactly. So Could you could you have like two branches?
+
+Speaker 1
+Oh, we have two variants, two versions.
+
+Ruy
+Yeah, one version you do it in the UI and the other version is completely everything is structured from the chat.
+
+Speaker 1
+Um Okay, yeah, I think we can try um yeah.
+
+Ruy
+I mean the one that everything is structured from the chat, I think it will be super easy because we're going to be able to do that. You use what we have right now for the for the dates and it's just capturing the rating And uh, yeah, yeah.
+
+Speaker 2
+Okay, I got it. Okay, let's do it. Um
+
+Ruy
+Uh can't you aver? Let me do something. Uh Can you can you send me a screenshot
+
+Speaker 2
+Um screenshot like cooking
+
+Ruy
+Of uh yeah, of the progress check
+
+Speaker 2
+This one um
+
+Speaker 1
+Um it's I I don't know like uh what happened, but this is not a playing javascript this is somehow combine it with uh chain lead and the design is ugly like
+
+Ruy
+Yeah, it's uh
+
+Speaker 1
+I don't know like I use multiple prompting, but it's uh really really nasty thing. Uh I don't know. It's just super strange.
+
+Ruy
+Yeah, it's uh
+
+Speaker 1
+Yeah, maybe I'll ask uh Mike to tomorrow will come to Barcelona. Hope that I'll have time to meet with him. Yeah.
+
+Speaker 2
+Probably so
+
+Ruy
+Okay. So what I'll do is to So you continue with this implementation as you have it. And I will write some more specific details on on on on uh how I imagine distracting the conversation is the or distracting the information from the conversation Este So you have more clarity on what I'm asking because I I I under specified is the
+
+Speaker 3
+Oh great.
+
+Ruy
+So is the now I see that I need to be more clear
+
+Speaker 3
+Yeah.
+
+Speaker 1
+Yeah I don't know do you really like like all the conversation all the interactions uh made right now in the chat or
+
+Ruy
+No, no, I don't
+
+Speaker 1
+It should be something powerful. I don't know.
+
+Ruy
+No, I uh yeah, I think I really uh uh what you have is interesting because it it's easier. But there is one use case in which you do your check-in via chat, via not chat, via Microsoft Teams, for instance. where we don't have as many UI options. You see what I mean? So so if you were to do it this checking Instead of on on the chainlit app, you have to do it in Microsoft Teams, you are stuck with uh just having uh text.
+
+Speaker 3
+Mm. Yeah, that's fair.
+
+Ruy
+Este so that's why I think it would be good to have the two options and then we
+
+Speaker 3
+Fair.
+
+Ruy
+We tested with users. We get some feedback because I uh I also think that um it would be easier to fill out the form uh in some respects.
+
+Speaker 1
+How right now is progress check is implemented in uh Microsoft Teams? Because it's like uh JavaScript pop-up.
+
+Ruy
+It's not implemented. Right now it's not implemented. So my idea was to este start to have an implementation where it's all text so it's easy to to create that for teams
+
+Speaker 3
+Okay.
+
+Speaker 1
+Yeah, because I was like reading uh we have a front end in chain lead. We don't have front end, we have uh mix back end and front end and we'll have some javascript code uh uh additionally and yeah it's kind of messy yeah
+
+Ruy
+Yeah, I stay I think yeah
+
+Speaker 1
+Like if we can move all the functionality to the if we could separate like chain lead and backend and move like all logic like of the conversation with the backend and use chain lead only for UI so this backend we can also use in Microsoft Teams so it doesn't depend on any any like UI things like browser things of chain lead that provide yeah But I got a point like okay it would be a problem in Microsoft Teams to display the JavaScript code. Um
+
+Ruy
+So So let's uh I'll I'll I'll I'll write some more clear specifications este and you have I mean you continue work you sent me already those screenshots, right?
+
+Speaker 1
+Yeah, okay, l uh let's do this like I suggest doing this. I think like a mark this commit, it's a message a commit ID that I finish in the work and from that point I restore the original logic of the progress check. and just added by text everything like I'm not touching the progress check uh this pop-up
+
+Ruy
+Exactly. You continue with the implement you continue with the implementation as you have. Uh because right now you have to do all this and then be able to change uh Uh and once you have that we I mean once you have the implementation is the you go in modify it for the other branch of uh text.
+
+Speaker 2
+Yeah, okay, good. So
+
+Speaker 1
+You wouldn't come tomorrow to Barcelona, right?
+
+Ruy
+No, I mean Mexico
+
+Speaker 1
+Because Oslias and yes, Leo going
+
+Ruy
+And Mike are going to
+
+Speaker 1
+Yeah I think like Aziz was talking about it but yeah Mike told me like it would be all about sales
+
+Ruy
+You should have all the wrong
+
+Speaker 1
+And like probably I'm not needed in this meeting. Yeah, probably after after the whole meeting we will meet with Mike.
+
+Ruy
+Yeah, but
+
+Speaker 1
+Yeah, so that's it. Yeah. Do you have any more to discuss?
+
+Ruy
+Okay. No, that's it. I will um prepare more specific documentation for for later.
+
+Speaker 1
+Yeah, probably I don't know maybe specification is not important. I don't know. Like in my previous job we didn't write a specification, we just describe the tasks in Asana or any system just what you want to do what is like business value And how what's the plan? How doing this? That's it. Yeah. So probably, I don't know, maybe PRD is uh It's useful. I don't know like actually. This is how we work it.
+
+Ruy
+I mean it's it i I uh for me I think it's nice because
+
+Speaker 1
+But
+
+Ruy
+I'm allowed to tell specifically how I imagine things and then we can este We can discuss it like right now, but it it forces me to have more clarity on my thinking Este so
+
+Speaker 1
+Yeah, and you have if you have a time, yeah, probably it's a good thing. Yeah, to write.
+
+Ruy
+Okay.
+
+Speaker 1
+So C Uri, thank you.
+
+Ruy
+Yeah
+
+Speaker 1
+I think like hope maybe in a month we I will we will switch uh to Spanish. Yeah because uh it's starting for me I started forgoting I started to forget English and starting to think in Spanish.
+
+Ruy
+Okay.
+
+Speaker 1
+I probably will We'll switch completely.
+
+Ruy
+Well no, you tell me when when that ho uh happens.
+
+Speaker 1
+Um Okay, Sierra Stalego
+
+Ruy
+Hasta luego, hey.
+

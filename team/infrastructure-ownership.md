@@ -2,6 +2,8 @@
 
 **Last updated:** February 5, 2026
 **Owner:** Ruy (ruy@stoicenterprises... TBD after migration)
+**Published to:** [Notion — "Infrastructure Ownership Reference"](https://www.notion.so/axialent/) under "Operations / IT" section in "Stoic New Vision, Roadmap and Docs 2026". Share this Notion page with TecnoBrain (Mario).
+**Sync:** `python3 scripts/notion-sync.py --file team/infrastructure-ownership.md`
 
 This document is the single reference for how Stoic's infrastructure is organized, who manages what, and who to contact. If you're new to Stoic's IT or taking over from someone, start here.
 

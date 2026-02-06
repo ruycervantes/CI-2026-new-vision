@@ -49,6 +49,10 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 - [ ] **Share repository access with Nelson** — so he can iterate on vision docs
 - [ ] **Hacer extensión de contrato de Daniel** — due Feb 3 *(synced to Todoist)*
 
+### Infrastructure (cont.)
+
+- [ ] **Discuss repo organization strategy with Mike** — Review `repo-organization-strategy.md`. Topics: consolidate 4 analytics repos, archive `ci-next`, backend/admin repo status, team access/GitHub teams. Proposed 5-core-repo model ready for discussion. *(Created Feb 6)*
+
 ### Process
 
 - [ ] **Test Linear this sprint** — evaluate vs Asana for sprint management *(synced to Todoist)*
