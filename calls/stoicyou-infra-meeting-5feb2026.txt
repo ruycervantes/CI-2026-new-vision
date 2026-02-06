@@ -1,0 +1,339 @@
+Speaker 1 | 00:04
+Adiós.
+Speaker 2 | 00:08
+Hola Rubi.
+Speaker 1 | 00:11
+Gracias.
+Speaker 2 | 00:12
+Todo bien, mira aquí... 這麼 便 宜 Todo tranquilo por acá. Molestándote así rapidito espero que Jorge Voy a sumarse pronto y así no te sacamos. No voy a hacer que te desmayesí despus del pinche hombro.
+Speaker 1 | 00:31
+.. Да. Oye, yo hay un par de cosas que necesito..... Revisar tambin... Respecto de... The stoic.- Una es..... Necesito que nos ayuden necesitamos tener nosotros un ambiente de pruebas para la aplicación de Teams entonces eso significa que And Necesitamos tener un dominio aparte en donde podamos hacer pruebas And... Y quería ver... Si me pueden ayudar la gente de Tecnobrain a echarlo a andar. Básicamente que comprar dos licencias Sí. And... Y ponerlas con un dominio de pruebas que tenemos nosotros que se llama boetus.com But...
+Speaker 2 | 01:35
+-
+Speaker 1 | 01:38
+Sí, para hacer pruebas. Ok, entonces... Sí.
+Speaker 2 | 01:44
+Mira, hay algo en radio justamente creo que va a ayudar esta llamada a eso porque… Hey. Yo lo que entiendo, y es lo que me había adelantado Jorge... Es que algo pasa o algo no pueden acceder con el dominio de Sí.
+Speaker 1 | 01:59
+Stoicyou.com.
+Speaker 2 | 02:03
+Y de eso yo lo único que me enteré es que Nosotros en el tenant de Microsoft tenemos Stoic Enterprises como el dominio principal, pero algunos meses atrás... No sé qué fue lo que ayudó Gabriel. Pero lograron meter algo de Stork U al... No sé si tema de DNS o qué, eso es lo que desconozco y por eso te buscaba y creo queí es donde están perdidos tambin ellos que Jonathan les está haciendo algunos pedidos de StringView y no saben cómo acceder ellos. Lo que vos me decís No sé si tambin lo quers relacionar al ambiente, al tenant de Stoic Enterprises.
+Speaker 1 | 02:51
+Son dos costos. Son dos cosas diferentes. Pero lo podemos revisar. De StoicU nosotros controlamos el DNS, de StoicU.com nosotros controlamos el DNS porque lo necesitamos. Para la aplicación, porque continuamente si generamos una... Damos de alta un nuevo.... A un nuevo cliente necesitamos... Ponerlo Entonces, la cosa es que nosotros somos quienes controlamos ese DNS y se me hace... E-Yüzyat han estado trabajando bastante con daniel Y es que nos ayuda en la infraestructura de la aplicación. Sí. Es un poco chistoso que estn tan perdidos. Lo que pasa.
+Speaker 2 | 03:50
+Í el contexto es que Gabriel dejó de trabajar en Tecnobrain hace dos meses, ponele. Y quien lo reemplazó se llama Javier y Javier está de vacaciones esta y la semana próxima una cosa así entonces no sé si Javier que es el que más conocería un par de temas de Tenant, Dominions y todo. Ha estado en contacto con Daniel. Probablemente que lo hacía. No estoy de todo seguro.
+Speaker 1 | 04:17
+Javier. Nos dirigimos a la cuenta de IT.
+Speaker 2 | 04:23
+Por favor, que Javier que la maneje.
+Speaker 1 | 04:26
+Ajá...
+Speaker 2 | 04:35
+Porque la página está, creo que está con el dominio de strokeyou.com, el Stock Enterprises ya no... Sí.
+Speaker 1 | 04:42
+Los correos electrónicos son los que han sido un lío yí tenemos que arreglarlos porque tenemos correos electrónicos con el dominio de Stoic Enterprises, tenemos correos con el dominio de StoicU.com... Sí. Unos, los de Stoic Enterprises están en... En Microsoft, los de Stoic, yo creo que están hechos con... Proveedor de hosting What'd I say?..
+Speaker 2 | 05:15
+Sí, yo creo que hay un poco de enredo en eso y los de los dominios, perdón, los correos que están con Microsoft, que son los que yo algo de visibilidad tenían. Están muy limitados, ¿no? Creo que eran... Tres, cuatro cuentas. Porque así se había decidido tambin se fueron cortando cuentas Y supongo que ahora estoy yo el más relevante que...
+Speaker 1 | 05:38
+Sí, en las empresas.
+Speaker 2 | 05:40
+Í...
+Speaker 1 | 05:42
+El que no podemos... Quitar completamente es el de El que no podemos quitar completamente es el de Help hasta que Nelson lo transicione. Pero... Soon básicamente hay que arreglar el desgarriete que está hecho, los correos...
+Speaker 2 | 06:10
+Esto ya me dice que ya se suma Jorge así. Y la otra cosa.
+Speaker 1 | 06:14
+Que es más... Urgente que necesito en la que me ayudes me acabo de llegar a una requisición de Procter & Gamble de dei data Más bien de compliant y de seguridad, ya armé yo todo el cuestionario.
+Speaker 2 | 06:24
+O dei data privacy.
+Speaker 1 | 06:38
+Es muy similar al que hicimos para Telus Pero necesito que me confirmen... Datos generales, si hay políticas de... ...echar escritas... ...varias cosas...
+Speaker 2 | 06:58
+Djame un vistazo y vemos quin... ¿Qué cosas te puedo ayudar yo y cuáles porí necesitamos algún dato? Lo que se está vendiendo Procter es tema... Tema de chatbots Sí es.
+Speaker 1 | 07:12
+Okay.
+Speaker 2 | 07:15
+Lo que sigo viendo es que en cuestiones de políticas y eso, ¿te acordás que con los abogados, con Montier quedamos…? Quedamos a media, ¿no? Final. Como estaba más relacionado al tema de la ley de inteligencia artificial en la Unión Europea. En eso ya no entramos en materia con Antier como para que nos ayudara a-revisar, pero... Dependiendo de cómo sigan las cosas, creo que tenemos que reflotar el tema y ver si los abogados nos... No tengo una mano para generar alguna política, sobre todo de algún sitio, de alguna plataforma.
+Speaker 1 | 07:56
+Algún producto. Yo había mandado, de hecho, y ya no le di seguimiento, un..... Pero... Ya no le di seguimiento, nunca me respondieron, no le di seguimiento yo, porque... En realidad lo de Aliática quedó en pausa. Pero sí necesitamos... And... Retomarlo porque...
+Speaker 2 | 08:36
+Biení se está sumando Jorge y Oriana, que Oriana entiendo que estas semanas, ¿qué tal Jorge? Está reemplazando a Javier.
+Speaker 3 | 08:46
+Exactamente, ¿cómo están?
+Speaker 2 | 08:49
+Hola. ¿Todo bien? ¿Qué tal, Oriana? ¿Qué tal, Jorge? No sé si a Ruy... No sé si Jorge y Adías me habían conversado con.
+Speaker 1 | 08:57
+Rui. No, Vielen Dank.
+Speaker 3 | 08:58
+No.í hemos conversado con...
+Speaker 2 | 09:04
+Con Nelson de Stoick.
+Speaker 3 | 09:06
+No, estoy con... No. Yeah.
+Speaker 2 | 09:12
+Rui sí está muy al tanto, digamos, de las tecnologías que principalmente Stoica había estado utilizando para el despliegue de algunos productos o incluso antes, algo estuvimos hablando, le adelanté que… Algunas de las dudas son con StoicU y lo primero que me confirmó es que sí, el Él tiene acceso a la administración de eso por un par de razones, así que... Esto de oídos para... Para escuchar lo que es, qué es lo que necesitan y él tambin despus va a hacer un par de pedidos que necesita la ayuda de ustedes.
+Speaker 3 | 09:47
+Ok, por un lado, yo tengo el tema de... A ver, estoy está configurado como para apuntar a la consola de Microsoft. Pero en la consola de Microsoft no he dado las cuentas de... No hay cuentas de alta sino que están en el hosting saber con cuál de las dos hay que utilizar.
+Speaker 1 | 10:11
+Sim?
+Speaker 2 | 10:13
+Entonces quiero.
+Speaker 3 | 10:20
+Porque claro, la gente de Stoic me dice, no recibo mails, y sí, no van a recibir mails porque está apuntando a la consola de Microfoam. Entonces, necesito saber... Con cuál es la administración realmente, sobre cuál plataforma tengo que dar a armar la administración de los mails. Claro, porque era una cosa que me pedía Jonathan, que no, justamente me decían, mando a Stoic y no me llegan. Y sí, claro, no te van a llegar porque los mails están configurados para... Para que se reciban en Microsoft, pero las cuentas están donde datan en hosting. Entoncesí no... Necesitamos aclarar eso y aparte nos piden configuración sobre cuentas del dominio No, eso sobreestimó Y despus, en Strauss...
+Speaker 2 | 11:13
+Thank you. Продолжение следует...
+Speaker 3 | 11:20
+POMS punto comí es que no tengo acceso a ese dominio. Me dicen que hay una casilla bloqueada. Pero nunca tuvimos falta de...
+Speaker 1 | 11:41
+Voilà. Sí, que dijiste que... Hablaste de StoicU y luego la segunda cosa que estabas hablando que era...
+Speaker 3 | 11:48
+StraussHolmes.com Strauss pom.com.
+Speaker 1 | 11:52
+Et perdons ? 
+.. Gracias.
+Speaker 3 | 12:06
+Www.trauscons.com Lo - Say again.
+Speaker 1 | 12:10
+Puedes copiar y pegar porque no entiendo.
+Speaker 3 | 12:29
+노봉헌은 잘.
+Speaker 1 | 12:32
+Right. House comes. No no tengo... ¿Eso quin lo pidió?
+Speaker 3 | 12:42
+שונתן.
+Speaker 2 | 12:47
+Yo consulté con Benja si tenía idea de ese servicio, StraussComps.com y no tiene idea. Nada de idea sobre eso.
+Speaker 1 | 12:55
+Eso no sé qué es. Strategic Communications for Tech Innovation. Esto debe ser la agencia de PR.
+Speaker 3 | 13:11
+We'll be right back.
+Speaker 1 | 13:13
+No, pero esto...
+Speaker 2 | 13:15
+¿Yí qué pide Jonathan en relación a Strauss, Jorge?
+Speaker 3 | 13:20
+Había una cuenta que pedían, que decían... A ver, esprame, que no... Habían dado cuenta que estaba bloqueada de mail y no la podían hacer, no tenían acceso.
+Speaker 1 | 13:34
+No, a ver, The Strauss Comps ese no es nuestro, hay que preguntarle a Jonathan qué onda.
+Speaker 2 | 13:40
+¿Será que está buscando un usuario que se lo guiaba en Strauss.com y el usuario que lo estaba buscando?
+Speaker 3 | 13:46
+Se llama joel@straws.com mailbox ingresit block sigue bloqueado Y probablemente otros tambin de esta misma compañía.
+Speaker 2 | 14:00
+¿será que no estaba recibiendo mails? ¿Y es un tema de dominio y del gateway o del antivirus? No.
+Speaker 3 | 14:09
+No. Dice que la casilla está bloqueada, se ve que él envía correosí y le vuelven rebotados.
+Speaker 1 | 14:17
+Bye. Hay que aclarar que ¿Cuál es el pedido? Porque Comps no es... No es excelente, no es estoico es.
+Speaker 3 | 14:32
+Claro, por ejemplo, yo no entendía esa parte, no por la intendencia de la administración de ustedes. Eso yo le tengo que informar a yo en el caso.
+Speaker 2 | 14:41
+- See. Sí, que se explique bien, porque si él no está recibiendo mails que vienen de estragos No, se ve pero no es nuestro el dominio, eso es el punto Ok, entonces lo que sí...
+Speaker 3 | 14:48
+Que él manda un mailí. Y se vuelve...
+Speaker 2 | 15:05
+Lo que sí importa es entender el tema de Stoic. Yí, Rubio, se está ponindolo para... Para explicarlo mejor, ¿no?
+Speaker 1 | 15:17
+Sí, a ver... Tenemos dos dominios. Un dominio es stoicview.com en donde está el sitio web En donde están pidiendo esos correos que Jonathan está pidiendo son del hosting. Están dados de alta en el proveedor de hosting que ahorita no me acuerdo cómo se llama ahora hay otro dominio que tenemos que es anterior.. Que se llama Stoic Enterprises Ese tiene varias casillas de correo electrónico en Microsoft 365... Pero por el momento es poco usado. Solamente un dominio que se llama help arroba... Stoic Enterprises. Está funcionando entonces si Jonathan está pidiendo correos de StoryCube eso se resuelve ahorita en el hostingí.. Lo.
+Speaker 3 | 16:22
+Que pasa es que el hosting en la consola de Microsoft estaba en storyu.com de alta. Entonces yo digo, ¿cuál es realmente lo que quieren usar? Porque se podrían pasar los usuarios de estoy.enterprise a estoy.you. Y usarlos con ese dominio.
+Speaker 2 | 16:47
+No sé si algo así intentaron hacer, Rubí, para que las direcciones quedaran enmascaradas, no sé.
+Speaker 1 | 16:55
+A ver... Más bien les explico lo que... Tiene que haber, digo, lo que estoy viendo y percibiendo es que hay una falta de claridad de qué está en qué lado Entonces, lo que les pediría es que... Tengamos un listado Δεκέστα εν εστώ η Q ¿Cuál es el pedido que se está haciendo para esto de Q1? Qué está configurado y qué no está configurado. Y por otro lado en Stoic Enterprises... Tambin hacer lo mismo. Que estáí que está configurado que no está configurado cuántas licencias están activas. Porque lo que Digo, ahorita el pedido urgente es que funcionen los casilleros de correo electrónico de esto de Q. Y lo que necesitamos tambin hacer es migrar todos los correos que están en Stoic Enterprises hacia Stoic U. Tá. Ficou? Perché Pero no los podemos. Nada más. Borrar esto de que entre países y moverlos de golpe y porrazo esto de que hubo porque por lo menos la casilla el casillero de help arroba esto hay que enter prices está en uso Entonces tenemos que tener un plan para transicionarlo.
+Speaker 3 | 18:19
+Okay. Ok. Planteamos ambas cosas y qué es lo que se puede hacer.
+Speaker 2 | 18:26
+El acceso a StoicView, si no me equivoco, ni Gabriel ni Javier lo han tenido. Sino que esto es a travs de Daniel, ¿no? Sí.
+Speaker 1 | 18:36
+Esto es a travs de Daniel, de Stoick. Daniel en estoic el...
+Speaker 3 | 18:41
+Estoic.com Sí.
+Speaker 1 | 18:46
+¿Aquí cómo está? SoyQ.com, Daniel, tiene el... Den är då...
+Speaker 3 | 18:54
+Tenemos acceso al punto com.
+Speaker 1 | 18:57
+Tem. Nosotros... Daniel... ¿Cómo se llama? Daniel Alvarado. To rado. Lo pueden contactar vía Teams en..
+Speaker 2 | 19:12
+En Axel, ¿no? En de axel.com.
+Speaker 1 | 19:14
+Axel, tiene un... Tiene mail Yes, ahorita no lo tengo. Es IAP... Arroba... Axialent.com me parece. A él se le puede contactar a travs de eso. Sí. Sí, Para hacerle pedidos de la administración del DNS.
+Speaker 2 | 19:31
+Así es.
+Speaker 3 | 19:39
+Tenemos acceso ya a la consola de hosting.
+Speaker 1 | 19:43
+A ver, son dos cosas diferentes. Por un lado es... Administración del DNS por el otro lado está la consola de hosting..
+Speaker 2 | 19:52
+..
+Speaker 1 | 19:56
+Se tiene acceso a travs de Jonathan. - Ion... Un chico que está en India que se llama Sam... Pero son dos cosas diferentes... No. Una cosa es el dns Está separado el DNS De la consola de hosting vale.
+Speaker 3 | 20:28
+No están, el DNS no lo administran desde la misma consola donde está el hosting.
+Speaker 1 | 20:34
+Okay. No, el DNS se administra desde... Hey. Donde tenemos la aplicación que se llama Vulture Y la consola de hosting está en un proveedor de hosting... Que no me acuerdo como se llama - No. Como?
+Speaker 2 | 21:01
+Site ground.
+Speaker 3 | 21:05
+Se te escucha muy bajito.
+Speaker 1 | 21:06
+Se te oye muy mal. Eso estaba a travs de SiteGround. La consola de hosting tiene el esto en World Wide Web y además tiene algunas casillas de correo electrónico ‫אז... Eso está a travs de SiteGround. And Pero sí se me hace... Tolle. A ver, yo no tengo la foto completa, pero Jonathan tiene con estos pedidos de correos electrónicos desde hace más de un mes. Entonces no sé qué está pasando Pero la comunicación no está fluyendo y los pedidos no se están haciendo y algo no está funcionando bien. Entoncesí te pediría Mario que revises qué está pasando Porque si esto lleva... Lleva mucho tiempo.
+Speaker 2 | 22:08
+Definitivamente en el malentendido con el tema de quin administra qué puede estar influyendo y La otra parte es que Estoy punto enterprises. Que sí está administrándose desde la consola de Microsoft y que tiene esas cuatro creo que son las licencias que están activas... Lo que tenemos que hacer, lo que estoy entendiendo, Rubí, uno es que ese dominio no va a tener más uso, pero por ahora lo tenemos que mantener siempre y cuando mail de ayuda está vinculado a una de las plataformas, ¿no? A Tinky Fix, si no me.
+Speaker 1 | 22:48
+Equivoco. Es correcto. A ver, son varias piezas y las explico otra vez para recapitular. Por un lado tenemos el pedido de Jonathan que necesita una serie de correos electrónicos, entre ellos info.stoyq.com. Que ese se necesitaría resolver a la prioridad porque ahorita estoy viendo un intercambio de mensajes entre él y yo que esto desde el 14 de enero no se ha resuelto e Entoncesí es donde yo le explico a Jonathan que nosotros tenemos acceso a los DNS, pero que los correos no están siendo administrados por nosotros, es decir, mi equipo de desarrollo de producto. Entonces... —Está el pedido de Jonathan. Hay que atenderlo rápido porque ya lleva mucho tiempo y... Es una cosa de negocio que en los próximos días yo creo debería estar listo.
+Speaker 2 | 23:55
+Para eso, perdón, detenindonos en ese punto, porque yo no termino de entenderlo. Esa administración de los correos, obviamente necesitamos pagarlo, pero necesitamos pagarlo dentro de la administración del DNS.
+Speaker 1 | 24:08
+No, a verí hago parntesis. El DNS, lo único que hace el Domain Nurse Server, lo único que hace es... Cuando yo tengo estoy que hubo punto com obtengo Cualquier cosa, correos arroba esto de Q.com, mail arroba esto de Q.com www.arrobaesto de Q.com, lo que el DNS hace, lo que el DNS hace es dice va con Microsoft va con SiteGround va con Vulture va con no sé qué va con no sé qué. Es una lista que tiene el nombre del subdominio. Y la dirección a la cual apunta esa lista del dns la puede gestionar Daniel Alvarado Okay. Mike que tambin está en mi equipo si es necesario urgente porque él está en España. Så denne listan har vi i gestjon, og vi spør for den fordi vi trenger å gestere ulike... Aspectos de la lista para el buen funcionamiento de la aplicación Pero somos... Si hay un pedido en... Unas cuantas horas nosotros lo podemos tener listo porque es una configuración muy fácil Sí. Entonces... Eso. Ya está.
+Speaker 3 | 25:37
+Ahora.
+Speaker 1 | 25:39
+Específicamente bajo de esto IQ está el hosting de web que eso está en SiteGround que eso está gestionado Por alguien que está trabajando con Jonathan, que es Sam. Ahora. Tambin, yo estoy viendo ahorita mis correos. Los correos electrónicos de stoicu.com Sam entiendo que los trató de crear desde SiteGround pero me imagino que nunca le funcionaron o por alguna razón no le funcionaron no estoy seguro por qué.
+Speaker 3 | 26:16
+En un principio lo que vimos mal es que desde el hosting están apuntados à Hold on. Au loc.
+Speaker 1 | 26:29
+A ver...
+Speaker 3 | 26:31
+Y en la URO no hay que crear ninguna cuenta.
+Speaker 1 | 26:34
+Yo sin estar al tanto de toda la situación, lo que haría, dado..... La importancia que tiene... Un correo electrónico de info arroba estoyq.com... Es... Hay que confirmarlo con Jonathan, pero yo mejor le ofrecería, movemos correo a Microsoft. Prendemos un casillero de correo electrónico nuevo en Microsoft porque vale la pena... Y ya se sola.
+Speaker 3 | 27:07
+Contrata... Si hay más cuentas, tens que enrutar todas para Microsoft, no pods una.
+Speaker 1 | 27:14
+Sí, habría que enrutar todas, pero creo que son... No sé cuál es el pedido de.....
+Speaker 3 | 27:22
+Él actualmente que tiene un grupo creado que se llama Contact, que le tendría que llegar a cuatro personas y no le llega nada. Claro, porque nunca va a resolver el hosting, entonces no le va a llegar nada. Y aparte estaba reclamando la cuenta de info. Entonces... No sé si tiene más... Le tengo que pedir más detalle. Hay.
+Speaker 1 | 27:47
+Que aclarar con él todo el detalle para saber... Por lo menos está contact e info de los que sabemos, hay que resolverlo. ¿no?.. Ahora.
+Speaker 3 | 27:59
+Si fueran esas dos olas sería más sencillo porque son dos nada más.
+Speaker 1 | 28:04
+Ahora, no.
+Speaker 3 | 28:05
+Si hay muchas más cuentas, hay que analizar a ver si a ustedes les conviene pasarlo a Microsoft o.
+Speaker 1 | 28:10
+Sí, tambin si son más cuentas, creo que se podrían enmascarar y reenviar a otro lado, ¿no? Hay que preguntarle.
+Speaker 3 | 28:21
+A otro usuario, que sea un alias, por.
+Speaker 2 | 28:23
+Ejemplo. Eso es lo que me suena que se intentó hacer hace un par de meses.
+Speaker 1 | 28:27
+Que las estaban Pero Yo creo que el jaleo está en...
+Speaker 2 | 28:28
+Enmascarando para esto de que Enterprise es. Sí.
+Speaker 3 | 28:33
+No tendría mucho sentido, tendría que usar el propio dominio, sería lo más lógico.
+Speaker 1 | 28:42
+Entre que son varias personas las que tienen diferentes partes de la gestión y por otro lado, porque hay dos dominios y estamos en transición y no… Por alguna razón..... O más bien por falta de cuidado no hemos ejecutado Yo soy parte de ese problema, una transición de Stoic Enterprises hacia Stoic U. Pero entonces... Primera parte que hay que resolver ya. Pedido de Jonathan. Segunda parte. Que es importante pero menos urgente sería la transición de Stoic Enterprises hacia StoicU. Hay que tener un listado de cuáles son los correos electrónicos activos en Stoic Enterprises. Yo por lo menos sé de dos. Está el de Help. Está uno que está mi nombre que dice ruby arroba stoic enterprises el cual no uso.
+Speaker 3 | 29:40
+Ahora despus Oriana nos va a compartir un listado de todas.
+Speaker 1 | 29:45
+Las cosas...í parece transición de Stoic Enterprises hacia StoicU En específico, la casilla de help arroba stoic enterprises la gestiona Nelson. Entonces, para hacer ese movimiento de help.stoicenterprises hacia stoicu.com, o quitarlo y moverlo hacia Axle en lo que sea hay que involucrarlo a él Para saber... ¿Qué es lo que necesita? ¿Cómo lo necesita para hacer un plan? Perdón, Nelson Granja.
+Speaker 3 | 30:23
+Recordame el nombre de esta persona.
+Speaker 2 | 30:26
+Nelson Granja. Javier estuvo en contacto con Nelson para recuperar el acceso a la consola de Stoic Enterprises en Microsoft. Eso habrá sido hace tres semanas.
+Speaker 3 | 30:45
+La cuenta que tiene él es HELP. ¿Puede ser?
+Speaker 1 | 30:49
+Elpa arroba estoy que entre. Sí, a ver, vuelvo a compartir esto y ahorita se los mando por correo.
+Speaker 3 | 30:56
+Vă mulțumesc!.
+Speaker 1 | 31:03
+Tambin estoy... Está llamada...
+Speaker 3 | 31:06
+Claro.
+Speaker 1 | 31:07
+Mando un recap de esto por correo para que todo esté...
+Speaker 2 | 31:12
+Vale, gracias.
+Speaker 3 | 31:13
+La estás grabando. Genial.
+Speaker 1 | 31:15
+Sí, se está grabando en automático. Entonces, paso de Stoic Enterprises tener el listado de todo una vez que tengamos el listado de todos o en paralelo preguntarle a Nelson qué es lo que necesita y cómo lo necesita para... Generar un... Planecito de paso... De Stoic Enterprises... Hacia Stoic... Pero ese es paso 2... No es urgente, pero sí es importante.í ya quedamos con.
+Speaker 3 | 31:50
+Todo. Ya estamos. Sí. Ahora estamos con todo. Perfecto. Agradezco mucho el tiempo.
+Speaker 1 | 32:01
+Eso es otro pedido completamente diferente no tiene nada que ver con esto es otra cosa entonces.
+Speaker 2 | 32:10
+Hacemos la página. Pasamos la página.
+Speaker 1 | 32:14
+Pasamos la página completamente. Aprovechando que están ustedes aquí Nosotros, en el equipo de desarrollo, necesitamos un ambiente de pruebas de Microsoft. Para hacer pruebas de integración de nuestra app and Microsoft Teams. Para ello hemos pensado que necesitamos un ambiente Microsoft completamente separado Tenemos un dominio que utilizamos para pruebas que se llama boetus.com. Y nos gustaría... Aí... Poder comprar un par de licencias las más básicas Y gestionar un... Más bien, y configurar un entorno Microsoft al cual mis desarrolladores puedan tener acceso de... Total de administradores completos Entonces el pedido va a ser, y esto lo voy a detallar en el correo electrónico... Que ustedes nos ayudarán. Con la configuración y configuración de ese entorno nuevo los pondría en contacto con Daniel para esa cosa para eso Entonces que hicieran la compra del par de licencias, crear el nuevo dominio que se llame Boetus. Con cuenta de prueba 1 arroba boetus.com cuenta de prueba 2 arroba boetus.com y poderle entregar eso a Daniel Yeah, Mike. Para poder estar haciendo pruebas. Porque... Hemos querido estar... Hemos tratado de estar haciendo pruebas con... Con Axialent, que nos están gestionando... Que le han dado acceso a Daniel en diferentes... En diferentes grados. Pero la verdad es que acaba siendo muy problemático y estamos levantando tickets y no avanzamos a la velocidad que necesitaríamos, entonces creo que lo mejor sería... Tener ese sitio completamente separado. Nada más que nos ayuden al ser.
+Speaker 3 | 34:41
+Una consola nueva.
+Speaker 1 | 34:42
+И я. Eso lo voy a...
+Speaker 2 | 34:45
+Sí, eso significa llevarlo a un tenant de los dos que tenemos activos o el pedido es crear un nuevo tenant?
+Speaker 1 | 34:54
+Yo creo que lo más conveniente sería abrir un tenant completamente nuevo. Con un administrador completamente nuevo.. Y darnos esas llaves... Para que no haya posibilidad de que estamos haciendo alguna prueba y por alguna razón dejamos una configuración abierta Y nos agarró el correo electrónico un hacker en... Corea del Norte y entonces ahora tengamos comprometidos todos los correos de Axelon Para evitar eso... Es un escenario extremo, pero mejor.
+Speaker 2 | 35:33
+Está bien.
+Speaker 1 | 35:33
+Tenerlo... Estoic. Con ese dominio de pruebas la tarjeta y ya.
+Speaker 2 | 35:48
+Okay. Okay. No existen tipos sandbox o ambientes de prueba en los tenes de Microsoft. Esto es Desde la ignorancia.
+Speaker 1 | 36:00
+¿no? Sí. Había pero ya los quitaron y no son... Hay algunas cosas para entornos locales que es con lo que hemos estado avanzando ahorita. Hay una especie de sandbox pero no acaba de funcionar bien. Pero para las pruebas de... Para las pruebas que queremos hacer... Acaban siendo insuficientes.. Y entonces... Sí, ya es algo que... Daniel ya lo... Ya lo revisó varias veces. Estuvo tratando de hacer que funcionaran las cosas con...
+Speaker 2 | 36:40
+Hey. -כן. ¿Por cuánto tiempo necesitan ambiente? Esto lo pregunto sospechando que Microsoft nos quiera vender licencias por un año, no por mes. Pero nada más para descartarlo.
+Speaker 1 | 36:56
+Mira... Yo creo... Si se pueden comprar por mes mejor pero si se compran por año la verdad creo que de todas maneras está bien porque como estoy viendo yo las cosas. Todos los clientes van a requerir integración con no todos, pero un número importante de clientes va a requerir integración con Microsoft. Entonces. ¿Sería parte del pedido? ¿Sería haber...? Si esto se puede poner con licencias mensuales El costo, licencias anuales, el costo y ya evaluamos.
+Speaker 2 | 37:36
+Y la administración de esto, pensándolo, pensando en tenerla centralizada tambin. Porí, entonces, ¿necesitaríamos una licencia extra que tambin Tegno Brain tenga acceso?
+Speaker 3 | 37:51
+No necesitas que tenga licencia siempre, porque no generamos una cuenta activa, sino que una cuenta interna.
+Speaker 1 | 38:01
+Exacto.
+Speaker 3 | 38:03
+Por ejemplo, una cuenta que sea el dominio.onmicrosoft y eso usamos para acceder.
+Speaker 2 | 38:12
+Okay. De acuerdo. En esto, Jorge, tendrían que investigar bien los costos y tema de contratación con Microsoft. Necesitan levantar.
+Speaker 1 | 38:21
+Un ticket.
+Speaker 3 | 38:22
+Para... No, eso te lo puedo pasar Está publicado en la web ok Los valores.
+Speaker 2 | 38:29
+Lo único que no tengo son.
+Speaker 3 | 38:30
+Los impuestos. Pero, claro, por ejemplo... Creo que la diferencia son en el estándar, ¿no? En el que va al medio. Ni la básica ni la más cara. En el estándar, contratando anual, tens un pago mensual de 12 dólares con 50. Y si contratás mensual, no contratás anual, son 15 dólares.
+Speaker 2 | 38:56
+Y a nombre de quin deberíamos de registrar el TENAN ? Tenía que hacer el nombre de Axel en... Tambin a pesar de que es otro dominio eso.
+Speaker 3 | 39:06
+Eso lo pueden decidir ustedes no es ¿Cómo se va a llamar el dominio?
+Speaker 1 | 39:11
+Yo creo que sería mejor a nombre de Stoic ok Se llama boetus.com.
+Speaker 3 | 39:23
+- Not very well. Sí, lo pods contratar a nombre de esa razón social ficticia, del dominio ese o a nombre de una razón social. Eso no afecta.
+Speaker 2 | 39:37
+No, a ver, creo que se afecta un poco el tema de Dependiendo de la compañía que nosotros ponemos como dueña del tenant, tambin dónde están localizadas y porí Axel en Global es España, tambin si ponemos Stoic. La residencia, digamos, de estoicos es España, así que eso puede llegar a influir.
+Speaker 3 | 40:01
+Más que nada, por un tema de facturación, tal vez, a dónde lo comienzan.
+Speaker 2 | 40:05
+Ustedes. Sí, justamente por eso.
+Speaker 1 | 40:07
+Claro. Pero yo creo que va a ser... Si.
+Speaker 2 | 40:11
+Es Stoic, es casi lo mismo que Axel en global, es España en ambos casos, eso sí lo vamos a tener que validar con Agustín Carrizo. Sí, una vez tengamos la información, lo validamos con él, que nos dé el ok y tambin que nos diga qué tarjeta vamos a poner para el.
+Speaker 1 | 40:26
+Tema. Estoy casi seguro que como es algo que se va a cargar a desarrollo tiene que ser a travs de stoik en la dirección de España
+Speaker 2 | 40:40
+¿De acuerdo?
+Speaker 1 | 40:43
+Entonces, de... De raca. Pitulación. Yo ahorita... Les mando un correo electrónico con todo esto, sacándolo del... Digamos con el resumen de los diferentes pedidos E... Y sobre eso... Ya lo empezamos a llevar adelante. ¿Les parece?
+Speaker 2 | 41:15
+Ok.
+Speaker 3 | 41:16
+Perfecto.
+Speaker 2 | 41:20
+Muy gracias a todos. Entonces, seguimos la conversación por mail y si hiciera falta, nos vamos a conectar para... Paraclamie.
+Speaker 1 | 41:30
+Okej.
+Speaker 2 | 41:31
+Perfecto. Gracias. Gracias, que estn bien.
+Speaker 3 | 41:37
+Chao, hasta luego.
+Speaker 1 | 41:39
+Y Mario, yo...

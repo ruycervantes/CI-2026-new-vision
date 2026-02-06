@@ -14,3 +14,5 @@ pages:
     title: "Engineering Roadmap"
   - file: "core/MVP-offer-hpt.md"
     title: "Team Performance MVP"
+  - file: "team/infrastructure-ownership.md"
+    title: "Infrastructure Ownership Reference"

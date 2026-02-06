@@ -32,6 +32,12 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 - [ ] **Review Nelson's Blended Leadership Journey doc** — 10-page Word doc on how to sell hybrid HPT learning journey using current platform. Give him feedback on how to hack it in CI. [SharePoint link](https://axialent.sharepoint.com/:w:/s/ContentDevelopment/IQD6WZAns4oARbVxGZLi8OvEAfZGEeE92-hW58-txw7C6kA?e=fDdVJJ)
 - [ ] **Follow up: Nelson analytics portal spec** — Nelson writing spec for analytics portal (Thinkific + Typeform + CI data). Review with him next week. Watch for impact on Shamil's work.
 
+### From Feb 5 TecnoBrain infra call
+
+- [ ] **Share P&G compliance questionnaire with Mario/TecnoBrain** — they need to confirm general data, policies, security info. Similar to Telus questionnaire. *(From Feb 5 call)*
+- [ ] **Coordinate with Nelson on help@stoic.enterprises transition** — help@ is tied to Thinkific/LMS. Need Nelson's input on timeline, forwarding, what he needs before we can migrate. *(From Feb 5 call)*
+- [x] **Send recap email to Mario/TecnoBrain** — 3 requests: Yonatan email fix (urgent), Stoic Enterprises→StoicYou migration, boetus.com test environment. *(Feb 5 — drafted in `thinking/email-tecnobrain-infra-5feb2026.md`)*
+
 ### Quick wins (carry from Jan)
 
 - [ ] **Ensure Oseas is admin/owner on OnePassword vault** — board audit requires him to have admin control over all infrastructure access. He's the only legal employee of Stoic.
@@ -84,8 +90,9 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ### Infrastructure
 
-- [ ] **Check if support team can set up Azure environment** — instead of Daniel. Needs Stoic credit card + finance auth. Target: Feb second week.
-- [ ] **Escalate Microsoft sandbox request to Mario** — or buy Boetus licenses (~$50-80/mo)
+- [x] **Escalate Microsoft test environment to TecnoBrain** — Call held Feb 5. New tenant on boetus.com, 2x M365 Business Standard licenses (~$25-30/mo). Jorge providing pricing. Validate billing with Agustin Carrizo. *(Replaces previous "Azure environment" and "sandbox request" items)*
+- [ ] **Create infrastructure ownership document** — Root cause of stoicyou.com chaos: no single doc showing who manages DNS (Daniel/Vultr), hosting (Yonatan+Sam/SiteGround), email (TecnoBrain/M365), etc. Simple table: domain → service → provider → admin → access. *(From Feb 5 call analysis)*
+- [ ] **Revive Montier lawyer engagement on AI/privacy policies** — Dropped months ago, they never responded, we never followed up. Enterprise clients (P&G) will keep asking about compliance/AI governance policies. *(From Feb 5 call)*
 - [ ] **Add re-engagement ideas to backlog** — beyond check-in redesign
 
 ---
@@ -96,7 +103,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 |------|------------|-----------|
 | Graph memory decision | Technical prototype | Mike exploring Getzep. Discuss architecture. |
 | Environment automation completion | Daniel baby leave (~Feb 16) | Document/transfer before leave |
-| Microsoft Teams testing (Mike + Daniel) | No sandbox environment | Escalate to Mario or buy Boetus licenses |
+| Microsoft Teams testing (Mike + Daniel) | Boetus.com tenant setup in progress | TecnoBrain setting up. Awaiting Jorge pricing + Agustin approval. Follow-up Monday Feb 9. |
 | LGP accountability loop (Shamil) | Ruy hasn't designed check-in dialogue prompt | **Ruy to write prompt spec — THIS WEEK** |
 | Infrastructure script handoff | Daniel's baby leave ~Feb 16 | Document before leave. Mike is emergency backup. |
 
