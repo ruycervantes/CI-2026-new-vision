@@ -20,15 +20,22 @@ This is the **command center** for Conscious Insights / Stoic platform evolution
 
 ## Ruy's Personal Productivity Workflow
 
+**MIGRATED (Feb 7, 2026):** Personal productivity (action items, thinking, OKRs, triage) moved to `~/Documents/life-os/`. Personal skills (`/today`, `/weekly-plan`, `/triage`, `/think`, `/todoist-org`, `/review-action-items`, `/handwritten`) moved to global commands (`~/.claude/commands/`).
+
+**This repo is now work-execution only** — sprints, team status, calls, core docs, coaching research.
+
 ### System Overview
 
-Ruy uses a two-layer system:
-1. **Action items file** (`action-items-ruy-{month}{year}.md`) — capture + context + triage workspace. This is upstream. Items land here from calls, meetings, thinking sessions, handwritten notes.
-2. **Todoist** — daily/weekly execution. Downstream. Items get pulled here after triage with proper labels (@this-week, @next-week, @deep-work, etc.).
+Ruy uses a unified life-os system:
+1. **Action items file** (`~/Documents/life-os/action-items-ruy-{month}{year}.md`) — unified work + personal triage. Items land here from calls, meetings, thinking sessions, handwritten notes.
+2. **Todoist** — daily/weekly execution. Downstream. Items get pulled here after triage with proper labels.
+3. **Telos** (`~/.claude/skills/PAI/USER/TELOS/`) — life architecture. Goals, challenges, strategies across all domains.
 
 **Flow:**
 ```
-Calls/meetings/notes → action items file → triage → Todoist → daily execution
+Calls/meetings/notes → action items (life-os) → triage → Todoist → daily execution
+                                                    ↑
+                                              Telos (alignment check)
 ```
 
 ### Cadences
