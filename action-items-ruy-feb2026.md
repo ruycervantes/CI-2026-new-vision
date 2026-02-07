@@ -36,7 +36,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 - [ ] **Share P&G compliance questionnaire with Mario/TecnoBrain** — they need to confirm general data, policies, security info. Similar to Telus questionnaire. *(From Feb 5 call)*
 - [ ] **Coordinate with Nelson on help@stoic.enterprises transition** — help@ is tied to Thinkific/LMS. Need Nelson's input on timeline, forwarding, what he needs before we can migrate. *(From Feb 5 call)*
-- [x] **Send recap email to Mario/TecnoBrain** — 3 requests: Yonatan email fix (urgent), Stoic Enterprises→StoicYou migration, boetus.com test environment. *(Feb 5 — drafted in `thinking/email-tecnobrain-infra-5feb2026.md`)*
+- ~~Send recap email to Mario/TecnoBrain~~ → *moved to Completed This Week*
 
 ### Quick wins (carry from Jan)
 
@@ -82,7 +82,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 ### AI Coach Deep Work
 
 - [ ] **AI Coach technical exploration (2-3 weeks)** — After Meli materials complete, protected time to explore implementation: memory architecture, session continuity, how to make it work. Output: implementation approach + realistic timeline. "Necesito meterme a las tripas."
-- [ ] **Process strategic brain dump** — review `thinking/strategic-brain-dump.md`, land insights into core docs *(synced to Todoist)*
+- [x] **Process strategic brain dump** — reviewed `thinking/strategic-brain-dump.md`. Landed: M0 in MISSION.md, MO6 (IT/WE gap) + MO7 (Three Lenses) in MODELS.md, B0-B2 in BELIEFS.md, HCI outreach + InnerLogic eval in backlog. Most content was already captured in Telos/action items from earlier sessions. *(Completed Feb 6)*
 - [ ] **Discuss AI coaching dependency with team** — review `team-effectiveness/ai-coaching-dependency.md` with Mike/Shamil. Does minimum (Coach mode + simple check-ins) feel right for TE pilot?
 
 ### Research
@@ -94,10 +94,25 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 
 ### Infrastructure
 
-- [x] **Escalate Microsoft test environment to TecnoBrain** — Call held Feb 5. New tenant on boetus.com, 2x M365 Business Standard licenses (~$25-30/mo). Jorge providing pricing. Validate billing with Agustin Carrizo. *(Replaces previous "Azure environment" and "sandbox request" items)*
+- ~~Escalate Microsoft test environment to TecnoBrain~~ → *moved to Completed This Week*
 - [ ] **Create infrastructure ownership document** — Root cause of stoicyou.com chaos: no single doc showing who manages DNS (Daniel/Vultr), hosting (Yonatan+Sam/SiteGround), email (TecnoBrain/M365), etc. Simple table: domain → service → provider → admin → access. *(From Feb 5 call analysis)*
 - [ ] **Revive Montier lawyer engagement on AI/privacy policies** — Dropped months ago, they never responded, we never followed up. Enterprise clients (P&G) will keep asking about compliance/AI governance policies. *(From Feb 5 call)*
 - [ ] **Add re-engagement ideas to backlog** — beyond check-in redesign
+
+---
+
+## Completed This Week (Feb 3-7)
+
+Items completed this week. Two lenses: what was delivered + what was made easier.
+
+| Date | Item | Impact |
+|------|------|--------|
+| Feb 5 | Send recap email to Mario/TecnoBrain | Unblocked infra migration (Yonatan fix, StoicYou migration, boetus.com) |
+| Feb 5 | Escalate Microsoft test environment to TecnoBrain | Teams testing can proceed once tenant is ready |
+| Feb 6 | Refactored compliance repository structure | Next SIG/compliance questionnaire will be significantly faster |
+| Feb 6 | Repo organization strategy discussion with Mike | Aligned on 5-core-repo model, ready to consolidate |
+| Feb 6 | AI Coach second-level understanding for P&G deck | Directional progress on AI Coach framing for MELI/P&G pitch |
+| Feb 6 | Unblocked Shamil on LGP check-in design | Shamil can proceed with implementation |
 
 ---
 
@@ -122,6 +137,7 @@ Triaged from January 2026 file + Oseas call (Jan 30).
 - [ ] **Personal Life Coach prototype** — hackathon idea. Gym/Brain/Relationship coach components.
 - [ ] **Brilliant assessments integration** — investigate automation possibilities
 - [ ] **Follow up on Inworld.ai TTS** — Oseas to connect with cousin for credits + dev relationships. Mike already evaluated, recommends. See `sprints/backlog.md`.
+- [ ] **HCI research group outreach** — Gómez-Zará (Notre Dame), McNeese (Clemson), Unhelkar/Rice. They focus on "IT" (task execution feedback); we do "WE" (interpersonal). Potential: interaction patterns, evaluation design, European funding. **Prerequisite:** strategic clarity on what we want to build. *(From strategic brain dump, Dec 2025)*
 
 ---
 

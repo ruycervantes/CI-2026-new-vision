@@ -15,7 +15,7 @@ You are helping clean up and organize an action items document. Follow these pri
 2. **Single source of truth** - Each piece of info lives in ONE place. Everything else links to it.
 3. **Your list, your tasks** - Only tasks the owner owns belong here. Team tasks → team tools.
 4. **Progressive disclosure** - Task name → key questions/blockers → link to details.
-5. **Done = gone** - Completed items are noise. Remove or archive immediately.
+5. **Done = captured** - Completed items move to "Completed This Week" section with date + brief impact note. Progress needs to be visible, not erased.
 6. **Cluster related work** - Group tasks with dependencies. Sequence them. Name the cluster.
 7. **Clarify or it stays undone** - Vague tasks don't get done. Sharpen the wording.
 8. **Links over duplication** - Copy-paste creates drift. Links stay current.
@@ -34,7 +34,7 @@ Analyze the file for these problems:
 | Issue | How to spot it |
 |-------|----------------|
 | **Duplicates** | Same task appears in multiple sections |
-| **Done items** | `[x]` tasks still in the list |
+| **Done items** | `[x]` tasks still in active sections (should be in Completed This Week) |
 | **Wrong owner** | Tasks assigned to others (look for other people's names) |
 | **Bloated tasks** | >5 lines of sub-bullets (not always bad - inline context can be valuable) |
 | **Vague tasks** | Can't tell what "done" looks like - ask user to clarify |
@@ -110,7 +110,7 @@ Found 5 completed items still in list:
 2. [x] Sprint planning completed - line 155
 ...
 
-**Proposal:** Remove these completed items.
+**Proposal:** Move these to "Completed This Week" section with date.
 Approve? (will ask before making changes)
 ```
 

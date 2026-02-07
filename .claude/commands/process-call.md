@@ -146,8 +146,8 @@ Present as a numbered list so user can reference by number:
 2. **[Task]** → Section: [target section]
    - Context: [quote or moment from call]
 
-### Items to Mark Complete
-3. **[Existing task]** - appears resolved per discussion at [timestamp/context]
+### Items to Move to Completed
+3. **[Existing task]** - appears resolved per discussion at [timestamp/context]. Move to "Completed This Week" section with date.
 
 ### New Blockers
 4. **[Blocker]** - Owner: [who], Resolution: [what]

@@ -44,7 +44,8 @@ Walk through the action items file section by section. For each section:
 1. List all items with a brief status read (done? stale? still relevant? blocked?)
 2. For each item, propose one of:
    - **Keep** — carry forward, still relevant
-   - **Kill** — done, obsolete, or overtaken by events
+   - **Complete** — done. Move to "Completed This Week" section with date.
+   - **Kill** — obsolete or overtaken by events (not done — just no longer relevant)
    - **Move to Todoist personal** — personal items that don't belong in this file
    - **Reframe** — the item needs rewording (absorbed into something else, scope changed)
    - **Move to backlog/someday** — important but not this month
@@ -105,6 +106,16 @@ Triaged from {previous month} file + [sources].
 
 ---
 
+## Completed This Week
+
+Items completed during the week. Reviewed during weekly triage, then archived.
+Supports the "Two Lenses" model: what you delivered + what you made easier.
+
+| Date | Item | Impact (what it enabled) |
+|------|------|--------------------------|
+
+---
+
 ## Blocked Items
 
 | Item | Blocked By | Next Step |
@@ -122,7 +133,7 @@ Triaged from {previous month} file + [sources].
 ```
 
 ### Mid-month mode:
-Edit the current file in place — remove killed items, reframe changed items, reorganize sections.
+Edit the current file in place — move completed items to Completed section, remove killed items, reframe changed items, reorganize sections.
 
 ## Step 7: Update Related Docs
 
@@ -160,7 +171,7 @@ Do NOT push to Todoist. Present the list and let the user decide when to sync.
 
 Report:
 - Files modified
-- Tasks kept / killed / reframed / moved
+- Tasks kept / completed (moved to Completed section) / killed / reframed / moved
 - New items added
 - Cross-references updated
 - Todoist sync items pending
@@ -171,6 +182,6 @@ Report:
 - **OKR-aligned** — group tasks by which OKR they serve
 - **Preserve the user's voice** — don't rewrite task descriptions unless asked
 - **Single source of truth** — each item lives in one place. Flag duplicates.
-- **Done = gone** — completed items are noise. Remove immediately.
+- **Done = captured** — completed items move to "Completed This Week" section with date + impact. Progress needs to be visible, not erased. Archived during weekly triage.
 - **Personal items → Todoist** — this file is for Stoic work + key personal commitments only
 - **Reference ≠ tasks** — mark reference sections clearly, keep them trimmed

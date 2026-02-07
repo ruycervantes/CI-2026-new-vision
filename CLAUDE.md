@@ -44,7 +44,8 @@ Calls/meetings/notes → action items file → triage → Todoist → daily exec
 **End of sprint (Thursday, after planning) or when file feels heavy:**
 - Use `/triage` to clean up the action items file.
 - Cross-reference against Todoist for duplicates.
-- Kill done/stale items, reframe changed items, create next month's file if end of month.
+- Move completed items to "Completed This Week" section (not delete). Kill stale items, reframe changed items.
+- If new challenges or learnings surfaced, suggest updating Telos (`~/.claude/skills/PAI/USER/TELOS/`).
 
 ### Key Files
 
@@ -56,6 +57,7 @@ Calls/meetings/notes → action items file → triage → Todoist → daily exec
 | `team/status.md` | Sprint status per person, blockers, key decisions |
 | `team/process-log.md` | Living process decisions, reviewed at each retro |
 | `sprints/sprint-stories-jan2026.md` | Current sprint stories with acceptance criteria |
+| `~/.claude/skills/PAI/USER/TELOS/` | Personal Telos — challenges, strategies, models, learnings. Cross-reference during triage/weekly review. |
 
 ### Todoist Label System
 

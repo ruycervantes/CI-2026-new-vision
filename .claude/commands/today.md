@@ -87,7 +87,7 @@ After presenting the day, ask:
 **Sync to action-items:**
 - Only sync work-related tasks (Product Strategy, Testing, Management projects)
 - Update "Today" section in action-items-ruy-{month}{year}.md
-- Mark completed items with [x]
+- Move completed items to "Completed This Week" section with date + brief impact note
 
 ## When User Says
 - "show me today"

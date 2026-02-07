@@ -47,6 +47,16 @@ If yes, create `thinking/<topic>-<date>.md` with:
 
 Update this file as the conversation evolves.
 
+### Check for Telos content
+
+When capturing, also check if any insights belong in Telos (`~/.claude/skills/PAI/USER/TELOS/`). Look for:
+- **New challenges** (recurring obstacles, patterns) → `CHALLENGES.md`
+- **Mental models** (frameworks, "two lenses" type insights) → `MODELS.md`
+- **Strategies** (approaches to address challenges) → `STRATEGIES.md`
+- **Lessons** (hard-won wisdom, things that keep re-surfacing) → `LEARNED.md`
+
+If found, ask: "Some of this sounds like it belongs in your Telos — want me to capture it there too?"
+
 ### Ending the session
 
 When the thinking feels solid enough, ask:
@@ -54,7 +64,8 @@ When the thinking feels solid enough, ask:
 > "This feels like it's coming together. Do you want to:
 > 1. Keep exploring?
 > 2. Turn this into a plan/document?
-> 3. Leave it as a scratch file for later?"
+> 3. Leave it as a scratch file for later?
+> 4. Update Telos with what surfaced?"
 
 ## Parameters
 

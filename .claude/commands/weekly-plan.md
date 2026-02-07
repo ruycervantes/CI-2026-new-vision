@@ -78,7 +78,7 @@ Go through each category and ask questions:
 - → Move to `@next-week`
 - → Move to `@someday`
 - → Move to `@this-month`
-- ✅ Done - remove from list
+- ✅ Done - move to "Completed This Week" section with date + brief impact
 
 **Target: 15-20 tasks max in `@this-week`**
 
