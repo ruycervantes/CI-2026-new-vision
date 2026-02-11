@@ -444,6 +444,7 @@ Week 4:  Phase G (technical + prompt architecture)
 ### Research Documents (Coaching)
 | File | What It Covers | Feeds |
 |------|---------------|-------|
+| `research/coaching/README.md` | Research narrative, file map, key findings, reading order | Orientation for anyone new to the research |
 | `research/coaching/axialent-coaching-handbook-summary.md` | 8-step session process, role plays, centering, receiving | Doc A §2 (Theory) |
 | `research/coaching/coaching-knowledge-framework.md` | 3-layer model, 14 design implications, praxis observations | Doc A §3 (Praxis) |
 | `research/coaching/ai-coach-design-considerations.md` | Memory paradigms, open questions, architecture decisions | Doc B §4-5 |
