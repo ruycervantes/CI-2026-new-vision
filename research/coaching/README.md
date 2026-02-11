@@ -11,9 +11,9 @@ The research follows two complementary tracks:
 
 **Key informants:** Horacio (coach, primary source for methodology + praxis), Richi (coach, methodology validation + live demo), Ruy (coachee, 4 sessions with transcripts).
 
-**Current status:** Phase A.2 complete. 30 praxis principles documented across 4 cases (18 from Ruy's sessions + 12 from multi-case analysis). 11 confirmed universal, 5 context-dependent. Cross-case synthesis complete.
+**Current status:** Phases A.2 + B + B.2 complete. 30 inter-session praxis principles + 10 setup praxis principles documented across 4 cases. 11 universal inter-session principles confirmed, 5 context-dependent. Cross-case synthesis and setup methodology extraction complete.
 
-**Next:** Phase B (Ruy reconstructs setup session), Phase E (Draft Doc A — the coaching methodology + praxis reference document).
+**Next:** Phase C (Interview Horacio — 11 refined questions from setup analysis + existing topics), Phase E (Draft Doc A — the coaching methodology + praxis reference document).
 
 ---
 
@@ -44,6 +44,8 @@ The "what did we learn" layer. Case analyses follow a consistent structure: sess
 | `analysis/coaching-cases-analysis.md` | Cross-case comparison — universality table, 30 principles, coachee typology, 12 AI design principles | Doc A §4-7, Doc B |
 | `analysis/horacio-case-study-analysis.md` | Early Horacio case study (sessions 1-3 detailed, pre-A.2 format) | Doc A §6.1 |
 | `analysis/horacio-intervention-setups.md` | Engagement types and setup structures from Horacio | Doc A §4.1 |
+| `analysis/setup-methodology-analysis.md` | Setup methodology extraction — theory vs. practice, LSI debrief anatomy, 10 setup praxis principles, AI pre-coaching flow design | Doc A §4.1, Workstream 4 |
+| `analysis/ruy-setup-session-reconstruction.md` | Ruy's Dec 17 setup session recall — non-LSI comparison case | Doc A §4.1 |
 | `analysis/methodology-observations-jan2026.md` | Early methodology observations (Jan 2026) | Doc A §3 |
 | `analysis/horacio-product-discovery-summary.md` | Summary of Horacio product discovery conversation (AI coaching product design) | Doc A, Doc B |
 

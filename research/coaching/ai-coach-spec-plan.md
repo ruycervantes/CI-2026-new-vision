@@ -1,7 +1,7 @@
 # AI Coach Spec — Execution Plan
 
-*Created: Feb 9, 2026 | Updated: Feb 10, 2026 (Phase A.2 + multi-case extension complete)*
-*Status: Phase A.2 complete + multi-case validation — 4 cases analyzed, 30 praxis principles documented*
+*Created: Feb 9, 2026 | Updated: Feb 11, 2026 (Phase B.2 setup methodology extraction complete)*
+*Status: Phase A.2 + B + B.2 complete — 4 cases analyzed, 30 inter-session praxis principles + 10 setup praxis principles documented*
 
 ---
 
@@ -374,14 +374,24 @@ Run AI Coach through the chatbot design process (`chatbot-design/`)? Would produ
   - 12 AI Coach design principles derived from multi-case evidence
 - [x] **Updated inter-session architecture analysis** — Added Part 8 (cross-case validation) to original doc
 
-### Phase B — Ruy Reconstructs Setup Session
+### Phase B — Ruy Reconstructs Setup Session ✅ COMPLETE (Feb 11, 2026)
 
-- [ ] Write down what you remember from Dec 17 setup session
-  - What did Horacio explain about the coaching process?
-  - What goals/expectations were discussed?
-  - Was your boss/sponsor involved?
-  - What logistics were agreed?
-  - What was the diagnostic plan?
+- [x] Guided recall with PAI — `research/coaching/analysis/ruy-setup-session-reconstruction.md`
+  - Coachee-initiated (asked HR), no Reunion Cero, no diagnostic (special case)
+  - Light process explanation, confidentiality discussed
+  - Co-created 7-8 topic gap list (leadership, strategic conversations, identity/role)
+  - 6 specific questions generated for Horacio interview (Phase C)
+
+### Phase B.2 — Setup Methodology Extraction from Cases ✅ COMPLETE (Feb 11, 2026)
+
+- [x] **Setup methodology analysis** — `research/coaching/analysis/setup-methodology-analysis.md`
+  - Deep read of all 3 case PDFs with setup-specific extraction lens
+  - Theory vs. practice gap documented: Reunion Cero absent from all cases, LSI debrief serves as functional gateway
+  - Cross-case LSI debrief anatomy: 5-phase structure (biographical anchoring → self-assessment → item exploration → private framing → theme emergence)
+  - Ruy's non-LSI setup compared: magic wand technique, 30min vs 2hr, gap list vs LSI data
+  - 10 setup praxis principles (SP-1 to SP-10) identified and named
+  - AI Coach pre-coaching flow architecture designed (6-stage pipeline)
+  - 11 refined Phase C interview questions generated
 
 ### Phase C — Interview Horacio (Ruy schedules)
 
@@ -456,6 +466,8 @@ Week 4:  Phase G (technical + prompt architecture)
 | `research/coaching/analysis/caso2-inter-session-architecture-analysis.md` | CASO 2 full A.2 analysis: COACHEE2/EMPRESA2 (industrial, 6+LSI sessions) — horizontal graduation, ITC, mid-engagement drift | Doc A §6.1 |
 | `research/coaching/analysis/caso3-inter-session-architecture-analysis.md` | CASO 3 full A.2 analysis: COACHEE3/EMPRESA3 (supply chain, 6+LSI sessions) — role play, bache, reclamo | Doc A §6.1 |
 | `research/coaching/analysis/coaching-cases-analysis.md` | Cross-case comparison: universality table (30 principles), session arc comparison, coachee typology, 12 AI Coach design principles | Doc A §4-7 + Doc B |
+| `research/coaching/analysis/ruy-setup-session-reconstruction.md` | Ruy's Dec 17 setup session recall: origin, participants, gap list, deviations from standard framework, Phase C questions | Doc A §4.1 |
+| `research/coaching/analysis/setup-methodology-analysis.md` | Setup methodology extraction from 3 case PDFs: theory-vs-practice gap, LSI debrief anatomy, 10 setup praxis principles (SP-1 to SP-10), AI Coach pre-coaching flow design, refined Phase C questions | Doc A §4.1, Workstream 4 (pre-coaching prompt) |
 
 ### Research Documents (Team Effectiveness — Shared Foundation)
 | File | Shared Foundation Content | Team-Specific Content |
@@ -504,4 +516,4 @@ Week 4:  Phase G (technical + prompt architecture)
 
 ---
 
-*Next step: Phase B — Ruy reconstructs setup session (Dec 17) + Phase E — Draft Doc A skeleton (can start with available material)*
+*Next step: Phase C — Interview Horacio (11 refined questions from setup analysis + existing topics) + Phase E — Draft Doc A skeleton (can start with available material)*
