@@ -37,17 +37,27 @@ What's coaching-specific (not shared with team work): the 1:1 relationship, the 
 
 ---
 
-## 2. Meeting Zero: The Debrief as Gateway
+## 2. Meeting Zero: Where the Arc Begins
 
-### Theory vs. Practice
+### What All Setups Share
 
-The formal methodology prescribes a tripartite "Meeting Zero" — coach, coachee, and boss together setting objectives. In practice, across all four studied engagements, Meeting Zero takes a different form: a **dyadic session (coach + coachee only) centered on the LSI diagnostic debrief.** The boss is absent. The LSI data serves as the external mirror instead — especially LSI2 (others' perception), which grounds the coaching direction in something beyond the coachee's self-narrative.
+The formal methodology prescribes a tripartite "Meeting Zero" — coach, coachee, and boss together setting objectives. In practice, across all four studied engagements, Meeting Zero takes a different form: a **dyadic session (coach + coachee only)** without the boss present. The function, however, is universal: **initiate the relationship, surface the gaps, and plant the seeds for the entire engagement.**
 
-This is not a deficiency. The combined session — relationship initiation + diagnostic review + gap identification — is more powerful than a tripartite objective-setting meeting because the coachee *experiences* the gap through their own data rather than hearing it from their boss.
+Every observed setup, regardless of format, produces two outputs:
+1. **A working gap inventory** — the raw material the coaching engagement will work on
+2. **A coach's private hypothesis** — the diagnostic framing that guides the arc
 
-### The 5-Phase Anatomy
+How these outputs are generated differs based on whether a structured assessment (LSI) is available.
 
-All three corporate cases (6+LSI sessions each) follow the same debrief structure:
+### Path A: The LSI Debrief (Corporate Cases)
+
+In the three corporate engagements (CASO 1-3, each 6+LSI sessions), Meeting Zero centers on the **LSI diagnostic debrief** — a ~2-hour session combining relationship initiation, diagnostic review, and gap identification. The LSI data serves as the external mirror, especially LSI2 (others' perception), which grounds the coaching direction in something beyond the coachee's self-narrative.
+
+This is not a deficiency over the prescribed tripartite meeting. The combined session is more powerful because the coachee *experiences* the gap through their own data rather than hearing it from their boss.
+
+**The 5-Phase Anatomy:**
+
+All three corporate cases follow the same debrief structure:
 
 **Phase 1: Biographical Anchoring.** The coach elicits extensive career and personal history. This is not small talk — it's diagnostic data. CASO 3's "me topé con la pared, aprendí a la brava" (first leadership crisis at 29) directly explains the defensive patterns visible in the LSI. The biography becomes a lens the coach uses for the entire engagement.
 
@@ -68,23 +78,66 @@ These hypotheses, formed during the debrief, prove remarkably accurate across th
 
 **Phase 5: Working Themes Emerge.** The debrief closes with 2-3 identified focus areas and a declared working direction. These become the initial "conversational pantry" — a rich store of items, reactions, and surprises that both coach and coachee return to in future sessions.
 
-### The Conversational Pantry
-
-The LSI is not consumed in the debrief — it's **planted as seed material.** When a coachee arrives at a later session without a prepared topic, the unexplored diagnostic items become the default re-entry point:
-
-> CASO 1, Session 2: "Volvió entonces sobre el LSI y la sorpresa que le causó que el Dependiente saliera tan alto."
-> CASO 2, Session 1: "Inició la sesión reflexionando sobre el 'error de comunicación hacia afuera' que revelaba la brecha entre LSI 1 y LSI 2."
-
-### Surprise as Engagement Driver
-
-The most productive debrief moments occur when data challenges self-perception. All three cases document surprise as the emotional catalyst that makes the debrief stick:
+**Surprise as Engagement Driver.** The most productive debrief moments occur when data challenges self-perception. All three cases document surprise as the emotional catalyst that makes the debrief stick:
 
 > CASO 1: "Le sorprendió lo alto que salió Dependiente. No se siente así."
 > CASO 3: "Sorprendido por la diferencia de percepción entre otros y él mismo."
 
-### Without LSI: The Magic Wand
+### Path B: Gap Exploration Without Diagnostic (Ruy's Case)
 
-When no structured assessment is available (Ruy's case — he'd already completed LSI and CB Assessment), the coach uses ideal-scenario questioning to surface gaps. "If you could have anything, what would it look like?" This converts vague desires ("I want the commercial team to work") into articulable gaps. The LSI automates this function — the instrument surfaces gaps the coachee couldn't articulate on their own.
+When no structured assessment is available — or the coachee has already completed one in a different context — Meeting Zero takes a different form: **pure conversational exploration of needs.** Ruy's Dec 17, 2025 setup illustrates this path.
+
+**Context:** Ruy initiated the coaching himself (asked HR), had already completed LSI and CB Assessment through building the Stoic platform, and had a pre-existing working relationship with Horacio. The session was ~30 minutes — shorter than the LSI debrief (~2 hours) — and had no boss/sponsor present.
+
+**How it unfolded:**
+
+1. **Light process orientation.** Horacio gave a brief explanation of the coaching process and explicitly discussed confidentiality. The lightness reflected the existing relationship — Ruy already had familiarity with the methodology.
+
+2. **Open need exploration.** Horacio asked what Ruy needed coaching on. The presenting request: *understanding how to better lead his team and how they fit together.* Horacio "double-clicked" — explored what it meant, probed the underlying gaps.
+
+3. **Gap list co-creation.** Through conversation, they co-created a list of 8 topics. Horacio wrote these down during the session and gave the written list to Ruy. The 8 gaps, in Ruy's words from Horacio's notes:
+
+   1. *Este equipo comercial funciona* — The commercial team just works
+   2. *Conectar comercial con producto* — Connect commercial with product
+   3. *Hacer lo necesario para que el producto funcione* — Do what's needed to make the product work
+   4. *Más usuarios para recibir más feedback sobre mi producto* — More users for more product feedback
+   5. *Más tiempo para platicar con el equipo y rebotar ideas* — More time to talk with the team and bounce ideas
+   6. *Continuar* — Continue (momentum/persistence)
+   7. *Contar con una oficina para poder ir de manera presencial* — Have an office to be there in person
+   8. *Conversaciones estratégicas efectivas. ¿Cómo sabemos que lo que estamos haciendo es lo adecuado?* — Effective strategic conversations. How do we know what we're doing is right?
+
+   The topics span operational (#3, #4), relational (#2, #5, #7), and strategic (#8). They are interconnected — not a flat list but a web of related concerns. Topic #8 (strategic conversations) became the primary focus in Session 1, the most abstract and identity-level gap on the list.
+
+4. **The Magic Wand technique.** Several gaps were not immediately articulable. When Ruy knew something was missing but couldn't name it (e.g., "the commercial team just works" — what's the gap?), Horacio used **ideal-scenario questioning**: "If you could have anything, what would it look like?" This converted vague desires into concrete gap statements. The technique serves the same function the LSI serves in Path A — surfacing gaps the coachee can't spontaneously articulate — but through conversation rather than instrument.
+
+5. **No homework.** Clean handoff — no preparation requested between setup and Session 1.
+
+**What was NOT present** (deviations from standard setup): no tripartite meeting, no boss expectations, no formal diagnostic, no detailed process walkthrough, no organizationally mandated goals. The engagement was entirely coachee-initiated and coachee-directed.
+
+### Both Paths Converge: The Conversational Pantry
+
+Regardless of path, Meeting Zero produces a **conversational pantry** — a rich store of items, reactions, and surprises that both coach and coachee return to in future sessions. The LSI pantry is data-driven (unexplored items, surprising scores). The gap-list pantry is desire-driven (unexplored topics, vague aspirations).
+
+In both cases, the pantry is not consumed in the setup — it's **planted as seed material:**
+
+> CASO 1, Session 2: "Volvió entonces sobre el LSI y la sorpresa que le causó que el Dependiente saliera tan alto."
+> CASO 2, Session 1: "Inició la sesión reflexionando sobre el 'error de comunicación hacia afuera' que revelaba la brecha entre LSI 1 y LSI 2."
+> Ruy, Session 1: Horacio read back all 8 items from the gap list, asking for validation and selection.
+
+When a coachee arrives at a later session without a prepared topic, the unexplored pantry items become the default re-entry point.
+
+### Connection to Session 1
+
+The setup-to-Session-1 transition follows the same grammar in both paths:
+
+```
+Meeting Zero:  Surface gaps → create inventory → plant the pantry
+Session 1:     "Here's what you said" → validate → "Which path?" → deep work
+```
+
+In the LSI path, Session 1 often continues the diagnostic thread directly (CASO 2 opened reflecting on the LSI1-LSI2 divergence). In the gap-list path, Session 1 opens with the coach reading back the list and asking the coachee to choose (Ruy chose #8 — strategic conversations). In both cases, Session 1 front-loads memory — demonstrating recall as a trust signal and establishing the engagement's thread.
+
+The items NOT chosen in Session 1 don't disappear. They become yellow lights — tracked by the coach, available as re-entry points when current themes resolve or when the coachee arrives without an agenda.
 
 ---
 
@@ -339,11 +392,11 @@ These types are suggestive, not definitive (4 cases only). But they illustrate t
 
 | Section | Primary Source | File |
 |---------|--------------|------|
-| 1. What Coaching Is | Coaching Knowledge Framework, Handbook | `coaching-knowledge-framework.md`, `axialent-coaching-handbook-summary.md` |
-| 2. Meeting Zero | Setup Methodology Analysis | `analysis/setup-methodology-analysis.md` |
-| 3. Session Arc | Inter-Session Architecture, Cross-Case Analysis | `analysis/inter-session-architecture-analysis.md`, `analysis/coaching-cases-analysis.md` |
-| 4. Connective Tissue | Coaching Knowledge Framework, Inter-Session Analysis | `coaching-knowledge-framework.md`, `analysis/inter-session-architecture-analysis.md` |
-| 5. Coach's Craft | Cross-Case Analysis, Handbook | `analysis/coaching-cases-analysis.md`, `axialent-coaching-handbook-summary.md` |
+| 1. What Coaching Is | Coaching Knowledge Framework, Handbook | `process/coaching-knowledge-framework.md`, `axialent-coaching-handbook-summary.md` |
+| 2. Meeting Zero | Setup Methodology Analysis | `process/setup-methodology-analysis.md` |
+| 3. Session Arc | Inter-Session Architecture, Cross-Case Analysis | `process/inter-session-architecture-analysis.md`, `process/coaching-cases-analysis.md` |
+| 4. Connective Tissue | Coaching Knowledge Framework, Inter-Session Analysis | `process/coaching-knowledge-framework.md`, `process/inter-session-architecture-analysis.md` |
+| 5. Coach's Craft | Cross-Case Analysis, Handbook | `process/coaching-cases-analysis.md`, `axialent-coaching-handbook-summary.md` |
 | 6. Unknowns | Spec Plan (Phase C topics) | `ai-coach-spec-plan.md` |
 
 **Evidence base:** 4 coaching engagements (1 with full transcripts, 3 with detailed coach notes), ~24 total sessions analyzed, 40 praxis principles documented (30 inter-session + 10 setup), 2 extended Horacio interviews.

@@ -343,7 +343,7 @@ Run AI Coach through the chatbot design process (`chatbot-design/`)? Would produ
 
 ### Phase A.2 — Methodology-Specific Extraction ✅ COMPLETE
 
-- [x] **Inter-session architecture analysis** — `research/coaching/analysis/inter-session-architecture-analysis.md`
+- [x] **Inter-session architecture analysis** — `research/coaching/process/inter-session-architecture-analysis.md`
   - Session opening mechanics (grammar by session position)
   - Commitment cycle (commit → act → report → extract → recommit)
   - Topic threading (theme map, theme graduation, vocabulary continuity)
@@ -353,19 +353,19 @@ Run AI Coach through the chatbot design process (`chatbot-design/`)? Would produ
 
 ### Phase A.2 Extension — Multi-Case Validation ✅ COMPLETE (Feb 10, 2026)
 
-- [x] **CASO 1 analysis** — `research/coaching/analysis/caso1-inter-session-architecture-analysis.md`
+- [x] **CASO 1 analysis** — `research/coaching/process/caso1-inter-session-architecture-analysis.md`
   - COACHEE1 at EMPRESA1: Chemical company sales leader, 6+LSI sessions
   - Key finding: two parallel tracks (interpersonal + anxiety) that never converge
   - 6 new praxis principles (#19-24): Diagnostic Re-entry, Vacuum as Productive Space, Parallel Track Recognition, Safe Space as Primary Value, Behavioral Substitution, Mirror Cases
-- [x] **CASO 2 analysis** — `research/coaching/analysis/caso2-inter-session-architecture-analysis.md`
+- [x] **CASO 2 analysis** — `research/coaching/process/caso2-inter-session-architecture-analysis.md`
   - COACHEE2 at EMPRESA2: Industrial engineer/sales manager, 6+LSI sessions
   - Key finding: horizontal theme graduation (interpersonal → motivation → procrastination) vs. vertical
   - 4 new praxis principles (P19-P22): Coach Self-Disclosure, Mid-Engagement Drift, Integration Homework, Coach Note-to-Self
-- [x] **CASO 3 analysis** — `research/coaching/analysis/caso3-inter-session-architecture-analysis.md`
+- [x] **CASO 3 analysis** — `research/coaching/process/caso3-inter-session-architecture-analysis.md`
   - COACHEE3 at EMPRESA3: Supply chain planning, 15yr tenure, 6+LSI sessions
   - Key finding: only case with role play deployed (Modified Direct Version); "bache" productive emptiness pattern
   - 5 new praxis principles (#19-23): Bache as Productive Emptiness, Role Play as Modeling, Acceptance as Resolution, Micro-Escalation in Skill Teaching, Coach's Private Concern as Predictive Tracker
-- [x] **Cross-case comparison** — `research/coaching/analysis/coaching-cases-analysis.md`
+- [x] **Cross-case comparison** — `research/coaching/process/coaching-cases-analysis.md`
   - Universality assessment: 11 universal, 5 context-dependent, 1 N/A, 1 likely universal
   - 30 total praxis principles (18 original + 12 new, deduplicated)
   - Session 3 emergence pattern confirmed across 3/4 cases
@@ -376,7 +376,7 @@ Run AI Coach through the chatbot design process (`chatbot-design/`)? Would produ
 
 ### Phase B — Ruy Reconstructs Setup Session ✅ COMPLETE (Feb 11, 2026)
 
-- [x] Guided recall with PAI — `research/coaching/analysis/ruy-setup-session-reconstruction.md`
+- [x] Guided recall with PAI — `research/coaching/process/ruy-setup-session-reconstruction.md`
   - Coachee-initiated (asked HR), no Reunion Cero, no diagnostic (special case)
   - Light process explanation, confidentiality discussed
   - Co-created 7-8 topic gap list (leadership, strategic conversations, identity/role)
@@ -384,7 +384,7 @@ Run AI Coach through the chatbot design process (`chatbot-design/`)? Would produ
 
 ### Phase B.2 — Setup Methodology Extraction from Cases ✅ COMPLETE (Feb 11, 2026)
 
-- [x] **Setup methodology analysis** — `research/coaching/analysis/setup-methodology-analysis.md`
+- [x] **Setup methodology analysis** — `research/coaching/process/setup-methodology-analysis.md`
   - Deep read of all 3 case PDFs with setup-specific extraction lens
   - Theory vs. practice gap documented: Reunion Cero absent from all cases, LSI debrief serves as functional gateway
   - Cross-case LSI debrief anatomy: 5-phase structure (biographical anchoring → self-assessment → item exploration → private framing → theme emergence)
@@ -459,18 +459,18 @@ Week 4:  Phase G (technical + prompt architecture)
 |------|---------------|-------|
 | `research/coaching/README.md` | Research narrative, file map, key findings, reading order | Orientation for anyone new to the research |
 | `research/coaching/axialent-coaching-handbook-summary.md` | 8-step session process, role plays, centering, receiving | Doc A §2 (Theory) |
-| `research/coaching/coaching-knowledge-framework.md` | 3-layer model, 14 design implications, praxis observations | Doc A §3 (Praxis) |
+| `research/coaching/process/coaching-knowledge-framework.md` | 3-layer model, 14 design implications, praxis observations | Doc A §3 (Praxis) |
 | `research/coaching/ai-coach-design-considerations.md` | Memory paradigms, open questions, architecture decisions | Doc B §4-5 |
 | `research/coaching/minimum-ai-coaching-for-te.md` | What's needed for HPT MVP vs. full vision | Doc B §4 |
-| `research/coaching/analysis/horacio-case-study-analysis.md` | 6-session case study (sessions 1-3 detailed) | Doc A §6.1 |
-| `research/coaching/analysis/horacio-intervention-setups.md` | Engagement types, setup structures | Doc A §4.1 |
-| `research/coaching/analysis/inter-session-architecture-analysis.md` | Opening mechanics, commitment cycle, topic threading, theory-praxis mapping, shared foundation + cross-case validation (Part 8) | Doc A §4, §5 + Doc B |
-| `research/coaching/analysis/caso1-inter-session-architecture-analysis.md` | CASO 1 full A.2 analysis: COACHEE1/EMPRESA1 (chemical company, 6+LSI sessions) — parallel tracks, safe space, behavioral substitution | Doc A §6.1 |
-| `research/coaching/analysis/caso2-inter-session-architecture-analysis.md` | CASO 2 full A.2 analysis: COACHEE2/EMPRESA2 (industrial, 6+LSI sessions) — horizontal graduation, ITC, mid-engagement drift | Doc A §6.1 |
-| `research/coaching/analysis/caso3-inter-session-architecture-analysis.md` | CASO 3 full A.2 analysis: COACHEE3/EMPRESA3 (supply chain, 6+LSI sessions) — role play, bache, reclamo | Doc A §6.1 |
-| `research/coaching/analysis/coaching-cases-analysis.md` | Cross-case comparison: universality table (30 principles), session arc comparison, coachee typology, 12 AI Coach design principles | Doc A §4-7 + Doc B |
-| `research/coaching/analysis/ruy-setup-session-reconstruction.md` | Ruy's Dec 17 setup session recall: origin, participants, gap list, deviations from standard framework, Phase C questions | Doc A §4.1 |
-| `research/coaching/analysis/setup-methodology-analysis.md` | Setup methodology extraction from 3 case PDFs: theory-vs-practice gap, LSI debrief anatomy, 10 setup praxis principles (SP-1 to SP-10), AI Coach pre-coaching flow design, refined Phase C questions | Doc A §4.1, Workstream 4 (pre-coaching prompt) |
+| `research/coaching/process/horacio-case-study-analysis.md` | 6-session case study (sessions 1-3 detailed) | Doc A §6.1 |
+| `research/coaching/process/horacio-intervention-setups.md` | Engagement types, setup structures | Doc A §4.1 |
+| `research/coaching/process/inter-session-architecture-analysis.md` | Opening mechanics, commitment cycle, topic threading, theory-praxis mapping, shared foundation + cross-case validation (Part 8) | Doc A §4, §5 + Doc B |
+| `research/coaching/process/caso1-inter-session-architecture-analysis.md` | CASO 1 full A.2 analysis: COACHEE1/EMPRESA1 (chemical company, 6+LSI sessions) — parallel tracks, safe space, behavioral substitution | Doc A §6.1 |
+| `research/coaching/process/caso2-inter-session-architecture-analysis.md` | CASO 2 full A.2 analysis: COACHEE2/EMPRESA2 (industrial, 6+LSI sessions) — horizontal graduation, ITC, mid-engagement drift | Doc A §6.1 |
+| `research/coaching/process/caso3-inter-session-architecture-analysis.md` | CASO 3 full A.2 analysis: COACHEE3/EMPRESA3 (supply chain, 6+LSI sessions) — role play, bache, reclamo | Doc A §6.1 |
+| `research/coaching/process/coaching-cases-analysis.md` | Cross-case comparison: universality table (30 principles), session arc comparison, coachee typology, 12 AI Coach design principles | Doc A §4-7 + Doc B |
+| `research/coaching/process/ruy-setup-session-reconstruction.md` | Ruy's Dec 17 setup session recall: origin, participants, gap list, deviations from standard framework, Phase C questions | Doc A §4.1 |
+| `research/coaching/process/setup-methodology-analysis.md` | Setup methodology extraction from 3 case PDFs: theory-vs-practice gap, LSI debrief anatomy, 10 setup praxis principles (SP-1 to SP-10), AI Coach pre-coaching flow design, refined Phase C questions | Doc A §4.1, Workstream 4 (pre-coaching prompt) |
 | `research/coaching/coaching-arc-synthesis.md` | **Doc A — The Coaching Arc.** Narrative synthesis of full coaching process from Meeting Zero through closing. 4 engagements, 40 praxis principles woven into the arc. | Doc B, Workstream 4 |
 
 ### Research Documents (Team Effectiveness — Shared Foundation)

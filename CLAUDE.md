@@ -2,9 +2,18 @@
 
 Instructions for Claude Code when working in this repository.
 
+## Spoke Repo — Life-OS Hub System
+
+This repo is a **spoke** in the life-os hub system. Life-OS (`~/Documents/life-os/`) is the hub where processing happens. This repo provides work execution context (team status, sprints, calls archive). Registered as the **"stoic"** domain in `~/Documents/life-os/domains.yaml`.
+
+- New call transcripts → drop in `life-os/calls/`, not here
+- Action items → land in `life-os/action-items-ruy-*.md`
+- Skills read context from this repo lazily via the domain registry
+- Sprint updates and team status may be routed back here by skills
+
 ## Project Context
 
-This is the **command center** for Conscious Insights / Stoic platform evolution. Ruy is acting as PM + CTO with a 3-month runway to prove product-market fit (PMF).
+This is the **work execution repo** for Conscious Insights / Stoic platform evolution. Ruy is acting as PM + CTO with a 3-month runway to prove product-market fit (PMF).
 
 **Key constraint:** Limited time, small team. Prioritize ruthlessly.
 
@@ -140,8 +149,7 @@ Coaching methodology research — the source material for AI Coach design. Appli
 |------|---------|
 | `sources/` | Primary methodology docs (AC Handbook, CB Workbook, Magic Cards, coaching cases) |
 | `interviews/` | Raw interview transcripts, organized by informant (e.g., `horacio-jan2026/`) |
-| `analysis/` | Case studies, intervention analysis, observations |
-| `coaching-knowledge-framework.md` | Master synthesis - three-layer framework consolidating all research |
+| `process/` | Intermediate analysis that fed Doc A (case studies, cross-case synthesis, observations) |
 | `ai-coach-design-considerations.md` | AI Coach architecture — memory, implementation paradigms, design questions |
 | `minimum-ai-coaching-for-te.md` | How AI Coach connects to Team Effectiveness — minimum coaching needed for HPT to work |
 

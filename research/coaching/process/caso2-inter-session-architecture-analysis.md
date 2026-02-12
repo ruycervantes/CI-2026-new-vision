@@ -441,4 +441,4 @@ When a coachee attributes success to luck rather than competence, the "outlier v
 
 *This analysis feeds directly into Doc A, Sections 4 (Engagement Lifecycle), 5 (Inter-Session Architecture), and 6 (Case Studies).*
 *Created as part of Phase A.2 of the AI Coach Spec Execution Plan.*
-*Companion document to: `research/coaching/analysis/inter-session-architecture-analysis.md` (Ruy's case).*
+*Companion document to: `research/coaching/process/inter-session-architecture-analysis.md` (Ruy's case).*
