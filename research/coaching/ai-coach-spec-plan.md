@@ -1,7 +1,7 @@
 # AI Coach Spec — Execution Plan
 
-*Created: Feb 9, 2026 | Updated: Feb 11, 2026 (Phase B.2 setup methodology extraction complete)*
-*Status: Phase A.2 + B + B.2 complete — 4 cases analyzed, 30 inter-session praxis principles + 10 setup praxis principles documented*
+*Created: Feb 9, 2026 | Updated: Feb 11, 2026 (Doc A initial draft complete)*
+*Status: Phases A.2 + B + B.2 + E (initial) complete — Doc A drafted, 40 praxis principles synthesized into coaching arc narrative*
 
 ---
 
@@ -410,11 +410,14 @@ Run AI Coach through the chatbot design process (`chatbot-design/`)? Would produ
 - [ ] Methodology validation
 - [ ] Beta testing follow-up
 
-### Phase E — Draft Doc A (PAI drafts, Ruy validates)
+### Phase E — Draft Doc A ✅ INITIAL DRAFT (Feb 11, 2026)
 
-- [ ] Write Doc A using outline above
-- [ ] Merge interview findings
-- [ ] Complete case studies
+- [x] **Doc A initial draft** — `research/coaching/coaching-arc-synthesis.md`
+  - Narrative synthesis of the full coaching arc (Meeting Zero → Sessions → Closing)
+  - 6 sections: What Coaching Is, Meeting Zero, Session Arc, Connective Tissue, Coach's Craft, Unknowns
+  - Praxis principles woven into the arc narrative (not cataloged separately)
+  - Pre-Phase C: Section 6 explicitly documents what the Horacio interview should clarify
+- [ ] Merge Phase C interview findings (pending interview)
 - [ ] Ruy reviews and finalizes
 
 ### Phase F — Draft Doc B (PAI drafts, Ruy validates)
@@ -468,6 +471,7 @@ Week 4:  Phase G (technical + prompt architecture)
 | `research/coaching/analysis/coaching-cases-analysis.md` | Cross-case comparison: universality table (30 principles), session arc comparison, coachee typology, 12 AI Coach design principles | Doc A §4-7 + Doc B |
 | `research/coaching/analysis/ruy-setup-session-reconstruction.md` | Ruy's Dec 17 setup session recall: origin, participants, gap list, deviations from standard framework, Phase C questions | Doc A §4.1 |
 | `research/coaching/analysis/setup-methodology-analysis.md` | Setup methodology extraction from 3 case PDFs: theory-vs-practice gap, LSI debrief anatomy, 10 setup praxis principles (SP-1 to SP-10), AI Coach pre-coaching flow design, refined Phase C questions | Doc A §4.1, Workstream 4 (pre-coaching prompt) |
+| `research/coaching/coaching-arc-synthesis.md` | **Doc A — The Coaching Arc.** Narrative synthesis of full coaching process from Meeting Zero through closing. 4 engagements, 40 praxis principles woven into the arc. | Doc B, Workstream 4 |
 
 ### Research Documents (Team Effectiveness — Shared Foundation)
 | File | Shared Foundation Content | Team-Specific Content |
@@ -516,4 +520,4 @@ Week 4:  Phase G (technical + prompt architecture)
 
 ---
 
-*Next step: Phase C — Interview Horacio (11 refined questions from setup analysis + existing topics) + Phase E — Draft Doc A skeleton (can start with available material)*
+*Next step: Phase C — Interview Horacio (questions from setup analysis + Doc A unknowns) → merge findings into Doc A → Phase F (Doc B — AI Coaching Design Synthesis)*

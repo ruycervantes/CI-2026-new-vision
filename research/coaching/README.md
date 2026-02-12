@@ -25,6 +25,7 @@ The "what are we building and why" layer.
 
 | File | Purpose | Feeds |
 |------|---------|-------|
+| `coaching-arc-synthesis.md` | **Doc A** — The coaching arc from Meeting Zero to closing. Narrative synthesis of methodology + praxis across 4 engagements | Doc B, Workstream 4 |
 | `ai-coach-spec-plan.md` | Execution roadmap — 4 workstreams, phases, asset inventory | Everything (master plan) |
 | `coaching-knowledge-framework.md` | Master synthesis — 3-layer model (methodology, praxis, product), 14 design implications | Doc A, Doc B |
 | `ai-coach-design-considerations.md` | Architecture decisions — memory paradigms, open questions | Doc B (AI design synthesis) |
@@ -99,9 +100,10 @@ Primary methodology documents and coaching case PDFs. These are the raw inputs t
 For someone new to this research:
 
 1. **This README** — orientation and file map
-2. **`ai-coach-spec-plan.md`** — the execution roadmap (what we're building and how)
-3. **`coaching-knowledge-framework.md`** — master synthesis (3-layer model, design implications)
+2. **`coaching-arc-synthesis.md`** — **START HERE.** The full coaching arc from Meeting Zero to closing, synthesized from 4 engagements. This is Doc A.
+3. **`ai-coach-spec-plan.md`** — the execution roadmap (what we're building and how)
 4. **`analysis/coaching-cases-analysis.md`** — cross-case findings (30 principles, universality, coachee types)
 5. **`analysis/inter-session-architecture-analysis.md`** — Ruy's case in detail (the most complete single-case analysis)
-6. Individual case analyses (`caso1-`, `caso2-`, `caso3-`) as needed
-7. **`axialent-coaching-handbook-summary.md`** — the formal methodology (theory layer)
+6. **`analysis/setup-methodology-analysis.md`** — LSI debrief anatomy and 10 setup praxis principles
+7. Individual case analyses (`caso1-`, `caso2-`, `caso3-`) as needed
+8. **`axialent-coaching-handbook-summary.md`** — the formal methodology (theory layer)
