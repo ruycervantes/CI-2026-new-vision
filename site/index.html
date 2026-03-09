@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Why We're Building This - Stoic</title>
+    <title>PLIA Teams — Product Thesis | Stoic</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,24 +14,22 @@
             --stoic-gray: #E6E6E6;
             --base-white: #FFFFFF;
             --black: #000000;
+            --text-secondary: #444;
+            --text-muted: #666;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Montserrat', sans-serif;
             font-size: 16px;
-            line-height: 1.7;
+            line-height: 1.75;
             color: var(--black);
             background: var(--base-white);
         }
 
-        /* Top Navigation */
-        .top-nav {
+        /* Top bar */
+        .top-bar {
             position: fixed;
             top: 0;
             left: 0;
@@ -45,38 +43,23 @@
             align-items: center;
         }
 
-        .top-nav .logo {
+        .top-bar .logo {
             font-family: 'Montserrat Alternates', sans-serif;
             font-weight: 700;
             font-size: 1.25rem;
         }
 
-        .top-nav .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .top-nav a {
-            color: var(--black);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-
-        .top-nav a:hover {
-            color: var(--stoic-red);
-        }
-
-        .top-nav a.active {
-            color: var(--stoic-red);
-            border-bottom: 2px solid var(--stoic-red);
-            padding-bottom: 2px;
+        .top-bar .doc-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
         }
 
         /* Hero */
         .hero {
             text-align: center;
-            padding: 8rem 2rem 5rem;
+            padding: 9rem 2rem 4rem;
             max-width: 800px;
             margin: 0 auto;
         }
@@ -85,251 +68,382 @@
             font-family: 'Montserrat Alternates', sans-serif;
             font-size: 3rem;
             font-weight: 800;
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.15;
         }
 
         .hero .subtitle {
             font-size: 1.1rem;
-            color: #666;
+            color: var(--text-muted);
             letter-spacing: 0.05em;
             text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        .hero .thesis-line {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 640px;
+            margin: 0 auto;
+            line-height: 1.7;
         }
 
         /* Sections */
-        .beat {
+        .section {
             padding: 5rem 2rem;
         }
 
-        .beat:nth-child(even) {
+        .section:nth-child(even) {
             background: #fafafa;
         }
 
-        .beat-inner {
+        .section-inner {
             max-width: 960px;
             margin: 0 auto;
         }
 
-        .beat h2 {
+        .section h2 {
             font-family: 'Montserrat Alternates', sans-serif;
             font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            border: none;
-            padding: 0;
-        }
-
-        .beat .tagline {
-            font-size: 1.15rem;
-            color: #444;
-            margin-bottom: 3rem;
-            max-width: 640px;
-        }
-
-        .beat.centered {
-            text-align: center;
-        }
-
-        .beat.centered .tagline {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* Three columns */
-        .three-cols {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .col-card {
-            background: var(--base-white);
-            border: 1px solid var(--stoic-gray);
-            border-radius: 10px;
-            padding: 2rem 1.5rem;
-            text-align: left;
-        }
-
-        .col-card h3 {
-            font-family: 'Montserrat Alternates', sans-serif;
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            color: var(--stoic-red);
-        }
-
-        .col-card p {
-            font-size: 0.95rem;
-            color: #444;
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        /* Comic strip image */
-        .hero-image {
-            margin: 2.5rem 0;
-            text-align: center;
-        }
-
-        .hero-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-        }
-
-        .hero-image .caption {
-            margin-top: 1rem;
-            font-size: 0.875rem;
-            color: #888;
-        }
-
-        .supporting-text {
-            max-width: 640px;
-            font-size: 1.05rem;
-            color: #444;
-            line-height: 1.7;
-        }
-
-        .beat.centered .supporting-text {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* Unlock layout: core box + arrow + two path cards */
-        .unlock-layout {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .core-box {
-            background: var(--stoic-yellow);
-            border-radius: 12px;
-            padding: 2.5rem 2rem;
-            flex: 0 0 280px;
-            text-align: center;
-        }
-
-        .core-box h3 {
-            font-family: 'Montserrat Alternates', sans-serif;
-            font-size: 1.25rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
         }
 
-        .core-box p {
-            font-size: 0.95rem;
-            margin: 0;
-            color: #333;
-        }
-
-        .arrow {
-            font-size: 2rem;
-            color: #bbb;
-            flex-shrink: 0;
-        }
-
-        .path-cards {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            flex: 1;
-        }
-
-        .path-card {
-            background: var(--stoic-gray);
-            border-left: 4px solid var(--stoic-red);
-            border-radius: 0 10px 10px 0;
-            padding: 1.5rem 1.75rem;
-        }
-
-        .path-card h4 {
+        .section h3 {
             font-family: 'Montserrat Alternates', sans-serif;
-            font-size: 1rem;
+            font-size: 1.25rem;
             font-weight: 700;
-            margin-bottom: 0.4rem;
             color: var(--stoic-red);
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
         }
 
-        .path-card p {
-            font-size: 0.95rem;
-            margin: 0;
-            color: #444;
+        .section .tagline {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 700px;
         }
 
-        /* Q1 proof items */
-        .proof-list {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 1.25rem;
-            max-width: 560px;
+        .section p {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.75;
+            margin-bottom: 1rem;
+            max-width: 700px;
+        }
+
+        .section .centered {
+            text-align: center;
+        }
+
+        .section .centered p,
+        .section .centered .tagline {
             margin-left: auto;
             margin-right: auto;
         }
 
-        .proof-list li {
+        /* Emphasis blocks */
+        .emphasis {
+            background: var(--stoic-yellow);
+            border-radius: 10px;
+            padding: 2rem 2.5rem;
+            margin: 2rem 0;
+            max-width: 700px;
+        }
+
+        .emphasis p {
+            color: var(--black);
+            font-weight: 600;
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        /* Pull quotes */
+        .pull-quote {
+            border-left: 4px solid var(--stoic-red);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            max-width: 700px;
+            background: #fafafa;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .pull-quote p {
+            font-style: italic;
+            color: #333;
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        /* Images */
+        .diagram {
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+
+        .diagram img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+        }
+
+        /* Cards */
+        .source-card {
             background: var(--base-white);
             border: 1px solid var(--stoic-gray);
             border-radius: 10px;
-            padding: 1.25rem 1.5rem;
-            font-size: 1.05rem;
-            margin: 0;
+            padding: 2rem 2rem;
+            margin-bottom: 1.5rem;
+            max-width: 700px;
         }
 
-        .proof-list li strong {
-            color: var(--stoic-red);
+        .source-card h3 {
+            margin-top: 0;
+        }
+
+        /* Coaching modes */
+        .coaching-modes {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin: 2rem 0;
+            max-width: 700px;
+        }
+
+        .coaching-mode {
+            background: var(--base-white);
+            border: 1px solid var(--stoic-gray);
+            border-left: 4px solid var(--stoic-red);
+            border-radius: 0 10px 10px 0;
+            padding: 1.25rem 1.5rem;
+        }
+
+        .coaching-mode strong {
+            font-family: 'Montserrat Alternates', sans-serif;
             display: block;
             margin-bottom: 0.25rem;
+            color: var(--stoic-red);
+            font-size: 0.95rem;
+        }
+
+        .coaching-mode .example {
+            font-style: italic;
+            color: #555;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Dashboard table */
+        .dashboard-table {
+            width: 100%;
+            max-width: 700px;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .dashboard-table th {
+            background: var(--black);
+            color: var(--base-white);
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+
+        .dashboard-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            color: var(--text-secondary);
+        }
+
+        .dashboard-table tr:nth-child(even) td {
+            background: #fafafa;
+        }
+
+        .status-yellow {
+            color: #b8860b;
+            font-weight: 600;
+        }
+
+        .status-green {
+            color: #2d8a4e;
+            font-weight: 600;
+        }
+
+        /* Trust principles */
+        .trust-principles {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            margin: 2rem 0;
+            max-width: 700px;
+        }
+
+        .trust-card {
+            background: var(--base-white);
+            border: 1px solid var(--stoic-gray);
+            border-radius: 10px;
+            padding: 1.75rem 2rem;
+        }
+
+        .trust-card h4 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--stoic-red);
+            margin-bottom: 0.5rem;
+        }
+
+        .trust-card p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        /* Three things list */
+        .three-things {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+            max-width: 700px;
+        }
+
+        .three-things li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--stoic-gray);
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .three-things li strong {
+            color: var(--stoic-red);
             font-family: 'Montserrat Alternates', sans-serif;
         }
 
-        /* CTA section */
-        .cta-section {
+        .three-things li:last-child {
+            border-bottom: none;
+        }
+
+        /* Scaling steps */
+        .scaling-steps {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            max-width: 700px;
+        }
+
+        .scaling-step {
+            flex: 1;
+            background: var(--base-white);
+            border: 1px solid var(--stoic-gray);
+            border-radius: 10px;
+            padding: 1.5rem;
+            position: relative;
+        }
+
+        .scaling-step .step-number {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 800;
+            font-size: 2rem;
+            color: var(--stoic-yellow);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .scaling-step h4 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .scaling-step p {
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        /* Industry comparison table */
+        .comparison-table {
+            width: 100%;
+            max-width: 700px;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .comparison-table th {
+            background: var(--stoic-gray);
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+
+        .comparison-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            color: var(--text-secondary);
+        }
+
+        .comparison-table tr:last-child td {
+            background: var(--stoic-yellow);
+            color: var(--black);
+            font-weight: 600;
+        }
+
+        /* Appendix */
+        .appendix {
+            background: #f5f5f5;
+            border-radius: 10px;
+            padding: 2rem 2.5rem;
+            margin: 1.5rem 0;
+            max-width: 700px;
+        }
+
+        .appendix h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+
+        .appendix p {
+            font-size: 0.95rem;
+        }
+
+        .appendix ul {
+            padding-left: 1.25rem;
+            margin: 0.5rem 0;
+        }
+
+        .appendix ul li {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+        }
+
+        /* CTA footer */
+        .cta-footer {
             text-align: center;
             padding: 5rem 2rem;
             background: var(--black);
             color: var(--base-white);
         }
 
-        .cta-section h2 {
+        .cta-footer h2 {
             font-family: 'Montserrat Alternates', sans-serif;
             font-size: 1.75rem;
             font-weight: 700;
-            margin-bottom: 2rem;
             color: var(--base-white);
-            border: none;
-            padding: 0;
+            margin-bottom: 1rem;
         }
 
-        .cta-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
+        .cta-footer p {
+            color: #aaa;
+            max-width: 500px;
+            margin: 0 auto;
         }
 
-        .cta-buttons a {
-            background: var(--stoic-yellow);
-            color: var(--black);
-            padding: 0.875rem 2rem;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.2s;
-        }
-
-        .cta-buttons a:hover {
-            background: var(--base-white);
-            color: var(--black);
-        }
-
-        /* Footer */
         footer {
             text-align: center;
             padding: 2rem;
@@ -339,179 +453,435 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .hero {
-                padding: 6rem 1.5rem 3rem;
-            }
-
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .beat {
-                padding: 3rem 1.5rem;
-            }
-
-            .three-cols {
-                grid-template-columns: 1fr;
-            }
-
-            .unlock-layout {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .core-box {
-                flex: none;
-            }
-
-            .arrow {
-                text-align: center;
-                transform: rotate(90deg);
-            }
-
-            .top-nav .nav-links {
-                gap: 1rem;
-                font-size: 0.875rem;
-            }
-
-            .cta-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
+            .hero { padding: 7rem 1.5rem 3rem; }
+            .hero h1 { font-size: 2rem; }
+            .section { padding: 3rem 1.5rem; }
+            .section h2 { font-size: 1.5rem; }
+            .scaling-steps { flex-direction: column; }
+            .emphasis { padding: 1.5rem; }
+            .top-bar .doc-label { display: none; }
         }
 
-        /* Print styles */
         @media print {
-            .top-nav {
-                display: none;
-            }
-
-            .hero {
-                padding-top: 2rem;
-            }
+            .top-bar { display: none; }
+            .hero { padding-top: 2rem; }
+            .section { padding: 2rem 0; }
         }
     </style>
 </head>
 <body>
-    <nav class="top-nav">
+    <nav class="top-bar">
         <div class="logo">Stoic</div>
-        <div class="nav-links">
-            <a href="index.html" class="active">Why</a>
-            <a href="vision.html">Vision</a>
-            <a href="roadmap.html">Roadmap</a>
-            <a href="alignment.html">Alignment</a>
-        </div>
+        <div class="doc-label">Product Thesis &mdash; March 2026</div>
     </nav>
 
     <!-- Hero -->
     <header class="hero">
-        <h1>Why We're Building This</h1>
-        <p class="subtitle">Stoic &mdash; January 2026</p>
+        <h1>PLIA Teams</h1>
+        <p class="subtitle">Product Thesis v2 &mdash; March 6, 2026</p>
+        <p class="thesis-line">The HPT process made teams stop threatening to kill each other and start functioning. Our product makes that accessible for the first time &mdash; AI does the heavy lifting, one consultant covers all productions.</p>
     </header>
 
-    <!-- Beat 1: Why We Exist -->
-    <section class="beat centered">
-        <div class="beat-inner">
-            <h2>Why We Exist</h2>
-            <p class="tagline">Coaching doesn't scale. Behavior change apps don't work. We're building the bridge.</p>
+    <!-- 1. What We're Doing -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>1. What We're Doing</h2>
+            <p class="tagline">Making the HPT process accessible for the first time.</p>
 
-            <div class="three-cols">
-                <div class="col-card">
-                    <h3>Coaching Today</h3>
-                    <p>Powerful but expensive. One coach, one person, no scale.</p>
-                </div>
-                <div class="col-card">
-                    <h3>Apps Today</h3>
-                    <p>They track habits. They count streaks. They don't help you actually change.</p>
-                </div>
-                <div class="col-card">
-                    <h3>What's Missing</h3>
-                    <p>A system that remembers your journey, adapts when you struggle, and connects daily actions to who you want to become.</p>
-                </div>
+            <p>When Valentin and Anabel ran the HPT process with production crews, people stopped threatening to kill each other and started functioning as a team. That happened. But Sara doesn't have Valentin and Anabel in any of her seven productions. She has nothing.</p>
+
+            <p>The full HPT process requires a consultant embedded in each production &mdash; too expensive, too intrusive, too disruptive for a running crew. So Sara gets zero coverage of the human layer. No early warning. No team alignment. Nobody watching whether people are working the way they agreed to. She finds out about problems when they become crises.</p>
+
+            <div class="emphasis">
+                <p>Our product makes the HPT process accessible for the first time. The AI does the heavy lifting &mdash; onboarding prep, private coaching, monitoring, nudges. One consultant covers all productions.</p>
+            </div>
+
+            <p>The cost is a fraction of embedding a consultant per production. The intrusion is minimal &mdash; people talk to the AI on their phone.</p>
+
+            <div class="pull-quote">
+                <p>The unit of transformation is the conversation. Everything we build exists to make conversations better, more frequent, or more grounded in reality.</p>
             </div>
         </div>
     </section>
 
-    <!-- Beat 2: What We're Building -->
-    <section class="beat centered">
-        <div class="beat-inner">
-            <h2>What We're Building</h2>
-            <p class="tagline">An AI coach with memory that owns the entire behavior change cycle.</p>
+    <!-- 2. Four Sources of Intelligence -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>2. The Four Sources of Intelligence</h2>
+            <p class="tagline">The product's intelligence comes from four sources that build on each other.</p>
 
-            <div class="hero-image">
-                <img src="diagrams/gps-dashboard-comic-strip.png" alt="The experience: reminded of what matters, sees progress, acts with intention">
-                <p class="caption">The experience: reminded of what matters, sees progress, acts with intention</p>
+            <div class="diagram">
+                <img src="diagrams/plia-teams-01-four-sources.png" alt="Four Sources of Intelligence">
             </div>
 
-            <p class="supporting-text">Not a chatbot. A system that knows where you started, what you're working on, where you've struggled, and what's next &mdash; and uses all of that to guide you.</p>
+            <div class="source-card">
+                <h3>Source 1: The Ontology</h3>
+                <p>An embedded consultant-engineer seeds the organizational context before any team touches the system &mdash; what iZen is, how productions work, typical failure patterns, when risks cluster, and 20+ years of Axialent methodology structured into the system's architecture.</p>
+                <p>The ontology includes cross-production lessons: "scene approval bypasses happen in month 1", "dual-unit syncs drop off in week 3-4", "in Cacao y Compania, adding a budget-check gate resolved it in a week."</p>
+
+                <div class="pull-quote">
+                    <p>The learning doesn't live in a report nobody reads. It lives inside the conversation where it matters.</p>
+                </div>
+
+                <div class="diagram">
+                    <img src="diagrams/plia-teams-05-cross-production-learning.png" alt="Cross-Production Learning">
+                </div>
+
+                <p>The ontology compounds. Every production adds to it. By the 10th production, the system has organizational memory that no individual consultant could carry alone.</p>
+            </div>
+
+            <div class="source-card">
+                <h3>Source 2: The Team Agreement</h3>
+                <p>Before the team meets, the AI does the prep work &mdash; individual conversations with each person, async, on their phone:</p>
+                <div class="pull-quote">
+                    <p>"You're the production designer on Alfonso el Sabio. What do you need to do your best work?"</p>
+                </div>
+                <div class="pull-quote">
+                    <p>"In 3 of the last 5 productions, scene changes hit art departments without budget approval. How should your team handle that?"</p>
+                </div>
+                <div class="pull-quote">
+                    <p>"What does 'yes' mean when someone commits your department to something?"</p>
+                </div>
+                <p>The human consultant walks into the onboarding session already informed &mdash; they know what everyone said, where the tensions are, what the ontology flagged. One consultant, seven productions &mdash; because the AI did the groundwork.</p>
+                <p>The result is a living team agreement in the team's own words. It becomes the AI's baseline: when it observes drift, it measures against what this team said, not generic best practices.</p>
+            </div>
+
+            <div class="source-card">
+                <h3>Source 3: PLIA Operational Data</h3>
+                <p>PLIA already runs 80-100 AI agents processing schedule, budget, logistics, and script data. That operational layer becomes the intelligence multiplier &mdash; without building anything new. Schedule/budget mismatches, cascade risks, department workload, communication pattern shifts &mdash; all already tracked, now interpreted through the human-coordination lens.</p>
+            </div>
+
+            <div class="source-card">
+                <h3>Source 4: Coaching + Pulse</h3>
+                <p>What individuals share privately &mdash; reflections, pulse check-ins, coaching conversations &mdash; feeds back into the system's intelligence. Elena flagged "prep time" in week 2; two weeks later, her department is at 94% with a new scene landing. The nudge isn't a cold alert &mdash; it's informed by what she herself said.</p>
+                <p>This source is strictly private at the individual level. Only anonymous aggregates reach the dashboard.</p>
+            </div>
+
+            <div class="emphasis">
+                <p>No single source is sufficient. The ontology without team agreements is generic. Team agreements without operational data can't detect consequences. Operational data without the ontology can't interpret what a schedule gap means for this team. Coaching without the other three is just a chatbot asking "how are you?"</p>
+            </div>
         </div>
     </section>
 
-    <!-- Beat 3: Why This Unlocks Everything -->
-    <section class="beat">
-        <div class="beat-inner">
-            <h2>Why This Unlocks Everything</h2>
-            <p class="tagline">The AI Coach with memory is the core engine. Once it works, it powers two design spaces.</p>
+    <!-- 3. What the User Experiences -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>3. What the User Experiences</h2>
+            <p class="tagline">The user never sees the ontology, the data layer, or the agreement structure. They experience a private coach and a dashboard.</p>
 
-            <div class="unlock-layout">
-                <div class="core-box">
-                    <h3>AI Coach with Memory</h3>
-                    <p>Multi-session coaching that remembers your journey and adapts over time</p>
+            <h3>The Private Coach</h3>
+
+            <div class="diagram">
+                <img src="diagrams/plia-teams-08-onboarding-conversation.png" alt="The Onboarding Conversation">
+            </div>
+
+            <p>The coaching starts before day one &mdash; the AI's onboarding prep is the first coaching interaction. From there, the system continues in five modes:</p>
+
+            <div class="coaching-modes">
+                <div class="coaching-mode">
+                    <strong>Onboarding Prep</strong>
+                    The AI learns what matters to you, while surfacing what the organization has learned.
+                    <div class="example">"You're the production designer on Alfonso el Sabio. In 3 of the last 5 productions, scene changes hit art departments without budget approval. How should your team handle that?"</div>
                 </div>
-
-                <div class="arrow">&rarr;</div>
-
-                <div class="path-cards">
-                    <div class="path-card">
-                        <h4>Leadership Development</h4>
-                        <p>Individual behavior change at scale. The product we're building now.</p>
-                    </div>
-                    <div class="path-card">
-                        <h4>Team Effectiveness</h4>
-                        <p>Team-level coaching that works because individuals are actually growing.</p>
-                    </div>
+                <div class="coaching-mode">
+                    <strong>Agreement Check-ins</strong>
+                    The team's own words reflected back.
+                    <div class="example">"Your team agreed: 'flag issues early &mdash; a problem shared in week 2 is a conversation, in week 6 it's a crisis.' You're in week 3. Anything worth flagging?"</div>
+                </div>
+                <div class="coaching-mode">
+                    <strong>Reflection-based</strong>
+                    From self-reported pulse data over time.
+                    <div class="example">"You've said 'rushed' twice in three weeks. What's driving that?"</div>
+                </div>
+                <div class="coaching-mode">
+                    <strong>Milestone</strong>
+                    At natural transition points.
+                    <div class="example">"You're halfway through principal photography. What's working? What needs to change for the back half?"</div>
+                </div>
+                <div class="coaching-mode">
+                    <strong>Workload-aware</strong>
+                    From operational data, delivered privately.
+                    <div class="example">"Your department is at 94% allocation with 3 new requests in the queue. No days off in 12 days. Is this sustainable, or do you need to raise it?"</div>
                 </div>
             </div>
 
-            <p class="supporting-text" style="margin-top: 2.5rem;">We're not choosing between these markets &mdash; we're building the foundation that makes both possible.</p>
+            <div class="diagram">
+                <img src="diagrams/plia-teams-10-coaching-mirror.png" alt="The Coaching Mirror">
+            </div>
+
+            <p>The coach remembers what you said, notices patterns in your own reflections, and asks one question. Then it waits.</p>
+
+            <div class="diagram">
+                <img src="diagrams/plia-teams-06-elena-nudge.png" alt="Elena receives a private coaching nudge">
+            </div>
+
+            <h3>Sara's Dashboard</h3>
+
+            <p>Sara runs multiple productions. She can't be in every room. Her dashboard shows her where to pay attention &mdash; consequences and patterns, never individual behavior.</p>
+
+            <div class="diagram">
+                <img src="diagrams/plia-teams-09-sara-dashboard.png" alt="Sara's 5-Minute Scan">
+            </div>
+
+            <table class="dashboard-table">
+                <thead>
+                    <tr>
+                        <th>Production</th>
+                        <th>Status</th>
+                        <th>Key Signal</th>
+                        <th>Days Open</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alfonso el Sabio</td>
+                        <td class="status-yellow">Yellow</td>
+                        <td>Schedule/budget gap: scriptorium scene. Unit sync inactive.</td>
+                        <td>8 / 11</td>
+                    </tr>
+                    <tr>
+                        <td>Cacao y Compania</td>
+                        <td class="status-yellow">Yellow</td>
+                        <td>Overdue: location permits.</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CAPA Docuseries</td>
+                        <td class="status-green">Green</td>
+                        <td>Clean.</td>
+                        <td>&mdash;</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="pull-quote">
+                <p>Pattern alert: "Scene approval bypasses in 2 of 3 productions &mdash; may indicate systemic gap in approval process across iZen."</p>
+            </div>
+
+            <p>What Sara doesn't see: who caused it, who was coached, who said what in their pulse, who ignored a nudge. She sees consequences and patterns. People, not the system, decide what to do about them.</p>
+
+            <p>The line producer gets the same data at daily-operations altitude. The consultant gets an intervention map. Same signals, three views.</p>
         </div>
     </section>
 
-    <!-- Beat 4: What We're Proving in Q1 -->
-    <section class="beat centered">
-        <div class="beat-inner">
-            <h2>What We're Proving in Q1</h2>
-            <p class="tagline">Three things that validate the bet.</p>
+    <!-- 4. Trust Architecture -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>4. The Trust Architecture</h2>
+            <p class="tagline">The product dies if people feel watched.</p>
 
-            <ul class="proof-list">
-                <li>
-                    <strong>Multi-session Coach</strong>
-                    The AI remembers and builds on past conversations
-                </li>
-                <li>
-                    <strong>MS Teams Integration</strong>
-                    Reach people where they already work
-                </li>
-                <li>
-                    <strong>The Full Cycle</strong>
-                    Goal-setting to daily practice to adjustment, end to end
-                </li>
+            <div class="diagram">
+                <img src="diagrams/plia-teams-03-trust-architecture.png" alt="The Trust Architecture">
+            </div>
+
+            <div class="trust-principles">
+                <div class="trust-card">
+                    <h4>The individual always knows first</h4>
+                    <p>If the system notices something about your behavior, it tells you before anyone else. Marcos is bypassing the approval process? Marcos gets the private nudge. If he doesn't act, the consequence &mdash; an unapproved scene on the schedule &mdash; surfaces on the dashboard. Not his behavior.</p>
+                </div>
+                <div class="trust-card">
+                    <h4>Coaching is private. Always.</h4>
+                    <p>Your conversations, reflections, and pulse responses belong to you. Management never sees individual coaching data. The wall is technical, not policy.</p>
+                </div>
+                <div class="trust-card">
+                    <h4>Aggregation is anonymous</h4>
+                    <p>Management sees "art department energy dropped from 8 to 5" &mdash; not "Elena said 5." The dashboard surfaces patterns, never names.</p>
+                </div>
+            </div>
+
+            <div class="diagram">
+                <img src="diagrams/plia-teams-02-two-layers.png" alt="Two Layers, One System">
+            </div>
+
+            <p>The onboarding conversation is also the transparency conversation. Spoken out loud, as a team: here's what the system observes, here's what it never does. Not new access. New interpretation.</p>
+        </div>
+    </section>
+
+    <!-- 5. We Don't Act -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>5. We Don't Act</h2>
+            <p class="tagline">PLIA agents do work &mdash; order props, track budgets, resolve logistics. PLIA Teams does nothing tangible. It holds up a mirror.</p>
+
+            <ul class="three-things">
+                <li><strong>Remembers</strong> what you agreed to &mdash; when you've forgotten or drifted</li>
+                <li><strong>Reflects</strong> patterns you can't see from inside</li>
+                <li><strong>Asks</strong> one question, privately, that you can ignore</li>
             </ul>
+
+            <p>It never acts. It never escalates without your knowledge. It never does the hard conversation for you. The hard conversation is still hard. The system just makes it harder to avoid.</p>
+
+            <div class="emphasis">
+                <p>"We don't fix teams. We make it easier for teams to fix themselves &mdash; and harder to pretend everything's fine."</p>
+            </div>
+
+            <div class="pull-quote">
+                <p>"You don't have to remember. We remind you, structurally."</p>
+            </div>
         </div>
     </section>
 
-    <!-- CTA: Read More -->
-    <section class="cta-section">
-        <h2>Read More</h2>
-        <div class="cta-buttons">
-            <a href="vision.html">Full Vision</a>
-            <a href="roadmap.html">Roadmap</a>
-            <a href="alignment.html">Alignment</a>
+    <!-- 6. The PLIA Stack -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>6. The PLIA Stack</h2>
+            <p class="tagline">A human-coordination layer on top of what PLIA already built.</p>
+
+            <div class="diagram">
+                <img src="diagrams/plia-teams-04-plia-stack.png" alt="The PLIA Stack">
+            </div>
+
+            <p>PLIA's operational layer already processes schedule, budget, logistics, and script data. PLIA Teams adds a human-coordination layer: the ontology, team agreements, coaching history, and pulse signals.</p>
+
+            <p>This is new data &mdash; but it's lightweight to capture. People tell the system things through conversations, not forms. The ontology is seeded once per client by the consultant-engineer. The heavy infrastructure is what PLIA already built.</p>
+
+            <div class="emphasis">
+                <p>The real value: operational data that already exists gets reinterpreted through the human-coordination lens. "Unbudgeted scene on schedule" is an operational fact. Seen through the ontology and the team agreement, it becomes a signal that matters for people, not just logistics.</p>
+            </div>
         </div>
+    </section>
+
+    <!-- 7. Scaling -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>7. Scaling</h2>
+            <p class="tagline">Today Sara has zero coverage of the human layer. With PLIA Teams, one consultant covers all seven productions.</p>
+
+            <p>The consultant:</p>
+            <ul class="three-things">
+                <li><strong>Seeds the ontology</strong> once per client, refines it per production</li>
+                <li><strong>Reviews AI-prepared onboarding</strong> syntheses, shows up for kickoffs</li>
+                <li><strong>Monitors the dashboard</strong> across all productions &mdash; intervenes where it matters</li>
+                <li><strong>Does the hard conversations</strong> in person when the system flags something the AI can't handle</li>
+            </ul>
+
+            <p>The AI does the daily work &mdash; coaching, nudges, pulse, drift detection. The consultant does the judgment calls. Neither replaces the other.</p>
+
+            <h3>Build Sequencing</h3>
+
+            <div class="scaling-steps">
+                <div class="scaling-step">
+                    <span class="step-number">1</span>
+                    <h4>Onboarding + Coaching</h4>
+                    <p>AI-prepared onboarding + private coaching &mdash; immediate value, no infrastructure dependency</p>
+                </div>
+                <div class="scaling-step">
+                    <span class="step-number">2</span>
+                    <h4>Pulse + Process Health</h4>
+                    <p>Lightweight signals feeding coaching and dashboard</p>
+                </div>
+                <div class="scaling-step">
+                    <span class="step-number">3</span>
+                    <h4>PLIA Data Integration</h4>
+                    <p>Operational risk on Sara's dashboard</p>
+                </div>
+            </div>
+
+            <div class="pull-quote">
+                <p>Step 1 works on day one with zero PLIA integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Beyond Production -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>8. Beyond Production</h2>
+            <p class="tagline">Every industry where teams coordinate complex work has the same pattern.</p>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Film Production</th>
+                        <th>Software</th>
+                        <th>Consulting</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>What needs to be done</td>
+                        <td>Scripts</td>
+                        <td>PRDs / specs</td>
+                        <td>SOWs / scopes</td>
+                    </tr>
+                    <tr>
+                        <td>Who does what when</td>
+                        <td>Movie Magic</td>
+                        <td>Jira / Linear</td>
+                        <td>Deliverable trackers</td>
+                    </tr>
+                    <tr>
+                        <td>Resources</td>
+                        <td>Movie Magic Budget</td>
+                        <td>Roadmaps</td>
+                        <td>Time tracking</td>
+                    </tr>
+                    <tr>
+                        <td>Where people talk</td>
+                        <td>Google Chat</td>
+                        <td>Slack / Teams</td>
+                        <td>Email / Teams</td>
+                    </tr>
+                    <tr>
+                        <td>What's missing</td>
+                        <td>The human layer</td>
+                        <td>The human layer</td>
+                        <td>The human layer</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Production is where we start &mdash; because PLIA gives us the data layer and Axialent gives us the methodology. The team agreement, the coaching, the pulse signals, and the trust architecture are industry-agnostic.</p>
+
+            <div class="emphasis">
+                <p>Sara couldn't afford this before. Now she can &mdash; and every production makes the next one smarter.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appendices -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>Appendices</h2>
+
+            <div class="appendix">
+                <h3>A. Grudin's Law &mdash; The Design Constraint</h3>
+                <p>Jonathan Grudin's finding: if the people doing the work don't get direct personal benefit, they won't use the system. This is the single most common cause of death for team collaboration tools.</p>
+                <p>Our constraint: every interaction must give the person doing it something they want. The team-level intelligence is a byproduct of individuals getting value &mdash; never the other way around.</p>
+            </div>
+
+            <div class="appendix">
+                <h3>B. What This Is Not</h3>
+                <ul>
+                    <li><strong>Not a dashboard company.</strong> Dashboards inform conversations. They don't replace them.</li>
+                    <li><strong>Not a personal AI.</strong> That's being commoditized. We're the team layer your personal AI can't do alone.</li>
+                    <li><strong>Not a surveillance tool.</strong> Consequences and patterns surface. People don't.</li>
+                </ul>
+            </div>
+
+            <div class="appendix">
+                <h3>C. Future Enhancement &mdash; The Commitment Network</h3>
+                <p>The product works without commitment extraction. It becomes a future intelligence upgrade that adds:</p>
+                <ul>
+                    <li><strong>Specificity</strong> &mdash; not just "unbudgeted scene" but "Marcos committed Elena without her knowing"</li>
+                    <li><strong>Sharper coaching</strong> &mdash; patterns across extracted commitments</li>
+                    <li><strong>Propagation tracking</strong> &mdash; how assumptions harden into scheduled work</li>
+                    <li><strong>Bilateral validation</strong> &mdash; did both sides confirm the same understanding?</li>
+                </ul>
+                <p>Start without it. Add it when real usage data tells you where it adds the most value.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="cta-footer">
+        <h2>PLIA Teams</h2>
+        <p>The team layer your personal AI can't do alone.</p>
     </section>
 
     <footer>
-        <p>January 2026</p>
+        <p>Stoic &mdash; March 2026</p>
     </footer>
 </body>
 </html>
