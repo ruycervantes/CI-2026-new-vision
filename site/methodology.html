@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Effectiveness Methodology &mdash; Reference Document | Stoic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --stoic-yellow: #FFD500;
+            --stoic-red: #C9332B;
+            --stoic-gray: #E6E6E6;
+            --base-white: #FFFFFF;
+            --black: #000000;
+            --text-secondary: #444;
+            --text-muted: #666;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.75;
+            color: var(--black);
+            background: var(--base-white);
+        }
+
+        /* Top bar */
+        .top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--base-white);
+            border-bottom: 3px solid var(--stoic-yellow);
+            padding: 1rem 2rem;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar .logo {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .top-bar .doc-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .top-bar .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .top-bar .back-link {
+            font-size: 0.85rem;
+            color: var(--stoic-red);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .top-bar .back-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 9rem 2rem 4rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+            line-height: 1.15;
+        }
+
+        .hero .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        .hero .thesis-line {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 640px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* Sections */
+        .section {
+            padding: 5rem 2rem;
+        }
+
+        .section:nth-child(even) {
+            background: #fafafa;
+        }
+
+        .section-inner {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .section h2 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .section h3 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--stoic-red);
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .section h4 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .section .tagline {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 700px;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.75;
+            margin-bottom: 1rem;
+            max-width: 700px;
+        }
+
+        .section ul, .section ol {
+            max-width: 700px;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        .section li {
+            margin-bottom: 0.4rem;
+            line-height: 1.7;
+        }
+
+        /* Emphasis blocks */
+        .emphasis {
+            background: var(--stoic-yellow);
+            border-radius: 10px;
+            padding: 2rem 2.5rem;
+            margin: 2rem 0;
+            max-width: 700px;
+        }
+
+        .emphasis p {
+            color: var(--black);
+            font-weight: 600;
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        /* Pull quotes */
+        .pull-quote {
+            border-left: 4px solid var(--stoic-red);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            max-width: 700px;
+            background: #fafafa;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .pull-quote p {
+            font-style: italic;
+            color: #333;
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .pull-quote .attribution {
+            font-style: normal;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            display: block;
+        }
+
+        /* Cards */
+        .source-card {
+            background: var(--base-white);
+            border: 1px solid var(--stoic-gray);
+            border-radius: 10px;
+            padding: 2rem 2rem;
+            margin-bottom: 1.5rem;
+            max-width: 700px;
+        }
+
+        .source-card h3 {
+            margin-top: 0;
+        }
+
+        /* Dashboard table */
+        .dashboard-table {
+            width: 100%;
+            max-width: 700px;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .dashboard-table th {
+            background: var(--black);
+            color: var(--base-white);
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+
+        .dashboard-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            color: var(--text-secondary);
+        }
+
+        .dashboard-table tr:nth-child(even) td {
+            background: #fafafa;
+        }
+
+        /* Comparison table */
+        .comparison-table {
+            width: 100%;
+            max-width: 700px;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        .comparison-table th {
+            background: var(--stoic-gray);
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+
+        .comparison-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            color: var(--text-secondary);
+        }
+
+        /* Appendix */
+        .appendix {
+            background: #f5f5f5;
+            border-radius: 10px;
+            padding: 2rem 2.5rem;
+            margin: 1.5rem 0;
+            max-width: 700px;
+        }
+
+        .appendix h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+
+        .appendix p {
+            font-size: 0.95rem;
+        }
+
+        .appendix ul {
+            padding-left: 1.25rem;
+            margin: 0.5rem 0;
+        }
+
+        .appendix ul li {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+        }
+
+        /* Three things list */
+        .three-things {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+            max-width: 700px;
+        }
+
+        .three-things li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--stoic-gray);
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .three-things li strong {
+            color: var(--stoic-red);
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+
+        .three-things li:last-child {
+            border-bottom: none;
+        }
+
+        /* Pre/code blocks */
+        pre {
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding: 1.5rem 2rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            max-width: 700px;
+            overflow-x: auto;
+            font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        /* CTA footer */
+        .cta-footer {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: var(--black);
+            color: var(--base-white);
+        }
+
+        .cta-footer h2 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--base-white);
+            margin-bottom: 1rem;
+        }
+
+        .cta-footer p {
+            color: #aaa;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .cta-footer a {
+            color: var(--stoic-yellow);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .cta-footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #888;
+            font-size: 0.875rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero { padding: 7rem 1.5rem 3rem; }
+            .hero h1 { font-size: 2rem; }
+            .section { padding: 3rem 1.5rem; }
+            .section h2 { font-size: 1.5rem; }
+            .emphasis { padding: 1.5rem; }
+            .top-bar .doc-label { display: none; }
+            pre { padding: 1rem; font-size: 0.75rem; }
+        }
+
+        @media print {
+            .top-bar { display: none; }
+            .hero { padding-top: 2rem; }
+            .section { padding: 2rem 0; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-bar">
+        <div class="logo">Stoic</div>
+        <div class="nav-links">
+            <a href="index.html" class="back-link">&larr; Back to Product Thesis</a>
+            <div class="doc-label">Research Methodology</div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <h1>Team Effectiveness Methodology</h1>
+        <p class="subtitle">Reference Document</p>
+        <p class="thesis-line">Detailed frameworks, assessments, and source-by-source notes for team effectiveness methodology. Sources: Richi, Dolo, Horacio, Oseas &mdash; January 2026.</p>
+    </header>
+
+    <!-- Frameworks by Source -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>Frameworks by Source</h2>
+            <p class="tagline">Four consultants, four perspectives on the same methodology. Each brings unique emphasis and language.</p>
+
+            <!-- Richi -->
+            <div class="source-card">
+                <h3>Richi (22 Jan 2026)</h3>
+
+                <h4>Three Dimensions (I / Wi / It)</h4>
+                <p>The "TO" of any gap should cover all three dimensions to create intrinsic motivation.</p>
+
+                <table class="dashboard-table">
+                    <thead>
+                        <tr><th>Dimension</th><th>What it means</th><th>Key indicators</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>I</strong> (Individual)</td><td>Person is inspired by the project, feels it's what they need</td><td>Engagement, career fit, thriving, development, meaning in work</td></tr>
+                        <tr><td><strong>Wi</strong> (We)</td><td>High trust, psychological safety, no undiscussables</td><td>People talk about everything openly, trust exists, hard conversations happen</td></tr>
+                        <tr><td><strong>It</strong> (Purpose)</td><td>Team has its own purpose beyond company mission</td><td>Unique contribution, reason to exist, team delivers business results</td></tr>
+                    </tbody>
+                </table>
+
+                <div class="emphasis">
+                    <p>A team that only hits results (It) but burns people out (I) or has toxic dynamics (Wi) is not truly effective. Effectiveness means success on all three dimensions.</p>
+                </div>
+
+                <h4>Three Intervention Tracks</h4>
+
+                <table class="dashboard-table">
+                    <thead>
+                        <tr><th>Track</th><th>Foreground</th><th>Background</th><th>Purpose</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Offsites</strong></td><td>Philosophy, principles, skills</td><td>Business context</td><td>Learn frameworks using real business conversations</td></tr>
+                        <tr><td><strong>Meeting Facilitation</strong></td><td>Business</td><td>Philosophy</td><td>Catch behaviors in flow of work, help honor what they said they wanted</td></tr>
+                        <tr><td><strong>Individual Coaching</strong></td><td>Person</td><td>Team context</td><td>Build individual skills that enable collective interdependence</td></tr>
+                    </tbody>
+                </table>
+
+                <p><strong>Richi's language:</strong> Foreground/background flip. In offsites, philosophy is foreground. In facilitation, business is foreground and philosophy becomes the lens.</p>
+
+                <h4>Teams as Culture Cells</h4>
+                <ul>
+                    <li>Teams (especially leadership teams) are fundamental cells for culture</li>
+                    <li>Culture = "how people have to think and act to belong to the group"</li>
+                    <li>Leaders' behavior sends the strongest messages about culture</li>
+                    <li>Don't announce rules &rarr; model behaviors first, let people ask "what's different?"</li>
+                </ul>
+            </div>
+
+            <!-- Dolo -->
+            <div class="source-card">
+                <h3>Dolo (21 Jan 2026)</h3>
+
+                <h4>HPT = Component Assembly</h4>
+                <p>Key insight: HPT is NOT a separate methodology. It's the assembly of coaching (same handbook as Leadership Development), teaching/workshops (same playbook), and facilitation (unique skill &mdash; Skilled Facilitator framework).</p>
+
+                <div class="pull-quote">
+                    <p>"La parte de skill building es la misma... ten&eacute;s que mirarlo distinto, por eso ten&eacute;s que entender el framework con el que lo est&aacute;s mirando."</p>
+                    <span class="attribution">&mdash; Dolo</span>
+                </div>
+
+                <h4>Four-Phase Process</h4>
+
+                <table class="dashboard-table">
+                    <thead>
+                        <tr><th>Phase</th><th>What happens</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Context</strong></td><td>Understand team configuration, objectives, success criteria</td></tr>
+                        <tr><td><strong>Diagnostic</strong></td><td>Team assessment (Lencioni/Katzenbach) + Individual assessment (DISC/LSI/LI)</td></tr>
+                        <tr><td><strong>Interventions</strong></td><td>Workshops, meeting facilitation, group coaching, individual coaching</td></tr>
+                        <tr><td><strong>Tracking</strong></td><td>Self-report, leader conversations, periodic re-measurement</td></tr>
+                    </tbody>
+                </table>
+
+                <h4>Assessment Frameworks</h4>
+
+                <table class="dashboard-table">
+                    <thead>
+                        <tr><th>Framework</th><th>Level</th><th>What it measures</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Lencioni (5 Dysfunctions)</strong></td><td>Team</td><td>Trust, conflict, commitment, accountability, results</td></tr>
+                        <tr><td><strong>Katzenbach</strong></td><td>Team</td><td>4 dimensions (ownership, commitment, skills, accountability)</td></tr>
+                        <tr><td><strong>Team Pulse</strong> (internal)</td><td>Team</td><td>Custom dimensions</td></tr>
+                        <tr><td><strong>DISC/LSI/LI</strong></td><td>Individual</td><td>Leadership style, behavioral patterns</td></tr>
+                    </tbody>
+                </table>
+
+                <p><strong>Note:</strong> Axialent is NOT prescriptive. Consultants choose framework based on preference/client.</p>
+
+                <h4>Trust-First Sequencing</h4>
+                <p>Initial workshops cover:</p>
+                <ol>
+                    <li>Trust-building</li>
+                    <li>Purpose/Why clarification</li>
+                    <li>Burning platform (the gap)</li>
+                    <li>Individual "why" connected to team "why"</li>
+                    <li>Operating agreements</li>
+                </ol>
+                <p>Only AFTER trust &rarr; execution skills, accountability.</p>
+
+                <h4>Stewardship Principle</h4>
+
+                <div class="pull-quote">
+                    <p>"Yo creo que tiene que ser human led en general... necesitas el stewardship, necesitas la revisi&oacute;n de que eso tiene sentido."</p>
+                    <span class="attribution">&mdash; Dolo</span>
+                </div>
+
+                <p>Don't deploy AI blindly &mdash; maintain thoughtful human oversight. Many things CAN be automated: assessment collection, pattern analysis, AI coaching, meeting minutes, conversation prep. Human stewardship needed for: validation that outputs make sense, context interpretation, final decisions on interventions, meeting facilitation (stays human-led).</p>
+
+                <h4>No Proprietary HPT Framework</h4>
+                <p>Axialent uses public frameworks (Lencioni OR Katzenbach) for team assessment. The differentiation is:</p>
+                <ol>
+                    <li>CB philosophy applied to teams</li>
+                    <li>Consultant judgment in combining components</li>
+                    <li>Facilitation skill</li>
+                </ol>
+
+                <h4>Teams vs. Working Groups (Katzenbach)</h4>
+                <p>Before improving a team, understand: <strong>is this actually a team, or just a working group?</strong></p>
+
+                <table class="comparison-table">
+                    <thead>
+                        <tr><th>Working Group</th><th>Team</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Strong, clearly focused leader</td><td>Shared leadership roles</td></tr>
+                        <tr><td>Individual accountability</td><td>Individual AND mutual accountability</td></tr>
+                        <tr><td>Purpose = broader organizational mission</td><td>Specific team purpose the team itself delivers</td></tr>
+                        <tr><td>Individual work products</td><td>Collective work products</td></tr>
+                        <tr><td>Informational meetings</td><td>Problem-solving meetings</td></tr>
+                        <tr><td>Discusses, decides, delegates</td><td>Discusses, decides, does real work together</td></tr>
+                    </tbody>
+                </table>
+
+                <div class="pull-quote">
+                    <p>"A team is a small number of people with complementary skills who are committed to a common purpose, performance goals, and approach for which they hold themselves mutually accountable."</p>
+                    <span class="attribution">&mdash; Katzenbach &amp; Smith</span>
+                </div>
+
+                <div class="emphasis">
+                    <p>Not every group SHOULD be a team. Sometimes a working group is the right structure. The intervention must help groups understand what level of interdependency they actually need &mdash; and build toward that, not more.</p>
+                </div>
+
+                <h4>Choosing the Level of Interdependency (Sports Metaphor)</h4>
+                <ul class="three-things">
+                    <li><strong>Swimming team</strong> (low interdependency): Individual performances, no tradeoffs, 1+1=2</li>
+                    <li><strong>Soccer team</strong> (high interdependency): Continuous coordination, high synergies, 1+1&gt;2</li>
+                    <li><strong>Baseball team</strong> (adaptive): Plays as cohesive unit in the field, individual batters at the plate</li>
+                </ul>
+
+                <p><strong>High-performing teams operate like baseball teams</strong> &mdash; they have the flexibility to adapt and the competency to understand whether to address each task as a workgroup or a team. Some topics need full team collaboration (strategy, budgeting, people decisions). Others can be handled individually (local execution, sales). The key is making <strong>disciplined choices about when and how to work together</strong>.</p>
+            </div>
+
+            <!-- Horacio -->
+            <div class="source-card">
+                <h3>Horacio (22 Jan 2026)</h3>
+
+                <h4>4-Quadrant Model (Axialent HPT)</h4>
+
+                <div class="pull-quote">
+                    <p>"El modelo de cuatro cuadrantes es como la operacionalizaci&oacute;n del de Katzenbach."</p>
+                    <span class="attribution">&mdash; Horacio</span>
+                </div>
+
+                <table class="dashboard-table">
+                    <thead>
+                        <tr><th>Quadrant</th><th>Focus</th><th>Intervention</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Purpose/Values/Objectives</strong></td><td>Why the team exists</td><td>Mission clarity, goal alignment</td></tr>
+                        <tr><td><strong>Roles &amp; Responsibilities</strong></td><td>Who does what</td><td>RACI, accountability</td></tr>
+                        <tr><td><strong>Processes</strong></td><td>How work gets done</td><td>Meeting effectiveness, coordination</td></tr>
+                        <tr><td><strong>Relationships</strong></td><td>Quality of conversations</td><td>CB skills, trust, psychological safety</td></tr>
+                    </tbody>
+                </table>
+
+                <p><strong>Key insight:</strong> Relationships quadrant is where CB teaching becomes most relevant.</p>
+
+                <h4>Two Types of Diagnostic</h4>
+
+                <table class="dashboard-table">
+                    <thead>
+                        <tr><th>Type</th><th>Instruments</th><th>What It Guides</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Behavioral</strong></td><td>LSI (individual), OCI (team culture)</td><td>What behaviors need to change</td></tr>
+                        <tr><td><strong>Team Functioning</strong></td><td>4-Quadrant assessment</td><td>What the team needs to work on</td></tr>
+                    </tbody>
+                </table>
+
+                <p>These are complementary: 4-Quadrant tells you WHERE; behavioral tells you HOW.</p>
+
+                <h4>Context Shapes Design</h4>
+                <p>Two contexts for HPT:</p>
+                <ol>
+                    <li><strong>Standalone team intervention</strong> &mdash; full diagnostic, teaching, coaching</li>
+                    <li><strong>Part of culture transformation</strong> &mdash; team arrives "pre-warmed," skip foundations</li>
+                </ol>
+
+                <h4>Timeline Example (Western Union)</h4>
+
+<pre>
+Pre-Project &rarr; Diagnostic &rarr; Launch &rarr; Delivery &rarr; Ongoing
+     &darr;            &darr;          &darr;         &darr;          &darr;
+  Trust-      LSI/OCI/   Kickoff   Offsites   Facilitated
+  building   4-Quadrant   meeting   + LSI     meetings
+                                   debrief
+</pre>
+
+                <h4>Diagnostic Drives Agenda</h4>
+
+                <div class="pull-quote">
+                    <p>"Si en promedio ese equipo contest&oacute; que claridad de roles est&aacute; en 1.5, bueno, claramente eso lo voy a poner como agenda."</p>
+                    <span class="attribution">&mdash; Horacio</span>
+                </div>
+
+                <p>Assessment results directly determine what you work on. Low score = that's the focus.</p>
+            </div>
+
+            <!-- Oseas -->
+            <div class="source-card">
+                <h3>Oseas (22 Jan 2026)</h3>
+
+                <h4>Commercial Framing: Team Performance, Not Coaching</h4>
+
+                <div class="pull-quote">
+                    <p>"Cambia mucho la manera de poder abordar la cuesti&oacute;n comercial si el framing desde el principio es que tenemos una soluci&oacute;n que se llama Team Performance."</p>
+                    <span class="attribution">&mdash; Oseas</span>
+                </div>
+
+                <p>Individual coaching IS the mechanism. Team Performance is the product. Same work, better positioning.</p>
+
+                <h4>Social Context Increases Adherence</h4>
+
+                <div class="pull-quote">
+                    <p>"Una de las cosas que ayudan a la adhesi&oacute;n del cambio de comportamiento es el entorno social."</p>
+                    <span class="attribution">&mdash; Oseas</span>
+                </div>
+
+                <ul>
+                    <li>Individual coaching alone: low adherence (like solo dieting)</li>
+                    <li>Individual coaching in team context: higher adherence (social accountability)</li>
+                    <li>Team dashboard showing progress: makes individual work visible</li>
+                </ul>
+
+                <h4>Quick Win: Team Survey + CB Assessment</h4>
+                <p>Combine existing instruments:</p>
+                <ol>
+                    <li>Team Survey (4-Quadrant) &rarr; WHERE team is broken</li>
+                    <li>CB Assessment &rarr; Individual patterns</li>
+                    <li>Cross-analysis &rarr; "Your team is weak on X, you're contributing via Y"</li>
+                </ol>
+                <p>Can prototype with minimal development.</p>
+
+                <h4>Leader-First Pathway</h4>
+                <p>For dysfunctional teams:</p>
+                <ol>
+                    <li>Coach the leader first</li>
+                    <li>Leader gains awareness + skills</li>
+                    <li>Leader facilitates basic team conversations</li>
+                    <li>Then broader team development</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theoretical Connections -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>Theoretical Connections</h2>
+
+            <h3>Foreground/Background &harr; Activity Theory Levels</h3>
+            <p>Richi's foreground/background maps to activity theory's hierarchy:</p>
+
+            <table class="dashboard-table">
+                <thead>
+                    <tr><th>Level</th><th>What it is</th><th>Visibility</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Activity</strong></td><td>Cultural, motive-driven</td><td>Usually tacit</td></tr>
+                    <tr><td><strong>Action</strong></td><td>Conscious, goal-directed</td><td>What you're paying attention to</td></tr>
+                    <tr><td><strong>Operation</strong></td><td>Automatic, condition-driven</td><td>Invisible until it breaks</td></tr>
+                </tbody>
+            </table>
+
+            <p><strong>The hierarchy is bidirectional:</strong></p>
+
+<pre>
+     Activity (Cultural/Tacit)
+            &uarr;&darr;
+     Action (Conscious/Goal)
+            &uarr;&darr;
+     Operation (Automatic)
+</pre>
+
+            <p><strong>Down:</strong> Learning &rarr; Practice &rarr; Automaticity. Learn a principle consciously (Action), practice until it becomes automatic (Operation), it becomes "how we do things" (Activity/Culture).</p>
+
+            <p><strong>Up:</strong> What Conscious Business specifically does. Take what's tacit/automatic/cultural (invisible), bring it to consciousness (Action level). Now you can examine it, change it, choose differently.</p>
+
+            <div class="emphasis">
+                <p>CB's core move is bringing the tacit UP. You can't change what you can't see. The methodology makes the invisible visible.</p>
+            </div>
+
+            <p>When something is at the <strong>Operation level</strong> (automatic), you're <em>subject</em> to it &mdash; you can't see it. To learn/change, you must bring it to <strong>Action level</strong> (conscious) &mdash; make it <em>object</em> of your analysis.</p>
+
+            <p>This is what Richi's tracks do:</p>
+
+            <table class="dashboard-table">
+                <thead>
+                    <tr><th>Track</th><th>What happens</th><th>Activity theory translation</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Offsites</strong></td><td>Philosophy is foreground</td><td>Cultural level becomes conscious/actionable</td></tr>
+                    <tr><td><strong>Meeting Facilitation</strong></td><td>Automatic behaviors get named</td><td>Operations become visible as actions</td></tr>
+                    <tr><td><strong>Individual Coaching</strong></td><td>Reflect on what happened</td><td>Make automatic patterns object of analysis</td></tr>
+                </tbody>
+            </table>
+
+            <div class="pull-quote">
+                <p>"Cuando t&uacute; eres sujeto de algo, no lo ves. Para verlo ten&eacute;s que moverte afuera y hacerlo objeto de tu an&aacute;lisis."</p>
+                <span class="attribution">&mdash; Richi</span>
+            </div>
+
+            <p>This IS the activity theory move: Operation &rarr; Action, Subject &rarr; Object.</p>
+
+            <h3>Mapping to Ruy's Levels &times; Temporal Framework</h3>
+
+            <table class="dashboard-table">
+                <thead>
+                    <tr><th>Richi's Tracks</th><th>Temporal</th><th>Level</th><th>Notes</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Offsites</td><td>Before</td><td>Team</td><td>Setup, building shared artifacts</td></tr>
+                    <tr><td>Meeting Facilitation</td><td>During</td><td>Team</td><td>In the flow of work</td></tr>
+                    <tr><td>Individual Coaching</td><td>After</td><td>Personal</td><td>Reflection, skill building</td></tr>
+                </tbody>
+            </table>
+
+            <p><strong>What Ruy's framework adds:</strong> Explicit <strong>System level</strong> (tools, infrastructure, narratives). AI coach operates at System level &mdash; enabling infrastructure.</p>
+
+            <p><strong>Open question:</strong> Is the System level present in Richi's framing but implicit? (The CB philosophy, the assessment tools, the shared language &mdash; these are system-level artifacts.)</p>
+        </div>
+    </section>
+
+    <!-- Assessment Details -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>Assessment Details</h2>
+
+            <h3>Two Levels of Assessment</h3>
+
+            <table class="dashboard-table">
+                <thead>
+                    <tr><th>Level</th><th>Purpose</th><th>Options</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Team</strong></td><td>How well the team functions</td><td>4-Quadrant (Axialent), Lencioni survey, OCI</td></tr>
+                    <tr><td><strong>Individual</strong></td><td>Personal behavioral patterns</td><td>CB Assessment, LSI, DISC</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Underlying Frameworks</h3>
+
+            <table class="dashboard-table">
+                <thead>
+                    <tr><th>Element</th><th>What It Is</th><th>Options</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Core Philosophy</strong></td><td>Principles that guide all work</td><td>CB (Conscious Business) &mdash; non-negotiable</td></tr>
+                    <tr><td><strong>Team Effectiveness Theory</strong></td><td>Framework for understanding teams</td><td>Lencioni (5 Dysfunctions) OR Katzenbach</td></tr>
+                </tbody>
+            </table>
+
+            <h3>The 4-Quadrant Model (Axialent IP)</h3>
+
+            <table class="dashboard-table">
+                <thead>
+                    <tr><th>Quadrant</th><th>Focus</th><th>What You Work On</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Purpose/Values/Objectives</strong></td><td>Why the team exists</td><td>Mission clarity, goal alignment</td></tr>
+                    <tr><td><strong>Roles &amp; Responsibilities</strong></td><td>Who does what</td><td>RACI, accountability</td></tr>
+                    <tr><td><strong>Processes</strong></td><td>How work gets done</td><td>Meeting effectiveness, coordination</td></tr>
+                    <tr><td><strong>Relationships</strong></td><td>Quality of conversations</td><td>CB skills, trust, psychological safety</td></tr>
+                </tbody>
+            </table>
+
+            <div class="emphasis">
+                <p>Relationships quadrant = CB entry point. This is where CB teaching becomes most relevant in team context.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maturity Levels by Quadrant -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>Maturity Levels by Quadrant</h2>
+            <p class="tagline">Each quadrant has three levels: Sub-Optimal &rarr; Standard &rarr; High Performance.</p>
+
+            <h3>Purpose / Values / Culture</h3>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Level</th><th>Characteristics</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Sub-Optimal</strong></td><td>Unclear or disagreement about goals. No shared vision or values. No unique team purpose.</td></tr>
+                    <tr><td><strong>Standard</strong></td><td>Clear purpose and how it supports strategy. Defined code of value-based behaviors. Agreed measures.</td></tr>
+                    <tr><td><strong>High Performance</strong></td><td>Mission generates powerful shared purpose. Breakthrough objectives come from within (not externally driven). "Let's see how good we can get!"</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Roles / Accountabilities</h3>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Level</th><th>Characteristics</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Sub-Optimal</strong></td><td>Roles not defined. Overlaps and gaps create disruption. Interdependencies not understood.</td></tr>
+                    <tr><td><strong>Standard</strong></td><td>Each role defined with right metric. Interdependencies defined. Individual contributions linked to team goals.</td></tr>
+                    <tr><td><strong>High Performance</strong></td><td>"My word is my bond." Mutual accountability &mdash; if one falls, all help. Wise sacrifices for team optimization.</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Processes</h3>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Level</th><th>Characteristics</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Sub-Optimal</strong></td><td>Interactions unstructured and chaotic. No defined output or agenda. Communication breakdowns.</td></tr>
+                    <tr><td><strong>Standard</strong></td><td>Effective meetings (right topics, right people). Clear output and agenda. Appropriate communication systems.</td></tr>
+                    <tr><td><strong>High Performance</strong></td><td>Flex rules to become faster. Processes are organic, not mechanistic. "More with less" essence. After-action reviews following each project.</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Relationships</h3>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Level</th><th>Characteristics</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Sub-Optimal</strong></td><td>Shallow politeness covering mistrust. Silo-focused, self-promotion. Transactional exchanges only.</td></tr>
+                    <tr><td><strong>Standard</strong></td><td>Understand each other's styles. Differing viewpoints spoken and heard. Trust in competence and support.</td></tr>
+                    <tr><td><strong>High Performance</strong></td><td>No undiscussables &mdash; everything on the table. Productive inquiry and active listening. Team members seen as friends. Attracts talent.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Accountability Framework -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>Accountability Framework</h2>
+            <p class="tagline">The Promise Framework &mdash; a framework for building accountability in the Roles quadrant.</p>
+
+            <p><strong>Core Principles:</strong></p>
+            <ol>
+                <li>Negotiated contract between two parties</li>
+                <li>"My word is my bond"</li>
+                <li>Countable, tangible, visible</li>
+            </ol>
+
+<pre>
+                    Being Accountable
+         +------------------+------------------+
+         |  Before Promise  |  After Promise   |
+         |                  |                  |
+         | - Self-set goals | - Managing risk  |
+         | - Anticipate risk| - Keeping score  |
+         | - Make promises  | - Keeping word   |
+         | - Planning       | - Stay focused   |
+         | - Personal resp. | - Self-motivate  |
+         +------------------+------------------+
+         |  Before Promise  |  After Promise   |
+         |                  |                  |
+         | - Engage others  | - Hold ground    |
+         | - Asking         | - Keep heat on   |
+         | - Get commits    | - Manage failure |
+         | - Influencing    | - Reward success |
+         +------------------+------------------+
+                Holding Others to Account
+</pre>
+
+            <p><strong>The promise has three dimensions:</strong></p>
+            <ul>
+                <li><strong>Objective</strong> &mdash; what will be delivered</li>
+                <li><strong>Measures</strong> &mdash; how success is counted</li>
+                <li><strong>Transparent</strong> &mdash; visible to all parties</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Praxis Notes -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>Praxis Notes</h2>
+            <p class="tagline">Practical observations and tacit knowledge &mdash; the "how" behind the methodology.</p>
+
+            <h3>Role Modeling Creates Moments of Truth</h3>
+            <p><em>Source: Richi</em></p>
+
+            <div class="pull-quote">
+                <p>"A trav&eacute;s del role modeling, es como que creamos esos momentos de verdad que hacen que se ancle el aprendizaje."</p>
+                <span class="attribution">&mdash; Richi</span>
+            </div>
+
+            <p>When a coach demonstrates an alternative way to say something, in the moment, it creates an "aha" that sticks. This is the tacit skill that's hardest to digitize.</p>
+
+            <h3>Consultant Coherence</h3>
+            <p><em>Source: Richi</em></p>
+
+            <div class="pull-quote">
+                <p>"El consultor ofrece una gran coherencia interna entre lo que est&aacute; diciendo y c&oacute;mo se comporta."</p>
+                <span class="attribution">&mdash; Richi</span>
+            </div>
+
+            <p>The coach must embody what they teach. Credibility comes from alignment between what you say and how you act. "Se comporta generando confianza, seguridad psicol&oacute;gica, se comporta diciendo su verdad."</p>
+
+            <h3>Zero Attachment to Direction</h3>
+            <p><em>Source: Richi</em></p>
+
+            <div class="pull-quote">
+                <p>"Puedes hacer sugerencias, lo que no puedes es quedarte pegado a tu sugerencia."</p>
+                <span class="attribution">&mdash; Richi</span>
+            </div>
+
+            <p>The coach offers perspectives tentatively. If the coachee doesn't embrace it, fine. Zero attachment to pushing in a particular direction.</p>
+
+            <h3>Balance Investment Across Levels</h3>
+            <p><em>Source: Horacio</em></p>
+
+            <p>If leader gets individual attention, team members should too (maybe less, but not zero). Western Union case was unusual &mdash; CEO got 6 coaching sessions, team got nothing individual. Horacio wouldn't recommend that imbalance.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="cta-footer">
+        <h2>Reference Document</h2>
+        <p>For design-level understanding, see the <a href="synthesis.html">Research Synthesis</a>. For the product vision, see the <a href="index.html">Product Thesis</a>.</p>
+    </div>
+
+    <footer>
+        Stoic &mdash; Team Effectiveness Platform &mdash; Research Methodology &mdash; January 2026
+    </footer>
+</body>
+</html>
