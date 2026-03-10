@@ -27,4 +27,6 @@ pages:
   - file: "core/organizational-ontology.md"
     title: "Organizational Ontology"
   - file: "clients/cpm/cpm-engagement-report-feb2026.md"
-    title: "CPM Engagement Report — Feb 2026"
+    title: "CPM Postmortem — Feb 2026"
+  - file: "core/product-thesis.md"
+    title: "Team Effectiveness Platform — Product Thesis v3"
