@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PLIA Teams — Product Thesis | Stoic</title>
+    <title>Team Effectiveness Platform &mdash; Product Thesis | Stoic</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -451,6 +451,56 @@
             font-size: 0.875rem;
         }
 
+        /* Validation list */
+        .validation-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+            max-width: 700px;
+        }
+
+        .validation-list li {
+            padding: 0.75rem 0 0.75rem 1.5rem;
+            border-bottom: 1px solid var(--stoic-gray);
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            position: relative;
+        }
+
+        .validation-list li:before {
+            content: "\2192";
+            position: absolute;
+            left: 0;
+            color: var(--stoic-red);
+            font-weight: 700;
+        }
+
+        .validation-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Beyond list (what's explicitly beyond MLP) */
+        .beyond-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+            max-width: 700px;
+        }
+
+        .beyond-list li {
+            padding: 0.5rem 0 0.5rem 1.5rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            position: relative;
+        }
+
+        .beyond-list li:before {
+            content: "\2013";
+            position: absolute;
+            left: 0;
+            color: var(--text-muted);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .hero { padding: 7rem 1.5rem 3rem; }
@@ -477,62 +527,62 @@
 
     <!-- Hero -->
     <header class="hero">
-        <h1>PLIA Teams</h1>
-        <p class="subtitle">Product Thesis v2 &mdash; March 6, 2026</p>
-        <p class="thesis-line">The HPT process made teams stop threatening to kill each other and start functioning. Our product makes that accessible for the first time &mdash; AI does the heavy lifting, one consultant covers all productions.</p>
+        <h1>Team Effectiveness Platform</h1>
+        <p class="subtitle">Product Thesis v3 &mdash; March 9, 2026</p>
     </header>
 
-    <!-- 1. What We're Doing -->
+    <!-- 1. What We're Building -->
     <section class="section">
         <div class="section-inner">
-            <h2>1. What We're Doing</h2>
-            <p class="tagline">Making the HPT process accessible for the first time.</p>
+            <h2>1. What We're Building</h2>
 
             <p>When Valentin and Anabel ran the HPT process with production crews, people stopped threatening to kill each other and started functioning as a team. That happened. But Sara doesn't have Valentin and Anabel in any of her seven productions. She has nothing.</p>
 
             <p>The full HPT process requires a consultant embedded in each production &mdash; too expensive, too intrusive, too disruptive for a running crew. So Sara gets zero coverage of the human layer. No early warning. No team alignment. Nobody watching whether people are working the way they agreed to. She finds out about problems when they become crises.</p>
 
-            <div class="emphasis">
-                <p>Our product makes the HPT process accessible for the first time. The AI does the heavy lifting &mdash; onboarding prep, private coaching, monitoring, nudges. One consultant covers all productions.</p>
-            </div>
-
-            <p>The cost is a fraction of embedding a consultant per production. The intrusion is minimal &mdash; people talk to the AI on their phone.</p>
+            <p><strong>Our product makes the HPT process accessible for the first time.</strong> The AI does the heavy lifting &mdash; onboarding prep, private coaching, monitoring, nudges. One consultant covers all productions &mdash; seeding the system with organizational knowledge, monitoring the dashboard, dropping in for kickoffs and key moments. The cost is a fraction of embedding a consultant per production. The intrusion is minimal &mdash; people talk to the AI on their phone.</p>
 
             <div class="pull-quote">
                 <p>The unit of transformation is the conversation. Everything we build exists to make conversations better, more frequent, or more grounded in reality.</p>
             </div>
+
+            <p><strong>This is not a PLIA-only product.</strong> Production is where we start &mdash; because PLIA gives us the richest operational data layer and Axialent gives us the methodology. But the architecture is designed to plug into any environment where teams coordinate complex work: software teams with Jira/Linear, consulting teams with deliverable trackers, any organization with project management tools and a communication layer. The ontology, the team agreement, the coaching, the pulse, and the trust architecture are industry-agnostic. What compounds is the behavioral knowledge across teams.</p>
         </div>
     </section>
 
-    <!-- 2. Four Sources of Intelligence -->
+    <!-- 2. The Four Sources of Intelligence -->
     <section class="section">
         <div class="section-inner">
             <h2>2. The Four Sources of Intelligence</h2>
-            <p class="tagline">The product's intelligence comes from four sources that build on each other.</p>
+            <p class="tagline">The product's intelligence comes from four sources that build on each other. <strong>All four are part of the minimum lovable product</strong> &mdash; not a build sequence where each phase unlocks the next, but layers that work together from day one.</p>
 
             <div class="diagram">
                 <img src="diagrams/plia-teams-01-four-sources.png" alt="Four Sources of Intelligence">
             </div>
 
+            <!-- Source 1 -->
             <div class="source-card">
-                <h3>Source 1: The Ontology</h3>
-                <p>An embedded consultant-engineer seeds the organizational context before any team touches the system &mdash; what iZen is, how productions work, typical failure patterns, when risks cluster, and 20+ years of Axialent methodology structured into the system's architecture.</p>
-                <p>The ontology includes cross-production lessons: "scene approval bypasses happen in month 1", "dual-unit syncs drop off in week 3-4", "in Cacao y Compania, adding a budget-check gate resolved it in a week."</p>
+                <h3>Source 1: The Ontology (consultant-seeded, before the team exists)</h3>
+                <p>An embedded consultant-engineer seeds the organizational context before any team touches the system &mdash; what iZen is, how productions work, typical failure patterns, when risks cluster, and 20+ years of Axialent methodology structured into the system's architecture. This is professional services work. Our job, not the client's.</p>
+
+                <p>The ontology includes cross-production lessons: "scene approval bypasses happen in month 1", "dual-unit syncs drop off in week 3-4", "in Cacao y Compania, adding a budget-check gate resolved it in a week." This is what makes the onboarding conversation informed rather than blank. Without it, every team starts from zero. With it, the system says "in 3 of the last 5 iZen productions..." during the moment the team is deciding how to work.</p>
 
                 <div class="pull-quote">
-                    <p>The learning doesn't live in a report nobody reads. It lives inside the conversation where it matters.</p>
+                    <p>"The learning doesn't live in a report nobody reads. It lives inside the conversation where it matters."</p>
                 </div>
 
                 <div class="diagram">
                     <img src="diagrams/plia-teams-05-cross-production-learning.png" alt="Cross-Production Learning">
                 </div>
 
-                <p>The ontology compounds. Every production adds to it. By the 10th production, the system has organizational memory that no individual consultant could carry alone.</p>
+                <p>The ontology compounds. Every production adds to it &mdash; what patterns appeared, what interventions worked, what agreements held up. By the 10th production, the system has organizational memory that no individual consultant could carry alone.</p>
             </div>
 
+            <!-- Source 2 -->
             <div class="source-card">
-                <h3>Source 2: The Team Agreement</h3>
+                <h3>Source 2: The Team Agreement (progressive onboarding)</h3>
                 <p>Before the team meets, the AI does the prep work &mdash; individual conversations with each person, async, on their phone:</p>
+
                 <div class="pull-quote">
                     <p>"You're the production designer on Alfonso el Sabio. What do you need to do your best work?"</p>
                 </div>
@@ -542,23 +592,57 @@
                 <div class="pull-quote">
                     <p>"What does 'yes' mean when someone commits your department to something?"</p>
                 </div>
-                <p>The human consultant walks into the onboarding session already informed &mdash; they know what everyone said, where the tensions are, what the ontology flagged. One consultant, seven productions &mdash; because the AI did the groundwork.</p>
+
+                <p>The ontology surfaces lessons from previous productions at the moments they matter. The AI covers the four dimensions &mdash; purpose, roles, processes, relationships &mdash; not as a framework to fill out, but as questions that matter to the person.</p>
+
+                <p>The human consultant walks into the onboarding session already informed &mdash; they know what everyone said, where the tensions are, what the ontology flagged. The session is shorter, sharper, and more productive because the groundwork is done.</p>
+
+                <p>The consultant doesn't need to be in every room. They seed the ontology, review the AI's synthesis before the kickoff, and show up for the session itself. One consultant, seven productions &mdash; because the AI did the groundwork.</p>
+
                 <p>The result is a living team agreement in the team's own words. It becomes the AI's baseline: when it observes drift, it measures against what this team said, not generic best practices.</p>
             </div>
 
+            <!-- Source 3 -->
             <div class="source-card">
-                <h3>Source 3: PLIA Operational Data</h3>
-                <p>PLIA already runs 80-100 AI agents processing schedule, budget, logistics, and script data. That operational layer becomes the intelligence multiplier &mdash; without building anything new. Schedule/budget mismatches, cascade risks, department workload, communication pattern shifts &mdash; all already tracked, now interpreted through the human-coordination lens.</p>
+                <h3>Source 3: Operational Context (scoped, from the client's existing tools)</h3>
+                <p>The product needs enough business context to know <strong>when key moments happen</strong> and <strong>what the team is supposed to deliver</strong>. Without this, coaching and pulse are disconnected from reality &mdash; the AI doesn't know that a milestone is approaching or that workload just spiked.</p>
+
+                <p>For PLIA, this means a scoped integration &mdash; not ingesting every budget line item or scene breakdown, but enough to know: what are the major milestones? What are the key deliverables? When do the high-coordination moments cluster? PLIA already runs 80-100 AI agents processing schedule, budget, logistics, and script data. We don't need all of it. We need the minimum slice that, combined with the ontology and team agreement, makes the coaching timely and the dashboard grounded.</p>
+
+                <div class="emphasis">
+                    <p>The validation question for every client: What is the minimum slice of your operational data that makes this meaningful?</p>
+                </div>
+
+                <p>This source is deliberately scoped for the minimum lovable product. Deeper integration &mdash; full budget tracking, granular schedule analysis, cascade risk modeling &mdash; is a future layer that adds precision, not a prerequisite for delivering value.</p>
             </div>
 
+            <!-- Source 4 -->
             <div class="source-card">
-                <h3>Source 4: Coaching + Pulse</h3>
-                <p>What individuals share privately &mdash; reflections, pulse check-ins, coaching conversations &mdash; feeds back into the system's intelligence. Elena flagged "prep time" in week 2; two weeks later, her department is at 94% with a new scene landing. The nudge isn't a cold alert &mdash; it's informed by what she herself said.</p>
+                <h3>Source 4: Coaching + Milestone-Triggered Pulse (continuous, individual)</h3>
+                <p>What individuals share privately &mdash; reflections, pulse check-ins, coaching conversations &mdash; feeds back into the system's intelligence. But pulse isn't generic. It's triggered by what matters to this team at this moment.</p>
+
+                <div class="diagram">
+                    <img src="diagrams/plia-teams-13-milestone-pulse.jpg" alt="Milestone-Triggered Pulse">
+                </div>
+
+                <p><strong>Milestone-triggered pulse:</strong> The operational context tells the system when high-stakes moments are approaching. One week before design lock, the AI checks in: "How are you feeling about the design closing next week? Anything unresolved?" After a major delivery: "That sprint is done. What worked? What broke?" The timing is driven by the business, not a calendar.</p>
+
+                <p><strong>Agreement-grounded pulse:</strong> The team agreement tells the system what to ask about. If the team agreed "flag issues early," the pulse at week 3 asks: "Anything worth flagging before it gets bigger?" If a role boundary was important during onboarding, the check-in at a coordination crunch asks about that specifically.</p>
+
+                <p>Elena flagged "prep time" in week 2; two weeks later, her department is at 94% with a new scene landing. The nudge isn't a cold alert &mdash; it's informed by what she herself said. Pulse trends show energy dropping. Combined with workload data, this becomes a signal before anyone escalates.</p>
+
                 <p>This source is strictly private at the individual level. Only anonymous aggregates reach the dashboard.</p>
             </div>
 
+            <!-- How the sources work together -->
+            <h3>How the sources work together</h3>
+
             <div class="emphasis">
-                <p>No single source is sufficient. The ontology without team agreements is generic. Team agreements without operational data can't detect consequences. Operational data without the ontology can't interpret what a schedule gap means for this team. Coaching without the other three is just a chatbot asking "how are you?"</p>
+                <p>No single source is sufficient. The ontology without team agreements is generic. Team agreements without operational context can't detect consequences. Operational context without the ontology can't interpret what a schedule gap means for this team. Coaching without the other three is just a chatbot asking "how are you?"</p>
+            </div>
+
+            <div class="emphasis">
+                <p>The hypothesis we're validating: these four sources &mdash; ontology, team agreement, scoped operational context, and milestone-triggered pulse &mdash; are sufficient to deliver the core value proposition. This is the 80/20.</p>
             </div>
         </div>
     </section>
@@ -594,9 +678,9 @@
                     <div class="example">"You've said 'rushed' twice in three weeks. What's driving that?"</div>
                 </div>
                 <div class="coaching-mode">
-                    <strong>Milestone</strong>
-                    At natural transition points.
-                    <div class="example">"You're halfway through principal photography. What's working? What needs to change for the back half?"</div>
+                    <strong>Milestone-aware</strong>
+                    Triggered by operational context at key moments, not arbitrary calendar dates.
+                    <div class="example">"Design lock is next week. Your team agreed that unresolved scope questions should surface before lock, not after. Anything open?"</div>
                 </div>
                 <div class="coaching-mode">
                     <strong>Workload-aware</strong>
@@ -664,7 +748,7 @@
         </div>
     </section>
 
-    <!-- 4. Trust Architecture -->
+    <!-- 4. The Trust Architecture -->
     <section class="section">
         <div class="section-inner">
             <h2>4. The Trust Architecture</h2>
@@ -693,7 +777,7 @@
                 <img src="diagrams/plia-teams-02-two-layers.png" alt="Two Layers, One System">
             </div>
 
-            <p>The onboarding conversation is also the transparency conversation. Spoken out loud, as a team: here's what the system observes, here's what it never does. Not new access. New interpretation.</p>
+            <p>The onboarding conversation is also the transparency conversation. Spoken out loud, as a team: here's what the system observes in your work channels, here's what it never does. People already opted into PLIA processing their chats for operational purposes. The human-layer observation is pattern-level on top of that same data. Not new access. New interpretation.</p>
         </div>
     </section>
 
@@ -701,7 +785,7 @@
     <section class="section">
         <div class="section-inner">
             <h2>5. We Don't Act</h2>
-            <p class="tagline">PLIA agents do work &mdash; order props, track budgets, resolve logistics. PLIA Teams does nothing tangible. It holds up a mirror.</p>
+            <p class="tagline">PLIA agents do work &mdash; order props, track budgets, resolve logistics. This product does nothing tangible. It holds up a mirror.</p>
 
             <ul class="three-things">
                 <li><strong>Remembers</strong> what you agreed to &mdash; when you've forgotten or drifted</li>
@@ -712,7 +796,7 @@
             <p>It never acts. It never escalates without your knowledge. It never does the hard conversation for you. The hard conversation is still hard. The system just makes it harder to avoid.</p>
 
             <div class="emphasis">
-                <p>"We don't fix teams. We make it easier for teams to fix themselves &mdash; and harder to pretend everything's fine."</p>
+                <p>We don't fix teams. We make it easier for teams to fix themselves &mdash; and harder to pretend everything's fine.</p>
             </div>
 
             <div class="pull-quote">
@@ -721,73 +805,123 @@
         </div>
     </section>
 
-    <!-- 6. The PLIA Stack -->
+    <!-- 6. The Operational Data Layer -->
     <section class="section">
         <div class="section-inner">
-            <h2>6. The PLIA Stack</h2>
-            <p class="tagline">A human-coordination layer on top of what PLIA already built.</p>
+            <h2>6. The Operational Data Layer</h2>
 
             <div class="diagram">
-                <img src="diagrams/plia-teams-04-plia-stack.png" alt="The PLIA Stack">
+                <img src="diagrams/plia-teams-04-operational-data-layer.jpg" alt="The Operational Data Layer">
             </div>
 
-            <p>PLIA's operational layer already processes schedule, budget, logistics, and script data. PLIA Teams adds a human-coordination layer: the ontology, team agreements, coaching history, and pulse signals.</p>
+            <p>The product adds a human-coordination layer on top of whatever operational tools a client already uses: the ontology (cross-team lessons, methodology), team agreements (what each team said they'd do), coaching history (what individuals have flagged), and pulse signals (self-reported energy and concerns).</p>
 
-            <p>This is new data &mdash; but it's lightweight to capture. People tell the system things through conversations, not forms. The ontology is seeded once per client by the consultant-engineer. The heavy infrastructure is what PLIA already built.</p>
+            <p>This is new data &mdash; but it's lightweight to capture. People tell the system things through conversations, not forms. The ontology is seeded once per client by the consultant-engineer. The heavy infrastructure is what the client already built.</p>
+
+            <p><strong>For PLIA:</strong> Their operational layer already processes schedule, budget, logistics, and script data. We integrate at the milestone and deliverable level &mdash; enough to know when key moments happen and what's at stake, without ingesting every line item.</p>
 
             <div class="emphasis">
                 <p>The real value: operational data that already exists gets reinterpreted through the human-coordination lens. "Unbudgeted scene on schedule" is an operational fact. Seen through the ontology and the team agreement, it becomes a signal that matters for people, not just logistics.</p>
             </div>
+
+            <p><strong>For other environments:</strong> A software team's Jira tells us sprint milestones and workload. A consulting firm's deliverable tracker tells us deadlines and dependencies. The integration is scoped to key moments and deliverables &mdash; the minimum context that makes coaching timely and the dashboard grounded.</p>
         </div>
     </section>
 
-    <!-- 7. Scaling -->
+    <!-- 7. The Moat -->
     <section class="section">
         <div class="section-inner">
-            <h2>7. Scaling</h2>
-            <p class="tagline">Today Sara has zero coverage of the human layer. With PLIA Teams, one consultant covers all seven productions.</p>
+            <h2>7. The Moat</h2>
 
-            <p>The consultant:</p>
+            <div class="diagram">
+                <img src="diagrams/plia-teams-12-moat.jpg" alt="The Moat">
+            </div>
+
+            <p>The product lives in a world where AI tools are commoditizing fast. In 36 months, any team could wire up a generic AI to read their Slack and summarize meetings. That's not what we build.</p>
+
+            <div class="emphasis">
+                <p>The moat is the accumulated intellectual property &mdash; not the software.</p>
+            </div>
+
+            <p>Three things compound and can't be replicated by a generic tool:</p>
+
             <ul class="three-things">
-                <li><strong>Seeds the ontology</strong> once per client, refines it per production</li>
-                <li><strong>Reviews AI-prepared onboarding</strong> syntheses, shows up for kickoffs</li>
-                <li><strong>Monitors the dashboard</strong> across all productions &mdash; intervenes where it matters</li>
-                <li><strong>Does the hard conversations</strong> in person when the system flags something the AI can't handle</li>
+                <li><strong>The ontology</strong> &mdash; cross-team behavioral knowledge that grows with every deployment. By the 10th production, the system knows things no individual consultant remembers. By the 50th team across industries, the system has organizational wisdom.</li>
+                <li><strong>The methodology</strong> &mdash; 20+ years of Axialent's HPT process, structured into the system's architecture. Not as a static framework, but as a living engine that adapts to context. The methodology layer is designed to be composable &mdash; it starts with Axialent's approach but can incorporate complementary frameworks (Lencioni for diagnosis, Tuckman for stage-awareness, others) as the product matures.</li>
+                <li><strong>The trust relationship</strong> &mdash; individuals share things with this system because it proved value to them first, kept their data private always, and never surprised them. That trust takes time to build and can't be bootstrapped by a new entrant.</li>
+            </ul>
+
+            <p>A dashboard can be copied. A feature can be matched. An ontology that carries the behavioral learnings of hundreds of teams, interpreted through proven methodology, delivered through a trust relationship that took months to earn &mdash; that's the product.</p>
+        </div>
+    </section>
+
+    <!-- 8. Scaling -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>8. Scaling</h2>
+
+            <p>Today Sara has zero coverage of the human layer. The only option &mdash; a consultant embedded per production &mdash; is too expensive and too intrusive. So she gets nothing.</p>
+
+            <p>With this product, one consultant covers all seven productions:</p>
+
+            <ul class="three-things">
+                <li><strong>Seeds the ontology</strong> &mdash; once per client, refines it per production</li>
+                <li><strong>Reviews AI-prepared onboarding</strong> &mdash; syntheses, shows up for kickoffs</li>
+                <li><strong>Monitors the dashboard</strong> &mdash; across all productions &mdash; intervenes where it matters</li>
+                <li><strong>Does the hard conversations</strong> &mdash; in person when the system flags something the AI can't handle</li>
             </ul>
 
             <p>The AI does the daily work &mdash; coaching, nudges, pulse, drift detection. The consultant does the judgment calls. Neither replaces the other.</p>
-
-            <h3>Build Sequencing</h3>
-
-            <div class="scaling-steps">
-                <div class="scaling-step">
-                    <span class="step-number">1</span>
-                    <h4>Onboarding + Coaching</h4>
-                    <p>AI-prepared onboarding + private coaching &mdash; immediate value, no infrastructure dependency</p>
-                </div>
-                <div class="scaling-step">
-                    <span class="step-number">2</span>
-                    <h4>Pulse + Process Health</h4>
-                    <p>Lightweight signals feeding coaching and dashboard</p>
-                </div>
-                <div class="scaling-step">
-                    <span class="step-number">3</span>
-                    <h4>PLIA Data Integration</h4>
-                    <p>Operational risk on Sara's dashboard</p>
-                </div>
-            </div>
-
-            <div class="pull-quote">
-                <p>Step 1 works on day one with zero PLIA integration.</p>
-            </div>
         </div>
     </section>
 
-    <!-- 8. Beyond Production -->
+    <!-- 9. The 80/20 Hypothesis -->
     <section class="section">
         <div class="section-inner">
-            <h2>8. Beyond Production</h2>
-            <p class="tagline">Every industry where teams coordinate complex work has the same pattern.</p>
+            <h2>9. The 80/20 Hypothesis</h2>
+
+            <div class="diagram">
+                <img src="diagrams/plia-teams-11-eighty-twenty.jpg" alt="The 80/20 Hypothesis">
+            </div>
+
+            <p>Before building deeper integrations, we validate a core hypothesis:</p>
+
+            <div class="emphasis">
+                <p>Is the combination of ontology + team agreement + milestone-triggered pulse + scoped operational context + a human coach sufficient to catch team problems early and make coaching meaningful?</p>
+            </div>
+
+            <p>This is the pareto question. We believe that "just" having a strong ontology and team agreement gives you enough to coach people on drift, surface tensions, and give signals to Sara and the coach. The gap between what people said they'd do and what they're doing &mdash; measured through pulse, interpreted through the ontology, grounded in business milestones &mdash; might be the 80% of the value.</p>
+
+            <h3>What we need to validate with PLIA</h3>
+
+            <ul class="validation-list">
+                <li>What's the minimum slice of operational data that makes coaching timely? (Key moments and deliverables, not every line item)</li>
+                <li>Is the team agreement + ontology enough context for the AI to give coaching that feels specific and useful?</li>
+                <li>Do milestone-triggered pulse surveys generate better signal than periodic check-ins?</li>
+                <li>Does Sara find the dashboard actionable without full operational data integration?</li>
+            </ul>
+
+            <h3>What's explicitly beyond the minimum lovable product</h3>
+
+            <ul class="beyond-list">
+                <li>Processing all team chats and emails (separate privacy/consent gate, high complexity)</li>
+                <li>Joining and analyzing meetings (requires trust already established, multiple hypothesis layers)</li>
+                <li>Full granular budget/schedule integration (precision upgrade, not a prerequisite)</li>
+                <li>Commitment network extraction (valuable but complex &mdash; see Appendix C)</li>
+            </ul>
+
+            <p>If the 80/20 validates, everything beyond it is a precision upgrade. If it doesn't, we learn exactly what's missing and scope the next layer.</p>
+        </div>
+    </section>
+
+    <!-- 10. Beyond Production -->
+    <section class="section">
+        <div class="section-inner">
+            <h2>10. Beyond Production</h2>
+
+            <div class="diagram">
+                <img src="diagrams/plia-teams-14-pluggable-architecture.jpg" alt="One Engine, Any Industry">
+            </div>
 
             <table class="comparison-table">
                 <thead>
@@ -832,7 +966,9 @@
                 </tbody>
             </table>
 
-            <p>Production is where we start &mdash; because PLIA gives us the data layer and Axialent gives us the methodology. The team agreement, the coaching, the pulse signals, and the trust architecture are industry-agnostic.</p>
+            <p>The architecture is built for this from day one. The ontology, team agreement, coaching engine, pulse mechanism, and trust architecture are industry-agnostic. What changes per deployment is the operational data source and the domain-specific knowledge seeded into the ontology.</p>
+
+            <p>Production is where we start &mdash; because PLIA gives us the data layer and Axialent gives us the methodology. But the operational data layer is a pluggable interface, not a hardcoded integration. When we move to software teams, the ontology gets seeded with engineering coordination patterns instead of production patterns. The pulse gets triggered by sprint milestones instead of shoot schedules. The coaching asks about standups and code reviews instead of scene approvals.</p>
 
             <div class="emphasis">
                 <p>Sara couldn't afford this before. Now she can &mdash; and every production makes the next one smarter.</p>
@@ -857,6 +993,7 @@
                     <li><strong>Not a dashboard company.</strong> Dashboards inform conversations. They don't replace them.</li>
                     <li><strong>Not a personal AI.</strong> That's being commoditized. We're the team layer your personal AI can't do alone.</li>
                     <li><strong>Not a surveillance tool.</strong> Consequences and patterns surface. People don't.</li>
+                    <li><strong>Not a project management tool.</strong> We integrate with PM tools for context. We don't replace them.</li>
                 </ul>
             </div>
 
@@ -869,14 +1006,50 @@
                     <li><strong>Propagation tracking</strong> &mdash; how assumptions harden into scheduled work</li>
                     <li><strong>Bilateral validation</strong> &mdash; did both sides confirm the same understanding?</li>
                 </ul>
-                <p>Start without it. Add it when real usage data tells you where it adds the most value.</p>
+                <p>Start without it. Add it when real usage data tells you where it adds the most value. (Discussed and deliberately deferred.)</p>
+            </div>
+
+            <div class="appendix">
+                <h3>D. Future Enhancement &mdash; Cost-of-Dysfunction Dashboard</h3>
+                <p>Sara's dashboard currently shows consequences and patterns. A future layer adds estimated financial impact: what is this problem costing you?</p>
+                <ul>
+                    <li>Delay costs from coordination failures</li>
+                    <li>Replacement costs when someone leaves mid-production</li>
+                    <li>Rework costs from misalignment caught late vs. early</li>
+                    <li>Aggregate savings estimate</li>
+                </ul>
+                <p>Thierry's methodology for quantifying team misalignment cost is a starting point. This layer turns the dashboard from "here's a problem" into "here's what this problem costs you" &mdash; a retention and selling mechanism. Open question: is this part of the minimum lovable product or v1.1?</p>
+            </div>
+
+            <div class="appendix">
+                <h3>E. Future Enhancement &mdash; Additional Lenses</h3>
+                <p>The ontology is designed to absorb richer context over time:</p>
+                <ul>
+                    <li>Personality assessments (DISC, OCI, etc.)</li>
+                    <li>Company moment / context &mdash; expansion, contraction, restructuring</li>
+                    <li>Team archetypes &mdash; lifecycle, structural risks</li>
+                    <li>Network analysis &mdash; information flow mapping from communication metadata</li>
+                </ul>
+            </div>
+
+            <div class="appendix">
+                <h3>F. Future Evolution &mdash; Meeting Integration</h3>
+                <p>A future product evolution progressively enters meetings:</p>
+                <ul>
+                    <li>Pre-meeting briefing</li>
+                    <li>Silent observer</li>
+                    <li>Pre-meeting prep</li>
+                    <li>Real-time co-facilitation</li>
+                    <li>Post-meeting coaching</li>
+                </ul>
+                <p>Each stage requires trust already established. Explicitly outside the minimum lovable product.</p>
             </div>
         </div>
     </section>
 
     <!-- Footer CTA -->
     <section class="cta-footer">
-        <h2>PLIA Teams</h2>
+        <h2>Team Effectiveness Platform</h2>
         <p>The team layer your personal AI can't do alone.</p>
     </section>
 
